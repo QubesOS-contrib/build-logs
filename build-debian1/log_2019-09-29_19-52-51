@@ -1,0 +1,739 @@
+2019-09-29 19:52:51.989439 +0000 > starting log
+2019-09-29 19:52:51.991866 +0000 build-debian1: > starting build with log
+2019-09-29 19:52:51.992042 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster jessie stretch DIST_DOM0= BUILD_LOGS_URL= remote-desktop-vm-bullseye=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_17-51-43 remote-desktop-vm-buster=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-30-08 remote-desktop-vm-jessie=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-57-03 remote-desktop-vm-stretch=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_19-32-55 GIT_URL_remote_desktop=https://github.com/QubesOS-contrib/qubes-remote-desktop sign-all update-repo-current-testing
+2019-09-29 19:52:51.992090 +0000 build-debian1: >> MAKEFLAGS=
+2019-09-29 19:52:51.992130 +0000 build-debian1: >> COMPONENTS=remote-desktop
+2019-09-29 19:52:51.992165 +0000 build-debian1: >> DISTS_VM=
+2019-09-29 19:52:51.992250 +0000 build-debian1: >> DIST_DOM0=
+2019-09-29 19:52:51.992304 +0000 build-debian1: >> qubes-builder 291b63f09718b500a0d8c9d5beb14b59d642fb58
+2019-09-29 19:52:51.992352 +0000 build-debian1: >> qubes-builder/qubes-src/remote-desktop 74160c9277eb9d2ec2b246bdeaff482278eedf84
+2019-09-29 19:52:51.992399 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1.debian.tar.xz
+2019-09-29 19:52:51.992443 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1.dsc
+2019-09-29 19:52:51.992488 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo
+2019-09-29 19:52:51.992533 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes
+2019-09-29 19:52:51.992577 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.deb
+2019-09-29 19:52:51.992620 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.992664 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1.debian.tar.xz
+2019-09-29 19:52:51.992707 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1.dsc
+2019-09-29 19:52:51.992751 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo
+2019-09-29 19:52:51.992795 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes
+2019-09-29 19:52:51.992839 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.deb
+2019-09-29 19:52:51.992881 +0000 build-debian1: !! pkgs/vm-buster/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.992925 +0000 build-debian1: !! pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1.debian.tar.xz
+2019-09-29 19:52:51.992967 +0000 build-debian1: !! pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1.dsc
+2019-09-29 19:52:51.993011 +0000 build-debian1: !! pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes
+2019-09-29 19:52:51.993054 +0000 build-debian1: !! pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.deb
+2019-09-29 19:52:51.993095 +0000 build-debian1: !! pkgs/vm-jessie/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.993139 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1.debian.tar.xz
+2019-09-29 19:52:51.993181 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1.dsc
+2019-09-29 19:52:51.993279 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo
+2019-09-29 19:52:51.993330 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes
+2019-09-29 19:52:51.993374 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.deb
+2019-09-29 19:52:51.993416 +0000 build-debian1: !! pkgs/vm-stretch/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.993484 +0000 build-debian1: 888c159fa4fd275ac8b1761810560401b24814ceae9b8dd071fe313a4b4204b320232a60056e8363fd83c19eb99b1a174c40d15338699df0fdf35cb6296fc977  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1.debian.tar.xz
+2019-09-29 19:52:51.993570 +0000 build-debian1: 0a890d6a7c15f64079b81c6565e1ff5f1f7906de3fd9b6ec9a61e8d567e160559016760395802d333ee37707de07e9758bfd67724e35e0546ba46f5d339c74b7  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1.dsc
+2019-09-29 19:52:51.993645 +0000 build-debian1: c38daa30066be735d0f1af1363658371f93228dbe9c5d565a544a486992c5ce2164652354d4838bed8ef18762e070ceedff184d26177c18d9c52ef899ad7b612  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo
+2019-09-29 19:52:51.993716 +0000 build-debian1: e54ae69cbe4b806a7ec91bf453f45ad371039131293ca183b9cb86fd8002164920bfa6de9a40ec9fd8c5943019c236a2686d814414dca253daea2695bd2b30e7  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes
+2019-09-29 19:52:51.993785 +0000 build-debian1: 86778e67ff2c5f47ab397b9409495be59ababd8f522fcea67414f8c55a03399f800a3d67f407bf8e14c340912e507ef677348968dfff4bf8faf1f8f1505fdcd3  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.deb
+2019-09-29 19:52:51.993853 +0000 build-debian1: 1e532e243b81d3152b24988f3e820795bc0e510cd41a9284a96ed94499a979b32f74f810d293c4be38b73e28fac7174cca791baa8c2237887538af77d862cc14  pkgs/vm-bullseye/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.993922 +0000 build-debian1: c3c5d2180d4ab80af49749bacba4ad35c2940fb993ee778d7128c49fb9016c378988a56684f36f1cc0b61ac96cebbd812f65deef048bfd4a3cd9cc689cf598f2  pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1.debian.tar.xz
+2019-09-29 19:52:51.993990 +0000 build-debian1: adf51bf6fac838d59758a2fb7afe408d0dad5db19757fc12fcabc9a0aa93d32de7998b4aad3472a0544734a4806dab401b1ed410b58579b696840f3801c82569  pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1.dsc
+2019-09-29 19:52:51.994092 +0000 build-debian1: 0a7514da1a1f3ab1112122e9f0275f4095c5c79cf12fe8f092ce867fcf7da0dea88afef12fa6ba2ea25ad2a23038b906f0c53510bbebdc4c417d5b836654ae20  pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo
+2019-09-29 19:52:51.994166 +0000 build-debian1: c8bfdb22612049dc33bc2834cfeff1ed16d27e97ae3dc5185e0c5c68ea1e2201f8b5d9259d6549e9b147fa3634d0c77fb6345297b7f69b0d0344ea9005d37ea2  pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes
+2019-09-29 19:52:51.994272 +0000 build-debian1: 4d32c19b0211425f8ad9aacbfe3ad552a1dac4cf030c959c8033c39d644cd9fa584b76f9e8372d4822b6080d709ebdc3df4cc77820c8678e027b7f0adeb10c37  pkgs/vm-buster/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.deb
+2019-09-29 19:52:51.994346 +0000 build-debian1: 1e532e243b81d3152b24988f3e820795bc0e510cd41a9284a96ed94499a979b32f74f810d293c4be38b73e28fac7174cca791baa8c2237887538af77d862cc14  pkgs/vm-buster/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.994417 +0000 build-debian1: dd298776e1d7b365850ee9eaae116e12d9775e6c915d16a0c15f073cbc181c28060a89cd2aa1e3270dee2b5729a16c86d2fcb48b0c727c642a1965a389036940  pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1.debian.tar.xz
+2019-09-29 19:52:51.994484 +0000 build-debian1: 67a878593e9b4090c30db60c76dfc79ddcdb2973997a6aa4002b333848398ce65db60e1a3c34e9209659b4078e0b8a6adf6dcc08eef325cf264401bb375043d2  pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1.dsc
+2019-09-29 19:52:51.994554 +0000 build-debian1: 086511225dd2f7f9922d811eac60f666385fe4cb21f9aaaef8754cca8042f41977ee9277720876efed62f796c27b8831fd09d1b9740a68fc9d71e262fb7bdd9c  pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes
+2019-09-29 19:52:51.994622 +0000 build-debian1: 0a9471f7227a8de95666d49a82a33104f1d499ee77ba29ecbffff24aa22b4628f9d6df24b6d0fc2ddf9d0bffc549a3fd11a9abdbf14706f15c1418df36b18a0f  pkgs/vm-jessie/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.deb
+2019-09-29 19:52:51.994689 +0000 build-debian1: 1e532e243b81d3152b24988f3e820795bc0e510cd41a9284a96ed94499a979b32f74f810d293c4be38b73e28fac7174cca791baa8c2237887538af77d862cc14  pkgs/vm-jessie/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.994759 +0000 build-debian1: 49e64499eed78e7b74e1454682c7e14f5a18afb1f5f54bc8433e9c75720dc63bd6f000918a581ffd0b11e9e5d8e92ba8d7560d891af2918135c83d5e9d61f86f  pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1.debian.tar.xz
+2019-09-29 19:52:51.994842 +0000 build-debian1: 79eea6489421568687869d6e7f720c8189496ed410fa087844b938421f81f5093ce102ebfaf469181a3f8583f97c5416b123bdfffb5ceddadc3096aae66bac78  pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1.dsc
+2019-09-29 19:52:51.994914 +0000 build-debian1: 3cf2c608c0ab260b3515469e8c00b4e39661cefe911eda6e176e87b8a8a836aae4e6b3365eadf3dff6f6f7fca4ff34caa2b8b3c6cad6a97e964045c665106634  pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo
+2019-09-29 19:52:51.994984 +0000 build-debian1: 1ce218778a595d613dab286267ccd84633feafae9cfa611e0953084c35259e1b87219545e1df5254a3f671bcaf6ff55eebaebee994d68ca705c331f156fdfcd5  pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes
+2019-09-29 19:52:51.995054 +0000 build-debian1: 17e08f018fb720c4ca6d7691fd5fce990b8c6bf68902729d4368b9c30277de18817f9b2bb19c89ae86ac79c1f7191e56efe685dfc52bc3ea7e81954e9e07d91a  pkgs/vm-stretch/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.deb
+2019-09-29 19:52:51.995121 +0000 build-debian1: 1e532e243b81d3152b24988f3e820795bc0e510cd41a9284a96ed94499a979b32f74f810d293c4be38b73e28fac7174cca791baa8c2237887538af77d862cc14  pkgs/vm-stretch/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:52:51.995170 +0000 build-debian1: ================================================================================
+2019-09-29 19:52:51.995252 +0000 build-debian1:                            B U I L D   I N F O                                  
+2019-09-29 19:52:51.995304 +0000 build-debian1: Items in red indicate it was automatically generated by configuration file(s)
+2019-09-29 19:52:51.995352 +0000 build-debian1: Items in white indicate it was automatically removed by configuration file(s)
+2019-09-29 19:52:51.995399 +0000 build-debian1: ================================================================================
+2019-09-29 19:52:51.995434 +0000 build-debian1: DISTS_VM:
+2019-09-29 19:52:51.995473 +0000 build-debian1:      jessie, stretch, buster, bullseye,
+2019-09-29 19:52:51.995508 +0000 build-debian1: DISTS_ALL:
+2019-09-29 19:52:51.995550 +0000 build-debian1:      vm-bullseye, vm-buster, vm-jessie, vm-stretch,
+2019-09-29 19:52:51.995592 +0000 build-debian1: DIST_DOM0:
+2019-09-29 19:52:51.995628 +0000 build-debian1:     
+2019-09-29 19:52:51.995664 +0000 build-debian1: BUILDER_PLUGINS:
+2019-09-29 19:52:51.995709 +0000 build-debian1:      builder-debian, mgmt-salt, contrib-configs, builder-github,
+2019-09-29 19:52:51.995743 +0000 build-debian1: COMPONENTS:
+2019-09-29 19:52:51.995779 +0000 build-debian1:      remote-desktop,
+2019-09-29 19:52:51.995813 +0000 build-debian1: GIT_REPOS:
+2019-09-29 19:52:51.995850 +0000 build-debian1:      qubes-src/remote-desktop,
+2019-09-29 19:52:51.995885 +0000 build-debian1: TEMPLATE:
+2019-09-29 19:52:51.995917 +0000 build-debian1:     
+2019-09-29 19:52:51.995953 +0000 build-debian1: TEMPLATE_FLAVOR_DIR:
+2019-09-29 19:52:51.995986 +0000 build-debian1:     
+2019-09-29 19:52:51.996020 +0000 build-debian1: TEMPLATE_ALIAS:
+2019-09-29 19:52:51.996053 +0000 build-debian1:     
+2019-09-29 19:52:51.996087 +0000 build-debian1: TEMPLATE_LABEL:
+2019-09-29 19:52:51.996120 +0000 build-debian1:     
+2019-09-29 19:52:51.996154 +0000 build-debian1: > running make
+2019-09-29 19:52:51.996240 +0000 build-debian1: Makefile:266: target 'sign.vm.bullseye.remote-desktop' does not exist
+2019-09-29 19:52:51.996369 +0000 build-debian1: if [ -n "remote-desktop" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_remote_desktop"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/remote-desktop > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2019-09-29 19:52:51.996432 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2019-09-29 19:52:51.996475 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2019-09-29 19:52:51.996532 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2019-09-29 19:52:51.996577 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:52:51.996629 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2019-09-29 19:52:51.996663 +0000 build-debian1: fi
+2019-09-29 19:52:51.996707 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:52:51.996748 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2019-09-29 19:52:51.996784 +0000 build-debian1: ..DIST=bullseye \
+2019-09-29 19:52:51.996820 +0000 build-debian1: ..PACKAGE_SET=vm \
+2019-09-29 19:52:51.996858 +0000 build-debian1: ..COMPONENT=remote-desktop \
+2019-09-29 19:52:51.996894 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2019-09-29 19:52:51.996930 +0000 build-debian1: ..sign || exit 1; \
+2019-09-29 19:52:51.996971 +0000 build-debian1: elif [ -d qubes-src/remote-desktop/rpm ]; then \
+2019-09-29 19:52:51.997010 +0000 build-debian1: .# Old mechanism supported only for RPM
+2019-09-29 19:52:51.997054 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/remote-desktop/rpm/*/*.rpm; do \
+2019-09-29 19:52:51.997099 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2019-09-29 19:52:51.997138 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2019-09-29 19:52:51.997172 +0000 build-debian1: ..fi ;\
+2019-09-29 19:52:51.997252 +0000 build-debian1: .done ; \
+2019-09-29 19:52:51.997297 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2019-09-29 19:52:51.997336 +0000 build-debian1: ..echo "--> Signing..."; \
+2019-09-29 19:52:51.997376 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2019-09-29 19:52:51.997414 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2019-09-29 19:52:51.997454 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2019-09-29 19:52:51.997489 +0000 build-debian1: ..fi; \
+2019-09-29 19:52:51.997534 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2019-09-29 19:52:51.997569 +0000 build-debian1: .fi; \
+2019-09-29 19:52:51.997601 +0000 build-debian1: fi
+2019-09-29 19:52:52.135447 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2019-09-29 19:52:52.135554 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2019-09-29 19:52:52.135626 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes
+2019-09-29 19:52:52.397763 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:52.985895 +0000 build-debian1: 
+2019-09-29 19:52:53.021370 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo
+2019-09-29 19:52:53.026734 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:53.613018 +0000 build-debian1: 
+2019-09-29 19:52:53.649951 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes
+2019-09-29 19:52:53.694598 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes
+2019-09-29 19:52:53.695050 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:54.285076 +0000 build-debian1: 
+2019-09-29 19:52:54.291233 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2019-09-29 19:52:54.294651 +0000 build-debian1: Makefile:266: target 'sign.vm.buster.remote-desktop' does not exist
+2019-09-29 19:52:54.294792 +0000 build-debian1: if [ -n "remote-desktop" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_remote_desktop"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/remote-desktop > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2019-09-29 19:52:54.294849 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2019-09-29 19:52:54.294892 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2019-09-29 19:52:54.294938 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2019-09-29 19:52:54.294983 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:52:54.295036 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2019-09-29 19:52:54.295074 +0000 build-debian1: fi
+2019-09-29 19:52:54.295118 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:52:54.295161 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2019-09-29 19:52:54.295239 +0000 build-debian1: ..DIST=buster \
+2019-09-29 19:52:54.295288 +0000 build-debian1: ..PACKAGE_SET=vm \
+2019-09-29 19:52:54.295328 +0000 build-debian1: ..COMPONENT=remote-desktop \
+2019-09-29 19:52:54.295366 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2019-09-29 19:52:54.295404 +0000 build-debian1: ..sign || exit 1; \
+2019-09-29 19:52:54.295445 +0000 build-debian1: elif [ -d qubes-src/remote-desktop/rpm ]; then \
+2019-09-29 19:52:54.295485 +0000 build-debian1: .# Old mechanism supported only for RPM
+2019-09-29 19:52:54.295530 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/remote-desktop/rpm/*/*.rpm; do \
+2019-09-29 19:52:54.295584 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2019-09-29 19:52:54.295625 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2019-09-29 19:52:54.295662 +0000 build-debian1: ..fi ;\
+2019-09-29 19:52:54.295698 +0000 build-debian1: .done ; \
+2019-09-29 19:52:54.295736 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2019-09-29 19:52:54.295774 +0000 build-debian1: ..echo "--> Signing..."; \
+2019-09-29 19:52:54.295815 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2019-09-29 19:52:54.295853 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2019-09-29 19:52:54.295893 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2019-09-29 19:52:54.295927 +0000 build-debian1: ..fi; \
+2019-09-29 19:52:54.295972 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2019-09-29 19:52:54.296007 +0000 build-debian1: .fi; \
+2019-09-29 19:52:54.296039 +0000 build-debian1: fi
+2019-09-29 19:52:54.469065 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2019-09-29 19:52:54.469166 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2019-09-29 19:52:54.469287 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes
+2019-09-29 19:52:54.735777 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:55.354353 +0000 build-debian1: 
+2019-09-29 19:52:55.388911 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo
+2019-09-29 19:52:55.394388 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:56.001405 +0000 build-debian1: 
+2019-09-29 19:52:56.037299 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes
+2019-09-29 19:52:56.069067 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes
+2019-09-29 19:52:56.074367 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:56.680721 +0000 build-debian1: 
+2019-09-29 19:52:56.687797 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2019-09-29 19:52:56.691536 +0000 build-debian1: Makefile:266: target 'sign.vm.jessie.remote-desktop' does not exist
+2019-09-29 19:52:56.691676 +0000 build-debian1: if [ -n "remote-desktop" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_remote_desktop"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/remote-desktop > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2019-09-29 19:52:56.691732 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2019-09-29 19:52:56.691774 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2019-09-29 19:52:56.691819 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2019-09-29 19:52:56.691862 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:52:56.691914 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=jessie template-name)
+2019-09-29 19:52:56.691950 +0000 build-debian1: fi
+2019-09-29 19:52:56.691994 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:52:56.692036 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2019-09-29 19:52:56.692073 +0000 build-debian1: ..DIST=jessie \
+2019-09-29 19:52:56.692109 +0000 build-debian1: ..PACKAGE_SET=vm \
+2019-09-29 19:52:56.692147 +0000 build-debian1: ..COMPONENT=remote-desktop \
+2019-09-29 19:52:56.692184 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2019-09-29 19:52:56.692281 +0000 build-debian1: ..sign || exit 1; \
+2019-09-29 19:52:56.692328 +0000 build-debian1: elif [ -d qubes-src/remote-desktop/rpm ]; then \
+2019-09-29 19:52:56.692369 +0000 build-debian1: .# Old mechanism supported only for RPM
+2019-09-29 19:52:56.692414 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/remote-desktop/rpm/*/*.rpm; do \
+2019-09-29 19:52:56.692460 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2019-09-29 19:52:56.692500 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2019-09-29 19:52:56.692535 +0000 build-debian1: ..fi ;\
+2019-09-29 19:52:56.692571 +0000 build-debian1: .done ; \
+2019-09-29 19:52:56.692609 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2019-09-29 19:52:56.692674 +0000 build-debian1: ..echo "--> Signing..."; \
+2019-09-29 19:52:56.692717 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2019-09-29 19:52:56.692756 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2019-09-29 19:52:56.692796 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2019-09-29 19:52:56.692830 +0000 build-debian1: ..fi; \
+2019-09-29 19:52:56.692875 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2019-09-29 19:52:56.692910 +0000 build-debian1: .fi; \
+2019-09-29 19:52:56.692943 +0000 build-debian1: fi
+2019-09-29 19:52:56.867870 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2019-09-29 19:52:56.867971 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2019-09-29 19:52:56.868033 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes
+2019-09-29 19:52:57.106870 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:57.720747 +0000 build-debian1: 
+2019-09-29 19:52:57.753820 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes
+2019-09-29 19:52:57.759070 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:58.378740 +0000 build-debian1: 
+2019-09-29 19:52:58.385264 +0000 build-debian1: Successfully signed dsc, changes files
+2019-09-29 19:52:58.388347 +0000 build-debian1: Makefile:266: target 'sign.vm.stretch.remote-desktop' does not exist
+2019-09-29 19:52:58.388487 +0000 build-debian1: if [ -n "remote-desktop" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_remote_desktop"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/remote-desktop > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2019-09-29 19:52:58.388545 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2019-09-29 19:52:58.388587 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2019-09-29 19:52:58.388632 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2019-09-29 19:52:58.388676 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:52:58.388729 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2019-09-29 19:52:58.388767 +0000 build-debian1: fi
+2019-09-29 19:52:58.388811 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:52:58.388854 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2019-09-29 19:52:58.388892 +0000 build-debian1: ..DIST=stretch \
+2019-09-29 19:52:58.388928 +0000 build-debian1: ..PACKAGE_SET=vm \
+2019-09-29 19:52:58.388967 +0000 build-debian1: ..COMPONENT=remote-desktop \
+2019-09-29 19:52:58.389005 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2019-09-29 19:52:58.389041 +0000 build-debian1: ..sign || exit 1; \
+2019-09-29 19:52:58.389082 +0000 build-debian1: elif [ -d qubes-src/remote-desktop/rpm ]; then \
+2019-09-29 19:52:58.389121 +0000 build-debian1: .# Old mechanism supported only for RPM
+2019-09-29 19:52:58.389167 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/remote-desktop/rpm/*/*.rpm; do \
+2019-09-29 19:52:58.389281 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2019-09-29 19:52:58.389328 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2019-09-29 19:52:58.389364 +0000 build-debian1: ..fi ;\
+2019-09-29 19:52:58.389399 +0000 build-debian1: .done ; \
+2019-09-29 19:52:58.389438 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2019-09-29 19:52:58.389476 +0000 build-debian1: ..echo "--> Signing..."; \
+2019-09-29 19:52:58.389516 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2019-09-29 19:52:58.389554 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2019-09-29 19:52:58.389593 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2019-09-29 19:52:58.389626 +0000 build-debian1: ..fi; \
+2019-09-29 19:52:58.389671 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2019-09-29 19:52:58.389706 +0000 build-debian1: .fi; \
+2019-09-29 19:52:58.389739 +0000 build-debian1: fi
+2019-09-29 19:52:58.562357 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2019-09-29 19:52:58.562432 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2019-09-29 19:52:58.562494 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes
+2019-09-29 19:52:58.807264 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:52:59.403589 +0000 build-debian1: 
+2019-09-29 19:52:59.436550 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo
+2019-09-29 19:52:59.441787 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:53:00.043183 +0000 build-debian1: 
+2019-09-29 19:53:00.076728 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes
+2019-09-29 19:53:00.110647 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes
+2019-09-29 19:53:00.115943 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2019-09-29 19:53:00.724048 +0000 build-debian1: 
+2019-09-29 19:53:00.729625 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2019-09-29 19:53:00.733605 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.bullseye.remote-desktop' does not exist
+2019-09-29 19:53:00.733668 +0000 build-debian1: repo_base_var="LINUX_REPO_bullseye_BASEDIR"; \
+2019-09-29 19:53:00.733717 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then \
+2019-09-29 19:53:00.733766 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2019-09-29 19:53:00.733807 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2019-09-29 19:53:00.733842 +0000 build-debian1: fi; \
+2019-09-29 19:53:00.733883 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2019-09-29 19:53:00.733923 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2019-09-29 19:53:00.733957 +0000 build-debian1: else \
+2019-09-29 19:53:00.734024 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2019-09-29 19:53:00.734061 +0000 build-debian1: fi; \
+2019-09-29 19:53:00.734104 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:53:00.734146 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:00.734184 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2019-09-29 19:53:00.734313 +0000 build-debian1: ..vtag=`git -C qubes-src/remote-desktop tag --points-at HEAD --list v*`; \
+2019-09-29 19:53:00.734359 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2019-09-29 19:53:00.734399 +0000 build-debian1: ...echo "no version tag"; \
+2019-09-29 19:53:00.734434 +0000 build-debian1: ...exit 0; \
+2019-09-29 19:53:00.734468 +0000 build-debian1: ..fi; \
+2019-09-29 19:53:00.734502 +0000 build-debian1: .fi; \
+2019-09-29 19:53:00.734544 +0000 build-debian1: .if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:53:00.734596 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2019-09-29 19:53:00.734631 +0000 build-debian1: fi
+2019-09-29 19:53:00.734710 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm COMPONENT=`basename qubes-src/remote-desktop` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye get-var GET_VAR=PACKAGE_LIST); \
+2019-09-29 19:53:00.734757 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2019-09-29 19:53:00.734795 +0000 build-debian1: ..echo "no packages."; \
+2019-09-29 19:53:00.734830 +0000 build-debian1: ..exit 0; \
+2019-09-29 19:53:00.734863 +0000 build-debian1: .fi; \
+2019-09-29 19:53:00.734906 +0000 build-debian1: .make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm \
+2019-09-29 19:53:00.734948 +0000 build-debian1: ..COMPONENT=`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:00.734987 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2019-09-29 19:53:00.735025 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2019-09-29 19:53:00.735072 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2019-09-29 19:53:00.735129 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:00.735185 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_17-51-43 \
+2019-09-29 19:53:00.735264 +0000 build-debian1: ..update-repo || exit 1; \
+2019-09-29 19:53:00.735318 +0000 build-debian1: elif make -C qubes-src/remote-desktop -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2019-09-29 19:53:00.735362 +0000 build-debian1: .echo "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:00.735413 +0000 build-debian1: .DIST=bullseye UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2019-09-29 19:53:00.735462 +0000 build-debian1: .make -s -C qubes-src/remote-desktop update-repo-current-testing || exit 1; \
+2019-09-29 19:53:00.735496 +0000 build-debian1: else \
+2019-09-29 19:53:00.735540 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... skipping."; \
+2019-09-29 19:53:00.735582 +0000 build-debian1: fi; \
+2019-09-29 19:53:00.735616 +0000 build-debian1: echo
+2019-09-29 19:53:01.033146 +0000 build-debian1: Updating qubes-src/remote-desktop... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2019-09-29 19:53:01.033332 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf
+2019-09-29 19:53:01.409917 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions ]; then \
+2019-09-29 19:53:01.410023 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2019-09-29 19:53:01.410089 +0000 build-debian1: fi
+2019-09-29 19:53:01.412338 +0000 build-debian1: grep bullseye /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions > /dev/null; \
+2019-09-29 19:53:01.412397 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2019-09-29 19:53:01.412458 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2019-09-29 19:53:01.412495 +0000 build-debian1: fi
+2019-09-29 19:53:01.964140 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2019-09-29 19:53:01.964274 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:01.964337 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:01.964365 +0000 build-debian1: else \
+2019-09-29 19:53:01.964422 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:01.964445 +0000 build-debian1: fi
+2019-09-29 19:53:02.444877 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:02.444990 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-remote-desktop; \
+2019-09-29 19:53:02.445031 +0000 build-debian1: else \
+2019-09-29 19:53:02.445097 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== 4.0.2-1+deb11u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-remote-desktop; \
+2019-09-29 19:53:02.445135 +0000 build-debian1: fi
+2019-09-29 19:53:02.685437 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2019-09-29 19:53:02.685511 +0000 build-debian1: [ -z "qubes-remote-desktop_4.0.2-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2019-09-29 19:53:02.685545 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_17-51-43" \
+2019-09-29 19:53:02.685573 +0000 build-debian1: .upload \
+2019-09-29 19:53:02.685593 +0000 build-debian1: ."r4.0" \
+2019-09-29 19:53:02.685614 +0000 build-debian1: ."qubes-src/remote-desktop" \
+2019-09-29 19:53:02.685636 +0000 build-debian1: ."qubes-remote-desktop_4.0.2-1" \
+2019-09-29 19:53:02.685655 +0000 build-debian1: ."bullseye" \
+2019-09-29 19:53:02.685674 +0000 build-debian1: ."vm" \
+2019-09-29 19:53:02.685694 +0000 build-debian1: ."current-testing" \
+2019-09-29 19:53:02.685721 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-remote-desktop-vm-bullseye-current-testing"
+2019-09-29 19:53:03.525534 +0000 build-debian1: fatal: No tags can describe 'eafdae658f2a2d6123863a28f7a13ebf229792b1'.
+2019-09-29 19:53:03.525635 +0000 build-debian1: Try --always, or create some tags.
+2019-09-29 19:53:07.164852 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-remote-desktop-vm-bullseye-current-testing does not exist, initializing with the current state
+2019-09-29 19:53:07.164976 +0000 build-debian1: WARNING: failed to add r4.0-bullseye-cur-test label to issue 9: 403 {"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}
+2019-09-29 19:53:07.168562 +0000 build-debian1: 
+2019-09-29 19:53:07.168795 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.bullseye' due to: internal-update-repo-current-testing.vm.bullseye.remote-desktop
+2019-09-29 19:53:07.168872 +0000 build-debian1: true
+2019-09-29 19:53:07.172102 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.buster.remote-desktop' does not exist
+2019-09-29 19:53:07.172165 +0000 build-debian1: repo_base_var="LINUX_REPO_buster_BASEDIR"; \
+2019-09-29 19:53:07.172288 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then \
+2019-09-29 19:53:07.172347 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2019-09-29 19:53:07.172390 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2019-09-29 19:53:07.172425 +0000 build-debian1: fi; \
+2019-09-29 19:53:07.172466 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2019-09-29 19:53:07.172506 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2019-09-29 19:53:07.172540 +0000 build-debian1: else \
+2019-09-29 19:53:07.172581 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2019-09-29 19:53:07.172615 +0000 build-debian1: fi; \
+2019-09-29 19:53:07.172658 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:53:07.172701 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:07.172739 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2019-09-29 19:53:07.172786 +0000 build-debian1: ..vtag=`git -C qubes-src/remote-desktop tag --points-at HEAD --list v*`; \
+2019-09-29 19:53:07.172824 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2019-09-29 19:53:07.172862 +0000 build-debian1: ...echo "no version tag"; \
+2019-09-29 19:53:07.172897 +0000 build-debian1: ...exit 0; \
+2019-09-29 19:53:07.172931 +0000 build-debian1: ..fi; \
+2019-09-29 19:53:07.172965 +0000 build-debian1: .fi; \
+2019-09-29 19:53:07.173007 +0000 build-debian1: .if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:53:07.173058 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2019-09-29 19:53:07.173093 +0000 build-debian1: fi
+2019-09-29 19:53:07.173170 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm COMPONENT=`basename qubes-src/remote-desktop` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster get-var GET_VAR=PACKAGE_LIST); \
+2019-09-29 19:53:07.173252 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2019-09-29 19:53:07.173296 +0000 build-debian1: ..echo "no packages."; \
+2019-09-29 19:53:07.173332 +0000 build-debian1: ..exit 0; \
+2019-09-29 19:53:07.173366 +0000 build-debian1: .fi; \
+2019-09-29 19:53:07.173410 +0000 build-debian1: .make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm \
+2019-09-29 19:53:07.173451 +0000 build-debian1: ..COMPONENT=`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:07.173491 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2019-09-29 19:53:07.173529 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2019-09-29 19:53:07.173577 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2019-09-29 19:53:07.173634 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:07.173691 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-30-08 \
+2019-09-29 19:53:07.173731 +0000 build-debian1: ..update-repo || exit 1; \
+2019-09-29 19:53:07.173781 +0000 build-debian1: elif make -C qubes-src/remote-desktop -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2019-09-29 19:53:07.173824 +0000 build-debian1: .echo "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:07.173874 +0000 build-debian1: .DIST=buster UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2019-09-29 19:53:07.173922 +0000 build-debian1: .make -s -C qubes-src/remote-desktop update-repo-current-testing || exit 1; \
+2019-09-29 19:53:07.173973 +0000 build-debian1: else \
+2019-09-29 19:53:07.174020 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... skipping."; \
+2019-09-29 19:53:07.174055 +0000 build-debian1: fi; \
+2019-09-29 19:53:07.174087 +0000 build-debian1: echo
+2019-09-29 19:53:07.423426 +0000 build-debian1: Updating qubes-src/remote-desktop... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2019-09-29 19:53:07.423499 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf
+2019-09-29 19:53:07.858402 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions ]; then \
+2019-09-29 19:53:07.858509 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2019-09-29 19:53:07.858549 +0000 build-debian1: fi
+2019-09-29 19:53:07.861090 +0000 build-debian1: grep buster /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions > /dev/null; \
+2019-09-29 19:53:07.861149 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2019-09-29 19:53:07.861252 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2019-09-29 19:53:07.861297 +0000 build-debian1: fi
+2019-09-29 19:53:08.393961 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2019-09-29 19:53:08.394052 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:08.394147 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:08.394190 +0000 build-debian1: else \
+2019-09-29 19:53:08.394367 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:08.394411 +0000 build-debian1: fi
+2019-09-29 19:53:08.870350 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:08.870463 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-remote-desktop; \
+2019-09-29 19:53:08.870506 +0000 build-debian1: else \
+2019-09-29 19:53:08.870571 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== 4.0.2-1+deb10u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-remote-desktop; \
+2019-09-29 19:53:08.870609 +0000 build-debian1: fi
+2019-09-29 19:53:09.142149 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2019-09-29 19:53:09.142333 +0000 build-debian1: [ -z "qubes-remote-desktop_4.0.2-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2019-09-29 19:53:09.142399 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-30-08" \
+2019-09-29 19:53:09.142440 +0000 build-debian1: .upload \
+2019-09-29 19:53:09.142476 +0000 build-debian1: ."r4.0" \
+2019-09-29 19:53:09.142514 +0000 build-debian1: ."qubes-src/remote-desktop" \
+2019-09-29 19:53:09.142554 +0000 build-debian1: ."qubes-remote-desktop_4.0.2-1" \
+2019-09-29 19:53:09.142589 +0000 build-debian1: ."buster" \
+2019-09-29 19:53:09.142624 +0000 build-debian1: ."vm" \
+2019-09-29 19:53:09.142662 +0000 build-debian1: ."current-testing" \
+2019-09-29 19:53:09.142711 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-remote-desktop-vm-buster-current-testing"
+2019-09-29 19:53:09.737615 +0000 build-debian1: fatal: No tags can describe 'eafdae658f2a2d6123863a28f7a13ebf229792b1'.
+2019-09-29 19:53:09.737680 +0000 build-debian1: Try --always, or create some tags.
+2019-09-29 19:53:12.423667 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-remote-desktop-vm-buster-current-testing does not exist, initializing with the current state
+2019-09-29 19:53:12.423812 +0000 build-debian1: WARNING: failed to add r4.0-buster-cur-test label to issue 9: 403 {"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}
+2019-09-29 19:53:12.427577 +0000 build-debian1: 
+2019-09-29 19:53:12.427925 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.buster' due to: internal-update-repo-current-testing.vm.buster.remote-desktop
+2019-09-29 19:53:12.427984 +0000 build-debian1: true
+2019-09-29 19:53:12.431055 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.jessie.remote-desktop' does not exist
+2019-09-29 19:53:12.431118 +0000 build-debian1: repo_base_var="LINUX_REPO_jessie_BASEDIR"; \
+2019-09-29 19:53:12.431166 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then \
+2019-09-29 19:53:12.431267 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2019-09-29 19:53:12.431318 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2019-09-29 19:53:12.431355 +0000 build-debian1: fi; \
+2019-09-29 19:53:12.431396 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2019-09-29 19:53:12.431436 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2019-09-29 19:53:12.431471 +0000 build-debian1: else \
+2019-09-29 19:53:12.431512 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2019-09-29 19:53:12.431546 +0000 build-debian1: fi; \
+2019-09-29 19:53:12.431590 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:53:12.431633 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:12.431672 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2019-09-29 19:53:12.431720 +0000 build-debian1: ..vtag=`git -C qubes-src/remote-desktop tag --points-at HEAD --list v*`; \
+2019-09-29 19:53:12.431760 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2019-09-29 19:53:12.431799 +0000 build-debian1: ...echo "no version tag"; \
+2019-09-29 19:53:12.431835 +0000 build-debian1: ...exit 0; \
+2019-09-29 19:53:12.431869 +0000 build-debian1: ..fi; \
+2019-09-29 19:53:12.431903 +0000 build-debian1: .fi; \
+2019-09-29 19:53:12.431946 +0000 build-debian1: .if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:53:12.431998 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=jessie template-name)
+2019-09-29 19:53:12.432034 +0000 build-debian1: fi
+2019-09-29 19:53:12.432113 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=jessie PACKAGE_SET=vm COMPONENT=`basename qubes-src/remote-desktop` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/jessie get-var GET_VAR=PACKAGE_LIST); \
+2019-09-29 19:53:12.432159 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2019-09-29 19:53:12.432227 +0000 build-debian1: ..echo "no packages."; \
+2019-09-29 19:53:12.432272 +0000 build-debian1: ..exit 0; \
+2019-09-29 19:53:12.432307 +0000 build-debian1: .fi; \
+2019-09-29 19:53:12.432350 +0000 build-debian1: .make -s -f Makefile.generic DIST=jessie PACKAGE_SET=vm \
+2019-09-29 19:53:12.432393 +0000 build-debian1: ..COMPONENT=`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:12.432432 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2019-09-29 19:53:12.432470 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2019-09-29 19:53:12.432518 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/jessie \
+2019-09-29 19:53:12.432587 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-jessie-`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:12.432677 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-57-03 \
+2019-09-29 19:53:12.432721 +0000 build-debian1: ..update-repo || exit 1; \
+2019-09-29 19:53:12.432771 +0000 build-debian1: elif make -C qubes-src/remote-desktop -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2019-09-29 19:53:12.432814 +0000 build-debian1: .echo "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:12.432866 +0000 build-debian1: .DIST=jessie UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/jessie \
+2019-09-29 19:53:12.432915 +0000 build-debian1: .make -s -C qubes-src/remote-desktop update-repo-current-testing || exit 1; \
+2019-09-29 19:53:12.432951 +0000 build-debian1: else \
+2019-09-29 19:53:12.432994 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... skipping."; \
+2019-09-29 19:53:12.433029 +0000 build-debian1: fi; \
+2019-09-29 19:53:12.433061 +0000 build-debian1: echo
+2019-09-29 19:53:12.678297 +0000 build-debian1: Updating qubes-src/remote-desktop... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2019-09-29 19:53:12.678404 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie/conf
+2019-09-29 19:53:13.009645 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie/conf/distributions ]; then \
+2019-09-29 19:53:13.009725 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie/conf/distributions; \
+2019-09-29 19:53:13.009766 +0000 build-debian1: fi
+2019-09-29 19:53:13.011058 +0000 build-debian1: grep jessie /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie/conf/distributions > /dev/null; \
+2019-09-29 19:53:13.011117 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2019-09-29 19:53:13.011178 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie/conf/distributions; \
+2019-09-29 19:53:13.011294 +0000 build-debian1: fi
+2019-09-29 19:53:13.509487 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2019-09-29 19:53:13.509554 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:13.509646 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie include jessie-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:13.509689 +0000 build-debian1: else \
+2019-09-29 19:53:13.509783 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/jessie include jessie-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-jessie/deb/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:13.509823 +0000 build-debian1: fi
+2019-09-29 19:53:14.035037 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:14.035127 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-jessie-remote-desktop; \
+2019-09-29 19:53:14.035168 +0000 build-debian1: else \
+2019-09-29 19:53:14.035295 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== 4.0.2-1+deb8u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-jessie-remote-desktop; \
+2019-09-29 19:53:14.035344 +0000 build-debian1: fi
+2019-09-29 19:53:14.344844 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2019-09-29 19:53:14.344942 +0000 build-debian1: [ -z "qubes-remote-desktop_4.0.2-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2019-09-29 19:53:14.345003 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_18-57-03" \
+2019-09-29 19:53:14.345041 +0000 build-debian1: .upload \
+2019-09-29 19:53:14.345077 +0000 build-debian1: ."r4.0" \
+2019-09-29 19:53:14.345115 +0000 build-debian1: ."qubes-src/remote-desktop" \
+2019-09-29 19:53:14.345155 +0000 build-debian1: ."qubes-remote-desktop_4.0.2-1" \
+2019-09-29 19:53:14.345189 +0000 build-debian1: ."jessie" \
+2019-09-29 19:53:14.345281 +0000 build-debian1: ."vm" \
+2019-09-29 19:53:14.345322 +0000 build-debian1: ."current-testing" \
+2019-09-29 19:53:14.345371 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-remote-desktop-vm-jessie-current-testing"
+2019-09-29 19:53:14.982033 +0000 build-debian1: fatal: No tags can describe 'eafdae658f2a2d6123863a28f7a13ebf229792b1'.
+2019-09-29 19:53:14.982098 +0000 build-debian1: Try --always, or create some tags.
+2019-09-29 19:53:18.204079 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-remote-desktop-vm-jessie-current-testing does not exist, initializing with the current state
+2019-09-29 19:53:18.204292 +0000 build-debian1: WARNING: failed to add r4.0-jessie-cur-test label to issue 9: 403 {"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}
+2019-09-29 19:53:18.207937 +0000 build-debian1: 
+2019-09-29 19:53:18.208319 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.jessie' due to: internal-update-repo-current-testing.vm.jessie.remote-desktop
+2019-09-29 19:53:18.208376 +0000 build-debian1: true
+2019-09-29 19:53:18.211326 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.stretch.remote-desktop' does not exist
+2019-09-29 19:53:18.211388 +0000 build-debian1: repo_base_var="LINUX_REPO_stretch_BASEDIR"; \
+2019-09-29 19:53:18.211436 +0000 build-debian1: if [ "remote-desktop" = linux-template-builder ]; then \
+2019-09-29 19:53:18.211484 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2019-09-29 19:53:18.211525 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2019-09-29 19:53:18.211561 +0000 build-debian1: fi; \
+2019-09-29 19:53:18.211601 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2019-09-29 19:53:18.211641 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2019-09-29 19:53:18.211675 +0000 build-debian1: else \
+2019-09-29 19:53:18.211716 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2019-09-29 19:53:18.211750 +0000 build-debian1: fi; \
+2019-09-29 19:53:18.211793 +0000 build-debian1: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2019-09-29 19:53:18.211836 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:18.211873 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2019-09-29 19:53:18.211919 +0000 build-debian1: ..vtag=`git -C qubes-src/remote-desktop tag --points-at HEAD --list v*`; \
+2019-09-29 19:53:18.211957 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2019-09-29 19:53:18.211996 +0000 build-debian1: ...echo "no version tag"; \
+2019-09-29 19:53:18.212030 +0000 build-debian1: ...exit 0; \
+2019-09-29 19:53:18.212064 +0000 build-debian1: ..fi; \
+2019-09-29 19:53:18.212097 +0000 build-debian1: .fi; \
+2019-09-29 19:53:18.212139 +0000 build-debian1: .if [ "remote-desktop" = linux-template-builder ]; then
+2019-09-29 19:53:18.212190 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2019-09-29 19:53:18.212267 +0000 build-debian1: fi
+2019-09-29 19:53:18.212348 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm COMPONENT=`basename qubes-src/remote-desktop` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch get-var GET_VAR=PACKAGE_LIST); \
+2019-09-29 19:53:18.212422 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2019-09-29 19:53:18.212463 +0000 build-debian1: ..echo "no packages."; \
+2019-09-29 19:53:18.212498 +0000 build-debian1: ..exit 0; \
+2019-09-29 19:53:18.212532 +0000 build-debian1: .fi; \
+2019-09-29 19:53:18.212575 +0000 build-debian1: .make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm \
+2019-09-29 19:53:18.212616 +0000 build-debian1: ..COMPONENT=`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:18.212655 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2019-09-29 19:53:18.212692 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2019-09-29 19:53:18.212739 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2019-09-29 19:53:18.212796 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-`basename qubes-src/remote-desktop` \
+2019-09-29 19:53:18.212854 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_19-32-55 \
+2019-09-29 19:53:18.212895 +0000 build-debian1: ..update-repo || exit 1; \
+2019-09-29 19:53:18.212944 +0000 build-debian1: elif make -C qubes-src/remote-desktop -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2019-09-29 19:53:18.212987 +0000 build-debian1: .echo "Updating qubes-src/remote-desktop... "; \
+2019-09-29 19:53:18.213038 +0000 build-debian1: .DIST=stretch UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2019-09-29 19:53:18.213087 +0000 build-debian1: .make -s -C qubes-src/remote-desktop update-repo-current-testing || exit 1; \
+2019-09-29 19:53:18.213122 +0000 build-debian1: else \
+2019-09-29 19:53:18.213165 +0000 build-debian1: .echo -n "Updating qubes-src/remote-desktop... skipping."; \
+2019-09-29 19:53:18.213230 +0000 build-debian1: fi; \
+2019-09-29 19:53:18.213272 +0000 build-debian1: echo
+2019-09-29 19:53:18.512522 +0000 build-debian1: Updating qubes-src/remote-desktop... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2019-09-29 19:53:18.512612 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf
+2019-09-29 19:53:18.900111 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions ]; then \
+2019-09-29 19:53:18.900192 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2019-09-29 19:53:18.900319 +0000 build-debian1: fi
+2019-09-29 19:53:18.902487 +0000 build-debian1: grep stretch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions > /dev/null; \
+2019-09-29 19:53:18.902546 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2019-09-29 19:53:18.902606 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2019-09-29 19:53:18.902643 +0000 build-debian1: fi
+2019-09-29 19:53:19.423498 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2019-09-29 19:53:19.423559 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:19.423614 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:19.423640 +0000 build-debian1: else \
+2019-09-29 19:53:19.423693 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2019-09-29 19:53:19.423736 +0000 build-debian1: fi
+2019-09-29 19:53:19.755708 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2019-09-29 19:53:19.755786 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-remote-desktop; \
+2019-09-29 19:53:19.755811 +0000 build-debian1: else \
+2019-09-29 19:53:19.755848 +0000 build-debian1: .echo '$Source (== qubes-remote-desktop), Version (== 4.0.2-1+deb9u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-remote-desktop; \
+2019-09-29 19:53:19.755871 +0000 build-debian1: fi
+2019-09-29 19:53:20.023010 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2019-09-29 19:53:20.023113 +0000 build-debian1: [ -z "qubes-remote-desktop_4.0.2-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2019-09-29 19:53:20.023173 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2019-09-29_19-32-55" \
+2019-09-29 19:53:20.023309 +0000 build-debian1: .upload \
+2019-09-29 19:53:20.023354 +0000 build-debian1: ."r4.0" \
+2019-09-29 19:53:20.023394 +0000 build-debian1: ."qubes-src/remote-desktop" \
+2019-09-29 19:53:20.023434 +0000 build-debian1: ."qubes-remote-desktop_4.0.2-1" \
+2019-09-29 19:53:20.023470 +0000 build-debian1: ."stretch" \
+2019-09-29 19:53:20.023505 +0000 build-debian1: ."vm" \
+2019-09-29 19:53:20.023543 +0000 build-debian1: ."current-testing" \
+2019-09-29 19:53:20.023592 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-remote-desktop-vm-stretch-current-testing"
+2019-09-29 19:53:20.610185 +0000 build-debian1: fatal: No tags can describe 'eafdae658f2a2d6123863a28f7a13ebf229792b1'.
+2019-09-29 19:53:20.610300 +0000 build-debian1: Try --always, or create some tags.
+2019-09-29 19:53:23.858305 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-remote-desktop-vm-stretch-current-testing does not exist, initializing with the current state
+2019-09-29 19:53:23.858430 +0000 build-debian1: WARNING: failed to add r4.0-stretch-cur-test label to issue 9: 403 {"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}
+2019-09-29 19:53:23.862340 +0000 build-debian1: 
+2019-09-29 19:53:23.862423 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.stretch' due to: internal-update-repo-current-testing.vm.stretch.remote-desktop
+2019-09-29 19:53:23.862465 +0000 build-debian1: true
+2019-09-29 19:53:23.865584 +0000 build-debian1: Makefile:866: target 'post-update-repo-current-testing' does not exist
+2019-09-29 19:53:23.865649 +0000 build-debian1: for dist in  bullseye buster jessie stretch; do \
+2019-09-29 19:53:23.865695 +0000 build-debian1: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2019-09-29 19:53:23.865737 +0000 build-debian1: .if [ -n "${!repo_base_var}" ]; then \
+2019-09-29 19:53:23.865778 +0000 build-debian1: ..repo_basedir="${!repo_base_var}"; \
+2019-09-29 19:53:23.865813 +0000 build-debian1: .else \
+2019-09-29 19:53:23.865855 +0000 build-debian1: ..repo_basedir="qubes-src/linux-deb/r4.0"; \
+2019-09-29 19:53:23.865890 +0000 build-debian1: .fi; \
+2019-09-29 19:53:23.865932 +0000 build-debian1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2019-09-29 19:53:23.865966 +0000 build-debian1: done; \
+2019-09-29 19:53:23.866001 +0000 build-debian1: pkgset_dist= ; \
+2019-09-29 19:53:23.866037 +0000 build-debian1: for dist in ; do \
+2019-09-29 19:53:23.866077 +0000 build-debian1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2019-09-29 19:53:23.866111 +0000 build-debian1: done; \
+2019-09-29 19:53:23.866152 +0000 build-debian1: for dist in bullseye buster jessie stretch; do \
+2019-09-29 19:53:23.866192 +0000 build-debian1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2019-09-29 19:53:23.866307 +0000 build-debian1: done; \
+2019-09-29 19:53:23.866355 +0000 build-debian1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2019-09-29 19:53:23.866395 +0000 build-debian1: .[ -z "$repo" ] && continue; \
+2019-09-29 19:53:23.866440 +0000 build-debian1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2019-09-29 19:53:23.866486 +0000 build-debian1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2019-09-29 19:53:23.866520 +0000 build-debian1: done
+2019-09-29 19:53:23.885660 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/bullseye-testing...
+2019-09-29 19:53:24.497599 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/buster-testing...
+2019-09-29 19:53:25.115805 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/jessie-testing...
+2019-09-29 19:53:25.731803 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/stretch-testing...
+2019-09-29 19:53:26.350861 +0000 build-debian1: Done.
+2019-09-29 19:53:26.364389 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb ~/builder-r4.0/qubes-src/linux-deb
+2019-09-29 19:53:29.542785 +0000 build-debian1: sending incremental file list
+2019-09-29 19:53:29.946543 +0000 build-debian1: cd+++++++++ pool/
+2019-09-29 19:53:29.947803 +0000 build-debian1: cd+++++++++ pool/main/
+2019-09-29 19:53:29.947861 +0000 build-debian1: cd+++++++++ pool/main/q/
+2019-09-29 19:53:29.947907 +0000 build-debian1: cd+++++++++ pool/main/q/qubes-remote-desktop/
+2019-09-29 19:53:29.947960 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb10u1.debian.tar.xz
+2019-09-29 19:53:29.948269 +0000 build-debian1: .          1,276 100%    0.00kB/s    0:00:00  .          1,276 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=15/20)
+2019-09-29 19:53:29.948415 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb10u1.dsc
+2019-09-29 19:53:29.948566 +0000 build-debian1: .          1,476 100%    1.41MB/s    0:00:00  .          1,476 100%    1.41MB/s    0:00:00 (xfr#2, to-chk=14/20)
+2019-09-29 19:53:29.948726 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.buildinfo
+2019-09-29 19:53:29.948966 +0000 build-debian1: .          5,153 100%    4.91MB/s    0:00:00  .          5,153 100%    4.91MB/s    0:00:00 (xfr#3, to-chk=13/20)
+2019-09-29 19:53:29.949172 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb10u1_amd64.deb
+2019-09-29 19:53:29.949376 +0000 build-debian1: .          2,432 100%    2.32MB/s    0:00:00  .          2,432 100%    2.32MB/s    0:00:00 (xfr#4, to-chk=12/20)
+2019-09-29 19:53:29.949612 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb11u1.debian.tar.xz
+2019-09-29 19:53:29.949762 +0000 build-debian1: .          1,276 100%    1.22MB/s    0:00:00  .          1,276 100%    1.22MB/s    0:00:00 (xfr#5, to-chk=11/20)
+2019-09-29 19:53:29.949918 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb11u1.dsc
+2019-09-29 19:53:29.950080 +0000 build-debian1: .          1,476 100%  720.70kB/s    0:00:00  .          1,476 100%  720.70kB/s    0:00:00 (xfr#6, to-chk=10/20)
+2019-09-29 19:53:29.950351 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.buildinfo
+2019-09-29 19:53:29.950513 +0000 build-debian1: .          5,182 100%    2.47MB/s    0:00:00  .          5,182 100%    2.47MB/s    0:00:00 (xfr#7, to-chk=9/20)
+2019-09-29 19:53:29.950672 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb11u1_amd64.deb
+2019-09-29 19:53:29.950911 +0000 build-debian1: .          2,432 100%  791.67kB/s    0:00:00  .          2,432 100%  791.67kB/s    0:00:00 (xfr#8, to-chk=8/20)
+2019-09-29 19:53:29.951183 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb8u1.debian.tar.xz
+2019-09-29 19:53:29.951450 +0000 build-debian1: .          1,276 100%  415.36kB/s    0:00:00  .          1,276 100%  415.36kB/s    0:00:00 (xfr#9, to-chk=7/20)
+2019-09-29 19:53:29.951706 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb8u1.dsc
+2019-09-29 19:53:29.951869 +0000 build-debian1: .          1,472 100%  479.17kB/s    0:00:00  .          1,472 100%  479.17kB/s    0:00:00 (xfr#10, to-chk=6/20)
+2019-09-29 19:53:29.951941 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb8u1_amd64.deb
+2019-09-29 19:53:29.952499 +0000 build-debian1: .          2,406 100%  587.40kB/s    0:00:00  .          2,406 100%  587.40kB/s    0:00:00 (xfr#11, to-chk=5/20)
+2019-09-29 19:53:29.952795 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb9u1.debian.tar.xz
+2019-09-29 19:53:29.952880 +0000 build-debian1: .          1,272 100%  310.55kB/s    0:00:00  .          1,272 100%  310.55kB/s    0:00:00 (xfr#12, to-chk=4/20)
+2019-09-29 19:53:29.952933 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb9u1.dsc
+2019-09-29 19:53:29.952988 +0000 build-debian1: .          1,472 100%  359.38kB/s    0:00:00  .          1,472 100%  359.38kB/s    0:00:00 (xfr#13, to-chk=3/20)
+2019-09-29 19:53:29.953039 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.buildinfo
+2019-09-29 19:53:29.953093 +0000 build-debian1: .          5,555 100%    1.32MB/s    0:00:00  .          5,555 100%    1.32MB/s    0:00:00 (xfr#14, to-chk=2/20)
+2019-09-29 19:53:29.953143 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2-1+deb9u1_amd64.deb
+2019-09-29 19:53:29.953196 +0000 build-debian1: .          2,350 100%  573.73kB/s    0:00:00  .          2,350 100%  573.73kB/s    0:00:00 (xfr#15, to-chk=1/20)
+2019-09-29 19:53:29.953294 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-remote-desktop/qubes-remote-desktop_4.0.2.orig.tar.xz
+2019-09-29 19:53:29.953350 +0000 build-debian1: .          3,008 100%  734.38kB/s    0:00:00  .          3,008 100%  587.50kB/s    0:00:00 (xfr#16, to-chk=0/20)
+2019-09-29 19:53:31.251505 +0000 build-debian1: Syncing r4.0/vm/bullseye-testing...
+2019-09-29 19:53:34.335698 +0000 build-debian1: sending incremental file list
+2019-09-29 19:53:34.694766 +0000 build-debian1: cd+++++++++ bullseye-testing/
+2019-09-29 19:53:34.694832 +0000 build-debian1: <f+++++++++ bullseye-testing/InRelease
+2019-09-29 19:53:34.694981 +0000 build-debian1: .          2,170 100%    0.00kB/s    0:00:00  .          2,170 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2019-09-29 19:53:34.695037 +0000 build-debian1: <f+++++++++ bullseye-testing/Release
+2019-09-29 19:53:34.695310 +0000 build-debian1: .          1,633 100%    1.56MB/s    0:00:00  .          1,633 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2019-09-29 19:53:34.695360 +0000 build-debian1: <f+++++++++ bullseye-testing/Release.gpg
+2019-09-29 19:53:34.695414 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2019-09-29 19:53:34.695455 +0000 build-debian1: cd+++++++++ bullseye-testing/main/
+2019-09-29 19:53:34.695497 +0000 build-debian1: cd+++++++++ bullseye-testing/main/binary-amd64/
+2019-09-29 19:53:34.695540 +0000 build-debian1: <f+++++++++ bullseye-testing/main/binary-amd64/Packages
+2019-09-29 19:53:34.695618 +0000 build-debian1: .            540 100%  527.34kB/s    0:00:00  .            540 100%  527.34kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2019-09-29 19:53:34.695666 +0000 build-debian1: <f+++++++++ bullseye-testing/main/binary-amd64/Packages.gz
+2019-09-29 19:53:34.695720 +0000 build-debian1: .            388 100%  378.91kB/s    0:00:00  .            388 100%  378.91kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2019-09-29 19:53:34.695763 +0000 build-debian1: <f+++++++++ bullseye-testing/main/binary-amd64/Release
+2019-09-29 19:53:34.695817 +0000 build-debian1: .            181 100%  176.76kB/s    0:00:00  .            181 100%  176.76kB/s    0:00:00 (xfr#6, to-chk=2/12)
+2019-09-29 19:53:34.695882 +0000 build-debian1: cd+++++++++ bullseye-testing/main/source/
+2019-09-29 19:53:34.695926 +0000 build-debian1: <f+++++++++ bullseye-testing/main/source/Release
+2019-09-29 19:53:34.695979 +0000 build-debian1: .            182 100%  177.73kB/s    0:00:00  .            182 100%  177.73kB/s    0:00:00 (xfr#7, to-chk=1/12)
+2019-09-29 19:53:34.696022 +0000 build-debian1: <f+++++++++ bullseye-testing/main/source/Sources.gz
+2019-09-29 19:53:34.696075 +0000 build-debian1: .            624 100%  609.38kB/s    0:00:00  .            624 100%  609.38kB/s    0:00:00 (xfr#8, to-chk=0/12)
+2019-09-29 19:53:35.783549 +0000 build-debian1: Syncing r4.0/vm/buster-testing...
+2019-09-29 19:53:38.790846 +0000 build-debian1: sending incremental file list
+2019-09-29 19:53:39.047028 +0000 build-debian1: cd+++++++++ buster-testing/
+2019-09-29 19:53:39.047604 +0000 build-debian1: <f+++++++++ buster-testing/InRelease
+2019-09-29 19:53:39.047988 +0000 build-debian1: .          2,166 100%    0.00kB/s    0:00:00  .          2,166 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2019-09-29 19:53:39.048061 +0000 build-debian1: <f+++++++++ buster-testing/Release
+2019-09-29 19:53:39.048119 +0000 build-debian1: .          1,629 100%    1.55MB/s    0:00:00  .          1,629 100%    1.55MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2019-09-29 19:53:39.048162 +0000 build-debian1: <f+++++++++ buster-testing/Release.gpg
+2019-09-29 19:53:39.048255 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2019-09-29 19:53:39.048304 +0000 build-debian1: cd+++++++++ buster-testing/main/
+2019-09-29 19:53:39.048347 +0000 build-debian1: cd+++++++++ buster-testing/main/binary-amd64/
+2019-09-29 19:53:39.048390 +0000 build-debian1: <f+++++++++ buster-testing/main/binary-amd64/Packages
+2019-09-29 19:53:39.048444 +0000 build-debian1: .            540 100%  527.34kB/s    0:00:00  .            540 100%  527.34kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2019-09-29 19:53:39.048488 +0000 build-debian1: <f+++++++++ buster-testing/main/binary-amd64/Packages.gz
+2019-09-29 19:53:39.048541 +0000 build-debian1: .            391 100%  381.84kB/s    0:00:00  .            391 100%  381.84kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2019-09-29 19:53:39.048595 +0000 build-debian1: <f+++++++++ buster-testing/main/binary-amd64/Release
+2019-09-29 19:53:39.048650 +0000 build-debian1: .            179 100%  174.80kB/s    0:00:00  .            179 100%  174.80kB/s    0:00:00 (xfr#6, to-chk=2/12)
+2019-09-29 19:53:39.048691 +0000 build-debian1: cd+++++++++ buster-testing/main/source/
+2019-09-29 19:53:39.048733 +0000 build-debian1: <f+++++++++ buster-testing/main/source/Release
+2019-09-29 19:53:39.048786 +0000 build-debian1: .            180 100%  175.78kB/s    0:00:00  .            180 100%  175.78kB/s    0:00:00 (xfr#7, to-chk=1/12)
+2019-09-29 19:53:39.048828 +0000 build-debian1: <f+++++++++ buster-testing/main/source/Sources.gz
+2019-09-29 19:53:39.048881 +0000 build-debian1: .            624 100%  609.38kB/s    0:00:00  .            624 100%  609.38kB/s    0:00:00 (xfr#8, to-chk=0/12)
+2019-09-29 19:53:39.961599 +0000 build-debian1: Syncing r4.0/vm/jessie-testing...
+2019-09-29 19:53:42.842673 +0000 build-debian1: sending incremental file list
+2019-09-29 19:53:43.235629 +0000 build-debian1: cd+++++++++ jessie-testing/
+2019-09-29 19:53:43.235921 +0000 build-debian1: <f+++++++++ jessie-testing/InRelease
+2019-09-29 19:53:43.236344 +0000 build-debian1: .          2,166 100%    0.00kB/s    0:00:00  .          2,166 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2019-09-29 19:53:43.236426 +0000 build-debian1: <f+++++++++ jessie-testing/Release
+2019-09-29 19:53:43.236485 +0000 build-debian1: .          1,629 100%    1.55MB/s    0:00:00  .          1,629 100%    1.55MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2019-09-29 19:53:43.236528 +0000 build-debian1: <f+++++++++ jessie-testing/Release.gpg
+2019-09-29 19:53:43.236582 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2019-09-29 19:53:43.236646 +0000 build-debian1: cd+++++++++ jessie-testing/main/
+2019-09-29 19:53:43.236691 +0000 build-debian1: cd+++++++++ jessie-testing/main/binary-amd64/
+2019-09-29 19:53:43.236734 +0000 build-debian1: <f+++++++++ jessie-testing/main/binary-amd64/Packages
+2019-09-29 19:53:43.236787 +0000 build-debian1: .            538 100%  525.39kB/s    0:00:00  .            538 100%  525.39kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2019-09-29 19:53:43.236831 +0000 build-debian1: <f+++++++++ jessie-testing/main/binary-amd64/Packages.gz
+2019-09-29 19:53:43.236884 +0000 build-debian1: .            388 100%  378.91kB/s    0:00:00  .            388 100%  378.91kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2019-09-29 19:53:43.236927 +0000 build-debian1: <f+++++++++ jessie-testing/main/binary-amd64/Release
+2019-09-29 19:53:43.236980 +0000 build-debian1: .            179 100%  174.80kB/s    0:00:00  .            179 100%  174.80kB/s    0:00:00 (xfr#6, to-chk=2/12)
+2019-09-29 19:53:43.237020 +0000 build-debian1: cd+++++++++ jessie-testing/main/source/
+2019-09-29 19:53:43.237061 +0000 build-debian1: <f+++++++++ jessie-testing/main/source/Release
+2019-09-29 19:53:43.237113 +0000 build-debian1: .            180 100%  175.78kB/s    0:00:00  .            180 100%  175.78kB/s    0:00:00 (xfr#7, to-chk=1/12)
+2019-09-29 19:53:43.237156 +0000 build-debian1: <f+++++++++ jessie-testing/main/source/Sources.gz
+2019-09-29 19:53:43.237251 +0000 build-debian1: .            623 100%  608.40kB/s    0:00:00  .            623 100%  608.40kB/s    0:00:00 (xfr#8, to-chk=0/12)
+2019-09-29 19:53:44.205489 +0000 build-debian1: Syncing r4.0/vm/stretch-testing...
+2019-09-29 19:53:47.345622 +0000 build-debian1: sending incremental file list
+2019-09-29 19:53:47.575770 +0000 build-debian1: cd+++++++++ stretch-testing/
+2019-09-29 19:53:47.576240 +0000 build-debian1: <f+++++++++ stretch-testing/InRelease
+2019-09-29 19:53:47.576314 +0000 build-debian1: .          2,168 100%    0.00kB/s    0:00:00  .          2,168 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2019-09-29 19:53:47.576386 +0000 build-debian1: <f+++++++++ stretch-testing/Release
+2019-09-29 19:53:47.576443 +0000 build-debian1: .          1,631 100%    1.56MB/s    0:00:00  .          1,631 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2019-09-29 19:53:47.576487 +0000 build-debian1: <f+++++++++ stretch-testing/Release.gpg
+2019-09-29 19:53:47.576540 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2019-09-29 19:53:47.576592 +0000 build-debian1: cd+++++++++ stretch-testing/main/
+2019-09-29 19:53:47.576636 +0000 build-debian1: cd+++++++++ stretch-testing/main/binary-amd64/
+2019-09-29 19:53:47.576679 +0000 build-debian1: <f+++++++++ stretch-testing/main/binary-amd64/Packages
+2019-09-29 19:53:47.576732 +0000 build-debian1: .            538 100%  525.39kB/s    0:00:00  .            538 100%  525.39kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2019-09-29 19:53:47.576777 +0000 build-debian1: <f+++++++++ stretch-testing/main/binary-amd64/Packages.gz
+2019-09-29 19:53:47.576830 +0000 build-debian1: .            391 100%  381.84kB/s    0:00:00  .            391 100%  381.84kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2019-09-29 19:53:47.576873 +0000 build-debian1: <f+++++++++ stretch-testing/main/binary-amd64/Release
+2019-09-29 19:53:47.576926 +0000 build-debian1: .            180 100%  175.78kB/s    0:00:00  .            180 100%  175.78kB/s    0:00:00 (xfr#6, to-chk=2/12)
+2019-09-29 19:53:47.576968 +0000 build-debian1: cd+++++++++ stretch-testing/main/source/
+2019-09-29 19:53:47.577015 +0000 build-debian1: <f+++++++++ stretch-testing/main/source/Release
+2019-09-29 19:53:47.577070 +0000 build-debian1: .            181 100%  176.76kB/s    0:00:00  .            181 100%  176.76kB/s    0:00:00 (xfr#7, to-chk=1/12)
+2019-09-29 19:53:47.577114 +0000 build-debian1: <f+++++++++ stretch-testing/main/source/Sources.gz
+2019-09-29 19:53:47.577167 +0000 build-debian1: .            619 100%  604.49kB/s    0:00:00  .            619 100%  604.49kB/s    0:00:00 (xfr#8, to-chk=0/12)
+2019-09-29 19:53:48.795832 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb
+2019-09-29 19:53:48.796625 +0000 build-debian1: Makefile:772: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.bullseye internal-update-repo-current-testing.vm.buster internal-update-repo-current-testing.vm.jessie internal-update-repo-current-testing.vm.stretch post-update-repo-current-testing
+2019-09-29 19:53:48.796685 +0000 build-debian1: true
+2019-09-29 19:53:48.799795 +0000 build-debian1: > done
+2019-09-29 19:53:48.799846 +0000 > closing log
