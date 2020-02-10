@@ -1,0 +1,1510 @@
+2020-02-10 22:51:27.502909 +0000 > starting log
+2020-02-10 22:51:27.505127 +0000 build-fedora2: > starting build with log
+2020-02-10 22:51:27.505455 +0000 build-fedora2: >> make args: DISTS_VM= fc29 fc30 fc31 DIST_DOM0= BUILD_LOGS_URL= core-agent-linux-addon-bridge-device-vm-fc29=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-44-51 core-agent-linux-addon-bridge-device-vm-fc30=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-46-01 core-agent-linux-addon-bridge-device-vm-fc31=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-48-08 GIT_URL_core_agent_linux_addon_bridge_device=https://github.com/QubesOS-contrib/qubes-core-agent-linux-addon-bridge-device sign-all update-repo-current-testing
+2020-02-10 22:51:27.505490 +0000 build-fedora2: >> MAKEFLAGS=
+2020-02-10 22:51:27.505519 +0000 build-fedora2: >> COMPONENTS=core-agent-linux-addon-bridge-device
+2020-02-10 22:51:27.505541 +0000 build-fedora2: >> DISTS_VM=
+2020-02-10 22:51:27.505563 +0000 build-fedora2: >> DIST_DOM0=
+2020-02-10 22:51:27.505590 +0000 build-fedora2: >> qubes-builder ff22da6890629b4ca8f0088f2068b716f1084080
+2020-02-10 22:51:27.505621 +0000 build-fedora2: >> qubes-builder/qubes-src/core-agent-linux-addon-bridge-device e6355e4c8541993e20e1a9186ec24ebc224101b1
+2020-02-10 22:51:27.505650 +0000 build-fedora2: !! pkgs/vm-fc29/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.505679 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:51:27.505712 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:51:27.505742 +0000 build-fedora2: !! pkgs/vm-fc30/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.505771 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:51:27.505803 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:51:27.505834 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.505863 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:51:27.505894 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:51:27.505937 +0000 build-fedora2: 78a4d3c0e626e5567d47683b0d404e6c69da063be0f78a74a6b4475decff8468ab9bc6941168184df5674bd55a007fe55c602e2376a78c19c718d8ffda197ffe  pkgs/vm-fc29/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.505983 +0000 build-fedora2: 556c5b88c5ba4df9f765f713226e1a0cdf68f2cf502053c2fad66c8f96111e218891ca0513e2e9707d252a6eeb813457b57ee1fe18753e66c902c8f392d69f39  pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:51:27.506030 +0000 build-fedora2: 4eb34e3c84760edcc4aed9b0c8aeefee7c74beb94b5f19feec82783be68a2a473e7010facc9d57b769cc2cf7a38385bd2bd9058bb91297dcef9959b1f3253ea2  pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:51:27.506075 +0000 build-fedora2: 12594873fc5c533dec600f6483b2dd24f0159ba183d5a4204afa80364fd4bef4d6dd3a2e97f2e041da52aef6c50ab6b6adc8e02610ece8c08a72e94b2dedef6b  pkgs/vm-fc30/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.506123 +0000 build-fedora2: 2574c1918490291a466e3d413d9b63c7fb4f98fcce58722182cc608524ed02558292e7bd45c7f323549c32a83f13b66d0ba43a8e9bcda02b2f8a9ba2094e8785  pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:51:27.506388 +0000 build-fedora2: 978a1ec32ae5d747116d743ecc35b54db9ea669c47304d1668bc7781e535e6bf02a3be10717bd5a72636b4bcf74516d9b47c7e076c99c0d4e98a1f6474003f00  pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:51:27.506439 +0000 build-fedora2: 7c887d2fac6dc9f125492b3791ba45a98cdf4f1f07b0953e4680ff7540cb7444647089d17a2df6f1adba5fefe26ed9bbe189b6a83134e49ea1b86bb7ef8309ad  pkgs/vm-fc31/qubes-core-agent-linux-bridge-device.spec.list
+2020-02-10 22:51:27.506503 +0000 build-fedora2: 93bf686d1442888a82815c96b9150a02b9cb6040a9af28323e5c887af1620438dc8ad6e352ae1738ba73c4b12c4a0cd16372069c9a61ddc5c0ae4d48983f4538  pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:51:27.506553 +0000 build-fedora2: de87f722fbfe4679005c8fbaee45e477d3fa94ebaec638cb8ef0b67048bb1165c335bee4eb1d0b5b3fc2457005c1ad44f10f57aeeaab01db3d39e41572d11495  pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:51:27.506587 +0000 build-fedora2: ================================================================================
+2020-02-10 22:51:27.506618 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2020-02-10 22:51:27.506649 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2020-02-10 22:51:27.506679 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2020-02-10 22:51:27.506708 +0000 build-fedora2: ================================================================================
+2020-02-10 22:51:27.506731 +0000 build-fedora2: DISTS_VM:
+2020-02-10 22:51:27.506754 +0000 build-fedora2:      fc29, fc30, fc31,
+2020-02-10 22:51:27.506776 +0000 build-fedora2: DISTS_ALL:
+2020-02-10 22:51:27.506800 +0000 build-fedora2:      vm-fc29, vm-fc30, vm-fc31,
+2020-02-10 22:51:27.506821 +0000 build-fedora2: DIST_DOM0:
+2020-02-10 22:51:27.506842 +0000 build-fedora2:     
+2020-02-10 22:51:27.506864 +0000 build-fedora2: BUILDER_PLUGINS:
+2020-02-10 22:51:27.506890 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2020-02-10 22:51:27.506913 +0000 build-fedora2: COMPONENTS:
+2020-02-10 22:51:27.506955 +0000 build-fedora2:      core-agent-linux-addon-bridge-device,
+2020-02-10 22:51:27.506988 +0000 build-fedora2: GIT_REPOS:
+2020-02-10 22:51:27.507015 +0000 build-fedora2:      qubes-src/core-agent-linux-addon-bridge-device,
+2020-02-10 22:51:27.507037 +0000 build-fedora2: TEMPLATE:
+2020-02-10 22:51:27.507058 +0000 build-fedora2:     
+2020-02-10 22:51:27.507080 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2020-02-10 22:51:27.507101 +0000 build-fedora2:     
+2020-02-10 22:51:27.507123 +0000 build-fedora2: TEMPLATE_ALIAS:
+2020-02-10 22:51:27.507349 +0000 build-fedora2:     
+2020-02-10 22:51:27.507376 +0000 build-fedora2: TEMPLATE_LABEL:
+2020-02-10 22:51:27.507397 +0000 build-fedora2:     
+2020-02-10 22:51:27.528747 +0000 build-fedora2: > running make
+2020-02-10 22:51:27.560400 +0000 build-fedora2: Makefile:266: target 'sign.vm.fc29.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:27.560507 +0000 build-fedora2: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-10 22:51:27.560547 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-02-10 22:51:27.560576 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-10 22:51:27.560604 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-10 22:51:27.560634 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:27.560669 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc29 template-name)
+2020-02-10 22:51:27.560693 +0000 build-fedora2: fi
+2020-02-10 22:51:27.560724 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:27.560779 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-02-10 22:51:27.560805 +0000 build-fedora2: ..DIST=fc29 \
+2020-02-10 22:51:27.560827 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-02-10 22:51:27.560853 +0000 build-fedora2: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-10 22:51:27.560877 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-02-10 22:51:27.560900 +0000 build-fedora2: ..sign || exit 1; \
+2020-02-10 22:51:27.560927 +0000 build-fedora2: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-10 22:51:27.560952 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-02-10 22:51:27.560983 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-10 22:51:27.561014 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-10 22:51:27.561038 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-10 22:51:27.561059 +0000 build-fedora2: ..fi ;\
+2020-02-10 22:51:27.561082 +0000 build-fedora2: .done ; \
+2020-02-10 22:51:27.561105 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-02-10 22:51:27.561353 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-02-10 22:51:27.561402 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-10 22:51:27.561428 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-10 22:51:27.561453 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-10 22:51:27.561475 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:27.561503 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-10 22:51:27.561525 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:27.561545 +0000 build-fedora2: fi
+2020-02-10 22:51:27.583336 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:27.583383 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:27.584596 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:27.587577 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:27.587631 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:27.588359 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:27.591441 +0000 build-fedora2: + tmp_spec=/tmp/tmp.6o7DEu.spec
+2020-02-10 22:51:27.592087 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:27.595094 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.6o7DEu.spec
+2020-02-10 22:51:27.598674 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:27.599520 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:27.599593 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.604044 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:27.604704 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:27.604762 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.609591 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:27.609635 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:27.609667 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:27.609702 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.613029 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.617550 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.620847 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:27.624531 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.703098 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.705875 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.709012 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:27.710067 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:27.712991 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.6o7DEu.spec
+2020-02-10 22:51:27.848896 +0000 build-fedora2: + rm -f /tmp/tmp.6o7DEu.spec
+2020-02-10 22:51:27.855846 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:177: target 'sign-prep' does not exist
+2020-02-10 22:51:27.856408 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-02-10 22:51:27.856453 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-02-10 22:51:27.856495 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:27.856536 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:27.856561 +0000 build-fedora2: fi
+2020-02-10 22:51:27.882590 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:27.882782 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:27.884012 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:27.886993 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:27.887096 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:27.887929 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:27.890766 +0000 build-fedora2: + tmp_spec=/tmp/tmp.nsTNXW.spec
+2020-02-10 22:51:27.891594 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:27.894549 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.nsTNXW.spec
+2020-02-10 22:51:27.898362 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:27.898454 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:27.899449 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.903542 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:27.903587 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:27.903629 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.907987 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:27.908031 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:27.908461 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:27.908509 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.911678 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.916118 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:27.919420 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:27.922455 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.001473 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.003729 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.006883 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:28.007621 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:28.010909 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.nsTNXW.spec
+2020-02-10 22:51:28.137561 +0000 build-fedora2: + rm -f /tmp/tmp.nsTNXW.spec
+2020-02-10 22:51:28.897835 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:191: update target 'sign' due to: sign-prep
+2020-02-10 22:51:28.897946 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && for pkg in pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm ; do \
+2020-02-10 22:51:28.897984 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-02-10 22:51:28.898033 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-02-10 22:51:28.898063 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-02-10 22:51:28.898089 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-02-10 22:51:28.898126 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-02-10 22:51:28.898382 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:28.898407 +0000 build-fedora2: done
+2020-02-10 22:51:28.922558 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:28.922648 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:28.923756 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:28.927005 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:28.927059 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:28.927528 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:28.930552 +0000 build-fedora2: + tmp_spec=/tmp/tmp.rStF5U.spec
+2020-02-10 22:51:28.931494 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:28.934546 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.rStF5U.spec
+2020-02-10 22:51:28.937713 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:28.938029 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:28.938610 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.942983 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:28.943483 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:28.943539 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.947926 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:28.947971 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:28.948004 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:28.948040 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.951436 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.955671 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:28.959047 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:28.961985 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:29.040708 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:29.043739 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:29.047475 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:29.048383 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:29.051639 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.rStF5U.spec
+2020-02-10 22:51:29.185927 +0000 build-fedora2: + rm -f /tmp/tmp.rStF5U.spec
+2020-02-10 22:51:30.007502 +0000 build-fedora2: pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm:
+2020-02-10 22:51:30.014974 +0000 build-fedora2: Error while vchan send, exiting
+2020-02-10 22:51:30.859469 +0000 build-fedora2: pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm:
+2020-02-10 22:51:30.861520 +0000 build-fedora2: Makefile:266: target 'sign.vm.fc30.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:30.861629 +0000 build-fedora2: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-10 22:51:30.861670 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-02-10 22:51:30.861757 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-10 22:51:30.861791 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-10 22:51:30.861822 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:30.861857 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc30 template-name)
+2020-02-10 22:51:30.861880 +0000 build-fedora2: fi
+2020-02-10 22:51:30.861912 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:30.861941 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-02-10 22:51:30.861965 +0000 build-fedora2: ..DIST=fc30 \
+2020-02-10 22:51:30.861988 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-02-10 22:51:30.862014 +0000 build-fedora2: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-10 22:51:30.862037 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-02-10 22:51:30.862059 +0000 build-fedora2: ..sign || exit 1; \
+2020-02-10 22:51:30.862087 +0000 build-fedora2: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-10 22:51:30.862112 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-02-10 22:51:30.862327 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-10 22:51:30.862369 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-10 22:51:30.862395 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-10 22:51:30.862416 +0000 build-fedora2: ..fi ;\
+2020-02-10 22:51:30.862439 +0000 build-fedora2: .done ; \
+2020-02-10 22:51:30.862463 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-02-10 22:51:30.862487 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-02-10 22:51:30.862512 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-10 22:51:30.862536 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-10 22:51:30.862560 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-10 22:51:30.862581 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:30.862609 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-10 22:51:30.862631 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:30.862652 +0000 build-fedora2: fi
+2020-02-10 22:51:30.898628 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:30.898868 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:30.900398 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:30.903514 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:30.903569 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:30.904554 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:30.907484 +0000 build-fedora2: + tmp_spec=/tmp/tmp.fSpeTU.spec
+2020-02-10 22:51:30.908108 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:30.911008 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.fSpeTU.spec
+2020-02-10 22:51:30.915488 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:30.915728 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:30.915831 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:30.921871 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:30.921918 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:30.921985 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:30.931532 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:30.932436 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:30.933482 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:30.933562 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:30.942760 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:30.953778 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:30.961593 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:30.965793 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.052689 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.056614 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.060973 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:31.062102 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:31.066375 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.fSpeTU.spec
+2020-02-10 22:51:31.209854 +0000 build-fedora2: + rm -f /tmp/tmp.fSpeTU.spec
+2020-02-10 22:51:31.217629 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:177: target 'sign-prep' does not exist
+2020-02-10 22:51:31.218691 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-02-10 22:51:31.218778 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-02-10 22:51:31.218871 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:31.218952 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:31.219006 +0000 build-fedora2: fi
+2020-02-10 22:51:31.244439 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:31.244777 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:31.246701 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:31.250702 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:31.250801 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:31.251983 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:31.255660 +0000 build-fedora2: + tmp_spec=/tmp/tmp.4vywA4.spec
+2020-02-10 22:51:31.256789 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:31.260483 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.4vywA4.spec
+2020-02-10 22:51:31.264559 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:31.264925 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:31.265964 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.271055 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:31.272400 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:31.272515 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.278088 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:31.278419 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:31.278504 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:31.278588 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.282074 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.287477 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.291515 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:31.294799 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.378640 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.382436 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.386052 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:31.387681 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:31.391367 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.4vywA4.spec
+2020-02-10 22:51:31.525910 +0000 build-fedora2: + rm -f /tmp/tmp.4vywA4.spec
+2020-02-10 22:51:31.917315 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:191: update target 'sign' due to: sign-prep
+2020-02-10 22:51:31.917437 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && for pkg in pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm ; do \
+2020-02-10 22:51:31.917510 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-02-10 22:51:31.917599 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-02-10 22:51:31.917660 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-02-10 22:51:31.917709 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-02-10 22:51:31.917751 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-02-10 22:51:31.917777 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:31.917799 +0000 build-fedora2: done
+2020-02-10 22:51:31.941396 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:31.941484 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:31.942595 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:31.945678 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:31.945732 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:31.946462 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:31.949465 +0000 build-fedora2: + tmp_spec=/tmp/tmp.qFcMGH.spec
+2020-02-10 22:51:31.950317 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:31.953400 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.qFcMGH.spec
+2020-02-10 22:51:31.956663 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:31.957412 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:31.957524 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.962004 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:31.962048 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:31.962090 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.966499 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:31.966543 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:31.966576 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:31.966611 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.969995 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.978990 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:31.982445 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:31.985450 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:32.062817 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:32.065908 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:32.139611 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:32.143460 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:32.145722 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.qFcMGH.spec
+2020-02-10 22:51:32.277388 +0000 build-fedora2: + rm -f /tmp/tmp.qFcMGH.spec
+2020-02-10 22:51:33.131693 +0000 build-fedora2: pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm:
+2020-02-10 22:51:34.011121 +0000 build-fedora2: pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm:
+2020-02-10 22:51:34.013868 +0000 build-fedora2: Makefile:266: target 'sign.vm.fc31.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:34.014065 +0000 build-fedora2: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-10 22:51:34.014601 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-02-10 22:51:34.014670 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-10 22:51:34.014727 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-10 22:51:34.014785 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:34.014849 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc31 template-name)
+2020-02-10 22:51:34.014892 +0000 build-fedora2: fi
+2020-02-10 22:51:34.014953 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:34.015007 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-02-10 22:51:34.015050 +0000 build-fedora2: ..DIST=fc31 \
+2020-02-10 22:51:34.015095 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-02-10 22:51:34.015480 +0000 build-fedora2: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-10 22:51:34.015546 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-02-10 22:51:34.015591 +0000 build-fedora2: ..sign || exit 1; \
+2020-02-10 22:51:34.015644 +0000 build-fedora2: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-10 22:51:34.015690 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-02-10 22:51:34.015746 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-10 22:51:34.015802 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-10 22:51:34.015848 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-10 22:51:34.015888 +0000 build-fedora2: ..fi ;\
+2020-02-10 22:51:34.015929 +0000 build-fedora2: .done ; \
+2020-02-10 22:51:34.015974 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-02-10 22:51:34.016018 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-02-10 22:51:34.016064 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-10 22:51:34.016109 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-10 22:51:34.016493 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-10 22:51:34.016549 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:34.016605 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-10 22:51:34.016645 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:34.016684 +0000 build-fedora2: fi
+2020-02-10 22:51:34.039951 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:34.040560 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:34.041519 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:34.044804 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:34.045669 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:34.046044 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:34.049568 +0000 build-fedora2: + tmp_spec=/tmp/tmp.u50yRs.spec
+2020-02-10 22:51:34.049968 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:34.053009 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.u50yRs.spec
+2020-02-10 22:51:34.056354 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:34.056459 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:34.057346 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.061521 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:34.061565 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:34.061606 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.066100 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:34.066820 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:34.066881 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:34.066934 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.070661 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.085690 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.090564 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:34.094987 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.182552 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.185665 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.189749 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:34.189899 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:34.192701 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.u50yRs.spec
+2020-02-10 22:51:34.325734 +0000 build-fedora2: + rm -f /tmp/tmp.u50yRs.spec
+2020-02-10 22:51:34.332900 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:177: target 'sign-prep' does not exist
+2020-02-10 22:51:34.333783 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-02-10 22:51:34.333861 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-02-10 22:51:34.333942 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:34.334001 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-02-10 22:51:34.334037 +0000 build-fedora2: fi
+2020-02-10 22:51:34.358578 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:34.358923 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:34.360556 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:34.363696 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:34.363909 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:34.364489 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:34.367605 +0000 build-fedora2: + tmp_spec=/tmp/tmp.5t2yLf.spec
+2020-02-10 22:51:34.367987 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:34.371341 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.5t2yLf.spec
+2020-02-10 22:51:34.375618 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:34.376011 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:34.376700 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.380369 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:34.380415 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:34.380458 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.384997 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:34.385070 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:34.385103 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:34.385139 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.388821 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.392801 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.396924 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:34.399608 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.478874 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.482014 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:34.484741 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:34.485773 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:34.488406 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.5t2yLf.spec
+2020-02-10 22:51:34.615709 +0000 build-fedora2: + rm -f /tmp/tmp.5t2yLf.spec
+2020-02-10 22:51:35.053729 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:191: update target 'sign' due to: sign-prep
+2020-02-10 22:51:35.053837 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && for pkg in pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm ; do \
+2020-02-10 22:51:35.053878 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-02-10 22:51:35.053929 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-02-10 22:51:35.053960 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-02-10 22:51:35.053987 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-02-10 22:51:35.054025 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-02-10 22:51:35.054093 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:35.054118 +0000 build-fedora2: done
+2020-02-10 22:51:35.078458 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:35.078648 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:35.079770 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:35.082952 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:35.083636 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:35.084536 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:35.087486 +0000 build-fedora2: + tmp_spec=/tmp/tmp.H03PeP.spec
+2020-02-10 22:51:35.088363 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:35.091374 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.H03PeP.spec
+2020-02-10 22:51:35.094932 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:35.095339 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:35.096112 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.100666 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:35.100714 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:35.100760 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.104969 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:35.105022 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:35.106054 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:35.106404 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.109525 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.113813 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.117619 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:35.120762 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.208097 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.211671 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:35.215424 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:35.216374 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:35.219533 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.H03PeP.spec
+2020-02-10 22:51:35.349444 +0000 build-fedora2: + rm -f /tmp/tmp.H03PeP.spec
+2020-02-10 22:51:36.142529 +0000 build-fedora2: pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm:
+2020-02-10 22:51:36.891602 +0000 build-fedora2: pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm:
+2020-02-10 22:51:36.894449 +0000 build-fedora2: Makefile:812: target 'internal-update-repo-current-testing.vm.fc29.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:36.894530 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc29_BASEDIR"; \
+2020-02-10 22:51:36.894568 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-10 22:51:36.894604 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-10 22:51:36.894632 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-10 22:51:36.894655 +0000 build-fedora2: fi; \
+2020-02-10 22:51:36.894683 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-02-10 22:51:36.894776 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-02-10 22:51:36.894809 +0000 build-fedora2: else \
+2020-02-10 22:51:36.894852 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-02-10 22:51:36.894877 +0000 build-fedora2: fi; \
+2020-02-10 22:51:36.894910 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:36.894944 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:36.894970 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-02-10 22:51:36.895004 +0000 build-fedora2: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-10 22:51:36.895032 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-02-10 22:51:36.895058 +0000 build-fedora2: ...echo "no version tag"; \
+2020-02-10 22:51:36.895082 +0000 build-fedora2: ...exit 0; \
+2020-02-10 22:51:36.895105 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:36.895129 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:36.895395 +0000 build-fedora2: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:36.895439 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc29 template-name)
+2020-02-10 22:51:36.895466 +0000 build-fedora2: fi
+2020-02-10 22:51:36.895522 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc29 PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 get-var GET_VAR=PACKAGE_LIST); \
+2020-02-10 22:51:36.895558 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-02-10 22:51:36.895583 +0000 build-fedora2: ..echo "no packages."; \
+2020-02-10 22:51:36.895606 +0000 build-fedora2: ..exit 0; \
+2020-02-10 22:51:36.895643 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:36.895672 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc29 PACKAGE_SET=vm \
+2020-02-10 22:51:36.895705 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:36.895731 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-02-10 22:51:36.895758 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-02-10 22:51:36.895789 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 \
+2020-02-10 22:51:36.895832 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc29-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:36.895872 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-44-51 \
+2020-02-10 22:51:36.895900 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-02-10 22:51:36.895937 +0000 build-fedora2: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-10 22:51:36.895970 +0000 build-fedora2: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:36.896036 +0000 build-fedora2: .DIST=fc29 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 \
+2020-02-10 22:51:36.896075 +0000 build-fedora2: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-10 22:51:36.896101 +0000 build-fedora2: else \
+2020-02-10 22:51:36.896133 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-10 22:51:36.896365 +0000 build-fedora2: fi; \
+2020-02-10 22:51:36.896391 +0000 build-fedora2: echo
+2020-02-10 22:51:36.926430 +0000 build-fedora2: Updating qubes-src/core-agent-linux-addon-bridge-device... + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:36.926549 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:36.927645 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:36.930740 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:36.930794 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:36.931557 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:36.934665 +0000 build-fedora2: + tmp_spec=/tmp/tmp.0iHUr0.spec
+2020-02-10 22:51:36.935523 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:36.938515 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.0iHUr0.spec
+2020-02-10 22:51:36.941708 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:36.941946 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:36.942512 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:36.946941 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:36.946985 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:36.947034 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:36.951941 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:36.951985 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:36.952018 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:36.952407 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:36.956000 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:36.960506 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:36.964026 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:36.966971 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.050044 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.053516 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.057000 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:37.058038 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.061421 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.0iHUr0.spec
+2020-02-10 22:51:37.193595 +0000 build-fedora2: + rm -f /tmp/tmp.0iHUr0.spec
+2020-02-10 22:51:37.212470 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:37.212707 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.214351 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:37.217424 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:37.217746 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:37.218957 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:37.222653 +0000 build-fedora2: + tmp_spec=/tmp/tmp.BpOocF.spec
+2020-02-10 22:51:37.223680 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.226744 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.BpOocF.spec
+2020-02-10 22:51:37.230459 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.230908 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:37.231451 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.235939 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.235982 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:37.236025 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.240691 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:37.240735 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.240767 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:37.240803 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.243946 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.248949 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.252441 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:37.255488 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.331812 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.334747 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.337772 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:37.338628 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.341653 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.BpOocF.spec
+2020-02-10 22:51:37.467492 +0000 build-fedora2: + rm -f /tmp/tmp.BpOocF.spec
+2020-02-10 22:51:37.502435 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:37.502526 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.503566 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:37.506498 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:37.506574 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:37.507392 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:37.510400 +0000 build-fedora2: + tmp_spec=/tmp/tmp.ZhCyBC.spec
+2020-02-10 22:51:37.511307 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.514348 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.ZhCyBC.spec
+2020-02-10 22:51:37.517679 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.518423 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:37.518561 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.522940 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.522984 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:37.523027 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.527728 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:37.527772 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.527805 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:37.527842 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.531413 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.535596 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.538962 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:37.541950 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.618529 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.621368 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.624921 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:37.625795 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.628869 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.ZhCyBC.spec
+2020-02-10 22:51:37.754117 +0000 build-fedora2: + rm -f /tmp/tmp.ZhCyBC.spec
+2020-02-10 22:51:37.801068 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:152: target 'update-repo-do' does not exist
+2020-02-10 22:51:37.801327 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc29/rpm
+2020-02-10 22:51:37.825431 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:37.825525 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.826525 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:37.829740 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:37.829796 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:37.830766 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:37.833926 +0000 build-fedora2: + tmp_spec=/tmp/tmp.tHh25k.spec
+2020-02-10 22:51:37.834926 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.837707 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.tHh25k.spec
+2020-02-10 22:51:37.841415 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:37.841505 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:37.842061 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.846572 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.846644 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:37.846689 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.851005 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:37.851049 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:37.851105 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:37.851581 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.855463 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.859472 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.862933 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:37.865816 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.946433 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.949569 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:37.952971 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:37.954014 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:37.956961 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.tHh25k.spec
+2020-02-10 22:51:38.081589 +0000 build-fedora2: + rm -f /tmp/tmp.tHh25k.spec
+2020-02-10 22:51:38.093440 +0000 build-fedora2: if [ -n "pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm" ]; then \
+2020-02-10 22:51:38.093523 +0000 build-fedora2: .cd qubes-src/core-agent-linux-addon-bridge-device && ln -f pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc29/rpm/; \
+2020-02-10 22:51:38.093589 +0000 build-fedora2: else \
+2020-02-10 22:51:38.093632 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-core-agent-linux-bridge-device.spec, syntax error?`tput sgr0`"; \
+2020-02-10 22:51:38.093660 +0000 build-fedora2: .exit 1; \
+2020-02-10 22:51:38.093683 +0000 build-fedora2: fi
+2020-02-10 22:51:38.099579 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && echo pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc29-core-agent-linux-addon-bridge-device
+2020-02-10 22:51:38.129721 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-10 22:51:38.129783 +0000 build-fedora2: [ -z "qubes-core-agent-bridge-device-4.0.1-1.fc29" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-02-10 22:51:38.129824 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-44-51" \
+2020-02-10 22:51:38.129851 +0000 build-fedora2: .upload \
+2020-02-10 22:51:38.129874 +0000 build-fedora2: ."r4.0" \
+2020-02-10 22:51:38.129900 +0000 build-fedora2: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-10 22:51:38.129928 +0000 build-fedora2: ."qubes-core-agent-bridge-device-4.0.1-1.fc29" \
+2020-02-10 22:51:38.129950 +0000 build-fedora2: ."fc29" \
+2020-02-10 22:51:38.129972 +0000 build-fedora2: ."vm" \
+2020-02-10 22:51:38.129994 +0000 build-fedora2: ."current-testing" \
+2020-02-10 22:51:38.130027 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc29-current-testing" \
+2020-02-10 22:51:38.130062 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc29-current"
+2020-02-10 22:51:38.167758 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:38.168510 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:38.169644 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:38.172974 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:38.173064 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:38.173889 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:38.177024 +0000 build-fedora2: + tmp_spec=/tmp/tmp.C1eocR.spec
+2020-02-10 22:51:38.177562 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:38.180724 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.C1eocR.spec
+2020-02-10 22:51:38.184467 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:38.184559 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:38.185107 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.189466 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:38.189511 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:38.189553 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.193980 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:38.194024 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:38.194056 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:38.194093 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.197375 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.228525 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.235123 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:38.240435 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.340877 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.345091 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:38.353082 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:38.354701 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:38.359085 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.C1eocR.spec
+2020-02-10 22:51:38.488874 +0000 build-fedora2: + rm -f /tmp/tmp.C1eocR.spec
+2020-02-10 22:51:38.973618 +0000 build-fedora2: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-10 22:51:38.973750 +0000 build-fedora2: Try --always, or create some tags.
+2020-02-10 22:51:43.032882 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc29-current-testing does not exist, initializing with the current state
+2020-02-10 22:51:43.033017 +0000 build-fedora2: WARNING: failed to add r4.0-fc29-cur-test label to issue 15: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-10 22:51:43.059480 +0000 build-fedora2: 
+2020-02-10 22:51:43.060060 +0000 build-fedora2: Makefile:787: update target 'internal-update-repo-current-testing.vm.fc29' due to: internal-update-repo-current-testing.vm.fc29.core-agent-linux-addon-bridge-device
+2020-02-10 22:51:43.060103 +0000 build-fedora2: true
+2020-02-10 22:51:43.065108 +0000 build-fedora2: Makefile:812: target 'internal-update-repo-current-testing.vm.fc30.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:43.065343 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc30_BASEDIR"; \
+2020-02-10 22:51:43.065389 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-10 22:51:43.065426 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-10 22:51:43.065452 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-10 22:51:43.065473 +0000 build-fedora2: fi; \
+2020-02-10 22:51:43.065498 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-02-10 22:51:43.065523 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-02-10 22:51:43.065544 +0000 build-fedora2: else \
+2020-02-10 22:51:43.065569 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-02-10 22:51:43.065592 +0000 build-fedora2: fi; \
+2020-02-10 22:51:43.065623 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:43.065773 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:43.065801 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-02-10 22:51:43.065835 +0000 build-fedora2: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-10 22:51:43.065863 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-02-10 22:51:43.065887 +0000 build-fedora2: ...echo "no version tag"; \
+2020-02-10 22:51:43.065909 +0000 build-fedora2: ...exit 0; \
+2020-02-10 22:51:43.065930 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:43.065952 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:43.065981 +0000 build-fedora2: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:43.066019 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc30 template-name)
+2020-02-10 22:51:43.066045 +0000 build-fedora2: fi
+2020-02-10 22:51:43.066101 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc30 PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 get-var GET_VAR=PACKAGE_LIST); \
+2020-02-10 22:51:43.066313 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-02-10 22:51:43.066348 +0000 build-fedora2: ..echo "no packages."; \
+2020-02-10 22:51:43.066372 +0000 build-fedora2: ..exit 0; \
+2020-02-10 22:51:43.066393 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:43.066420 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc30 PACKAGE_SET=vm \
+2020-02-10 22:51:43.066461 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:43.066488 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-02-10 22:51:43.066515 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-02-10 22:51:43.066545 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 \
+2020-02-10 22:51:43.066587 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc30-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:43.066628 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-46-01 \
+2020-02-10 22:51:43.066656 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-02-10 22:51:43.066690 +0000 build-fedora2: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-10 22:51:43.066795 +0000 build-fedora2: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:43.066827 +0000 build-fedora2: .DIST=fc30 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 \
+2020-02-10 22:51:43.066864 +0000 build-fedora2: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-10 22:51:43.066890 +0000 build-fedora2: else \
+2020-02-10 22:51:43.066920 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-10 22:51:43.066943 +0000 build-fedora2: fi; \
+2020-02-10 22:51:43.066964 +0000 build-fedora2: echo
+2020-02-10 22:51:43.093413 +0000 build-fedora2: Updating qubes-src/core-agent-linux-addon-bridge-device... + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:43.093462 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.094509 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:43.097500 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:43.097554 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:43.098369 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:43.101487 +0000 build-fedora2: + tmp_spec=/tmp/tmp.bdXOr4.spec
+2020-02-10 22:51:43.102368 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.105441 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.bdXOr4.spec
+2020-02-10 22:51:43.108724 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.109498 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:43.109567 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.114008 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.114052 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:43.114094 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.118956 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:43.119000 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.119033 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:43.119068 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.122422 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.128062 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.132410 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:43.136085 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.233368 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.237056 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.241640 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:43.242450 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.246100 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.bdXOr4.spec
+2020-02-10 22:51:43.375122 +0000 build-fedora2: + rm -f /tmp/tmp.bdXOr4.spec
+2020-02-10 22:51:43.394716 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:43.395481 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.396528 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:43.399512 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:43.399566 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:43.400403 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:43.403564 +0000 build-fedora2: + tmp_spec=/tmp/tmp.31M2R4.spec
+2020-02-10 22:51:43.404383 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.407457 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.31M2R4.spec
+2020-02-10 22:51:43.410961 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.411354 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:43.411997 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.416647 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.416691 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:43.416734 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.421986 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:43.422030 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.422062 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:43.422099 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.425469 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.429748 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.433409 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:43.436436 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.513983 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.516942 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.519933 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:43.520977 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.523945 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.31M2R4.spec
+2020-02-10 22:51:43.655717 +0000 build-fedora2: + rm -f /tmp/tmp.31M2R4.spec
+2020-02-10 22:51:43.691967 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:43.692335 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.693646 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:43.696937 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:43.696992 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:43.697630 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:43.700643 +0000 build-fedora2: + tmp_spec=/tmp/tmp.l2EcTr.spec
+2020-02-10 22:51:43.701427 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.704516 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.l2EcTr.spec
+2020-02-10 22:51:43.708034 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:43.708465 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:43.709322 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.713489 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.713533 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:43.713576 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.718682 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:43.718727 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:43.718760 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:43.718799 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.721949 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.726546 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.730014 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:43.733010 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.812518 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.815562 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:43.818715 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:43.819525 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:43.822442 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.l2EcTr.spec
+2020-02-10 22:51:43.954749 +0000 build-fedora2: + rm -f /tmp/tmp.l2EcTr.spec
+2020-02-10 22:51:44.004338 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:152: target 'update-repo-do' does not exist
+2020-02-10 22:51:44.004631 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc30/rpm
+2020-02-10 22:51:44.029519 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:44.029876 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:44.031386 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:44.033930 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:44.034580 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:44.035444 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:44.038412 +0000 build-fedora2: + tmp_spec=/tmp/tmp.uRyy4e.spec
+2020-02-10 22:51:44.039323 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:44.042453 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.uRyy4e.spec
+2020-02-10 22:51:44.045753 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:44.046007 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:44.046818 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.051509 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:44.051553 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:44.051598 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.056312 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:44.056363 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:44.056396 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:44.056433 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.059705 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.064331 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.067711 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:44.070817 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.149404 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.152469 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.155436 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:44.156476 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:44.159538 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.uRyy4e.spec
+2020-02-10 22:51:44.287041 +0000 build-fedora2: + rm -f /tmp/tmp.uRyy4e.spec
+2020-02-10 22:51:44.299945 +0000 build-fedora2: if [ -n "pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm" ]; then \
+2020-02-10 22:51:44.300367 +0000 build-fedora2: .cd qubes-src/core-agent-linux-addon-bridge-device && ln -f pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc30/rpm/; \
+2020-02-10 22:51:44.300413 +0000 build-fedora2: else \
+2020-02-10 22:51:44.300456 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-core-agent-linux-bridge-device.spec, syntax error?`tput sgr0`"; \
+2020-02-10 22:51:44.300484 +0000 build-fedora2: .exit 1; \
+2020-02-10 22:51:44.300508 +0000 build-fedora2: fi
+2020-02-10 22:51:44.305744 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && echo pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc30-core-agent-linux-addon-bridge-device
+2020-02-10 22:51:44.337716 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-10 22:51:44.337795 +0000 build-fedora2: [ -z "qubes-core-agent-bridge-device-4.0.1-1.fc30" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-02-10 22:51:44.337879 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-46-01" \
+2020-02-10 22:51:44.337909 +0000 build-fedora2: .upload \
+2020-02-10 22:51:44.337933 +0000 build-fedora2: ."r4.0" \
+2020-02-10 22:51:44.337961 +0000 build-fedora2: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-10 22:51:44.337989 +0000 build-fedora2: ."qubes-core-agent-bridge-device-4.0.1-1.fc30" \
+2020-02-10 22:51:44.338012 +0000 build-fedora2: ."fc30" \
+2020-02-10 22:51:44.338033 +0000 build-fedora2: ."vm" \
+2020-02-10 22:51:44.338056 +0000 build-fedora2: ."current-testing" \
+2020-02-10 22:51:44.338091 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc30-current-testing" \
+2020-02-10 22:51:44.338125 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc30-current"
+2020-02-10 22:51:44.377669 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:44.378358 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:44.379493 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:44.382680 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:44.382735 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:44.383489 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:44.386746 +0000 build-fedora2: + tmp_spec=/tmp/tmp.RvrG0y.spec
+2020-02-10 22:51:44.387934 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:44.391476 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.RvrG0y.spec
+2020-02-10 22:51:44.395443 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:44.395542 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:44.396081 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.400945 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:44.400990 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:44.401034 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.406767 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:44.406812 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:44.406844 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:44.406880 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.410442 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.414688 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.418517 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:44.421562 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.504351 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.507586 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:44.510922 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:44.511951 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:44.514961 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.RvrG0y.spec
+2020-02-10 22:51:44.645780 +0000 build-fedora2: + rm -f /tmp/tmp.RvrG0y.spec
+2020-02-10 22:51:44.911849 +0000 build-fedora2: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-10 22:51:44.911929 +0000 build-fedora2: Try --always, or create some tags.
+2020-02-10 22:51:46.938969 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc30-current-testing does not exist, initializing with the current state
+2020-02-10 22:51:46.939382 +0000 build-fedora2: WARNING: failed to add r4.0-fc30-cur-test label to issue 15: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-10 22:51:46.962041 +0000 build-fedora2: 
+2020-02-10 22:51:46.962983 +0000 build-fedora2: Makefile:787: update target 'internal-update-repo-current-testing.vm.fc30' due to: internal-update-repo-current-testing.vm.fc30.core-agent-linux-addon-bridge-device
+2020-02-10 22:51:46.963031 +0000 build-fedora2: true
+2020-02-10 22:51:46.967380 +0000 build-fedora2: Makefile:812: target 'internal-update-repo-current-testing.vm.fc31.core-agent-linux-addon-bridge-device' does not exist
+2020-02-10 22:51:46.967433 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc31_BASEDIR"; \
+2020-02-10 22:51:46.967471 +0000 build-fedora2: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-10 22:51:46.967507 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-10 22:51:46.967534 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-10 22:51:46.967555 +0000 build-fedora2: fi; \
+2020-02-10 22:51:46.967580 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-02-10 22:51:46.967605 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-02-10 22:51:46.967626 +0000 build-fedora2: else \
+2020-02-10 22:51:46.967651 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-02-10 22:51:46.967675 +0000 build-fedora2: fi; \
+2020-02-10 22:51:46.967709 +0000 build-fedora2: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-10 22:51:46.967769 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:46.967794 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-02-10 22:51:46.967826 +0000 build-fedora2: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-10 22:51:46.967853 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-02-10 22:51:46.967876 +0000 build-fedora2: ...echo "no version tag"; \
+2020-02-10 22:51:46.967898 +0000 build-fedora2: ...exit 0; \
+2020-02-10 22:51:46.967920 +0000 build-fedora2: ..fi; \
+2020-02-10 22:51:46.967942 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:46.967971 +0000 build-fedora2: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-10 22:51:46.968009 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc31 template-name)
+2020-02-10 22:51:46.968033 +0000 build-fedora2: fi
+2020-02-10 22:51:46.968087 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc31 PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 get-var GET_VAR=PACKAGE_LIST); \
+2020-02-10 22:51:46.968358 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-02-10 22:51:46.968391 +0000 build-fedora2: ..echo "no packages."; \
+2020-02-10 22:51:46.968414 +0000 build-fedora2: ..exit 0; \
+2020-02-10 22:51:46.968436 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:46.968462 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc31 PACKAGE_SET=vm \
+2020-02-10 22:51:46.968492 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:46.968517 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-02-10 22:51:46.968541 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-02-10 22:51:46.968570 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 \
+2020-02-10 22:51:46.968610 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc31-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-10 22:51:46.968652 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-48-08 \
+2020-02-10 22:51:46.968679 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-02-10 22:51:46.968712 +0000 build-fedora2: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-10 22:51:46.968745 +0000 build-fedora2: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-10 22:51:46.968775 +0000 build-fedora2: .DIST=fc31 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 \
+2020-02-10 22:51:46.968811 +0000 build-fedora2: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-10 22:51:46.968838 +0000 build-fedora2: else \
+2020-02-10 22:51:46.968867 +0000 build-fedora2: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-10 22:51:46.968891 +0000 build-fedora2: fi; \
+2020-02-10 22:51:46.968912 +0000 build-fedora2: echo
+2020-02-10 22:51:46.994325 +0000 build-fedora2: Updating qubes-src/core-agent-linux-addon-bridge-device... + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:46.994423 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:46.995632 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:46.998641 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:46.998695 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:47.000021 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:47.005746 +0000 build-fedora2: + tmp_spec=/tmp/tmp.bZxOi5.spec
+2020-02-10 22:51:47.007656 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.013700 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.bZxOi5.spec
+2020-02-10 22:51:47.019864 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:47.020737 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:47.021925 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.030526 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.030598 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:47.030667 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.039537 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:47.039609 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.039690 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:47.039792 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.045702 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.054675 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.060512 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:47.065890 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.172017 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.175376 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.178400 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:47.179383 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.182337 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.bZxOi5.spec
+2020-02-10 22:51:47.310373 +0000 build-fedora2: + rm -f /tmp/tmp.bZxOi5.spec
+2020-02-10 22:51:47.331452 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:47.331543 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:47.332550 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:47.335678 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:47.335734 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:47.336413 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:47.339386 +0000 build-fedora2: + tmp_spec=/tmp/tmp.nbLMAg.spec
+2020-02-10 22:51:47.340334 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.343410 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.nbLMAg.spec
+2020-02-10 22:51:47.346705 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:47.347474 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:47.347741 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.352407 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.352451 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:47.352494 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.357103 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:47.357330 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.357371 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:47.357410 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.360579 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.365111 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.368501 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:47.371404 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.448941 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.451998 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.455379 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:47.456808 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.458948 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.nbLMAg.spec
+2020-02-10 22:51:47.584042 +0000 build-fedora2: + rm -f /tmp/tmp.nbLMAg.spec
+2020-02-10 22:51:47.621452 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:47.621545 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:47.622756 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:47.626683 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:47.626739 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:47.627497 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:47.630488 +0000 build-fedora2: + tmp_spec=/tmp/tmp.iboJlz.spec
+2020-02-10 22:51:47.631361 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.634918 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.iboJlz.spec
+2020-02-10 22:51:47.638553 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:47.639367 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:47.639479 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.644009 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.644441 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:47.644497 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.648925 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:47.648969 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:47.649506 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:47.649554 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.652956 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.722624 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.730366 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:47.733630 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.893749 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.899705 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:47.905732 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:47.906855 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:47.913022 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.iboJlz.spec
+2020-02-10 22:51:48.135665 +0000 build-fedora2: + rm -f /tmp/tmp.iboJlz.spec
+2020-02-10 22:51:48.185959 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:152: target 'update-repo-do' does not exist
+2020-02-10 22:51:48.186019 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc31/rpm
+2020-02-10 22:51:48.210437 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:48.210525 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:48.211778 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:48.214933 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:48.215419 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:48.216474 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:48.219428 +0000 build-fedora2: + tmp_spec=/tmp/tmp.07cNhJ.spec
+2020-02-10 22:51:48.220310 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:48.223441 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.07cNhJ.spec
+2020-02-10 22:51:48.226703 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:48.227475 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:48.227738 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.232037 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:48.232418 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:48.232472 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.236931 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:48.236975 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:48.237859 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:48.237917 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.241452 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.246021 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.249904 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:48.253001 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.330658 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.333649 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.336936 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:48.337763 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:48.341400 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.07cNhJ.spec
+2020-02-10 22:51:48.468099 +0000 build-fedora2: + rm -f /tmp/tmp.07cNhJ.spec
+2020-02-10 22:51:48.480660 +0000 build-fedora2: if [ -n "pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm" ]; then \
+2020-02-10 22:51:48.480750 +0000 build-fedora2: .cd qubes-src/core-agent-linux-addon-bridge-device && ln -f pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc31/rpm/; \
+2020-02-10 22:51:48.480786 +0000 build-fedora2: else \
+2020-02-10 22:51:48.480824 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-core-agent-linux-bridge-device.spec, syntax error?`tput sgr0`"; \
+2020-02-10 22:51:48.480852 +0000 build-fedora2: .exit 1; \
+2020-02-10 22:51:48.480875 +0000 build-fedora2: fi
+2020-02-10 22:51:48.486765 +0000 build-fedora2: cd qubes-src/core-agent-linux-addon-bridge-device && echo pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc31-core-agent-linux-addon-bridge-device
+2020-02-10 22:51:48.516957 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-10 22:51:48.517017 +0000 build-fedora2: [ -z "qubes-core-agent-bridge-device-4.0.1-1.fc31" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-02-10 22:51:48.517060 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-10_22-48-08" \
+2020-02-10 22:51:48.517088 +0000 build-fedora2: .upload \
+2020-02-10 22:51:48.517111 +0000 build-fedora2: ."r4.0" \
+2020-02-10 22:51:48.517323 +0000 build-fedora2: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-10 22:51:48.517364 +0000 build-fedora2: ."qubes-core-agent-bridge-device-4.0.1-1.fc31" \
+2020-02-10 22:51:48.517388 +0000 build-fedora2: ."fc31" \
+2020-02-10 22:51:48.517410 +0000 build-fedora2: ."vm" \
+2020-02-10 22:51:48.517434 +0000 build-fedora2: ."current-testing" \
+2020-02-10 22:51:48.517467 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc31-current-testing" \
+2020-02-10 22:51:48.517502 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc31-current"
+2020-02-10 22:51:48.554535 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-02-10 22:51:48.554622 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:48.555981 +0000 build-fedora2: ++ basename qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in
+2020-02-10 22:51:48.558926 +0000 build-fedora2: + [[ xqubes-core-agent-linux-bridge-device.spec.in == \x\.\i\n ]]
+2020-02-10 22:51:48.559456 +0000 build-fedora2: + '[' -r qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in ']'
+2020-02-10 22:51:48.560323 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-02-10 22:51:48.563479 +0000 build-fedora2: + tmp_spec=/tmp/tmp.L7zJTg.spec
+2020-02-10 22:51:48.564054 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:48.566954 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in /tmp/tmp.L7zJTg.spec
+2020-02-10 22:51:48.570514 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-02-10 22:51:48.571128 +0000 build-fedora2: + '[' -z qubes-src/core-agent-linux-addon-bridge-device ']'
+2020-02-10 22:51:48.571505 +0000 build-fedora2: + cp qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.575989 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:48.576033 +0000 build-fedora2: + '[' x = x ']'
+2020-02-10 22:51:48.576077 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.1|g' qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.580487 +0000 build-fedora2: + vnum=1
+2020-02-10 22:51:48.580531 +0000 build-fedora2: + read -r ver
+2020-02-10 22:51:48.580563 +0000 build-fedora2: + '[' -e qubes-src/core-agent-linux-addon-bridge-device/rel ']'
+2020-02-10 22:51:48.580599 +0000 build-fedora2: + grep -q @REL@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.583777 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.588441 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.591944 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2020-02-10 22:51:48.594768 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/core-agent-linux-addon-bridge-device qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.672970 +0000 build-fedora2: + cat qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.676370 +0000 build-fedora2: + rm -rf qubes-src/core-agent-linux-addon-bridge-device/rpm_spec/qubes-core-agent-linux-bridge-device.spec.in.tmp
+2020-02-10 22:51:48.679436 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-02-10 22:51:48.680104 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2020-02-10 22:51:48.683354 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.L7zJTg.spec
+2020-02-10 22:51:48.811037 +0000 build-fedora2: + rm -f /tmp/tmp.L7zJTg.spec
+2020-02-10 22:51:49.067475 +0000 build-fedora2: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-10 22:51:49.067580 +0000 build-fedora2: Try --always, or create some tags.
+2020-02-10 22:51:51.520628 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-core-agent-linux-addon-bridge-device-vm-fc31-current-testing does not exist, initializing with the current state
+2020-02-10 22:51:51.520828 +0000 build-fedora2: WARNING: failed to add r4.0-fc31-cur-test label to issue 15: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-10 22:51:51.546524 +0000 build-fedora2: 
+2020-02-10 22:51:51.546672 +0000 build-fedora2: Makefile:787: update target 'internal-update-repo-current-testing.vm.fc31' due to: internal-update-repo-current-testing.vm.fc31.core-agent-linux-addon-bridge-device
+2020-02-10 22:51:51.546741 +0000 build-fedora2: true
+2020-02-10 22:51:51.550914 +0000 build-fedora2: Makefile:866: target 'post-update-repo-current-testing' does not exist
+2020-02-10 22:51:51.550986 +0000 build-fedora2: for dist in  fc29 fc30 fc31; do \
+2020-02-10 22:51:51.551056 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-02-10 22:51:51.551123 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2020-02-10 22:51:51.551448 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2020-02-10 22:51:51.551506 +0000 build-fedora2: .else \
+2020-02-10 22:51:51.551570 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-02-10 22:51:51.551628 +0000 build-fedora2: .fi; \
+2020-02-10 22:51:51.551692 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-02-10 22:51:51.551748 +0000 build-fedora2: done; \
+2020-02-10 22:51:51.551802 +0000 build-fedora2: pkgset_dist= ; \
+2020-02-10 22:51:51.551858 +0000 build-fedora2: for dist in ; do \
+2020-02-10 22:51:51.551918 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-02-10 22:51:51.551974 +0000 build-fedora2: done; \
+2020-02-10 22:51:51.552030 +0000 build-fedora2: for dist in fc29 fc30 fc31; do \
+2020-02-10 22:51:51.552092 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-02-10 22:51:51.552420 +0000 build-fedora2: done; \
+2020-02-10 22:51:51.552493 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-02-10 22:51:51.552556 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2020-02-10 22:51:51.552622 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-02-10 22:51:51.552687 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2020-02-10 22:51:51.552743 +0000 build-fedora2: done
+2020-02-10 22:51:51.591834 +0000 build-fedora2: which: no mkmetalink in (/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/user/builder-r4.0/qubes-src/builder-rpm/tools)
+2020-02-10 22:51:51.601907 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/dom0/fc25...
+2020-02-10 22:51:51.869559 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos7...
+2020-02-10 22:51:52.086002 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos8...
+2020-02-10 22:51:52.233689 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc24...
+2020-02-10 22:51:52.418882 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc25...
+2020-02-10 22:51:52.784869 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc26...
+2020-02-10 22:51:53.057411 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc27...
+2020-02-10 22:51:53.306562 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc28...
+2020-02-10 22:51:53.467912 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc29...
+2020-02-10 22:51:53.735411 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc30...
+2020-02-10 22:51:53.991066 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc31...
+2020-02-10 22:51:54.446404 +0000 build-fedora2: Done.
+2020-02-10 22:51:54.457737 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2020-02-10 22:51:54.461089 +0000 build-fedora2: Syncing r4.0...
+2020-02-10 22:52:07.458352 +0000 build-fedora2: sending incremental file list
+2020-02-10 22:52:07.715127 +0000 build-fedora2: .d..t...... current-testing/
+2020-02-10 22:52:07.715421 +0000 build-fedora2: .d..t...... current-testing/dom0/
+2020-02-10 22:52:07.715948 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/
+2020-02-10 22:52:07.716403 +0000 build-fedora2: .L..t...... current-testing/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2020-02-10 22:52:07.717005 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/rpm/
+2020-02-10 22:52:07.717319 +0000 build-fedora2: <f..t...... current-testing/dom0/fc25/rpm/.gitignore
+2020-02-10 22:52:07.720445 +0000 build-fedora2: .              6 100%    0.00kB/s    0:00:00  .              6 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=137/146)
+2020-02-10 22:52:07.720536 +0000 build-fedora2: .d..t...... current-testing/vm/
+2020-02-10 22:52:07.721455 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/
+2020-02-10 22:52:07.721547 +0000 build-fedora2: .L..t...... current-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.722435 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/rpm/
+2020-02-10 22:52:07.722477 +0000 build-fedora2: <f..t...... current-testing/vm/centos7/rpm/.gitignore
+2020-02-10 22:52:07.723660 +0000 build-fedora2: .              6 100%    1.95kB/s    0:00:00  .              6 100%    1.95kB/s    0:00:00 (xfr#2, to-chk=124/146)
+2020-02-10 22:52:07.723709 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/
+2020-02-10 22:52:07.723744 +0000 build-fedora2: .L..t...... current-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.723771 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/rpm/
+2020-02-10 22:52:07.723798 +0000 build-fedora2: <f..t...... current-testing/vm/centos8/rpm/.gitignore
+2020-02-10 22:52:07.723827 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#3, to-chk=121/146)
+2020-02-10 22:52:07.723851 +0000 build-fedora2: .d..t...... current-testing/vm/fc24/
+2020-02-10 22:52:07.723880 +0000 build-fedora2: .L..t...... current-testing/vm/fc24/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.723904 +0000 build-fedora2: .d..t...... current-testing/vm/fc24/rpm/
+2020-02-10 22:52:07.723930 +0000 build-fedora2: <f..t...... current-testing/vm/fc24/rpm/.gitignore
+2020-02-10 22:52:07.724693 +0000 build-fedora2: .              6 100%    1.46kB/s    0:00:00  .              6 100%    1.46kB/s    0:00:00 (xfr#4, to-chk=118/146)
+2020-02-10 22:52:07.724731 +0000 build-fedora2: .d..t...... current-testing/vm/fc25/
+2020-02-10 22:52:07.724760 +0000 build-fedora2: .L..t...... current-testing/vm/fc25/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.724785 +0000 build-fedora2: .d..t...... current-testing/vm/fc25/rpm/
+2020-02-10 22:52:07.724811 +0000 build-fedora2: <f..t...... current-testing/vm/fc25/rpm/.gitignore
+2020-02-10 22:52:07.726593 +0000 build-fedora2: .              6 100%    0.98kB/s    0:00:00  .              6 100%    0.98kB/s    0:00:00 (xfr#5, to-chk=115/146)
+2020-02-10 22:52:07.726641 +0000 build-fedora2: .d..t...... current-testing/vm/fc26/
+2020-02-10 22:52:07.726675 +0000 build-fedora2: .L..t...... current-testing/vm/fc26/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.726702 +0000 build-fedora2: .d..t...... current-testing/vm/fc26/rpm/
+2020-02-10 22:52:07.726729 +0000 build-fedora2: <f..t...... current-testing/vm/fc26/rpm/.gitignore
+2020-02-10 22:52:07.728404 +0000 build-fedora2: .              6 100%    0.73kB/s    0:00:00  .              6 100%    0.73kB/s    0:00:00 (xfr#6, to-chk=112/146)
+2020-02-10 22:52:07.728453 +0000 build-fedora2: .d..t...... current-testing/vm/fc27/
+2020-02-10 22:52:07.728486 +0000 build-fedora2: .L..t...... current-testing/vm/fc27/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.728513 +0000 build-fedora2: .d..t...... current-testing/vm/fc27/rpm/
+2020-02-10 22:52:07.728540 +0000 build-fedora2: <f..t...... current-testing/vm/fc27/rpm/.gitignore
+2020-02-10 22:52:07.730077 +0000 build-fedora2: .              6 100%    0.65kB/s    0:00:00  .              6 100%    0.65kB/s    0:00:00 (xfr#7, to-chk=109/146)
+2020-02-10 22:52:07.730124 +0000 build-fedora2: .d..t...... current-testing/vm/fc28/
+2020-02-10 22:52:07.730380 +0000 build-fedora2: .L..t...... current-testing/vm/fc28/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.730442 +0000 build-fedora2: .d..t...... current-testing/vm/fc28/rpm/
+2020-02-10 22:52:07.730502 +0000 build-fedora2: <f..t...... current-testing/vm/fc28/rpm/.gitignore
+2020-02-10 22:52:07.731485 +0000 build-fedora2: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#8, to-chk=106/146)
+2020-02-10 22:52:07.731535 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/
+2020-02-10 22:52:07.731567 +0000 build-fedora2: .L..t...... current-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.731593 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/rpm/
+2020-02-10 22:52:07.731620 +0000 build-fedora2: <f..t...... current-testing/vm/fc29/rpm/.gitignore
+2020-02-10 22:52:07.733438 +0000 build-fedora2: .              6 100%    0.45kB/s    0:00:00  .              6 100%    0.45kB/s    0:00:00 (xfr#9, to-chk=103/146)
+2020-02-10 22:52:07.733484 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/qubes-core-agent-bridge-device-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:52:07.733521 +0000 build-fedora2: .          7,868 100%  591.05kB/s    0:00:00  .          7,868 100%  591.05kB/s    0:00:00 (xfr#10, to-chk=102/146)
+2020-02-10 22:52:07.733558 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc29.x86_64.rpm
+2020-02-10 22:52:07.734361 +0000 build-fedora2: .          7,652 100%  574.82kB/s    0:00:00  .          7,652 100%  574.82kB/s    0:00:00 (xfr#11, to-chk=101/146)
+2020-02-10 22:52:07.734399 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/
+2020-02-10 22:52:07.734429 +0000 build-fedora2: .L..t...... current-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.734454 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/rpm/
+2020-02-10 22:52:07.734716 +0000 build-fedora2: <f..t...... current-testing/vm/fc30/rpm/.gitignore
+2020-02-10 22:52:07.736326 +0000 build-fedora2: .              6 100%    0.39kB/s    0:00:00  .              6 100%    0.39kB/s    0:00:00 (xfr#12, to-chk=98/146)
+2020-02-10 22:52:07.736382 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/qubes-core-agent-bridge-device-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:52:07.736424 +0000 build-fedora2: .          7,872 100%  512.50kB/s    0:00:00  .          7,872 100%  512.50kB/s    0:00:00 (xfr#13, to-chk=97/146)
+2020-02-10 22:52:07.736460 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc30.x86_64.rpm
+2020-02-10 22:52:07.736496 +0000 build-fedora2: .          7,652 100%  498.18kB/s    0:00:00  .          7,652 100%  467.04kB/s    0:00:00 (xfr#14, to-chk=96/146)
+2020-02-10 22:52:07.736524 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/
+2020-02-10 22:52:07.736552 +0000 build-fedora2: .L..t...... current-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.736577 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/rpm/
+2020-02-10 22:52:07.736603 +0000 build-fedora2: <f..t...... current-testing/vm/fc31/rpm/.gitignore
+2020-02-10 22:52:07.736630 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#15, to-chk=92/146)
+2020-02-10 22:52:07.736661 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/qubes-core-agent-bridge-device-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:52:07.736719 +0000 build-fedora2: .          7,791 100%  475.52kB/s    0:00:00  .          7,791 100%  475.52kB/s    0:00:00 (xfr#16, to-chk=91/146)
+2020-02-10 22:52:07.737318 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/qubes-core-agent-bridge-device-network-manager-4.0.1-1.fc31.x86_64.rpm
+2020-02-10 22:52:07.737373 +0000 build-fedora2: .          7,579 100%  462.59kB/s    0:00:00  .          7,579 100%  462.59kB/s    0:00:00 (xfr#17, to-chk=90/146)
+2020-02-10 22:52:07.737400 +0000 build-fedora2: .d..t...... current/
+2020-02-10 22:52:07.737423 +0000 build-fedora2: .d..t...... current/dom0/
+2020-02-10 22:52:07.737447 +0000 build-fedora2: .d..t...... current/dom0/fc25/
+2020-02-10 22:52:07.737475 +0000 build-fedora2: .L..t...... current/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2020-02-10 22:52:07.737516 +0000 build-fedora2: .d..t...... current/dom0/fc25/rpm/
+2020-02-10 22:52:07.737544 +0000 build-fedora2: <f..t...... current/dom0/fc25/rpm/.gitignore
+2020-02-10 22:52:07.738845 +0000 build-fedora2: .              6 100%    0.33kB/s    0:00:00  .              6 100%    0.33kB/s    0:00:00 (xfr#18, to-chk=83/146)
+2020-02-10 22:52:07.738891 +0000 build-fedora2: .d..t...... current/vm/
+2020-02-10 22:52:07.738921 +0000 build-fedora2: .d..t...... current/vm/centos7/
+2020-02-10 22:52:07.738950 +0000 build-fedora2: .L..t...... current/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.738976 +0000 build-fedora2: .d..t...... current/vm/centos7/rpm/
+2020-02-10 22:52:07.739002 +0000 build-fedora2: <f..t...... current/vm/centos7/rpm/.gitignore
+2020-02-10 22:52:07.740463 +0000 build-fedora2: .              6 100%    0.29kB/s    0:00:00  .              6 100%    0.29kB/s    0:00:00 (xfr#19, to-chk=70/146)
+2020-02-10 22:52:07.740529 +0000 build-fedora2: .d..t...... current/vm/centos8/
+2020-02-10 22:52:07.740564 +0000 build-fedora2: .L..t...... current/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.740591 +0000 build-fedora2: .d..t...... current/vm/centos8/rpm/
+2020-02-10 22:52:07.740617 +0000 build-fedora2: <f..t...... current/vm/centos8/rpm/.gitignore
+2020-02-10 22:52:07.740646 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#20, to-chk=67/146)
+2020-02-10 22:52:07.740670 +0000 build-fedora2: .d..t...... current/vm/fc24/
+2020-02-10 22:52:07.740698 +0000 build-fedora2: .L..t...... current/vm/fc24/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.740721 +0000 build-fedora2: .d..t...... current/vm/fc24/rpm/
+2020-02-10 22:52:07.740747 +0000 build-fedora2: <f..t...... current/vm/fc24/rpm/.gitignore
+2020-02-10 22:52:07.742348 +0000 build-fedora2: .              6 100%    0.27kB/s    0:00:00  .              6 100%    0.27kB/s    0:00:00 (xfr#21, to-chk=64/146)
+2020-02-10 22:52:07.742386 +0000 build-fedora2: .d..t...... current/vm/fc25/
+2020-02-10 22:52:07.742414 +0000 build-fedora2: .L..t...... current/vm/fc25/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.742438 +0000 build-fedora2: .d..t...... current/vm/fc25/rpm/
+2020-02-10 22:52:07.742464 +0000 build-fedora2: <f..t...... current/vm/fc25/rpm/.gitignore
+2020-02-10 22:52:07.743656 +0000 build-fedora2: .              6 100%    0.25kB/s    0:00:00  .              6 100%    0.25kB/s    0:00:00 (xfr#22, to-chk=61/146)
+2020-02-10 22:52:07.743709 +0000 build-fedora2: .d..t...... current/vm/fc26/
+2020-02-10 22:52:07.743742 +0000 build-fedora2: .L..t...... current/vm/fc26/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.743768 +0000 build-fedora2: .d..t...... current/vm/fc26/rpm/
+2020-02-10 22:52:07.743794 +0000 build-fedora2: <f..t...... current/vm/fc26/rpm/.gitignore
+2020-02-10 22:52:07.745372 +0000 build-fedora2: .              6 100%    0.23kB/s    0:00:00  .              6 100%    0.23kB/s    0:00:00 (xfr#23, to-chk=58/146)
+2020-02-10 22:52:07.745419 +0000 build-fedora2: .d..t...... current/vm/fc27/
+2020-02-10 22:52:07.745452 +0000 build-fedora2: .L..t...... current/vm/fc27/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.745477 +0000 build-fedora2: .d..t...... current/vm/fc27/rpm/
+2020-02-10 22:52:07.745503 +0000 build-fedora2: <f..t...... current/vm/fc27/rpm/.gitignore
+2020-02-10 22:52:07.746975 +0000 build-fedora2: .              6 100%    0.23kB/s    0:00:00  .              6 100%    0.23kB/s    0:00:00 (xfr#24, to-chk=55/146)
+2020-02-10 22:52:07.747021 +0000 build-fedora2: .d..t...... current/vm/fc28/
+2020-02-10 22:52:07.747054 +0000 build-fedora2: .L..t...... current/vm/fc28/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.747080 +0000 build-fedora2: .d..t...... current/vm/fc28/rpm/
+2020-02-10 22:52:07.747124 +0000 build-fedora2: <f..t...... current/vm/fc28/rpm/.gitignore
+2020-02-10 22:52:07.748411 +0000 build-fedora2: .              6 100%    0.21kB/s    0:00:00  .              6 100%    0.21kB/s    0:00:00 (xfr#25, to-chk=52/146)
+2020-02-10 22:52:07.748448 +0000 build-fedora2: .d..t...... current/vm/fc29/
+2020-02-10 22:52:07.748493 +0000 build-fedora2: .L..t...... current/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.748520 +0000 build-fedora2: .d..t...... current/vm/fc29/rpm/
+2020-02-10 22:52:07.748546 +0000 build-fedora2: <f..t...... current/vm/fc29/rpm/.gitignore
+2020-02-10 22:52:07.749790 +0000 build-fedora2: .              6 100%    0.20kB/s    0:00:00  .              6 100%    0.20kB/s    0:00:00 (xfr#26, to-chk=49/146)
+2020-02-10 22:52:07.749827 +0000 build-fedora2: .d..t...... current/vm/fc30/
+2020-02-10 22:52:07.749856 +0000 build-fedora2: .L..t...... current/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.749880 +0000 build-fedora2: .d..t...... current/vm/fc30/rpm/
+2020-02-10 22:52:07.749905 +0000 build-fedora2: <f..t...... current/vm/fc30/rpm/.gitignore
+2020-02-10 22:52:07.751487 +0000 build-fedora2: .              6 100%    0.19kB/s    0:00:00  .              6 100%    0.19kB/s    0:00:00 (xfr#27, to-chk=46/146)
+2020-02-10 22:52:07.751547 +0000 build-fedora2: .d..t...... current/vm/fc31/
+2020-02-10 22:52:07.751959 +0000 build-fedora2: .L..t...... current/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.751990 +0000 build-fedora2: .d..t...... current/vm/fc31/rpm/
+2020-02-10 22:52:07.752016 +0000 build-fedora2: <f..t...... current/vm/fc31/rpm/.gitignore
+2020-02-10 22:52:07.752045 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#28, to-chk=43/146)
+2020-02-10 22:52:07.752068 +0000 build-fedora2: .d..t...... security-testing/
+2020-02-10 22:52:07.752092 +0000 build-fedora2: .d..t...... security-testing/dom0/
+2020-02-10 22:52:07.752116 +0000 build-fedora2: .d..t...... security-testing/dom0/fc21/
+2020-02-10 22:52:07.752359 +0000 build-fedora2: .d..t...... security-testing/dom0/fc21/rpm/
+2020-02-10 22:52:07.752395 +0000 build-fedora2: <f..t...... security-testing/dom0/fc21/rpm/.gitignore
+2020-02-10 22:52:07.753421 +0000 build-fedora2: .              6 100%    0.18kB/s    0:00:00  .              6 100%    0.18kB/s    0:00:00 (xfr#29, to-chk=37/146)
+2020-02-10 22:52:07.753470 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/
+2020-02-10 22:52:07.753500 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/rpm/
+2020-02-10 22:52:07.753530 +0000 build-fedora2: <f..t...... security-testing/dom0/fc25/rpm/.gitignore
+2020-02-10 22:52:07.755417 +0000 build-fedora2: .              6 100%    0.17kB/s    0:00:00  .              6 100%    0.17kB/s    0:00:00 (xfr#30, to-chk=35/146)
+2020-02-10 22:52:07.755465 +0000 build-fedora2: .d..t...... security-testing/vm/
+2020-02-10 22:52:07.755495 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/
+2020-02-10 22:52:07.755525 +0000 build-fedora2: .L..t...... security-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.755550 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/rpm/
+2020-02-10 22:52:07.755577 +0000 build-fedora2: <f..t...... security-testing/vm/centos7/rpm/.gitignore
+2020-02-10 22:52:07.757393 +0000 build-fedora2: .              6 100%    0.16kB/s    0:00:00  .              6 100%    0.16kB/s    0:00:00 (xfr#31, to-chk=22/146)
+2020-02-10 22:52:07.757441 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/
+2020-02-10 22:52:07.757474 +0000 build-fedora2: .L..t...... security-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.757502 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/rpm/
+2020-02-10 22:52:07.757530 +0000 build-fedora2: <f..t...... security-testing/vm/centos8/rpm/.gitignore
+2020-02-10 22:52:07.757558 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#32, to-chk=19/146)
+2020-02-10 22:52:07.757583 +0000 build-fedora2: .d..t...... security-testing/vm/fc24/
+2020-02-10 22:52:07.757607 +0000 build-fedora2: .d..t...... security-testing/vm/fc24/rpm/
+2020-02-10 22:52:07.757634 +0000 build-fedora2: <f..t...... security-testing/vm/fc24/rpm/.gitignore
+2020-02-10 22:52:07.758998 +0000 build-fedora2: .              6 100%    0.15kB/s    0:00:00  .              6 100%    0.15kB/s    0:00:00 (xfr#33, to-chk=17/146)
+2020-02-10 22:52:07.759075 +0000 build-fedora2: .d..t...... security-testing/vm/fc25/
+2020-02-10 22:52:07.759109 +0000 build-fedora2: .d..t...... security-testing/vm/fc25/rpm/
+2020-02-10 22:52:07.759353 +0000 build-fedora2: <f..t...... security-testing/vm/fc25/rpm/.gitignore
+2020-02-10 22:52:07.760422 +0000 build-fedora2: .              6 100%    0.15kB/s    0:00:00  .              6 100%    0.15kB/s    0:00:00 (xfr#34, to-chk=15/146)
+2020-02-10 22:52:07.760472 +0000 build-fedora2: .d..t...... security-testing/vm/fc26/
+2020-02-10 22:52:07.760502 +0000 build-fedora2: .d..t...... security-testing/vm/fc26/rpm/
+2020-02-10 22:52:07.760530 +0000 build-fedora2: <f..t...... security-testing/vm/fc26/rpm/.gitignore
+2020-02-10 22:52:07.761942 +0000 build-fedora2: .              6 100%    0.14kB/s    0:00:00  .              6 100%    0.14kB/s    0:00:00 (xfr#35, to-chk=13/146)
+2020-02-10 22:52:07.761980 +0000 build-fedora2: .d..t...... security-testing/vm/fc27/
+2020-02-10 22:52:07.762006 +0000 build-fedora2: .d..t...... security-testing/vm/fc27/rpm/
+2020-02-10 22:52:07.762033 +0000 build-fedora2: <f..t...... security-testing/vm/fc27/rpm/.gitignore
+2020-02-10 22:52:07.763450 +0000 build-fedora2: .              6 100%    0.14kB/s    0:00:00  .              6 100%    0.14kB/s    0:00:00 (xfr#36, to-chk=11/146)
+2020-02-10 22:52:07.763498 +0000 build-fedora2: .d..t...... security-testing/vm/fc28/
+2020-02-10 22:52:07.763528 +0000 build-fedora2: .d..t...... security-testing/vm/fc28/rpm/
+2020-02-10 22:52:07.763556 +0000 build-fedora2: <f..t...... security-testing/vm/fc28/rpm/.gitignore
+2020-02-10 22:52:07.764996 +0000 build-fedora2: .              6 100%    0.13kB/s    0:00:00  .              6 100%    0.13kB/s    0:00:00 (xfr#37, to-chk=9/146)
+2020-02-10 22:52:07.765044 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/
+2020-02-10 22:52:07.765077 +0000 build-fedora2: .L..t...... security-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.765104 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/rpm/
+2020-02-10 22:52:07.765315 +0000 build-fedora2: <f..t...... security-testing/vm/fc29/rpm/.gitignore
+2020-02-10 22:52:07.766512 +0000 build-fedora2: .              6 100%    0.13kB/s    0:00:00  .              6 100%    0.13kB/s    0:00:00 (xfr#38, to-chk=6/146)
+2020-02-10 22:52:07.766560 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/
+2020-02-10 22:52:07.766593 +0000 build-fedora2: .L..t...... security-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-02-10 22:52:07.766619 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/rpm/
+2020-02-10 22:52:07.766646 +0000 build-fedora2: <f..t...... security-testing/vm/fc30/rpm/.gitignore
+2020-02-10 22:52:07.768773 +0000 build-fedora2: .              6 100%    0.12kB/s    0:00:00  .              6 100%    0.12kB/s    0:00:00 (xfr#39, to-chk=3/146)
+2020-02-10 22:52:07.768824 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/
+2020-02-10 22:52:07.768942 +0000 build-fedora2: .L..t...... security-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-02-10 22:52:07.768986 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/rpm/
+2020-02-10 22:52:07.769076 +0000 build-fedora2: <f..t...... security-testing/vm/fc31/rpm/.gitignore
+2020-02-10 22:52:07.769116 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#40, to-chk=0/146)
+2020-02-10 22:52:12.269632 +0000 build-fedora2: --> Processing repo: r4.0/current/dom0/fc25...
+2020-02-10 22:52:12.357886 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.405844 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.405905 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.457459 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/centos7...
+2020-02-10 22:52:12.457519 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.530563 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.530671 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.544441 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.585367 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/centos8...
+2020-02-10 22:52:12.585563 +0000 build-fedora2: 22:52:10: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.661305 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.707380 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.707433 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.761078 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc24...
+2020-02-10 22:52:12.761312 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.801348 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.801402 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.852098 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc25...
+2020-02-10 22:52:12.852359 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.852398 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.938707 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.938802 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.966680 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:12.966728 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.022492 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc26...
+2020-02-10 22:52:13.076419 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.076474 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.131503 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.131569 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.186445 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc27...
+2020-02-10 22:52:13.217733 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.217785 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.272509 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.272566 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.328336 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc28...
+2020-02-10 22:52:13.351518 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.351569 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.382380 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.382433 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.436720 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc29...
+2020-02-10 22:52:13.471677 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.527411 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.527465 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.583768 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc30...
+2020-02-10 22:52:13.583821 +0000 build-fedora2: 22:52:11: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.634420 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.663351 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.663400 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.663462 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.717361 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc31...
+2020-02-10 22:52:13.771099 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.771336 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.801457 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.801506 +0000 build-fedora2: 22:52:12: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:13.858461 +0000 build-fedora2: Done.
+2020-02-10 22:52:15.551890 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/dom0/fc25...
+2020-02-10 22:52:15.703017 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.703122 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.703648 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.764779 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos7...
+2020-02-10 22:52:15.765712 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.889556 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.889675 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.889740 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.889798 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:15.903661 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos8...
+2020-02-10 22:52:16.005071 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.005541 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.005623 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.077993 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc24...
+2020-02-10 22:52:16.078097 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.149362 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.179061 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc25...
+2020-02-10 22:52:16.179106 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.179315 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.179370 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.280724 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.280846 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.309044 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.309600 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.350609 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc26...
+2020-02-10 22:52:16.414782 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.469779 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.469872 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.469955 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.529083 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc27...
+2020-02-10 22:52:16.569890 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.570029 +0000 build-fedora2: 22:52:14: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.620911 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc28...
+2020-02-10 22:52:16.621052 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.621408 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.698897 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.699083 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.699663 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.758811 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc29...
+2020-02-10 22:52:16.759011 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.852739 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.894629 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.894782 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:16.924932 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc30...
+2020-02-10 22:52:16.925129 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.044829 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.045021 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.045707 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.102802 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc31...
+2020-02-10 22:52:17.102981 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.198048 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.198796 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.235734 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.235919 +0000 build-fedora2: 22:52:15: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:17.295715 +0000 build-fedora2: Done.
+2020-02-10 22:52:18.876548 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/dom0/fc21...
+2020-02-10 22:52:18.934006 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:18.955557 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:18.955660 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.041761 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/dom0/fc25...
+2020-02-10 22:52:19.042784 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.094659 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.094760 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.105670 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.105721 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.163657 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/centos7...
+2020-02-10 22:52:19.218077 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.218615 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.245893 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.261796 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.359116 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/centos8...
+2020-02-10 22:52:19.373977 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.401500 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.401622 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.401759 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.445043 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc24...
+2020-02-10 22:52:19.516736 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.516837 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.533050 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.533577 +0000 build-fedora2: 22:52:17: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.603698 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc25...
+2020-02-10 22:52:19.668782 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.668887 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.668953 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.669012 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.713642 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc26...
+2020-02-10 22:52:19.785863 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.785964 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.786013 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.786058 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.841556 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc27...
+2020-02-10 22:52:19.915647 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.915707 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.915738 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:19.964061 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc28...
+2020-02-10 22:52:19.964335 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.046692 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.085930 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.085994 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.147439 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc29...
+2020-02-10 22:52:20.147553 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.205600 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.205703 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.235736 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.235840 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.250608 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc30...
+2020-02-10 22:52:20.316850 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.360908 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.360998 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.409466 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc31...
+2020-02-10 22:52:20.409516 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.468460 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.468510 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.468541 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.498421 +0000 build-fedora2: 22:52:18: posix_spawn avoided (fd close requested) 
+2020-02-10 22:52:20.618454 +0000 build-fedora2: Done.
+2020-02-10 22:52:20.618533 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum
+2020-02-10 22:52:20.618604 +0000 build-fedora2: Makefile:772: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc29 internal-update-repo-current-testing.vm.fc30 internal-update-repo-current-testing.vm.fc31 post-update-repo-current-testing
+2020-02-10 22:52:20.618652 +0000 build-fedora2: true
+2020-02-10 22:52:20.622771 +0000 build-fedora2: > done
+2020-02-10 22:52:20.622844 +0000 > closing log
