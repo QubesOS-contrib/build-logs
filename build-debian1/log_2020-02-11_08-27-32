@@ -1,0 +1,588 @@
+2020-02-11 08:27:32.823626 +0000 > starting log
+2020-02-11 08:27:32.825934 +0000 build-debian1: > starting build with log
+2020-02-11 08:27:32.826043 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster stretch DIST_DOM0= BUILD_LOGS_URL= core-agent-linux-addon-bridge-device-vm-bullseye=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-20-28 core-agent-linux-addon-bridge-device-vm-buster=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-23-05 core-agent-linux-addon-bridge-device-vm-stretch=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-25-19 GIT_URL_core_agent_linux_addon_bridge_device=https://github.com/QubesOS-contrib/qubes-core-agent-linux-addon-bridge-device sign-all update-repo-current-testing
+2020-02-11 08:27:32.826076 +0000 build-debian1: >> MAKEFLAGS=
+2020-02-11 08:27:32.826305 +0000 build-debian1: >> COMPONENTS=core-agent-linux-addon-bridge-device
+2020-02-11 08:27:32.826340 +0000 build-debian1: >> DISTS_VM=
+2020-02-11 08:27:32.826363 +0000 build-debian1: >> DIST_DOM0=
+2020-02-11 08:27:32.826390 +0000 build-debian1: >> qubes-builder ff22da6890629b4ca8f0088f2068b716f1084080
+2020-02-11 08:27:32.826421 +0000 build-debian1: >> qubes-builder/qubes-src/core-agent-linux-addon-bridge-device e6355e4c8541993e20e1a9186ec24ebc224101b1
+2020-02-11 08:27:32.826453 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.826484 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-bridge-device-networking_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.826515 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-bridge-device_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.826546 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.debian.tar.xz
+2020-02-11 08:27:32.826577 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc
+2020-02-11 08:27:32.826611 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo
+2020-02-11 08:27:32.826644 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes
+2020-02-11 08:27:32.826674 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.826715 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.826747 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-bridge-device-networking_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.826777 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-bridge-device_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.826807 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.debian.tar.xz
+2020-02-11 08:27:32.826837 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc
+2020-02-11 08:27:32.826868 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo
+2020-02-11 08:27:32.826899 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes
+2020-02-11 08:27:32.826929 +0000 build-debian1: !! pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.826960 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.826991 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-bridge-device-networking_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.827020 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-bridge-device_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.827049 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.debian.tar.xz
+2020-02-11 08:27:32.827080 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc
+2020-02-11 08:27:32.827332 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo
+2020-02-11 08:27:32.827373 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes
+2020-02-11 08:27:32.827404 +0000 build-debian1: !! pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.827470 +0000 build-debian1: f7a1e9830cb818a0ed7ba0de574589e451fe7cfb4d5958a02207eeda1f7714ee0c8c60cda9ae4edb1cf35edf1c68607ace2beef01850244299c3153fa654a58e  pkgs/vm-bullseye/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.827519 +0000 build-debian1: acab7a32f03eda676c3171cfd083ab8681d08f406bde4df67030de860ce891af4a6fb1b59e593e1ecb8aca0a0af58b74ee1513674ad755434d3677272dd6f542  pkgs/vm-bullseye/qubes-core-agent-bridge-device-networking_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.827565 +0000 build-debian1: 80e1d328a05cbc542cfeb05154e6e1081b8b6ccb73947beba29e6bddfd8a5a48c6bd397578e2535605cb498bb1bf10bb49acc88a881089e6458f8faea5105a3d  pkgs/vm-bullseye/qubes-core-agent-bridge-device_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:27:32.827612 +0000 build-debian1: 9fbb3858e89a745daabb88ede0375be3dae462406351dd0b78d7c096476f425a5b81106ab3b5e3b79b1ab0444679a58521bf588b69a3f01d1ae3cb4adcde9ecc  pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.debian.tar.xz
+2020-02-11 08:27:32.827661 +0000 build-debian1: e1e7bea64bdd56eec7f50fe54bc15590a921ab71280969f3aca867ca339026310c762f370f965a698d35108e34fb3f43a7e010402f111b90801d934387f75c25  pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc
+2020-02-11 08:27:32.827727 +0000 build-debian1: a82aa00374cc0a1941952acda14e273cccb5b5927a0accac41fa078108bb9a621167fcfb8ec1430183777f4412744b66aaca0e69fafa6f49fb5cca6095906a2a  pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo
+2020-02-11 08:27:32.827777 +0000 build-debian1: 0a0392b90904d370e69a5208e75830c094fbc6337e42a20afd56fa54a2d4fa17379dcf4c911267060fcb9eb8317158af94d890eda397b6a4e47dfbdb59726370  pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes
+2020-02-11 08:27:32.827824 +0000 build-debian1: 7760f34cf2fdcf906d28da082bff174a4de32a86dd842e737c70a830b1e271bb64851e01c6dfda582c0e66c87b89ab060aed162b2c9c57ef603e4ea19d35c0f7  pkgs/vm-bullseye/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.827872 +0000 build-debian1: eadd4ede2bae4f019f62008dfc88e43e14dc01b6312b2fe665ee621f42590dcade5ab92ce72367fb13b59ccb24d7fd90b5a1b3d0ad74a806fca0b9e9da56dad1  pkgs/vm-buster/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.827920 +0000 build-debian1: 92531e8320333e0cfa99c23f15d32fe0a758e61788b51de916150d6f08378e35d55d168d54c845cac22a82811dfc98d144b4f13366d033e1f7fcef2ecaee5c15  pkgs/vm-buster/qubes-core-agent-bridge-device-networking_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.827966 +0000 build-debian1: 305e3c45ae8043466485657f7f05e534ef95adc6105443c461882fd591683c782d87c40d63f6d198e368d0c45f8c367bb20e4a976dd89f659fd52f4925d25e0e  pkgs/vm-buster/qubes-core-agent-bridge-device_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:27:32.828012 +0000 build-debian1: d79f7ba06781b9a6841bb6bf3a7f58d5ffc090fbddb5ce123acf7d67e5ae7c4fa9df6d33713e89b48fc669caddd4092ae861e25e0b323f6bd0f58eefddeb4e38  pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.debian.tar.xz
+2020-02-11 08:27:32.828059 +0000 build-debian1: 3c5ff35e1864b3aa11134bf00b13feb8b78a4d578df0157363b760d925c713b6077e728b6bb87e314ee65b963aa81b016de0de020513707519741311af1774b6  pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc
+2020-02-11 08:27:32.828308 +0000 build-debian1: 557155eb0ea1a97828dc304bb97afe266fa52a59a5b1f6bf33960619f9c42325f32ba5ec3fff75324b55ea91de59b5dbe4692339c0fb9eab3c543c3decd33c47  pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo
+2020-02-11 08:27:32.828385 +0000 build-debian1: aeaa0e29d535ec34d0d9b44f5ae866014f373907e77e317a3f87bc8901590ebb6b9c17d7c9b2ca46bae1fd2196b2673f78e00010faac2d87a4d320c6fda8ce88  pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes
+2020-02-11 08:27:32.828436 +0000 build-debian1: 7760f34cf2fdcf906d28da082bff174a4de32a86dd842e737c70a830b1e271bb64851e01c6dfda582c0e66c87b89ab060aed162b2c9c57ef603e4ea19d35c0f7  pkgs/vm-buster/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.828483 +0000 build-debian1: 295f29da1c420222e9c444fd39d5e826d6bf53fdbd8bfd7ddb1a26d13cbd7763fa9a0782bcc7daee13388d900fbcaf8e8e575be3f5b58ff9218e9c6ecde04f49  pkgs/vm-stretch/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.828531 +0000 build-debian1: 71121b93468cc1e68270bbd6cb6adb8e93182e71a87f7fb0f26f09b748e20487e6ab32687a882beefe1b99f92c8ae3d63c32aff4733c24d36b68562025266430  pkgs/vm-stretch/qubes-core-agent-bridge-device-networking_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.828578 +0000 build-debian1: bdf332b3cc97607fd8da6e1cd2c16f3a891a3bf4676717bd96d35a1e6237895ba816994a658698af3f0c965fe2dfdb005865efed0a1f0687cd978f6f5a9cd6d9  pkgs/vm-stretch/qubes-core-agent-bridge-device_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:27:32.828625 +0000 build-debian1: 1bb47f08ee2346e19eac3a798d64b5a5f38fbed15760633a524c89a8e19527e4eca29362b64f160e714b1a8224bcd97ac2e73282898ac8520088c4b761123a5f  pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.debian.tar.xz
+2020-02-11 08:27:32.828671 +0000 build-debian1: fddd08c3e3bf859a205c413f78de4b74a0ee26ace7563785ab41020a719bab56e5643c3a6027c97fdd7ecbc89a25646ee71c12eb15ad7efdbd440d3f45dd3146  pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc
+2020-02-11 08:27:32.828718 +0000 build-debian1: 7edc70bef2a944a589ffeb6765fa332ac50ec7b3cb4ce72a96cc0667db4af073600e938aeffb0a400b9f2d350a43a71e84d6b81f71ba5432af12919d3b1c8f7e  pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo
+2020-02-11 08:27:32.828766 +0000 build-debian1: b153820b0af9699ef0403be4ad39f648eb070ee98fc27ba54ec9a440a527ed7c768249ba24a640a945d3a6a87229f0886a7788367e7bca053fba1b4620cb3fb1  pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes
+2020-02-11 08:27:32.828814 +0000 build-debian1: 7760f34cf2fdcf906d28da082bff174a4de32a86dd842e737c70a830b1e271bb64851e01c6dfda582c0e66c87b89ab060aed162b2c9c57ef603e4ea19d35c0f7  pkgs/vm-stretch/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:27:32.828870 +0000 build-debian1: ================================================================================
+2020-02-11 08:27:32.828903 +0000 build-debian1:                            B U I L D   I N F O                                  
+2020-02-11 08:27:32.828935 +0000 build-debian1: Items in red indicate it was automatically generated by configuration file(s)
+2020-02-11 08:27:32.828966 +0000 build-debian1: Items in white indicate it was automatically removed by configuration file(s)
+2020-02-11 08:27:32.828995 +0000 build-debian1: ================================================================================
+2020-02-11 08:27:32.829017 +0000 build-debian1: DISTS_VM:
+2020-02-11 08:27:32.829041 +0000 build-debian1:      stretch, buster, bullseye,
+2020-02-11 08:27:32.829062 +0000 build-debian1: DISTS_ALL:
+2020-02-11 08:27:32.829086 +0000 build-debian1:      vm-bullseye, vm-buster, vm-stretch,
+2020-02-11 08:27:32.829297 +0000 build-debian1: DIST_DOM0:
+2020-02-11 08:27:32.829324 +0000 build-debian1:     
+2020-02-11 08:27:32.829347 +0000 build-debian1: BUILDER_PLUGINS:
+2020-02-11 08:27:32.829373 +0000 build-debian1:      builder-debian, mgmt-salt, contrib-configs, builder-github,
+2020-02-11 08:27:32.829395 +0000 build-debian1: COMPONENTS:
+2020-02-11 08:27:32.829419 +0000 build-debian1:      core-agent-linux-addon-bridge-device,
+2020-02-11 08:27:32.829441 +0000 build-debian1: GIT_REPOS:
+2020-02-11 08:27:32.829483 +0000 build-debian1:      qubes-src/core-agent-linux-addon-bridge-device,
+2020-02-11 08:27:32.829506 +0000 build-debian1: TEMPLATE:
+2020-02-11 08:27:32.829526 +0000 build-debian1:     
+2020-02-11 08:27:32.829548 +0000 build-debian1: TEMPLATE_FLAVOR_DIR:
+2020-02-11 08:27:32.829568 +0000 build-debian1:     
+2020-02-11 08:27:32.829589 +0000 build-debian1: TEMPLATE_ALIAS:
+2020-02-11 08:27:32.829609 +0000 build-debian1:     
+2020-02-11 08:27:32.829630 +0000 build-debian1: TEMPLATE_LABEL:
+2020-02-11 08:27:32.829650 +0000 build-debian1:     
+2020-02-11 08:27:32.858013 +0000 build-debian1: > running make
+2020-02-11 08:27:32.893507 +0000 build-debian1: Makefile:266: target 'sign.vm.bullseye.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:32.893703 +0000 build-debian1: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-11 08:27:32.893783 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-02-11 08:27:32.893845 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-11 08:27:32.893992 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-11 08:27:32.894067 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:32.894393 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-02-11 08:27:32.894457 +0000 build-debian1: fi
+2020-02-11 08:27:32.894525 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:32.894585 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-02-11 08:27:32.894641 +0000 build-debian1: ..DIST=bullseye \
+2020-02-11 08:27:32.894693 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-02-11 08:27:32.894751 +0000 build-debian1: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-11 08:27:32.894801 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-02-11 08:27:32.894851 +0000 build-debian1: ..sign || exit 1; \
+2020-02-11 08:27:32.894911 +0000 build-debian1: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-11 08:27:32.894970 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-02-11 08:27:32.895034 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-11 08:27:32.895343 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-11 08:27:32.895414 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-11 08:27:32.895505 +0000 build-debian1: ..fi ;\
+2020-02-11 08:27:32.895556 +0000 build-debian1: .done ; \
+2020-02-11 08:27:32.895609 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-02-11 08:27:32.895663 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-02-11 08:27:32.895717 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-11 08:27:32.895769 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-11 08:27:32.895824 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-11 08:27:32.895873 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:32.895932 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-11 08:27:32.895980 +0000 build-debian1: .fi; \
+2020-02-11 08:27:32.896025 +0000 build-debian1: fi
+2020-02-11 08:27:33.084542 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-02-11 08:27:33.084664 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-02-11 08:27:33.084799 +0000 build-debian1: ./home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes
+2020-02-11 08:27:33.363093 +0000 build-debian1:  signfile dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:34.038636 +0000 build-debian1: 
+2020-02-11 08:27:34.137501 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo
+2020-02-11 08:27:34.152604 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:35.127685 +0000 build-debian1: 
+2020-02-11 08:27:35.181875 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes
+2020-02-11 08:27:35.231492 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes
+2020-02-11 08:27:35.237872 +0000 build-debian1:  signfile changes /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:36.089654 +0000 build-debian1: 
+2020-02-11 08:27:36.099589 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-02-11 08:27:36.103960 +0000 build-debian1: Makefile:266: target 'sign.vm.buster.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:36.104485 +0000 build-debian1: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-11 08:27:36.104577 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-02-11 08:27:36.104631 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-11 08:27:36.104684 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-11 08:27:36.104739 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:36.104803 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-02-11 08:27:36.104846 +0000 build-debian1: fi
+2020-02-11 08:27:36.104903 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:36.105068 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-02-11 08:27:36.105469 +0000 build-debian1: ..DIST=buster \
+2020-02-11 08:27:36.105523 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-02-11 08:27:36.105572 +0000 build-debian1: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-11 08:27:36.105660 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-02-11 08:27:36.105706 +0000 build-debian1: ..sign || exit 1; \
+2020-02-11 08:27:36.105757 +0000 build-debian1: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-11 08:27:36.105802 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-02-11 08:27:36.105856 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-11 08:27:36.105910 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-11 08:27:36.105955 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-11 08:27:36.105994 +0000 build-debian1: ..fi ;\
+2020-02-11 08:27:36.106034 +0000 build-debian1: .done ; \
+2020-02-11 08:27:36.106077 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-02-11 08:27:36.106464 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-02-11 08:27:36.106526 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-11 08:27:36.106572 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-11 08:27:36.106617 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-11 08:27:36.106656 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:36.106708 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-11 08:27:36.106747 +0000 build-debian1: .fi; \
+2020-02-11 08:27:36.106784 +0000 build-debian1: fi
+2020-02-11 08:27:36.423018 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-02-11 08:27:36.423535 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-02-11 08:27:36.423648 +0000 build-debian1: ./home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes
+2020-02-11 08:27:36.664597 +0000 build-debian1:  signfile dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:37.455056 +0000 build-debian1: 
+2020-02-11 08:27:37.506310 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo
+2020-02-11 08:27:37.513375 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:38.414753 +0000 build-debian1: 
+2020-02-11 08:27:38.464466 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes
+2020-02-11 08:27:38.513596 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes
+2020-02-11 08:27:38.521946 +0000 build-debian1:  signfile changes /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:39.405928 +0000 build-debian1: 
+2020-02-11 08:27:39.415876 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-02-11 08:27:39.420473 +0000 build-debian1: Makefile:266: target 'sign.vm.stretch.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:39.420609 +0000 build-debian1: if [ -n "core-agent-linux-addon-bridge-device" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_core_agent_linux_addon_bridge_device"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/core-agent-linux-addon-bridge-device > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-02-11 08:27:39.420652 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-02-11 08:27:39.420681 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-02-11 08:27:39.420710 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-02-11 08:27:39.420741 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:39.420779 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-02-11 08:27:39.420805 +0000 build-debian1: fi
+2020-02-11 08:27:39.420838 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:39.420868 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-02-11 08:27:39.420890 +0000 build-debian1: ..DIST=stretch \
+2020-02-11 08:27:39.420912 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-02-11 08:27:39.420937 +0000 build-debian1: ..COMPONENT=core-agent-linux-addon-bridge-device \
+2020-02-11 08:27:39.420959 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-02-11 08:27:39.420981 +0000 build-debian1: ..sign || exit 1; \
+2020-02-11 08:27:39.421008 +0000 build-debian1: elif [ -d qubes-src/core-agent-linux-addon-bridge-device/rpm ]; then \
+2020-02-11 08:27:39.421032 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-02-11 08:27:39.421061 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/core-agent-linux-addon-bridge-device/rpm/*/*.rpm; do \
+2020-02-11 08:27:39.421091 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-02-11 08:27:39.421310 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-02-11 08:27:39.421334 +0000 build-debian1: ..fi ;\
+2020-02-11 08:27:39.421357 +0000 build-debian1: .done ; \
+2020-02-11 08:27:39.421380 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-02-11 08:27:39.421404 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-02-11 08:27:39.421428 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-02-11 08:27:39.421452 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-02-11 08:27:39.421476 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-02-11 08:27:39.421497 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:39.421525 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-02-11 08:27:39.421546 +0000 build-debian1: .fi; \
+2020-02-11 08:27:39.421566 +0000 build-debian1: fi
+2020-02-11 08:27:39.583555 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-02-11 08:27:39.583650 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-02-11 08:27:39.583702 +0000 build-debian1: ./home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes
+2020-02-11 08:27:39.825732 +0000 build-debian1:  signfile dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:40.767985 +0000 build-debian1: 
+2020-02-11 08:27:40.817885 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo
+2020-02-11 08:27:40.824686 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:41.700035 +0000 build-debian1: 
+2020-02-11 08:27:41.751638 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes
+2020-02-11 08:27:41.857943 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes
+2020-02-11 08:27:41.874936 +0000 build-debian1:  signfile changes /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-02-11 08:27:42.712994 +0000 build-debian1: 
+2020-02-11 08:27:42.723733 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-02-11 08:27:42.728738 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.bullseye.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:42.728841 +0000 build-debian1: repo_base_var="LINUX_REPO_bullseye_BASEDIR"; \
+2020-02-11 08:27:42.728911 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-11 08:27:42.728976 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-11 08:27:42.729028 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-11 08:27:42.729074 +0000 build-debian1: fi; \
+2020-02-11 08:27:42.729495 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-02-11 08:27:42.729564 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-02-11 08:27:42.729607 +0000 build-debian1: else \
+2020-02-11 08:27:42.729658 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.1"; \
+2020-02-11 08:27:42.729702 +0000 build-debian1: fi; \
+2020-02-11 08:27:42.729761 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:42.729828 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:42.729875 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-02-11 08:27:42.729938 +0000 build-debian1: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-11 08:27:42.729992 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-02-11 08:27:42.730038 +0000 build-debian1: ...echo "no version tag"; \
+2020-02-11 08:27:42.730080 +0000 build-debian1: ...exit 0; \
+2020-02-11 08:27:42.730491 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:42.730548 +0000 build-debian1: .fi; \
+2020-02-11 08:27:42.730607 +0000 build-debian1: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:42.730674 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-02-11 08:27:42.730721 +0000 build-debian1: fi
+2020-02-11 08:27:42.730829 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/bullseye get-var GET_VAR=PACKAGE_LIST); \
+2020-02-11 08:27:42.730890 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-02-11 08:27:42.730937 +0000 build-debian1: ..echo "no packages."; \
+2020-02-11 08:27:42.731037 +0000 build-debian1: ..exit 0; \
+2020-02-11 08:27:42.731671 +0000 build-debian1: .fi; \
+2020-02-11 08:27:42.731737 +0000 build-debian1: .make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm \
+2020-02-11 08:27:42.731797 +0000 build-debian1: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:42.731846 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-02-11 08:27:42.731894 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-02-11 08:27:42.731952 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/bullseye \
+2020-02-11 08:27:42.732031 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-bullseye-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:42.732874 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-20-28 \
+2020-02-11 08:27:42.732916 +0000 build-debian1: ..update-repo || exit 1; \
+2020-02-11 08:27:42.732951 +0000 build-debian1: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-11 08:27:42.732982 +0000 build-debian1: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:42.733013 +0000 build-debian1: .DIST=bullseye UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/bullseye \
+2020-02-11 08:27:42.733046 +0000 build-debian1: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-11 08:27:42.733070 +0000 build-debian1: else \
+2020-02-11 08:27:42.733278 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-11 08:27:42.733316 +0000 build-debian1: fi; \
+2020-02-11 08:27:42.733338 +0000 build-debian1: echo
+2020-02-11 08:27:43.166045 +0000 build-debian1: Updating qubes-src/core-agent-linux-addon-bridge-device... /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-02-11 08:27:43.166587 +0000 build-debian1: mkdir -p /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye/conf
+2020-02-11 08:27:43.595816 +0000 build-debian1: if [ ! -e /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye/conf/distributions ]; then \
+2020-02-11 08:27:43.595948 +0000 build-debian1: .touch /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye/conf/distributions; \
+2020-02-11 08:27:43.596008 +0000 build-debian1: fi
+2020-02-11 08:27:43.599470 +0000 build-debian1: grep bullseye /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye/conf/distributions > /dev/null; \
+2020-02-11 08:27:43.599592 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-02-11 08:27:43.599681 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye/conf/distributions; \
+2020-02-11 08:27:43.599735 +0000 build-debian1: fi
+2020-02-11 08:27:44.128497 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-02-11 08:27:44.128605 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:44.128741 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:44.128802 +0000 build-debian1: else \
+2020-02-11 08:27:44.128988 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:44.129485 +0000 build-debian1: fi
+2020-02-11 08:27:45.150599 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:45.150738 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== )' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-bullseye-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:45.150781 +0000 build-debian1: else \
+2020-02-11 08:27:45.150851 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== 4.0.1-1+deb11u1)' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-bullseye-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:45.150887 +0000 build-debian1: fi
+2020-02-11 08:27:45.434543 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-11 08:27:45.434638 +0000 build-debian1: [ -z "qubes-core-agent-linux-addon-bridge-device_4.0.1-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2020-02-11 08:27:45.434681 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-20-28" \
+2020-02-11 08:27:45.434709 +0000 build-debian1: .upload \
+2020-02-11 08:27:45.434732 +0000 build-debian1: ."r4.1" \
+2020-02-11 08:27:45.434758 +0000 build-debian1: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-11 08:27:45.434786 +0000 build-debian1: ."qubes-core-agent-linux-addon-bridge-device_4.0.1-1" \
+2020-02-11 08:27:45.434808 +0000 build-debian1: ."bullseye" \
+2020-02-11 08:27:45.434830 +0000 build-debian1: ."vm" \
+2020-02-11 08:27:45.434853 +0000 build-debian1: ."current-testing" \
+2020-02-11 08:27:45.434885 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-bullseye-current-testing" \
+2020-02-11 08:27:45.434919 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-bullseye-current"
+2020-02-11 08:27:46.266727 +0000 build-debian1: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-11 08:27:46.266811 +0000 build-debian1: Try --always, or create some tags.
+2020-02-11 08:27:49.561474 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-bullseye-current-testing does not exist, initializing with the current state
+2020-02-11 08:27:49.561667 +0000 build-debian1: WARNING: failed to add r4.1-bullseye-cur-test label to issue 17: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-11 08:27:49.583934 +0000 build-debian1: 
+2020-02-11 08:27:49.584769 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.bullseye' due to: internal-update-repo-current-testing.vm.bullseye.core-agent-linux-addon-bridge-device
+2020-02-11 08:27:49.584815 +0000 build-debian1: true
+2020-02-11 08:27:49.589373 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.buster.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:49.589424 +0000 build-debian1: repo_base_var="LINUX_REPO_buster_BASEDIR"; \
+2020-02-11 08:27:49.589460 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-11 08:27:49.589495 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-11 08:27:49.589548 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-11 08:27:49.589576 +0000 build-debian1: fi; \
+2020-02-11 08:27:49.589605 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-02-11 08:27:49.589630 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-02-11 08:27:49.589651 +0000 build-debian1: else \
+2020-02-11 08:27:49.589676 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.1"; \
+2020-02-11 08:27:49.589726 +0000 build-debian1: fi; \
+2020-02-11 08:27:49.589760 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:49.589794 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:49.589818 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-02-11 08:27:49.589849 +0000 build-debian1: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-11 08:27:49.589877 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-02-11 08:27:49.589900 +0000 build-debian1: ...echo "no version tag"; \
+2020-02-11 08:27:49.589921 +0000 build-debian1: ...exit 0; \
+2020-02-11 08:27:49.589941 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:49.589962 +0000 build-debian1: .fi; \
+2020-02-11 08:27:49.589990 +0000 build-debian1: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:49.590024 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-02-11 08:27:49.590048 +0000 build-debian1: fi
+2020-02-11 08:27:49.590280 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/buster get-var GET_VAR=PACKAGE_LIST); \
+2020-02-11 08:27:49.590327 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-02-11 08:27:49.590352 +0000 build-debian1: ..echo "no packages."; \
+2020-02-11 08:27:49.590374 +0000 build-debian1: ..exit 0; \
+2020-02-11 08:27:49.590395 +0000 build-debian1: .fi; \
+2020-02-11 08:27:49.590421 +0000 build-debian1: .make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm \
+2020-02-11 08:27:49.590449 +0000 build-debian1: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:49.590473 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-02-11 08:27:49.590497 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-02-11 08:27:49.590525 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/buster \
+2020-02-11 08:27:49.590566 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-buster-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:49.590604 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-23-05 \
+2020-02-11 08:27:49.590631 +0000 build-debian1: ..update-repo || exit 1; \
+2020-02-11 08:27:49.590663 +0000 build-debian1: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-11 08:27:49.590694 +0000 build-debian1: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:49.590723 +0000 build-debian1: .DIST=buster UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/buster \
+2020-02-11 08:27:49.590756 +0000 build-debian1: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-11 08:27:49.590780 +0000 build-debian1: else \
+2020-02-11 08:27:49.590809 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-11 08:27:49.590831 +0000 build-debian1: fi; \
+2020-02-11 08:27:49.590851 +0000 build-debian1: echo
+2020-02-11 08:27:49.967089 +0000 build-debian1: Updating qubes-src/core-agent-linux-addon-bridge-device... /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-02-11 08:27:49.967389 +0000 build-debian1: mkdir -p /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster/conf
+2020-02-11 08:27:50.391991 +0000 build-debian1: if [ ! -e /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster/conf/distributions ]; then \
+2020-02-11 08:27:50.392294 +0000 build-debian1: .touch /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster/conf/distributions; \
+2020-02-11 08:27:50.392333 +0000 build-debian1: fi
+2020-02-11 08:27:50.395589 +0000 build-debian1: grep buster /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster/conf/distributions > /dev/null; \
+2020-02-11 08:27:50.395664 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-02-11 08:27:50.395738 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster/conf/distributions; \
+2020-02-11 08:27:50.395784 +0000 build-debian1: fi
+2020-02-11 08:27:50.925041 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-02-11 08:27:50.925317 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:50.925390 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster include buster-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:50.925420 +0000 build-debian1: else \
+2020-02-11 08:27:50.925481 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/buster include buster-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-buster/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:50.925508 +0000 build-debian1: fi
+2020-02-11 08:27:51.531666 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:51.531774 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== )' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-buster-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:51.531804 +0000 build-debian1: else \
+2020-02-11 08:27:51.531942 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== 4.0.1-1+deb10u1)' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-buster-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:51.531978 +0000 build-debian1: fi
+2020-02-11 08:27:51.809368 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-11 08:27:51.809461 +0000 build-debian1: [ -z "qubes-core-agent-linux-addon-bridge-device_4.0.1-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2020-02-11 08:27:51.809504 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-23-05" \
+2020-02-11 08:27:51.809532 +0000 build-debian1: .upload \
+2020-02-11 08:27:51.809555 +0000 build-debian1: ."r4.1" \
+2020-02-11 08:27:51.809581 +0000 build-debian1: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-11 08:27:51.809609 +0000 build-debian1: ."qubes-core-agent-linux-addon-bridge-device_4.0.1-1" \
+2020-02-11 08:27:51.809630 +0000 build-debian1: ."buster" \
+2020-02-11 08:27:51.809652 +0000 build-debian1: ."vm" \
+2020-02-11 08:27:51.809675 +0000 build-debian1: ."current-testing" \
+2020-02-11 08:27:51.809706 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-buster-current-testing" \
+2020-02-11 08:27:51.809740 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-buster-current"
+2020-02-11 08:27:52.595500 +0000 build-debian1: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-11 08:27:52.595620 +0000 build-debian1: Try --always, or create some tags.
+2020-02-11 08:27:55.840764 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-buster-current-testing does not exist, initializing with the current state
+2020-02-11 08:27:55.840948 +0000 build-debian1: WARNING: failed to add r4.1-buster-cur-test label to issue 17: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-11 08:27:55.863933 +0000 build-debian1: 
+2020-02-11 08:27:55.864019 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.buster' due to: internal-update-repo-current-testing.vm.buster.core-agent-linux-addon-bridge-device
+2020-02-11 08:27:55.864049 +0000 build-debian1: true
+2020-02-11 08:27:55.868086 +0000 build-debian1: Makefile:812: target 'internal-update-repo-current-testing.vm.stretch.core-agent-linux-addon-bridge-device' does not exist
+2020-02-11 08:27:55.868323 +0000 build-debian1: repo_base_var="LINUX_REPO_stretch_BASEDIR"; \
+2020-02-11 08:27:55.868361 +0000 build-debian1: if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then \
+2020-02-11 08:27:55.868396 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-02-11 08:27:55.868423 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-02-11 08:27:55.868445 +0000 build-debian1: fi; \
+2020-02-11 08:27:55.868470 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-02-11 08:27:55.868494 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-02-11 08:27:55.868514 +0000 build-debian1: else \
+2020-02-11 08:27:55.868539 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.1"; \
+2020-02-11 08:27:55.868641 +0000 build-debian1: fi; \
+2020-02-11 08:27:55.868682 +0000 build-debian1: if [ -r qubes-src/core-agent-linux-addon-bridge-device/Makefile.builder ]; then \
+2020-02-11 08:27:55.868717 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:55.868741 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-02-11 08:27:55.868774 +0000 build-debian1: ..vtag=`git -C qubes-src/core-agent-linux-addon-bridge-device tag --points-at HEAD --list v*`; \
+2020-02-11 08:27:55.868801 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-02-11 08:27:55.868824 +0000 build-debian1: ...echo "no version tag"; \
+2020-02-11 08:27:55.868846 +0000 build-debian1: ...exit 0; \
+2020-02-11 08:27:55.868867 +0000 build-debian1: ..fi; \
+2020-02-11 08:27:55.868888 +0000 build-debian1: .fi; \
+2020-02-11 08:27:55.868916 +0000 build-debian1: .if [ "core-agent-linux-addon-bridge-device" = linux-template-builder ]; then
+2020-02-11 08:27:55.868955 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-02-11 08:27:55.868978 +0000 build-debian1: fi
+2020-02-11 08:27:55.869029 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/stretch get-var GET_VAR=PACKAGE_LIST); \
+2020-02-11 08:27:55.869060 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-02-11 08:27:55.869084 +0000 build-debian1: ..echo "no packages."; \
+2020-02-11 08:27:55.869288 +0000 build-debian1: ..exit 0; \
+2020-02-11 08:27:55.869319 +0000 build-debian1: .fi; \
+2020-02-11 08:27:55.869346 +0000 build-debian1: .make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm \
+2020-02-11 08:27:55.869374 +0000 build-debian1: ..COMPONENT=`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:55.869399 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-02-11 08:27:55.869422 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-02-11 08:27:55.869451 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/stretch \
+2020-02-11 08:27:55.869496 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-stretch-`basename qubes-src/core-agent-linux-addon-bridge-device` \
+2020-02-11 08:27:55.869560 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-25-19 \
+2020-02-11 08:27:55.869588 +0000 build-debian1: ..update-repo || exit 1; \
+2020-02-11 08:27:55.869621 +0000 build-debian1: elif make -C qubes-src/core-agent-linux-addon-bridge-device -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-02-11 08:27:55.869651 +0000 build-debian1: .echo "Updating qubes-src/core-agent-linux-addon-bridge-device... "; \
+2020-02-11 08:27:55.869681 +0000 build-debian1: .DIST=stretch UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/stretch \
+2020-02-11 08:27:55.869714 +0000 build-debian1: .make -s -C qubes-src/core-agent-linux-addon-bridge-device update-repo-current-testing || exit 1; \
+2020-02-11 08:27:55.869736 +0000 build-debian1: else \
+2020-02-11 08:27:55.869765 +0000 build-debian1: .echo -n "Updating qubes-src/core-agent-linux-addon-bridge-device... skipping."; \
+2020-02-11 08:27:55.869787 +0000 build-debian1: fi; \
+2020-02-11 08:27:55.869807 +0000 build-debian1: echo
+2020-02-11 08:27:56.303741 +0000 build-debian1: Updating qubes-src/core-agent-linux-addon-bridge-device... /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-02-11 08:27:56.303830 +0000 build-debian1: mkdir -p /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch/conf
+2020-02-11 08:27:56.726711 +0000 build-debian1: if [ ! -e /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch/conf/distributions ]; then \
+2020-02-11 08:27:56.726802 +0000 build-debian1: .touch /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch/conf/distributions; \
+2020-02-11 08:27:56.726830 +0000 build-debian1: fi
+2020-02-11 08:27:56.730358 +0000 build-debian1: grep stretch /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch/conf/distributions > /dev/null; \
+2020-02-11 08:27:56.730406 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-02-11 08:27:56.730487 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch/conf/distributions; \
+2020-02-11 08:27:56.730516 +0000 build-debian1: fi
+2020-02-11 08:27:57.256725 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-02-11 08:27:57.256806 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:57.256872 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:57.256901 +0000 build-debian1: else \
+2020-02-11 08:27:57.256962 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.1/qubes-src/linux-deb/r4.1/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.1/qubes-packages-mirror-repo/vm-stretch/deb/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-02-11 08:27:57.257042 +0000 build-debian1: fi
+2020-02-11 08:27:57.883529 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-02-11 08:27:57.883718 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== )' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-stretch-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:57.883781 +0000 build-debian1: else \
+2020-02-11 08:27:57.883886 +0000 build-debian1: .echo '$Source (== qubes-core-agent-linux-addon-bridge-device), Version (== 4.0.1-1+deb9u1)' > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-stretch-core-agent-linux-addon-bridge-device; \
+2020-02-11 08:27:57.883940 +0000 build-debian1: fi
+2020-02-11 08:27:58.153695 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-02-11 08:27:58.153817 +0000 build-debian1: [ -z "qubes-core-agent-linux-addon-bridge-device_4.0.1-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2020-02-11 08:27:58.153863 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-11_08-25-19" \
+2020-02-11 08:27:58.153891 +0000 build-debian1: .upload \
+2020-02-11 08:27:58.153914 +0000 build-debian1: ."r4.1" \
+2020-02-11 08:27:58.153941 +0000 build-debian1: ."qubes-src/core-agent-linux-addon-bridge-device" \
+2020-02-11 08:27:58.153969 +0000 build-debian1: ."qubes-core-agent-linux-addon-bridge-device_4.0.1-1" \
+2020-02-11 08:27:58.153991 +0000 build-debian1: ."stretch" \
+2020-02-11 08:27:58.154013 +0000 build-debian1: ."vm" \
+2020-02-11 08:27:58.154036 +0000 build-debian1: ."current-testing" \
+2020-02-11 08:27:58.154068 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-stretch-current-testing" \
+2020-02-11 08:27:58.154291 +0000 build-debian1: ."/home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-stretch-current"
+2020-02-11 08:27:58.951790 +0000 build-debian1: fatal: No tags can describe '6326bdbafe42c12a68254f558e96bd3f223ddc65'.
+2020-02-11 08:27:58.951874 +0000 build-debian1: Try --always, or create some tags.
+2020-02-11 08:28:02.043821 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.1-core-agent-linux-addon-bridge-device-vm-stretch-current-testing does not exist, initializing with the current state
+2020-02-11 08:28:02.044016 +0000 build-debian1: WARNING: failed to add r4.1-stretch-cur-test label to issue 17: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-02-11 08:28:02.067961 +0000 build-debian1: 
+2020-02-11 08:28:02.068524 +0000 build-debian1: Makefile:787: update target 'internal-update-repo-current-testing.vm.stretch' due to: internal-update-repo-current-testing.vm.stretch.core-agent-linux-addon-bridge-device
+2020-02-11 08:28:02.068564 +0000 build-debian1: true
+2020-02-11 08:28:02.072451 +0000 build-debian1: Makefile:866: target 'post-update-repo-current-testing' does not exist
+2020-02-11 08:28:02.072499 +0000 build-debian1: for dist in  bullseye buster stretch; do \
+2020-02-11 08:28:02.072531 +0000 build-debian1: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-02-11 08:28:02.072558 +0000 build-debian1: .if [ -n "${!repo_base_var}" ]; then \
+2020-02-11 08:28:02.072584 +0000 build-debian1: ..repo_basedir="${!repo_base_var}"; \
+2020-02-11 08:28:02.072605 +0000 build-debian1: .else \
+2020-02-11 08:28:02.072632 +0000 build-debian1: ..repo_basedir="qubes-src/linux-deb/r4.1"; \
+2020-02-11 08:28:02.072654 +0000 build-debian1: .fi; \
+2020-02-11 08:28:02.072680 +0000 build-debian1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-02-11 08:28:02.072702 +0000 build-debian1: done; \
+2020-02-11 08:28:02.072724 +0000 build-debian1: pkgset_dist= ; \
+2020-02-11 08:28:02.072747 +0000 build-debian1: for dist in ; do \
+2020-02-11 08:28:02.072771 +0000 build-debian1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-02-11 08:28:02.072792 +0000 build-debian1: done; \
+2020-02-11 08:28:02.072816 +0000 build-debian1: for dist in bullseye buster stretch; do \
+2020-02-11 08:28:02.072839 +0000 build-debian1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-02-11 08:28:02.072860 +0000 build-debian1: done; \
+2020-02-11 08:28:02.072887 +0000 build-debian1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-02-11 08:28:02.072911 +0000 build-debian1: .[ -z "$repo" ] && continue; \
+2020-02-11 08:28:02.072940 +0000 build-debian1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-02-11 08:28:02.072967 +0000 build-debian1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2020-02-11 08:28:02.072988 +0000 build-debian1: done
+2020-02-11 08:28:02.102556 +0000 build-debian1: --> Processing repo: r4.1/vm/dists/bullseye-testing...
+2020-02-11 08:28:02.914926 +0000 build-debian1: --> Processing repo: r4.1/vm/dists/buster-testing...
+2020-02-11 08:28:03.733761 +0000 build-debian1: --> Processing repo: r4.1/vm/dists/stretch-testing...
+2020-02-11 08:28:04.473513 +0000 build-debian1: Done.
+2020-02-11 08:28:04.494912 +0000 build-debian1: ~/builder-r4.1/qubes-src/linux-deb ~/builder-r4.1/qubes-src/linux-deb
+2020-02-11 08:28:07.070639 +0000 build-debian1: sending incremental file list
+2020-02-11 08:28:07.261525 +0000 build-debian1: .d..t...... pool/main/q/
+2020-02-11 08:28:07.263944 +0000 build-debian1: cd+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/
+2020-02-11 08:28:07.264350 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:28:07.264880 +0000 build-debian1: .          2,124 100%    0.00kB/s    0:00:00  .          2,124 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=31/37)
+2020-02-11 08:28:07.265918 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:28:07.267044 +0000 build-debian1: .          2,128 100%    2.03MB/s    0:00:00  .          2,128 100%    1.01MB/s    0:00:00 (xfr#2, to-chk=30/37)
+2020-02-11 08:28:07.267466 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-network-manager_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:28:07.268517 +0000 build-debian1: .          2,038 100%  663.41kB/s    0:00:00  .          2,038 100%  663.41kB/s    0:00:00 (xfr#3, to-chk=29/37)
+2020-02-11 08:28:07.268581 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-networking_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:28:07.270302 +0000 build-debian1: .          2,096 100%  511.72kB/s    0:00:00  .          2,096 100%  511.72kB/s    0:00:00 (xfr#4, to-chk=28/37)
+2020-02-11 08:28:07.270359 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-networking_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:28:07.270399 +0000 build-debian1: .          2,100 100%  512.70kB/s    0:00:00  .          2,100 100%  512.70kB/s    0:00:00 (xfr#5, to-chk=27/37)
+2020-02-11 08:28:07.270442 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device-networking_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:28:07.270477 +0000 build-debian1: .          2,012 100%  491.21kB/s    0:00:00  .          2,012 100%  392.97kB/s    0:00:00 (xfr#6, to-chk=26/37)
+2020-02-11 08:28:07.270512 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device_4.0.1-1+deb10u1_amd64.deb
+2020-02-11 08:28:07.270685 +0000 build-debian1: .          2,420 100%  472.66kB/s    0:00:00  .          2,420 100%  472.66kB/s    0:00:00 (xfr#7, to-chk=25/37)
+2020-02-11 08:28:07.270731 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device_4.0.1-1+deb11u1_amd64.deb
+2020-02-11 08:28:07.270767 +0000 build-debian1: .          2,432 100%  475.00kB/s    0:00:00  .          2,432 100%  475.00kB/s    0:00:00 (xfr#8, to-chk=24/37)
+2020-02-11 08:28:07.270802 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-bridge-device_4.0.1-1+deb9u1_amd64.deb
+2020-02-11 08:28:07.270969 +0000 build-debian1: .          2,332 100%  379.56kB/s    0:00:00  .          2,332 100%  379.56kB/s    0:00:00 (xfr#9, to-chk=23/37)
+2020-02-11 08:28:07.271019 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.debian.tar.xz
+2020-02-11 08:28:07.271057 +0000 build-debian1: .          1,692 100%  275.39kB/s    0:00:00  .          1,692 100%  275.39kB/s    0:00:00 (xfr#10, to-chk=22/37)
+2020-02-11 08:28:07.271312 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1.dsc
+2020-02-11 08:28:07.272011 +0000 build-debian1: .          1,924 100%  313.15kB/s    0:00:00  .          1,924 100%  268.42kB/s    0:00:00 (xfr#11, to-chk=21/37)
+2020-02-11 08:28:07.272061 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb10u1_amd64.buildinfo
+2020-02-11 08:28:07.272610 +0000 build-debian1: .          6,131 100%  855.33kB/s    0:00:00  .          6,131 100%  855.33kB/s    0:00:00 (xfr#12, to-chk=20/37)
+2020-02-11 08:28:07.272662 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.debian.tar.xz
+2020-02-11 08:28:07.272700 +0000 build-debian1: .          1,692 100%  206.54kB/s    0:00:00  .          1,692 100%  206.54kB/s    0:00:00 (xfr#13, to-chk=19/37)
+2020-02-11 08:28:07.272738 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1.dsc
+2020-02-11 08:28:07.273377 +0000 build-debian1: .          1,924 100%  234.86kB/s    0:00:00  .          1,924 100%  234.86kB/s    0:00:00 (xfr#14, to-chk=18/37)
+2020-02-11 08:28:07.273427 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb11u1_amd64.buildinfo
+2020-02-11 08:28:07.273724 +0000 build-debian1: .          6,185 100%  755.00kB/s    0:00:00  .          6,185 100%  671.12kB/s    0:00:00 (xfr#15, to-chk=17/37)
+2020-02-11 08:28:07.273774 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.debian.tar.xz
+2020-02-11 08:28:07.274324 +0000 build-debian1: .          1,692 100%  183.59kB/s    0:00:00  .          1,692 100%  183.59kB/s    0:00:00 (xfr#16, to-chk=16/37)
+2020-02-11 08:28:07.275044 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1.dsc
+2020-02-11 08:28:07.275090 +0000 build-debian1: .          1,920 100%  187.50kB/s    0:00:00  .          1,920 100%  187.50kB/s    0:00:00 (xfr#17, to-chk=15/37)
+2020-02-11 08:28:07.275315 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1-1+deb9u1_amd64.buildinfo
+2020-02-11 08:28:07.276352 +0000 build-debian1: .          6,538 100%  638.48kB/s    0:00:00  .          6,538 100%  638.48kB/s    0:00:00 (xfr#18, to-chk=14/37)
+2020-02-11 08:28:07.276412 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-core-agent-linux-addon-bridge-device/qubes-core-agent-linux-addon-bridge-device_4.0.1.orig.tar.xz
+2020-02-11 08:28:07.276451 +0000 build-debian1: .          2,852 100%  278.52kB/s    0:00:00  .          2,852 100%  253.20kB/s    0:00:00 (xfr#19, to-chk=13/37)
+2020-02-11 08:28:07.797724 +0000 build-debian1: Syncing r4.1/vm/bullseye-testing...
+2020-02-11 08:28:09.433770 +0000 build-debian1: sending incremental file list
+2020-02-11 08:28:09.626958 +0000 build-debian1: .d..t...... bullseye-testing/
+2020-02-11 08:28:09.628736 +0000 build-debian1: <f.st...... bullseye-testing/InRelease
+2020-02-11 08:28:09.633722 +0000 build-debian1: .          2,176 100%    0.00kB/s    0:00:00  .          2,176 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-02-11 08:28:09.636975 +0000 build-debian1: <f.st...... bullseye-testing/Release
+2020-02-11 08:28:09.637459 +0000 build-debian1: .          1,639 100%  400.15kB/s    0:00:00  .          1,639 100%  400.15kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-02-11 08:28:09.637669 +0000 build-debian1: <f..t...... bullseye-testing/Release.gpg
+2020-02-11 08:28:09.638006 +0000 build-debian1: .            488 100%   95.31kB/s    0:00:00  .            488 100%   95.31kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-02-11 08:28:09.638526 +0000 build-debian1: .d..t...... bullseye-testing/main/binary-amd64/
+2020-02-11 08:28:09.639027 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages
+2020-02-11 08:28:09.639853 +0000 build-debian1: .          2,719 100%  379.32kB/s    0:00:00  .          2,719 100%  331.91kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-02-11 08:28:09.640760 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages.gz
+2020-02-11 08:28:09.640982 +0000 build-debian1: .            877 100%   95.16kB/s    0:00:00  .            877 100%   85.64kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-02-11 08:28:09.641988 +0000 build-debian1: .d..t...... bullseye-testing/main/source/
+2020-02-11 08:28:09.642035 +0000 build-debian1: <f.st...... bullseye-testing/main/source/Sources.gz
+2020-02-11 08:28:09.642317 +0000 build-debian1: .          1,046 100%   92.86kB/s    0:00:00  .          1,046 100%   92.86kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-02-11 08:28:10.030094 +0000 build-debian1: Syncing r4.1/vm/buster-testing...
+2020-02-11 08:28:11.812818 +0000 build-debian1: sending incremental file list
+2020-02-11 08:28:11.926904 +0000 build-debian1: .d..t...... buster-testing/
+2020-02-11 08:28:11.927776 +0000 build-debian1: <f.st...... buster-testing/InRelease
+2020-02-11 08:28:11.930945 +0000 build-debian1: .          2,172 100%    0.00kB/s    0:00:00  .          2,172 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-02-11 08:28:11.931834 +0000 build-debian1: <f.st...... buster-testing/Release
+2020-02-11 08:28:11.934451 +0000 build-debian1: .          1,635 100%  532.23kB/s    0:00:00  .          1,635 100%  399.17kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-02-11 08:28:11.934513 +0000 build-debian1: <f..t...... buster-testing/Release.gpg
+2020-02-11 08:28:11.934562 +0000 build-debian1: .            488 100%  119.14kB/s    0:00:00  .            488 100%  119.14kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-02-11 08:28:11.934600 +0000 build-debian1: .d..t...... buster-testing/main/binary-amd64/
+2020-02-11 08:28:11.934967 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages
+2020-02-11 08:28:11.935028 +0000 build-debian1: .          2,719 100%  531.05kB/s    0:00:00  .          2,719 100%  531.05kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-02-11 08:28:11.935067 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages.gz
+2020-02-11 08:28:11.936072 +0000 build-debian1: .            880 100%  171.88kB/s    0:00:00  .            880 100%  143.23kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-02-11 08:28:11.936400 +0000 build-debian1: .d..t...... buster-testing/main/source/
+2020-02-11 08:28:11.936437 +0000 build-debian1: <f.st...... buster-testing/main/source/Sources.gz
+2020-02-11 08:28:11.936736 +0000 build-debian1: .          1,043 100%  169.76kB/s    0:00:00  .          1,043 100%  169.76kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-02-11 08:28:12.392037 +0000 build-debian1: Syncing r4.1/vm/stretch-testing...
+2020-02-11 08:28:14.060957 +0000 build-debian1: sending incremental file list
+2020-02-11 08:28:14.193739 +0000 build-debian1: .d..t...... stretch-testing/
+2020-02-11 08:28:14.194622 +0000 build-debian1: <f.st...... stretch-testing/InRelease
+2020-02-11 08:28:14.198037 +0000 build-debian1: .          2,174 100%    0.00kB/s    0:00:00  .          2,174 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-02-11 08:28:14.199577 +0000 build-debian1: <f.st...... stretch-testing/Release
+2020-02-11 08:28:14.201269 +0000 build-debian1: .          1,637 100%  532.88kB/s    0:00:00  .          1,637 100%  399.66kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-02-11 08:28:14.201757 +0000 build-debian1: <f..t...... stretch-testing/Release.gpg
+2020-02-11 08:28:14.202710 +0000 build-debian1: .            488 100%   95.31kB/s    0:00:00  .            488 100%   95.31kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-02-11 08:28:14.202759 +0000 build-debian1: .d..t...... stretch-testing/main/binary-amd64/
+2020-02-11 08:28:14.202792 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages
+2020-02-11 08:28:14.203086 +0000 build-debian1: .          2,711 100%  441.24kB/s    0:00:00  .          2,711 100%  441.24kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-02-11 08:28:14.203309 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages.gz
+2020-02-11 08:28:14.203483 +0000 build-debian1: .            881 100%  143.39kB/s    0:00:00  .            881 100%  122.91kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-02-11 08:28:14.204549 +0000 build-debian1: .d..t...... stretch-testing/main/source/
+2020-02-11 08:28:14.204612 +0000 build-debian1: <f.st...... stretch-testing/main/source/Sources.gz
+2020-02-11 08:28:14.204679 +0000 build-debian1: .          1,044 100%  145.65kB/s    0:00:00  .          1,044 100%  145.65kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-02-11 08:28:14.574631 +0000 build-debian1: ~/builder-r4.1/qubes-src/linux-deb
+2020-02-11 08:28:14.574716 +0000 build-debian1: Makefile:772: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.bullseye internal-update-repo-current-testing.vm.buster internal-update-repo-current-testing.vm.stretch post-update-repo-current-testing
+2020-02-11 08:28:14.574750 +0000 build-debian1: true
+2020-02-11 08:28:14.579354 +0000 build-debian1: > done
+2020-02-11 08:28:14.579514 +0000 > closing log
