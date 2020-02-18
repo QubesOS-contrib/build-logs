@@ -1,6 +1,6 @@
 2020-02-18 21:53:39.953934 +0000 > starting log
 2020-02-18 21:53:39.957111 +0000 build-debian1: > starting build with log
-2020-02-18 21:53:39.957493 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster stretch DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-bullseye=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29 tunnel-vm-buster=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56 tunnel-vm-stretch=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2020-02-18 21:53:39.957493 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster stretch DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-bullseye=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29 tunnel-vm-buster=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56 tunnel-vm-stretch=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
 2020-02-18 21:53:39.957551 +0000 build-debian1: >> MAKEFLAGS=
 2020-02-18 21:53:39.957586 +0000 build-debian1: >> COMPONENTS=tunnel
 2020-02-18 21:53:39.957617 +0000 build-debian1: >> DISTS_VM=
@@ -235,7 +235,7 @@
 2020-02-18 21:53:52.106482 +0000 build-debian1: ..TARGET_REPO=current-testing \
 2020-02-18 21:53:52.106518 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/bullseye \
 2020-02-18 21:53:52.106557 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-bullseye-`basename qubes-src/tunnel` \
-2020-02-18 21:53:52.106595 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29 \
+2020-02-18 21:53:52.106595 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29 \
 2020-02-18 21:53:52.106623 +0000 build-debian1: ..update-repo || exit 1; \
 2020-02-18 21:53:52.106653 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:53:52.106682 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
@@ -269,7 +269,7 @@
 2020-02-18 21:53:55.744605 +0000 build-debian1: fi
 2020-02-18 21:53:56.386692 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:53:56.386780 +0000 build-debian1: [ -z "qubes-tunnel_1.4.0-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:53:56.386822 +0000 build-debian1: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29" \
+2020-02-18 21:53:56.386822 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-45-29" \
 2020-02-18 21:53:56.386849 +0000 build-debian1: .upload \
 2020-02-18 21:53:56.386874 +0000 build-debian1: ."r4.1" \
 2020-02-18 21:53:56.386898 +0000 build-debian1: ."qubes-src/tunnel" \
@@ -318,7 +318,7 @@
 2020-02-18 21:54:02.239437 +0000 build-debian1: ..TARGET_REPO=current-testing \
 2020-02-18 21:54:02.239468 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/buster \
 2020-02-18 21:54:02.239533 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-buster-`basename qubes-src/tunnel` \
-2020-02-18 21:54:02.239571 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56 \
+2020-02-18 21:54:02.239571 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56 \
 2020-02-18 21:54:02.239601 +0000 build-debian1: ..update-repo || exit 1; \
 2020-02-18 21:54:02.239631 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:54:02.239658 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
@@ -352,7 +352,7 @@
 2020-02-18 21:54:04.101629 +0000 build-debian1: fi
 2020-02-18 21:54:04.407814 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:54:04.407929 +0000 build-debian1: [ -z "qubes-tunnel_1.4.0-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:54:04.407970 +0000 build-debian1: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56" \
+2020-02-18 21:54:04.407970 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-51-56" \
 2020-02-18 21:54:04.407999 +0000 build-debian1: .upload \
 2020-02-18 21:54:04.408024 +0000 build-debian1: ."r4.1" \
 2020-02-18 21:54:04.408047 +0000 build-debian1: ."qubes-src/tunnel" \
@@ -401,7 +401,7 @@
 2020-02-18 21:54:08.407513 +0000 build-debian1: ..TARGET_REPO=current-testing \
 2020-02-18 21:54:08.407599 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/stretch \
 2020-02-18 21:54:08.407688 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-stretch-`basename qubes-src/tunnel` \
-2020-02-18 21:54:08.407761 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52 \
+2020-02-18 21:54:08.407761 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52 \
 2020-02-18 21:54:08.407812 +0000 build-debian1: ..update-repo || exit 1; \
 2020-02-18 21:54:08.407872 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:54:08.407926 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
@@ -435,7 +435,7 @@
 2020-02-18 21:54:11.821995 +0000 build-debian1: fi
 2020-02-18 21:54:12.199372 +0000 build-debian1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:54:12.199475 +0000 build-debian1: [ -z "qubes-tunnel_1.4.0-1" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:54:12.199555 +0000 build-debian1: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52" \
+2020-02-18 21:54:12.199555 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-02-18_21-52-52" \
 2020-02-18 21:54:12.199599 +0000 build-debian1: .upload \
 2020-02-18 21:54:12.199639 +0000 build-debian1: ."r4.1" \
 2020-02-18 21:54:12.199677 +0000 build-debian1: ."qubes-src/tunnel" \

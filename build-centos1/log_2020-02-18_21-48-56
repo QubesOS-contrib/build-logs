@@ -1,6 +1,6 @@
 2020-02-18 21:48:56.587891 +0000 > starting log
 2020-02-18 21:48:56.590105 +0000 build-centos1: > starting build with log
-2020-02-18 21:48:56.590172 +0000 build-centos1: >> make args: DISTS_VM= centos7 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-centos7=https://github.com/QubesOS/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2020-02-18 21:48:56.590172 +0000 build-centos1: >> make args: DISTS_VM= centos7 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-centos7=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
 2020-02-18 21:48:56.590406 +0000 build-centos1: >> MAKEFLAGS=
 2020-02-18 21:48:56.590439 +0000 build-centos1: >> COMPONENTS=tunnel
 2020-02-18 21:48:56.590463 +0000 build-centos1: >> DISTS_VM=
@@ -199,7 +199,7 @@
 2020-02-18 21:48:58.651554 +0000 build-centos1: ..TARGET_REPO=current-testing \
 2020-02-18 21:48:58.651628 +0000 build-centos1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/centos7 \
 2020-02-18 21:48:58.651711 +0000 build-centos1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-centos7-`basename qubes-src/tunnel` \
-2020-02-18 21:48:58.651781 +0000 build-centos1: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1 \
+2020-02-18 21:48:58.651781 +0000 build-centos1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1 \
 2020-02-18 21:48:58.651831 +0000 build-centos1: ..update-repo || exit 1; \
 2020-02-18 21:48:58.651890 +0000 build-centos1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:48:58.651946 +0000 build-centos1: .echo "Updating qubes-src/tunnel... "; \
@@ -328,7 +328,7 @@
 2020-02-18 21:48:59.536887 +0000 build-centos1: cd qubes-src/tunnel && echo pkgs/vm-centos7/x86_64/qubes-tunnel-1.4.0-1.centos7.x86_64.rpm  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-centos7-tunnel
 2020-02-18 21:48:59.566443 +0000 build-centos1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:48:59.566499 +0000 build-centos1: [ -z "qubes-tunnel-1.4.0-1.centos7" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:48:59.566536 +0000 build-centos1: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1" \
+2020-02-18 21:48:59.566536 +0000 build-centos1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2020-02-18_21-45-29.1" \
 2020-02-18 21:48:59.566561 +0000 build-centos1: .upload \
 2020-02-18 21:48:59.566583 +0000 build-centos1: ."r4.1" \
 2020-02-18 21:48:59.566607 +0000 build-centos1: ."qubes-src/tunnel" \

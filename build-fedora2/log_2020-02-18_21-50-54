@@ -1,6 +1,6 @@
 2020-02-18 21:50:54.146848 +0000 > starting log
 2020-02-18 21:50:54.150059 +0000 build-fedora2: > starting build with log
-2020-02-18 21:50:54.150411 +0000 build-fedora2: >> make args: DISTS_VM= fc29 fc30 fc31 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-fc29=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1 tunnel-vm-fc30=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38 tunnel-vm-fc31=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2020-02-18 21:50:54.150411 +0000 build-fedora2: >> make args: DISTS_VM= fc29 fc30 fc31 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-fc29=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1 tunnel-vm-fc30=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38 tunnel-vm-fc31=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
 2020-02-18 21:50:54.150455 +0000 build-fedora2: >> MAKEFLAGS=
 2020-02-18 21:50:54.150482 +0000 build-fedora2: >> COMPONENTS=tunnel
 2020-02-18 21:50:54.150504 +0000 build-fedora2: >> DISTS_VM=
@@ -463,7 +463,7 @@
 2020-02-18 21:51:00.881629 +0000 build-fedora2: ..TARGET_REPO=current-testing \
 2020-02-18 21:51:00.881659 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc29 \
 2020-02-18 21:51:00.881696 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc29-`basename qubes-src/tunnel` \
-2020-02-18 21:51:00.881733 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1 \
+2020-02-18 21:51:00.881733 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1 \
 2020-02-18 21:51:00.881760 +0000 build-fedora2: ..update-repo || exit 1; \
 2020-02-18 21:51:00.881790 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:51:00.881817 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
@@ -593,7 +593,7 @@
 2020-02-18 21:51:02.134388 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc29/x86_64/qubes-tunnel-1.4.0-1.fc29.x86_64.rpm  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc29-tunnel
 2020-02-18 21:51:02.166561 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:51:02.166668 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.0-1.fc29" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:51:02.166711 +0000 build-fedora2: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1" \
+2020-02-18 21:51:02.166711 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-45-29.1" \
 2020-02-18 21:51:02.166738 +0000 build-fedora2: .upload \
 2020-02-18 21:51:02.166763 +0000 build-fedora2: ."r4.1" \
 2020-02-18 21:51:02.166785 +0000 build-fedora2: ."qubes-src/tunnel" \
@@ -669,7 +669,7 @@
 2020-02-18 21:51:05.531766 +0000 build-fedora2: ..TARGET_REPO=current-testing \
 2020-02-18 21:51:05.531868 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc30 \
 2020-02-18 21:51:05.531946 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc30-`basename qubes-src/tunnel` \
-2020-02-18 21:51:05.532020 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38 \
+2020-02-18 21:51:05.532020 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38 \
 2020-02-18 21:51:05.532076 +0000 build-fedora2: ..update-repo || exit 1; \
 2020-02-18 21:51:05.532140 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:51:05.532643 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
@@ -798,7 +798,7 @@
 2020-02-18 21:51:06.869896 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc30/x86_64/qubes-tunnel-1.4.0-1.fc30.x86_64.rpm  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc30-tunnel
 2020-02-18 21:51:06.898909 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:51:06.898965 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.0-1.fc30" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:51:06.899005 +0000 build-fedora2: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38" \
+2020-02-18 21:51:06.899005 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-46-38" \
 2020-02-18 21:51:06.899029 +0000 build-fedora2: .upload \
 2020-02-18 21:51:06.899052 +0000 build-fedora2: ."r4.1" \
 2020-02-18 21:51:06.899075 +0000 build-fedora2: ."qubes-src/tunnel" \
@@ -874,7 +874,7 @@
 2020-02-18 21:51:09.516843 +0000 build-fedora2: ..TARGET_REPO=current-testing \
 2020-02-18 21:51:09.516873 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc31 \
 2020-02-18 21:51:09.516907 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc31-`basename qubes-src/tunnel` \
-2020-02-18 21:51:09.516942 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06 \
+2020-02-18 21:51:09.516942 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06 \
 2020-02-18 21:51:09.516968 +0000 build-fedora2: ..update-repo || exit 1; \
 2020-02-18 21:51:09.516997 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
 2020-02-18 21:51:09.517024 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
@@ -1003,7 +1003,7 @@
 2020-02-18 21:51:10.462526 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc31/x86_64/qubes-tunnel-1.4.0-1.fc31.x86_64.rpm  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc31-tunnel
 2020-02-18 21:51:10.491550 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
 2020-02-18 21:51:10.491608 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.0-1.fc31" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
-2020-02-18 21:51:10.491647 +0000 build-fedora2: .--build-log="https://github.com/QubesOS/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06" \
+2020-02-18 21:51:10.491647 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-02-18_21-49-06" \
 2020-02-18 21:51:10.491672 +0000 build-fedora2: .upload \
 2020-02-18 21:51:10.491695 +0000 build-fedora2: ."r4.1" \
 2020-02-18 21:51:10.491755 +0000 build-fedora2: ."qubes-src/tunnel" \
