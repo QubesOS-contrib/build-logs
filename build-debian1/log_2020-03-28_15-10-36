@@ -1,0 +1,612 @@
+2020-03-28 15:10:36.099061 +0000 > starting log
+2020-03-28 15:10:36.101298 +0000 build-debian1: > starting build with log
+2020-03-28 15:10:36.101394 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster stretch DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-bullseye=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_14-50-53.1 tunnel-vm-buster=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-12 tunnel-vm-stretch=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-59 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2020-03-28 15:10:36.101426 +0000 build-debian1: >> MAKEFLAGS=
+2020-03-28 15:10:36.101451 +0000 build-debian1: >> COMPONENTS=tunnel
+2020-03-28 15:10:36.101474 +0000 build-debian1: >> DISTS_VM=
+2020-03-28 15:10:36.101496 +0000 build-debian1: >> DIST_DOM0=
+2020-03-28 15:10:36.101523 +0000 build-debian1: >> qubes-builder 5560315de93ce32850e7557356de3dd67edb9300
+2020-03-28 15:10:36.101552 +0000 build-debian1: >> qubes-builder/qubes-src/tunnel 9f3ee0bcaa6f76ff03cfb8b30962c2284bd5b3ce
+2020-03-28 15:10:36.101586 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1.debian.tar.xz
+2020-03-28 15:10:36.101614 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1.dsc
+2020-03-28 15:10:36.101641 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_all.deb
+2020-03-28 15:10:36.101862 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_amd64.buildinfo
+2020-03-28 15:10:36.101901 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_amd64.changes
+2020-03-28 15:10:36.101929 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.101956 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1.debian.tar.xz
+2020-03-28 15:10:36.101982 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1.dsc
+2020-03-28 15:10:36.102009 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_all.deb
+2020-03-28 15:10:36.102036 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo
+2020-03-28 15:10:36.102063 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes
+2020-03-28 15:10:36.102088 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.102115 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1.debian.tar.xz
+2020-03-28 15:10:36.102140 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1.dsc
+2020-03-28 15:10:36.102166 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_all.deb
+2020-03-28 15:10:36.102193 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_amd64.buildinfo
+2020-03-28 15:10:36.102220 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_amd64.changes
+2020-03-28 15:10:36.102245 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.102271 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1.debian.tar.xz
+2020-03-28 15:10:36.102297 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1.dsc
+2020-03-28 15:10:36.102323 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_all.deb
+2020-03-28 15:10:36.102349 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo
+2020-03-28 15:10:36.102376 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes
+2020-03-28 15:10:36.102401 +0000 build-debian1: !! pkgs/vm-buster/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.102427 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1.debian.tar.xz
+2020-03-28 15:10:36.102453 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1.dsc
+2020-03-28 15:10:36.102479 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_all.deb
+2020-03-28 15:10:36.102570 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_amd64.buildinfo
+2020-03-28 15:10:36.102624 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_amd64.changes
+2020-03-28 15:10:36.102653 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.102898 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1.debian.tar.xz
+2020-03-28 15:10:36.102928 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1.dsc
+2020-03-28 15:10:36.102955 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_all.deb
+2020-03-28 15:10:36.102982 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo
+2020-03-28 15:10:36.103009 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes
+2020-03-28 15:10:36.103034 +0000 build-debian1: !! pkgs/vm-stretch/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.103076 +0000 build-debian1: 351842c2be008346fa62af92eaa080efbd64cfc3c26baa937f181dae1aa892afefb502833ed949d07045f9c31217bf39270f74c3514fe809e7cb9fab948c3211  pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1.debian.tar.xz
+2020-03-28 15:10:36.103121 +0000 build-debian1: a8df25c6390b3fcf1483a676a46f4097598278a225ed15fff03ad943bd2243962cc547ca2e106178c1ecbcf47f39e0b5a66f9b9c779566420b8447ee45f07511  pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1.dsc
+2020-03-28 15:10:36.103166 +0000 build-debian1: a06cbac2c45005ab56610975620c9ae8d1424c2ee5a4aec0485e612cad8a5025e6d9faebde5c2a3865bf102ef31181d8a5fac33735a71613da81478979e3ab44  pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_all.deb
+2020-03-28 15:10:36.103212 +0000 build-debian1: 3c7f27284ef2d893f5f74009fd9adaf1a0ca400d016bff62ec0c23717ffda32983acec0e622f1e28484698429db00ac54ad17661df246c6315bca2757c262204  pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_amd64.buildinfo
+2020-03-28 15:10:36.103257 +0000 build-debian1: f874109fe783f7a5ea1e48eab3ed4bf62102bd95a124efd6f10bbdf57640780df8bef86d8ab0fae1f8856b66536f49c60bfff09c9a917f91dfa039538617cdf8  pkgs/vm-bullseye/qubes-tunnel_1.4.0-1+deb11u1_amd64.changes
+2020-03-28 15:10:36.103301 +0000 build-debian1: d31e0ad5c2fa1b56ee595e6aa62b74be38e4af2a408a8e853b3311988451f073434e1f676ed4becd313c4c4e243ecca0c0283b0a5070d80f72a61472c61dbb01  pkgs/vm-bullseye/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.103362 +0000 build-debian1: 2f78f6ef6506085c1ab8d70a49ad65400fb239394a1475c11abb5c6102d4c15b107378bf7fcdd9b8a830dee4035a80448c3bb888733dc64ea2e7ce557bc8f6f8  pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1.debian.tar.xz
+2020-03-28 15:10:36.103410 +0000 build-debian1: 5207ee8d9b8981fc92ea32fa02312857dce025b301d31b2a6cad475ce10999cb83309b32bb61e5fa74affb3a46f9d6d4b185cdaef6b38ce2760cd800718d24c2  pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1.dsc
+2020-03-28 15:10:36.103454 +0000 build-debian1: b81a998ee14a3bcdfd5b1e9dd3028ff76807f6b50cdbbfe601e40a3fdffa4e605ef92cde44d318fb1648b6019b9afdbf797c96407d2c8caad8f003e81101e575  pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_all.deb
+2020-03-28 15:10:36.103499 +0000 build-debian1: 61736e182134e065f87e3dbeb52767f0250d80308e52337a6db13cdeb75de2af7b419ae53bb9fb17571bff73d0315355445ffc9e3a1a0d9f4017e1cdccfd51f9  pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo
+2020-03-28 15:10:36.103545 +0000 build-debian1: 1c39c389f19eb5da88c9bcfacb9d6a75f56941bc08ea21e4d2c6b00d5115eb80eafdd19c2b6fd59432f2229248c005166de31ee9fc9f62e6179b4288fa50b530  pkgs/vm-bullseye/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes
+2020-03-28 15:10:36.103588 +0000 build-debian1: 7fee568a998fd8b38bd6df932982322646f7d8aa5abfe84a8d27e0d52ff654ef6ced73fee19e59de12e3db342f4494f5f78cd79afde032986bc9dd8928527fe3  pkgs/vm-bullseye/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.103632 +0000 build-debian1: 7867f11f611d0c704842784b84bc90502c30852bf8662843946c280d099c09d83f75b611099b03b4f4f496d8e26e12c0af09c8a5ff8d0da5c6e23b52b06f8986  pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1.debian.tar.xz
+2020-03-28 15:10:36.103871 +0000 build-debian1: 9a8a265692fca40385c658f2e0c2f1072ccb5d6edd3d7b480bca128e70b5c2790f2cae4d4dfe5b00b9611000effd354503414ecfaa0e684304375871c03ccac9  pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1.dsc
+2020-03-28 15:10:36.103942 +0000 build-debian1: e18c399c79d3837a411ba5588c64655234908f3a1d2756cc2d95279b0dc57a54a97a8ab816f84ad47fbda1f33efc5ed91fa8efc27a6e0437ba3659de6dca8839  pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_all.deb
+2020-03-28 15:10:36.103990 +0000 build-debian1: 57f341a7c393ecf9d6b7bfeb28b20347e641c3b46d4b5c7db8dc9ac8e5cf69724f17dc38821e8ecaad674682f6fdb644f4ecf6469044b6c917767355a546a390  pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_amd64.buildinfo
+2020-03-28 15:10:36.104349 +0000 build-debian1: 7f8ee22f64e760c7541785f209a9ac7fe9a13ca69c4ea212cf14a42889282607713f58625482ffcd0d9a0353bf9896852abb619d4d1982651a36e30619843070  pkgs/vm-buster/qubes-tunnel_1.4.0-1+deb10u1_amd64.changes
+2020-03-28 15:10:36.104404 +0000 build-debian1: d31e0ad5c2fa1b56ee595e6aa62b74be38e4af2a408a8e853b3311988451f073434e1f676ed4becd313c4c4e243ecca0c0283b0a5070d80f72a61472c61dbb01  pkgs/vm-buster/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.104450 +0000 build-debian1: 3b148d08757c9529a16fa08539dbcf5fecd18f096f2d689df243a92b63e27edb63a7ed9d72f6852d93f49b6e29fe127d180aba1976ba14651ec0c2fba67e2b24  pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1.debian.tar.xz
+2020-03-28 15:10:36.104494 +0000 build-debian1: dcac999b18758bbea3c00ba762fe65607bbcf914f6cf1fbde71d0aed699fb6a65c3cba75f539925b8293c0ffcc9a44de635e0c49373b50b7a72d1843a610e9ae  pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1.dsc
+2020-03-28 15:10:36.104538 +0000 build-debian1: 4e04867b453506f184b4ee32f71667e3d3c6cd37ef241c6d52d635806ff6a17d5bc4738bd96c8c3f26f138cf0b217e6e3738ab116c712e3279b08442ddf81934  pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_all.deb
+2020-03-28 15:10:36.104583 +0000 build-debian1: 0700644ed7d7e96115ad28db2c7c0394abe4fb79ebb2ac92a5bfad92b876bf4d8dd31deda90d9c6a5d06830b90cf2349a07e826246791c6d8ad3ad120a263c76  pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo
+2020-03-28 15:10:36.104628 +0000 build-debian1: c9f10235b4b01c3ab10aec79c8c914c602e7d4d0ecd0c40a88ea2e96fff58bb3973411db271850c854abd2842841122dd65f443eecec66be6b7a9190647aacb4  pkgs/vm-buster/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes
+2020-03-28 15:10:36.104848 +0000 build-debian1: 7fee568a998fd8b38bd6df932982322646f7d8aa5abfe84a8d27e0d52ff654ef6ced73fee19e59de12e3db342f4494f5f78cd79afde032986bc9dd8928527fe3  pkgs/vm-buster/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.104904 +0000 build-debian1: 0bb66287546996fd213a05e16d2a24cb433b0f1f978c0055ee3fa8f3c9057ccccce42465724682de8140f42d9fe5798b452fd0fc62c9972e04cce33b55b129bd  pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1.debian.tar.xz
+2020-03-28 15:10:36.104948 +0000 build-debian1: 06c11458e9ec457a922d0ff9d33274ce071e33e36ea2cd9065cdade3165a884275463366c88beba2effc0425b5b633e3910baad763e818c9d65afe6432c78d3b  pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1.dsc
+2020-03-28 15:10:36.104993 +0000 build-debian1: 7d1c04a1034955c9d7d71f5a5b3b6f8b3367b869ced50b98663c03b46c16d65088c53cffc24a1e9e1ddaad3af4297970967de679b1a2315e2ddac9eedebb6831  pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_all.deb
+2020-03-28 15:10:36.105037 +0000 build-debian1: c3c5b08d8006bb6331898bf5a3f76d247654182dd535e63bd79088325a18eb0d8a538acd13e4402ba639a9a3676d599fcc7429df9a591dd98c05294efa087889  pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_amd64.buildinfo
+2020-03-28 15:10:36.105081 +0000 build-debian1: 0dd98445e731eff7c451d256c6c3ab1e1e5d30d297cbd0dcd87000d68f4595a81d2dfc976e728afbc2eecf58aa280356f2d928e1aa7ebaddedbccc357c90fcd0  pkgs/vm-stretch/qubes-tunnel_1.4.0-1+deb9u1_amd64.changes
+2020-03-28 15:10:36.105152 +0000 build-debian1: d31e0ad5c2fa1b56ee595e6aa62b74be38e4af2a408a8e853b3311988451f073434e1f676ed4becd313c4c4e243ecca0c0283b0a5070d80f72a61472c61dbb01  pkgs/vm-stretch/qubes-tunnel_1.4.0.orig.tar.xz
+2020-03-28 15:10:36.105199 +0000 build-debian1: 5869af08813e03d1ed454487c6dfc2e35b5d7a399667a309c809f1bd4239b1df31d2e738fca41476ce2ae86eeda52894557891846052ef2e7eb82cc65f6b0319  pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1.debian.tar.xz
+2020-03-28 15:10:36.105243 +0000 build-debian1: 5235342ec5a377ecf3ce5b8410157ae6c2fcdb098fcd53c91d96075a6ac557717d088a6837e084096322093c9cc7564231b002cae7db0822836b2ea8c01bee73  pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1.dsc
+2020-03-28 15:10:36.105301 +0000 build-debian1: c87c13bac102cd192582d62dbe006f621bd0a31bee2b8a66b864b3499861e1532ae81543c4b96b0756601bda6d562edee60c354edb326141ed1fcb8b9d98d89b  pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_all.deb
+2020-03-28 15:10:36.105414 +0000 build-debian1: 8cc02e07dbcf5303f10f2a0df4c25d8a69200ddfbd89b29ed6d37fa5b3ef87202ecfacb961b942ac295249c3c4d0feb15a50c4d1b3ac6c5a4a4296d148f246a5  pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo
+2020-03-28 15:10:36.105469 +0000 build-debian1: dbcf24754e706574aa70d24cb776b3de970949d7bfe0539d4b093ff8ab567da6bd79fb98bb43da52b35bddb4938db48005086e79eaf03822bdf5770ab2302824  pkgs/vm-stretch/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes
+2020-03-28 15:10:36.105513 +0000 build-debian1: 7fee568a998fd8b38bd6df932982322646f7d8aa5abfe84a8d27e0d52ff654ef6ced73fee19e59de12e3db342f4494f5f78cd79afde032986bc9dd8928527fe3  pkgs/vm-stretch/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:10:36.105546 +0000 build-debian1: ================================================================================
+2020-03-28 15:10:36.105577 +0000 build-debian1:                            B U I L D   I N F O                                  
+2020-03-28 15:10:36.105607 +0000 build-debian1: Items in red indicate it was automatically generated by configuration file(s)
+2020-03-28 15:10:36.105637 +0000 build-debian1: Items in white indicate it was automatically removed by configuration file(s)
+2020-03-28 15:10:36.105847 +0000 build-debian1: ================================================================================
+2020-03-28 15:10:36.105881 +0000 build-debian1: DISTS_VM:
+2020-03-28 15:10:36.105907 +0000 build-debian1:      stretch, buster, bullseye,
+2020-03-28 15:10:36.105929 +0000 build-debian1: DISTS_ALL:
+2020-03-28 15:10:36.105954 +0000 build-debian1:      vm-bullseye, vm-buster, vm-stretch,
+2020-03-28 15:10:36.105976 +0000 build-debian1: DIST_DOM0:
+2020-03-28 15:10:36.105996 +0000 build-debian1:     
+2020-03-28 15:10:36.106018 +0000 build-debian1: BUILDER_PLUGINS:
+2020-03-28 15:10:36.106045 +0000 build-debian1:      builder-debian, mgmt-salt, contrib-configs, builder-github,
+2020-03-28 15:10:36.106067 +0000 build-debian1: COMPONENTS:
+2020-03-28 15:10:36.106088 +0000 build-debian1:      tunnel,
+2020-03-28 15:10:36.106109 +0000 build-debian1: GIT_REPOS:
+2020-03-28 15:10:36.106132 +0000 build-debian1:      qubes-src/tunnel,
+2020-03-28 15:10:36.106153 +0000 build-debian1: TEMPLATE:
+2020-03-28 15:10:36.106173 +0000 build-debian1:     
+2020-03-28 15:10:36.106195 +0000 build-debian1: TEMPLATE_FLAVOR_DIR:
+2020-03-28 15:10:36.106215 +0000 build-debian1:     
+2020-03-28 15:10:36.106236 +0000 build-debian1: TEMPLATE_ALIAS:
+2020-03-28 15:10:36.106256 +0000 build-debian1:     
+2020-03-28 15:10:36.106277 +0000 build-debian1: TEMPLATE_LABEL:
+2020-03-28 15:10:36.106297 +0000 build-debian1:     
+2020-03-28 15:10:36.154390 +0000 build-debian1: > running make
+2020-03-28 15:10:36.188614 +0000 build-debian1: Makefile:267: target 'sign.vm.bullseye.tunnel' does not exist
+2020-03-28 15:10:36.189089 +0000 build-debian1: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-03-28 15:10:36.189177 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-03-28 15:10:36.189251 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-03-28 15:10:36.189327 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-03-28 15:10:36.189393 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:10:36.189470 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-03-28 15:10:36.189587 +0000 build-debian1: fi
+2020-03-28 15:10:36.189656 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:10:36.190064 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-03-28 15:10:36.190127 +0000 build-debian1: ..DIST=bullseye \
+2020-03-28 15:10:36.190189 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-03-28 15:10:36.190252 +0000 build-debian1: ..COMPONENT=tunnel \
+2020-03-28 15:10:36.190313 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-03-28 15:10:36.190371 +0000 build-debian1: ..sign || exit 1; \
+2020-03-28 15:10:36.190429 +0000 build-debian1: elif [ -d qubes-src/tunnel/rpm ]; then \
+2020-03-28 15:10:36.190495 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-03-28 15:10:36.190559 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2020-03-28 15:10:36.190632 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-03-28 15:10:36.191013 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-03-28 15:10:36.191085 +0000 build-debian1: ..fi ;\
+2020-03-28 15:10:36.191144 +0000 build-debian1: .done ; \
+2020-03-28 15:10:36.191212 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-03-28 15:10:36.191271 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-03-28 15:10:36.191335 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-03-28 15:10:36.191396 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-03-28 15:10:36.191460 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-03-28 15:10:36.191513 +0000 build-debian1: ..fi; \
+2020-03-28 15:10:36.191570 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-03-28 15:10:36.191618 +0000 build-debian1: .fi; \
+2020-03-28 15:10:36.191914 +0000 build-debian1: fi
+2020-03-28 15:10:36.479935 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-03-28 15:10:36.480041 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-03-28 15:10:36.480086 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes
+2020-03-28 15:10:37.314203 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:38.125000 +0000 build-debian1: 
+2020-03-28 15:10:38.239304 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo
+2020-03-28 15:10:38.253097 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:39.144435 +0000 build-debian1: 
+2020-03-28 15:10:39.224365 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes
+2020-03-28 15:10:39.317177 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes
+2020-03-28 15:10:39.323634 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:40.207434 +0000 build-debian1: 
+2020-03-28 15:10:40.217977 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-03-28 15:10:40.223286 +0000 build-debian1: Makefile:267: target 'sign.vm.buster.tunnel' does not exist
+2020-03-28 15:10:40.223384 +0000 build-debian1: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-03-28 15:10:40.223426 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-03-28 15:10:40.223454 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-03-28 15:10:40.223484 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-03-28 15:10:40.223510 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:10:40.223545 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-03-28 15:10:40.223571 +0000 build-debian1: fi
+2020-03-28 15:10:40.223598 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:10:40.223625 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-03-28 15:10:40.223647 +0000 build-debian1: ..DIST=buster \
+2020-03-28 15:10:40.223906 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-03-28 15:10:40.223936 +0000 build-debian1: ..COMPONENT=tunnel \
+2020-03-28 15:10:40.223960 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-03-28 15:10:40.223983 +0000 build-debian1: ..sign || exit 1; \
+2020-03-28 15:10:40.224008 +0000 build-debian1: elif [ -d qubes-src/tunnel/rpm ]; then \
+2020-03-28 15:10:40.224034 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-03-28 15:10:40.224061 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2020-03-28 15:10:40.224090 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-03-28 15:10:40.224114 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-03-28 15:10:40.224137 +0000 build-debian1: ..fi ;\
+2020-03-28 15:10:40.224159 +0000 build-debian1: .done ; \
+2020-03-28 15:10:40.224183 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-03-28 15:10:40.224208 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-03-28 15:10:40.224232 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-03-28 15:10:40.224257 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-03-28 15:10:40.224281 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-03-28 15:10:40.224303 +0000 build-debian1: ..fi; \
+2020-03-28 15:10:40.224331 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-03-28 15:10:40.224352 +0000 build-debian1: .fi; \
+2020-03-28 15:10:40.224373 +0000 build-debian1: fi
+2020-03-28 15:10:40.448609 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-03-28 15:10:40.448899 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-03-28 15:10:40.448952 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes
+2020-03-28 15:10:41.003047 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:41.848514 +0000 build-debian1: 
+2020-03-28 15:10:42.044437 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo
+2020-03-28 15:10:42.062090 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:42.927385 +0000 build-debian1: 
+2020-03-28 15:10:42.995232 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes
+2020-03-28 15:10:43.080168 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes
+2020-03-28 15:10:43.097917 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:43.837602 +0000 build-debian1: 
+2020-03-28 15:10:43.856070 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-03-28 15:10:43.866132 +0000 build-debian1: Makefile:267: target 'sign.vm.stretch.tunnel' does not exist
+2020-03-28 15:10:43.866231 +0000 build-debian1: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=release4.0; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-03-28 15:10:43.866273 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-03-28 15:10:43.866302 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-03-28 15:10:43.866333 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-03-28 15:10:43.866359 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:10:43.866396 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-03-28 15:10:43.866424 +0000 build-debian1: fi
+2020-03-28 15:10:43.866451 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:10:43.866479 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-03-28 15:10:43.866501 +0000 build-debian1: ..DIST=stretch \
+2020-03-28 15:10:43.866525 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-03-28 15:10:43.866547 +0000 build-debian1: ..COMPONENT=tunnel \
+2020-03-28 15:10:43.866570 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-03-28 15:10:43.866592 +0000 build-debian1: ..sign || exit 1; \
+2020-03-28 15:10:43.866616 +0000 build-debian1: elif [ -d qubes-src/tunnel/rpm ]; then \
+2020-03-28 15:10:43.866641 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-03-28 15:10:43.866848 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2020-03-28 15:10:43.866888 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-03-28 15:10:43.866914 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-03-28 15:10:43.866937 +0000 build-debian1: ..fi ;\
+2020-03-28 15:10:43.866960 +0000 build-debian1: .done ; \
+2020-03-28 15:10:43.866984 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-03-28 15:10:43.867008 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-03-28 15:10:43.867033 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-03-28 15:10:43.867057 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-03-28 15:10:43.867082 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-03-28 15:10:43.867104 +0000 build-debian1: ..fi; \
+2020-03-28 15:10:43.867132 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-03-28 15:10:43.867153 +0000 build-debian1: .fi; \
+2020-03-28 15:10:43.867240 +0000 build-debian1: fi
+2020-03-28 15:10:44.190904 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:282: target 'sign' does not exist
+2020-03-28 15:10:44.191021 +0000 build-debian1: debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-03-28 15:10:44.191067 +0000 build-debian1: ./home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes
+2020-03-28 15:10:44.961552 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:45.860137 +0000 build-debian1: 
+2020-03-28 15:10:45.913242 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo
+2020-03-28 15:10:45.926435 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:46.822632 +0000 build-debian1: 
+2020-03-28 15:10:46.873829 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes
+2020-03-28 15:10:46.923329 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes
+2020-03-28 15:10:46.932325 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-03-28 15:10:47.691105 +0000 build-debian1: 
+2020-03-28 15:10:47.702345 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-03-28 15:10:47.707374 +0000 build-debian1: Makefile:817: target 'internal-update-repo-current-testing.vm.bullseye.tunnel' does not exist
+2020-03-28 15:10:47.707482 +0000 build-debian1: repo_base_var="LINUX_REPO_bullseye_BASEDIR"; \
+2020-03-28 15:10:47.707549 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then \
+2020-03-28 15:10:47.707618 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-03-28 15:10:47.708066 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-03-28 15:10:47.708141 +0000 build-debian1: fi; \
+2020-03-28 15:10:47.708202 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-03-28 15:10:47.708256 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-03-28 15:10:47.708301 +0000 build-debian1: else \
+2020-03-28 15:10:47.708355 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-03-28 15:10:47.708403 +0000 build-debian1: fi; \
+2020-03-28 15:10:47.708459 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:10:47.708516 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... "; \
+2020-03-28 15:10:47.708568 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-03-28 15:10:47.708628 +0000 build-debian1: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2020-03-28 15:10:47.709066 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-03-28 15:10:47.709278 +0000 build-debian1: ...echo "no version tag"; \
+2020-03-28 15:10:47.709449 +0000 build-debian1: ...exit 0; \
+2020-03-28 15:10:47.709499 +0000 build-debian1: ..fi; \
+2020-03-28 15:10:47.709527 +0000 build-debian1: .fi; \
+2020-03-28 15:10:47.709557 +0000 build-debian1: .if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:10:47.709596 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-03-28 15:10:47.709866 +0000 build-debian1: fi
+2020-03-28 15:10:47.709936 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye get-var GET_VAR=PACKAGE_LIST); \
+2020-03-28 15:10:47.710104 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-03-28 15:10:47.710144 +0000 build-debian1: ..echo "no packages."; \
+2020-03-28 15:10:47.710171 +0000 build-debian1: ..exit 0; \
+2020-03-28 15:10:47.710195 +0000 build-debian1: .fi; \
+2020-03-28 15:10:47.710227 +0000 build-debian1: .make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm \
+2020-03-28 15:10:47.710257 +0000 build-debian1: ..COMPONENT=`basename qubes-src/tunnel` \
+2020-03-28 15:10:47.710285 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-03-28 15:10:47.710312 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-03-28 15:10:47.710347 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2020-03-28 15:10:47.710388 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-`basename qubes-src/tunnel` \
+2020-03-28 15:10:47.710430 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_14-50-53.1 \
+2020-03-28 15:10:47.710461 +0000 build-debian1: ..update-repo || exit 1; \
+2020-03-28 15:10:47.710495 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-03-28 15:10:47.710527 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
+2020-03-28 15:10:47.710562 +0000 build-debian1: .DIST=bullseye UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2020-03-28 15:10:47.710596 +0000 build-debian1: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2020-03-28 15:10:47.710620 +0000 build-debian1: else \
+2020-03-28 15:10:47.710650 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2020-03-28 15:10:47.710892 +0000 build-debian1: fi; \
+2020-03-28 15:10:47.710921 +0000 build-debian1: echo
+2020-03-28 15:10:48.003377 +0000 build-debian1: Updating qubes-src/tunnel... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-03-28 15:10:48.004562 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf
+2020-03-28 15:10:48.460510 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions ]; then \
+2020-03-28 15:10:48.460647 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2020-03-28 15:10:48.461118 +0000 build-debian1: fi
+2020-03-28 15:10:48.464026 +0000 build-debian1: grep bullseye /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions > /dev/null; \
+2020-03-28 15:10:48.464117 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-03-28 15:10:48.464335 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2020-03-28 15:10:48.464404 +0000 build-debian1: fi
+2020-03-28 15:10:49.022173 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-03-28 15:10:49.022283 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:10:49.022408 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:10:49.022489 +0000 build-debian1: else \
+2020-03-28 15:10:49.022617 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-tunnel_1.4.1-1+deb11u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:10:49.023123 +0000 build-debian1: fi
+2020-03-28 15:10:49.505144 +0000 build-debian1: 'qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-03-28 15:10:49.505255 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-03-28 15:10:49.610389 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:10:49.610464 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-tunnel; \
+2020-03-28 15:10:49.610494 +0000 build-debian1: else \
+2020-03-28 15:10:49.610539 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== 1.4.1-1+deb11u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-tunnel; \
+2020-03-28 15:10:49.610566 +0000 build-debian1: fi
+2020-03-28 15:10:50.010182 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-03-28 15:10:50.010360 +0000 build-debian1: [ -z "qubes-tunnel_1.4.1-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-03-28 15:10:50.010452 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_14-50-53.1" \
+2020-03-28 15:10:50.010510 +0000 build-debian1: .upload \
+2020-03-28 15:10:50.010563 +0000 build-debian1: ."r4.0" \
+2020-03-28 15:10:50.010614 +0000 build-debian1: ."qubes-src/tunnel" \
+2020-03-28 15:10:50.011053 +0000 build-debian1: ."qubes-tunnel_1.4.1-1" \
+2020-03-28 15:10:50.011131 +0000 build-debian1: ."bullseye" \
+2020-03-28 15:10:50.011182 +0000 build-debian1: ."vm" \
+2020-03-28 15:10:50.011233 +0000 build-debian1: ."current-testing" \
+2020-03-28 15:10:50.011298 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-bullseye-current-testing" \
+2020-03-28 15:10:50.011362 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-bullseye-current"
+2020-03-28 15:10:55.852133 +0000 build-debian1: WARNING: message template /home/user/builder-r4.0/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2020-03-28 15:10:55.852332 +0000 build-debian1: WARNING: failed to add r4.0-bullseye-cur-test label to issue 21: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-03-28 15:10:55.878627 +0000 build-debian1: 
+2020-03-28 15:10:55.879212 +0000 build-debian1: Makefile:792: update target 'internal-update-repo-current-testing.vm.bullseye' due to: internal-update-repo-current-testing.vm.bullseye.tunnel
+2020-03-28 15:10:55.879306 +0000 build-debian1: true
+2020-03-28 15:10:55.883405 +0000 build-debian1: Makefile:817: target 'internal-update-repo-current-testing.vm.buster.tunnel' does not exist
+2020-03-28 15:10:55.883512 +0000 build-debian1: repo_base_var="LINUX_REPO_buster_BASEDIR"; \
+2020-03-28 15:10:55.883581 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then \
+2020-03-28 15:10:55.883649 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-03-28 15:10:55.884151 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-03-28 15:10:55.884206 +0000 build-debian1: fi; \
+2020-03-28 15:10:55.884264 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-03-28 15:10:55.884318 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-03-28 15:10:55.884364 +0000 build-debian1: else \
+2020-03-28 15:10:55.884419 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-03-28 15:10:55.884467 +0000 build-debian1: fi; \
+2020-03-28 15:10:55.884573 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:10:55.884636 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... "; \
+2020-03-28 15:10:55.885086 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-03-28 15:10:55.885164 +0000 build-debian1: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2020-03-28 15:10:55.885219 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-03-28 15:10:55.885272 +0000 build-debian1: ...echo "no version tag"; \
+2020-03-28 15:10:55.885318 +0000 build-debian1: ...exit 0; \
+2020-03-28 15:10:55.885364 +0000 build-debian1: ..fi; \
+2020-03-28 15:10:55.885411 +0000 build-debian1: .fi; \
+2020-03-28 15:10:55.885467 +0000 build-debian1: .if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:10:55.885536 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-03-28 15:10:55.885589 +0000 build-debian1: fi
+2020-03-28 15:10:55.886098 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster get-var GET_VAR=PACKAGE_LIST); \
+2020-03-28 15:10:55.886186 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-03-28 15:10:55.886241 +0000 build-debian1: ..echo "no packages."; \
+2020-03-28 15:10:55.886289 +0000 build-debian1: ..exit 0; \
+2020-03-28 15:10:55.886335 +0000 build-debian1: .fi; \
+2020-03-28 15:10:55.886394 +0000 build-debian1: .make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm \
+2020-03-28 15:10:55.886447 +0000 build-debian1: ..COMPONENT=`basename qubes-src/tunnel` \
+2020-03-28 15:10:55.886500 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-03-28 15:10:55.886552 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-03-28 15:10:55.886615 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2020-03-28 15:10:55.887077 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-`basename qubes-src/tunnel` \
+2020-03-28 15:10:55.887209 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-12 \
+2020-03-28 15:10:55.887273 +0000 build-debian1: ..update-repo || exit 1; \
+2020-03-28 15:10:55.887340 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-03-28 15:10:55.887398 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
+2020-03-28 15:10:55.887463 +0000 build-debian1: .DIST=buster UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2020-03-28 15:10:55.887528 +0000 build-debian1: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2020-03-28 15:10:55.887574 +0000 build-debian1: else \
+2020-03-28 15:10:55.887631 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2020-03-28 15:10:55.888075 +0000 build-debian1: fi; \
+2020-03-28 15:10:55.888140 +0000 build-debian1: echo
+2020-03-28 15:10:56.219529 +0000 build-debian1: Updating qubes-src/tunnel... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-03-28 15:10:56.219641 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf
+2020-03-28 15:10:56.646584 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions ]; then \
+2020-03-28 15:10:56.647418 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2020-03-28 15:10:56.647500 +0000 build-debian1: fi
+2020-03-28 15:10:56.650617 +0000 build-debian1: grep buster /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions > /dev/null; \
+2020-03-28 15:10:56.651114 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-03-28 15:10:56.651249 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2020-03-28 15:10:56.651311 +0000 build-debian1: fi
+2020-03-28 15:10:57.218249 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-03-28 15:10:57.218402 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:10:57.218541 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:10:57.218607 +0000 build-debian1: else \
+2020-03-28 15:10:57.219226 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-tunnel_1.4.1-1+deb10u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:10:57.219318 +0000 build-debian1: fi
+2020-03-28 15:10:57.689085 +0000 build-debian1: 'qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-03-28 15:10:57.689189 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-03-28 15:10:57.822212 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:10:57.822413 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-tunnel; \
+2020-03-28 15:10:57.822478 +0000 build-debian1: else \
+2020-03-28 15:10:57.822569 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== 1.4.1-1+deb10u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-tunnel; \
+2020-03-28 15:10:57.822627 +0000 build-debian1: fi
+2020-03-28 15:10:58.117355 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-03-28 15:10:58.117478 +0000 build-debian1: [ -z "qubes-tunnel_1.4.1-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-03-28 15:10:58.117565 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-12" \
+2020-03-28 15:10:58.117620 +0000 build-debian1: .upload \
+2020-03-28 15:10:58.118132 +0000 build-debian1: ."r4.0" \
+2020-03-28 15:10:58.118208 +0000 build-debian1: ."qubes-src/tunnel" \
+2020-03-28 15:10:58.118264 +0000 build-debian1: ."qubes-tunnel_1.4.1-1" \
+2020-03-28 15:10:58.118313 +0000 build-debian1: ."buster" \
+2020-03-28 15:10:58.118362 +0000 build-debian1: ."vm" \
+2020-03-28 15:10:58.118412 +0000 build-debian1: ."current-testing" \
+2020-03-28 15:10:58.118476 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-buster-current-testing" \
+2020-03-28 15:10:58.118539 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-buster-current"
+2020-03-28 15:11:02.472467 +0000 build-debian1: WARNING: message template /home/user/builder-r4.0/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2020-03-28 15:11:02.472626 +0000 build-debian1: WARNING: failed to add r4.0-buster-cur-test label to issue 21: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-03-28 15:11:02.511230 +0000 build-debian1: 
+2020-03-28 15:11:02.511327 +0000 build-debian1: Makefile:792: update target 'internal-update-repo-current-testing.vm.buster' due to: internal-update-repo-current-testing.vm.buster.tunnel
+2020-03-28 15:11:02.511360 +0000 build-debian1: true
+2020-03-28 15:11:02.515651 +0000 build-debian1: Makefile:817: target 'internal-update-repo-current-testing.vm.stretch.tunnel' does not exist
+2020-03-28 15:11:02.515919 +0000 build-debian1: repo_base_var="LINUX_REPO_stretch_BASEDIR"; \
+2020-03-28 15:11:02.515954 +0000 build-debian1: if [ "tunnel" = linux-template-builder ]; then \
+2020-03-28 15:11:02.515989 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-03-28 15:11:02.516017 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-03-28 15:11:02.516041 +0000 build-debian1: fi; \
+2020-03-28 15:11:02.516067 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-03-28 15:11:02.516091 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-03-28 15:11:02.516113 +0000 build-debian1: else \
+2020-03-28 15:11:02.516137 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-03-28 15:11:02.516159 +0000 build-debian1: fi; \
+2020-03-28 15:11:02.516185 +0000 build-debian1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-03-28 15:11:02.516211 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... "; \
+2020-03-28 15:11:02.516235 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-03-28 15:11:02.516264 +0000 build-debian1: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2020-03-28 15:11:02.516289 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-03-28 15:11:02.516314 +0000 build-debian1: ...echo "no version tag"; \
+2020-03-28 15:11:02.516335 +0000 build-debian1: ...exit 0; \
+2020-03-28 15:11:02.516359 +0000 build-debian1: ..fi; \
+2020-03-28 15:11:02.516382 +0000 build-debian1: .fi; \
+2020-03-28 15:11:02.516408 +0000 build-debian1: .if [ "tunnel" = linux-template-builder ]; then
+2020-03-28 15:11:02.516442 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-03-28 15:11:02.516468 +0000 build-debian1: fi
+2020-03-28 15:11:02.516516 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch get-var GET_VAR=PACKAGE_LIST); \
+2020-03-28 15:11:02.516549 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-03-28 15:11:02.516575 +0000 build-debian1: ..echo "no packages."; \
+2020-03-28 15:11:02.516650 +0000 build-debian1: ..exit 0; \
+2020-03-28 15:11:02.516863 +0000 build-debian1: .fi; \
+2020-03-28 15:11:02.516895 +0000 build-debian1: .make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm \
+2020-03-28 15:11:02.516921 +0000 build-debian1: ..COMPONENT=`basename qubes-src/tunnel` \
+2020-03-28 15:11:02.516946 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-03-28 15:11:02.516971 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-03-28 15:11:02.517002 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2020-03-28 15:11:02.517041 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-`basename qubes-src/tunnel` \
+2020-03-28 15:11:02.517081 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-59 \
+2020-03-28 15:11:02.517112 +0000 build-debian1: ..update-repo || exit 1; \
+2020-03-28 15:11:02.517142 +0000 build-debian1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-03-28 15:11:02.517170 +0000 build-debian1: .echo "Updating qubes-src/tunnel... "; \
+2020-03-28 15:11:02.517201 +0000 build-debian1: .DIST=stretch UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2020-03-28 15:11:02.517231 +0000 build-debian1: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2020-03-28 15:11:02.517252 +0000 build-debian1: else \
+2020-03-28 15:11:02.517278 +0000 build-debian1: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2020-03-28 15:11:02.517299 +0000 build-debian1: fi; \
+2020-03-28 15:11:02.517320 +0000 build-debian1: echo
+2020-03-28 15:11:02.922514 +0000 build-debian1: Updating qubes-src/tunnel... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-03-28 15:11:02.922618 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf
+2020-03-28 15:11:03.360342 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions ]; then \
+2020-03-28 15:11:03.360443 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2020-03-28 15:11:03.360475 +0000 build-debian1: fi
+2020-03-28 15:11:03.363651 +0000 build-debian1: grep stretch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions > /dev/null; \
+2020-03-28 15:11:03.363908 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-03-28 15:11:03.363953 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2020-03-28 15:11:03.363982 +0000 build-debian1: fi
+2020-03-28 15:11:03.902632 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-03-28 15:11:03.902934 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:11:03.903003 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:11:03.903038 +0000 build-debian1: else \
+2020-03-28 15:11:03.903099 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-tunnel_1.4.1-1+deb9u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-03-28 15:11:03.903126 +0000 build-debian1: fi
+2020-03-28 15:11:04.385319 +0000 build-debian1: 'qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-03-28 15:11:04.385413 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-03-28 15:11:04.482127 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-03-28 15:11:04.482222 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-tunnel; \
+2020-03-28 15:11:04.482253 +0000 build-debian1: else \
+2020-03-28 15:11:04.482296 +0000 build-debian1: .echo '$Source (== qubes-tunnel), Version (== 1.4.1-1+deb9u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-tunnel; \
+2020-03-28 15:11:04.482324 +0000 build-debian1: fi
+2020-03-28 15:11:04.835566 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-03-28 15:11:04.835880 +0000 build-debian1: [ -z "qubes-tunnel_1.4.1-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-03-28 15:11:04.835936 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-03-28_15-09-59" \
+2020-03-28 15:11:04.835965 +0000 build-debian1: .upload \
+2020-03-28 15:11:04.835990 +0000 build-debian1: ."r4.0" \
+2020-03-28 15:11:04.836014 +0000 build-debian1: ."qubes-src/tunnel" \
+2020-03-28 15:11:04.836039 +0000 build-debian1: ."qubes-tunnel_1.4.1-1" \
+2020-03-28 15:11:04.836062 +0000 build-debian1: ."stretch" \
+2020-03-28 15:11:04.836084 +0000 build-debian1: ."vm" \
+2020-03-28 15:11:04.836107 +0000 build-debian1: ."current-testing" \
+2020-03-28 15:11:04.836137 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-stretch-current-testing" \
+2020-03-28 15:11:04.836198 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-tunnel-vm-stretch-current"
+2020-03-28 15:11:08.789156 +0000 build-debian1: WARNING: failed to add r4.0-stretch-cur-test label to issue 21: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-03-28 15:11:08.816525 +0000 build-debian1: 
+2020-03-28 15:11:08.817593 +0000 build-debian1: Makefile:792: update target 'internal-update-repo-current-testing.vm.stretch' due to: internal-update-repo-current-testing.vm.stretch.tunnel
+2020-03-28 15:11:08.818059 +0000 build-debian1: true
+2020-03-28 15:11:08.822561 +0000 build-debian1: Makefile:871: target 'post-update-repo-current-testing' does not exist
+2020-03-28 15:11:08.823043 +0000 build-debian1: for dist in  bullseye buster stretch; do \
+2020-03-28 15:11:08.823144 +0000 build-debian1: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-03-28 15:11:08.823208 +0000 build-debian1: .if [ -n "${!repo_base_var}" ]; then \
+2020-03-28 15:11:08.823266 +0000 build-debian1: ..repo_basedir="${!repo_base_var}"; \
+2020-03-28 15:11:08.823314 +0000 build-debian1: .else \
+2020-03-28 15:11:08.823373 +0000 build-debian1: ..repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-03-28 15:11:08.823420 +0000 build-debian1: .fi; \
+2020-03-28 15:11:08.823478 +0000 build-debian1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-03-28 15:11:08.823525 +0000 build-debian1: done; \
+2020-03-28 15:11:08.823574 +0000 build-debian1: pkgset_dist= ; \
+2020-03-28 15:11:08.823632 +0000 build-debian1: for dist in ; do \
+2020-03-28 15:11:08.824090 +0000 build-debian1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-03-28 15:11:08.824162 +0000 build-debian1: done; \
+2020-03-28 15:11:08.824218 +0000 build-debian1: for dist in bullseye buster stretch; do \
+2020-03-28 15:11:08.824274 +0000 build-debian1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-03-28 15:11:08.824322 +0000 build-debian1: done; \
+2020-03-28 15:11:08.824382 +0000 build-debian1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-03-28 15:11:08.824435 +0000 build-debian1: .[ -z "$repo" ] && continue; \
+2020-03-28 15:11:08.824497 +0000 build-debian1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-03-28 15:11:08.824557 +0000 build-debian1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2020-03-28 15:11:08.824602 +0000 build-debian1: done
+2020-03-28 15:11:08.855485 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/bullseye-testing...
+2020-03-28 15:11:09.659245 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/buster-testing...
+2020-03-28 15:11:10.451633 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/jessie-testing...
+2020-03-28 15:11:11.276442 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/stretch-testing...
+2020-03-28 15:11:12.036058 +0000 build-debian1: Done.
+2020-03-28 15:11:12.052983 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb ~/builder-r4.0/qubes-src/linux-deb
+2020-03-28 15:11:13.879974 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:14.056019 +0000 build-debian1: .d..t...... pool/main/q/qubes-tunnel/
+2020-03-28 15:11:14.057534 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb10u1.debian.tar.xz
+2020-03-28 15:11:14.057657 +0000 build-debian1: .          2,372 100%    0.00kB/s    0:00:00  .          2,372 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=12/69)
+2020-03-28 15:11:14.059555 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb10u1.dsc
+2020-03-28 15:11:14.060037 +0000 build-debian1: .          1,428 100%    1.36MB/s    0:00:00  .          1,428 100%    1.36MB/s    0:00:00 (xfr#2, to-chk=11/69)
+2020-03-28 15:11:14.060470 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb10u1_all.deb
+2020-03-28 15:11:14.061003 +0000 build-debian1: .          7,524 100%    2.39MB/s    0:00:00  .          7,524 100%    2.39MB/s    0:00:00 (xfr#3, to-chk=10/69)
+2020-03-28 15:11:14.061351 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb10u1_amd64.buildinfo
+2020-03-28 15:11:14.062266 +0000 build-debian1: .          5,064 100%    1.21MB/s    0:00:00  .          5,064 100%    1.21MB/s    0:00:00 (xfr#4, to-chk=9/69)
+2020-03-28 15:11:14.062345 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb11u1.debian.tar.xz
+2020-03-28 15:11:14.062621 +0000 build-debian1: .          2,372 100%  579.10kB/s    0:00:00  .          2,372 100%  463.28kB/s    0:00:00 (xfr#5, to-chk=8/69)
+2020-03-28 15:11:14.063265 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb11u1.dsc
+2020-03-28 15:11:14.066099 +0000 build-debian1: .          1,428 100%  278.91kB/s    0:00:00  .          1,428 100%  278.91kB/s    0:00:00 (xfr#6, to-chk=7/69)
+2020-03-28 15:11:14.066177 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb11u1_all.deb
+2020-03-28 15:11:14.066242 +0000 build-debian1: .          7,516 100%    1.19MB/s    0:00:00  .          7,516 100%    1.19MB/s    0:00:00 (xfr#7, to-chk=6/69)
+2020-03-28 15:11:14.066302 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb11u1_amd64.buildinfo
+2020-03-28 15:11:14.066366 +0000 build-debian1: .          5,178 100%  842.77kB/s    0:00:00  .          5,178 100%  842.77kB/s    0:00:00 (xfr#8, to-chk=5/69)
+2020-03-28 15:11:14.066422 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb9u1.debian.tar.xz
+2020-03-28 15:11:14.066486 +0000 build-debian1: .          2,372 100%  330.92kB/s    0:00:00  .          2,372 100%  330.92kB/s    0:00:00 (xfr#9, to-chk=4/69)
+2020-03-28 15:11:14.066541 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb9u1.dsc
+2020-03-28 15:11:14.066603 +0000 build-debian1: .          1,424 100%  173.83kB/s    0:00:00  .          1,424 100%  173.83kB/s    0:00:00 (xfr#10, to-chk=3/69)
+2020-03-28 15:11:14.067069 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb9u1_all.deb
+2020-03-28 15:11:14.067322 +0000 build-debian1: .          7,450 100%  909.42kB/s    0:00:00  .          7,450 100%  808.38kB/s    0:00:00 (xfr#11, to-chk=2/69)
+2020-03-28 15:11:14.067366 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1-1+deb9u1_amd64.buildinfo
+2020-03-28 15:11:14.067402 +0000 build-debian1: .          5,474 100%  593.97kB/s    0:00:00  .          5,474 100%  593.97kB/s    0:00:00 (xfr#12, to-chk=1/69)
+2020-03-28 15:11:14.067433 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-tunnel/qubes-tunnel_1.4.1.orig.tar.xz
+2020-03-28 15:11:14.069377 +0000 build-debian1: .         24,420 100%    2.12MB/s    0:00:00  .         24,420 100%    1.94MB/s    0:00:00 (xfr#13, to-chk=0/69)
+2020-03-28 15:11:14.887546 +0000 build-debian1: Syncing r4.0/vm/bullseye...
+2020-03-28 15:11:16.689097 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:17.230176 +0000 build-debian1: Syncing r4.0/vm/bullseye-testing...
+2020-03-28 15:11:19.156280 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:19.477396 +0000 build-debian1: .d..t...... bullseye-testing/
+2020-03-28 15:11:19.477498 +0000 build-debian1: <f..t...... bullseye-testing/InRelease
+2020-03-28 15:11:19.477589 +0000 build-debian1: .          2,179 100%    0.00kB/s    0:00:00  .          2,179 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-03-28 15:11:19.478381 +0000 build-debian1: <f..t...... bullseye-testing/Release
+2020-03-28 15:11:19.481249 +0000 build-debian1: .          1,642 100%  534.51kB/s    0:00:00  .          1,642 100%  400.88kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-03-28 15:11:19.482117 +0000 build-debian1: <f..t...... bullseye-testing/Release.gpg
+2020-03-28 15:11:19.482497 +0000 build-debian1: .            488 100%   95.31kB/s    0:00:00  .            488 100%   95.31kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-03-28 15:11:19.483040 +0000 build-debian1: .d..t...... bullseye-testing/main/binary-amd64/
+2020-03-28 15:11:19.483134 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages
+2020-03-28 15:11:19.483561 +0000 build-debian1: .            700  20%   97.66kB/s    0:00:00  .          3,452 100%  481.58kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-03-28 15:11:19.483647 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages.gz
+2020-03-28 15:11:19.484130 +0000 build-debian1: .          1,175 100%  163.92kB/s    0:00:00  .          1,175 100%  163.92kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-03-28 15:11:19.484197 +0000 build-debian1: .d..t...... bullseye-testing/main/source/
+2020-03-28 15:11:19.484257 +0000 build-debian1: <f.st...... bullseye-testing/main/source/Sources.gz
+2020-03-28 15:11:19.484489 +0000 build-debian1: .          1,436 100%  200.33kB/s    0:00:00  .          1,436 100%  200.33kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-03-28 15:11:20.006073 +0000 build-debian1: Syncing r4.0/vm/buster...
+2020-03-28 15:11:22.171123 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:22.695605 +0000 build-debian1: Syncing r4.0/vm/buster-testing...
+2020-03-28 15:11:24.684536 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:24.998116 +0000 build-debian1: .d..t...... buster-testing/
+2020-03-28 15:11:24.998496 +0000 build-debian1: <f..t...... buster-testing/InRelease
+2020-03-28 15:11:25.003047 +0000 build-debian1: .          2,175 100%    0.00kB/s    0:00:00  .          2,175 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-03-28 15:11:25.003447 +0000 build-debian1: <f..t...... buster-testing/Release
+2020-03-28 15:11:25.006648 +0000 build-debian1: .          1,638 100%  799.80kB/s    0:00:00  .          1,638 100%  533.20kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-03-28 15:11:25.008289 +0000 build-debian1: <f..t...... buster-testing/Release.gpg
+2020-03-28 15:11:25.008350 +0000 build-debian1: .            488 100%  119.14kB/s    0:00:00  .            488 100%  119.14kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-03-28 15:11:25.008386 +0000 build-debian1: .d..t...... buster-testing/main/binary-amd64/
+2020-03-28 15:11:25.008419 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages
+2020-03-28 15:11:25.008458 +0000 build-debian1: .            700  20%  136.72kB/s    0:00:00  .          3,452 100%  674.22kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-03-28 15:11:25.008493 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages.gz
+2020-03-28 15:11:25.008532 +0000 build-debian1: .          1,179 100%  191.89kB/s    0:00:00  .          1,179 100%  191.89kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-03-28 15:11:25.008564 +0000 build-debian1: .d..t...... buster-testing/main/source/
+2020-03-28 15:11:25.008596 +0000 build-debian1: <f.st...... buster-testing/main/source/Sources.gz
+2020-03-28 15:11:25.011040 +0000 build-debian1: .          1,439 100%  175.66kB/s    0:00:00  .          1,439 100%  175.66kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-03-28 15:11:25.556289 +0000 build-debian1: Syncing r4.0/vm/jessie-testing...
+2020-03-28 15:11:27.344418 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:27.554021 +0000 build-debian1: .d..t...... jessie-testing/
+2020-03-28 15:11:27.554215 +0000 build-debian1: <f..t...... jessie-testing/InRelease
+2020-03-28 15:11:27.558136 +0000 build-debian1: .            700  32%    0.00kB/s    0:00:00  .          2,172 100%    1.40MB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-03-28 15:11:27.558553 +0000 build-debian1: <f..t...... jessie-testing/Release.gpg
+2020-03-28 15:11:27.562267 +0000 build-debian1: .            488 100%  158.85kB/s    0:00:00  .            488 100%   95.31kB/s    0:00:00 (xfr#2, to-chk=8/12)
+2020-03-28 15:11:28.072437 +0000 build-debian1: Syncing r4.0/vm/stretch...
+2020-03-28 15:11:29.980628 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:30.707567 +0000 build-debian1: Syncing r4.0/vm/stretch-testing...
+2020-03-28 15:11:32.244532 +0000 build-debian1: sending incremental file list
+2020-03-28 15:11:32.404397 +0000 build-debian1: .d..t...... stretch-testing/
+2020-03-28 15:11:32.406124 +0000 build-debian1: <f..t...... stretch-testing/InRelease
+2020-03-28 15:11:32.409596 +0000 build-debian1: .          2,177 100%    0.00kB/s    0:00:00  .          2,177 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-03-28 15:11:32.410434 +0000 build-debian1: <f..t...... stretch-testing/Release
+2020-03-28 15:11:32.411957 +0000 build-debian1: .          1,640 100%  533.85kB/s    0:00:00  .          1,640 100%  400.39kB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-03-28 15:11:32.413605 +0000 build-debian1: <f..t...... stretch-testing/Release.gpg
+2020-03-28 15:11:32.413887 +0000 build-debian1: .            488 100%   95.31kB/s    0:00:00  .            488 100%   95.31kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-03-28 15:11:32.413936 +0000 build-debian1: .d..t...... stretch-testing/main/binary-amd64/
+2020-03-28 15:11:32.413968 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages
+2020-03-28 15:11:32.414004 +0000 build-debian1: .            700  20%  113.93kB/s    0:00:00  .          3,474 100%  565.43kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-03-28 15:11:32.414035 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages.gz
+2020-03-28 15:11:32.414069 +0000 build-debian1: .          1,204 100%  195.96kB/s    0:00:00  .          1,204 100%  195.96kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-03-28 15:11:32.414096 +0000 build-debian1: .d..t...... stretch-testing/main/source/
+2020-03-28 15:11:32.414123 +0000 build-debian1: <f.st...... stretch-testing/main/source/Sources.gz
+2020-03-28 15:11:32.414460 +0000 build-debian1: .          1,430 100%  232.75kB/s    0:00:00  .          1,430 100%  199.50kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-03-28 15:11:32.756267 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb
+2020-03-28 15:11:32.758145 +0000 build-debian1: Makefile:777: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.bullseye internal-update-repo-current-testing.vm.buster internal-update-repo-current-testing.vm.stretch post-update-repo-current-testing
+2020-03-28 15:11:32.758195 +0000 build-debian1: true
+2020-03-28 15:11:32.763279 +0000 build-debian1: > done
+2020-03-28 15:11:32.763921 +0000 > closing log
