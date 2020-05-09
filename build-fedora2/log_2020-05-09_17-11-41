@@ -1,0 +1,907 @@
+2020-05-09 17:11:41.701208 +0000 > starting log
+2020-05-09 17:11:41.706212 +0000 build-fedora2: > starting build with log
+2020-05-09 17:11:41.706863 +0000 build-fedora2: >> make args: DISTS_VM= fc29 fc30 fc31 DIST_DOM0= BUILD_LOGS_URL= desktop-linux-i3-gaps-vm-fc29=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-26-48 desktop-linux-i3-gaps-vm-fc30=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-36-40 desktop-linux-i3-gaps-vm-fc31=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-54-16 GIT_URL_desktop_linux_i3_gaps=https://github.com/QubesOS-contrib/qubes-desktop-linux-i3-gaps sign-all update-repo-current-testing
+2020-05-09 17:11:41.706956 +0000 build-fedora2: >> MAKEFLAGS=
+2020-05-09 17:11:41.707016 +0000 build-fedora2: >> COMPONENTS=desktop-linux-i3-gaps
+2020-05-09 17:11:41.707065 +0000 build-fedora2: >> DISTS_VM=
+2020-05-09 17:11:41.707112 +0000 build-fedora2: >> DIST_DOM0=
+2020-05-09 17:11:41.707167 +0000 build-fedora2: >> qubes-builder a42f2b508242f04dd4a7457975185e58cd204491
+2020-05-09 17:11:41.707246 +0000 build-fedora2: >> qubes-builder/qubes-src/desktop-linux-i3-gaps 88e4e507568e16d1fd7a0183cb24553667183228
+2020-05-09 17:11:41.707302 +0000 build-fedora2: !! i3-4.18.1.tar.bz2
+2020-05-09 17:11:41.707833 +0000 build-fedora2: !! pkgs/vm-fc29/i3-gaps.spec.list
+2020-05-09 17:11:41.707902 +0000 build-fedora2: !! pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:11:41.707960 +0000 build-fedora2: !! pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:11:41.708017 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:41.708074 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:41.708132 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:41.708187 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:41.708237 +0000 build-fedora2: !! pkgs/vm-fc30/i3-gaps.spec.list
+2020-05-09 17:11:41.708293 +0000 build-fedora2: !! pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:11:41.708776 +0000 build-fedora2: !! pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:11:41.708851 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:41.708910 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:41.708968 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:41.709025 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:41.709075 +0000 build-fedora2: !! pkgs/vm-fc31/i3-gaps.spec.list
+2020-05-09 17:11:41.709132 +0000 build-fedora2: !! pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:11:41.709189 +0000 build-fedora2: !! pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:11:41.709244 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:41.709301 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:41.710130 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:41.710199 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:41.710280 +0000 build-fedora2: 41b0a8f7b4c73cbf41c49e347f59a40b6213085c6d4ab1c1b0fd3506b88b19118a0669f57050017ee04afbef0c6afea0bb72be87cb471ac70a8783d29d37134d  i3-4.18.1.tar.bz2
+2020-05-09 17:11:41.710794 +0000 build-fedora2: 74ea07105ae630d4d67039193f482c02a2fbadafe7fc874a4d0e1ee92f8d14adde375135d1d181c42a834d625956bc8e55a4e49458e0a9e50b8bb514a4675e0b  pkgs/vm-fc29/i3-gaps.spec.list
+2020-05-09 17:11:42.278229 +0000 build-fedora2: ed92bfee86bc43d177f2574f074fc067da78d5f45eba8224d00e40c04dcb15ada252299d2dd1f79f542f0a80cac8996802057d5c18484a9e3fde692bd1f9a5bb  pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:11:42.280296 +0000 build-fedora2: f7e0ec587a34388d532fed7f5a0efddadde81c9acfebf73138d49ddd8e1f3ec2247d970bdcfbb0b6f6a9cbbca4fb81ff4f7dab0ea58a5d18b9478dfc257666c7  pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:11:42.283155 +0000 build-fedora2: 67504482cd459c538e874dd4194f461dae60d4f590435a7afa478d9aaae0723204e3f58a0428424acea3a6dd5f7c5b200fdd8b4b873d8840ff223988c43087de  pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:42.287256 +0000 build-fedora2: 17e613a22307fe1d34dc1d7775340658829acacb6bb17a2620f55fa45854b3624b383087c8f52b13fd5c5428b07c1e6c117303c96d8bbb167fe05c7ec8d87a54  pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:42.289118 +0000 build-fedora2: 469b92edf42acb57df296e288e7b8619efef52a7d5ed40ad1577b3aab2bc2c8f81f76007ec619f7637b44fdb6d55cec504bc4b11d36b7f3378d47b77366c7bba  pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:42.289240 +0000 build-fedora2: cb72141402a7c6bccdb19473d6369143d283a363a82794cf3be60a61f129ecadb8da771f0ec5ee23bf6a4c3efc342d498670581044378147467f1cb4c4042420  pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:11:42.289897 +0000 build-fedora2: aa262dfda0883bb4cbfadaef1a0d0925e906a1fb82c2fe479e428cabefb614616e360c86c611398764f68226764b5ee296f85460dc9caab9227b8fb6d8ce6ebc  pkgs/vm-fc30/i3-gaps.spec.list
+2020-05-09 17:11:43.661871 +0000 build-fedora2: 362e312967327940751b4b5f683a8b07c0cf780bc8e69f1fe87b30c03c5bdf8251a94405f08ac4c359edd0e95a583517f59dab951bd76de515a6862fd2bbc255  pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:11:43.664239 +0000 build-fedora2: 2b616bdbcc3020599a511006bf928121b2c31c1ccee166f2d0618ffdf7601d6e755387445895b7dfb3bf8b0f2e0718e6abc78dda907ea07e7f3f792f3562fd05  pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:11:43.666714 +0000 build-fedora2: d737ebfde1aa8e5f51023a733a9ab885c778dd139945d4ead16ce8e374825509841044d7a366aef96b38d64162b4ca39a9b0e679bcc5d01db5d710a717123a6a  pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:43.669910 +0000 build-fedora2: ae9310a26b2caa87a50452ec470bfb77987d500963db5f5bb0adf17594c8f32689c1c89e9bdf3da7b86fc96df85ee0795c7a38dc2fc1e711902fe66dbe9d06fe  pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:43.672204 +0000 build-fedora2: 027eb99b70902b9870ff77521f5ce1f54124c087adc523d3d0440b5a78723292cfda154b37cb6c37b24d146b88e2b59181242c3d01bfafcf69a5f8881ecd9332  pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:43.672616 +0000 build-fedora2: 9125f4a0bb7eeec4adfe328779f45fe9ab9454b77e23389e610ac1e57ebf92848601c5ee87ff71523d643872dc0ea2fc1c07c7c4f1fe7453aefdee83fe535b96  pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:11:43.673000 +0000 build-fedora2: d4a069b5a61952a82c4d81250873089cea2165a0f52c6678e5826492767302f95e70c0175d766668149e08f131beab1e1cd1fa76410b4c117cf1dc489c2ca588  pkgs/vm-fc31/i3-gaps.spec.list
+2020-05-09 17:11:44.801998 +0000 build-fedora2: 4fa4acd311599bff5b982ce847b2095e929e2ea5569ea446b98ca84ca1e3cc33255452df9f24fab2280e3598218c37c85754f835bd56b80f5ec91ef9de41547a  pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:11:44.803763 +0000 build-fedora2: 22cd893b6e6992f6a16084ca297a6d1bcb9c0389fc827dc0f9e3e5c354c00805cb106fb34c44546dd080084d411d1f2e4ea4c6d0c2e312ac9b86fa652ce22e23  pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:11:44.805781 +0000 build-fedora2: 9e161f19a095e761bbdc6b192031fb2592b68706e15db7c1f667903d9fd67a0812ff059d40012f1f9ac5ed9458bbe7c87bd1eb2559aabdcc84136df37f9ca7e8  pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:44.808836 +0000 build-fedora2: 5195b882da135944ac189a96d8276121bb281d5ad1ea796f5cb1ecacbca74c111ee0b9fd275651160a49c66a6116e3182ff30ee776ea20c284956460a36126f3  pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:44.810240 +0000 build-fedora2: b3fda047d73342638ca04dfbc9a89eac66b8005fc77831ff1f1a3b505d40cd6a6d0e5e2e18b60366c814f8295e74a586e65a419876d2b99a4d7b8b2b3df4e807  pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:44.811049 +0000 build-fedora2: 66712a086a93525115ea55ecfeddf631fa872501ad6c67af7fbfb8b660e937ad83a045f1195d86275732ddd2794ee53bf08ea2af6f1eada93387f1cc56863d19  pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:11:44.925973 +0000 build-fedora2: ================================================================================
+2020-05-09 17:11:44.926110 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2020-05-09 17:11:44.926822 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2020-05-09 17:11:44.927064 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2020-05-09 17:11:44.928087 +0000 build-fedora2: ================================================================================
+2020-05-09 17:11:44.928305 +0000 build-fedora2: DISTS_VM:
+2020-05-09 17:11:44.935864 +0000 build-fedora2:      fc29, fc30, fc31,
+2020-05-09 17:11:44.936632 +0000 build-fedora2: DISTS_ALL:
+2020-05-09 17:11:44.943561 +0000 build-fedora2:      vm-fc29, vm-fc30, vm-fc31,
+2020-05-09 17:11:44.945115 +0000 build-fedora2: DIST_DOM0:
+2020-05-09 17:11:44.951632 +0000 build-fedora2:     
+2020-05-09 17:11:44.953129 +0000 build-fedora2: BUILDER_PLUGINS:
+2020-05-09 17:11:44.960104 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2020-05-09 17:11:44.961649 +0000 build-fedora2: COMPONENTS:
+2020-05-09 17:11:44.968045 +0000 build-fedora2:      desktop-linux-i3-gaps,
+2020-05-09 17:11:44.969635 +0000 build-fedora2: GIT_REPOS:
+2020-05-09 17:11:44.976078 +0000 build-fedora2:      qubes-src/desktop-linux-i3-gaps,
+2020-05-09 17:11:44.977229 +0000 build-fedora2: TEMPLATE:
+2020-05-09 17:11:44.983603 +0000 build-fedora2:     
+2020-05-09 17:11:44.984693 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2020-05-09 17:11:44.991723 +0000 build-fedora2:     
+2020-05-09 17:11:44.992743 +0000 build-fedora2: TEMPLATE_ALIAS:
+2020-05-09 17:11:44.999631 +0000 build-fedora2:     
+2020-05-09 17:11:45.000687 +0000 build-fedora2: TEMPLATE_LABEL:
+2020-05-09 17:11:45.007664 +0000 build-fedora2:     
+2020-05-09 17:11:45.047044 +0000 build-fedora2: > running make
+2020-05-09 17:11:45.080812 +0000 build-fedora2: Makefile:267: target 'sign.vm.fc29.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:11:45.081069 +0000 build-fedora2: if [ -n "desktop-linux-i3-gaps" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_desktop_linux_i3_gaps"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/desktop-linux-i3-gaps > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-05-09 17:11:45.081119 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-05-09 17:11:45.081149 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-05-09 17:11:45.081179 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-05-09 17:11:45.081207 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:11:45.081239 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc29 template-name)
+2020-05-09 17:11:45.081263 +0000 build-fedora2: fi
+2020-05-09 17:11:45.081292 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:11:45.081520 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-05-09 17:11:45.081556 +0000 build-fedora2: ..DIST=fc29 \
+2020-05-09 17:11:45.081579 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-05-09 17:11:45.081603 +0000 build-fedora2: ..COMPONENT=desktop-linux-i3-gaps \
+2020-05-09 17:11:45.081655 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-05-09 17:11:45.081679 +0000 build-fedora2: ..sign || exit 1; \
+2020-05-09 17:11:45.081704 +0000 build-fedora2: elif [ -d qubes-src/desktop-linux-i3-gaps/rpm ]; then \
+2020-05-09 17:11:45.081729 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-05-09 17:11:45.081757 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/desktop-linux-i3-gaps/rpm/*/*.rpm; do \
+2020-05-09 17:11:45.081784 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-05-09 17:11:45.081808 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-05-09 17:11:45.081829 +0000 build-fedora2: ..fi ;\
+2020-05-09 17:11:45.081851 +0000 build-fedora2: .done ; \
+2020-05-09 17:11:45.081874 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-05-09 17:11:45.081900 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-05-09 17:11:45.081924 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-05-09 17:11:45.081947 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-05-09 17:11:45.081971 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-05-09 17:11:45.081991 +0000 build-fedora2: ..fi; \
+2020-05-09 17:11:45.082019 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-05-09 17:11:45.082040 +0000 build-fedora2: .fi; \
+2020-05-09 17:11:45.082060 +0000 build-fedora2: fi
+2020-05-09 17:11:45.100016 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2020-05-09 17:11:45.100117 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-05-09 17:11:45.100155 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-05-09 17:11:45.100197 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:11:45.100238 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:11:45.100263 +0000 build-fedora2: fi
+2020-05-09 17:11:45.713831 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:196: update target 'sign' due to: sign-prep
+2020-05-09 17:11:45.713973 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && for pkg in pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm ; do \
+2020-05-09 17:11:45.714013 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-05-09 17:11:45.714066 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-05-09 17:11:45.714097 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-05-09 17:11:45.714123 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-05-09 17:11:45.714163 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-05-09 17:11:45.714190 +0000 build-fedora2: .fi; \
+2020-05-09 17:11:45.714211 +0000 build-fedora2: done
+2020-05-09 17:11:52.505920 +0000 build-fedora2: pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm:
+2020-05-09 17:11:53.455630 +0000 build-fedora2: pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm:
+2020-05-09 17:11:54.469093 +0000 build-fedora2: pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm:
+2020-05-09 17:11:55.492826 +0000 build-fedora2: pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm:
+2020-05-09 17:11:56.477156 +0000 build-fedora2: pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm:
+2020-05-09 17:11:57.509572 +0000 build-fedora2: pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm:
+2020-05-09 17:11:57.513306 +0000 build-fedora2: Makefile:267: target 'sign.vm.fc30.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:11:57.513626 +0000 build-fedora2: if [ -n "desktop-linux-i3-gaps" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_desktop_linux_i3_gaps"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/desktop-linux-i3-gaps > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-05-09 17:11:57.513675 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-05-09 17:11:57.513707 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-05-09 17:11:57.513739 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-05-09 17:11:57.513771 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:11:57.513807 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc30 template-name)
+2020-05-09 17:11:57.513835 +0000 build-fedora2: fi
+2020-05-09 17:11:57.513869 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:11:57.513900 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-05-09 17:11:57.513926 +0000 build-fedora2: ..DIST=fc30 \
+2020-05-09 17:11:57.513951 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-05-09 17:11:57.513978 +0000 build-fedora2: ..COMPONENT=desktop-linux-i3-gaps \
+2020-05-09 17:11:57.514003 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-05-09 17:11:57.514027 +0000 build-fedora2: ..sign || exit 1; \
+2020-05-09 17:11:57.514056 +0000 build-fedora2: elif [ -d qubes-src/desktop-linux-i3-gaps/rpm ]; then \
+2020-05-09 17:11:57.514084 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-05-09 17:11:57.514116 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/desktop-linux-i3-gaps/rpm/*/*.rpm; do \
+2020-05-09 17:11:57.514149 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-05-09 17:11:57.514176 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-05-09 17:11:57.514201 +0000 build-fedora2: ..fi ;\
+2020-05-09 17:11:57.514225 +0000 build-fedora2: .done ; \
+2020-05-09 17:11:57.514251 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-05-09 17:11:57.514278 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-05-09 17:11:57.514305 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-05-09 17:11:57.514547 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-05-09 17:11:57.514584 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-05-09 17:11:57.514609 +0000 build-fedora2: ..fi; \
+2020-05-09 17:11:57.514641 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-05-09 17:11:57.514665 +0000 build-fedora2: .fi; \
+2020-05-09 17:11:57.514687 +0000 build-fedora2: fi
+2020-05-09 17:11:57.537905 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2020-05-09 17:11:57.538098 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-05-09 17:11:57.538141 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-05-09 17:11:57.538185 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:11:57.538227 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:11:57.538252 +0000 build-fedora2: fi
+2020-05-09 17:11:57.998812 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:196: update target 'sign' due to: sign-prep
+2020-05-09 17:11:57.998954 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && for pkg in pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm ; do \
+2020-05-09 17:11:57.998997 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-05-09 17:11:57.999050 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-05-09 17:11:57.999080 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-05-09 17:11:57.999106 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-05-09 17:11:57.999143 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-05-09 17:11:57.999171 +0000 build-fedora2: .fi; \
+2020-05-09 17:11:57.999192 +0000 build-fedora2: done
+2020-05-09 17:12:10.545919 +0000 build-fedora2: pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm:
+2020-05-09 17:12:11.507136 +0000 build-fedora2: pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm:
+2020-05-09 17:12:12.405989 +0000 build-fedora2: pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm:
+2020-05-09 17:12:13.397796 +0000 build-fedora2: pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm:
+2020-05-09 17:12:14.193098 +0000 build-fedora2: pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm:
+2020-05-09 17:12:15.195062 +0000 build-fedora2: pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm:
+2020-05-09 17:12:15.201762 +0000 build-fedora2: Makefile:267: target 'sign.vm.fc31.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:12:15.201972 +0000 build-fedora2: if [ -n "desktop-linux-i3-gaps" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_desktop_linux_i3_gaps"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/desktop-linux-i3-gaps > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-05-09 17:12:15.202058 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-05-09 17:12:15.202116 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-05-09 17:12:15.202176 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-05-09 17:12:15.202234 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:12:15.202302 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc31 template-name)
+2020-05-09 17:12:15.202762 +0000 build-fedora2: fi
+2020-05-09 17:12:15.202840 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:12:15.202899 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-05-09 17:12:15.202950 +0000 build-fedora2: ..DIST=fc31 \
+2020-05-09 17:12:15.202998 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-05-09 17:12:15.203049 +0000 build-fedora2: ..COMPONENT=desktop-linux-i3-gaps \
+2020-05-09 17:12:15.203097 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-05-09 17:12:15.203144 +0000 build-fedora2: ..sign || exit 1; \
+2020-05-09 17:12:15.203198 +0000 build-fedora2: elif [ -d qubes-src/desktop-linux-i3-gaps/rpm ]; then \
+2020-05-09 17:12:15.203251 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-05-09 17:12:15.203771 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/desktop-linux-i3-gaps/rpm/*/*.rpm; do \
+2020-05-09 17:12:15.203853 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-05-09 17:12:15.203906 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-05-09 17:12:15.203954 +0000 build-fedora2: ..fi ;\
+2020-05-09 17:12:15.204001 +0000 build-fedora2: .done ; \
+2020-05-09 17:12:15.204052 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-05-09 17:12:15.204104 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-05-09 17:12:15.204156 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-05-09 17:12:15.204207 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-05-09 17:12:15.204259 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-05-09 17:12:15.204304 +0000 build-fedora2: ..fi; \
+2020-05-09 17:12:15.204776 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-05-09 17:12:15.204834 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:15.204879 +0000 build-fedora2: fi
+2020-05-09 17:12:15.260122 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2020-05-09 17:12:15.260890 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-05-09 17:12:15.260984 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2020-05-09 17:12:15.261070 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:12:15.261703 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-05-09 17:12:15.261782 +0000 build-fedora2: fi
+2020-05-09 17:12:15.750912 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:196: update target 'sign' due to: sign-prep
+2020-05-09 17:12:15.751127 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && for pkg in pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm ; do \
+2020-05-09 17:12:15.751207 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-05-09 17:12:15.751309 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-05-09 17:12:15.751781 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-05-09 17:12:15.751844 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-05-09 17:12:15.751923 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-05-09 17:12:15.751977 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:15.752023 +0000 build-fedora2: done
+2020-05-09 17:12:27.315177 +0000 build-fedora2: pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm:
+2020-05-09 17:12:28.141029 +0000 build-fedora2: pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm:
+2020-05-09 17:12:29.082932 +0000 build-fedora2: pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm:
+2020-05-09 17:12:32.789981 +0000 build-fedora2: pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm:
+2020-05-09 17:12:33.726785 +0000 build-fedora2: pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm:
+2020-05-09 17:12:34.802779 +0000 build-fedora2: pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm:
+2020-05-09 17:12:34.806263 +0000 build-fedora2: Makefile:818: target 'internal-update-repo-current-testing.vm.fc29.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:12:34.806527 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc29_BASEDIR"; \
+2020-05-09 17:12:34.806569 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then \
+2020-05-09 17:12:34.806603 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-05-09 17:12:34.806629 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-05-09 17:12:34.806651 +0000 build-fedora2: fi; \
+2020-05-09 17:12:34.806677 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-05-09 17:12:34.806701 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-05-09 17:12:34.806721 +0000 build-fedora2: else \
+2020-05-09 17:12:34.806746 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-05-09 17:12:34.806768 +0000 build-fedora2: fi; \
+2020-05-09 17:12:34.806795 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:12:34.806821 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:34.806844 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-05-09 17:12:34.806875 +0000 build-fedora2: ..vtag=`git -C qubes-src/desktop-linux-i3-gaps tag --points-at HEAD --list v*`; \
+2020-05-09 17:12:34.806902 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-05-09 17:12:34.806926 +0000 build-fedora2: ...echo "no version tag"; \
+2020-05-09 17:12:34.806947 +0000 build-fedora2: ...exit 0; \
+2020-05-09 17:12:34.806968 +0000 build-fedora2: ..fi; \
+2020-05-09 17:12:34.806989 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:34.807016 +0000 build-fedora2: .if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:12:34.807048 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc29 template-name)
+2020-05-09 17:12:34.807071 +0000 build-fedora2: fi
+2020-05-09 17:12:34.807124 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc29 PACKAGE_SET=vm COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 get-var GET_VAR=PACKAGE_LIST); \
+2020-05-09 17:12:34.807153 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-05-09 17:12:34.807176 +0000 build-fedora2: ..echo "no packages."; \
+2020-05-09 17:12:34.807198 +0000 build-fedora2: ..exit 0; \
+2020-05-09 17:12:34.807219 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:34.807244 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc29 PACKAGE_SET=vm \
+2020-05-09 17:12:34.807282 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:34.807498 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-05-09 17:12:34.807534 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-05-09 17:12:34.807566 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 \
+2020-05-09 17:12:34.807603 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc29-`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:34.807641 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-26-48 \
+2020-05-09 17:12:34.807668 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-05-09 17:12:34.807699 +0000 build-fedora2: elif make -C qubes-src/desktop-linux-i3-gaps -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-05-09 17:12:34.807730 +0000 build-fedora2: .echo "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:34.807758 +0000 build-fedora2: .DIST=fc29 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc29 \
+2020-05-09 17:12:34.807789 +0000 build-fedora2: .make -s -C qubes-src/desktop-linux-i3-gaps update-repo-current-testing || exit 1; \
+2020-05-09 17:12:34.807811 +0000 build-fedora2: else \
+2020-05-09 17:12:34.807838 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... skipping."; \
+2020-05-09 17:12:34.807874 +0000 build-fedora2: fi; \
+2020-05-09 17:12:34.807895 +0000 build-fedora2: echo
+2020-05-09 17:12:35.018671 +0000 build-fedora2: Updating qubes-src/desktop-linux-i3-gaps... /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2020-05-09 17:12:35.018811 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc29/rpm
+2020-05-09 17:12:35.079128 +0000 build-fedora2: if [ -n "pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm" ]; then \
+2020-05-09 17:12:35.079643 +0000 build-fedora2: .cd qubes-src/desktop-linux-i3-gaps && ln -f pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc29/rpm/; \
+2020-05-09 17:12:35.079732 +0000 build-fedora2: else \
+2020-05-09 17:12:35.079796 +0000 build-fedora2: .echo "`tput bold`No packages defined by i3-gaps.spec, syntax error?`tput sgr0`"; \
+2020-05-09 17:12:35.079843 +0000 build-fedora2: .exit 1; \
+2020-05-09 17:12:35.079882 +0000 build-fedora2: fi
+2020-05-09 17:12:35.091004 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && echo pkgs/vm-fc29/noarch/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/noarch/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm pkgs/vm-fc29/x86_64/i3-gaps-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm pkgs/vm-fc29/x86_64/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc29-desktop-linux-i3-gaps
+2020-05-09 17:12:35.121703 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-05-09 17:12:35.121763 +0000 build-fedora2: [ -z "i3-gaps-devel-doc-4.18.1-1.fc29" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-05-09 17:12:35.121805 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-26-48" \
+2020-05-09 17:12:35.121831 +0000 build-fedora2: .upload \
+2020-05-09 17:12:35.121854 +0000 build-fedora2: ."r4.0" \
+2020-05-09 17:12:35.121879 +0000 build-fedora2: ."qubes-src/desktop-linux-i3-gaps" \
+2020-05-09 17:12:35.121903 +0000 build-fedora2: ."i3-gaps-devel-doc-4.18.1-1.fc29" \
+2020-05-09 17:12:35.121924 +0000 build-fedora2: ."fc29" \
+2020-05-09 17:12:35.121944 +0000 build-fedora2: ."vm" \
+2020-05-09 17:12:35.121967 +0000 build-fedora2: ."current-testing" \
+2020-05-09 17:12:35.121996 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc29-current-testing" \
+2020-05-09 17:12:35.122026 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc29-current"
+2020-05-09 17:12:35.531545 +0000 build-fedora2: fatal: No tags can describe '37d65943819d5c395e70adc8e27719b168dece0f'.
+2020-05-09 17:12:35.531640 +0000 build-fedora2: Try --always, or create some tags.
+2020-05-09 17:12:40.043289 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc29-current-testing does not exist, initializing with the current state
+2020-05-09 17:12:40.043885 +0000 build-fedora2: WARNING: failed to add r4.0-fc29-cur-test label to issue 23: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-05-09 17:12:40.071148 +0000 build-fedora2: 
+2020-05-09 17:12:40.072042 +0000 build-fedora2: Makefile:793: update target 'internal-update-repo-current-testing.vm.fc29' due to: internal-update-repo-current-testing.vm.fc29.desktop-linux-i3-gaps
+2020-05-09 17:12:40.072129 +0000 build-fedora2: true
+2020-05-09 17:12:40.077016 +0000 build-fedora2: Makefile:818: target 'internal-update-repo-current-testing.vm.fc30.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:12:40.077122 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc30_BASEDIR"; \
+2020-05-09 17:12:40.077192 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then \
+2020-05-09 17:12:40.077258 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-05-09 17:12:40.077313 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-05-09 17:12:40.077774 +0000 build-fedora2: fi; \
+2020-05-09 17:12:40.077834 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-05-09 17:12:40.077889 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-05-09 17:12:40.077933 +0000 build-fedora2: else \
+2020-05-09 17:12:40.077987 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-05-09 17:12:40.078033 +0000 build-fedora2: fi; \
+2020-05-09 17:12:40.078091 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:12:40.078148 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:40.078197 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-05-09 17:12:40.078264 +0000 build-fedora2: ..vtag=`git -C qubes-src/desktop-linux-i3-gaps tag --points-at HEAD --list v*`; \
+2020-05-09 17:12:40.078732 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-05-09 17:12:40.078830 +0000 build-fedora2: ...echo "no version tag"; \
+2020-05-09 17:12:40.078881 +0000 build-fedora2: ...exit 0; \
+2020-05-09 17:12:40.078928 +0000 build-fedora2: ..fi; \
+2020-05-09 17:12:40.078973 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:40.079030 +0000 build-fedora2: .if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:12:40.079100 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc30 template-name)
+2020-05-09 17:12:40.079149 +0000 build-fedora2: fi
+2020-05-09 17:12:40.079250 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc30 PACKAGE_SET=vm COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 get-var GET_VAR=PACKAGE_LIST); \
+2020-05-09 17:12:40.079312 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-05-09 17:12:40.079876 +0000 build-fedora2: ..echo "no packages."; \
+2020-05-09 17:12:40.079929 +0000 build-fedora2: ..exit 0; \
+2020-05-09 17:12:40.079975 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:40.080031 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc30 PACKAGE_SET=vm \
+2020-05-09 17:12:40.080088 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:40.080139 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-05-09 17:12:40.080189 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-05-09 17:12:40.080252 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 \
+2020-05-09 17:12:40.080716 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc30-`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:40.080820 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-36-40 \
+2020-05-09 17:12:40.080880 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-05-09 17:12:40.080948 +0000 build-fedora2: elif make -C qubes-src/desktop-linux-i3-gaps -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-05-09 17:12:40.081009 +0000 build-fedora2: .echo "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:40.081133 +0000 build-fedora2: .DIST=fc30 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc30 \
+2020-05-09 17:12:40.081212 +0000 build-fedora2: .make -s -C qubes-src/desktop-linux-i3-gaps update-repo-current-testing || exit 1; \
+2020-05-09 17:12:40.081262 +0000 build-fedora2: else \
+2020-05-09 17:12:40.082288 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... skipping."; \
+2020-05-09 17:12:40.082861 +0000 build-fedora2: fi; \
+2020-05-09 17:12:40.082916 +0000 build-fedora2: echo
+2020-05-09 17:12:40.326782 +0000 build-fedora2: Updating qubes-src/desktop-linux-i3-gaps... /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2020-05-09 17:12:40.326922 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc30/rpm
+2020-05-09 17:12:40.387916 +0000 build-fedora2: if [ -n "pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm" ]; then \
+2020-05-09 17:12:40.388163 +0000 build-fedora2: .cd qubes-src/desktop-linux-i3-gaps && ln -f pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc30/rpm/; \
+2020-05-09 17:12:40.388234 +0000 build-fedora2: else \
+2020-05-09 17:12:40.388305 +0000 build-fedora2: .echo "`tput bold`No packages defined by i3-gaps.spec, syntax error?`tput sgr0`"; \
+2020-05-09 17:12:40.388771 +0000 build-fedora2: .exit 1; \
+2020-05-09 17:12:40.388836 +0000 build-fedora2: fi
+2020-05-09 17:12:40.403938 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && echo pkgs/vm-fc30/noarch/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/noarch/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm pkgs/vm-fc30/x86_64/i3-gaps-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm pkgs/vm-fc30/x86_64/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc30-desktop-linux-i3-gaps
+2020-05-09 17:12:40.468845 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-05-09 17:12:40.469016 +0000 build-fedora2: [ -z "i3-gaps-devel-doc-4.18.1-1.fc30" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-05-09 17:12:40.469170 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-36-40" \
+2020-05-09 17:12:40.469265 +0000 build-fedora2: .upload \
+2020-05-09 17:12:40.469744 +0000 build-fedora2: ."r4.0" \
+2020-05-09 17:12:40.469863 +0000 build-fedora2: ."qubes-src/desktop-linux-i3-gaps" \
+2020-05-09 17:12:40.469966 +0000 build-fedora2: ."i3-gaps-devel-doc-4.18.1-1.fc30" \
+2020-05-09 17:12:40.470054 +0000 build-fedora2: ."fc30" \
+2020-05-09 17:12:40.470141 +0000 build-fedora2: ."vm" \
+2020-05-09 17:12:40.470229 +0000 build-fedora2: ."current-testing" \
+2020-05-09 17:12:40.470814 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc30-current-testing" \
+2020-05-09 17:12:40.470948 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc30-current"
+2020-05-09 17:12:40.756835 +0000 build-fedora2: fatal: No tags can describe '37d65943819d5c395e70adc8e27719b168dece0f'.
+2020-05-09 17:12:40.756950 +0000 build-fedora2: Try --always, or create some tags.
+2020-05-09 17:12:44.007773 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc30-current-testing does not exist, initializing with the current state
+2020-05-09 17:12:44.007976 +0000 build-fedora2: WARNING: failed to add r4.0-fc30-cur-test label to issue 23: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-05-09 17:12:44.035258 +0000 build-fedora2: 
+2020-05-09 17:12:44.035784 +0000 build-fedora2: Makefile:793: update target 'internal-update-repo-current-testing.vm.fc30' due to: internal-update-repo-current-testing.vm.fc30.desktop-linux-i3-gaps
+2020-05-09 17:12:44.035863 +0000 build-fedora2: true
+2020-05-09 17:12:44.040206 +0000 build-fedora2: Makefile:818: target 'internal-update-repo-current-testing.vm.fc31.desktop-linux-i3-gaps' does not exist
+2020-05-09 17:12:44.040312 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc31_BASEDIR"; \
+2020-05-09 17:12:44.040886 +0000 build-fedora2: if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then \
+2020-05-09 17:12:44.040959 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-05-09 17:12:44.041014 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-05-09 17:12:44.041060 +0000 build-fedora2: fi; \
+2020-05-09 17:12:44.041113 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-05-09 17:12:44.041165 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-05-09 17:12:44.041210 +0000 build-fedora2: else \
+2020-05-09 17:12:44.041263 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-05-09 17:12:44.041308 +0000 build-fedora2: fi; \
+2020-05-09 17:12:44.041777 +0000 build-fedora2: if [ -r qubes-src/desktop-linux-i3-gaps/Makefile.builder ]; then \
+2020-05-09 17:12:44.041844 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:44.041898 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-05-09 17:12:44.041964 +0000 build-fedora2: ..vtag=`git -C qubes-src/desktop-linux-i3-gaps tag --points-at HEAD --list v*`; \
+2020-05-09 17:12:44.042019 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-05-09 17:12:44.042070 +0000 build-fedora2: ...echo "no version tag"; \
+2020-05-09 17:12:44.042116 +0000 build-fedora2: ...exit 0; \
+2020-05-09 17:12:44.042161 +0000 build-fedora2: ..fi; \
+2020-05-09 17:12:44.042206 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:44.042264 +0000 build-fedora2: .if [ "desktop-linux-i3-gaps" = linux-template-builder ]; then
+2020-05-09 17:12:44.043041 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc31 template-name)
+2020-05-09 17:12:44.043087 +0000 build-fedora2: fi
+2020-05-09 17:12:44.043151 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc31 PACKAGE_SET=vm COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 get-var GET_VAR=PACKAGE_LIST); \
+2020-05-09 17:12:44.043189 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-05-09 17:12:44.043219 +0000 build-fedora2: ..echo "no packages."; \
+2020-05-09 17:12:44.043247 +0000 build-fedora2: ..exit 0; \
+2020-05-09 17:12:44.043274 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:44.043308 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc31 PACKAGE_SET=vm \
+2020-05-09 17:12:44.043586 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:44.043623 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-05-09 17:12:44.043654 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-05-09 17:12:44.043692 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 \
+2020-05-09 17:12:44.043740 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc31-`basename qubes-src/desktop-linux-i3-gaps` \
+2020-05-09 17:12:44.043787 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-54-16 \
+2020-05-09 17:12:44.043855 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-05-09 17:12:44.043898 +0000 build-fedora2: elif make -C qubes-src/desktop-linux-i3-gaps -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-05-09 17:12:44.043935 +0000 build-fedora2: .echo "Updating qubes-src/desktop-linux-i3-gaps... "; \
+2020-05-09 17:12:44.043973 +0000 build-fedora2: .DIST=fc31 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc31 \
+2020-05-09 17:12:44.044013 +0000 build-fedora2: .make -s -C qubes-src/desktop-linux-i3-gaps update-repo-current-testing || exit 1; \
+2020-05-09 17:12:44.044045 +0000 build-fedora2: else \
+2020-05-09 17:12:44.044080 +0000 build-fedora2: .echo -n "Updating qubes-src/desktop-linux-i3-gaps... skipping."; \
+2020-05-09 17:12:44.044106 +0000 build-fedora2: fi; \
+2020-05-09 17:12:44.044131 +0000 build-fedora2: echo
+2020-05-09 17:12:44.156255 +0000 build-fedora2: Updating qubes-src/desktop-linux-i3-gaps... /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2020-05-09 17:12:44.156794 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc31/rpm
+2020-05-09 17:12:44.194878 +0000 build-fedora2: if [ -n "pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm" ]; then \
+2020-05-09 17:12:44.195100 +0000 build-fedora2: .cd qubes-src/desktop-linux-i3-gaps && ln -f pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc31/rpm/; \
+2020-05-09 17:12:44.195171 +0000 build-fedora2: else \
+2020-05-09 17:12:44.195242 +0000 build-fedora2: .echo "`tput bold`No packages defined by i3-gaps.spec, syntax error?`tput sgr0`"; \
+2020-05-09 17:12:44.195295 +0000 build-fedora2: .exit 1; \
+2020-05-09 17:12:44.195740 +0000 build-fedora2: fi
+2020-05-09 17:12:44.204243 +0000 build-fedora2: cd qubes-src/desktop-linux-i3-gaps && echo pkgs/vm-fc31/noarch/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/noarch/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm pkgs/vm-fc31/x86_64/i3-gaps-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm pkgs/vm-fc31/x86_64/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc31-desktop-linux-i3-gaps
+2020-05-09 17:12:44.239235 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-05-09 17:12:44.239747 +0000 build-fedora2: [ -z "i3-gaps-devel-doc-4.18.1-1.fc31" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-05-09 17:12:44.239854 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-05-09_16-54-16" \
+2020-05-09 17:12:44.239910 +0000 build-fedora2: .upload \
+2020-05-09 17:12:44.239959 +0000 build-fedora2: ."r4.0" \
+2020-05-09 17:12:44.240011 +0000 build-fedora2: ."qubes-src/desktop-linux-i3-gaps" \
+2020-05-09 17:12:44.240064 +0000 build-fedora2: ."i3-gaps-devel-doc-4.18.1-1.fc31" \
+2020-05-09 17:12:44.240109 +0000 build-fedora2: ."fc31" \
+2020-05-09 17:12:44.240153 +0000 build-fedora2: ."vm" \
+2020-05-09 17:12:44.240200 +0000 build-fedora2: ."current-testing" \
+2020-05-09 17:12:44.240263 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc31-current-testing" \
+2020-05-09 17:12:44.240752 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc31-current"
+2020-05-09 17:12:44.526749 +0000 build-fedora2: fatal: No tags can describe '37d65943819d5c395e70adc8e27719b168dece0f'.
+2020-05-09 17:12:44.526885 +0000 build-fedora2: Try --always, or create some tags.
+2020-05-09 17:12:47.687903 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-desktop-linux-i3-gaps-vm-fc31-current-testing does not exist, initializing with the current state
+2020-05-09 17:12:47.688090 +0000 build-fedora2: WARNING: failed to add r4.0-fc31-cur-test label to issue 23: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-05-09 17:12:47.718838 +0000 build-fedora2: 
+2020-05-09 17:12:47.719029 +0000 build-fedora2: Makefile:793: update target 'internal-update-repo-current-testing.vm.fc31' due to: internal-update-repo-current-testing.vm.fc31.desktop-linux-i3-gaps
+2020-05-09 17:12:47.719117 +0000 build-fedora2: true
+2020-05-09 17:12:47.731026 +0000 build-fedora2: Makefile:872: target 'post-update-repo-current-testing' does not exist
+2020-05-09 17:12:47.731098 +0000 build-fedora2: for dist in  fc29 fc30 fc31; do \
+2020-05-09 17:12:47.731166 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-05-09 17:12:47.731223 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2020-05-09 17:12:47.731279 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2020-05-09 17:12:47.731324 +0000 build-fedora2: .else \
+2020-05-09 17:12:47.731787 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.0"; \
+2020-05-09 17:12:47.731851 +0000 build-fedora2: .fi; \
+2020-05-09 17:12:47.731909 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-05-09 17:12:47.731957 +0000 build-fedora2: done; \
+2020-05-09 17:12:47.732004 +0000 build-fedora2: pkgset_dist= ; \
+2020-05-09 17:12:47.732052 +0000 build-fedora2: for dist in ; do \
+2020-05-09 17:12:47.732104 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-05-09 17:12:47.732149 +0000 build-fedora2: done; \
+2020-05-09 17:12:47.732199 +0000 build-fedora2: for dist in fc29 fc30 fc31; do \
+2020-05-09 17:12:47.732251 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-05-09 17:12:47.732297 +0000 build-fedora2: done; \
+2020-05-09 17:12:47.732755 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-05-09 17:12:47.732827 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2020-05-09 17:12:47.732889 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-05-09 17:12:47.732949 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2020-05-09 17:12:47.732993 +0000 build-fedora2: done
+2020-05-09 17:12:47.831845 +0000 build-fedora2: which: no mkmetalink in (/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/user/builder-r4.0/qubes-src/builder-rpm/tools)
+2020-05-09 17:12:47.853705 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/dom0/fc25...
+2020-05-09 17:12:48.054734 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos7...
+2020-05-09 17:12:48.203071 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos8...
+2020-05-09 17:12:48.377766 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc24...
+2020-05-09 17:12:48.522754 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc25...
+2020-05-09 17:12:48.664838 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc26...
+2020-05-09 17:12:48.793848 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc27...
+2020-05-09 17:12:48.943264 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc28...
+2020-05-09 17:12:49.105010 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc29...
+2020-05-09 17:12:52.911294 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc30...
+2020-05-09 17:12:58.964701 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc31...
+2020-05-09 17:13:05.012928 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc32...
+2020-05-09 17:13:05.168126 +0000 build-fedora2: C_CREATEREPOLIB: Warning: Cannot parse repomd: r4.0/current-testing/vm/fc32/repodata/repomd.xml
+2020-05-09 17:13:05.178107 +0000 build-fedora2: Done.
+2020-05-09 17:13:05.189110 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2020-05-09 17:13:05.193050 +0000 build-fedora2: Syncing r4.0...
+2020-05-09 17:13:08.225938 +0000 build-fedora2: sending incremental file list
+2020-05-09 17:13:08.659148 +0000 build-fedora2: .d..t...... current-testing/
+2020-05-09 17:13:08.659989 +0000 build-fedora2: .d..t...... current-testing/dom0/
+2020-05-09 17:13:08.661287 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/
+2020-05-09 17:13:08.663022 +0000 build-fedora2: .L..t...... current-testing/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2020-05-09 17:13:08.664052 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/rpm/
+2020-05-09 17:13:08.667200 +0000 build-fedora2: <f..t...... current-testing/dom0/fc25/rpm/.gitignore
+2020-05-09 17:13:08.672193 +0000 build-fedora2: .              6 100%    0.00kB/s    0:00:00  .              6 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=176/185)
+2020-05-09 17:13:08.672975 +0000 build-fedora2: .d..t...... current-testing/vm/
+2020-05-09 17:13:08.673071 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/
+2020-05-09 17:13:08.673112 +0000 build-fedora2: .L..t...... current-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.673140 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/rpm/
+2020-05-09 17:13:08.673185 +0000 build-fedora2: <f..t...... current-testing/vm/centos7/rpm/.gitignore
+2020-05-09 17:13:08.674732 +0000 build-fedora2: .              6 100%    2.93kB/s    0:00:00  .              6 100%    2.93kB/s    0:00:00 (xfr#2, to-chk=162/185)
+2020-05-09 17:13:08.674783 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/
+2020-05-09 17:13:08.674819 +0000 build-fedora2: .L..t...... current-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:13:08.674846 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/rpm/
+2020-05-09 17:13:08.674873 +0000 build-fedora2: <f..t...... current-testing/vm/centos8/rpm/.gitignore
+2020-05-09 17:13:08.674903 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#3, to-chk=159/185)
+2020-05-09 17:13:08.674927 +0000 build-fedora2: .d..t...... current-testing/vm/fc24/
+2020-05-09 17:13:08.674955 +0000 build-fedora2: .L..t...... current-testing/vm/fc24/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.674980 +0000 build-fedora2: .d..t...... current-testing/vm/fc24/rpm/
+2020-05-09 17:13:08.675006 +0000 build-fedora2: <f..t...... current-testing/vm/fc24/rpm/.gitignore
+2020-05-09 17:13:08.676171 +0000 build-fedora2: .              6 100%    1.95kB/s    0:00:00  .              6 100%    1.95kB/s    0:00:00 (xfr#4, to-chk=156/185)
+2020-05-09 17:13:08.676237 +0000 build-fedora2: .d..t...... current-testing/vm/fc25/
+2020-05-09 17:13:08.676281 +0000 build-fedora2: .L..t...... current-testing/vm/fc25/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.676604 +0000 build-fedora2: .d..t...... current-testing/vm/fc25/rpm/
+2020-05-09 17:13:08.676672 +0000 build-fedora2: <f..t...... current-testing/vm/fc25/rpm/.gitignore
+2020-05-09 17:13:08.677786 +0000 build-fedora2: .              6 100%    1.17kB/s    0:00:00  .              6 100%    1.17kB/s    0:00:00 (xfr#5, to-chk=153/185)
+2020-05-09 17:13:08.677852 +0000 build-fedora2: .d..t...... current-testing/vm/fc26/
+2020-05-09 17:13:08.677896 +0000 build-fedora2: .L..t...... current-testing/vm/fc26/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.677931 +0000 build-fedora2: .d..t...... current-testing/vm/fc26/rpm/
+2020-05-09 17:13:08.677965 +0000 build-fedora2: <f..t...... current-testing/vm/fc26/rpm/.gitignore
+2020-05-09 17:13:08.679177 +0000 build-fedora2: .              6 100%    0.98kB/s    0:00:00  .              6 100%    0.98kB/s    0:00:00 (xfr#6, to-chk=150/185)
+2020-05-09 17:13:08.679243 +0000 build-fedora2: .d..t...... current-testing/vm/fc27/
+2020-05-09 17:13:08.679286 +0000 build-fedora2: .L..t...... current-testing/vm/fc27/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.679575 +0000 build-fedora2: .d..t...... current-testing/vm/fc27/rpm/
+2020-05-09 17:13:08.679627 +0000 build-fedora2: <f..t...... current-testing/vm/fc27/rpm/.gitignore
+2020-05-09 17:13:08.680930 +0000 build-fedora2: .              6 100%    0.73kB/s    0:00:00  .              6 100%    0.73kB/s    0:00:00 (xfr#7, to-chk=147/185)
+2020-05-09 17:13:08.680996 +0000 build-fedora2: .d..t...... current-testing/vm/fc28/
+2020-05-09 17:13:08.681040 +0000 build-fedora2: .L..t...... current-testing/vm/fc28/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.681075 +0000 build-fedora2: .d..t...... current-testing/vm/fc28/rpm/
+2020-05-09 17:13:08.681109 +0000 build-fedora2: <f..t...... current-testing/vm/fc28/rpm/.gitignore
+2020-05-09 17:13:08.682562 +0000 build-fedora2: .              6 100%    0.65kB/s    0:00:00  .              6 100%    0.65kB/s    0:00:00 (xfr#8, to-chk=144/185)
+2020-05-09 17:13:08.682635 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/
+2020-05-09 17:13:08.682681 +0000 build-fedora2: .L..t...... current-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:13:08.682716 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/rpm/
+2020-05-09 17:13:08.682751 +0000 build-fedora2: <f..t...... current-testing/vm/fc29/rpm/.gitignore
+2020-05-09 17:13:08.684194 +0000 build-fedora2: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#9, to-chk=141/185)
+2020-05-09 17:13:08.684265 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:13:08.690115 +0000 build-fedora2: .         32,768   9%    2.60MB/s    0:00:00  .        340,656 100%   18.05MB/s    0:00:00 (xfr#10, to-chk=140/185)
+2020-05-09 17:13:08.690227 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-debuginfo-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:13:08.712210 +0000 build-fedora2: .         32,768   5%    1.64MB/s    0:00:00  .        612,616 100%   14.98MB/s    0:00:00 (xfr#11, to-chk=139/185)
+2020-05-09 17:13:08.712281 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-debugsource-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:13:08.776571 +0000 build-fedora2: .         32,768   9%  711.11kB/s    0:00:00  .        330,724 100%    3.06MB/s    0:00:00 (xfr#12, to-chk=138/185)
+2020-05-09 17:13:08.776635 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-devel-4.18.1-1.fc29.x86_64.rpm
+2020-05-09 17:13:08.776680 +0000 build-fedora2: .          9,588 100%   90.91kB/s    0:00:00  .          9,588 100%   90.91kB/s    0:00:00 (xfr#13, to-chk=137/185)
+2020-05-09 17:13:08.776716 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-devel-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:17:20.942103 +0000 build-fedora2: .         32,768   0%  285.71kB/s    0:08:50  .      1,212,416   0% 1018.06kB/s    0:02:27  .      1,867,776   1%  808.15kB/s    0:03:05  .      2,523,136   1%  728.56kB/s    0:03:24  .      3,178,496   2%  692.86kB/s    0:03:34  .      3,866,624   2%  586.29kB/s    0:04:12  .      4,554,752   3%  578.36kB/s    0:04:14  .      5,210,112   3%  570.68kB/s    0:04:16  .      5,898,240   3%  575.64kB/s    0:04:13  .      6,586,368   4%  586.96kB/s    0:04:07  .      7,274,496   4%  580.80kB/s    0:04:08  .      7,864,320   5%  587.89kB/s    0:04:04  .      8,552,448   5%  596.27kB/s    0:03:59  .      9,240,576   6%  590.16kB/s    0:04:01  .      9,928,704   6%  610.60kB/s    0:03:52  .     10,616,832   7%  622.80kB/s    0:03:46  .     11,173,888   7%  599.67kB/s    0:03:54  .     11,862,016   7%  595.90kB/s    0:03:54  .     12,550,144   8%  604.34kB/s    0:03:50  .     13,238,272   8%  579.97kB/s    0:03:58  .     13,926,400   9%  602.15kB/s    0:03:48  .     14,614,528   9%  603.64kB/s    0:03:47  .     15,302,656  10%  590.25kB/s    0:03:50  .     15,990,784  10%  590.77kB/s    0:03:49  .     16,678,912  10%  586.00kB/s    0:03:50  .     17,367,040  11%  584.98kB/s    0:03:49  .     18,055,168  11%  587.41kB/s    0:03:47  .     18,644,992  12%  585.63kB/s    0:03:47  .     19,103,744  12%  545.50kB/s    0:04:02  .     19,791,872  13%  549.29kB/s    0:04:00  .     20,348,928  13%  531.56kB/s    0:04:07  .     21,037,056  13%  560.86kB/s    0:03:52  .     21,725,184  14%  609.23kB/s    0:03:33  .     22,413,312  14%  582.75kB/s    0:03:41  .     23,232,512  15%  638.84kB/s    0:03:21  .     23,920,640  15%  646.17kB/s    0:03:17  .     24,608,768  16%  635.52kB/s    0:03:19  .     25,296,896  16%  649.15kB/s    0:03:14  .     25,985,024  17%  615.95kB/s    0:03:24  .     26,673,152  17%  599.60kB/s    0:03:28  .     27,230,208  17%  573.73kB/s    0:03:36  .     27,918,336  18%  592.59kB/s    0:03:28  .     28,377,088  18%  517.96kB/s    0:03:57  .     29,065,216  19%  518.19kB/s    0:03:56  .     29,655,040  19%  535.99kB/s    0:03:47  .     30,343,168  20%  522.28kB/s    0:03:52  .     31,031,296  20%  594.50kB/s    0:03:22  .     31,719,424  20%  604.90kB/s    0:03:18  .     32,407,552  21%  605.13kB/s    0:03:17  .     33,095,680  21%  603.77kB/s    0:03:16  .     33,652,736  22%  583.54kB/s    0:03:22  .     34,340,864  22%  581.95kB/s    0:03:21  .     34,930,688  23%  574.76kB/s    0:03:23  .     35,618,816  23%  580.45kB/s    0:03:19  .     36,306,944  23%  596.82kB/s    0:03:13  .     36,995,072  24%  568.92kB/s    0:03:21  .     37,683,200  24%  584.98kB/s    0:03:14  .     38,371,328  25%  575.10kB/s    0:03:16  .     39,059,456  25%  577.20kB/s    0:03:15  .     39,616,512  26%  556.88kB/s    0:03:21  .     40,075,264  26%  510.49kB/s    0:03:38  .     40,763,392  26%  529.83kB/s    0:03:29  .     41,353,216  27%  519.84kB/s    0:03:32  .     42,041,344  27%  559.28kB/s    0:03:15  .     42,500,096  28%  543.12kB/s    0:03:20  .     42,827,776  28%  462.49kB/s    0:03:55  .     43,286,528  28%  429.48kB/s    0:04:12  .     43,974,656  28%  420.49kB/s    0:04:16  .     44,662,784  29%  484.51kB/s    0:03:40  .     45,350,912  29%  537.87kB/s    0:03:17  .     46,039,040  30%  573.01kB/s    0:03:04  .     46,727,168  30%  589.47kB/s    0:02:57  .     47,415,296  31%  584.09kB/s    0:02:58  .     48,005,120  31%  577.93kB/s    0:02:59  .     48,693,248  32%  596.69kB/s    0:02:52  .     49,250,304  32%  579.22kB/s    0:02:56  .     49,840,128  32%  567.87kB/s    0:02:59  .     50,528,256  33%  578.40kB/s    0:02:54  .     51,216,384  33%  572.36kB/s    0:02:55  .     51,904,512  34%  600.00kB/s    0:02:46  .     52,461,568  34%  591.09kB/s    0:02:47  .     53,149,696  35%  601.79kB/s    0:02:43  .     53,772,288  35%  594.85kB/s    0:02:44  .     54,427,648  35%  590.60kB/s    0:02:44  .     55,115,776  36%  623.68kB/s    0:02:34  .     55,771,136  36%  620.61kB/s    0:02:34  .     56,360,960  37%  603.63kB/s    0:02:37  .     57,049,088  37%  583.68kB/s    0:02:42  .     57,737,216  38%  572.84kB/s    0:02:43  .     58,425,344  38%  586.69kB/s    0:02:38  .     59,113,472  38%  607.05kB/s    0:02:32  .     59,801,600  39%  619.64kB/s    0:02:28  .     60,489,728  39%  628.77kB/s    0:02:24  .     61,177,856  40%  624.39kB/s    0:02:24  .     61,865,984  40%  626.87kB/s    0:02:23  .     62,554,112  41%  612.30kB/s    0:02:25  .     63,307,776  41%  618.43kB/s    0:02:22  .     63,995,904  42%  609.93kB/s    0:02:23  .     64,684,032  42%  609.12kB/s    0:02:22  .     65,372,160  43%  627.74kB/s    0:02:17  .     66,060,288  43%  605.00kB/s    0:02:21  .     66,748,416  44%  616.37kB/s    0:02:17  .     67,436,544  44%  599.87kB/s    0:02:20  .     68,255,744  45%  603.13kB/s    0:02:18  .     68,943,872  45%  623.01kB/s    0:02:12  .     69,632,000  45%  619.85kB/s    0:02:12  .     70,320,128  46%  645.43kB/s    0:02:06  .     70,877,184  46%  626.84kB/s    0:02:08  .     71,565,312  47%  595.07kB/s    0:02:14  .     72,024,064  47%  548.74kB/s    0:02:25  .     72,712,192  47%  546.05kB/s    0:02:24  .     73,400,320  48%  566.18kB/s    0:02:18  .     74,088,448  48%  587.79kB/s    0:02:11  .     74,776,576  49%  638.18kB/s    0:02:00  .     75,464,704  49%  623.52kB/s    0:02:02  .     76,152,832  50%  628.18kB/s    0:02:00  .     76,840,960  50%  618.64kB/s    0:02:00  .     77,529,088  51%  614.40kB/s    0:02:00  .     78,217,216  51%  622.37kB/s    0:01:57  .     78,905,344  52%  621.93kB/s    0:01:56  .     79,495,168  52%  600.70kB/s    0:02:00  .     80,183,296  52%  598.06kB/s    0:01:59  .     80,871,424  53%  594.90kB/s    0:01:58  .     81,559,552  53%  593.95kB/s    0:01:58  .     82,247,680  54%  627.74kB/s    0:01:50  .     82,935,808  54%  641.83kB/s    0:01:47  .     83,623,936  55%  642.91kB/s    0:01:45  .     84,312,064  55%  649.75kB/s    0:01:43  .     85,000,192  56%  648.81kB/s    0:01:42  .     85,688,320  56%  646.46kB/s    0:01:42  .     86,376,448  56%  641.68kB/s    0:01:41  .     87,064,576  57%  617.08kB/s    0:01:44  .     87,752,704  57%  609.80kB/s    0:01:44  .     88,440,832  58%  594.43kB/s    0:01:46  .     89,128,960  58%  580.31kB/s    0:01:47  .     89,817,088  59%  602.29kB/s    0:01:42  .     90,505,216  59%  600.13kB/s    0:01:41  .     91,193,344  60%  608.28kB/s    0:01:39  .     91,750,400  60%  595.90kB/s    0:01:40  .     92,438,528  60%  580.24kB/s    0:01:42  .     93,126,656  61%  571.17kB/s    0:01:42  .     93,847,552  61%  571.05kB/s    0:01:41  .     94,502,912  62%  580.06kB/s    0:01:38  .     95,191,040  62%  592.20kB/s    0:01:35  .     95,879,168  63%  591.29kB/s    0:01:34  .     96,567,296  63%  600.23kB/s    0:01:31  .     97,255,424  64%  628.77kB/s    0:01:26  .     97,943,552  64%  602.15kB/s    0:01:29  .     98,631,680  65%  601.75kB/s    0:01:28  .     99,418,112  65%  613.22kB/s    0:01:25  .    100,007,936  65%  590.90kB/s    0:01:27  .    100,696,064  66%  618.07kB/s    0:01:22  .    101,384,192  66%  618.36kB/s    0:01:21  .    102,072,320  67%  594.63kB/s    0:01:23  .    102,760,448  67%  619.78kB/s    0:01:18  .    103,317,504  68%  579.05kB/s    0:01:23  .    104,005,632  68%  579.71kB/s    0:01:22  .    104,693,760  69%  589.18kB/s    0:01:19  .    105,283,584  69%  563.72kB/s    0:01:22  .    105,971,712  69%  590.97kB/s    0:01:17  .    106,659,840  70%  605.61kB/s    0:01:14  .    107,347,968  70%  597.65kB/s    0:01:14  .    107,905,024  71%  573.61kB/s    0:01:16  .    108,593,152  71%  571.30kB/s    0:01:15  .    109,281,280  72%  576.97kB/s    0:01:13  .    109,969,408  72%  573.48kB/s    0:01:12  .    110,428,160  72%  566.57kB/s    0:01:12  .    111,116,288  73%  569.05kB/s    0:01:11  .    111,575,040  73%  488.87kB/s    0:01:21  .    112,263,168  74%  487.38kB/s    0:01:20  .    112,951,296  74%  522.59kB/s    0:01:14  .    113,639,424  74%  531.15kB/s    0:01:11  .    114,327,552  75%  607.46kB/s    0:01:01  .    114,917,376  75%  586.16kB/s    0:01:02  .    115,605,504  76%  599.86kB/s    0:01:00  .    116,293,632  76%  585.50kB/s    0:01:00  .    116,981,760  77%  551.49kB/s    0:01:02  .    117,538,816  77%  554.23kB/s    0:01:01  .    118,226,944  77%  558.71kB/s    0:00:59  .    118,915,072  78%  553.75kB/s    0:00:59  .    119,603,200  78%  583.54kB/s    0:00:54  .    120,291,328  79%  613.98kB/s    0:00:51  .    120,979,456  79%  592.33kB/s    0:00:51  .    121,667,584  80%  610.63kB/s    0:00:49  .    122,355,712  80%  613.42kB/s    0:00:47  .    122,945,536  81%  582.21kB/s    0:00:49  .    123,502,592  81%  569.84kB/s    0:00:49  .    124,092,416  81%  527.86kB/s    0:00:52  .    124,551,168  82%  482.45kB/s    0:00:56  .    125,239,296  82%  496.01kB/s    0:00:53  .    125,927,424  83%  518.84kB/s    0:00:49  .    126,615,552  83%  556.33kB/s    0:00:44  .    127,303,680  83%  604.86kB/s    0:00:40  .    127,991,808  84%  612.44kB/s    0:00:38  .    128,679,936  84%  617.51kB/s    0:00:37  .    129,368,064  85%  613.56kB/s    0:00:36  .    129,925,120  85%  590.27kB/s    0:00:36  .    130,383,872  85%  542.50kB/s    0:00:39  .    131,072,000  86%  531.63kB/s    0:00:38  .    131,661,824  86%  518.28kB/s    0:00:38  .    132,349,952  87%  546.88kB/s    0:00:35  .    133,038,080  87%  599.31kB/s    0:00:31  .    133,496,832  88%  544.87kB/s    0:00:33  .    134,053,888  88%  539.49kB/s    0:00:32  .    134,742,016  88%  533.58kB/s    0:00:31  .    135,430,144  89%  532.73kB/s    0:00:30  .    136,118,272  89%  597.57kB/s    0:00:25  .    136,806,400  90%  615.81kB/s    0:00:24  .    137,494,528  90%  589.47kB/s    0:00:24  .    138,182,656  91%  579.06kB/s    0:00:23  .    138,870,784  91%  576.95kB/s    0:00:22  .    139,558,912  92%  566.49kB/s    0:00:21  .    140,247,040  92%  594.16kB/s    0:00:19  .    140,935,168  92%  604.18kB/s    0:00:17  .    141,623,296  93%  614.40kB/s    0:00:16  .    142,311,424  93%  621.22kB/s    0:00:15  .    142,999,552  94%  623.09kB/s    0:00:13  .    143,589,376  94%  609.02kB/s    0:00:13  .    144,277,504  95%  585.23kB/s    0:00:12  .    144,965,632  95%  595.59kB/s    0:00:11  .    145,653,760  96%  585.63kB/s    0:00:10  .    146,210,816  96%  581.16kB/s    0:00:09  .    146,898,944  96%  602.78kB/s    0:00:07  .    147,587,072  97%  597.43kB/s    0:00:06  .    148,275,200  97%  608.51kB/s    0:00:05  .    148,865,024  98%  616.41kB/s    0:00:04  .    149,553,152  98%  605.61kB/s    0:00:03  .    150,241,280  99%  602.65kB/s    0:00:02  .    150,929,408  99%  576.90kB/s    0:00:01  .    151,486,464  99%  568.26kB/s    0:00:00  .    151,646,892 100%  587.05kB/s    0:04:12 (xfr#14, to-chk=136/185)
+2020-05-09 17:17:20.942732 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc29/rpm/i3-gaps-doc-4.18.1-1.fc29.noarch.rpm
+2020-05-09 17:17:21.736841 +0000 build-fedora2: .         32,768   9%  150.94kB/s    0:00:02  .        294,912  84%  286.85kB/s    0:00:00  .        347,516 100%  337.01kB/s    0:00:01 (xfr#15, to-chk=135/185)
+2020-05-09 17:17:21.736961 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/
+2020-05-09 17:17:21.737032 +0000 build-fedora2: .L..t...... current-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:17:21.737089 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/rpm/
+2020-05-09 17:17:21.737145 +0000 build-fedora2: <f..t...... current-testing/vm/fc30/rpm/.gitignore
+2020-05-09 17:17:21.743180 +0000 build-fedora2: .              6 100%    0.73kB/s    0:00:00  .              6 100%    0.59kB/s    0:00:00 (xfr#16, to-chk=128/185)
+2020-05-09 17:17:21.744723 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:17:22.448910 +0000 build-fedora2: .         32,768   9%    2.40MB/s    0:00:00  .        341,672 100%  466.01kB/s    0:00:00 (xfr#17, to-chk=127/185)
+2020-05-09 17:17:22.449747 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-debuginfo-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:17:23.312937 +0000 build-fedora2: .         32,768   5%   44.44kB/s    0:00:13  .        196,608  31%  186.95kB/s    0:00:02  .        621,856 100%  384.84kB/s    0:00:01 (xfr#18, to-chk=126/185)
+2020-05-09 17:17:23.313736 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-debugsource-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:17:23.824544 +0000 build-fedora2: .         32,768   9%   57.76kB/s    0:00:05  .        262,144  79%  241.74kB/s    0:00:00  .        330,708 100%  304.39kB/s    0:00:01 (xfr#19, to-chk=125/185)
+2020-05-09 17:17:23.824630 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-devel-4.18.1-1.fc30.x86_64.rpm
+2020-05-09 17:17:23.824695 +0000 build-fedora2: .          9,584 100%    4.57MB/s    0:00:00  .          9,584 100%    4.57MB/s    0:00:00 (xfr#20, to-chk=124/185)
+2020-05-09 17:17:23.824748 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-devel-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:24:19.895269 +0000 build-fedora2: .         32,768   0%   10.42MB/s    0:00:24  .        491,520   0%  475.25kB/s    0:09:01  .      1,179,648   0%  552.78kB/s    0:07:44  .      1,835,008   0%  557.56kB/s    0:07:39  .      2,523,136   0%  579.90kB/s    0:07:20  .      3,211,264   1%  603.09kB/s    0:07:02  .      3,899,392   1%  607.22kB/s    0:06:58  .      4,587,520   1%  633.22kB/s    0:06:40  .      5,275,648   2%  624.83kB/s    0:06:44  .      5,963,776   2%  634.11kB/s    0:06:37  .      6,651,904   2%  633.81kB/s    0:06:36  .      7,241,728   2%  605.61kB/s    0:06:53  .      7,929,856   3%  609.88kB/s    0:06:49  .      8,617,984   3%  614.80kB/s    0:06:45  .      9,306,112   3%  610.17kB/s    0:06:47  .      9,994,240   3%  637.72kB/s    0:06:28  .     10,551,296   4%  603.77kB/s    0:06:49  .     11,239,424   4%  609.52kB/s    0:06:44  .     12,058,624   4%  619.93kB/s    0:06:36  .     12,746,752   4%  600.00kB/s    0:06:48  .     13,533,184   5%  646.82kB/s    0:06:17  .     14,221,312   5%  630.99kB/s    0:06:26  .     15,040,512   5%  631.26kB/s    0:06:24  .     15,728,640   6%  640.85kB/s    0:06:17  .     16,416,768   6%  618.63kB/s    0:06:30  .     17,104,896   6%  630.82kB/s    0:06:21  .     17,793,024   6%  627.01kB/s    0:06:23  .     18,481,152   7%  622.65kB/s    0:06:24  .     19,169,280   7%  625.99kB/s    0:06:21  .     19,857,408   7%  626.28kB/s    0:06:20  .     20,414,464   7%  595.35kB/s    0:06:39  .     21,102,592   8%  602.78kB/s    0:06:32  .     21,790,720   8%  593.00kB/s    0:06:38  .     22,478,848   8%  577.36kB/s    0:06:47  .     23,166,976   8%  600.27kB/s    0:06:31  .     23,855,104   9%  596.41kB/s    0:06:32  .     24,543,232   9%  604.45kB/s    0:06:26  .     25,362,432   9%  621.91kB/s    0:06:14  .     26,050,560  10%  625.92kB/s    0:06:10  .     26,836,992  10%  632.08kB/s    0:06:05  .     27,525,120  10%  638.46kB/s    0:06:00  .     28,213,248  10%  635.76kB/s    0:06:01  .     28,901,376  11%  638.09kB/s    0:05:58  .     29,589,504  11%  629.66kB/s    0:06:02  .     30,277,632  11%  629.21kB/s    0:06:01  .     30,965,760  12%  632.02kB/s    0:05:59  .     31,653,888  12%  625.55kB/s    0:06:01  .     32,342,016  12%  637.27kB/s    0:05:54  .     32,899,072  12%  606.20kB/s    0:06:11  .     33,587,200  13%  611.12kB/s    0:06:07  .     34,177,024  13%  574.63kB/s    0:06:29  .     34,865,152  13%  573.16kB/s    0:06:29  .     35,553,280  13%  590.16kB/s    0:06:16  .     36,241,408  14%  576.64kB/s    0:06:24  .     36,929,536  14%  620.36kB/s    0:05:56  .     37,617,664  14%  612.86kB/s    0:05:59  .     38,305,792  14%  635.16kB/s    0:05:45  .     38,993,920  15%  633.66kB/s    0:05:45  .     39,682,048  15%  613.98kB/s    0:05:55  .     40,370,176  15%  609.25kB/s    0:05:57  .     40,927,232  15%  576.32kB/s    0:06:16  .     41,615,360  16%  573.73kB/s    0:06:17  .     42,303,488  16%  570.66kB/s    0:06:17  .     42,991,616  16%  571.81kB/s    0:06:15  .     43,679,744  16%  591.81kB/s    0:06:02  .     44,302,336  17%  597.04kB/s    0:05:57  .     44,826,624  17%  584.02kB/s    0:06:04  .     45,514,752  17%  581.96kB/s    0:06:05  .     46,104,576  17%  558.75kB/s    0:06:19  .     46,792,704  18%  567.69kB/s    0:06:11  .     47,480,832  18%  586.03kB/s    0:05:59  .     48,168,960  18%  587.49kB/s    0:05:57  .     48,857,088  18%  615.38kB/s    0:05:39  .     49,545,216  19%  606.36kB/s    0:05:43  .     50,233,344  19%  619.78kB/s    0:05:35  .     50,921,472  19%  620.79kB/s    0:05:33  .     51,478,528  19%  592.46kB/s    0:05:48  .     52,166,656  20%  598.55kB/s    0:05:43  .     52,854,784  20%  592.59kB/s    0:05:46  .     53,444,608  20%  582.64kB/s    0:05:51  .     54,132,736  20%  618.47kB/s    0:05:29  .     54,820,864  21%  604.62kB/s    0:05:35  .     55,508,992  21%  593.81kB/s    0:05:40  .     56,295,424  21%  619.35kB/s    0:05:25  .     56,983,552  22%  603.51kB/s    0:05:33  .     57,671,680  22%  621.71kB/s    0:05:22  .     58,359,808  22%  627.59kB/s    0:05:18  .     59,047,936  22%  622.65kB/s    0:05:19  .     59,637,760  23%  615.24kB/s    0:05:22  .     60,325,888  23%  618.62kB/s    0:05:19  .     61,014,016  23%  616.85kB/s    0:05:19  .     61,702,144  23%  600.14kB/s    0:05:27  .     62,390,272  24%  616.80kB/s    0:05:17  .     63,078,400  24%  606.77kB/s    0:05:21  .     63,766,528  24%  621.79kB/s    0:05:12  .     64,454,656  24%  606.36kB/s    0:05:19  .     65,142,784  25%  612.72kB/s    0:05:14  .     65,830,912  25%  609.52kB/s    0:05:15  .     66,387,968  25%  569.52kB/s    0:05:36  .     67,207,168  26%  600.00kB/s    0:05:17  .     67,895,296  26%  594.95kB/s    0:05:19  .     68,583,424  26%  591.42kB/s    0:05:20  .     69,271,552  26%  633.81kB/s    0:04:57  .     69,959,680  27%  635.76kB/s    0:04:55  .     70,647,808  27%  639.39kB/s    0:04:52  .     71,335,936  27%  635.31kB/s    0:04:53  .     72,122,368  27%  633.30kB/s    0:04:53  .     72,810,496  28%  630.01kB/s    0:04:53  .     73,498,624  28%  605.09kB/s    0:05:04  .     74,186,752  28%  588.58kB/s    0:05:12  .     74,874,880  29%  581.69kB/s    0:05:14  .     75,563,008  29%  576.08kB/s    0:05:16  .     76,152,832  29%  579.48kB/s    0:05:13  .     76,840,960  29%  612.04kB/s    0:04:55  .     77,398,016  30%  592.17kB/s    0:05:04  .     78,086,144  30%  602.00kB/s    0:04:58  .     78,774,272  30%  598.13kB/s    0:04:59  .     79,462,400  30%  597.01kB/s    0:04:58  .     80,150,528  31%  601.61kB/s    0:04:55  .     80,838,656  31%  588.96kB/s    0:05:00  .     81,526,784  31%  603.10kB/s    0:04:52  .     82,214,912  31%  595.48kB/s    0:04:55  .     82,968,576  32%  635.27kB/s    0:04:35  .     83,591,168  32%  630.99kB/s    0:04:36  .     84,279,296  32%  629.36kB/s    0:04:35  .     84,967,424  32%  633.22kB/s    0:04:33  .     85,655,552  33%  608.68kB/s    0:04:43  .     86,343,680  33%  620.07kB/s    0:04:36  .     87,031,808  33%  620.21kB/s    0:04:35  .     87,719,936  34%  615.38kB/s    0:04:36  .     88,408,064  34%  622.22kB/s    0:04:32  .     89,096,192  34%  628.77kB/s    0:04:28  .     89,456,640  34%  557.96kB/s    0:05:01  .     90,144,768  34%  543.99kB/s    0:05:08  .     90,832,896  35%  537.45kB/s    0:05:10  .     91,521,024  35%  537.82kB/s    0:05:09  .     92,078,080  35%  587.43kB/s    0:04:42  .     92,897,280  36%  625.55kB/s    0:04:23  .     93,585,408  36%  624.25kB/s    0:04:23  .     94,240,768  36%  616.38kB/s    0:04:25  .     94,928,896  36%  632.73kB/s    0:04:17  .     95,617,024  37%  608.62kB/s    0:04:26  .     96,305,152  37%  604.60kB/s    0:04:27  .     96,993,280  37%  587.93kB/s    0:04:33  .     97,681,408  37%  579.81kB/s    0:04:36  .     98,369,536  38%  584.09kB/s    0:04:33  .     99,057,664  38%  576.82kB/s    0:04:35  .     99,745,792  38%  586.13kB/s    0:04:29  .    100,433,920  38%  598.26kB/s    0:04:23  .    101,122,048  39%  587.41kB/s    0:04:27  .    101,810,176  39%  596.14kB/s    0:04:21  .    102,498,304  39%  597.20kB/s    0:04:20  .    103,186,432  40%  591.29kB/s    0:04:21  .    103,874,560  40%  606.77kB/s    0:04:13  .    104,562,688  40%  601.21kB/s    0:04:15  .    105,250,816  40%  612.30kB/s    0:04:09  .    105,840,640  41%  601.53kB/s    0:04:12  .    106,528,768  41%  610.31kB/s    0:04:08  .    107,216,896  41%  615.53kB/s    0:04:04  .    107,905,024  41%  613.64kB/s    0:04:04  .    108,462,080  42%  600.09kB/s    0:04:09  .    109,150,208  42%  597.71kB/s    0:04:08  .    109,903,872  42%  627.75kB/s    0:03:55  .    110,526,464  42%  599.53kB/s    0:04:05  .    111,214,592  43%  632.62kB/s    0:03:51  .    111,902,720  43%  622.37kB/s    0:03:54  .    112,590,848  43%  594.20kB/s    0:04:04  .    113,180,672  43%  594.63kB/s    0:04:03  .    113,967,104  44%  600.80kB/s    0:03:59  .    114,655,232  44%  607.05kB/s    0:03:56  .    115,343,360  44%  602.69kB/s    0:03:56  .    115,933,184  44%  608.83kB/s    0:03:53  .    116,621,312  45%  601.11kB/s    0:03:55  .    117,178,368  45%  560.13kB/s    0:04:11  .    117,866,496  45%  570.77kB/s    0:04:05  .    118,554,624  45%  588.10kB/s    0:03:57  .    119,242,752  46%  586.48kB/s    0:03:56  .    119,930,880  46%  606.64kB/s    0:03:47  .    120,619,008  46%  602.56kB/s    0:03:47  .    121,307,136  47%  602.02kB/s    0:03:46  .    121,995,264  47%  612.30kB/s    0:03:42  .    122,683,392  47%  614.12kB/s    0:03:40  .    123,371,520  47%  582.95kB/s    0:03:50  .    124,059,648  48%  592.46kB/s    0:03:46  .    124,747,776  48%  576.45kB/s    0:03:51  .    125,435,904  48%  585.75kB/s    0:03:46  .    126,124,032  48%  612.02kB/s    0:03:35  .    126,812,160  49%  603.50kB/s    0:03:37  .    127,500,288  49%  611.74kB/s    0:03:33  .    128,188,416  49%  606.77kB/s    0:03:33  .    128,876,544  49%  613.28kB/s    0:03:30  .    129,466,368  50%  588.29kB/s    0:03:38  .    130,154,496  50%  575.23kB/s    0:03:42  .    130,842,624  50%  590.30kB/s    0:03:35  .    131,530,752  50%  586.29kB/s    0:03:35  .    132,218,880  51%  607.32kB/s    0:03:27  .    132,907,008  51%  623.38kB/s    0:03:20  .    133,595,136  51%  617.51kB/s    0:03:21  .    134,283,264  52%  626.14kB/s    0:03:17  .    134,840,320  52%  604.77kB/s    0:03:23  .    135,528,448  52%  609.96kB/s    0:03:20  .    136,118,272  52%  581.00kB/s    0:03:29  .    136,806,400  53%  568.00kB/s    0:03:33  .    137,494,528  53%  582.34kB/s    0:03:26  .    138,182,656  53%  587.49kB/s    0:03:23  .    138,870,784  53%  619.64kB/s    0:03:12  .    139,558,912  54%  638.63kB/s    0:03:05  .    140,247,040  54%  649.28kB/s    0:03:01  .    140,935,168  54%  635.31kB/s    0:03:04  .    141,623,296  54%  629.21kB/s    0:03:04  .    142,311,424  55%  629.80kB/s    0:03:03  .    142,999,552  55%  624.97kB/s    0:03:03  .    143,687,680  55%  633.22kB/s    0:03:00  .    144,375,808  55%  632.32kB/s    0:02:59  .    145,063,936  56%  626.72kB/s    0:03:00  .    145,752,064  56%  611.60kB/s    0:03:03  .    146,309,120  56%  579.45kB/s    0:03:12  .    146,997,248  56%  586.75kB/s    0:03:09  .    147,685,376  57%  588.37kB/s    0:03:07  .    148,340,736  57%  613.44kB/s    0:02:58  .    148,963,328  57%  630.20kB/s    0:02:52  .    149,651,456  58%  632.20kB/s    0:02:51  .    150,339,584  58%  618.62kB/s    0:02:53  .    151,027,712  58%  621.07kB/s    0:02:52  .    151,715,840  58%  643.06kB/s    0:02:45  .    152,502,272  59%  637.22kB/s    0:02:45  .    153,190,400  59%  616.47kB/s    0:02:49  .    153,878,528  59%  617.43kB/s    0:02:48  .    154,566,656  59%  595.00kB/s    0:02:53  .    155,385,856  60%  595.22kB/s    0:02:52  .    156,073,984  60%  608.34kB/s    0:02:47  .    156,860,416  60%  613.31kB/s    0:02:44  .    157,679,616  61%  631.89kB/s    0:02:38  .    158,367,744  61%  637.34kB/s    0:02:36  .    159,055,872  61%  650.73kB/s    0:02:31  .    159,744,000  61%  640.58kB/s    0:02:33  .    160,432,128  62%  627.89kB/s    0:02:35  .    161,087,488  62%  612.55kB/s    0:02:38  .    161,775,616  62%  596.85kB/s    0:02:41  .    162,463,744  62%  588.39kB/s    0:02:42  .    163,151,872  63%  601.04kB/s    0:02:37  .    163,840,000  63%  607.59kB/s    0:02:34  .    164,528,128  63%  601.21kB/s    0:02:35  .    165,216,256  64%  613.84kB/s    0:02:31  .    165,904,384  64%  613.00kB/s    0:02:30  .    166,494,208  64%  600.42kB/s    0:02:32  .    167,182,336  64%  631.73kB/s    0:02:23  .    167,510,016  64%  505.19kB/s    0:02:59  .    168,099,840  65%  475.49kB/s    0:03:08  .    168,656,896  65%  467.26kB/s    0:03:11  .    169,345,024  65%  464.58kB/s    0:03:10  .    169,934,848  65%  565.02kB/s    0:02:35  .    170,622,976  66%  581.00kB/s    0:02:30  .    171,311,104  66%  600.42kB/s    0:02:24  .    171,999,232  66%  605.18kB/s    0:02:22  .    172,687,360  66%  604.72kB/s    0:02:21  .    173,375,488  67%  621.07kB/s    0:02:16  .    174,063,616  67%  631.43kB/s    0:02:12  .    174,751,744  67%  623.38kB/s    0:02:13  .    175,439,872  68%  637.87kB/s    0:02:09  .    176,128,000  68%  628.48kB/s    0:02:10  .    176,816,128  68%  627.60kB/s    0:02:09  .    177,373,184  68%  605.63kB/s    0:02:13  .    178,061,312  69%  614.50kB/s    0:02:10  .    178,749,440  69%  611.12kB/s    0:02:09  .    179,437,568  69%  604.91kB/s    0:02:09  .    180,125,696  69%  621.22kB/s    0:02:05  .    180,944,896  70%  636.82kB/s    0:02:00  .    181,501,952  70%  619.21kB/s    0:02:03  .    182,190,080  70%  620.79kB/s    0:02:02  .    182,878,208  70%  631.73kB/s    0:01:58  .    183,566,336  71%  613.76kB/s    0:02:01  .    184,254,464  71%  630.39kB/s    0:01:56  .    184,942,592  71%  605.68kB/s    0:02:00  .    185,630,720  71%  601.75kB/s    0:02:00  .    186,318,848  72%  581.82kB/s    0:02:03  .    187,006,976  72%  592.07kB/s    0:01:59  .    187,596,800  72%  600.42kB/s    0:01:57  .    188,383,232  73%  605.54kB/s    0:01:54  .    189,071,360  73%  616.23kB/s    0:01:51  .    189,759,488  73%  616.23kB/s    0:01:50  .    190,447,616  73%  639.85kB/s    0:01:45  .    191,135,744  74%  629.51kB/s    0:01:46  .    191,823,872  74%  617.93kB/s    0:01:47  .    192,512,000  74%  616.09kB/s    0:01:46  .    193,101,824  74%  569.05kB/s    0:01:53  .    193,888,256  75%  587.41kB/s    0:01:49  .    194,576,384  75%  605.54kB/s    0:01:44  .    195,264,512  75%  589.86kB/s    0:01:46  .    195,952,640  75%  634.02kB/s    0:01:37  .    196,542,464  76%  606.88kB/s    0:01:41  .    197,099,520  76%  569.05kB/s    0:01:46  .    197,787,648  76%  588.21kB/s    0:01:42  .    198,475,776  76%  576.91kB/s    0:01:43  .    199,163,904  77%  574.64kB/s    0:01:42  .    199,852,032  77%  612.58kB/s    0:01:34  .    200,540,160  77%  601.75kB/s    0:01:35  .    201,228,288  78%  604.72kB/s    0:01:33  .    201,818,112  78%  594.36kB/s    0:01:34  .    202,506,240  78%  590.43kB/s    0:01:33  .    203,194,368  78%  590.16kB/s    0:01:32  .    203,882,496  79%  594.22kB/s    0:01:31  .    204,570,624  79%  629.36kB/s    0:01:24  .    205,324,288  79%  654.93kB/s    0:01:20  .    205,946,880  79%  634.26kB/s    0:01:22  .    206,635,008  80%  624.83kB/s    0:01:22  .    207,323,136  80%  622.94kB/s    0:01:21  .    208,011,264  80%  596.91kB/s    0:01:23  .    208,699,392  80%  630.39kB/s    0:01:18  .    209,387,520  81%  633.07kB/s    0:01:16  .    210,075,648  81%  628.18kB/s    0:01:16  .    210,763,776  81%  626.87kB/s    0:01:15  .    211,451,904  81%  630.25kB/s    0:01:13  .    212,140,032  82%  630.39kB/s    0:01:12  .    212,828,160  82%  622.65kB/s    0:01:12  .    213,516,288  82%  606.77kB/s    0:01:13  .    214,204,416  83%  600.67kB/s    0:01:12  .    214,892,544  83%  591.94kB/s    0:01:12  .    215,351,296  83%  543.09kB/s    0:01:18  .    216,039,424  83%  551.97kB/s    0:01:15  .    216,596,480  83%  529.95kB/s    0:01:18  .    217,186,304  84%  517.68kB/s    0:01:18  .    217,874,432  84%  549.63kB/s    0:01:12  .    218,562,560  84%  546.83kB/s    0:01:12  .    219,250,688  84%  561.04kB/s    0:01:08  .    220,037,120  85%  591.71kB/s    0:01:04  .    220,725,248  85%  612.14kB/s    0:01:00  .    221,315,072  85%  610.22kB/s    0:01:00  .    222,003,200  86%  610.08kB/s    0:00:58  .    222,691,328  86%  587.09kB/s    0:01:00  .    223,379,456  86%  589.09kB/s    0:00:58  .    223,936,512  86%  576.58kB/s    0:00:59  .    224,624,640  87%  589.32kB/s    0:00:56  .    225,312,768  87%  594.93kB/s    0:00:54  .    226,000,896  87%  587.97kB/s    0:00:54  .    226,689,024  87%  620.50kB/s    0:00:50  .    227,278,848  88%  601.67kB/s    0:00:50  .    227,966,976  88%  599.86kB/s    0:00:50  .    228,753,408  88%  618.07kB/s    0:00:47  .    229,441,536  88%  603.37kB/s    0:00:47  .    230,129,664  89%  614.16kB/s    0:00:45  .    230,817,792  89%  608.39kB/s    0:00:44  .    231,505,920  89%  599.46kB/s    0:00:44  .    232,194,048  90%  584.35kB/s    0:00:44  .    232,882,176  90%  587.80kB/s    0:00:42  .    233,668,608  90%  603.38kB/s    0:00:40  .    234,356,736  90%  601.82kB/s    0:00:39  .    235,175,936  91%  653.06kB/s    0:00:34  .    235,864,064  91%  651.02kB/s    0:00:33  .    236,552,192  91%  655.95kB/s    0:00:32  .    237,240,320  91%  658.87kB/s    0:00:31  .    238,026,752  92%  640.44kB/s    0:00:31  .    238,714,880  92%  625.90kB/s    0:00:30  .    239,403,008  92%  628.87kB/s    0:00:29  .    240,091,136  93%  623.10kB/s    0:00:28  .    240,779,264  93%  601.07kB/s    0:00:28  .    241,369,088  93%  591.51kB/s    0:00:28  .    242,057,216  93%  584.71kB/s    0:00:27  .    242,745,344  94%  588.29kB/s    0:00:25  .    243,433,472  94%  589.09kB/s    0:00:24  .    244,121,600  94%  615.53kB/s    0:00:22  .    244,678,656  94%  591.50kB/s    0:00:22  .    245,366,784  95%  589.18kB/s    0:00:21  .    246,054,912  95%  586.62kB/s    0:00:20  .    246,743,040  95%  588.78kB/s    0:00:19  .    247,431,168  95%  617.36kB/s    0:00:17  .    248,119,296  96%  622.65kB/s    0:00:15  .    248,807,424  96%  635.91kB/s    0:00:14  .    249,397,248  96%  616.41kB/s    0:00:13  .    250,085,376  96%  609.60kB/s    0:00:12  .    250,773,504  97%  609.02kB/s    0:00:11  .    251,461,632  97%  616.56kB/s    0:00:10  .    252,215,296  97%  655.71kB/s    0:00:08  .    252,837,888  98%  640.76kB/s    0:00:07  .    253,526,016  98%  622.65kB/s    0:00:07  .    254,312,448  98%  640.15kB/s    0:00:05  .    254,902,272  98%  596.91kB/s    0:00:05  .    255,590,400  99%  593.90kB/s    0:00:03  .    256,278,528  99%  614.54kB/s    0:00:02  .    256,966,656  99%  586.69kB/s    0:00:01  .    257,654,784  99%  607.87kB/s    0:00:00  .    257,961,492 100%  605.47kB/s    0:06:56 (xfr#21, to-chk=123/185)
+2020-05-09 17:24:19.898890 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc30/rpm/i3-gaps-doc-4.18.1-1.fc30.noarch.rpm
+2020-05-09 17:24:20.494530 +0000 build-fedora2: .         32,768   9%   50.63kB/s    0:00:06  .        262,144  75%  248.30kB/s    0:00:00  .        347,516 100%  327.26kB/s    0:00:01 (xfr#22, to-chk=122/185)
+2020-05-09 17:24:20.494665 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/
+2020-05-09 17:24:20.494714 +0000 build-fedora2: .L..t...... current-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:24:20.494766 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/rpm/
+2020-05-09 17:24:20.494797 +0000 build-fedora2: <f..t...... current-testing/vm/fc31/rpm/.gitignore
+2020-05-09 17:24:20.494839 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#23, to-chk=114/185)
+2020-05-09 17:24:20.495173 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:24:21.013249 +0000 build-fedora2: .         32,768   9%    3.47MB/s    0:00:00  .        351,905 100%  654.59kB/s    0:00:00 (xfr#24, to-chk=113/185)
+2020-05-09 17:24:21.014799 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-debuginfo-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:24:22.080891 +0000 build-fedora2: .         32,768   5%   39.51kB/s    0:00:15  .        229,376  35%  201.26kB/s    0:00:02  .        642,394 100%  393.81kB/s    0:00:01 (xfr#25, to-chk=112/185)
+2020-05-09 17:24:22.081029 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-debugsource-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:24:22.633830 +0000 build-fedora2: .         32,768  11%   66.12kB/s    0:00:03  .        262,144  88%  249.76kB/s    0:00:00  .        295,625 100%  279.74kB/s    0:00:01 (xfr#26, to-chk=111/185)
+2020-05-09 17:24:22.633955 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-devel-4.18.1-1.fc31.x86_64.rpm
+2020-05-09 17:24:22.634301 +0000 build-fedora2: .          9,500 100%    1.29MB/s    0:00:00  .          9,500 100%    1.29MB/s    0:00:00 (xfr#27, to-chk=110/185)
+2020-05-09 17:24:22.634826 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-devel-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:31:48.558279 +0000 build-fedora2: .         32,768   0%    2.84MB/s    0:01:27  .        655,360   0%  602.07kB/s    0:07:03  .      1,343,488   0%  608.53kB/s    0:06:57  .      2,031,616   0%  591.53kB/s    0:07:08  .      2,719,744   1%  593.39kB/s    0:07:06  .      3,407,872   1%  586.39kB/s    0:07:09  .      3,964,928   1%  566.12kB/s    0:07:24  .      4,653,056   1%  583.94kB/s    0:07:09  .      5,341,184   2%  579.71kB/s    0:07:11  .      6,160,384   2%  602.15kB/s    0:06:54  .      6,848,512   2%  617.81kB/s    0:06:42  .      7,405,568   2%  595.35kB/s    0:06:56  .      7,995,392   3%  593.27kB/s    0:06:57  .      8,683,520   3%  571.96kB/s    0:07:11  .      9,469,952   3%  586.35kB/s    0:06:59  .     10,158,080   3%  607.32kB/s    0:06:43  .     10,846,208   4%  625.34kB/s    0:06:31  .     11,534,336   4%  638.53kB/s    0:06:22  .     12,222,464   4%  621.93kB/s    0:06:31  .     12,910,592   5%  630.25kB/s    0:06:24  .     13,500,416   5%  611.75kB/s    0:06:35  .     14,188,544   5%  614.80kB/s    0:06:32  .     14,876,672   5%  629.13kB/s    0:06:22  .     15,564,800   6%  620.99kB/s    0:06:26  .     16,252,928   6%  632.02kB/s    0:06:18  .     16,941,056   6%  621.22kB/s    0:06:24  .     17,498,112   6%  589.18kB/s    0:06:43  .     18,186,240   7%  585.68kB/s    0:06:45  .     18,874,368   7%  591.09kB/s    0:06:40  .     19,464,192   7%  571.16kB/s    0:06:53  .     20,021,248   7%  571.03kB/s    0:06:52  .     20,709,376   8%  584.02kB/s    0:06:42  .     21,397,504   8%  580.04kB/s    0:06:43  .     22,085,632   8%  616.87kB/s    0:06:18  .     22,773,760   8%  647.40kB/s    0:05:59  .     23,461,888   9%  631.13kB/s    0:06:07  .     24,150,016   9%  640.46kB/s    0:06:01  .     24,838,144   9%  632.92kB/s    0:06:04  .     25,657,344  10%  634.95kB/s    0:06:02  .     26,214,400  10%  620.50kB/s    0:06:09  .     26,902,528  10%  619.64kB/s    0:06:08  .     27,492,352  10%  604.48kB/s    0:06:17  .     28,180,480  11%  595.17kB/s    0:06:21  .     28,868,608  11%  598.06kB/s    0:06:18  .     29,556,736  11%  585.10kB/s    0:06:26  .     30,244,864  11%  599.87kB/s    0:06:15  .     31,031,296  12%  610.39kB/s    0:06:07  .     31,719,424  12%  633.74kB/s    0:05:53  .     32,407,552  12%  641.92kB/s    0:05:47  .     33,095,680  12%  642.66kB/s    0:05:46  .     33,783,808  13%  634.56kB/s    0:05:49  .     34,471,936  13%  622.37kB/s    0:05:55  .     35,160,064  13%  623.38kB/s    0:05:53  .     35,848,192  14%  618.50kB/s    0:05:55  .     36,536,320  14%  622.22kB/s    0:05:51  .     37,224,448  14%  614.68kB/s    0:05:55  .     38,043,648  14%  631.96kB/s    0:05:44  .     38,600,704  15%  614.54kB/s    0:05:52  .     39,288,832  15%  610.22kB/s    0:05:54  .     39,976,960  15%  604.04kB/s    0:05:56  .     40,796,160  15%  592.98kB/s    0:06:02  .     41,484,288  16%  614.58kB/s    0:05:48  .     42,270,720  16%  621.29kB/s    0:05:43  .     42,958,848  16%  645.53kB/s    0:05:29  .     43,646,976  17%  643.55kB/s    0:05:29  .     44,335,104  17%  634.46kB/s    0:05:32  .     45,154,304  17%  631.67kB/s    0:05:33  .     45,842,432  17%  620.13kB/s    0:05:38  .     46,530,560  18%  622.73kB/s    0:05:35  .     47,185,920  18%  618.39kB/s    0:05:36  .     48,005,120  18%  636.05kB/s    0:05:26  .     48,562,176  19%  611.42kB/s    0:05:38  .     49,381,376  19%  614.57kB/s    0:05:35  .     50,069,504  19%  624.94kB/s    0:05:28  .     50,757,632  19%  609.25kB/s    0:05:36  .     51,445,760  20%  646.32kB/s    0:05:15  .     52,133,888  20%  631.28kB/s    0:05:22  .     52,822,016  20%  627.74kB/s    0:05:22  .     53,510,144  20%  623.23kB/s    0:05:24  .     54,198,272  21%  608.01kB/s    0:05:31  .     54,886,400  21%  608.42kB/s    0:05:29  .     55,574,528  21%  617.79kB/s    0:05:23  .     56,262,656  22%  614.68kB/s    0:05:24  .     56,950,784  22%  605.54kB/s    0:05:27  .     57,638,912  22%  614.12kB/s    0:05:22  .     58,327,040  22%  594.69kB/s    0:05:31  .     59,015,168  23%  602.83kB/s    0:05:25  .     59,703,296  23%  621.93kB/s    0:05:14  .     60,260,352  23%  595.76kB/s    0:05:27  .     60,948,480  23%  616.72kB/s    0:05:15  .     61,636,608  24%  618.66kB/s    0:05:13  .     62,324,736  24%  610.69kB/s    0:05:16  .     63,012,864  24%  617.93kB/s    0:05:11  .     63,700,992  24%  618.36kB/s    0:05:10  .     64,290,816  25%  586.29kB/s    0:05:26  .     64,978,944  25%  590.97kB/s    0:05:22  .     65,667,072  25%  600.28kB/s    0:05:16  .     66,453,504  26%  594.03kB/s    0:05:18  .     67,141,632  26%  630.15kB/s    0:04:58  .     67,829,760  26%  633.88kB/s    0:04:56  .     68,648,960  26%  635.25kB/s    0:04:54  .     69,337,088  27%  640.44kB/s    0:04:50  .     70,123,520  27%  650.15kB/s    0:04:45  .     70,582,272  27%  608.56kB/s    0:05:03  .     71,401,472  27%  630.54kB/s    0:04:51  .     72,089,600  28%  626.87kB/s    0:04:52  .     72,777,728  28%  610.46kB/s    0:04:59  .     73,465,856  28%  653.06kB/s    0:04:38  .     74,153,984  29%  640.46kB/s    0:04:43  .     74,711,040  29%  617.61kB/s    0:04:52  .     75,300,864  29%  594.88kB/s    0:05:02  .     76,087,296  29%  588.37kB/s    0:05:04  .     76,775,424  30%  591.50kB/s    0:05:02  .     77,463,552  30%  619.50kB/s    0:04:47  .     78,053,376  30%  618.22kB/s    0:04:47  .     78,741,504  30%  634.05kB/s    0:04:38  .     79,429,632  31%  606.17kB/s    0:04:50  .     80,117,760  31%  609.17kB/s    0:04:47  .     80,805,888  31%  620.79kB/s    0:04:41  .     81,494,016  31%  610.22kB/s    0:04:45  .     82,182,144  32%  624.68kB/s    0:04:37  .     82,739,200  32%  593.97kB/s    0:04:50  .     83,427,328  32%  597.57kB/s    0:04:47  .     84,115,456  32%  591.91kB/s    0:04:49  .     84,770,816  33%  594.12kB/s    0:04:47  .     85,393,408  33%  598.20kB/s    0:04:44  .     86,081,536  33%  601.25kB/s    0:04:41  .     86,769,664  33%  603.77kB/s    0:04:39  .     87,359,488  34%  590.52kB/s    0:04:44  .     88,047,616  34%  608.74kB/s    0:04:35  .     88,768,512  34%  611.23kB/s    0:04:32  .     89,456,640  35%  582.72kB/s    0:04:44  .     90,144,768  35%  589.00kB/s    0:04:40  .     90,832,896  35%  584.69kB/s    0:04:41  .     91,521,024  35%  591.68kB/s    0:04:37  .     92,045,312  36%  599.48kB/s    0:04:32  .     92,733,440  36%  594.26kB/s    0:04:33  .     93,519,872  36%  605.03kB/s    0:04:27  .     94,175,232  36%  584.57kB/s    0:04:35  .     94,863,360  37%  610.47kB/s    0:04:23  .     95,551,488  37%  621.22kB/s    0:04:17  .     96,239,616  37%  607.22kB/s    0:04:22  .     96,927,744  37%  614.54kB/s    0:04:18  .     97,615,872  38%  624.83kB/s    0:04:12  .     98,304,000  38%  627.89kB/s    0:04:10  .     98,992,128  38%  623.23kB/s    0:04:11  .     99,680,256  39%  630.10kB/s    0:04:07  .    100,368,384  39%  623.81kB/s    0:04:08  .    101,056,512  39%  622.80kB/s    0:04:08  .    101,744,640  39%  604.59kB/s    0:04:14  .    102,531,072  40%  627.73kB/s    0:04:03  .    103,219,200  40%  623.24kB/s    0:04:04  .    103,907,328  40%  625.20kB/s    0:04:02  .    104,595,456  40%  641.92kB/s    0:03:55  .    105,283,584  41%  622.37kB/s    0:04:01  .    105,971,712  41%  626.14kB/s    0:03:58  .    106,659,840  41%  612.44kB/s    0:04:03  .    107,347,968  42%  615.53kB/s    0:04:00  .    108,036,096  42%  612.72kB/s    0:04:00  .    108,724,224  42%  605.27kB/s    0:04:02  .    109,412,352  42%  604.18kB/s    0:04:01  .    110,100,480  43%  609.25kB/s    0:03:58  .    110,788,608  43%  602.02kB/s    0:04:00  .    111,509,504  43%  623.71kB/s    0:03:50  .    112,164,864  43%  623.67kB/s    0:03:49  .    112,852,992  44%  619.07kB/s    0:03:50  .    113,442,816  44%  592.73kB/s    0:03:59  .    113,999,872  44%  545.05kB/s    0:04:19  .    114,229,248  44%  408.84kB/s    0:05:45  .    114,360,320  44%  282.75kB/s    0:08:19  .    114,589,696  44%  213.09kB/s    0:11:01  .    115,146,752  45%  210.61kB/s    0:11:06  .    115,834,880  45%  319.74kB/s    0:07:16  .    116,424,704  45%  417.48kB/s    0:05:33  .    116,981,760  45%  485.45kB/s    0:04:45  .    117,571,584  46%  483.27kB/s    0:04:45  .    118,063,104  46%  458.78kB/s    0:04:59  .    118,587,392  46%  446.13kB/s    0:05:06  .    119,046,144  46%  421.49kB/s    0:05:23  .    119,635,968  46%  417.22kB/s    0:05:25  .    120,193,024  47%  428.42kB/s    0:05:15  .    120,782,848  47%  448.35kB/s    0:05:00  .    121,339,904  47%  487.17kB/s    0:04:35  .    121,929,728  47%  507.59kB/s    0:04:23  .    122,617,856  47%  514.56kB/s    0:04:18  .    123,273,216  48%  560.89kB/s    0:03:55  .    123,764,736  48%  537.33kB/s    0:04:05  .    124,321,792  48%  524.94kB/s    0:04:09  .    124,911,616  48%  509.90kB/s    0:04:16  .    125,599,744  49%  491.35kB/s    0:04:24  .    126,156,800  49%  492.93kB/s    0:04:22  .    126,746,624  49%  504.15kB/s    0:04:15  .    127,205,376  49%  404.41kB/s    0:05:17  .    127,434,752  49%  186.86kB/s    0:11:25  .    127,762,432  50%  165.66kB/s    0:12:51  .    128,450,560  50%  175.79kB/s    0:12:02  .    129,040,384  50%  211.07kB/s    0:09:59  .    129,597,440  50%  482.85kB/s    0:04:20  .    130,285,568  50%  555.96kB/s    0:03:45  .    130,646,016  51%  474.97kB/s    0:04:22  .    131,203,072  51%  451.09kB/s    0:04:35  .    131,792,896  51%  464.98kB/s    0:04:26  .    132,251,648  51%  417.94kB/s    0:04:54  .    132,939,776  52%  475.18kB/s    0:04:17  .    133,627,904  52%  485.94kB/s    0:04:10  .    134,184,960  52%  448.80kB/s    0:04:30  .    134,643,712  52%  449.92kB/s    0:04:28  .    135,266,304  52%  446.80kB/s    0:04:29  .    135,856,128  53%  459.17kB/s    0:04:20  .    136,445,952  53%  505.49kB/s    0:03:55  .    137,035,776  53%  543.13kB/s    0:03:38  .    137,560,064  53%  538.72kB/s    0:03:38  .    138,346,496  54%  559.47kB/s    0:03:29  .    138,903,552  54%  546.32kB/s    0:03:33  .    139,591,680  54%  567.66kB/s    0:03:24  .    140,148,736  54%  578.23kB/s    0:03:19  .    140,738,560  55%  554.61kB/s    0:03:26  .    141,197,312  55%  529.93kB/s    0:03:35  .    141,295,616  55%  352.09kB/s    0:05:24  .    141,852,672  55%  351.05kB/s    0:05:23  .    142,442,496  55%  349.21kB/s    0:05:23  .    142,999,552  55%  365.98kB/s    0:05:07  .    143,687,680  56%  507.27kB/s    0:03:40  .    144,146,432  56%  345.25kB/s    0:05:22  .    144,375,808  56%  260.06kB/s    0:07:07  .    144,965,632  56%  261.26kB/s    0:07:03  .    145,522,688  56%  247.38kB/s    0:07:24  .    146,112,512  57%  359.89kB/s    0:05:03  .    146,636,800  57%  486.24kB/s    0:03:43  .    146,997,248  57%  449.38kB/s    0:04:01  .    147,095,552  57%  332.40kB/s    0:05:26  .    147,226,624  57%  197.53kB/s    0:09:08  .    147,914,752  57%  219.76kB/s    0:08:09  .    148,471,808  58%  257.51kB/s    0:06:55  .    149,061,632  58%  366.48kB/s    0:04:50  .    149,618,688  58%  505.08kB/s    0:03:29  .    150,274,048  58%  516.36kB/s    0:03:23  .    150,863,872  59%  503.01kB/s    0:03:28  .    151,453,696  59%  509.93kB/s    0:03:24  .    151,945,216  59%  520.38kB/s    0:03:19  .    152,535,040  59%  507.94kB/s    0:03:22  .    152,928,256  59%  471.25kB/s    0:03:37  .    153,616,384  60%  476.10kB/s    0:03:34  .    154,304,512  60%  523.76kB/s    0:03:13  .    154,959,872  60%  526.11kB/s    0:03:11  .    155,648,000  60%  590.75kB/s    0:02:49  .    156,336,128  61%  602.13kB/s    0:02:44  .    157,024,256  61%  578.02kB/s    0:02:50  .    157,712,384  61%  599.06kB/s    0:02:43  .    158,400,512  61%  614.96kB/s    0:02:37  .    158,990,336  62%  604.76kB/s    0:02:39  .    159,678,464  62%  636.39kB/s    0:02:30  .    160,235,520  62%  605.85kB/s    0:02:37  .    160,923,648  62%  592.31kB/s    0:02:39  .    161,611,776  63%  593.83kB/s    0:02:38  .    162,299,904  63%  586.62kB/s    0:02:38  .    162,856,960  63%  582.75kB/s    0:02:38  .    163,545,088  64%  587.56kB/s    0:02:36  .    164,233,216  64%  592.04kB/s    0:02:34  .    164,921,344  64%  592.18kB/s    0:02:32  .    165,609,472  64%  613.56kB/s    0:02:26  .    166,297,600  65%  606.91kB/s    0:02:26  .    166,985,728  65%  609.66kB/s    0:02:25  .    167,673,856  65%  610.77kB/s    0:02:23  .    168,361,984  65%  616.94kB/s    0:02:21  .    169,082,880  66%  625.43kB/s    0:02:18  .    169,836,544  66%  634.02kB/s    0:02:15  .    170,393,600  66%  571.06kB/s    0:02:29  .    171,081,728  66%  557.75kB/s    0:02:31  .    171,540,480  67%  506.01kB/s    0:02:45  .    172,228,608  67%  500.21kB/s    0:02:46  .    172,916,736  67%  561.79kB/s    0:02:27  .    173,604,864  67%  570.77kB/s    0:02:23  .    174,292,992  68%  617.93kB/s    0:02:11  .    174,981,120  68%  611.60kB/s    0:02:11  .    175,538,176  68%  580.10kB/s    0:02:17  .    176,226,304  68%  569.52kB/s    0:02:19  .    176,914,432  69%  578.66kB/s    0:02:15  .    177,504,256  69%  553.46kB/s    0:02:20  .    177,831,936  69%  497.56kB/s    0:02:36  .    178,520,064  69%  507.02kB/s    0:02:31  .    179,208,192  70%  498.55kB/s    0:02:33  .    179,896,320  70%  518.07kB/s    0:02:25  .    180,486,144  70%  560.19kB/s    0:02:13  .    181,174,272  70%  561.28kB/s    0:02:12  .    181,829,632  71%  565.00kB/s    0:02:10  .    182,484,992  71%  565.80kB/s    0:02:09  .    183,173,120  71%  612.08kB/s    0:01:58  .    183,730,176  71%  570.38kB/s    0:02:05  .    184,418,304  72%  562.65kB/s    0:02:06  .    185,106,432  72%  562.64kB/s    0:02:05  .    185,794,560  72%  556.40kB/s    0:02:05  .    186,482,688  72%  588.44kB/s    0:01:57  .    187,039,744  73%  564.13kB/s    0:02:01  .    187,858,944  73%  578.44kB/s    0:01:56  .    188,645,376  73%  594.62kB/s    0:01:52  .    189,333,504  74%  596.91kB/s    0:01:50  .    190,021,632  74%  634.98kB/s    0:01:43  .    190,709,760  74%  629.86kB/s    0:01:42  .    191,528,960  74%  617.95kB/s    0:01:43  .    192,217,088  75%  634.09kB/s    0:01:39  .    192,872,448  75%  611.60kB/s    0:01:42  .    193,691,648  75%  632.77kB/s    0:01:37  .    194,379,776  76%  619.63kB/s    0:01:38  .    195,067,904  76%  616.75kB/s    0:01:38  .    195,624,960  76%  619.07kB/s    0:01:36  .    196,313,088  76%  587.43kB/s    0:01:40  .    197,001,216  77%  602.07kB/s    0:01:37  .    197,820,416  77%  607.18kB/s    0:01:35  .    198,377,472  77%  598.66kB/s    0:01:35  .    199,065,600  77%  607.87kB/s    0:01:32  .    199,753,728  78%  593.90kB/s    0:01:33  .    200,441,856  78%  583.01kB/s    0:01:34  .    201,261,056  78%  619.31kB/s    0:01:27  .    201,949,184  79%  621.09kB/s    0:01:26  .    202,506,240  79%  607.87kB/s    0:01:27  .    203,194,368  79%  603.91kB/s    0:01:26  .    203,784,192  79%  552.59kB/s    0:01:33  .    204,472,320  80%  540.94kB/s    0:01:34  .    205,160,448  80%  562.50kB/s    0:01:29  .    205,717,504  80%  541.30kB/s    0:01:31  .    206,274,560  80%  557.29kB/s    0:01:28  .    206,962,688  80%  570.22kB/s    0:01:25  .    207,650,816  81%  575.62kB/s    0:01:23  .    208,338,944  81%  596.32kB/s    0:01:19  .    209,027,072  81%  619.78kB/s    0:01:15  .    209,584,128  82%  583.81kB/s    0:01:18  .    210,272,256  82%  578.14kB/s    0:01:18  .    211,025,920  82%  607.83kB/s    0:01:13  .    211,648,512  82%  591.63kB/s    0:01:14  .    212,336,640  83%  637.27kB/s    0:01:07  .    212,926,464  83%  616.12kB/s    0:01:09  .    213,614,592  83%  589.55kB/s    0:01:11  .    214,302,720  83%  590.70kB/s    0:01:09  .    214,859,776  84%  563.59kB/s    0:01:12  .    215,547,904  84%  576.32kB/s    0:01:09  .    216,236,032  84%  581.55kB/s    0:01:07  .    216,924,160  84%  601.79kB/s    0:01:04  .    217,612,288  85%  594.69kB/s    0:01:03  .    218,300,416  85%  592.85kB/s    0:01:02  .    218,988,544  85%  594.82kB/s    0:01:01  .    219,676,672  85%  600.94kB/s    0:00:59  .    220,364,800  86%  624.25kB/s    0:00:56  .    221,052,928  86%  632.32kB/s    0:00:54  .    221,872,128  86%  639.27kB/s    0:00:52  .    222,560,256  87%  630.54kB/s    0:00:52  .    223,117,312  87%  591.94kB/s    0:00:54  .    223,805,440  87%  600.67kB/s    0:00:52  .    224,493,568  87%  578.40kB/s    0:00:53  .    225,181,696  88%  573.86kB/s    0:00:52  .    226,000,896  88%  602.74kB/s    0:00:48  .    226,557,952  88%  577.32kB/s    0:00:50  .    227,246,080  88%  580.19kB/s    0:00:48  .    227,934,208  89%  583.33kB/s    0:00:47  .    228,622,336  89%  594.52kB/s    0:00:45  .    229,310,464  89%  600.13kB/s    0:00:43  .    229,998,592  90%  603.10kB/s    0:00:42  .    230,588,416  90%  586.03kB/s    0:00:42  .    231,374,848  90%  611.74kB/s    0:00:39  .    232,062,976  90%  626.57kB/s    0:00:37  .    232,751,104  91%  615.67kB/s    0:00:36  .    233,340,928  91%  608.70kB/s    0:00:36  .    234,029,056  91%  586.03kB/s    0:00:36  .    234,586,112  91%  568.53kB/s    0:00:36  .    235,274,240  92%  576.78kB/s    0:00:35  .    235,864,064  92%  588.77kB/s    0:00:33  .    236,552,192  92%  587.79kB/s    0:00:32  .    237,109,248  92%  588.35kB/s    0:00:31  .    237,699,072  93%  574.62kB/s    0:00:31  .    238,387,200  93%  566.57kB/s    0:00:30  .    239,075,328  93%  570.50kB/s    0:00:28  .    239,763,456  93%  580.52kB/s    0:00:27  .    240,451,584  94%  581.69kB/s    0:00:25  .    241,008,640  94%  576.45kB/s    0:00:25  .    241,795,072  94%  578.02kB/s    0:00:23  .    242,483,200  94%  578.90kB/s    0:00:22  .    243,171,328  95%  591.93kB/s    0:00:20  .    243,859,456  95%  627.59kB/s    0:00:18  .    244,547,584  95%  622.08kB/s    0:00:17  .    245,235,712  95%  622.37kB/s    0:00:16  .    245,792,768  96%  575.28kB/s    0:00:16  .    246,480,896  96%  568.64kB/s    0:00:15  .    247,169,024  96%  552.92kB/s    0:00:15  .    247,857,152  97%  563.13kB/s    0:00:13  .    248,643,584  97%  612.14kB/s    0:00:11  .    249,397,248  97%  610.90kB/s    0:00:10  .    250,085,376  97%  633.59kB/s    0:00:08  .    250,740,736  98%  616.06kB/s    0:00:07  .    251,428,864  98%  617.76kB/s    0:00:06  .    252,116,992  98%  596.32kB/s    0:00:05  .    252,805,120  98%  582.07kB/s    0:00:04  .    253,493,248  99%  578.19kB/s    0:00:03  .    254,181,376  99%  578.31kB/s    0:00:02  .    254,869,504  99%  593.12kB/s    0:00:01  .    255,512,840 100%  559.57kB/s    0:07:25 (xfr#28, to-chk=109/185)
+2020-05-09 17:31:48.559265 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc31/rpm/i3-gaps-doc-4.18.1-1.fc31.noarch.rpm
+2020-05-09 17:31:49.154980 +0000 build-fedora2: .         32,768   9%   37.43kB/s    0:00:08  .         65,536  19%   60.26kB/s    0:00:04  .        343,167 100%  230.80kB/s    0:00:01 (xfr#29, to-chk=108/185)
+2020-05-09 17:31:49.155087 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/
+2020-05-09 17:31:49.155156 +0000 build-fedora2: .L..t...... current-testing/vm/fc32/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.155236 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/rpm/
+2020-05-09 17:31:49.157262 +0000 build-fedora2: <f..t...... current-testing/vm/fc32/rpm/.gitignore
+2020-05-09 17:31:49.158241 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#30, to-chk=100/185)
+2020-05-09 17:31:49.159301 +0000 build-fedora2: .d..t...... current/
+2020-05-09 17:31:49.159812 +0000 build-fedora2: .d..t...... current/dom0/
+2020-05-09 17:31:49.159873 +0000 build-fedora2: .d..t...... current/dom0/fc25/
+2020-05-09 17:31:49.159973 +0000 build-fedora2: .L..t...... current/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2020-05-09 17:31:49.160063 +0000 build-fedora2: .d..t...... current/dom0/fc25/rpm/
+2020-05-09 17:31:49.160121 +0000 build-fedora2: <f..t...... current/dom0/fc25/rpm/.gitignore
+2020-05-09 17:31:49.163257 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#31, to-chk=94/185)
+2020-05-09 17:31:49.163304 +0000 build-fedora2: .d..t...... current/vm/
+2020-05-09 17:31:49.164622 +0000 build-fedora2: .d..t...... current/vm/centos7/
+2020-05-09 17:31:49.164675 +0000 build-fedora2: .L..t...... current/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.165169 +0000 build-fedora2: .d..t...... current/vm/centos7/rpm/
+2020-05-09 17:31:49.165958 +0000 build-fedora2: <f..t...... current/vm/centos7/rpm/.gitignore
+2020-05-09 17:31:49.167742 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#32, to-chk=80/185)
+2020-05-09 17:31:49.168776 +0000 build-fedora2: .d..t...... current/vm/centos8/
+2020-05-09 17:31:49.168848 +0000 build-fedora2: .L..t...... current/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.169024 +0000 build-fedora2: .d..t...... current/vm/centos8/rpm/
+2020-05-09 17:31:49.169287 +0000 build-fedora2: <f..t...... current/vm/centos8/rpm/.gitignore
+2020-05-09 17:31:49.169509 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#33, to-chk=77/185)
+2020-05-09 17:31:49.169545 +0000 build-fedora2: .d..t...... current/vm/fc24/
+2020-05-09 17:31:49.169573 +0000 build-fedora2: .L..t...... current/vm/fc24/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.169597 +0000 build-fedora2: .d..t...... current/vm/fc24/rpm/
+2020-05-09 17:31:49.169621 +0000 build-fedora2: <f..t...... current/vm/fc24/rpm/.gitignore
+2020-05-09 17:31:49.170943 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#34, to-chk=74/185)
+2020-05-09 17:31:49.171004 +0000 build-fedora2: .d..t...... current/vm/fc25/
+2020-05-09 17:31:49.171165 +0000 build-fedora2: .L..t...... current/vm/fc25/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.171989 +0000 build-fedora2: .d..t...... current/vm/fc25/rpm/
+2020-05-09 17:31:49.172026 +0000 build-fedora2: <f..t...... current/vm/fc25/rpm/.gitignore
+2020-05-09 17:31:49.172060 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#35, to-chk=71/185)
+2020-05-09 17:31:49.173124 +0000 build-fedora2: .d..t...... current/vm/fc26/
+2020-05-09 17:31:49.173173 +0000 build-fedora2: .L..t...... current/vm/fc26/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.173200 +0000 build-fedora2: .d..t...... current/vm/fc26/rpm/
+2020-05-09 17:31:49.173226 +0000 build-fedora2: <f..t...... current/vm/fc26/rpm/.gitignore
+2020-05-09 17:31:49.174223 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#36, to-chk=68/185)
+2020-05-09 17:31:49.174298 +0000 build-fedora2: .d..t...... current/vm/fc27/
+2020-05-09 17:31:49.174555 +0000 build-fedora2: .L..t...... current/vm/fc27/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.174586 +0000 build-fedora2: .d..t...... current/vm/fc27/rpm/
+2020-05-09 17:31:49.174612 +0000 build-fedora2: <f..t...... current/vm/fc27/rpm/.gitignore
+2020-05-09 17:31:49.175774 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#37, to-chk=65/185)
+2020-05-09 17:31:49.175820 +0000 build-fedora2: .d..t...... current/vm/fc28/
+2020-05-09 17:31:49.175852 +0000 build-fedora2: .L..t...... current/vm/fc28/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.175877 +0000 build-fedora2: .d..t...... current/vm/fc28/rpm/
+2020-05-09 17:31:49.175902 +0000 build-fedora2: <f..t...... current/vm/fc28/rpm/.gitignore
+2020-05-09 17:31:49.176796 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#38, to-chk=62/185)
+2020-05-09 17:31:49.176844 +0000 build-fedora2: .d..t...... current/vm/fc29/
+2020-05-09 17:31:49.176875 +0000 build-fedora2: .L..t...... current/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.176900 +0000 build-fedora2: .d..t...... current/vm/fc29/rpm/
+2020-05-09 17:31:49.176925 +0000 build-fedora2: <f..t...... current/vm/fc29/rpm/.gitignore
+2020-05-09 17:31:49.178546 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#39, to-chk=59/185)
+2020-05-09 17:31:49.178592 +0000 build-fedora2: .d..t...... current/vm/fc30/
+2020-05-09 17:31:49.178624 +0000 build-fedora2: .L..t...... current/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.178648 +0000 build-fedora2: .d..t...... current/vm/fc30/rpm/
+2020-05-09 17:31:49.179035 +0000 build-fedora2: <f..t...... current/vm/fc30/rpm/.gitignore
+2020-05-09 17:31:49.180749 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#40, to-chk=55/185)
+2020-05-09 17:31:49.180787 +0000 build-fedora2: .d..t...... current/vm/fc31/
+2020-05-09 17:31:49.180814 +0000 build-fedora2: .L..t...... current/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.180857 +0000 build-fedora2: .d..t...... current/vm/fc31/rpm/
+2020-05-09 17:31:49.180884 +0000 build-fedora2: <f..t...... current/vm/fc31/rpm/.gitignore
+2020-05-09 17:31:49.180912 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#41, to-chk=51/185)
+2020-05-09 17:31:49.180935 +0000 build-fedora2: .d..t...... current/vm/fc32/
+2020-05-09 17:31:49.180960 +0000 build-fedora2: .L..t...... current/vm/fc32/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.180983 +0000 build-fedora2: .d..t...... current/vm/fc32/rpm/
+2020-05-09 17:31:49.181006 +0000 build-fedora2: <f..t...... current/vm/fc32/rpm/.gitignore
+2020-05-09 17:31:49.181033 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#42, to-chk=47/185)
+2020-05-09 17:31:49.181071 +0000 build-fedora2: .d..t...... security-testing/
+2020-05-09 17:31:49.181096 +0000 build-fedora2: .d..t...... security-testing/dom0/
+2020-05-09 17:31:49.181120 +0000 build-fedora2: .d..t...... security-testing/dom0/fc21/
+2020-05-09 17:31:49.181144 +0000 build-fedora2: .d..t...... security-testing/dom0/fc21/rpm/
+2020-05-09 17:31:49.181184 +0000 build-fedora2: <f..t...... security-testing/dom0/fc21/rpm/.gitignore
+2020-05-09 17:31:49.182171 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#43, to-chk=41/185)
+2020-05-09 17:31:49.182219 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/
+2020-05-09 17:31:49.182248 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/rpm/
+2020-05-09 17:31:49.182815 +0000 build-fedora2: <f..t...... security-testing/dom0/fc25/rpm/.gitignore
+2020-05-09 17:31:49.184226 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#44, to-chk=39/185)
+2020-05-09 17:31:49.184272 +0000 build-fedora2: .d..t...... security-testing/vm/
+2020-05-09 17:31:49.184302 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/
+2020-05-09 17:31:49.184518 +0000 build-fedora2: .L..t...... security-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.184553 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/rpm/
+2020-05-09 17:31:49.184703 +0000 build-fedora2: <f..t...... security-testing/vm/centos7/rpm/.gitignore
+2020-05-09 17:31:49.184983 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#45, to-chk=25/185)
+2020-05-09 17:31:49.185020 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/
+2020-05-09 17:31:49.185049 +0000 build-fedora2: .L..t...... security-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.185073 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/rpm/
+2020-05-09 17:31:49.185099 +0000 build-fedora2: <f..t...... security-testing/vm/centos8/rpm/.gitignore
+2020-05-09 17:31:49.185982 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#46, to-chk=22/185)
+2020-05-09 17:31:49.186028 +0000 build-fedora2: .d..t...... security-testing/vm/fc24/
+2020-05-09 17:31:49.186056 +0000 build-fedora2: .d..t...... security-testing/vm/fc24/rpm/
+2020-05-09 17:31:49.186082 +0000 build-fedora2: <f..t...... security-testing/vm/fc24/rpm/.gitignore
+2020-05-09 17:31:49.187128 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#47, to-chk=20/185)
+2020-05-09 17:31:49.187176 +0000 build-fedora2: .d..t...... security-testing/vm/fc25/
+2020-05-09 17:31:49.187205 +0000 build-fedora2: .d..t...... security-testing/vm/fc25/rpm/
+2020-05-09 17:31:49.187231 +0000 build-fedora2: <f..t...... security-testing/vm/fc25/rpm/.gitignore
+2020-05-09 17:31:49.189700 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#48, to-chk=18/185)
+2020-05-09 17:31:49.189748 +0000 build-fedora2: .d..t...... security-testing/vm/fc26/
+2020-05-09 17:31:49.189808 +0000 build-fedora2: .d..t...... security-testing/vm/fc26/rpm/
+2020-05-09 17:31:49.189843 +0000 build-fedora2: <f..t...... security-testing/vm/fc26/rpm/.gitignore
+2020-05-09 17:31:49.190796 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#49, to-chk=16/185)
+2020-05-09 17:31:49.190844 +0000 build-fedora2: .d..t...... security-testing/vm/fc27/
+2020-05-09 17:31:49.190873 +0000 build-fedora2: .d..t...... security-testing/vm/fc27/rpm/
+2020-05-09 17:31:49.190900 +0000 build-fedora2: <f..t...... security-testing/vm/fc27/rpm/.gitignore
+2020-05-09 17:31:49.191862 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#50, to-chk=14/185)
+2020-05-09 17:31:49.191909 +0000 build-fedora2: .d..t...... security-testing/vm/fc28/
+2020-05-09 17:31:49.191953 +0000 build-fedora2: .d..t...... security-testing/vm/fc28/rpm/
+2020-05-09 17:31:49.191982 +0000 build-fedora2: <f..t...... security-testing/vm/fc28/rpm/.gitignore
+2020-05-09 17:31:49.192970 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#51, to-chk=12/185)
+2020-05-09 17:31:49.193017 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/
+2020-05-09 17:31:49.193050 +0000 build-fedora2: .L..t...... security-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.193076 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/rpm/
+2020-05-09 17:31:49.193101 +0000 build-fedora2: <f..t...... security-testing/vm/fc29/rpm/.gitignore
+2020-05-09 17:31:49.194301 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#52, to-chk=9/185)
+2020-05-09 17:31:49.194530 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/
+2020-05-09 17:31:49.194565 +0000 build-fedora2: .L..t...... security-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-05-09 17:31:49.194590 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/rpm/
+2020-05-09 17:31:49.194615 +0000 build-fedora2: <f..t...... security-testing/vm/fc30/rpm/.gitignore
+2020-05-09 17:31:49.196232 +0000 build-fedora2: .              6 100%    0.01kB/s    0:00:00  .              6 100%    0.01kB/s    0:00:00 (xfr#53, to-chk=6/185)
+2020-05-09 17:31:49.196280 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/
+2020-05-09 17:31:49.196311 +0000 build-fedora2: .L..t...... security-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.196536 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/rpm/
+2020-05-09 17:31:49.196565 +0000 build-fedora2: <f..t...... security-testing/vm/fc31/rpm/.gitignore
+2020-05-09 17:31:49.196593 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#54, to-chk=3/185)
+2020-05-09 17:31:49.196618 +0000 build-fedora2: .d..t...... security-testing/vm/fc32/
+2020-05-09 17:31:49.196644 +0000 build-fedora2: .L..t...... security-testing/vm/fc32/comps-vm.xml -> comps-vm.xml
+2020-05-09 17:31:49.196668 +0000 build-fedora2: .d..t...... security-testing/vm/fc32/rpm/
+2020-05-09 17:31:49.196828 +0000 build-fedora2: <f..t...... security-testing/vm/fc32/rpm/.gitignore
+2020-05-09 17:31:49.196867 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#55, to-chk=0/185)
+2020-05-09 17:32:01.401792 +0000 build-fedora2: --> Processing repo: r4.0/current/dom0/fc25...
+2020-05-09 17:32:01.501882 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.543130 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/centos7...
+2020-05-09 17:32:01.544098 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.544184 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.544244 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.658968 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.685866 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.685968 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.686031 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.816984 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/centos8...
+2020-05-09 17:32:01.817090 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.831736 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.831841 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.831905 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.942821 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc24...
+2020-05-09 17:32:01.958190 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.958291 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.958815 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:01.958888 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.091110 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc25...
+2020-05-09 17:32:02.107029 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.107133 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.107195 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.224987 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc26...
+2020-05-09 17:32:02.225090 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.240968 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.257178 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.257279 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.369080 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc27...
+2020-05-09 17:32:02.369183 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.369248 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.394910 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.395011 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.515914 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc28...
+2020-05-09 17:32:02.516017 +0000 build-fedora2: 17:32:01: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.609884 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.609985 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.660737 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc29...
+2020-05-09 17:32:02.660850 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.660914 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.684848 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.684950 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.829837 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc30...
+2020-05-09 17:32:02.829941 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.830004 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.892937 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.893039 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.989085 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc31...
+2020-05-09 17:32:02.989187 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:02.989250 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.018856 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.158223 +0000 build-fedora2: --> Processing repo: r4.0/current/vm/fc32...
+2020-05-09 17:32:03.158779 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.158869 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.158930 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.316231 +0000 build-fedora2: Done.
+2020-05-09 17:32:03.316727 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.316856 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.316920 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:03.316975 +0000 build-fedora2: 17:32:02: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:06.701957 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/dom0/fc25...
+2020-05-09 17:32:06.916836 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:06.916940 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.058090 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.058196 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.133722 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos7...
+2020-05-09 17:32:07.134123 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.134208 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.190267 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/centos8...
+2020-05-09 17:32:07.190764 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.190907 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.230838 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.333191 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc24...
+2020-05-09 17:32:07.333293 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.333767 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.333838 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.382729 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.382895 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.489584 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc25...
+2020-05-09 17:32:07.489757 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.489801 +0000 build-fedora2: 17:32:06: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.512305 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.512734 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.620008 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc26...
+2020-05-09 17:32:07.620110 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.620172 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.669206 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.669308 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.773774 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc27...
+2020-05-09 17:32:07.773876 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.773938 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.788880 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.896035 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc28...
+2020-05-09 17:32:07.896137 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.896199 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.896255 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.944193 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:07.944294 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:08.040791 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc29...
+2020-05-09 17:32:08.040897 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:08.040960 +0000 build-fedora2: 17:32:07: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:11.859934 +0000 build-fedora2: 17:32:11: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:11.917147 +0000 build-fedora2: 17:32:11: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:11.917250 +0000 build-fedora2: 17:32:11: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:11.989049 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc30...
+2020-05-09 17:32:11.989153 +0000 build-fedora2: 17:32:11: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:19.611128 +0000 build-fedora2: 17:32:19: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:19.611286 +0000 build-fedora2: 17:32:19: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:19.661995 +0000 build-fedora2: 17:32:19: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:19.662095 +0000 build-fedora2: 17:32:19: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:19.747807 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc31...
+2020-05-09 17:32:25.471154 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.472023 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.472693 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.614291 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc32...
+2020-05-09 17:32:25.615017 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.615196 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.643990 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.644091 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:25.754957 +0000 build-fedora2: Done.
+2020-05-09 17:32:25.755062 +0000 build-fedora2: 17:32:25: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.074294 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/dom0/fc21...
+2020-05-09 17:32:29.075170 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.132040 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.132147 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.213172 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/dom0/fc25...
+2020-05-09 17:32:29.213742 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.233172 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.233273 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.358983 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/centos7...
+2020-05-09 17:32:29.359234 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.359306 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.376282 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.376781 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.491849 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/centos8...
+2020-05-09 17:32:29.491953 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.492074 +0000 build-fedora2: 17:32:28: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.507020 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.524313 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.638746 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc24...
+2020-05-09 17:32:29.638850 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.638914 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.653279 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.653785 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.769297 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc25...
+2020-05-09 17:32:29.769675 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.769734 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.787660 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.787742 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.919860 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc26...
+2020-05-09 17:32:29.919966 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.920087 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.936240 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.952964 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:29.953065 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.063032 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc27...
+2020-05-09 17:32:30.063135 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.121715 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.121824 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.207213 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc28...
+2020-05-09 17:32:30.207762 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.207874 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.207935 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.226134 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.226228 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.339203 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc29...
+2020-05-09 17:32:30.339305 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.402964 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.403093 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.484995 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc30...
+2020-05-09 17:32:30.485100 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.485162 +0000 build-fedora2: 17:32:29: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.508831 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.508932 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.630232 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc31...
+2020-05-09 17:32:30.630784 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.630866 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.645873 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.645974 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.766989 +0000 build-fedora2: --> Processing repo: r4.0/security-testing/vm/fc32...
+2020-05-09 17:32:30.767131 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.767199 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:30.783205 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:31.129124 +0000 build-fedora2: Done.
+2020-05-09 17:32:31.129231 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:31.129294 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:31.129760 +0000 build-fedora2: 17:32:30: posix_spawn avoided (fd close requested) 
+2020-05-09 17:32:31.129828 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum
+2020-05-09 17:32:31.129937 +0000 build-fedora2: Makefile:778: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc29 internal-update-repo-current-testing.vm.fc30 internal-update-repo-current-testing.vm.fc31 post-update-repo-current-testing
+2020-05-09 17:32:31.129995 +0000 build-fedora2: true
+2020-05-09 17:32:31.137980 +0000 build-fedora2: > done
+2020-05-09 17:32:31.138156 +0000 > closing log
