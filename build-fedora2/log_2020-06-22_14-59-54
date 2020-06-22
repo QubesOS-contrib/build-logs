@@ -1,0 +1,588 @@
+2020-06-22 14:59:54.287445 +0000 > starting log
+2020-06-22 14:59:54.290043 +0000 build-fedora2: > starting build with log
+2020-06-22 14:59:54.290116 +0000 build-fedora2: >> make args: DISTS_VM= fc32 DIST_DOM0= BUILD_LOGS_URL= remote-desktop-vm-fc32=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-22_14-52-26 GIT_URL_remote_desktop=https://github.com/QubesOS-contrib/qubes-remote-desktop sign-all update-repo-current-testing
+2020-06-22 14:59:54.290146 +0000 build-fedora2: >> MAKEFLAGS=
+2020-06-22 14:59:54.290171 +0000 build-fedora2: >> COMPONENTS=remote-desktop
+2020-06-22 14:59:54.290193 +0000 build-fedora2: >> DISTS_VM=
+2020-06-22 14:59:54.290215 +0000 build-fedora2: >> DIST_DOM0=
+2020-06-22 14:59:54.290241 +0000 build-fedora2: >> qubes-builder 997f5abd9cc17e9e6f521df9ac411e6d33f597b6
+2020-06-22 14:59:54.290271 +0000 build-fedora2: >> qubes-builder/qubes-src/remote-desktop 1b1e55d54edc6bdeed2a1ea1a1f48fd0e587698a
+2020-06-22 14:59:54.290297 +0000 build-fedora2: !! pkgs/vm-fc29/remote-desktop.spec.list
+2020-06-22 14:59:54.290332 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/qubes-remote-desktop-4.0.3-1.fc29.x86_64.rpm
+2020-06-22 14:59:54.290358 +0000 build-fedora2: !! pkgs/vm-fc30/remote-desktop.spec.list
+2020-06-22 14:59:54.290409 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-remote-desktop-4.0.2-1.fc30.x86_64.rpm
+2020-06-22 14:59:54.290440 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-remote-desktop-4.0.3-1.fc30.x86_64.rpm
+2020-06-22 14:59:54.290465 +0000 build-fedora2: !! pkgs/vm-fc31/remote-desktop.spec.list
+2020-06-22 14:59:54.290492 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-remote-desktop-4.0.2-1.fc31.x86_64.rpm
+2020-06-22 14:59:54.290518 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-remote-desktop-4.0.3-1.fc31.x86_64.rpm
+2020-06-22 14:59:54.290752 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm
+2020-06-22 14:59:54.290783 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo
+2020-06-22 14:59:54.290832 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm
+2020-06-22 14:59:54.290861 +0000 build-fedora2: !! pkgs/vm-fc32/remote-desktop.spec.list
+2020-06-22 14:59:54.290901 +0000 build-fedora2: 5bd80de2b47cf53229ec073f05b85413bd06a6510e7eed5cd7a5e6c3e411d5cb0d13a1cc4e638a7ad2147618bef9eb26e89770c55bd01a4ec636b14793a40ecb  pkgs/vm-fc29/remote-desktop.spec.list
+2020-06-22 14:59:54.290947 +0000 build-fedora2: 3cf1f802e8a7518634d508b81beab620cc59cea07f9a64dabc781f1bac517a98fff2c5ead69ae1910dab6ea7cf877b85706fc539eb686fbe929d27abbd6d60ed  pkgs/vm-fc29/x86_64/qubes-remote-desktop-4.0.3-1.fc29.x86_64.rpm
+2020-06-22 14:59:54.290989 +0000 build-fedora2: 07f5f567243f94bfbde9cf21a5dec9e803bc1ecdc5268443db53322010f83f2516e3c72c3af4c2869bcfcdf2385b5295e8a4cb09f907441b4a3b55b58a58ee5b  pkgs/vm-fc30/remote-desktop.spec.list
+2020-06-22 14:59:54.291035 +0000 build-fedora2: 2bb643a35eaee8d2919444cc1d807a7a6ad3f8ee9048cc9b604f39d405bbae2ed425b5095e010fb9c48ba14a224c3fec8bd45eb947e0b32629425bf81c15e66f  pkgs/vm-fc30/x86_64/qubes-remote-desktop-4.0.2-1.fc30.x86_64.rpm
+2020-06-22 14:59:54.291101 +0000 build-fedora2: 310e192dda624366e46de26e72736a0ef210d2083e57d315643788a138c407e6c08b0208be2ceddfa0be010255e4490d10d854f437bedfff141e9ec228882a2b  pkgs/vm-fc30/x86_64/qubes-remote-desktop-4.0.3-1.fc30.x86_64.rpm
+2020-06-22 14:59:54.291147 +0000 build-fedora2: ee0865e1d5d67dd4c87a7091b41ca074e1eb465bf58714d9ec04f599aa844733930ea7637fa5ff9f3b1ccc69d45404f75a3f636938d686aa35bc969a24cf12b5  pkgs/vm-fc31/remote-desktop.spec.list
+2020-06-22 14:59:54.291193 +0000 build-fedora2: ca75b11bb82f90c37ef06a6b7eb63289fdd392736224ea73f79632d2ff7cfb698363e540689039a3b39cc87d7359b7f6b803d981fe295ef37075239f30acddeb  pkgs/vm-fc31/x86_64/qubes-remote-desktop-4.0.2-1.fc31.x86_64.rpm
+2020-06-22 14:59:54.291238 +0000 build-fedora2: 2254ee101e2a881909046dbc6fa2f68bcd8273e33f79408617aaade33a80edf5cec0f22fd8cc6814f57c09a3c69ddbdd5bfad29860ae06ef9ae8032a285b2446  pkgs/vm-fc31/x86_64/qubes-remote-desktop-4.0.3-1.fc31.x86_64.rpm
+2020-06-22 14:59:54.291281 +0000 build-fedora2: 6ab67fd9136cbb3e6cae3615834e75f7db07058b9fcb832da73a2547d12f4db271ded5463dcc2ba0b0baaffeba5287e231837eb265933fa537d35777a590acc9  pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm
+2020-06-22 14:59:54.291340 +0000 build-fedora2: 28a85ba1aa287afca136307e9576cfe3da9f3264a25adf78764493a2feb874d7450ea1d8a931a6ad939f742fd99433c8867d3de87e9571cdc95e0b4c8964db8f  pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo
+2020-06-22 14:59:54.291387 +0000 build-fedora2: 59d498879c966f8ab0fd575b97859e0c6d4a5915270dbf766eedd305b669634f2e317e39ebe9617c3cca4a1a92f1459857d2620264d428e25a079e0966570a11  pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm
+2020-06-22 14:59:54.291430 +0000 build-fedora2: d0e07dc990f5c89252e54023f02e7979841aa5f16a341c87b0e75fda6d03c900cc9a7c21f7babd2ca2c4dfb6ab70f8271e35ae681b586dc832de235e85adc725  pkgs/vm-fc32/remote-desktop.spec.list
+2020-06-22 14:59:54.291461 +0000 build-fedora2: ================================================================================
+2020-06-22 14:59:54.291491 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2020-06-22 14:59:54.291738 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2020-06-22 14:59:54.291802 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2020-06-22 14:59:54.291855 +0000 build-fedora2: ================================================================================
+2020-06-22 14:59:54.291947 +0000 build-fedora2: DISTS_VM:
+2020-06-22 14:59:54.291986 +0000 build-fedora2:      fc29, fc30, fc31, fc32,
+2020-06-22 14:59:54.292009 +0000 build-fedora2: DISTS_ALL:
+2020-06-22 14:59:54.292034 +0000 build-fedora2:      vm-fc29, vm-fc30, vm-fc31, vm-fc32,
+2020-06-22 14:59:54.292055 +0000 build-fedora2: DIST_DOM0:
+2020-06-22 14:59:54.292098 +0000 build-fedora2:     
+2020-06-22 14:59:54.292122 +0000 build-fedora2: BUILDER_PLUGINS:
+2020-06-22 14:59:54.292148 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2020-06-22 14:59:54.292184 +0000 build-fedora2: COMPONENTS:
+2020-06-22 14:59:54.292209 +0000 build-fedora2:      remote-desktop,
+2020-06-22 14:59:54.292230 +0000 build-fedora2: GIT_REPOS:
+2020-06-22 14:59:54.292253 +0000 build-fedora2:      qubes-src/remote-desktop,
+2020-06-22 14:59:54.292289 +0000 build-fedora2: TEMPLATE:
+2020-06-22 14:59:54.292311 +0000 build-fedora2:     
+2020-06-22 14:59:54.292333 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2020-06-22 14:59:54.292352 +0000 build-fedora2:     
+2020-06-22 14:59:54.292373 +0000 build-fedora2: TEMPLATE_ALIAS:
+2020-06-22 14:59:54.292392 +0000 build-fedora2:     
+2020-06-22 14:59:54.292413 +0000 build-fedora2: TEMPLATE_LABEL:
+2020-06-22 14:59:54.292432 +0000 build-fedora2:     
+2020-06-22 14:59:54.317133 +0000 build-fedora2: > running make
+2020-06-22 14:59:54.352984 +0000 build-fedora2: Makefile:267: target 'sign.vm.fc32.remote-desktop' does not exist
+2020-06-22 14:59:54.353100 +0000 build-fedora2: if [ -n "remote-desktop" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_remote_desktop"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/remote-desktop > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-06-22 14:59:54.353140 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-06-22 14:59:54.353168 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-06-22 14:59:54.353210 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-06-22 14:59:54.353268 +0000 build-fedora2: if [ "remote-desktop" = linux-template-builder ]; then
+2020-06-22 14:59:54.353402 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2020-06-22 14:59:54.353434 +0000 build-fedora2: fi
+2020-06-22 14:59:54.353497 +0000 build-fedora2: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2020-06-22 14:59:54.353707 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-06-22 14:59:54.353741 +0000 build-fedora2: ..DIST=fc32 \
+2020-06-22 14:59:54.353765 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-06-22 14:59:54.353789 +0000 build-fedora2: ..COMPONENT=remote-desktop \
+2020-06-22 14:59:54.353812 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-06-22 14:59:54.353833 +0000 build-fedora2: ..sign || exit 1; \
+2020-06-22 14:59:54.353858 +0000 build-fedora2: elif [ -d qubes-src/remote-desktop/rpm ]; then \
+2020-06-22 14:59:54.353882 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-06-22 14:59:54.353909 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/remote-desktop/rpm/*/*.rpm; do \
+2020-06-22 14:59:54.353937 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-06-22 14:59:54.353961 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-06-22 14:59:54.353982 +0000 build-fedora2: ..fi ;\
+2020-06-22 14:59:54.354003 +0000 build-fedora2: .done ; \
+2020-06-22 14:59:54.354027 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-06-22 14:59:54.354050 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-06-22 14:59:54.354075 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-06-22 14:59:54.354098 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-06-22 14:59:54.354122 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-06-22 14:59:54.354142 +0000 build-fedora2: ..fi; \
+2020-06-22 14:59:54.354169 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-06-22 14:59:54.354190 +0000 build-fedora2: .fi; \
+2020-06-22 14:59:54.354210 +0000 build-fedora2: fi
+2020-06-22 14:59:54.395894 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:54.396438 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:54.397767 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:54.400915 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:54.400975 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:54.402108 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:54.405428 +0000 build-fedora2: + tmp_spec=/tmp/tmp.g8x4pq.spec
+2020-06-22 14:59:54.406360 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:54.409821 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.g8x4pq.spec
+2020-06-22 14:59:54.414017 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:54.415389 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:54.415469 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.420126 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:54.420186 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:54.420226 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.425174 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:54.425236 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:54.426147 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:54.426197 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.429762 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.434171 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.438069 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:54.441116 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.624009 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.627126 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.630289 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 14:59:54.631151 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:54.634396 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.g8x4pq.spec
+2020-06-22 14:59:54.779858 +0000 build-fedora2: + rm -f /tmp/tmp.g8x4pq.spec
+2020-06-22 14:59:54.786865 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2020-06-22 14:59:54.787225 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-06-22 14:59:54.787270 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2020-06-22 14:59:54.787314 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-06-22 14:59:54.787357 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-06-22 14:59:54.787381 +0000 build-fedora2: fi
+2020-06-22 14:59:54.826258 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:54.826370 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:54.827854 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:54.831020 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:54.831069 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:54.832035 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:54.835364 +0000 build-fedora2: + tmp_spec=/tmp/tmp.1OyRaC.spec
+2020-06-22 14:59:54.836292 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:54.839767 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.1OyRaC.spec
+2020-06-22 14:59:54.843409 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:54.843499 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:54.844404 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.849147 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:54.849856 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:54.849904 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.855039 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:54.855082 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:54.855112 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:54.855142 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.858962 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.863698 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:54.867414 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:54.870883 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:55.049157 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:55.052475 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:55.056072 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 14:59:55.057135 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:55.060441 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.1OyRaC.spec
+2020-06-22 14:59:55.199159 +0000 build-fedora2: + rm -f /tmp/tmp.1OyRaC.spec
+2020-06-22 14:59:56.415843 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:196: update target 'sign' due to: sign-prep
+2020-06-22 14:59:56.415983 +0000 build-fedora2: cd qubes-src/remote-desktop && for pkg in pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo ; do \
+2020-06-22 14:59:56.416024 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-06-22 14:59:56.416074 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-06-22 14:59:56.416103 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-06-22 14:59:56.416129 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-06-22 14:59:56.416166 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-06-22 14:59:56.416191 +0000 build-fedora2: .fi; \
+2020-06-22 14:59:56.416212 +0000 build-fedora2: done
+2020-06-22 14:59:56.450005 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:56.450215 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:56.451442 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:56.454763 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:56.454814 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:56.455426 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:56.458514 +0000 build-fedora2: + tmp_spec=/tmp/tmp.0R32gq.spec
+2020-06-22 14:59:56.459792 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:56.462982 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.0R32gq.spec
+2020-06-22 14:59:56.467097 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:56.467232 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:56.467865 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.472785 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:56.472853 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:56.472920 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.477029 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:56.477073 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:56.477915 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:56.477958 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.481448 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.485961 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.489505 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:56.492457 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.666190 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.669390 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:56.672726 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 14:59:56.673451 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:56.676719 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.0R32gq.spec
+2020-06-22 14:59:56.811941 +0000 build-fedora2: + rm -f /tmp/tmp.0R32gq.spec
+2020-06-22 14:59:57.736993 +0000 build-fedora2: pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm:
+2020-06-22 14:59:57.743169 +0000 build-fedora2: Error while vchan send, exiting
+2020-06-22 14:59:58.717425 +0000 build-fedora2: pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm:
+2020-06-22 14:59:59.105425 +0000 build-fedora2: Makefile:818: target 'internal-update-repo-current-testing.vm.fc32.remote-desktop' does not exist
+2020-06-22 14:59:59.105758 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc32_BASEDIR"; \
+2020-06-22 14:59:59.105804 +0000 build-fedora2: if [ "remote-desktop" = linux-template-builder ]; then \
+2020-06-22 14:59:59.105840 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-06-22 14:59:59.105866 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-06-22 14:59:59.105890 +0000 build-fedora2: fi; \
+2020-06-22 14:59:59.105916 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-06-22 14:59:59.105940 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-06-22 14:59:59.105960 +0000 build-fedora2: else \
+2020-06-22 14:59:59.105984 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2020-06-22 14:59:59.106006 +0000 build-fedora2: fi; \
+2020-06-22 14:59:59.106032 +0000 build-fedora2: if [ -r qubes-src/remote-desktop/Makefile.builder ]; then \
+2020-06-22 14:59:59.106059 +0000 build-fedora2: .echo -n "Updating qubes-src/remote-desktop... "; \
+2020-06-22 14:59:59.106083 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-06-22 14:59:59.106113 +0000 build-fedora2: ..vtag=`git -C qubes-src/remote-desktop tag --points-at HEAD --list v*`; \
+2020-06-22 14:59:59.106137 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-06-22 14:59:59.106160 +0000 build-fedora2: ...echo "no version tag"; \
+2020-06-22 14:59:59.106181 +0000 build-fedora2: ...exit 0; \
+2020-06-22 14:59:59.106203 +0000 build-fedora2: ..fi; \
+2020-06-22 14:59:59.106223 +0000 build-fedora2: .fi; \
+2020-06-22 14:59:59.106249 +0000 build-fedora2: .if [ "remote-desktop" = linux-template-builder ]; then
+2020-06-22 14:59:59.106280 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2020-06-22 14:59:59.106304 +0000 build-fedora2: fi
+2020-06-22 14:59:59.106355 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm COMPONENT=`basename qubes-src/remote-desktop` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 get-var GET_VAR=PACKAGE_LIST); \
+2020-06-22 14:59:59.106389 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-06-22 14:59:59.106412 +0000 build-fedora2: ..echo "no packages."; \
+2020-06-22 14:59:59.106433 +0000 build-fedora2: ..exit 0; \
+2020-06-22 14:59:59.106454 +0000 build-fedora2: .fi; \
+2020-06-22 14:59:59.106479 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm \
+2020-06-22 14:59:59.106751 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/remote-desktop` \
+2020-06-22 14:59:59.106829 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-06-22 14:59:59.106857 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-06-22 14:59:59.106886 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2020-06-22 14:59:59.106924 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-`basename qubes-src/remote-desktop` \
+2020-06-22 14:59:59.106963 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-22_14-52-26 \
+2020-06-22 14:59:59.106991 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-06-22 14:59:59.107021 +0000 build-fedora2: elif make -C qubes-src/remote-desktop -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-06-22 14:59:59.107049 +0000 build-fedora2: .echo "Updating qubes-src/remote-desktop... "; \
+2020-06-22 14:59:59.107078 +0000 build-fedora2: .DIST=fc32 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2020-06-22 14:59:59.107111 +0000 build-fedora2: .make -s -C qubes-src/remote-desktop update-repo-current-testing || exit 1; \
+2020-06-22 14:59:59.107132 +0000 build-fedora2: else \
+2020-06-22 14:59:59.107158 +0000 build-fedora2: .echo -n "Updating qubes-src/remote-desktop... skipping."; \
+2020-06-22 14:59:59.107178 +0000 build-fedora2: fi; \
+2020-06-22 14:59:59.107198 +0000 build-fedora2: echo
+2020-06-22 14:59:59.148886 +0000 build-fedora2: Updating qubes-src/remote-desktop... + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:59.149066 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.150372 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:59.153969 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:59.154018 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:59.154904 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:59.158009 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Ozkn9c.spec
+2020-06-22 14:59:59.158945 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:59.162027 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.Ozkn9c.spec
+2020-06-22 14:59:59.165910 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.166772 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:59.166963 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.171446 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.171489 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:59.171705 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.176062 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:59.176105 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.176134 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:59.176164 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.180059 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.184751 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.188303 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:59.191415 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.364264 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.367051 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.370382 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 14:59:59.371139 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:59.374413 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Ozkn9c.spec
+2020-06-22 14:59:59.506484 +0000 build-fedora2: + rm -f /tmp/tmp.Ozkn9c.spec
+2020-06-22 14:59:59.531698 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:59.531916 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.533180 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:59.536389 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:59.536440 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:59.537146 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:59.540321 +0000 build-fedora2: + tmp_spec=/tmp/tmp.tX0oFN.spec
+2020-06-22 14:59:59.541206 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:59.544404 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.tX0oFN.spec
+2020-06-22 14:59:59.548081 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.548242 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:59.549217 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.553716 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.553760 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:59.553796 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.558036 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:59.558079 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.558738 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:59.558780 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.562284 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.566770 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.570248 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:59.573274 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.746785 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.749741 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.752822 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 14:59:59.754045 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:59.757021 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.tX0oFN.spec
+2020-06-22 14:59:59.887840 +0000 build-fedora2: + rm -f /tmp/tmp.tX0oFN.spec
+2020-06-22 14:59:59.935301 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 14:59:59.935463 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.936721 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 14:59:59.939471 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 14:59:59.939742 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 14:59:59.940109 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 14:59:59.943355 +0000 build-fedora2: + tmp_spec=/tmp/tmp.5o6cr2.spec
+2020-06-22 14:59:59.944171 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 14:59:59.947007 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.5o6cr2.spec
+2020-06-22 14:59:59.950729 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 14:59:59.950968 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 14:59:59.951136 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.955455 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.955499 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 14:59:59.955717 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.959995 +0000 build-fedora2: + vnum=1
+2020-06-22 14:59:59.960038 +0000 build-fedora2: + read -r ver
+2020-06-22 14:59:59.960067 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 14:59:59.960097 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.963216 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.967487 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 14:59:59.971299 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 14:59:59.974179 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.135082 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.138050 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.141061 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 15:00:00.141875 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 15:00:00.144751 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.5o6cr2.spec
+2020-06-22 15:00:00.268744 +0000 build-fedora2: + rm -f /tmp/tmp.5o6cr2.spec
+2020-06-22 15:00:00.314026 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2020-06-22 15:00:00.314083 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm
+2020-06-22 15:00:00.343349 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 15:00:00.343436 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 15:00:00.344900 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 15:00:00.347990 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 15:00:00.348822 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 15:00:00.349700 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 15:00:00.352472 +0000 build-fedora2: + tmp_spec=/tmp/tmp.O08DFa.spec
+2020-06-22 15:00:00.353216 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 15:00:00.356006 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.O08DFa.spec
+2020-06-22 15:00:00.359830 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 15:00:00.360067 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 15:00:00.360489 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.364969 +0000 build-fedora2: + read -r ver
+2020-06-22 15:00:00.365013 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 15:00:00.365049 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.369512 +0000 build-fedora2: + vnum=1
+2020-06-22 15:00:00.369736 +0000 build-fedora2: + read -r ver
+2020-06-22 15:00:00.369768 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 15:00:00.369799 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.372934 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.377441 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.381096 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 15:00:00.384006 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.545046 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.547995 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.550990 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 15:00:00.551927 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 15:00:00.555003 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.O08DFa.spec
+2020-06-22 15:00:00.677829 +0000 build-fedora2: + rm -f /tmp/tmp.O08DFa.spec
+2020-06-22 15:00:00.689845 +0000 build-fedora2: if [ -n "pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo" ]; then \
+2020-06-22 15:00:00.689933 +0000 build-fedora2: .cd qubes-src/remote-desktop && ln -f pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm/; \
+2020-06-22 15:00:00.689965 +0000 build-fedora2: else \
+2020-06-22 15:00:00.690002 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/remote-desktop.spec, syntax error?`tput sgr0`"; \
+2020-06-22 15:00:00.690027 +0000 build-fedora2: .exit 1; \
+2020-06-22 15:00:00.690048 +0000 build-fedora2: fi
+2020-06-22 15:00:00.695952 +0000 build-fedora2: cd qubes-src/remote-desktop && echo pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.src.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-remote-desktop
+2020-06-22 15:00:00.725508 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-06-22 15:00:00.725768 +0000 build-fedora2: [ -z "qubes-remote-desktop-4.0.3-1.fc32" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2020-06-22 15:00:00.725814 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-22_14-52-26" \
+2020-06-22 15:00:00.725839 +0000 build-fedora2: .upload \
+2020-06-22 15:00:00.725861 +0000 build-fedora2: ."r4.1" \
+2020-06-22 15:00:00.725927 +0000 build-fedora2: ."qubes-src/remote-desktop" \
+2020-06-22 15:00:00.725957 +0000 build-fedora2: ."qubes-remote-desktop-4.0.3-1.fc32" \
+2020-06-22 15:00:00.725980 +0000 build-fedora2: ."fc32" \
+2020-06-22 15:00:00.726001 +0000 build-fedora2: ."vm" \
+2020-06-22 15:00:00.726023 +0000 build-fedora2: ."current-testing" \
+2020-06-22 15:00:00.726053 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-remote-desktop-vm-fc32-current-testing" \
+2020-06-22 15:00:00.726083 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-remote-desktop-vm-fc32-current"
+2020-06-22 15:00:00.768149 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-22 15:00:00.768385 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 15:00:00.770011 +0000 build-fedora2: ++ basename qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in
+2020-06-22 15:00:00.773006 +0000 build-fedora2: + [[ xremote-desktop.spec.in == \x\.\i\n ]]
+2020-06-22 15:00:00.773055 +0000 build-fedora2: + '[' -r qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in ']'
+2020-06-22 15:00:00.773807 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-22 15:00:00.776945 +0000 build-fedora2: + tmp_spec=/tmp/tmp.dz0G4i.spec
+2020-06-22 15:00:00.777891 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 15:00:00.781111 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in /tmp/tmp.dz0G4i.spec
+2020-06-22 15:00:00.784495 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-22 15:00:00.785001 +0000 build-fedora2: + '[' -z qubes-src/remote-desktop ']'
+2020-06-22 15:00:00.785164 +0000 build-fedora2: + cp qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.789905 +0000 build-fedora2: + read -r ver
+2020-06-22 15:00:00.789949 +0000 build-fedora2: + '[' x = x ']'
+2020-06-22 15:00:00.789984 +0000 build-fedora2: + sed -i 's|@VERSION@|4.0.3|g' qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.794438 +0000 build-fedora2: + vnum=1
+2020-06-22 15:00:00.794481 +0000 build-fedora2: + read -r ver
+2020-06-22 15:00:00.794511 +0000 build-fedora2: + '[' -e qubes-src/remote-desktop/rel ']'
+2020-06-22 15:00:00.794731 +0000 build-fedora2: + grep -q @REL@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.797877 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.802272 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.805861 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2020-06-22 15:00:00.809213 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/remote-desktop qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.971289 +0000 build-fedora2: + cat qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.973997 +0000 build-fedora2: + rm -rf qubes-src/remote-desktop/rpm_spec/remote-desktop.spec.in.tmp
+2020-06-22 15:00:00.977266 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-22 15:00:00.978100 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-22 15:00:00.981112 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.dz0G4i.spec
+2020-06-22 15:00:01.103823 +0000 build-fedora2: + rm -f /tmp/tmp.dz0G4i.spec
+2020-06-22 15:00:14.951330 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.1-remote-desktop-vm-fc32-current-testing does not exist, initializing with the current state
+2020-06-22 15:00:14.951441 +0000 build-fedora2: WARNING: failed to add r4.1-fc32-cur-test label to issue 25: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-06-22 15:00:14.978167 +0000 build-fedora2: 
+2020-06-22 15:00:14.978718 +0000 build-fedora2: Makefile:793: update target 'internal-update-repo-current-testing.vm.fc32' due to: internal-update-repo-current-testing.vm.fc32.remote-desktop
+2020-06-22 15:00:14.978761 +0000 build-fedora2: true
+2020-06-22 15:00:14.982518 +0000 build-fedora2: Makefile:872: target 'post-update-repo-current-testing' does not exist
+2020-06-22 15:00:14.982817 +0000 build-fedora2: for dist in  fc32; do \
+2020-06-22 15:00:14.982852 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-06-22 15:00:14.982880 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2020-06-22 15:00:14.982907 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2020-06-22 15:00:14.982928 +0000 build-fedora2: .else \
+2020-06-22 15:00:14.982954 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.1"; \
+2020-06-22 15:00:14.982975 +0000 build-fedora2: .fi; \
+2020-06-22 15:00:14.983001 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-06-22 15:00:14.983023 +0000 build-fedora2: done; \
+2020-06-22 15:00:14.983045 +0000 build-fedora2: pkgset_dist= ; \
+2020-06-22 15:00:14.983066 +0000 build-fedora2: for dist in ; do \
+2020-06-22 15:00:14.983090 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-06-22 15:00:14.983112 +0000 build-fedora2: done; \
+2020-06-22 15:00:14.983134 +0000 build-fedora2: for dist in fc32; do \
+2020-06-22 15:00:14.983158 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-06-22 15:00:14.983178 +0000 build-fedora2: done; \
+2020-06-22 15:00:14.983205 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-06-22 15:00:14.983230 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2020-06-22 15:00:14.983258 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-06-22 15:00:14.983285 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2020-06-22 15:00:14.983317 +0000 build-fedora2: done
+2020-06-22 15:00:15.019938 +0000 build-fedora2: which: no mkmetalink in (/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/user/builder-r4.1/qubes-src/builder-rpm/tools)
+2020-06-22 15:00:15.029454 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2020-06-22 15:00:15.162040 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2020-06-22 15:00:15.331031 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2020-06-22 15:00:15.450078 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2020-06-22 15:00:20.987260 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2020-06-22 15:00:28.969268 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2020-06-22 15:00:34.157900 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2020-06-22 15:00:34.592083 +0000 build-fedora2: Done.
+2020-06-22 15:00:34.602186 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum ~/builder-r4.1/qubes-src/linux-yum
+2020-06-22 15:00:34.605835 +0000 build-fedora2: Syncing r4.1...
+2020-06-22 15:00:48.993232 +0000 build-fedora2: sending incremental file list
+2020-06-22 15:00:49.408385 +0000 build-fedora2: .d..t...... current-testing/dom0/fc31/
+2020-06-22 15:00:49.408497 +0000 build-fedora2: .d..t...... current-testing/vm/
+2020-06-22 15:00:49.408910 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/
+2020-06-22 15:00:49.409381 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/
+2020-06-22 15:00:49.409924 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/
+2020-06-22 15:00:49.410924 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/
+2020-06-22 15:00:49.411105 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/
+2020-06-22 15:00:49.411876 +0000 build-fedora2: cd+++++++++ current-testing/vm/fc32/
+2020-06-22 15:00:49.412745 +0000 build-fedora2: cd+++++++++ current-testing/vm/fc32/rpm/
+2020-06-22 15:00:49.412964 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-remote-desktop-4.0.3-1.fc32.src.rpm
+2020-06-22 15:00:49.414247 +0000 build-fedora2: .         11,636 100%    0.00kB/s    0:00:00  .         11,636 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=55/122)
+2020-06-22 15:00:49.414303 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-remote-desktop-4.0.3-1.fc32.x86_64.buildinfo
+2020-06-22 15:00:49.414344 +0000 build-fedora2: .          4,245 100%    4.05MB/s    0:00:00  .          4,245 100%    4.05MB/s    0:00:00 (xfr#2, to-chk=54/122)
+2020-06-22 15:00:49.414492 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-remote-desktop-4.0.3-1.fc32.x86_64.rpm
+2020-06-22 15:00:49.414721 +0000 build-fedora2: .         10,036 100%    9.57MB/s    0:00:00  .         10,036 100%    9.57MB/s    0:00:00 (xfr#3, to-chk=53/122)
+2020-06-22 15:00:49.415695 +0000 build-fedora2: .d..t...... current/dom0/fc31/
+2020-06-22 15:00:49.415741 +0000 build-fedora2: .d..t...... current/vm/centos7/
+2020-06-22 15:00:49.415790 +0000 build-fedora2: .d..t...... current/vm/centos8/
+2020-06-22 15:00:49.415816 +0000 build-fedora2: .d..t...... current/vm/fc29/
+2020-06-22 15:00:49.415839 +0000 build-fedora2: .d..t...... current/vm/fc30/
+2020-06-22 15:00:49.415862 +0000 build-fedora2: .d..t...... current/vm/fc31/
+2020-06-22 15:00:49.416054 +0000 build-fedora2: .d..t...... security-testing/dom0/fc31/
+2020-06-22 15:00:49.416091 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/
+2020-06-22 15:00:49.416116 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/
+2020-06-22 15:00:49.416141 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/
+2020-06-22 15:00:49.416165 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/
+2020-06-22 15:00:49.416188 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/
+2020-06-22 15:00:57.737764 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc29...
+2020-06-22 15:00:57.931010 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.026337 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.026461 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.123970 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc31...
+2020-06-22 15:00:58.124200 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.194174 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.194318 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.219360 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos7...
+2020-06-22 15:00:58.219830 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.219872 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.326836 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.402982 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.403099 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.421517 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos8...
+2020-06-22 15:00:58.421920 +0000 build-fedora2: 15:00:58: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.517428 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.517748 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.517793 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.613876 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc29...
+2020-06-22 15:00:58.613987 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.719071 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.719322 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.792847 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.793054 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.821004 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc30...
+2020-06-22 15:00:58.916144 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.916282 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:58.916347 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.013152 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc31...
+2020-06-22 15:00:59.013294 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.109983 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.110118 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.228835 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.228920 +0000 build-fedora2: 15:00:59: posix_spawn avoided (fd close requested) 
+2020-06-22 15:00:59.253781 +0000 build-fedora2: Done.
+2020-06-22 15:01:02.382403 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc29...
+2020-06-22 15:01:02.518935 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.519000 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.617328 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.617410 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.756116 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2020-06-22 15:01:02.880772 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.978746 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:02.978828 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.075980 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2020-06-22 15:01:03.076205 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.265371 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.362405 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.362452 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.449727 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2020-06-22 15:01:03.449777 +0000 build-fedora2: 15:01:03: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.457718 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.457766 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.573335 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.573436 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.666961 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2020-06-22 15:01:03.761168 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.889435 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.889483 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:03.898162 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2020-06-22 15:01:03.898209 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.195121 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.296846 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2020-06-22 15:01:04.296932 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.296965 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.296993 +0000 build-fedora2: 15:01:04: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.556979 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.557032 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.557061 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.657207 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2020-06-22 15:01:04.657255 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.753434 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.866132 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.866180 +0000 build-fedora2: 15:01:05: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:04.964485 +0000 build-fedora2: Done.
+2020-06-22 15:01:08.109829 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc29...
+2020-06-22 15:01:08.245143 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.342519 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc31...
+2020-06-22 15:01:08.342886 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.342948 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.342977 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.438154 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.533213 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos7...
+2020-06-22 15:01:08.533409 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.533464 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.533496 +0000 build-fedora2: 15:01:08: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.629243 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.629295 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.629324 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.693944 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos8...
+2020-06-22 15:01:08.693993 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.724309 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.821848 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.821960 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.821999 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:08.918869 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc29...
+2020-06-22 15:01:08.918917 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.015245 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc30...
+2020-06-22 15:01:09.015301 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.015331 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.015358 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.110328 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.110394 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.110426 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.207722 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc31...
+2020-06-22 15:01:09.207800 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.274123 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.303243 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.303312 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.303360 +0000 build-fedora2: 15:01:09: posix_spawn avoided (fd close requested) 
+2020-06-22 15:01:09.406073 +0000 build-fedora2: Done.
+2020-06-22 15:01:09.406143 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum
+2020-06-22 15:01:09.406196 +0000 build-fedora2: Makefile:778: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc32 post-update-repo-current-testing
+2020-06-22 15:01:09.406222 +0000 build-fedora2: true
+2020-06-22 15:01:09.411159 +0000 build-fedora2: > done
+2020-06-22 15:01:09.411235 +0000 > closing log
