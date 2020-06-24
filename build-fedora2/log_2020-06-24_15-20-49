@@ -1,0 +1,658 @@
+2020-06-24 15:20:49.803156 +0000 > starting log
+2020-06-24 15:20:49.805517 +0000 build-fedora2: > starting build with log
+2020-06-24 15:20:49.805588 +0000 build-fedora2: >> make args: DISTS_VM= fc32 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-fc32=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-24_15-17-43 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2020-06-24 15:20:49.805619 +0000 build-fedora2: >> MAKEFLAGS=
+2020-06-24 15:20:49.805642 +0000 build-fedora2: >> COMPONENTS=tunnel
+2020-06-24 15:20:49.805664 +0000 build-fedora2: >> DISTS_VM=
+2020-06-24 15:20:49.805686 +0000 build-fedora2: >> DIST_DOM0=
+2020-06-24 15:20:49.805712 +0000 build-fedora2: >> qubes-builder 138cc6fbca8c49d94b1e35a7f8898e85e0721113
+2020-06-24 15:20:49.805953 +0000 build-fedora2: >> qubes-builder/qubes-src/tunnel 9f3ee0bcaa6f76ff03cfb8b30962c2284bd5b3ce
+2020-06-24 15:20:49.805992 +0000 build-fedora2: !! pkgs/vm-fc29/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806021 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/qubes-tunnel-1.4.0-1.fc29.x86_64.rpm
+2020-06-24 15:20:49.806048 +0000 build-fedora2: !! pkgs/vm-fc29/x86_64/qubes-tunnel-1.4.1-1.fc29.x86_64.rpm
+2020-06-24 15:20:49.806072 +0000 build-fedora2: !! pkgs/vm-fc30/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806098 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-tunnel-1.4.0-1.fc30.x86_64.rpm
+2020-06-24 15:20:49.806124 +0000 build-fedora2: !! pkgs/vm-fc30/x86_64/qubes-tunnel-1.4.1-1.fc30.x86_64.rpm
+2020-06-24 15:20:49.806148 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806174 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-tunnel-1.4.0-1.fc31.x86_64.rpm
+2020-06-24 15:20:49.806200 +0000 build-fedora2: !! pkgs/vm-fc31/x86_64/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2020-06-24 15:20:49.806225 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm
+2020-06-24 15:20:49.806251 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2020-06-24 15:20:49.806277 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm
+2020-06-24 15:20:49.806301 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806339 +0000 build-fedora2: 319ed0510c610b1124bdd08910bce3aeb7bea62393669e8fd69afc3b5a97bf5b989ce88875fd06803a7db6398f7f9c2887fb575ef4e870dbff4424e3574b16e8  pkgs/vm-fc29/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806382 +0000 build-fedora2: f5b4a67db09cf3e7b4520afd70a7d256c977fcdc93205ecf77e945337252e9440d0806c78119d8e44241839e9623c622f0580c5336d955dd5ad13b5ebf8bd7d9  pkgs/vm-fc29/x86_64/qubes-tunnel-1.4.0-1.fc29.x86_64.rpm
+2020-06-24 15:20:49.806425 +0000 build-fedora2: b2b544157787b30e9684ac249aec167eada39f1e42ae50db8de99a57b3679b1fce0796b0f511b35320b1ae001715aafd3a78aa345c79eb1d3ea6af8f269214cc  pkgs/vm-fc29/x86_64/qubes-tunnel-1.4.1-1.fc29.x86_64.rpm
+2020-06-24 15:20:49.806466 +0000 build-fedora2: 02b8487cf5d856cd74e191887b25be61366daddde875bafdecd17d9be7ab983920c169c9b27d928dc5d76f23d64847cd4e1ca4eb1e8f73a66ddaa97cd1e98f63  pkgs/vm-fc30/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806508 +0000 build-fedora2: 67dc3fc82d257f4f31c1102c5b2f1c5ce78304b43cc478fa540c054c719a53a99a1ea350aa7b93a4619756d87fcd2720457a4e66aeab5f6fb15e3ac6acd57dc2  pkgs/vm-fc30/x86_64/qubes-tunnel-1.4.0-1.fc30.x86_64.rpm
+2020-06-24 15:20:49.806550 +0000 build-fedora2: c0a44db65882194dee9b0789f839d6cdc7433474f80aeaf6b774e8cd32baf0f6175948c749501aaacb7ed13056eee9f1b049bae4eac2b9ff9d8ba872f2f6cd26  pkgs/vm-fc30/x86_64/qubes-tunnel-1.4.1-1.fc30.x86_64.rpm
+2020-06-24 15:20:49.806590 +0000 build-fedora2: c3142ed4e3a74a5d0981f24aa8834e3e44b2599c523f6a22a2ccb81b44d9fc1a359a01ccfcb57da0679dd0746934e6b1c3646562c331b0a6c79f75ffac93f018  pkgs/vm-fc31/qubes-tunnel.spec.list
+2020-06-24 15:20:49.806701 +0000 build-fedora2: fc3392df55fbdc3eed43b8307c823bb022c9f021207826a8db8bd06b67ebe0eac730b9e78b16af3dafd074a0866e34c4fa68e6c3ddc8c0631dd2a1ed35f225ea  pkgs/vm-fc31/x86_64/qubes-tunnel-1.4.0-1.fc31.x86_64.rpm
+2020-06-24 15:20:49.806953 +0000 build-fedora2: 44262d697eec66e2a12ef081c20f53029bb785008a91eba1ade6d9bfbdc3face832d27df9646d194cb6f0d377e739c768c10a1ac4dc72b8c4364be6f0e728866  pkgs/vm-fc31/x86_64/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2020-06-24 15:20:49.807021 +0000 build-fedora2: 2d408a54788ebcb68c841ffd734eae331e19181c6ef3259d2ffcc431edcaf7dde488ddd6695e0231993d1a6ca75640dcfb620a755e684e1f40bedf003fa529f9  pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm
+2020-06-24 15:20:49.807068 +0000 build-fedora2: 6093fec04c3df147342aab906f21cbc3416a7d1d7872ec94cac08c2e89a7f00456fbce96cd3076144b6c109d74289ed31fddb30d9402f7c56f6a987de688cb65  pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2020-06-24 15:20:49.807110 +0000 build-fedora2: 9cddf403ca5253772185fa5acf97510bc0bcc31bed180875f32d420dcae9c57d1322ef01967b4566dbcccac11a58113493cea785d792317ab9dbfa8e943e80fd  pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm
+2020-06-24 15:20:49.807151 +0000 build-fedora2: e9a96c03af847ea2abdeda63305e04649129a37a41b69f578b8bc4ba5f5089e85fd4545a1fe6f2b907cb4083c1926ceae0c9a9047f91a0daaada77b878d58ae9  pkgs/vm-fc32/qubes-tunnel.spec.list
+2020-06-24 15:20:49.807182 +0000 build-fedora2: ================================================================================
+2020-06-24 15:20:49.807213 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2020-06-24 15:20:49.807243 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2020-06-24 15:20:49.807271 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2020-06-24 15:20:49.807300 +0000 build-fedora2: ================================================================================
+2020-06-24 15:20:49.807322 +0000 build-fedora2: DISTS_VM:
+2020-06-24 15:20:49.807346 +0000 build-fedora2:      fc29, fc30, fc31, fc32,
+2020-06-24 15:20:49.807367 +0000 build-fedora2: DISTS_ALL:
+2020-06-24 15:20:49.807391 +0000 build-fedora2:      vm-fc29, vm-fc30, vm-fc31, vm-fc32,
+2020-06-24 15:20:49.807413 +0000 build-fedora2: DIST_DOM0:
+2020-06-24 15:20:49.807433 +0000 build-fedora2:     
+2020-06-24 15:20:49.807455 +0000 build-fedora2: BUILDER_PLUGINS:
+2020-06-24 15:20:49.807481 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2020-06-24 15:20:49.808128 +0000 build-fedora2: COMPONENTS:
+2020-06-24 15:20:49.808180 +0000 build-fedora2:      tunnel,
+2020-06-24 15:20:49.808205 +0000 build-fedora2: GIT_REPOS:
+2020-06-24 15:20:49.808228 +0000 build-fedora2:      qubes-src/tunnel,
+2020-06-24 15:20:49.808250 +0000 build-fedora2: TEMPLATE:
+2020-06-24 15:20:49.808271 +0000 build-fedora2:     
+2020-06-24 15:20:49.808293 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2020-06-24 15:20:49.808314 +0000 build-fedora2:     
+2020-06-24 15:20:49.808335 +0000 build-fedora2: TEMPLATE_ALIAS:
+2020-06-24 15:20:49.808355 +0000 build-fedora2:     
+2020-06-24 15:20:49.808377 +0000 build-fedora2: TEMPLATE_LABEL:
+2020-06-24 15:20:49.808397 +0000 build-fedora2:     
+2020-06-24 15:20:49.808419 +0000 build-fedora2: > running make
+2020-06-24 15:20:49.840527 +0000 build-fedora2: Makefile:267: target 'sign.vm.fc32.tunnel' does not exist
+2020-06-24 15:20:49.840680 +0000 build-fedora2: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-06-24 15:20:49.840915 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2020-06-24 15:20:49.840958 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-06-24 15:20:49.840990 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-06-24 15:20:49.841018 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then
+2020-06-24 15:20:49.841052 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2020-06-24 15:20:49.841118 +0000 build-fedora2: fi
+2020-06-24 15:20:49.841148 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-06-24 15:20:49.841175 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2020-06-24 15:20:49.841199 +0000 build-fedora2: ..DIST=fc32 \
+2020-06-24 15:20:49.841222 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2020-06-24 15:20:49.841246 +0000 build-fedora2: ..COMPONENT=tunnel \
+2020-06-24 15:20:49.841268 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2020-06-24 15:20:49.841290 +0000 build-fedora2: ..sign || exit 1; \
+2020-06-24 15:20:49.841314 +0000 build-fedora2: elif [ -d qubes-src/tunnel/rpm ]; then \
+2020-06-24 15:20:49.841339 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2020-06-24 15:20:49.841366 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2020-06-24 15:20:49.841394 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-06-24 15:20:49.841418 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-06-24 15:20:49.841440 +0000 build-fedora2: ..fi ;\
+2020-06-24 15:20:49.841462 +0000 build-fedora2: .done ; \
+2020-06-24 15:20:49.841486 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2020-06-24 15:20:49.841509 +0000 build-fedora2: ..echo "--> Signing..."; \
+2020-06-24 15:20:49.841534 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-06-24 15:20:49.841558 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2020-06-24 15:20:49.841583 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-06-24 15:20:49.841604 +0000 build-fedora2: ..fi; \
+2020-06-24 15:20:49.841631 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-06-24 15:20:49.841659 +0000 build-fedora2: .fi; \
+2020-06-24 15:20:49.841697 +0000 build-fedora2: fi
+2020-06-24 15:20:49.877680 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:49.877978 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:49.879112 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:49.882278 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:49.882321 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:49.883256 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:49.889283 +0000 build-fedora2: + tmp_spec=/tmp/tmp.NYIjg3.spec
+2020-06-24 15:20:49.889375 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:49.893567 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.NYIjg3.spec
+2020-06-24 15:20:49.897473 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:49.898284 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:49.899111 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.904356 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:49.904406 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:49.904442 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.909340 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:49.909388 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:49.910138 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:49.910180 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.914579 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.918986 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.922132 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.925304 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:49.928237 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:49.929049 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:49.932202 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.NYIjg3.spec
+2020-06-24 15:20:50.061373 +0000 build-fedora2: + rm -f /tmp/tmp.NYIjg3.spec
+2020-06-24 15:20:50.068627 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2020-06-24 15:20:50.068933 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2020-06-24 15:20:50.068980 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2020-06-24 15:20:50.069022 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-06-24 15:20:50.069063 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "/tmp/key_04A8F986B97FBCB838F08C305FE4986AD0941E87"; \
+2020-06-24 15:20:50.069089 +0000 build-fedora2: fi
+2020-06-24 15:20:50.100473 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:50.100576 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:50.101923 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:50.105051 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:50.105100 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:50.105936 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:50.109027 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Q82QFE.spec
+2020-06-24 15:20:50.110039 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:50.113087 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.Q82QFE.spec
+2020-06-24 15:20:50.116472 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:50.116565 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:50.117035 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.121628 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:50.121674 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:50.121708 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.126273 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:50.126329 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:50.126361 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:50.126390 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.129990 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.134296 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.137590 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.140701 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.144695 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:50.146544 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:50.150059 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Q82QFE.spec
+2020-06-24 15:20:50.376472 +0000 build-fedora2: + rm -f /tmp/tmp.Q82QFE.spec
+2020-06-24 15:20:50.789984 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:196: update target 'sign' due to: sign-prep
+2020-06-24 15:20:50.790119 +0000 build-fedora2: cd qubes-src/tunnel && for pkg in pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo ; do \
+2020-06-24 15:20:50.790158 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2020-06-24 15:20:50.790204 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2020-06-24 15:20:50.790230 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2020-06-24 15:20:50.790257 +0000 build-fedora2: .elif ! rpm -K $pkg | grep -qi pgp; then \
+2020-06-24 15:20:50.790293 +0000 build-fedora2: ..setsid -w rpmsign  --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2020-06-24 15:20:50.790318 +0000 build-fedora2: .fi; \
+2020-06-24 15:20:50.790339 +0000 build-fedora2: done
+2020-06-24 15:20:50.858447 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:50.859380 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:50.862601 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:50.866952 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:50.867002 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:50.869498 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:50.875703 +0000 build-fedora2: + tmp_spec=/tmp/tmp.HnQY1h.spec
+2020-06-24 15:20:50.878504 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:50.884642 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.HnQY1h.spec
+2020-06-24 15:20:50.890130 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:50.890685 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:50.891090 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.898637 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:50.898681 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:50.898715 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.906296 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:50.906345 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:50.906373 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:50.906403 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.913599 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.922001 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.926632 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.932631 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:50.942681 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:50.943659 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:50.948637 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.HnQY1h.spec
+2020-06-24 15:20:51.173297 +0000 build-fedora2: + rm -f /tmp/tmp.HnQY1h.spec
+2020-06-24 15:20:52.054150 +0000 build-fedora2: pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm:
+2020-06-24 15:20:52.060518 +0000 build-fedora2: Error while vchan send, exiting
+2020-06-24 15:20:53.058092 +0000 build-fedora2: pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm:
+2020-06-24 15:20:53.532420 +0000 build-fedora2: Makefile:818: target 'internal-update-repo-current-testing.vm.fc32.tunnel' does not exist
+2020-06-24 15:20:53.532495 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc32_BASEDIR"; \
+2020-06-24 15:20:53.532525 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then \
+2020-06-24 15:20:53.532558 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-06-24 15:20:53.532584 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-06-24 15:20:53.532606 +0000 build-fedora2: fi; \
+2020-06-24 15:20:53.532632 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2020-06-24 15:20:53.532656 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2020-06-24 15:20:53.532676 +0000 build-fedora2: else \
+2020-06-24 15:20:53.532701 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2020-06-24 15:20:53.532929 +0000 build-fedora2: fi; \
+2020-06-24 15:20:53.532967 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2020-06-24 15:20:53.532995 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... "; \
+2020-06-24 15:20:53.533019 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2020-06-24 15:20:53.533048 +0000 build-fedora2: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2020-06-24 15:20:53.533073 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2020-06-24 15:20:53.533098 +0000 build-fedora2: ...echo "no version tag"; \
+2020-06-24 15:20:53.533119 +0000 build-fedora2: ...exit 0; \
+2020-06-24 15:20:53.533141 +0000 build-fedora2: ..fi; \
+2020-06-24 15:20:53.533163 +0000 build-fedora2: .fi; \
+2020-06-24 15:20:53.533189 +0000 build-fedora2: .if [ "tunnel" = linux-template-builder ]; then
+2020-06-24 15:20:53.533219 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2020-06-24 15:20:53.533242 +0000 build-fedora2: fi
+2020-06-24 15:20:53.533292 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 get-var GET_VAR=PACKAGE_LIST); \
+2020-06-24 15:20:53.533321 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2020-06-24 15:20:53.533345 +0000 build-fedora2: ..echo "no packages."; \
+2020-06-24 15:20:53.533366 +0000 build-fedora2: ..exit 0; \
+2020-06-24 15:20:53.533386 +0000 build-fedora2: .fi; \
+2020-06-24 15:20:53.533412 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm \
+2020-06-24 15:20:53.533438 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/tunnel` \
+2020-06-24 15:20:53.533461 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2020-06-24 15:20:53.533485 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2020-06-24 15:20:53.533514 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2020-06-24 15:20:53.533548 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-`basename qubes-src/tunnel` \
+2020-06-24 15:20:53.533583 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-24_15-17-43 \
+2020-06-24 15:20:53.533608 +0000 build-fedora2: ..update-repo || exit 1; \
+2020-06-24 15:20:53.533637 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-06-24 15:20:53.533663 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
+2020-06-24 15:20:53.533691 +0000 build-fedora2: .DIST=fc32 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2020-06-24 15:20:53.533903 +0000 build-fedora2: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2020-06-24 15:20:53.533937 +0000 build-fedora2: else \
+2020-06-24 15:20:53.533964 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2020-06-24 15:20:53.533985 +0000 build-fedora2: fi; \
+2020-06-24 15:20:53.534035 +0000 build-fedora2: echo
+2020-06-24 15:20:53.584583 +0000 build-fedora2: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:53.584988 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:53.586169 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:53.589170 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:53.589219 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:53.590164 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:53.594209 +0000 build-fedora2: + tmp_spec=/tmp/tmp.6WQ3hF.spec
+2020-06-24 15:20:53.595008 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:53.598454 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.6WQ3hF.spec
+2020-06-24 15:20:53.602432 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:53.602521 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:53.603414 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.608324 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:53.608368 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:53.608401 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.614337 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:53.614381 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:53.614409 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:53.614438 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.618189 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.623954 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.627260 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.631312 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.634915 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:53.635539 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:53.639029 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.6WQ3hF.spec
+2020-06-24 15:20:53.779391 +0000 build-fedora2: + rm -f /tmp/tmp.6WQ3hF.spec
+2020-06-24 15:20:53.804408 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:53.804569 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:53.806245 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:53.809200 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:53.809918 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:53.810611 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:53.813947 +0000 build-fedora2: + tmp_spec=/tmp/tmp.7ncmC1.spec
+2020-06-24 15:20:53.814706 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:53.817927 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.7ncmC1.spec
+2020-06-24 15:20:53.821326 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:53.821571 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:53.822343 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.827105 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:53.827150 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:53.827213 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.832156 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:53.832208 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:53.832237 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:53.832266 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.835551 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.923478 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.932165 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.935035 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:53.938399 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:53.939255 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:53.942255 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.7ncmC1.spec
+2020-06-24 15:20:54.086438 +0000 build-fedora2: + rm -f /tmp/tmp.7ncmC1.spec
+2020-06-24 15:20:54.148333 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:54.148436 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.149559 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:54.152616 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:54.152666 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:54.153287 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:54.156209 +0000 build-fedora2: + tmp_spec=/tmp/tmp.I87PUb.spec
+2020-06-24 15:20:54.157312 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.160254 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.I87PUb.spec
+2020-06-24 15:20:54.163932 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.164200 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:54.164440 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.169209 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.169254 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:54.169287 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.173933 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:54.173979 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.174007 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:54.174036 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.177582 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.182042 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.185594 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.188590 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.191661 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:54.192450 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.195456 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.I87PUb.spec
+2020-06-24 15:20:54.325395 +0000 build-fedora2: + rm -f /tmp/tmp.I87PUb.spec
+2020-06-24 15:20:54.373949 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2020-06-24 15:20:54.374025 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm
+2020-06-24 15:20:54.405978 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:54.406469 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.407904 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:54.411012 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:54.411062 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:54.411675 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:54.414682 +0000 build-fedora2: + tmp_spec=/tmp/tmp.L8t5pB.spec
+2020-06-24 15:20:54.415515 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.418889 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.L8t5pB.spec
+2020-06-24 15:20:54.422329 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.422418 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:54.423176 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.427566 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.427609 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:54.427643 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.432218 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:54.433150 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.433195 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:54.433227 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.436592 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.480256 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.486034 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.489203 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.493036 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:54.493926 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.496687 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.L8t5pB.spec
+2020-06-24 15:20:54.668973 +0000 build-fedora2: + rm -f /tmp/tmp.L8t5pB.spec
+2020-06-24 15:20:54.680180 +0000 build-fedora2: if [ -n "pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo" ]; then \
+2020-06-24 15:20:54.680266 +0000 build-fedora2: .cd qubes-src/tunnel && ln -f pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm/; \
+2020-06-24 15:20:54.680301 +0000 build-fedora2: else \
+2020-06-24 15:20:54.680336 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2020-06-24 15:20:54.680362 +0000 build-fedora2: .exit 1; \
+2020-06-24 15:20:54.680385 +0000 build-fedora2: fi
+2020-06-24 15:20:54.686461 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-tunnel
+2020-06-24 15:20:54.717082 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-06-24 15:20:54.717143 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.1-1.fc32" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2020-06-24 15:20:54.717183 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2020-06-24_15-17-43" \
+2020-06-24 15:20:54.717209 +0000 build-fedora2: .upload \
+2020-06-24 15:20:54.717231 +0000 build-fedora2: ."r4.1" \
+2020-06-24 15:20:54.717254 +0000 build-fedora2: ."qubes-src/tunnel" \
+2020-06-24 15:20:54.717279 +0000 build-fedora2: ."qubes-tunnel-1.4.1-1.fc32" \
+2020-06-24 15:20:54.717300 +0000 build-fedora2: ."fc32" \
+2020-06-24 15:20:54.717321 +0000 build-fedora2: ."vm" \
+2020-06-24 15:20:54.717343 +0000 build-fedora2: ."current-testing" \
+2020-06-24 15:20:54.717371 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc32-current-testing" \
+2020-06-24 15:20:54.717399 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc32-current"
+2020-06-24 15:20:54.760948 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2020-06-24 15:20:54.761282 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.762418 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2020-06-24 15:20:54.765192 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2020-06-24 15:20:54.766030 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2020-06-24 15:20:54.767450 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2020-06-24 15:20:54.770647 +0000 build-fedora2: + tmp_spec=/tmp/tmp.6LQMeV.spec
+2020-06-24 15:20:54.771389 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.774215 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.6LQMeV.spec
+2020-06-24 15:20:54.778095 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2020-06-24 15:20:54.778964 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2020-06-24 15:20:54.779281 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.783703 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.783929 +0000 build-fedora2: + '[' x = x ']'
+2020-06-24 15:20:54.783966 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.1|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.788275 +0000 build-fedora2: + vnum=1
+2020-06-24 15:20:54.788331 +0000 build-fedora2: + read -r ver
+2020-06-24 15:20:54.788359 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2020-06-24 15:20:54.788388 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.792055 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.797303 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.800693 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.803962 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2020-06-24 15:20:54.807303 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2020-06-24 15:20:54.808267 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2020-06-24 15:20:54.811008 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.6LQMeV.spec
+2020-06-24 15:20:54.947580 +0000 build-fedora2: + rm -f /tmp/tmp.6LQMeV.spec
+2020-06-24 15:20:58.823591 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.1-tunnel-vm-fc32-current-testing does not exist, initializing with the current state
+2020-06-24 15:20:58.823971 +0000 build-fedora2: WARNING: failed to add r4.1-fc32-cur-test label to issue 20: 403 b'{"message":"Must have admin rights to Repository.","documentation_url":"https://developer.github.com/v3/issues/labels/#add-labels-to-an-issue"}'
+2020-06-24 15:20:58.849477 +0000 build-fedora2: 
+2020-06-24 15:20:58.850447 +0000 build-fedora2: Makefile:793: update target 'internal-update-repo-current-testing.vm.fc32' due to: internal-update-repo-current-testing.vm.fc32.tunnel
+2020-06-24 15:20:58.850496 +0000 build-fedora2: true
+2020-06-24 15:20:58.854978 +0000 build-fedora2: Makefile:872: target 'post-update-repo-current-testing' does not exist
+2020-06-24 15:20:58.855024 +0000 build-fedora2: for dist in  fc32; do \
+2020-06-24 15:20:58.855057 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-06-24 15:20:58.855086 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2020-06-24 15:20:58.855133 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2020-06-24 15:20:58.855159 +0000 build-fedora2: .else \
+2020-06-24 15:20:58.855206 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.1"; \
+2020-06-24 15:20:58.855232 +0000 build-fedora2: .fi; \
+2020-06-24 15:20:58.855258 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-06-24 15:20:58.855280 +0000 build-fedora2: done; \
+2020-06-24 15:20:58.855302 +0000 build-fedora2: pkgset_dist= ; \
+2020-06-24 15:20:58.855325 +0000 build-fedora2: for dist in ; do \
+2020-06-24 15:20:58.855349 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-06-24 15:20:58.855371 +0000 build-fedora2: done; \
+2020-06-24 15:20:58.855393 +0000 build-fedora2: for dist in fc32; do \
+2020-06-24 15:20:58.855417 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-06-24 15:20:58.855438 +0000 build-fedora2: done; \
+2020-06-24 15:20:58.855465 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-06-24 15:20:58.855490 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2020-06-24 15:20:58.855518 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-06-24 15:20:58.855545 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2020-06-24 15:20:58.855566 +0000 build-fedora2: done
+2020-06-24 15:20:58.883182 +0000 build-fedora2: which: no mkmetalink in (/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/user/builder-r4.1/qubes-src/builder-rpm/tools)
+2020-06-24 15:20:58.890099 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2020-06-24 15:20:59.080623 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2020-06-24 15:20:59.367436 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2020-06-24 15:20:59.641465 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2020-06-24 15:21:02.479487 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2020-06-24 15:21:07.012086 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2020-06-24 15:21:11.516206 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2020-06-24 15:21:12.061429 +0000 build-fedora2: Done.
+2020-06-24 15:21:12.085416 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum ~/builder-r4.1/qubes-src/linux-yum
+2020-06-24 15:21:12.092471 +0000 build-fedora2: Syncing r4.1...
+2020-06-24 15:21:15.441477 +0000 build-fedora2: sending incremental file list
+2020-06-24 15:21:15.878567 +0000 build-fedora2: .d..t...... current-testing/
+2020-06-24 15:21:15.878943 +0000 build-fedora2: .d..t...... current-testing/dom0/
+2020-06-24 15:21:15.878980 +0000 build-fedora2: .d..t...... current-testing/dom0/fc31/
+2020-06-24 15:21:15.879565 +0000 build-fedora2: .L..t...... current-testing/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2020-06-24 15:21:15.879604 +0000 build-fedora2: .d..t...... current-testing/dom0/fc31/rpm/
+2020-06-24 15:21:15.879632 +0000 build-fedora2: <f..t...... current-testing/dom0/fc31/rpm/.gitignore
+2020-06-24 15:21:15.883653 +0000 build-fedora2: .              6 100%    0.00kB/s    0:00:00  .              6 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=116/125)
+2020-06-24 15:21:15.883924 +0000 build-fedora2: .d..t...... current-testing/vm/
+2020-06-24 15:21:15.884172 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/
+2020-06-24 15:21:15.884333 +0000 build-fedora2: .L..t...... current-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.885049 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/rpm/
+2020-06-24 15:21:15.885406 +0000 build-fedora2: <f..t...... current-testing/vm/centos7/rpm/.gitignore
+2020-06-24 15:21:15.887660 +0000 build-fedora2: .              6 100%    1.46kB/s    0:00:00  .              6 100%    1.17kB/s    0:00:00 (xfr#2, to-chk=107/125)
+2020-06-24 15:21:15.888578 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/
+2020-06-24 15:21:15.888672 +0000 build-fedora2: .L..t...... current-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.889692 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/rpm/
+2020-06-24 15:21:15.889922 +0000 build-fedora2: <f..t...... current-testing/vm/centos8/rpm/.gitignore
+2020-06-24 15:21:15.889963 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#3, to-chk=104/125)
+2020-06-24 15:21:15.889989 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/
+2020-06-24 15:21:15.890017 +0000 build-fedora2: .L..t...... current-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.890041 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/rpm/
+2020-06-24 15:21:15.890067 +0000 build-fedora2: <f..t...... current-testing/vm/fc29/rpm/.gitignore
+2020-06-24 15:21:15.891668 +0000 build-fedora2: .              6 100%    0.73kB/s    0:00:00  .              6 100%    0.73kB/s    0:00:00 (xfr#4, to-chk=101/125)
+2020-06-24 15:21:15.891716 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/
+2020-06-24 15:21:15.891956 +0000 build-fedora2: .L..t...... current-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.891989 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/rpm/
+2020-06-24 15:21:15.892017 +0000 build-fedora2: <f..t...... current-testing/vm/fc30/rpm/.gitignore
+2020-06-24 15:21:15.893972 +0000 build-fedora2: .              6 100%    0.59kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#5, to-chk=87/125)
+2020-06-24 15:21:15.894319 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/
+2020-06-24 15:21:15.894473 +0000 build-fedora2: .L..t...... current-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.895937 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/rpm/
+2020-06-24 15:21:15.895985 +0000 build-fedora2: <f..t...... current-testing/vm/fc31/rpm/.gitignore
+2020-06-24 15:21:15.896018 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#6, to-chk=72/125)
+2020-06-24 15:21:15.896064 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/
+2020-06-24 15:21:15.896090 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/rpm/
+2020-06-24 15:21:15.896236 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-tunnel-1.4.1-1.fc32.src.rpm
+2020-06-24 15:21:15.896278 +0000 build-fedora2: .         32,768  97%    2.60MB/s    0:00:00  .         33,522 100%    2.66MB/s    0:00:00 (xfr#7, to-chk=55/125)
+2020-06-24 15:21:15.896311 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2020-06-24 15:21:15.896497 +0000 build-fedora2: .          3,753 100%  281.93kB/s    0:00:00  .          3,753 100%  281.93kB/s    0:00:00 (xfr#8, to-chk=54/125)
+2020-06-24 15:21:15.896540 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-tunnel-1.4.1-1.fc32.x86_64.rpm
+2020-06-24 15:21:15.897320 +0000 build-fedora2: .         12,190 100%  915.72kB/s    0:00:00  .         12,190 100%  915.72kB/s    0:00:00 (xfr#9, to-chk=53/125)
+2020-06-24 15:21:15.897356 +0000 build-fedora2: .d..t...... current/
+2020-06-24 15:21:15.897380 +0000 build-fedora2: .d..t...... current/dom0/
+2020-06-24 15:21:15.897420 +0000 build-fedora2: .d..t...... current/dom0/fc31/
+2020-06-24 15:21:15.897450 +0000 build-fedora2: .L..t...... current/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2020-06-24 15:21:15.897474 +0000 build-fedora2: .d..t...... current/dom0/fc31/rpm/
+2020-06-24 15:21:15.897500 +0000 build-fedora2: <f..t...... current/dom0/fc31/rpm/.gitignore
+2020-06-24 15:21:15.899560 +0000 build-fedora2: .              6 100%    0.37kB/s    0:00:00  .              6 100%    0.37kB/s    0:00:00 (xfr#10, to-chk=47/125)
+2020-06-24 15:21:15.899606 +0000 build-fedora2: .d..t...... current/vm/
+2020-06-24 15:21:15.899634 +0000 build-fedora2: .d..t...... current/vm/centos7/
+2020-06-24 15:21:15.899662 +0000 build-fedora2: .L..t...... current/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.899686 +0000 build-fedora2: .d..t...... current/vm/centos7/rpm/
+2020-06-24 15:21:15.899711 +0000 build-fedora2: <f..t...... current/vm/centos7/rpm/.gitignore
+2020-06-24 15:21:15.901699 +0000 build-fedora2: .              6 100%    0.33kB/s    0:00:00  .              6 100%    0.33kB/s    0:00:00 (xfr#11, to-chk=39/125)
+2020-06-24 15:21:15.901929 +0000 build-fedora2: .d..t...... current/vm/centos8/
+2020-06-24 15:21:15.902510 +0000 build-fedora2: .L..t...... current/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.902550 +0000 build-fedora2: .d..t...... current/vm/centos8/rpm/
+2020-06-24 15:21:15.902578 +0000 build-fedora2: <f..t...... current/vm/centos8/rpm/.gitignore
+2020-06-24 15:21:15.902607 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#12, to-chk=36/125)
+2020-06-24 15:21:15.902630 +0000 build-fedora2: .d..t...... current/vm/fc29/
+2020-06-24 15:21:15.902658 +0000 build-fedora2: .L..t...... current/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.902681 +0000 build-fedora2: .d..t...... current/vm/fc29/rpm/
+2020-06-24 15:21:15.902705 +0000 build-fedora2: <f..t...... current/vm/fc29/rpm/.gitignore
+2020-06-24 15:21:15.903671 +0000 build-fedora2: .              6 100%    0.29kB/s    0:00:00  .              6 100%    0.29kB/s    0:00:00 (xfr#13, to-chk=33/125)
+2020-06-24 15:21:15.904017 +0000 build-fedora2: .d..t...... current/vm/fc30/
+2020-06-24 15:21:15.904071 +0000 build-fedora2: .L..t...... current/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.904098 +0000 build-fedora2: .d..t...... current/vm/fc30/rpm/
+2020-06-24 15:21:15.904267 +0000 build-fedora2: <f..t...... current/vm/fc30/rpm/.gitignore
+2020-06-24 15:21:15.906100 +0000 build-fedora2: .              6 100%    0.27kB/s    0:00:00  .              6 100%    0.27kB/s    0:00:00 (xfr#14, to-chk=29/125)
+2020-06-24 15:21:15.906147 +0000 build-fedora2: .d..t...... current/vm/fc31/
+2020-06-24 15:21:15.906178 +0000 build-fedora2: .L..t...... current/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.906203 +0000 build-fedora2: .d..t...... current/vm/fc31/rpm/
+2020-06-24 15:21:15.906228 +0000 build-fedora2: <f..t...... current/vm/fc31/rpm/.gitignore
+2020-06-24 15:21:15.906256 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#15, to-chk=25/125)
+2020-06-24 15:21:15.906279 +0000 build-fedora2: .d..t...... security-testing/
+2020-06-24 15:21:15.906303 +0000 build-fedora2: .d..t...... security-testing/dom0/
+2020-06-24 15:21:15.906327 +0000 build-fedora2: .d..t...... security-testing/dom0/fc31/
+2020-06-24 15:21:15.906351 +0000 build-fedora2: .d..t...... security-testing/dom0/fc31/rpm/
+2020-06-24 15:21:15.906377 +0000 build-fedora2: <f..t...... security-testing/dom0/fc31/rpm/.gitignore
+2020-06-24 15:21:15.907627 +0000 build-fedora2: .              6 100%    0.24kB/s    0:00:00  .              6 100%    0.24kB/s    0:00:00 (xfr#16, to-chk=19/125)
+2020-06-24 15:21:15.907700 +0000 build-fedora2: .d..t...... security-testing/vm/
+2020-06-24 15:21:15.907942 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/
+2020-06-24 15:21:15.907983 +0000 build-fedora2: .L..t...... security-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.908026 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/rpm/
+2020-06-24 15:21:15.908056 +0000 build-fedora2: <f..t...... security-testing/vm/centos7/rpm/.gitignore
+2020-06-24 15:21:15.909701 +0000 build-fedora2: .              6 100%    0.23kB/s    0:00:00  .              6 100%    0.23kB/s    0:00:00 (xfr#17, to-chk=11/125)
+2020-06-24 15:21:15.909932 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/
+2020-06-24 15:21:15.909969 +0000 build-fedora2: .L..t...... security-testing/vm/centos8/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.909995 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/rpm/
+2020-06-24 15:21:15.910022 +0000 build-fedora2: <f..t...... security-testing/vm/centos8/rpm/.gitignore
+2020-06-24 15:21:15.910049 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#18, to-chk=8/125)
+2020-06-24 15:21:15.910073 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/
+2020-06-24 15:21:15.910097 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/rpm/
+2020-06-24 15:21:15.910123 +0000 build-fedora2: <f..t...... security-testing/vm/fc29/rpm/.gitignore
+2020-06-24 15:21:15.911919 +0000 build-fedora2: .              6 100%    0.21kB/s    0:00:00  .              6 100%    0.21kB/s    0:00:00 (xfr#19, to-chk=6/125)
+2020-06-24 15:21:15.911968 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/
+2020-06-24 15:21:15.912000 +0000 build-fedora2: .L..t...... security-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2020-06-24 15:21:15.912026 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/rpm/
+2020-06-24 15:21:15.912052 +0000 build-fedora2: <f..t...... security-testing/vm/fc30/rpm/.gitignore
+2020-06-24 15:21:15.914235 +0000 build-fedora2: .              6 100%    0.20kB/s    0:00:00  .              6 100%    0.20kB/s    0:00:00 (xfr#20, to-chk=3/125)
+2020-06-24 15:21:15.914282 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/
+2020-06-24 15:21:15.914313 +0000 build-fedora2: .L..t...... security-testing/vm/fc31/comps-vm.xml -> comps-vm.xml
+2020-06-24 15:21:15.914339 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/rpm/
+2020-06-24 15:21:15.914365 +0000 build-fedora2: <f..t...... security-testing/vm/fc31/rpm/.gitignore
+2020-06-24 15:21:15.914392 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#21, to-chk=0/125)
+2020-06-24 15:21:26.290517 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc29...
+2020-06-24 15:21:26.380229 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.380325 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.380384 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.380436 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.426055 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc31...
+2020-06-24 15:21:26.556088 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.556162 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.556207 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.556248 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.794340 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos7...
+2020-06-24 15:21:26.794680 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos8...
+2020-06-24 15:21:26.795541 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.795620 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.795676 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.796097 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.804080 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc29...
+2020-06-24 15:21:26.804153 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.804236 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.804299 +0000 build-fedora2: 15:21:26: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.804353 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.926269 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.926351 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.926402 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:26.926448 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.033161 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc30...
+2020-06-24 15:21:27.162667 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc31...
+2020-06-24 15:21:27.163081 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.163160 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.163196 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.163228 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.302679 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.303070 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.303133 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:27.344015 +0000 build-fedora2: Done.
+2020-06-24 15:21:27.344066 +0000 build-fedora2: 15:21:27: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:30.907410 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc29...
+2020-06-24 15:21:31.002023 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2020-06-24 15:21:31.002094 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.002136 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.002174 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.002211 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.428192 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc32...
+2020-06-24 15:21:31.428307 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.428376 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.428424 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.428467 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.535291 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.535380 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.535432 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.535496 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.639234 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2020-06-24 15:21:31.711551 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.711647 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.711706 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.712371 +0000 build-fedora2: 15:21:31: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.736152 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2020-06-24 15:21:31.801693 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.801925 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.917226 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2020-06-24 15:21:31.917324 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:31.917383 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.092383 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.092481 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.092529 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.212494 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2020-06-24 15:21:32.212597 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.528106 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.528196 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.528248 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.528293 +0000 build-fedora2: 15:21:32: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.540080 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2020-06-24 15:21:32.814269 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:32.814354 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.025352 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2020-06-24 15:21:33.025457 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.025564 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.044048 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.044133 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.044185 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.044231 +0000 build-fedora2: 15:21:33: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:33.096195 +0000 build-fedora2: Done.
+2020-06-24 15:21:36.611255 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc29...
+2020-06-24 15:21:36.690616 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc31...
+2020-06-24 15:21:36.690711 +0000 build-fedora2: 15:21:36: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.690969 +0000 build-fedora2: 15:21:36: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.691027 +0000 build-fedora2: 15:21:36: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.691076 +0000 build-fedora2: 15:21:36: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.805220 +0000 build-fedora2: 15:21:36: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.805273 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.805303 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.805329 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.889537 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos7...
+2020-06-24 15:21:36.949607 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.949710 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.984560 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos8...
+2020-06-24 15:21:36.984610 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:36.984640 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.065309 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.065416 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.065560 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.065628 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.171430 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc29...
+2020-06-24 15:21:37.285215 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.285315 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.285370 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.285419 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553046 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc30...
+2020-06-24 15:21:37.553248 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc31...
+2020-06-24 15:21:37.553294 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553325 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553354 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553384 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553412 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553447 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553475 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.553509 +0000 build-fedora2: 15:21:37: posix_spawn avoided (fd close requested) 
+2020-06-24 15:21:37.630309 +0000 build-fedora2: Done.
+2020-06-24 15:21:37.630384 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum
+2020-06-24 15:21:37.630465 +0000 build-fedora2: Makefile:778: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc32 post-update-repo-current-testing
+2020-06-24 15:21:37.630507 +0000 build-fedora2: true
+2020-06-24 15:21:37.637713 +0000 build-fedora2: > done
+2020-06-24 15:21:37.638061 +0000 > closing log
