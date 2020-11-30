@@ -1,0 +1,603 @@
+2020-11-30 13:06:01.811666 +0000 > starting log
+2020-11-30 13:06:01.812878 +0000 build-debian1: > starting build with log
+2020-11-30 13:06:01.813133 +0000 build-debian1: >> make args: DISTS_VM= bullseye buster stretch DIST_DOM0= BUILD_LOGS_URL= app-split-browser-vm-bullseye=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-52-09 app-split-browser-vm-buster=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-54-56 app-split-browser-vm-stretch=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_13-01-08 GIT_URL_app_split_browser=https://github.com/QubesOS-contrib/qubes-app-split-browser sign-all update-repo-current-testing
+2020-11-30 13:06:01.813192 +0000 build-debian1: >> MAKEFLAGS=
+2020-11-30 13:06:01.813248 +0000 build-debian1: >> COMPONENTS=app-split-browser
+2020-11-30 13:06:01.813295 +0000 build-debian1: >> DISTS_VM=
+2020-11-30 13:06:01.813340 +0000 build-debian1: >> DIST_DOM0=
+2020-11-30 13:06:01.813398 +0000 build-debian1: >> qubes-builder 3ed33370d550cab3f994826e0bee289ff1aa4c8e
+2020-11-30 13:06:01.813466 +0000 build-debian1: >> qubes-builder/qubes-src/app-split-browser 2175a0aa2a0a77b32e7e8a9b993d93c9b99637df
+2020-11-30 13:06:01.813532 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser-disp_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:01.813594 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1.debian.tar.xz
+2020-11-30 13:06:01.813654 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1.dsc
+2020-11-30 13:06:01.813715 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:01.813778 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo
+2020-11-30 13:06:01.813915 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes
+2020-11-30 13:06:01.813993 +0000 build-debian1: !! pkgs/vm-bullseye/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.814057 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser-disp_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:01.814120 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1.debian.tar.xz
+2020-11-30 13:06:01.814180 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1.dsc
+2020-11-30 13:06:01.814240 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:01.814302 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo
+2020-11-30 13:06:01.814364 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes
+2020-11-30 13:06:01.814422 +0000 build-debian1: !! pkgs/vm-buster/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.814482 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser-disp_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:01.814544 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1.debian.tar.xz
+2020-11-30 13:06:01.814603 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1.dsc
+2020-11-30 13:06:01.814663 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:01.814726 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo
+2020-11-30 13:06:01.814787 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes
+2020-11-30 13:06:01.814905 +0000 build-debian1: !! pkgs/vm-stretch/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.815023 +0000 build-debian1: 1f27ae28baaa7f2fb4a5d46e4c0d951dbd43059a9384a2be029803601cf614bc236f35d8bebac32ee758af798ffbb61702bc20cb0d337cfc39253a960f44ba19  pkgs/vm-bullseye/qubes-split-browser-disp_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:01.815134 +0000 build-debian1: df487a4fbb26363aaccfcc8376faeb13e0e76b96239dd3b16629f15eae2e0e38b78deb31359bf5bd030eec5a0378752fd075b4216fa7b15bba640b61f3bf9066  pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1.debian.tar.xz
+2020-11-30 13:06:01.815271 +0000 build-debian1: 67d68acb16de9d08de2add4f802a197bbf90d399a6c2b5020cbfc7cd8a122de3ba6ed47dc3e0a1c8e1e41955d1d3c0f5a8056b186b20a59b946a399a842b3f28  pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1.dsc
+2020-11-30 13:06:01.815385 +0000 build-debian1: d7e7ee0804ceccaa70d6c213ed5f5972d0d664a78a2dc6303867bc13454e4e112ef76f1492bf7a6d33f733ea1bae23e6d2cd8430924f65dd8d573ba86f0d9e57  pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:01.815494 +0000 build-debian1: 5ed9139172e97eac1054fcbc1bc2a3061a9f186204a5621af37f570abe69c723b453884378e4a97142a6db55f91bfffe9b07e11dfcd83dceed09981564ab75ab  pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo
+2020-11-30 13:06:01.815603 +0000 build-debian1: 5ae413beef547b512162eb09533b6c85950b28fcb955dc4c13011752d63e946f4af8c4c47dba1c77fb6bdd672f06a0d7958ef42f73230a1e42d7d28d62be669f  pkgs/vm-bullseye/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes
+2020-11-30 13:06:01.815707 +0000 build-debian1: d2a71e2e20dcb695d4d3c79ced067e68bee1edd39ced8fb54f8d4b255c7af87278175374b5a609b2688c11f5fc4b2929f5174c9b25640bf17c612bc963cd797e  pkgs/vm-bullseye/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.815814 +0000 build-debian1: 1f1b704e520eb8985eafa8dfc4b04be0418e5ff5913c8626b4d1fa4455ebb4543fa998f31e654a45d61d1c7e16698513ade7f0dc0728e0730a4c73e612d46871  pkgs/vm-buster/qubes-split-browser-disp_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:01.815983 +0000 build-debian1: 50965d9fa4f7e2e20ebd934ba8734892032c11c7b2f6ff1031ca38816130278275447d6bf3b0bde2018d172d385e3ea12a5f6f2b93e9095facd87a02a023e459  pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1.debian.tar.xz
+2020-11-30 13:06:01.816112 +0000 build-debian1: e09cae5bcd595f5257e7cea5407476396a6f1c403e452021102d64231034ba9ccd01294d451e1df04377f19844f96bcd6105d879ce7cd265d5e17416c3a654c0  pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1.dsc
+2020-11-30 13:06:01.816225 +0000 build-debian1: 743ceafbf9477091c1099629a669157dc9335ca037c123de7d203105b84a92c535ad1b5022e09a46bcf190d1fc2dd7afb297514887468d85f6dc803bfb98a22c  pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:01.816334 +0000 build-debian1: 905a1259ea85ae4f764a3b384274ef918f6ed2c81838fe0a337a27d4f759ffff75268bace16e206cf4bb846889309bf3c960d11adacbc92017a93cab8f218307  pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo
+2020-11-30 13:06:01.816441 +0000 build-debian1: 7b303ada012eb869027903cf3078b5d8a361a533e031929d75b1878ec31190c63bd12f1165e92776f4f9d997ccd0b4511642e89f73eb622381565da9d745d5f0  pkgs/vm-buster/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes
+2020-11-30 13:06:01.816544 +0000 build-debian1: d2a71e2e20dcb695d4d3c79ced067e68bee1edd39ced8fb54f8d4b255c7af87278175374b5a609b2688c11f5fc4b2929f5174c9b25640bf17c612bc963cd797e  pkgs/vm-buster/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.816650 +0000 build-debian1: 3674521ae111566f588ef7e41cf62e4f3c7dfee972b7c50649a47869c51163dcdf95b6d53de35ab859fdae7519c9901695b3c1243cb540a37265104fb854ad52  pkgs/vm-stretch/qubes-split-browser-disp_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:01.817037 +0000 build-debian1: 067ef8d9b7ec3b2e6e90c0c6000059bd24b0d4a95398487a9e3f1c8b47a030b9fdadccd1f88cdf24773d6b53904c1338f91ab23ceefd8a73720ca32f3af26dea  pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1.debian.tar.xz
+2020-11-30 13:06:01.817198 +0000 build-debian1: 13f3508d336427048c5cf799d32b213d4ebaae4427459e2028dd41f4fba058a417cd3b357f4adc245857d1b1f46f3dd9c67327db668ad75b8b28e779d6920982  pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1.dsc
+2020-11-30 13:06:01.817317 +0000 build-debian1: 5799fc61be12b0993c08aff598d63f734a5cae30df204ff3f24bcd99ea9053bf85794e0792052d3497df9954c83f8e5ef53cd803c5c6e2bd472170aba36986ca  pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:01.817429 +0000 build-debian1: 2c74173e4b3a329595a7f7b6ef0e57fedb2f723f173c366f9a427a90483716e0f77d211ea2d29587720d4858a2c02d610751ba17787a7295848b8b425058da97  pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo
+2020-11-30 13:06:01.817577 +0000 build-debian1: db3f4a9a7d4a973a6833bf791449a7fa155aebf0b60f94765c78b3dc4d41c2642ac71423dafb71933258917bf05a323a38ffc83d5b263546ece4fdc28698b60f  pkgs/vm-stretch/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes
+2020-11-30 13:06:01.817691 +0000 build-debian1: d2a71e2e20dcb695d4d3c79ced067e68bee1edd39ced8fb54f8d4b255c7af87278175374b5a609b2688c11f5fc4b2929f5174c9b25640bf17c612bc963cd797e  pkgs/vm-stretch/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:01.817763 +0000 build-debian1: ================================================================================
+2020-11-30 13:06:01.817915 +0000 build-debian1:                            B U I L D   I N F O                                  
+2020-11-30 13:06:01.818003 +0000 build-debian1: Items in red indicate it was automatically generated by configuration file(s)
+2020-11-30 13:06:01.818071 +0000 build-debian1: Items in white indicate it was automatically removed by configuration file(s)
+2020-11-30 13:06:01.818138 +0000 build-debian1: ================================================================================
+2020-11-30 13:06:01.818184 +0000 build-debian1: DISTS_VM:
+2020-11-30 13:06:01.818235 +0000 build-debian1:      stretch, buster, bullseye,
+2020-11-30 13:06:01.818279 +0000 build-debian1: DISTS_ALL:
+2020-11-30 13:06:01.818332 +0000 build-debian1:      vm-bullseye, vm-buster, vm-stretch,
+2020-11-30 13:06:01.818376 +0000 build-debian1: DIST_DOM0:
+2020-11-30 13:06:01.818418 +0000 build-debian1:     
+2020-11-30 13:06:01.818464 +0000 build-debian1: BUILDER_PLUGINS:
+2020-11-30 13:06:01.818524 +0000 build-debian1:      builder-debian, mgmt-salt, contrib-configs, builder-github,
+2020-11-30 13:06:01.818569 +0000 build-debian1: COMPONENTS:
+2020-11-30 13:06:01.818616 +0000 build-debian1:      app-split-browser,
+2020-11-30 13:06:01.818660 +0000 build-debian1: GIT_REPOS:
+2020-11-30 13:06:01.818711 +0000 build-debian1:      qubes-src/app-split-browser,
+2020-11-30 13:06:01.818754 +0000 build-debian1: TEMPLATE:
+2020-11-30 13:06:01.818795 +0000 build-debian1:     
+2020-11-30 13:06:01.818903 +0000 build-debian1: TEMPLATE_FLAVOR_DIR:
+2020-11-30 13:06:01.818955 +0000 build-debian1:     
+2020-11-30 13:06:01.819002 +0000 build-debian1: TEMPLATE_ALIAS:
+2020-11-30 13:06:01.819043 +0000 build-debian1:     
+2020-11-30 13:06:01.819087 +0000 build-debian1: TEMPLATE_LABEL:
+2020-11-30 13:06:01.819128 +0000 build-debian1:     
+2020-11-30 13:06:01.819173 +0000 build-debian1: > running make
+2020-11-30 13:06:01.819235 +0000 build-debian1: Makefile:280: target 'sign.vm.bullseye.app-split-browser' does not exist
+2020-11-30 13:06:01.819418 +0000 build-debian1: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-11-30 13:06:01.819484 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-11-30 13:06:01.819539 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-11-30 13:06:01.819629 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-11-30 13:06:01.819691 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:01.819765 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-11-30 13:06:01.819808 +0000 build-debian1: fi
+2020-11-30 13:06:01.819930 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:01.819989 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-11-30 13:06:01.820082 +0000 build-debian1: ..DIST=bullseye \
+2020-11-30 13:06:01.820136 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-11-30 13:06:01.820187 +0000 build-debian1: ..COMPONENT=app-split-browser \
+2020-11-30 13:06:01.820235 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-11-30 13:06:01.820282 +0000 build-debian1: ..sign || exit 1; \
+2020-11-30 13:06:01.820338 +0000 build-debian1: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2020-11-30 13:06:01.820389 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-11-30 13:06:01.820487 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2020-11-30 13:06:01.820555 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-11-30 13:06:01.820607 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-11-30 13:06:01.820651 +0000 build-debian1: ..fi ;\
+2020-11-30 13:06:01.820696 +0000 build-debian1: .done ; \
+2020-11-30 13:06:01.820745 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-11-30 13:06:01.820794 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-11-30 13:06:01.820902 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-11-30 13:06:01.820963 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-11-30 13:06:01.821019 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-11-30 13:06:01.821063 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:01.821124 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-11-30 13:06:01.821167 +0000 build-debian1: .fi; \
+2020-11-30 13:06:01.821233 +0000 build-debian1: fi
+2020-11-30 13:06:01.821295 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:01.821355 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:01.821426 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:283: target 'sign' does not exist
+2020-11-30 13:06:01.821479 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:01.821547 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:01.821613 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/_amd64.changes; \
+2020-11-30 13:06:01.821658 +0000 build-debian1: else \
+2020-11-30 13:06:01.821723 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:01.821799 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes; \
+2020-11-30 13:06:01.821918 +0000 build-debian1: fi
+2020-11-30 13:06:01.821988 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:01.822084 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:03.521065 +0000 build-debian1: 
+2020-11-30 13:06:03.617247 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo
+2020-11-30 13:06:03.625817 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:05.589277 +0000 build-debian1: 
+2020-11-30 13:06:05.643634 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes
+2020-11-30 13:06:05.697400 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes
+2020-11-30 13:06:05.706369 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:07.513997 +0000 build-debian1: 
+2020-11-30 13:06:07.523303 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-11-30 13:06:07.530109 +0000 build-debian1: Makefile:280: target 'sign.vm.buster.app-split-browser' does not exist
+2020-11-30 13:06:07.530354 +0000 build-debian1: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-11-30 13:06:07.530432 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-11-30 13:06:07.530490 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-11-30 13:06:07.530551 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-11-30 13:06:07.530610 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:07.530683 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-11-30 13:06:07.530731 +0000 build-debian1: fi
+2020-11-30 13:06:07.530791 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:07.530915 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-11-30 13:06:07.530973 +0000 build-debian1: ..DIST=buster \
+2020-11-30 13:06:07.531021 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-11-30 13:06:07.531071 +0000 build-debian1: ..COMPONENT=app-split-browser \
+2020-11-30 13:06:07.531118 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-11-30 13:06:07.531164 +0000 build-debian1: ..sign || exit 1; \
+2020-11-30 13:06:07.531221 +0000 build-debian1: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2020-11-30 13:06:07.531273 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-11-30 13:06:07.531335 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2020-11-30 13:06:07.531395 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-11-30 13:06:07.531446 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-11-30 13:06:07.531490 +0000 build-debian1: ..fi ;\
+2020-11-30 13:06:07.531535 +0000 build-debian1: .done ; \
+2020-11-30 13:06:07.531585 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-11-30 13:06:07.531634 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-11-30 13:06:07.531685 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-11-30 13:06:07.531736 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-11-30 13:06:07.531789 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-11-30 13:06:07.531967 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:07.532048 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-11-30 13:06:07.532094 +0000 build-debian1: .fi; \
+2020-11-30 13:06:07.532136 +0000 build-debian1: fi
+2020-11-30 13:06:07.863356 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:08.022228 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:08.199409 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:283: target 'sign' does not exist
+2020-11-30 13:06:08.199631 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:08.199718 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:08.199792 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/_amd64.changes; \
+2020-11-30 13:06:08.199915 +0000 build-debian1: else \
+2020-11-30 13:06:08.199995 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:08.200094 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes; \
+2020-11-30 13:06:08.200147 +0000 build-debian1: fi
+2020-11-30 13:06:08.507730 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:08.824914 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:10.783780 +0000 build-debian1: 
+2020-11-30 13:06:10.839193 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo
+2020-11-30 13:06:10.847700 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:12.775333 +0000 build-debian1: 
+2020-11-30 13:06:12.831650 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes
+2020-11-30 13:06:12.887445 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes
+2020-11-30 13:06:12.896206 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:14.878258 +0000 build-debian1: 
+2020-11-30 13:06:14.888105 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-11-30 13:06:14.894086 +0000 build-debian1: Makefile:280: target 'sign.vm.stretch.app-split-browser' does not exist
+2020-11-30 13:06:14.894311 +0000 build-debian1: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2020-11-30 13:06:14.894386 +0000 build-debian1: SIGN_KEY=FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA; \
+2020-11-30 13:06:14.894442 +0000 build-debian1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2020-11-30 13:06:14.894503 +0000 build-debian1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2020-11-30 13:06:14.894562 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:14.894637 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-11-30 13:06:14.894750 +0000 build-debian1: fi
+2020-11-30 13:06:14.894816 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:14.894960 +0000 build-debian1: .make --no-print-directory -f Makefile.generic \
+2020-11-30 13:06:14.895010 +0000 build-debian1: ..DIST=stretch \
+2020-11-30 13:06:14.895056 +0000 build-debian1: ..PACKAGE_SET=vm \
+2020-11-30 13:06:14.895107 +0000 build-debian1: ..COMPONENT=app-split-browser \
+2020-11-30 13:06:14.895155 +0000 build-debian1: ..SIGN_KEY=$SIGN_KEY \
+2020-11-30 13:06:14.895201 +0000 build-debian1: ..sign || exit 1; \
+2020-11-30 13:06:14.895257 +0000 build-debian1: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2020-11-30 13:06:14.895309 +0000 build-debian1: .# Old mechanism supported only for RPM
+2020-11-30 13:06:14.895371 +0000 build-debian1: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2020-11-30 13:06:14.895431 +0000 build-debian1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2020-11-30 13:06:14.895482 +0000 build-debian1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2020-11-30 13:06:14.895526 +0000 build-debian1: ..fi ;\
+2020-11-30 13:06:14.895571 +0000 build-debian1: .done ; \
+2020-11-30 13:06:14.895621 +0000 build-debian1: .if [ -n "$FILE_LIST" ]; then \
+2020-11-30 13:06:14.895670 +0000 build-debian1: ..echo "--> Signing..."; \
+2020-11-30 13:06:14.895723 +0000 build-debian1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2020-11-30 13:06:14.895772 +0000 build-debian1: ..if [ -n "$SIGN_KEY" ]; then \
+2020-11-30 13:06:14.895875 +0000 build-debian1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2020-11-30 13:06:14.895932 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:14.895994 +0000 build-debian1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2020-11-30 13:06:14.896038 +0000 build-debian1: .fi; \
+2020-11-30 13:06:14.896079 +0000 build-debian1: fi
+2020-11-30 13:06:15.233288 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:15.393282 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:15.565965 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:283: target 'sign' does not exist
+2020-11-30 13:06:15.566233 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:15.566334 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:15.566408 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/_amd64.changes; \
+2020-11-30 13:06:15.566457 +0000 build-debian1: else \
+2020-11-30 13:06:15.566525 +0000 build-debian1: .debsign  -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign \
+2020-11-30 13:06:15.566602 +0000 build-debian1: ../home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes; \
+2020-11-30 13:06:15.566648 +0000 build-debian1: fi
+2020-11-30 13:06:15.878377 +0000 build-debian1: You must provide a proper filename containing debian package file
+2020-11-30 13:06:16.195282 +0000 build-debian1:  signfile dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:18.136501 +0000 build-debian1: 
+2020-11-30 13:06:18.192357 +0000 build-debian1:  fixup_buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo
+2020-11-30 13:06:18.200480 +0000 build-debian1:  signfile buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:20.159105 +0000 build-debian1: 
+2020-11-30 13:06:20.215364 +0000 build-debian1:  fixup_changes dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1.dsc /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes
+2020-11-30 13:06:20.279371 +0000 build-debian1:  fixup_changes buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes
+2020-11-30 13:06:20.287921 +0000 build-debian1:  signfile changes /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2020-11-30 13:06:22.286920 +0000 build-debian1: 
+2020-11-30 13:06:22.298213 +0000 build-debian1: Successfully signed dsc, buildinfo, changes files
+2020-11-30 13:06:22.304193 +0000 build-debian1: Makefile:835: target 'internal-update-repo-current-testing.vm.bullseye.app-split-browser' does not exist
+2020-11-30 13:06:22.304309 +0000 build-debian1: repo_base_var="LINUX_REPO_bullseye_BASEDIR"; \
+2020-11-30 13:06:22.304380 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then \
+2020-11-30 13:06:22.304445 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-11-30 13:06:22.304500 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-11-30 13:06:22.304544 +0000 build-debian1: fi; \
+2020-11-30 13:06:22.304597 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-11-30 13:06:22.304649 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-11-30 13:06:22.304714 +0000 build-debian1: else \
+2020-11-30 13:06:22.304783 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-11-30 13:06:22.304892 +0000 build-debian1: fi; \
+2020-11-30 13:06:22.305130 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:22.305219 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:22.305276 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-11-30 13:06:22.305343 +0000 build-debian1: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2020-11-30 13:06:22.305398 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-11-30 13:06:22.305449 +0000 build-debian1: ...echo "no version tag"; \
+2020-11-30 13:06:22.305495 +0000 build-debian1: ...exit 0; \
+2020-11-30 13:06:22.305540 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:22.305584 +0000 build-debian1: .fi; \
+2020-11-30 13:06:22.305641 +0000 build-debian1: .if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:22.305716 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=bullseye template-name)
+2020-11-30 13:06:22.305762 +0000 build-debian1: fi
+2020-11-30 13:06:22.305944 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye get-var GET_VAR=PACKAGE_LIST); \
+2020-11-30 13:06:22.306018 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-11-30 13:06:22.306068 +0000 build-debian1: ..echo "no packages."; \
+2020-11-30 13:06:22.306114 +0000 build-debian1: ..exit 0; \
+2020-11-30 13:06:22.306157 +0000 build-debian1: .fi; \
+2020-11-30 13:06:22.306214 +0000 build-debian1: .make -s -f Makefile.generic DIST=bullseye PACKAGE_SET=vm \
+2020-11-30 13:06:22.306270 +0000 build-debian1: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:22.306320 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-11-30 13:06:22.306433 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-11-30 13:06:22.306505 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2020-11-30 13:06:22.306594 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:22.306670 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-52-09 \
+2020-11-30 13:06:22.306722 +0000 build-debian1: ..update-repo || exit 1; \
+2020-11-30 13:06:22.306794 +0000 build-debian1: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-11-30 13:06:22.306910 +0000 build-debian1: .echo "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:22.306985 +0000 build-debian1: .DIST=bullseye UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/bullseye \
+2020-11-30 13:06:22.307051 +0000 build-debian1: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2020-11-30 13:06:22.307096 +0000 build-debian1: else \
+2020-11-30 13:06:22.307154 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2020-11-30 13:06:22.307196 +0000 build-debian1: fi; \
+2020-11-30 13:06:22.307238 +0000 build-debian1: echo
+2020-11-30 13:06:22.893313 +0000 build-debian1: Updating qubes-src/app-split-browser... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-11-30 13:06:22.893554 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf
+2020-11-30 13:06:23.903674 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions ]; then \
+2020-11-30 13:06:23.904019 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2020-11-30 13:06:23.904087 +0000 build-debian1: fi
+2020-11-30 13:06:23.907358 +0000 build-debian1: grep bullseye /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions > /dev/null; \
+2020-11-30 13:06:23.907466 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-11-30 13:06:23.907559 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye/conf/distributions; \
+2020-11-30 13:06:23.907607 +0000 build-debian1: fi
+2020-11-30 13:06:25.202100 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-11-30 13:06:25.202320 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:25.202473 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:25.202529 +0000 build-debian1: else \
+2020-11-30 13:06:25.202666 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/bullseye include bullseye-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-bullseye/deb/qubes-split-browser_0.12.4-1+deb11u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:25.202720 +0000 build-debian1: fi
+2020-11-30 13:06:26.281638 +0000 build-debian1: 'qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-11-30 13:06:26.281930 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-11-30 13:06:26.457655 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:26.458069 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-app-split-browser; \
+2020-11-30 13:06:26.458144 +0000 build-debian1: else \
+2020-11-30 13:06:26.458241 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== 0.12.4-1+deb11u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-bullseye-app-split-browser; \
+2020-11-30 13:06:26.458293 +0000 build-debian1: fi
+2020-11-30 13:06:27.097217 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-11-30 13:06:27.097457 +0000 build-debian1: [ -z "qubes-split-browser_0.12.4-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-11-30 13:06:27.097550 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-52-09" \
+2020-11-30 13:06:27.097601 +0000 build-debian1: .upload \
+2020-11-30 13:06:27.097647 +0000 build-debian1: ."r4.0" \
+2020-11-30 13:06:27.097699 +0000 build-debian1: ."qubes-src/app-split-browser" \
+2020-11-30 13:06:27.097751 +0000 build-debian1: ."qubes-split-browser_0.12.4-1" \
+2020-11-30 13:06:27.097796 +0000 build-debian1: ."bullseye" \
+2020-11-30 13:06:27.097904 +0000 build-debian1: ."vm" \
+2020-11-30 13:06:27.097960 +0000 build-debian1: ."current-testing" \
+2020-11-30 13:06:27.098027 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-bullseye-current-testing" \
+2020-11-30 13:06:27.098092 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-bullseye-current"
+2020-11-30 13:06:31.863798 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-app-split-browser-vm-bullseye-current-testing does not exist, initializing with the current state
+2020-11-30 13:06:31.905347 +0000 build-debian1: 
+2020-11-30 13:06:31.905583 +0000 build-debian1: Makefile:806: update target 'internal-update-repo-current-testing.vm.bullseye' due to: internal-update-repo-current-testing.vm.bullseye.app-split-browser
+2020-11-30 13:06:31.905643 +0000 build-debian1: true
+2020-11-30 13:06:31.910262 +0000 build-debian1: Makefile:835: target 'internal-update-repo-current-testing.vm.buster.app-split-browser' does not exist
+2020-11-30 13:06:31.910376 +0000 build-debian1: repo_base_var="LINUX_REPO_buster_BASEDIR"; \
+2020-11-30 13:06:31.910448 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then \
+2020-11-30 13:06:31.910514 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-11-30 13:06:31.910568 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-11-30 13:06:31.910611 +0000 build-debian1: fi; \
+2020-11-30 13:06:31.910664 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-11-30 13:06:31.910715 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-11-30 13:06:31.910758 +0000 build-debian1: else \
+2020-11-30 13:06:31.910811 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-11-30 13:06:31.910939 +0000 build-debian1: fi; \
+2020-11-30 13:06:31.911003 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:31.911060 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:31.911109 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-11-30 13:06:31.911171 +0000 build-debian1: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2020-11-30 13:06:31.911222 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-11-30 13:06:31.911270 +0000 build-debian1: ...echo "no version tag"; \
+2020-11-30 13:06:31.911315 +0000 build-debian1: ...exit 0; \
+2020-11-30 13:06:31.911358 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:31.911402 +0000 build-debian1: .fi; \
+2020-11-30 13:06:31.911458 +0000 build-debian1: .if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:31.911596 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=buster template-name)
+2020-11-30 13:06:31.911649 +0000 build-debian1: fi
+2020-11-30 13:06:31.911774 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster get-var GET_VAR=PACKAGE_LIST); \
+2020-11-30 13:06:31.911889 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-11-30 13:06:31.911951 +0000 build-debian1: ..echo "no packages."; \
+2020-11-30 13:06:31.911998 +0000 build-debian1: ..exit 0; \
+2020-11-30 13:06:31.912042 +0000 build-debian1: .fi; \
+2020-11-30 13:06:31.912100 +0000 build-debian1: .make -s -f Makefile.generic DIST=buster PACKAGE_SET=vm \
+2020-11-30 13:06:31.912155 +0000 build-debian1: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:31.912207 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-11-30 13:06:31.912258 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-11-30 13:06:31.912322 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2020-11-30 13:06:31.912399 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:31.912476 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-54-56 \
+2020-11-30 13:06:31.912527 +0000 build-debian1: ..update-repo || exit 1; \
+2020-11-30 13:06:31.912600 +0000 build-debian1: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-11-30 13:06:31.912658 +0000 build-debian1: .echo "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:31.912725 +0000 build-debian1: .DIST=buster UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/buster \
+2020-11-30 13:06:31.912974 +0000 build-debian1: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2020-11-30 13:06:31.913100 +0000 build-debian1: else \
+2020-11-30 13:06:31.913178 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2020-11-30 13:06:31.913227 +0000 build-debian1: fi; \
+2020-11-30 13:06:31.913270 +0000 build-debian1: echo
+2020-11-30 13:06:32.483031 +0000 build-debian1: Updating qubes-src/app-split-browser... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-11-30 13:06:32.483268 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf
+2020-11-30 13:06:33.469194 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions ]; then \
+2020-11-30 13:06:33.469435 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2020-11-30 13:06:33.469494 +0000 build-debian1: fi
+2020-11-30 13:06:33.472458 +0000 build-debian1: grep buster /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions > /dev/null; \
+2020-11-30 13:06:33.472540 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-11-30 13:06:33.472620 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster/conf/distributions; \
+2020-11-30 13:06:33.472666 +0000 build-debian1: fi
+2020-11-30 13:06:34.736900 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-11-30 13:06:34.737121 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:34.737262 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:34.737382 +0000 build-debian1: else \
+2020-11-30 13:06:34.737522 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/buster include buster-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-buster/deb/qubes-split-browser_0.12.4-1+deb10u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:34.737573 +0000 build-debian1: fi
+2020-11-30 13:06:35.800197 +0000 build-debian1: 'qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-11-30 13:06:35.800363 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-11-30 13:06:35.943318 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:35.943531 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-app-split-browser; \
+2020-11-30 13:06:35.943594 +0000 build-debian1: else \
+2020-11-30 13:06:35.943689 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== 0.12.4-1+deb10u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-buster-app-split-browser; \
+2020-11-30 13:06:35.943739 +0000 build-debian1: fi
+2020-11-30 13:06:36.582405 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-11-30 13:06:36.582595 +0000 build-debian1: [ -z "qubes-split-browser_0.12.4-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-11-30 13:06:36.582685 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_12-54-56" \
+2020-11-30 13:06:36.582738 +0000 build-debian1: .upload \
+2020-11-30 13:06:36.582788 +0000 build-debian1: ."r4.0" \
+2020-11-30 13:06:36.582911 +0000 build-debian1: ."qubes-src/app-split-browser" \
+2020-11-30 13:06:36.582977 +0000 build-debian1: ."qubes-split-browser_0.12.4-1" \
+2020-11-30 13:06:36.583025 +0000 build-debian1: ."buster" \
+2020-11-30 13:06:36.583070 +0000 build-debian1: ."vm" \
+2020-11-30 13:06:36.583117 +0000 build-debian1: ."current-testing" \
+2020-11-30 13:06:36.583183 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-buster-current-testing" \
+2020-11-30 13:06:36.583248 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-buster-current"
+2020-11-30 13:06:40.531466 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-app-split-browser-vm-buster-current-testing does not exist, initializing with the current state
+2020-11-30 13:06:40.567591 +0000 build-debian1: 
+2020-11-30 13:06:40.567808 +0000 build-debian1: Makefile:806: update target 'internal-update-repo-current-testing.vm.buster' due to: internal-update-repo-current-testing.vm.buster.app-split-browser
+2020-11-30 13:06:40.567982 +0000 build-debian1: true
+2020-11-30 13:06:40.573460 +0000 build-debian1: Makefile:835: target 'internal-update-repo-current-testing.vm.stretch.app-split-browser' does not exist
+2020-11-30 13:06:40.573577 +0000 build-debian1: repo_base_var="LINUX_REPO_stretch_BASEDIR"; \
+2020-11-30 13:06:40.573647 +0000 build-debian1: if [ "app-split-browser" = linux-template-builder ]; then \
+2020-11-30 13:06:40.573712 +0000 build-debian1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2020-11-30 13:06:40.573767 +0000 build-debian1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2020-11-30 13:06:40.573811 +0000 build-debian1: fi; \
+2020-11-30 13:06:40.573937 +0000 build-debian1: if [ -n "${!repo_base_var}" ]; then \
+2020-11-30 13:06:40.573994 +0000 build-debian1: .repo_basedir="${!repo_base_var}"; \
+2020-11-30 13:06:40.574103 +0000 build-debian1: else \
+2020-11-30 13:06:40.574163 +0000 build-debian1: .repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-11-30 13:06:40.574206 +0000 build-debian1: fi; \
+2020-11-30 13:06:40.574266 +0000 build-debian1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2020-11-30 13:06:40.574322 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:40.574369 +0000 build-debian1: .if [ "0" -eq 1 ]; then \
+2020-11-30 13:06:40.574432 +0000 build-debian1: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2020-11-30 13:06:40.574481 +0000 build-debian1: ..if [ -z "$vtag" ]; then \
+2020-11-30 13:06:40.574529 +0000 build-debian1: ...echo "no version tag"; \
+2020-11-30 13:06:40.574573 +0000 build-debian1: ...exit 0; \
+2020-11-30 13:06:40.574616 +0000 build-debian1: ..fi; \
+2020-11-30 13:06:40.574659 +0000 build-debian1: .fi; \
+2020-11-30 13:06:40.574715 +0000 build-debian1: .if [ "app-split-browser" = linux-template-builder ]; then
+2020-11-30 13:06:40.574788 +0000 build-debian1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=stretch template-name)
+2020-11-30 13:06:40.574888 +0000 build-debian1: fi
+2020-11-30 13:06:40.575022 +0000 build-debian1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch get-var GET_VAR=PACKAGE_LIST); \
+2020-11-30 13:06:40.575082 +0000 build-debian1: .if [ -z "$component_packages" ]; then \
+2020-11-30 13:06:40.575131 +0000 build-debian1: ..echo "no packages."; \
+2020-11-30 13:06:40.575176 +0000 build-debian1: ..exit 0; \
+2020-11-30 13:06:40.575219 +0000 build-debian1: .fi; \
+2020-11-30 13:06:40.575275 +0000 build-debian1: .make -s -f Makefile.generic DIST=stretch PACKAGE_SET=vm \
+2020-11-30 13:06:40.575330 +0000 build-debian1: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:40.575380 +0000 build-debian1: ..SNAPSHOT_REPO=current-testing \
+2020-11-30 13:06:40.575430 +0000 build-debian1: ..TARGET_REPO=current-testing \
+2020-11-30 13:06:40.575494 +0000 build-debian1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2020-11-30 13:06:40.575573 +0000 build-debian1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-`basename qubes-src/app-split-browser` \
+2020-11-30 13:06:40.575649 +0000 build-debian1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_13-01-08 \
+2020-11-30 13:06:40.575700 +0000 build-debian1: ..update-repo || exit 1; \
+2020-11-30 13:06:40.575772 +0000 build-debian1: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2020-11-30 13:06:40.575893 +0000 build-debian1: .echo "Updating qubes-src/app-split-browser... "; \
+2020-11-30 13:06:40.575985 +0000 build-debian1: .DIST=stretch UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/stretch \
+2020-11-30 13:06:40.576053 +0000 build-debian1: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2020-11-30 13:06:40.576099 +0000 build-debian1: else \
+2020-11-30 13:06:40.576157 +0000 build-debian1: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2020-11-30 13:06:40.576199 +0000 build-debian1: fi; \
+2020-11-30 13:06:40.576241 +0000 build-debian1: echo
+2020-11-30 13:06:41.157805 +0000 build-debian1: Updating qubes-src/app-split-browser... /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:230: target 'update-repo-prepare' does not exist
+2020-11-30 13:06:41.159085 +0000 build-debian1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf
+2020-11-30 13:06:42.175799 +0000 build-debian1: if [ ! -e /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions ]; then \
+2020-11-30 13:06:42.176184 +0000 build-debian1: .touch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2020-11-30 13:06:42.176251 +0000 build-debian1: fi
+2020-11-30 13:06:42.179290 +0000 build-debian1: grep stretch /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions > /dev/null; \
+2020-11-30 13:06:42.179377 +0000 build-debian1: if [ $? -ne 0 ]; then \
+2020-11-30 13:06:42.179458 +0000 build-debian1: .echo "$aptdistributions" >> /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch/conf/distributions; \
+2020-11-30 13:06:42.179505 +0000 build-debian1: fi
+2020-11-30 13:06:43.475919 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-debian/Makefile.debian:244: target 'update-repo-do' does not exist
+2020-11-30 13:06:43.476070 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:43.476138 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:43.476165 +0000 build-debian1: else \
+2020-11-30 13:06:43.476230 +0000 build-debian1: ./usr/bin/reprepro  --ignore=surprisingbinary --ignore=surprisingarch -b /home/user/builder-r4.0/qubes-src/linux-deb/r4.0/current-testing/vm/stretch include stretch-testing /home/user/builder-r4.0/qubes-packages-mirror-repo/vm-stretch/deb/qubes-split-browser_0.12.4-1+deb9u1_amd64.changes </dev/null >/dev/null || exit 1; \
+2020-11-30 13:06:43.476255 +0000 build-debian1: fi
+2020-11-30 13:06:44.545495 +0000 build-debian1: 'qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2020-11-30 13:06:44.545716 +0000 build-debian1: Ignoring as --ignore=surprisingarch given.
+2020-11-30 13:06:44.662243 +0000 build-debian1: if [ "0" -eq 1 -a -n "" ]; then \
+2020-11-30 13:06:44.662497 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== )' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-app-split-browser; \
+2020-11-30 13:06:44.662562 +0000 build-debian1: else \
+2020-11-30 13:06:44.662660 +0000 build-debian1: .echo '$Source (== qubes-split-browser), Version (== 0.12.4-1+deb9u1)' > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-stretch-app-split-browser; \
+2020-11-30 13:06:44.662713 +0000 build-debian1: fi
+2020-11-30 13:06:45.305964 +0000 build-debian1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2020-11-30 13:06:45.306200 +0000 build-debian1: [ -z "qubes-split-browser_0.12.4-1" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2020-11-30 13:06:45.306291 +0000 build-debian1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-debian1/log_2020-11-30_13-01-08" \
+2020-11-30 13:06:45.306343 +0000 build-debian1: .upload \
+2020-11-30 13:06:45.306390 +0000 build-debian1: ."r4.0" \
+2020-11-30 13:06:45.306441 +0000 build-debian1: ."qubes-src/app-split-browser" \
+2020-11-30 13:06:45.306495 +0000 build-debian1: ."qubes-split-browser_0.12.4-1" \
+2020-11-30 13:06:45.306541 +0000 build-debian1: ."stretch" \
+2020-11-30 13:06:45.306584 +0000 build-debian1: ."vm" \
+2020-11-30 13:06:45.306631 +0000 build-debian1: ."current-testing" \
+2020-11-30 13:06:45.306697 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-stretch-current-testing" \
+2020-11-30 13:06:45.306763 +0000 build-debian1: ."/home/user/github-notify-state/r4.0-app-split-browser-vm-stretch-current"
+2020-11-30 13:06:49.048065 +0000 build-debian1: WARNING: /home/user/github-notify-state/r4.0-app-split-browser-vm-stretch-current-testing does not exist, initializing with the current state
+2020-11-30 13:06:49.089032 +0000 build-debian1: 
+2020-11-30 13:06:49.089961 +0000 build-debian1: Makefile:806: update target 'internal-update-repo-current-testing.vm.stretch' due to: internal-update-repo-current-testing.vm.stretch.app-split-browser
+2020-11-30 13:06:49.090066 +0000 build-debian1: true
+2020-11-30 13:06:49.094991 +0000 build-debian1: Makefile:895: target 'post-update-repo-current-testing' does not exist
+2020-11-30 13:06:49.095104 +0000 build-debian1: for dist in  bullseye buster stretch; do \
+2020-11-30 13:06:49.095186 +0000 build-debian1: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2020-11-30 13:06:49.095244 +0000 build-debian1: .if [ -n "${!repo_base_var}" ]; then \
+2020-11-30 13:06:49.095298 +0000 build-debian1: ..repo_basedir="${!repo_base_var}"; \
+2020-11-30 13:06:49.095343 +0000 build-debian1: .else \
+2020-11-30 13:06:49.095397 +0000 build-debian1: ..repo_basedir="qubes-src/linux-deb/r4.0"; \
+2020-11-30 13:06:49.095441 +0000 build-debian1: .fi; \
+2020-11-30 13:06:49.095501 +0000 build-debian1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2020-11-30 13:06:49.095565 +0000 build-debian1: done; \
+2020-11-30 13:06:49.095613 +0000 build-debian1: pkgset_dist= ; \
+2020-11-30 13:06:49.095660 +0000 build-debian1: for dist in ; do \
+2020-11-30 13:06:49.095713 +0000 build-debian1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2020-11-30 13:06:49.095756 +0000 build-debian1: done; \
+2020-11-30 13:06:49.095809 +0000 build-debian1: for dist in bullseye buster stretch; do \
+2020-11-30 13:06:49.095927 +0000 build-debian1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2020-11-30 13:06:49.095975 +0000 build-debian1: done; \
+2020-11-30 13:06:49.096036 +0000 build-debian1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2020-11-30 13:06:49.096086 +0000 build-debian1: .[ -z "$repo" ] && continue; \
+2020-11-30 13:06:49.096144 +0000 build-debian1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2020-11-30 13:06:49.096204 +0000 build-debian1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2020-11-30 13:06:49.096247 +0000 build-debian1: done
+2020-11-30 13:06:49.130451 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/bullseye-testing...
+2020-11-30 13:06:51.112087 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/buster-testing...
+2020-11-30 13:06:53.104939 +0000 build-debian1: --> Processing repo: r4.0/vm/dists/stretch-testing...
+2020-11-30 13:06:55.090234 +0000 build-debian1: Done.
+2020-11-30 13:06:55.107554 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb ~/builder-r4.0/qubes-src/linux-deb
+2020-11-30 13:06:57.120168 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:57.212585 +0000 build-debian1: .d..t...... pool/main/q/
+2020-11-30 13:06:57.214093 +0000 build-debian1: cd+++++++++ pool/main/q/qubes-split-browser/
+2020-11-30 13:06:57.214810 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser-disp_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:57.215076 +0000 build-debian1: .          5,960 100%    0.00kB/s    0:00:00  .          5,960 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=28/68)
+2020-11-30 13:06:57.215158 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser-disp_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:57.215294 +0000 build-debian1: .          5,960 100%    5.68MB/s    0:00:00  .          5,960 100%    5.68MB/s    0:00:00 (xfr#2, to-chk=27/68)
+2020-11-30 13:06:57.215375 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser-disp_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:57.215449 +0000 build-debian1: .          5,858 100%    5.59MB/s    0:00:00  .          5,858 100%    5.59MB/s    0:00:00 (xfr#3, to-chk=26/68)
+2020-11-30 13:06:57.215523 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb10u1.debian.tar.xz
+2020-11-30 13:06:57.216033 +0000 build-debian1: .          1,608 100%    1.53MB/s    0:00:00  .          1,608 100%    1.53MB/s    0:00:00 (xfr#4, to-chk=25/68)
+2020-11-30 13:06:57.216182 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb10u1.dsc
+2020-11-30 13:06:57.216261 +0000 build-debian1: .          1,657 100%    1.58MB/s    0:00:00  .          1,657 100%    1.58MB/s    0:00:00 (xfr#5, to-chk=24/68)
+2020-11-30 13:06:57.216703 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb10u1_all.deb
+2020-11-30 13:06:57.217341 +0000 build-debian1: .         12,604 100%   12.02MB/s    0:00:00  .         12,604 100%   12.02MB/s    0:00:00 (xfr#6, to-chk=23/68)
+2020-11-30 13:06:57.217433 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb10u1_amd64.buildinfo
+2020-11-30 13:06:57.217512 +0000 build-debian1: .          5,519 100%    5.26MB/s    0:00:00  .          5,519 100%    5.26MB/s    0:00:00 (xfr#7, to-chk=22/68)
+2020-11-30 13:06:57.217586 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb11u1.debian.tar.xz
+2020-11-30 13:06:57.217658 +0000 build-debian1: .          1,604 100%    1.53MB/s    0:00:00  .          1,604 100%    1.53MB/s    0:00:00 (xfr#8, to-chk=21/68)
+2020-11-30 13:06:57.217729 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb11u1.dsc
+2020-11-30 13:06:57.217800 +0000 build-debian1: .          1,657 100%  809.08kB/s    0:00:00  .          1,657 100%  809.08kB/s    0:00:00 (xfr#9, to-chk=20/68)
+2020-11-30 13:06:57.217928 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb11u1_all.deb
+2020-11-30 13:06:57.218029 +0000 build-debian1: .         12,608 100%    6.01MB/s    0:00:00  .         12,608 100%    6.01MB/s    0:00:00 (xfr#10, to-chk=19/68)
+2020-11-30 13:06:57.218105 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb11u1_amd64.buildinfo
+2020-11-30 13:06:57.218179 +0000 build-debian1: .          5,859 100%    2.79MB/s    0:00:00  .          5,859 100%    2.79MB/s    0:00:00 (xfr#11, to-chk=18/68)
+2020-11-30 13:06:57.218252 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb9u1.debian.tar.xz
+2020-11-30 13:06:57.218323 +0000 build-debian1: .          1,604 100%  783.20kB/s    0:00:00  .          1,604 100%  783.20kB/s    0:00:00 (xfr#12, to-chk=17/68)
+2020-11-30 13:06:57.218392 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb9u1.dsc
+2020-11-30 13:06:57.218463 +0000 build-debian1: .          1,653 100%  807.13kB/s    0:00:00  .          1,653 100%  538.09kB/s    0:00:00 (xfr#13, to-chk=16/68)
+2020-11-30 13:06:57.218533 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb9u1_all.deb
+2020-11-30 13:06:57.218637 +0000 build-debian1: .         12,538 100%    2.99MB/s    0:00:00  .         12,538 100%    2.99MB/s    0:00:00 (xfr#14, to-chk=15/68)
+2020-11-30 13:06:57.218715 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4-1+deb9u1_amd64.buildinfo
+2020-11-30 13:06:57.218789 +0000 build-debian1: .          5,928 100%    1.41MB/s    0:00:00  .          5,928 100%    1.41MB/s    0:00:00 (xfr#15, to-chk=14/68)
+2020-11-30 13:06:57.218912 +0000 build-debian1: <f+++++++++ pool/main/q/qubes-split-browser/qubes-split-browser_0.12.4.orig.tar.xz
+2020-11-30 13:06:57.218993 +0000 build-debian1: .         15,684 100%    2.99MB/s    0:00:00  .         15,684 100%    2.99MB/s    0:00:00 (xfr#16, to-chk=13/68)
+2020-11-30 13:06:57.311161 +0000 build-debian1: Syncing r4.0/vm/bullseye...
+2020-11-30 13:06:57.390658 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:57.517542 +0000 build-debian1: Syncing r4.0/vm/bullseye-testing...
+2020-11-30 13:06:57.594700 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:57.771190 +0000 build-debian1: .d..t...... bullseye-testing/
+2020-11-30 13:06:57.771452 +0000 build-debian1: <f..t...... bullseye-testing/InRelease
+2020-11-30 13:06:57.772187 +0000 build-debian1: .          2,179 100%    0.00kB/s    0:00:00  .          2,179 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-11-30 13:06:57.772568 +0000 build-debian1: <f..t...... bullseye-testing/Release
+2020-11-30 13:06:57.773219 +0000 build-debian1: .          1,642 100%    1.57MB/s    0:00:00  .          1,642 100%    1.57MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-11-30 13:06:57.773497 +0000 build-debian1: <f..t...... bullseye-testing/Release.gpg
+2020-11-30 13:06:57.774147 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  238.28kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-11-30 13:06:57.774547 +0000 build-debian1: .d..t...... bullseye-testing/main/binary-amd64/
+2020-11-30 13:06:57.774628 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages
+2020-11-30 13:06:57.775444 +0000 build-debian1: .            700  13%  341.80kB/s    0:00:00  .          5,007 100%    1.59MB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-11-30 13:06:57.775553 +0000 build-debian1: <f.st...... bullseye-testing/main/binary-amd64/Packages.gz
+2020-11-30 13:06:57.776093 +0000 build-debian1: .          1,698 100%  552.73kB/s    0:00:00  .          1,698 100%  414.55kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-11-30 13:06:57.776330 +0000 build-debian1: .d..t...... bullseye-testing/main/source/
+2020-11-30 13:06:57.776555 +0000 build-debian1: <f.st...... bullseye-testing/main/source/Sources.gz
+2020-11-30 13:06:57.777471 +0000 build-debian1: .          1,871 100%  456.79kB/s    0:00:00  .          1,871 100%  365.43kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-11-30 13:06:57.860256 +0000 build-debian1: Syncing r4.0/vm/buster...
+2020-11-30 13:06:57.939362 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:58.064536 +0000 build-debian1: Syncing r4.0/vm/buster-testing...
+2020-11-30 13:06:58.138385 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:58.488436 +0000 build-debian1: .d..t...... buster-testing/
+2020-11-30 13:06:58.488655 +0000 build-debian1: <f..t...... buster-testing/InRelease
+2020-11-30 13:06:58.489749 +0000 build-debian1: .          2,175 100%    0.00kB/s    0:00:00  .          2,175 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-11-30 13:06:58.490080 +0000 build-debian1: <f..t...... buster-testing/Release
+2020-11-30 13:06:58.490597 +0000 build-debian1: .          1,638 100%    1.56MB/s    0:00:00  .          1,638 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-11-30 13:06:58.490961 +0000 build-debian1: <f..t...... buster-testing/Release.gpg
+2020-11-30 13:06:58.491480 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-11-30 13:06:58.491583 +0000 build-debian1: .d..t...... buster-testing/main/binary-amd64/
+2020-11-30 13:06:58.491817 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages
+2020-11-30 13:06:58.492457 +0000 build-debian1: .            700  13%  341.80kB/s    0:00:00  .          5,007 100%    1.59MB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-11-30 13:06:58.492696 +0000 build-debian1: <f.st...... buster-testing/main/binary-amd64/Packages.gz
+2020-11-30 13:06:58.493147 +0000 build-debian1: .          1,698 100%  552.73kB/s    0:00:00  .          1,698 100%  552.73kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-11-30 13:06:58.493498 +0000 build-debian1: .d..t...... buster-testing/main/source/
+2020-11-30 13:06:58.493597 +0000 build-debian1: <f.st...... buster-testing/main/source/Sources.gz
+2020-11-30 13:06:58.494123 +0000 build-debian1: .          1,878 100%  458.50kB/s    0:00:00  .          1,878 100%  458.50kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-11-30 13:06:58.575189 +0000 build-debian1: Syncing r4.0/vm/stretch...
+2020-11-30 13:06:58.650727 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:58.777424 +0000 build-debian1: Syncing r4.0/vm/stretch-testing...
+2020-11-30 13:06:58.855438 +0000 build-debian1: sending incremental file list
+2020-11-30 13:06:58.996297 +0000 build-debian1: .d..t...... stretch-testing/
+2020-11-30 13:06:58.996513 +0000 build-debian1: <f..t...... stretch-testing/InRelease
+2020-11-30 13:06:58.997137 +0000 build-debian1: .          2,177 100%    0.00kB/s    0:00:00  .          2,177 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2020-11-30 13:06:58.997430 +0000 build-debian1: <f..t...... stretch-testing/Release
+2020-11-30 13:06:58.997991 +0000 build-debian1: .          1,640 100%    1.56MB/s    0:00:00  .          1,640 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2020-11-30 13:06:58.998236 +0000 build-debian1: <f..t...... stretch-testing/Release.gpg
+2020-11-30 13:06:58.998882 +0000 build-debian1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2020-11-30 13:06:58.999104 +0000 build-debian1: .d..t...... stretch-testing/main/binary-amd64/
+2020-11-30 13:06:58.999192 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages
+2020-11-30 13:06:59.000030 +0000 build-debian1: .            700  13%  341.80kB/s    0:00:00  .          5,025 100%    2.40MB/s    0:00:00 (xfr#4, to-chk=4/12)
+2020-11-30 13:06:59.000118 +0000 build-debian1: <f.st...... stretch-testing/main/binary-amd64/Packages.gz
+2020-11-30 13:06:59.000625 +0000 build-debian1: .          1,720 100%  559.90kB/s    0:00:00  .          1,720 100%  559.90kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2020-11-30 13:06:59.001039 +0000 build-debian1: .d..t...... stretch-testing/main/source/
+2020-11-30 13:06:59.001304 +0000 build-debian1: <f.st...... stretch-testing/main/source/Sources.gz
+2020-11-30 13:06:59.001994 +0000 build-debian1: .          1,872 100%  457.03kB/s    0:00:00  .          1,872 100%  457.03kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2020-11-30 13:06:59.070073 +0000 build-debian1: ~/builder-r4.0/qubes-src/linux-deb
+2020-11-30 13:06:59.072464 +0000 build-debian1: Makefile:791: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.bullseye internal-update-repo-current-testing.vm.buster internal-update-repo-current-testing.vm.stretch post-update-repo-current-testing
+2020-11-30 13:06:59.072549 +0000 build-debian1: true
+2020-11-30 13:06:59.077986 +0000 build-debian1: > done
+2020-11-30 13:06:59.078072 +0000 > closing log
