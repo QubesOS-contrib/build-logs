@@ -1,0 +1,824 @@
+2021-05-10 11:24:15.358828 +0000 > starting log
+2021-05-10 11:24:15.359098 +0000 build-centos1: > starting build with log
+2021-05-10 11:24:15.359122 +0000 build-centos1: >> make args: DISTS_VM= centos8 DIST_DOM0= BUILD_LOGS_URL= app-split-browser-vm-centos8=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2021-05-10_11-08-48 GIT_URL_app_split_browser=https://github.com/QubesOS-contrib/qubes-app-split-browser sign-all update-repo-current-testing
+2021-05-10 11:24:15.359129 +0000 build-centos1: >> MAKEFLAGS=
+2021-05-10 11:24:15.359136 +0000 build-centos1: >> COMPONENTS=app-split-browser
+2021-05-10 11:24:15.359141 +0000 build-centos1: >> DISTS_VM=
+2021-05-10 11:24:15.359147 +0000 build-centos1: >> DIST_DOM0=
+2021-05-10 11:24:15.648226 +0000 build-centos1: >> qubes-builder 9bd3fae19d13964aa61e235edc39ead942b2a57a
+2021-05-10 11:24:16.082849 +0000 build-centos1: >> qubes-builder/qubes-src/app-split-browser ebdb4c1c5e6e73b912a53f34bd7252b42e063920
+2021-05-10 11:24:16.954654 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.noarch.rpm
+2021-05-10 11:24:16.954696 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.src.rpm
+2021-05-10 11:24:16.954706 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.x86_64.buildinfo
+2021-05-10 11:24:16.954713 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.noarch.rpm
+2021-05-10 11:24:16.954721 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.src.rpm
+2021-05-10 11:24:16.954728 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.x86_64.buildinfo
+2021-05-10 11:24:16.954735 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:16.954743 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm
+2021-05-10 11:24:16.954750 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo
+2021-05-10 11:24:16.954758 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-disp-0.12.4-1.centos8.noarch.rpm
+2021-05-10 11:24:16.954765 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-1.centos8.noarch.rpm
+2021-05-10 11:24:16.954774 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:16.954783 +0000 build-centos1: !! pkgs/vm-centos8/qubes-split-browser.spec.list
+2021-05-10 11:24:17.018480 +0000 build-centos1: 250662848159aee916084355c839c640e80d06b33e272b18975ec5731b020a56b1004815c60697fd778f14a7d26f47c953948b4a50d4a227f70c117f358feed9  pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.noarch.rpm
+2021-05-10 11:24:17.038262 +0000 build-centos1: b0db9e72952bbca9f91098f84f878577082a32e411a63752d8fc94e3403e4dd142dd0d72ffd80f45f4debed9c2701e1e356ce75d285b5090519b20c85903df81  pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.src.rpm
+2021-05-10 11:24:17.082752 +0000 build-centos1: effe62098ca0162e3865b46553e9dd1e5341424940e4c799023beda1254837b58eeb1d6b529ab7770e61c137ebf1693cf2a6da4fe8b54effc6b7b6329a16e768  pkgs/vm-centos8/qubes-split-browser-0.12.4-1.centos8.x86_64.buildinfo
+2021-05-10 11:24:17.101761 +0000 build-centos1: 4c3b413bcada537187abe898744bcb68c60127184a54f19b5d08ddbd3986359dbad62a6cb8b8b622f2161b9b6cd4abd6e1b8d18a53ec89e7657504abd491cfda  pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.noarch.rpm
+2021-05-10 11:24:17.117812 +0000 build-centos1: 2eff8224cbb2740c274f37d3fa3005bd8a5171989452f513ed5ba8f5abab22c85759870648bb91988114d0aae9456665ef23e3f51c6b9cc15195458c1f500cc1  pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.src.rpm
+2021-05-10 11:24:17.118191 +0000 build-centos1: e27ab3632b26d12311879df685377d6089b346dce2357b75de2b46f54ef88991e8ed9ffa68820194629df02224dfb3e87b801f70cb0fee7fc596147245f43bb6  pkgs/vm-centos8/qubes-split-browser-0.13.0-1.centos8.x86_64.buildinfo
+2021-05-10 11:24:17.118213 +0000 build-centos1: a732e1f58728c696fbe2c4f159fdb61f70c341a2fe8401bd40fe669d6262799d8754e860a4f3dd811ada664959c34f4819952d80f5735b83d4ee0ad5fb191d03  pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:17.118250 +0000 build-centos1: c731763d448251cc8d0ffedf5e38f9a577f4799bcce48d6526877d93e0f955d263a0a1cc25f7a93e5bb55c9a772f89d2c4526adb995814c7f0f140ab7b5e3fef  pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm
+2021-05-10 11:24:17.118268 +0000 build-centos1: 34254900fad92795660f6fa33603f56d035d20d4286aa4b50ca5515468a02bd9521c30fd4852be6c59c425ec56ca53ebc46f8378d4b93b8f08e4c391f3c2f8a6  pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo
+2021-05-10 11:24:17.141366 +0000 build-centos1: c098ef20c6408e62575cf6fbafaffea73284075e4d1ebab9f7d490d6a13578b6009a70bf752111daf8ac4e8aa44e1c7e0e437f39447d9be2f83118e26eab1aa7  pkgs/vm-centos8/qubes-split-browser-disp-0.12.4-1.centos8.noarch.rpm
+2021-05-10 11:24:17.155634 +0000 build-centos1: c6e9e48821d8a7dfaa8511733af175e5ee9e2054ab1d909b403ee4c990d7837411356c9377f5e3baeb0481a27e03d9e6fe370f99fb3daafe920518e8100329bb  pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-1.centos8.noarch.rpm
+2021-05-10 11:24:17.155659 +0000 build-centos1: d74753cf42e55c020ce0f54ed0207e4f1bb816e26d15fc37b66282521d09ddab7e5a5e8c2d1dfd37b9ac89841ad1082ed6ff9f9385e3acbde9432a245daf5e33  pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:17.155673 +0000 build-centos1: 5fad020e23ad82c96262ce269482d85bb21c94598620a819ea8b8610ca716a0a552f5935f3285a03b39d334fdc16cd9400c8cc28986ccf071d12dde64023d351  pkgs/vm-centos8/qubes-split-browser.spec.list
+2021-05-10 11:24:17.181526 +0000 build-centos1: ================================================================================
+2021-05-10 11:24:17.198131 +0000 build-centos1:                            B U I L D   I N F O                                  
+2021-05-10 11:24:17.198170 +0000 build-centos1: Items in red indicate it was automatically generated by configuration file(s)
+2021-05-10 11:24:17.198182 +0000 build-centos1: Items in white indicate it was automatically removed by configuration file(s)
+2021-05-10 11:24:17.198193 +0000 build-centos1: ================================================================================
+2021-05-10 11:24:17.198200 +0000 build-centos1: DISTS_VM:
+2021-05-10 11:24:17.198207 +0000 build-centos1:      centos8,
+2021-05-10 11:24:17.198213 +0000 build-centos1: DISTS_ALL:
+2021-05-10 11:24:17.198220 +0000 build-centos1:      vm-centos8,
+2021-05-10 11:24:17.198226 +0000 build-centos1: DIST_DOM0:
+2021-05-10 11:24:17.198232 +0000 build-centos1:     
+2021-05-10 11:24:17.198238 +0000 build-centos1: BUILDER_PLUGINS:
+2021-05-10 11:24:17.198248 +0000 build-centos1:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2021-05-10 11:24:17.198254 +0000 build-centos1: COMPONENTS:
+2021-05-10 11:24:17.198261 +0000 build-centos1:      app-split-browser,
+2021-05-10 11:24:17.198267 +0000 build-centos1: GIT_REPOS:
+2021-05-10 11:24:17.198274 +0000 build-centos1:      qubes-src/app-split-browser,
+2021-05-10 11:24:17.198280 +0000 build-centos1: TEMPLATE:
+2021-05-10 11:24:17.198286 +0000 build-centos1:     
+2021-05-10 11:24:17.198293 +0000 build-centos1: TEMPLATE_FLAVOR_DIR:
+2021-05-10 11:24:17.198298 +0000 build-centos1:     
+2021-05-10 11:24:17.198305 +0000 build-centos1: TEMPLATE_ALIAS:
+2021-05-10 11:24:17.198310 +0000 build-centos1:     
+2021-05-10 11:24:17.198317 +0000 build-centos1: TEMPLATE_LABEL:
+2021-05-10 11:24:17.198322 +0000 build-centos1:     
+2021-05-10 11:24:17.201132 +0000 build-centos1: > running make
+2021-05-10 11:24:17.208730 +0000 build-centos1: Makefile:292: target 'sign.vm.centos8.app-split-browser' does not exist
+2021-05-10 11:24:17.208778 +0000 build-centos1: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-05-10 11:24:17.208804 +0000 build-centos1: SIGN_KEY=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4; \
+2021-05-10 11:24:17.208812 +0000 build-centos1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-05-10 11:24:17.208821 +0000 build-centos1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-05-10 11:24:17.208828 +0000 build-centos1: if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:24:17.208840 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos8 template-name)
+2021-05-10 11:24:17.208845 +0000 build-centos1: fi
+2021-05-10 11:24:17.208853 +0000 build-centos1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:24:17.208860 +0000 build-centos1: .make --no-print-directory -f Makefile.generic \
+2021-05-10 11:24:17.208865 +0000 build-centos1: ..DIST=centos8 \
+2021-05-10 11:24:17.208871 +0000 build-centos1: ..PACKAGE_SET=vm \
+2021-05-10 11:24:17.208877 +0000 build-centos1: ..COMPONENT=app-split-browser \
+2021-05-10 11:24:17.208882 +0000 build-centos1: ..SIGN_KEY=$SIGN_KEY \
+2021-05-10 11:24:17.208888 +0000 build-centos1: ..sign || exit 1; \
+2021-05-10 11:24:17.208895 +0000 build-centos1: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2021-05-10 11:24:17.208901 +0000 build-centos1: .# Old mechanism supported only for RPM
+2021-05-10 11:24:17.208908 +0000 build-centos1: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2021-05-10 11:24:17.208916 +0000 build-centos1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-05-10 11:24:17.208922 +0000 build-centos1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-05-10 11:24:17.208927 +0000 build-centos1: ..fi ;\
+2021-05-10 11:24:17.208932 +0000 build-centos1: .done ; \
+2021-05-10 11:24:17.208951 +0000 build-centos1: .if [ -n "$FILE_LIST" ]; then \
+2021-05-10 11:24:17.208957 +0000 build-centos1: ..echo "--> Signing..."; \
+2021-05-10 11:24:17.208963 +0000 build-centos1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-05-10 11:24:17.208969 +0000 build-centos1: ..if [ -n "$SIGN_KEY" ]; then \
+2021-05-10 11:24:17.208976 +0000 build-centos1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-05-10 11:24:17.208980 +0000 build-centos1: ..fi; \
+2021-05-10 11:24:17.208988 +0000 build-centos1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-05-10 11:24:17.208993 +0000 build-centos1: .fi; \
+2021-05-10 11:24:17.208997 +0000 build-centos1: fi
+2021-05-10 11:24:17.261710 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:17.261731 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:17.261841 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:17.262307 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:17.262401 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:17.262569 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:17.263077 +0000 build-centos1: + tmp_spec=/tmp/tmp.4816FH.spec
+2021-05-10 11:24:17.263361 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:17.263998 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.4816FH.spec
+2021-05-10 11:24:17.265117 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:17.265134 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:17.265156 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.266043 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:17.266050 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:17.266060 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.266923 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:17.266930 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:17.266989 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:17.266996 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:17.267001 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:17.267010 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.323738 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:17.323765 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:17.323776 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.324798 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.325595 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:17.326085 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.606983 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.607511 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.636988 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:17.637141 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:17.637602 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.4816FH.spec
+2021-05-10 11:24:17.697481 +0000 build-centos1: + rm -f /tmp/tmp.4816FH.spec
+2021-05-10 11:24:17.699742 +0000 build-centos1: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2021-05-10 11:24:17.699756 +0000 build-centos1: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-05-10 11:24:17.699768 +0000 build-centos1: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2021-05-10 11:24:17.699776 +0000 build-centos1: .tmpname=$(mktemp); \
+2021-05-10 11:24:17.699789 +0000 build-centos1: .qubes-gpg-client-wrapper --armor --export "B082674E8CF907A67B5523D64FDD1A4BA90CA2E4" > "$tmpname"; \
+2021-05-10 11:24:17.699799 +0000 build-centos1: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2021-05-10 11:24:17.699806 +0000 build-centos1: .rm -f "$tmpname"; \
+2021-05-10 11:24:17.699812 +0000 build-centos1: fi
+2021-05-10 11:24:17.706617 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:17.706632 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:17.706804 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:17.707266 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:17.707337 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:17.707513 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:17.708011 +0000 build-centos1: + tmp_spec=/tmp/tmp.gADjnw.spec
+2021-05-10 11:24:17.708173 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:17.708649 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.gADjnw.spec
+2021-05-10 11:24:17.709357 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:17.709373 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:17.709385 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.710262 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:17.710277 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:17.710287 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.711156 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:17.711164 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:17.711198 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:17.711231 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:17.711238 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:17.711246 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.737267 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:17.737283 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:17.737293 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.738200 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.739006 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:17.739450 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.838790 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.839189 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:17.855934 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:17.856055 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:17.856565 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.gADjnw.spec
+2021-05-10 11:24:17.912776 +0000 build-centos1: + rm -f /tmp/tmp.gADjnw.spec
+2021-05-10 11:24:18.042071 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:24:18.209084 +0000 build-centos1: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:198: update target 'sign' due to: sign-prep
+2021-05-10 11:24:18.209139 +0000 build-centos1: cd qubes-src/app-split-browser && for pkg in pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo ; do \
+2021-05-10 11:24:18.209149 +0000 build-centos1: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-05-10 11:24:18.209163 +0000 build-centos1: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > "$pkg".tmp && \
+2021-05-10 11:24:18.209170 +0000 build-centos1: ..mv -f "$pkg".tmp "$pkg"; \
+2021-05-10 11:24:18.209179 +0000 build-centos1: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-05-10 11:24:18.209190 +0000 build-centos1: ..setsid -w rpmsign --digest-algo=sha256 --key-id=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --addsign $pkg </dev/null || exit 1; \
+2021-05-10 11:24:18.209212 +0000 build-centos1: .fi; \
+2021-05-10 11:24:18.209217 +0000 build-centos1: done
+2021-05-10 11:24:18.215656 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:18.215664 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:18.215908 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:18.216455 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:18.216513 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:18.216681 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:18.217201 +0000 build-centos1: + tmp_spec=/tmp/tmp.2xazRI.spec
+2021-05-10 11:24:18.217387 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:18.217849 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.2xazRI.spec
+2021-05-10 11:24:18.218585 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:18.218593 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:18.218637 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.219523 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:18.219529 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:18.219538 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.220379 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:18.220385 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:18.220419 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:18.220425 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:18.220430 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:18.220460 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.221268 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:18.221274 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:18.221308 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.222138 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.222889 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:18.223375 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.360638 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.361177 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.370496 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:18.370605 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:18.371159 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.2xazRI.spec
+2021-05-10 11:24:18.427872 +0000 build-centos1: + rm -f /tmp/tmp.2xazRI.spec
+2021-05-10 11:24:18.440705 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:24:18.567976 +0000 build-centos1: pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm:
+2021-05-10 11:24:18.579125 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:24:18.716342 +0000 build-centos1: pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm:
+2021-05-10 11:24:18.728703 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:24:18.844827 +0000 build-centos1: pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm:
+2021-05-10 11:24:18.965995 +0000 build-centos1: Makefile:851: target 'internal-update-repo-current-testing.vm.centos8.app-split-browser' does not exist
+2021-05-10 11:24:18.966063 +0000 build-centos1: repo_base_var="LINUX_REPO_centos8_BASEDIR"; \
+2021-05-10 11:24:18.966074 +0000 build-centos1: if [ "app-split-browser" = linux-template-builder ]; then \
+2021-05-10 11:24:18.966083 +0000 build-centos1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-05-10 11:24:18.966089 +0000 build-centos1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-05-10 11:24:18.966094 +0000 build-centos1: fi; \
+2021-05-10 11:24:18.966101 +0000 build-centos1: if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:24:18.966107 +0000 build-centos1: .repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:24:18.966112 +0000 build-centos1: else \
+2021-05-10 11:24:18.966118 +0000 build-centos1: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:24:18.966123 +0000 build-centos1: fi; \
+2021-05-10 11:24:18.966130 +0000 build-centos1: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:24:18.966137 +0000 build-centos1: .echo -n "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:24:18.966143 +0000 build-centos1: .if [ "0" -eq 1 ]; then \
+2021-05-10 11:24:18.966151 +0000 build-centos1: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2021-05-10 11:24:18.966157 +0000 build-centos1: ..if [ -z "$vtag" ]; then \
+2021-05-10 11:24:18.966163 +0000 build-centos1: ...echo "no version tag"; \
+2021-05-10 11:24:18.966168 +0000 build-centos1: ...exit 0; \
+2021-05-10 11:24:18.966173 +0000 build-centos1: ..fi; \
+2021-05-10 11:24:18.966177 +0000 build-centos1: .fi; \
+2021-05-10 11:24:18.966184 +0000 build-centos1: .if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:24:18.966194 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos8 template-name)
+2021-05-10 11:24:18.966198 +0000 build-centos1: fi
+2021-05-10 11:24:18.966215 +0000 build-centos1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=centos8 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/centos8 get-var GET_VAR=PACKAGE_LIST); \
+2021-05-10 11:24:18.966222 +0000 build-centos1: .if [ -z "$component_packages" ]; then \
+2021-05-10 11:24:18.966228 +0000 build-centos1: ..echo "no packages."; \
+2021-05-10 11:24:18.966233 +0000 build-centos1: ..exit 0; \
+2021-05-10 11:24:18.966237 +0000 build-centos1: .fi; \
+2021-05-10 11:24:18.966244 +0000 build-centos1: .make -s -f Makefile.generic DIST=centos8 PACKAGE_SET=vm \
+2021-05-10 11:24:18.966251 +0000 build-centos1: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2021-05-10 11:24:18.966257 +0000 build-centos1: ..SNAPSHOT_REPO=current-testing \
+2021-05-10 11:24:18.966263 +0000 build-centos1: ..TARGET_REPO=current-testing \
+2021-05-10 11:24:18.966271 +0000 build-centos1: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/centos8 \
+2021-05-10 11:24:18.966282 +0000 build-centos1: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-centos8-`basename qubes-src/app-split-browser` \
+2021-05-10 11:24:18.966291 +0000 build-centos1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2021-05-10_11-08-48 \
+2021-05-10 11:24:18.966297 +0000 build-centos1: ..update-repo || exit 1; \
+2021-05-10 11:24:18.966306 +0000 build-centos1: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-05-10 11:24:18.966330 +0000 build-centos1: .echo "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:24:18.966339 +0000 build-centos1: .DIST=centos8 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/centos8 \
+2021-05-10 11:24:18.966347 +0000 build-centos1: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2021-05-10 11:24:18.966352 +0000 build-centos1: else \
+2021-05-10 11:24:18.966359 +0000 build-centos1: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2021-05-10 11:24:18.966364 +0000 build-centos1: fi; \
+2021-05-10 11:24:18.966369 +0000 build-centos1: echo
+2021-05-10 11:24:18.976423 +0000 build-centos1: Updating qubes-src/app-split-browser... + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:18.976464 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:18.976556 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:18.977069 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:18.977195 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:18.977327 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:18.977818 +0000 build-centos1: + tmp_spec=/tmp/tmp.dqwDri.spec
+2021-05-10 11:24:18.977999 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:18.978466 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.dqwDri.spec
+2021-05-10 11:24:18.979246 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:18.979263 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:18.979278 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.980182 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:18.980197 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:18.980208 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.981247 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:18.981263 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:18.981272 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:18.981282 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:18.981288 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:18.981297 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.982501 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:18.982516 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:18.982526 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.983354 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:18.984228 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:18.984733 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.086512 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.086992 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.087520 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:19.087689 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.088348 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.dqwDri.spec
+2021-05-10 11:24:19.146271 +0000 build-centos1: + rm -f /tmp/tmp.dqwDri.spec
+2021-05-10 11:24:19.153053 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:19.153071 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.153170 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:19.153707 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:19.153772 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:19.153932 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:19.154597 +0000 build-centos1: + tmp_spec=/tmp/tmp.mrPD8Q.spec
+2021-05-10 11:24:19.154754 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.155304 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.mrPD8Q.spec
+2021-05-10 11:24:19.156639 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.156667 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:19.156700 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.158809 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.158818 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.158828 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.160781 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:19.160795 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.160803 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:19.160808 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.160818 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.160827 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.161605 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:19.161612 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.161621 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.162404 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.163843 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:19.164429 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.262226 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.262539 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.263039 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:19.263180 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.263673 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.mrPD8Q.spec
+2021-05-10 11:24:19.319959 +0000 build-centos1: + rm -f /tmp/tmp.mrPD8Q.spec
+2021-05-10 11:24:19.332545 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:19.332571 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.332651 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:19.333130 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:19.333221 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:19.333383 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:19.333944 +0000 build-centos1: + tmp_spec=/tmp/tmp.LC4Cut.spec
+2021-05-10 11:24:19.334164 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.334918 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.LC4Cut.spec
+2021-05-10 11:24:19.335658 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.336029 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:19.336042 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.336660 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.336675 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.336685 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.337562 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:19.337578 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.337585 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:19.337592 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.337598 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.337606 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.338468 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:19.338483 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.338493 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.339311 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.340098 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:19.340537 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.438573 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.439082 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.454885 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:19.455048 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.455660 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.LC4Cut.spec
+2021-05-10 11:24:19.511657 +0000 build-centos1: + rm -f /tmp/tmp.LC4Cut.spec
+2021-05-10 11:24:19.524230 +0000 build-centos1: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2021-05-10 11:24:19.524255 +0000 build-centos1: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/centos8/rpm
+2021-05-10 11:24:19.531135 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:19.531150 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.531268 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:19.531859 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:19.531869 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:19.531986 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:19.532508 +0000 build-centos1: + tmp_spec=/tmp/tmp.fSoWT4.spec
+2021-05-10 11:24:19.532604 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.533163 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.fSoWT4.spec
+2021-05-10 11:24:19.533798 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.533808 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:19.533819 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.534720 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.534728 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.534737 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.535706 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:19.535749 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.535760 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:19.535768 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.535774 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.535787 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.536571 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:19.536588 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.536600 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.567403 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.568373 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:19.568877 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.674817 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.675297 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.693767 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:19.693870 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.694371 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.fSoWT4.spec
+2021-05-10 11:24:19.749268 +0000 build-centos1: + rm -f /tmp/tmp.fSoWT4.spec
+2021-05-10 11:24:19.751936 +0000 build-centos1: if [ -n "pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo" ]; then \
+2021-05-10 11:24:19.751971 +0000 build-centos1: .cd qubes-src/app-split-browser && ln -f pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/centos8/rpm/; \
+2021-05-10 11:24:19.751979 +0000 build-centos1: else \
+2021-05-10 11:24:19.751992 +0000 build-centos1: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-browser.spec, syntax error?`tput sgr0`"; \
+2021-05-10 11:24:19.752033 +0000 build-centos1: .exit 1; \
+2021-05-10 11:24:19.752040 +0000 build-centos1: fi
+2021-05-10 11:24:19.760431 +0000 build-centos1: cd qubes-src/app-split-browser && echo pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.src.rpm pkgs/vm-centos8/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm pkgs/vm-centos8/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-centos8-app-split-browser
+2021-05-10 11:24:19.766900 +0000 build-centos1: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-05-10 11:24:19.766913 +0000 build-centos1: [ -z "qubes-split-browser-0.13.0-2.centos8" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2021-05-10 11:24:19.766923 +0000 build-centos1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2021-05-10_11-08-48" \
+2021-05-10 11:24:19.766929 +0000 build-centos1: .upload \
+2021-05-10 11:24:19.766934 +0000 build-centos1: ."r4.1" \
+2021-05-10 11:24:19.766940 +0000 build-centos1: ."qubes-src/app-split-browser" \
+2021-05-10 11:24:19.766946 +0000 build-centos1: ."qubes-split-browser-0.13.0-2.centos8" \
+2021-05-10 11:24:19.766951 +0000 build-centos1: ."centos8" \
+2021-05-10 11:24:19.766956 +0000 build-centos1: ."vm" \
+2021-05-10 11:24:19.766962 +0000 build-centos1: ."current-testing" \
+2021-05-10 11:24:19.766970 +0000 build-centos1: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-centos8-current-testing" \
+2021-05-10 11:24:19.766978 +0000 build-centos1: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-centos8-current"
+2021-05-10 11:24:19.777263 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:24:19.777280 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.777499 +0000 build-centos1: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:24:19.777997 +0000 build-centos1: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:24:19.778091 +0000 build-centos1: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:24:19.778268 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:24:19.778742 +0000 build-centos1: + tmp_spec=/tmp/tmp.GpdZm1.spec
+2021-05-10 11:24:19.778935 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.779427 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.GpdZm1.spec
+2021-05-10 11:24:19.780218 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2021-05-10 11:24:19.780226 +0000 build-centos1: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:24:19.780237 +0000 build-centos1: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.781097 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.781104 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.781114 +0000 build-centos1: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.781979 +0000 build-centos1: + vnum=1
+2021-05-10 11:24:19.781993 +0000 build-centos1: + read -r ver
+2021-05-10 11:24:19.782031 +0000 build-centos1: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:24:19.782037 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.782046 +0000 build-centos1: + '[' x = x ']'
+2021-05-10 11:24:19.782054 +0000 build-centos1: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.782904 +0000 build-centos1: + rnum=1
+2021-05-10 11:24:19.782911 +0000 build-centos1: + read -r rel
+2021-05-10 11:24:19.782934 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.783780 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.784903 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:24:19.785362 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.886775 +0000 build-centos1: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.887445 +0000 build-centos1: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:24:19.888294 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:24:19.888366 +0000 build-centos1: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:24:19.888919 +0000 build-centos1: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.GpdZm1.spec
+2021-05-10 11:24:19.945071 +0000 build-centos1: + rm -f /tmp/tmp.GpdZm1.spec
+2021-05-10 11:24:25.192921 +0000 build-centos1: 
+2021-05-10 11:24:25.193094 +0000 build-centos1: Makefile:822: update target 'internal-update-repo-current-testing.vm.centos8' due to: internal-update-repo-current-testing.vm.centos8.app-split-browser
+2021-05-10 11:24:25.193105 +0000 build-centos1: true
+2021-05-10 11:24:25.194006 +0000 build-centos1: Makefile:911: target 'post-update-repo-current-testing' does not exist
+2021-05-10 11:24:25.194014 +0000 build-centos1: for dist in  centos8; do \
+2021-05-10 11:24:25.194022 +0000 build-centos1: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2021-05-10 11:24:25.194028 +0000 build-centos1: .if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:24:25.194035 +0000 build-centos1: ..repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:24:25.194040 +0000 build-centos1: .else \
+2021-05-10 11:24:25.194046 +0000 build-centos1: ..repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:24:25.194051 +0000 build-centos1: .fi; \
+2021-05-10 11:24:25.194058 +0000 build-centos1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2021-05-10 11:24:25.194063 +0000 build-centos1: done; \
+2021-05-10 11:24:25.194068 +0000 build-centos1: pkgset_dist= ; \
+2021-05-10 11:24:25.194074 +0000 build-centos1: for dist in ; do \
+2021-05-10 11:24:25.194080 +0000 build-centos1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2021-05-10 11:24:25.194085 +0000 build-centos1: done; \
+2021-05-10 11:24:25.194090 +0000 build-centos1: for dist in centos8; do \
+2021-05-10 11:24:25.194097 +0000 build-centos1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2021-05-10 11:24:25.194101 +0000 build-centos1: done; \
+2021-05-10 11:24:25.194109 +0000 build-centos1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2021-05-10 11:24:25.194115 +0000 build-centos1: .[ -z "$repo" ] && continue; \
+2021-05-10 11:24:25.194122 +0000 build-centos1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2021-05-10 11:24:25.194130 +0000 build-centos1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2021-05-10 11:24:25.194135 +0000 build-centos1: done
+2021-05-10 11:24:25.217130 +0000 build-centos1: which: no mkmetalink in (/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/user/builder-r4.1/qubes-src/builder-rpm/tools)
+2021-05-10 11:24:25.222028 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc25...
+2021-05-10 11:24:25.582966 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2021-05-10 11:24:26.117650 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc32...
+2021-05-10 11:24:26.956453 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/centos7...
+2021-05-10 11:24:26.968717 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:24:27.890416 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/centos8...
+2021-05-10 11:24:27.902758 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:24:33.767477 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc29...
+2021-05-10 11:24:34.567072 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc30...
+2021-05-10 11:24:35.319374 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc31...
+2021-05-10 11:24:36.111458 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc32...
+2021-05-10 11:24:36.873858 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc33...
+2021-05-10 11:24:37.238274 +0000 build-centos1: Done.
+2021-05-10 11:24:37.254620 +0000 build-centos1: ~/builder-r4.1/qubes-src/linux-yum ~/builder-r4.1/qubes-src/linux-yum
+2021-05-10 11:24:37.255168 +0000 build-centos1: Syncing r4.1...
+2021-05-10 11:24:37.595542 +0000 build-centos1: sending incremental file list
+2021-05-10 11:24:37.875481 +0000 build-centos1: .d..t...... current-testing/
+2021-05-10 11:24:37.875523 +0000 build-centos1: .d..t...... current-testing/dom0/
+2021-05-10 11:24:37.875532 +0000 build-centos1: .d..t...... current-testing/dom0/fc25/
+2021-05-10 11:24:37.875541 +0000 build-centos1: .L..t...... current-testing/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.875547 +0000 build-centos1: .d..t...... current-testing/dom0/fc25/rpm/
+2021-05-10 11:24:37.875554 +0000 build-centos1: <f..t...... current-testing/dom0/fc25/rpm/.gitignore
+2021-05-10 11:24:37.884361 +0000 build-centos1: .              6 100%    0.00kB/s    0:00:00  .              6 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=192/203)
+2021-05-10 11:24:37.884381 +0000 build-centos1: .d..t...... current-testing/dom0/fc31/
+2021-05-10 11:24:37.884391 +0000 build-centos1: .L..t...... current-testing/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.884398 +0000 build-centos1: .d..t...... current-testing/dom0/fc31/rpm/
+2021-05-10 11:24:37.884406 +0000 build-centos1: <f..t...... current-testing/dom0/fc31/rpm/.gitignore
+2021-05-10 11:24:37.894314 +0000 build-centos1: .              6 100%    0.65kB/s    0:00:00  .              6 100%    0.65kB/s    0:00:00 (xfr#2, to-chk=189/203)
+2021-05-10 11:24:37.894332 +0000 build-centos1: .d..t...... current-testing/dom0/fc32/
+2021-05-10 11:24:37.894341 +0000 build-centos1: .L..t...... current-testing/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.894348 +0000 build-centos1: .d..t...... current-testing/dom0/fc32/rpm/
+2021-05-10 11:24:37.894354 +0000 build-centos1: <f..t...... current-testing/dom0/fc32/rpm/.gitignore
+2021-05-10 11:24:37.894362 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#3, to-chk=186/203)
+2021-05-10 11:24:37.894368 +0000 build-centos1: .d..t...... current-testing/vm/
+2021-05-10 11:24:37.894374 +0000 build-centos1: .d..t...... current-testing/vm/centos7/
+2021-05-10 11:24:37.894382 +0000 build-centos1: .L..t...... current-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.894388 +0000 build-centos1: .d..t...... current-testing/vm/centos7/rpm/
+2021-05-10 11:24:37.894395 +0000 build-centos1: <f..t...... current-testing/vm/centos7/rpm/.gitignore
+2021-05-10 11:24:37.894680 +0000 build-centos1: .              6 100%    0.59kB/s    0:00:00  .              6 100%    0.59kB/s    0:00:00 (xfr#4, to-chk=176/203)
+2021-05-10 11:24:37.894697 +0000 build-centos1: .d..t...... current-testing/vm/centos8/
+2021-05-10 11:24:37.894705 +0000 build-centos1: .L..t...... current-testing/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.894716 +0000 build-centos1: .d..t...... current-testing/vm/centos8/rpm/
+2021-05-10 11:24:37.894723 +0000 build-centos1: <f..t...... current-testing/vm/centos8/rpm/.gitignore
+2021-05-10 11:24:37.894753 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#5, to-chk=167/203)
+2021-05-10 11:24:37.894762 +0000 build-centos1: <f+++++++++ current-testing/vm/centos8/rpm/qubes-split-browser-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:37.894776 +0000 build-centos1: .         25,520 100%    2.43MB/s    0:00:00  .         25,520 100%    2.43MB/s    0:00:00 (xfr#6, to-chk=145/203)
+2021-05-10 11:24:37.894785 +0000 build-centos1: <f+++++++++ current-testing/vm/centos8/rpm/qubes-split-browser-0.13.0-2.centos8.src.rpm
+2021-05-10 11:24:37.894849 +0000 build-centos1: .         30,760 100%    2.93MB/s    0:00:00  .         30,760 100%    2.93MB/s    0:00:00 (xfr#7, to-chk=144/203)
+2021-05-10 11:24:37.894860 +0000 build-centos1: <f+++++++++ current-testing/vm/centos8/rpm/qubes-split-browser-0.13.0-2.centos8.x86_64.buildinfo
+2021-05-10 11:24:37.894870 +0000 build-centos1: .          1,629 100%  159.08kB/s    0:00:00  .          1,629 100%  159.08kB/s    0:00:00 (xfr#8, to-chk=143/203)
+2021-05-10 11:24:37.894879 +0000 build-centos1: <f+++++++++ current-testing/vm/centos8/rpm/qubes-split-browser-disp-0.13.0-2.centos8.noarch.rpm
+2021-05-10 11:24:37.895094 +0000 build-centos1: .         16,964 100%    1.62MB/s    0:00:00  .         16,964 100%    1.62MB/s    0:00:00 (xfr#9, to-chk=140/203)
+2021-05-10 11:24:37.895102 +0000 build-centos1: .d..t...... current-testing/vm/fc29/
+2021-05-10 11:24:37.895110 +0000 build-centos1: .L..t...... current-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.895116 +0000 build-centos1: .d..t...... current-testing/vm/fc29/rpm/
+2021-05-10 11:24:37.895123 +0000 build-centos1: <f..t...... current-testing/vm/fc29/rpm/.gitignore
+2021-05-10 11:24:37.895286 +0000 build-centos1: .              6 100%    0.59kB/s    0:00:00  .              6 100%    0.59kB/s    0:00:00 (xfr#10, to-chk=125/203)
+2021-05-10 11:24:37.895294 +0000 build-centos1: .d..t...... current-testing/vm/fc30/
+2021-05-10 11:24:37.895301 +0000 build-centos1: .L..t...... current-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.895308 +0000 build-centos1: .d..t...... current-testing/vm/fc30/rpm/
+2021-05-10 11:24:37.895314 +0000 build-centos1: <f..t...... current-testing/vm/fc30/rpm/.gitignore
+2021-05-10 11:24:37.895765 +0000 build-centos1: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#11, to-chk=122/203)
+2021-05-10 11:24:37.895782 +0000 build-centos1: .d..t...... current-testing/vm/fc31/
+2021-05-10 11:24:37.895792 +0000 build-centos1: .L..t...... current-testing/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.895798 +0000 build-centos1: .d..t...... current-testing/vm/fc31/rpm/
+2021-05-10 11:24:37.895805 +0000 build-centos1: <f..t...... current-testing/vm/fc31/rpm/.gitignore
+2021-05-10 11:24:37.895813 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#12, to-chk=119/203)
+2021-05-10 11:24:37.895819 +0000 build-centos1: .d..t...... current-testing/vm/fc32/
+2021-05-10 11:24:37.895826 +0000 build-centos1: .L..t...... current-testing/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.895833 +0000 build-centos1: .d..t...... current-testing/vm/fc32/rpm/
+2021-05-10 11:24:37.895859 +0000 build-centos1: <f..t...... current-testing/vm/fc32/rpm/.gitignore
+2021-05-10 11:24:37.895867 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#13, to-chk=116/203)
+2021-05-10 11:24:37.895873 +0000 build-centos1: .d..t...... current-testing/vm/fc33/
+2021-05-10 11:24:37.895881 +0000 build-centos1: .L..t...... current-testing/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.895887 +0000 build-centos1: .d..t...... current-testing/vm/fc33/rpm/
+2021-05-10 11:24:37.895894 +0000 build-centos1: <f..t...... current-testing/vm/fc33/rpm/.gitignore
+2021-05-10 11:24:37.895901 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#14, to-chk=113/203)
+2021-05-10 11:24:37.895907 +0000 build-centos1: .d..t...... current/
+2021-05-10 11:24:37.895919 +0000 build-centos1: .d..t...... current/dom0/
+2021-05-10 11:24:37.895926 +0000 build-centos1: .d..t...... current/dom0/fc25/
+2021-05-10 11:24:37.895933 +0000 build-centos1: .L..t...... current/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.895951 +0000 build-centos1: .d..t...... current/dom0/fc25/rpm/
+2021-05-10 11:24:37.895958 +0000 build-centos1: <f..t...... current/dom0/fc25/rpm/.gitignore
+2021-05-10 11:24:37.895973 +0000 build-centos1: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#15, to-chk=105/203)
+2021-05-10 11:24:37.895979 +0000 build-centos1: .d..t...... current/dom0/fc31/
+2021-05-10 11:24:37.895995 +0000 build-centos1: .L..t...... current/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.896002 +0000 build-centos1: .d..t...... current/dom0/fc31/rpm/
+2021-05-10 11:24:37.896008 +0000 build-centos1: <f..t...... current/dom0/fc31/rpm/.gitignore
+2021-05-10 11:24:37.896020 +0000 build-centos1: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#16, to-chk=102/203)
+2021-05-10 11:24:37.896026 +0000 build-centos1: .d..t...... current/dom0/fc32/
+2021-05-10 11:24:37.896033 +0000 build-centos1: .L..t...... current/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.896039 +0000 build-centos1: .d..t...... current/dom0/fc32/rpm/
+2021-05-10 11:24:37.896046 +0000 build-centos1: <f..t...... current/dom0/fc32/rpm/.gitignore
+2021-05-10 11:24:37.896053 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#17, to-chk=99/203)
+2021-05-10 11:24:37.896058 +0000 build-centos1: .d..t...... current/vm/
+2021-05-10 11:24:37.896064 +0000 build-centos1: .d..t...... current/vm/centos7/
+2021-05-10 11:24:37.896072 +0000 build-centos1: .L..t...... current/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896077 +0000 build-centos1: .d..t...... current/vm/centos7/rpm/
+2021-05-10 11:24:37.896090 +0000 build-centos1: <f..t...... current/vm/centos7/rpm/.gitignore
+2021-05-10 11:24:37.896221 +0000 build-centos1: .              6 100%    0.53kB/s    0:00:00  .              6 100%    0.53kB/s    0:00:00 (xfr#18, to-chk=89/203)
+2021-05-10 11:24:37.896256 +0000 build-centos1: .d..t...... current/vm/centos8/
+2021-05-10 11:24:37.896266 +0000 build-centos1: .L..t...... current/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896273 +0000 build-centos1: .d..t...... current/vm/centos8/rpm/
+2021-05-10 11:24:37.896280 +0000 build-centos1: <f..t...... current/vm/centos8/rpm/.gitignore
+2021-05-10 11:24:37.896288 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#19, to-chk=86/203)
+2021-05-10 11:24:37.896294 +0000 build-centos1: .d..t...... current/vm/fc29/
+2021-05-10 11:24:37.896301 +0000 build-centos1: .L..t...... current/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896307 +0000 build-centos1: .d..t...... current/vm/fc29/rpm/
+2021-05-10 11:24:37.896314 +0000 build-centos1: <f..t...... current/vm/fc29/rpm/.gitignore
+2021-05-10 11:24:37.896567 +0000 build-centos1: .              6 100%    0.49kB/s    0:00:00  .              6 100%    0.49kB/s    0:00:00 (xfr#20, to-chk=51/203)
+2021-05-10 11:24:37.896583 +0000 build-centos1: .d..t...... current/vm/fc30/
+2021-05-10 11:24:37.896591 +0000 build-centos1: .L..t...... current/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896597 +0000 build-centos1: .d..t...... current/vm/fc30/rpm/
+2021-05-10 11:24:37.896604 +0000 build-centos1: <f..t...... current/vm/fc30/rpm/.gitignore
+2021-05-10 11:24:37.896778 +0000 build-centos1: .              6 100%    0.49kB/s    0:00:00  .              6 100%    0.49kB/s    0:00:00 (xfr#21, to-chk=48/203)
+2021-05-10 11:24:37.896795 +0000 build-centos1: .d..t...... current/vm/fc31/
+2021-05-10 11:24:37.896805 +0000 build-centos1: .L..t...... current/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896812 +0000 build-centos1: .d..t...... current/vm/fc31/rpm/
+2021-05-10 11:24:37.896833 +0000 build-centos1: <f..t...... current/vm/fc31/rpm/.gitignore
+2021-05-10 11:24:37.896841 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#22, to-chk=45/203)
+2021-05-10 11:24:37.896847 +0000 build-centos1: .d..t...... current/vm/fc32/
+2021-05-10 11:24:37.896855 +0000 build-centos1: .L..t...... current/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896861 +0000 build-centos1: .d..t...... current/vm/fc32/rpm/
+2021-05-10 11:24:37.896867 +0000 build-centos1: <f..t...... current/vm/fc32/rpm/.gitignore
+2021-05-10 11:24:37.896874 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#23, to-chk=42/203)
+2021-05-10 11:24:37.896880 +0000 build-centos1: .d..t...... current/vm/fc33/
+2021-05-10 11:24:37.896887 +0000 build-centos1: .L..t...... current/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.896893 +0000 build-centos1: .d..t...... current/vm/fc33/rpm/
+2021-05-10 11:24:37.896899 +0000 build-centos1: <f..t...... current/vm/fc33/rpm/.gitignore
+2021-05-10 11:24:37.896918 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#24, to-chk=39/203)
+2021-05-10 11:24:37.896925 +0000 build-centos1: .d..t...... security-testing/
+2021-05-10 11:24:37.896931 +0000 build-centos1: .d..t...... security-testing/dom0/
+2021-05-10 11:24:37.896937 +0000 build-centos1: .d..t...... security-testing/dom0/fc25/
+2021-05-10 11:24:37.896943 +0000 build-centos1: .d..t...... security-testing/dom0/fc25/rpm/
+2021-05-10 11:24:37.896950 +0000 build-centos1: <f..t...... security-testing/dom0/fc25/rpm/.gitignore
+2021-05-10 11:24:37.896976 +0000 build-centos1: .              6 100%    0.49kB/s    0:00:00  .              6 100%    0.49kB/s    0:00:00 (xfr#25, to-chk=32/203)
+2021-05-10 11:24:37.896983 +0000 build-centos1: .d..t...... security-testing/dom0/fc31/
+2021-05-10 11:24:37.896989 +0000 build-centos1: .d..t...... security-testing/dom0/fc31/rpm/
+2021-05-10 11:24:37.896996 +0000 build-centos1: <f..t...... security-testing/dom0/fc31/rpm/.gitignore
+2021-05-10 11:24:37.898140 +0000 build-centos1: .              6 100%    0.45kB/s    0:00:00  .              6 100%    0.45kB/s    0:00:00 (xfr#26, to-chk=30/203)
+2021-05-10 11:24:37.898156 +0000 build-centos1: .d..t...... security-testing/dom0/fc32/
+2021-05-10 11:24:37.898165 +0000 build-centos1: .L..t...... security-testing/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:24:37.898172 +0000 build-centos1: .d..t...... security-testing/dom0/fc32/rpm/
+2021-05-10 11:24:37.898179 +0000 build-centos1: <f..t...... security-testing/dom0/fc32/rpm/.gitignore
+2021-05-10 11:24:37.898187 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#27, to-chk=27/203)
+2021-05-10 11:24:37.898192 +0000 build-centos1: .d..t...... security-testing/vm/
+2021-05-10 11:24:37.898199 +0000 build-centos1: .d..t...... security-testing/vm/centos7/
+2021-05-10 11:24:37.898206 +0000 build-centos1: .L..t...... security-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.898212 +0000 build-centos1: .d..t...... security-testing/vm/centos7/rpm/
+2021-05-10 11:24:37.898219 +0000 build-centos1: <f..t...... security-testing/vm/centos7/rpm/.gitignore
+2021-05-10 11:24:37.898408 +0000 build-centos1: .              6 100%    0.42kB/s    0:00:00  .              6 100%    0.42kB/s    0:00:00 (xfr#28, to-chk=17/203)
+2021-05-10 11:24:37.898424 +0000 build-centos1: .d..t...... security-testing/vm/centos8/
+2021-05-10 11:24:37.898433 +0000 build-centos1: .L..t...... security-testing/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.898440 +0000 build-centos1: .d..t...... security-testing/vm/centos8/rpm/
+2021-05-10 11:24:37.898446 +0000 build-centos1: <f..t...... security-testing/vm/centos8/rpm/.gitignore
+2021-05-10 11:24:37.898454 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#29, to-chk=14/203)
+2021-05-10 11:24:37.898460 +0000 build-centos1: .d..t...... security-testing/vm/fc29/
+2021-05-10 11:24:37.898470 +0000 build-centos1: .d..t...... security-testing/vm/fc29/rpm/
+2021-05-10 11:24:37.898484 +0000 build-centos1: <f..t...... security-testing/vm/fc29/rpm/.gitignore
+2021-05-10 11:24:37.898690 +0000 build-centos1: .              6 100%    0.42kB/s    0:00:00  .              6 100%    0.42kB/s    0:00:00 (xfr#30, to-chk=12/203)
+2021-05-10 11:24:37.898698 +0000 build-centos1: .d..t...... security-testing/vm/fc30/
+2021-05-10 11:24:37.898706 +0000 build-centos1: .L..t...... security-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.898712 +0000 build-centos1: .d..t...... security-testing/vm/fc30/rpm/
+2021-05-10 11:24:37.898719 +0000 build-centos1: <f..t...... security-testing/vm/fc30/rpm/.gitignore
+2021-05-10 11:24:37.898898 +0000 build-centos1: .              6 100%    0.42kB/s    0:00:00  .              6 100%    0.42kB/s    0:00:00 (xfr#31, to-chk=9/203)
+2021-05-10 11:24:37.898906 +0000 build-centos1: .d..t...... security-testing/vm/fc31/
+2021-05-10 11:24:37.898914 +0000 build-centos1: .L..t...... security-testing/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.898920 +0000 build-centos1: .d..t...... security-testing/vm/fc31/rpm/
+2021-05-10 11:24:37.898927 +0000 build-centos1: <f..t...... security-testing/vm/fc31/rpm/.gitignore
+2021-05-10 11:24:37.898934 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#32, to-chk=6/203)
+2021-05-10 11:24:37.898940 +0000 build-centos1: .d..t...... security-testing/vm/fc32/
+2021-05-10 11:24:37.898948 +0000 build-centos1: .L..t...... security-testing/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.898954 +0000 build-centos1: .d..t...... security-testing/vm/fc32/rpm/
+2021-05-10 11:24:37.898960 +0000 build-centos1: <f..t...... security-testing/vm/fc32/rpm/.gitignore
+2021-05-10 11:24:37.898971 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#33, to-chk=3/203)
+2021-05-10 11:24:37.898977 +0000 build-centos1: .d..t...... security-testing/vm/fc33/
+2021-05-10 11:24:37.898994 +0000 build-centos1: .L..t...... security-testing/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:24:37.899000 +0000 build-centos1: .d..t...... security-testing/vm/fc33/rpm/
+2021-05-10 11:24:37.899007 +0000 build-centos1: <f..t...... security-testing/vm/fc33/rpm/.gitignore
+2021-05-10 11:24:37.899014 +0000 build-centos1: .              0 100%    0.00kB/s    0:00:00 (xfr#34, to-chk=0/203)
+2021-05-10 11:24:39.695481 +0000 build-centos1: --> Processing repo: r4.1/current/dom0/fc25...
+2021-05-10 11:24:39.806398 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.811283 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.816305 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.825416 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.836937 +0000 build-centos1: --> Processing repo: r4.1/current/dom0/fc29...
+2021-05-10 11:24:39.949749 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.955095 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.960036 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.967823 +0000 build-centos1: 11:24:40: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:39.979432 +0000 build-centos1: --> Processing repo: r4.1/current/dom0/fc31...
+2021-05-10 11:24:40.088681 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.093639 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.098971 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.105722 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.118101 +0000 build-centos1: --> Processing repo: r4.1/current/dom0/fc32...
+2021-05-10 11:24:40.374302 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.379805 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.385294 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.394282 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.408703 +0000 build-centos1: --> Processing repo: r4.1/current/vm/centos7...
+2021-05-10 11:24:40.538163 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.543100 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.548249 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.555124 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.567604 +0000 build-centos1: --> Processing repo: r4.1/current/vm/centos8...
+2021-05-10 11:24:40.824460 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.830297 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.835385 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.844031 +0000 build-centos1: 11:24:41: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.857207 +0000 build-centos1: --> Processing repo: r4.1/current/vm/fc29...
+2021-05-10 11:24:40.984280 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.989744 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:40.995255 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.003115 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.015627 +0000 build-centos1: --> Processing repo: r4.1/current/vm/fc30...
+2021-05-10 11:24:41.145442 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.150447 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.155837 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.163615 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.174787 +0000 build-centos1: --> Processing repo: r4.1/current/vm/fc31...
+2021-05-10 11:24:41.311039 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.315187 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.321444 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.329679 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.341806 +0000 build-centos1: --> Processing repo: r4.1/current/vm/fc32...
+2021-05-10 11:24:41.616389 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.621612 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.627345 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.635482 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.648782 +0000 build-centos1: --> Processing repo: r4.1/current/vm/fc33...
+2021-05-10 11:24:41.908914 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.913623 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.918639 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.926111 +0000 build-centos1: 11:24:42: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:41.937685 +0000 build-centos1: Done.
+2021-05-10 11:24:42.333194 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc25...
+2021-05-10 11:24:42.448247 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.453280 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.458322 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.466448 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.478164 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc29...
+2021-05-10 11:24:42.600887 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.604937 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.610200 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.617615 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.628470 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2021-05-10 11:24:42.957057 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.962463 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.967927 +0000 build-centos1: 11:24:43: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.976806 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:42.990665 +0000 build-centos1: --> Processing repo: r4.1/current-testing/dom0/fc32...
+2021-05-10 11:24:43.253048 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.258014 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.263291 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.270726 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.283193 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/centos7...
+2021-05-10 11:24:43.412974 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.419836 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.426133 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.435973 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.448798 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/centos8...
+2021-05-10 11:24:43.723708 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.729180 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.734211 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.742857 +0000 build-centos1: 11:24:44: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:43.756402 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc29...
+2021-05-10 11:24:44.005762 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.011628 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.016805 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.025275 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.038643 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc30...
+2021-05-10 11:24:44.365374 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.371234 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.376720 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.385430 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.399953 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc31...
+2021-05-10 11:24:44.743318 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.748919 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.753422 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.762859 +0000 build-centos1: 11:24:45: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:44.775576 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc32...
+2021-05-10 11:24:45.042689 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.048213 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.053539 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.061549 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.074220 +0000 build-centos1: --> Processing repo: r4.1/current-testing/vm/fc33...
+2021-05-10 11:24:45.330227 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.335776 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.340988 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.349215 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.362418 +0000 build-centos1: Done.
+2021-05-10 11:24:45.750436 +0000 build-centos1: --> Processing repo: r4.1/security-testing/dom0/fc25...
+2021-05-10 11:24:45.859730 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.864391 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.868851 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.876927 +0000 build-centos1: 11:24:46: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:45.888706 +0000 build-centos1: --> Processing repo: r4.1/security-testing/dom0/fc29...
+2021-05-10 11:24:45.997205 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.001873 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.007039 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.014515 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.026547 +0000 build-centos1: --> Processing repo: r4.1/security-testing/dom0/fc31...
+2021-05-10 11:24:46.135927 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.140412 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.147182 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.155080 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.166197 +0000 build-centos1: --> Processing repo: r4.1/security-testing/dom0/fc32...
+2021-05-10 11:24:46.274631 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.279888 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.284425 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.292436 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.303438 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/centos7...
+2021-05-10 11:24:46.407428 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.412013 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.417920 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.425633 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.436653 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/centos8...
+2021-05-10 11:24:46.547861 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.553153 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.558153 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.565990 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.578255 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/fc29...
+2021-05-10 11:24:46.686579 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.691612 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.696905 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.704603 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.717046 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/fc30...
+2021-05-10 11:24:46.825824 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.830802 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.836028 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.843065 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.855305 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/fc31...
+2021-05-10 11:24:46.967245 +0000 build-centos1: 11:24:47: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.972089 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.977287 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.985045 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:46.997037 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/fc32...
+2021-05-10 11:24:47.103673 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.109543 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.114358 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.121551 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.134448 +0000 build-centos1: --> Processing repo: r4.1/security-testing/vm/fc33...
+2021-05-10 11:24:47.244370 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.249277 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.254678 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.262638 +0000 build-centos1: 11:24:48: posix_spawn avoided (fd close requested) 
+2021-05-10 11:24:47.274418 +0000 build-centos1: Done.
+2021-05-10 11:24:47.275782 +0000 build-centos1: ~/builder-r4.1/qubes-src/linux-yum
+2021-05-10 11:24:47.276407 +0000 build-centos1: Makefile:807: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.centos8 post-update-repo-current-testing
+2021-05-10 11:24:47.276423 +0000 build-centos1: true
+2021-05-10 11:24:47.277547 +0000 build-centos1: > done
+2021-05-10 11:24:47.277612 +0000 > closing log
