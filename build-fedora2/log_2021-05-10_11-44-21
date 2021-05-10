@@ -1,0 +1,1665 @@
+2021-05-10 11:44:21.921807 +0000 > starting log
+2021-05-10 11:44:21.922178 +0000 build-fedora2: > starting build with log
+2021-05-10 11:44:21.922218 +0000 build-fedora2: >> make args: DISTS_VM= fc32 fc33 fc34 DIST_DOM0= BUILD_LOGS_URL= app-split-browser-vm-fc32=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-08-44 app-split-browser-vm-fc33=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-16-14 app-split-browser-vm-fc34=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-40-22 GIT_URL_app_split_browser=https://github.com/QubesOS-contrib/qubes-app-split-browser sign-all update-repo-current-testing
+2021-05-10 11:44:21.922225 +0000 build-fedora2: >> MAKEFLAGS=
+2021-05-10 11:44:21.922232 +0000 build-fedora2: >> COMPONENTS=app-split-browser
+2021-05-10 11:44:21.922237 +0000 build-fedora2: >> DISTS_VM=
+2021-05-10 11:44:21.922243 +0000 build-fedora2: >> DIST_DOM0=
+2021-05-10 11:44:21.922250 +0000 build-fedora2: >> qubes-builder 9bd3fae19d13964aa61e235edc39ead942b2a57a
+2021-05-10 11:44:21.922259 +0000 build-fedora2: >> qubes-builder/qubes-src/app-split-browser ebdb4c1c5e6e73b912a53f34bd7252b42e063920
+2021-05-10 11:44:21.922266 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser-0.12.4-1.fc31.x86_64.buildinfo
+2021-05-10 11:44:21.922274 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.noarch.rpm
+2021-05-10 11:44:21.922281 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.src.rpm
+2021-05-10 11:44:21.922288 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.x86_64.buildinfo
+2021-05-10 11:44:21.922296 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser-disp-0.13.0-1.fc31.noarch.rpm
+2021-05-10 11:44:21.922303 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-split-browser.spec.list
+2021-05-10 11:44:21.922310 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.12.4-1.fc32.x86_64.buildinfo
+2021-05-10 11:44:21.922317 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.noarch.rpm
+2021-05-10 11:44:21.922324 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.src.rpm
+2021-05-10 11:44:21.922331 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.x86_64.buildinfo
+2021-05-10 11:44:21.922339 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:44:21.922346 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm
+2021-05-10 11:44:21.922353 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo
+2021-05-10 11:44:21.922360 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-1.fc32.noarch.rpm
+2021-05-10 11:44:21.922368 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:44:21.922374 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-split-browser.spec.list
+2021-05-10 11:44:21.922382 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.12.4-1.fc33.x86_64.buildinfo
+2021-05-10 11:44:21.922389 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.noarch.rpm
+2021-05-10 11:44:21.922396 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.src.rpm
+2021-05-10 11:44:21.922403 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.x86_64.buildinfo
+2021-05-10 11:44:21.922411 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:44:21.922418 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm
+2021-05-10 11:44:21.922425 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo
+2021-05-10 11:44:21.922432 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-1.fc33.noarch.rpm
+2021-05-10 11:44:21.922440 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:44:21.922446 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-split-browser.spec.list
+2021-05-10 11:44:21.922453 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:44:21.922465 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm
+2021-05-10 11:44:21.922473 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo
+2021-05-10 11:44:21.922480 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:44:21.922487 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-split-browser.spec.list
+2021-05-10 11:44:21.940717 +0000 build-fedora2: 9e2f0aa5fbb88f2371361f5a43a2e7c7478f9b95ef5c4a3921d3c3805c068b2b11aa179dfe7ed8d8f459221a8010b47b747e708f98f4f9dc2228fb4d4e262304  pkgs/vm-fc31/qubes-split-browser-0.12.4-1.fc31.x86_64.buildinfo
+2021-05-10 11:44:21.961736 +0000 build-fedora2: 89c845da1d64b855e96929be8e3743d623a3dbd44e69c11832b25e5cc5e72d4469f0a6bb3e6015df94358202c8669ee02bafb69fbcd76cea7a261bb01230413c  pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.noarch.rpm
+2021-05-10 11:44:21.971005 +0000 build-fedora2: 5b6b4b8bf529732580b0a78d8d138e8df226a8cc83f1261681e7a1927f3ea45e21a80a08d83361a9f9bb4a991c296b91cbf4eebfa88cfe56303992868659339e  pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.src.rpm
+2021-05-10 11:44:22.000794 +0000 build-fedora2: 7466b6145337b49709d55ecb802043216444157b1faa3ed74b1143945dc4214fa33df60968bbaacdc7537eb6e3f09719f6d54f4531a744e621b3fd34a1f256d2  pkgs/vm-fc31/qubes-split-browser-0.13.0-1.fc31.x86_64.buildinfo
+2021-05-10 11:44:22.007983 +0000 build-fedora2: 50c6414596b6c596479e2d9bd8e5ffa7000faf473a0934a2cf2519984810af562da4be0e66893f88a51e09a52303a477f422acd183686dfbb26d2ef2b022e71e  pkgs/vm-fc31/qubes-split-browser-disp-0.13.0-1.fc31.noarch.rpm
+2021-05-10 11:44:22.014759 +0000 build-fedora2: b7ae21f07bbaabb138234e1199a7b0ae674e3dac44d25f908b13d8e38dce5f2143a9b1d2650e904dd92c24beea8ac3aa2f37f5d606a9fb31b8cc088ab2999206  pkgs/vm-fc31/qubes-split-browser.spec.list
+2021-05-10 11:44:22.020760 +0000 build-fedora2: 186c6deaa70a1a5f998a35bd91cdee0831408deb5b7dda8bcff71af6032ae0eb910580b3c80fa58e9b23a983b5fe832c53f895ef15cf9a7fc084bf55984db9cf  pkgs/vm-fc32/qubes-split-browser-0.12.4-1.fc32.x86_64.buildinfo
+2021-05-10 11:44:22.020812 +0000 build-fedora2: 7a66321e37e8cb01dd012b65de8915af72ed792a7bd4dacb010e0f77bee202d9563c853d97a89ca115b3e7cc0c37e57c108cff2264ddbf976ac80decc8b94e0d  pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.noarch.rpm
+2021-05-10 11:44:22.020827 +0000 build-fedora2: ab9a02c0343dc3205e80db06bfcd4377dfc9d975a68e7dd011f7f9c45f17395802d7d79946eebf0d02e7d514b54882bc761db8804b91786a889e59c79056f552  pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.src.rpm
+2021-05-10 11:44:22.036688 +0000 build-fedora2: c279b8e24a279bb99e6c6321952b1cd07d6b3279e018c1714f3c2ae501ba108a75bd53d6aad3a54b14ba8ef7e2085c7755894d1d6b8edd8cbefddbcc43bcd95b  pkgs/vm-fc32/qubes-split-browser-0.13.0-1.fc32.x86_64.buildinfo
+2021-05-10 11:44:22.045314 +0000 build-fedora2: 59836b2f9c2d60997737d907d629b05f8560cd0490c8cb7573b843e57a4dee4a9505fc0511583a02c07e899e393ac6e6c4e656401ddeac19da9c40b37002dc7a  pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:44:22.056221 +0000 build-fedora2: 0e3bf00ab403a6adf019f5b7a4222d059d6d1bdbfad658af88706d8c980ec477384c6bb838e8a2fe59c064a152b40b225fac2ef1f5d8bdf2e22b466316b54623  pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm
+2021-05-10 11:44:22.056605 +0000 build-fedora2: 6ab201296f7d5cd91a63f695f0ba20ae6f4147ef9cadcd38b36d4e17a4ad57dbbab25b602d0360f06dd54add66499f736b8073238dffa87db6035ea407c98720  pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo
+2021-05-10 11:44:22.056634 +0000 build-fedora2: db27d6b8cebd8f114a6a7a0052ccef5e76d3d706d11e5ccdf304c278fcfab0bc9d0cf901659e53656855152d75beab400460c08945a82390797bc05dd08b401d  pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-1.fc32.noarch.rpm
+2021-05-10 11:44:22.067418 +0000 build-fedora2: a9bf081fa32dd294b430141889ebf5592fddee5549742c8b9453f6d699286dcaabab314f3048174ab1ede927e638131f4962010c54df3332c8984886c6276df9  pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:44:22.098169 +0000 build-fedora2: d82f4d88661f172f63a9b1cf482a1b95471b0e60a1d909e286a713d41d39833e07b11a7bda00a5f0c4eee7513d1ac99afea5e09e76ceeeb9ab3f535a60b7446c  pkgs/vm-fc32/qubes-split-browser.spec.list
+2021-05-10 11:44:22.105169 +0000 build-fedora2: 38150ce28c4cc0ad0fcf47f748a1e29b5526303990a489ed51c2e3b656f98a38649187cbfb05aa2e5e249f58444c7f3fa5c8e720db8ecf0fa4e7a6b2d70ca40c  pkgs/vm-fc33/qubes-split-browser-0.12.4-1.fc33.x86_64.buildinfo
+2021-05-10 11:44:22.105200 +0000 build-fedora2: 074e2332283deecda38291a3dd062765c4e1435277031352af62479291cf68472f76c952d53ac92907b79651f9a493290c24532f777abe8b1949903dd92c0999  pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.noarch.rpm
+2021-05-10 11:44:22.105219 +0000 build-fedora2: 463e8006c666a4ae0ac04ec2c5c741f1ae259d4e85ca49d50611d47ccbdcd5037f154f5c0499e54cce1b48a81bf1f65b91df47c09fc3317b0aea4048af2deda4  pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.src.rpm
+2021-05-10 11:44:22.113448 +0000 build-fedora2: f3d44ee7ac436b7dc028342f86d216e3194d58dcd1d2795134dbf57bfa50c8d7948b19f2f47dc4de7425b9dfac9eb6953fab94a0ce3c9bce44113b3eeb136ed1  pkgs/vm-fc33/qubes-split-browser-0.13.0-1.fc33.x86_64.buildinfo
+2021-05-10 11:44:22.126812 +0000 build-fedora2: 709657f0df65ac47a0f86212ec7db3f0e8f627669c42e79c1ac2a49cc202a33b62588bcf39af6e5fc3cb9e591ae69e5255bd19a5da0ad9beba4b17ca5dcc2891  pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:44:22.131814 +0000 build-fedora2: 5f3361774bd47e7e1b4cd791bd6561e6cfa36c05721f5cbfc0bb6cf994cc0d1b0a3b993f42237fbaa2edf3020d2013eb15d739299823853723aeb9a361851f96  pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm
+2021-05-10 11:44:22.155037 +0000 build-fedora2: 6e9f95e647d7bde0c44467de1d8f68accee5914cfe0dbfdf79cd5cfad509fe2618901153e0b3c3eecdd2052db4adb6296ba122345f5004d98992cdc7a7e4f5f7  pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo
+2021-05-10 11:44:22.155067 +0000 build-fedora2: 24aba5440c060ba5a697dc16be86e30c315afbb39c06b6386d3226cab164ddac7f625889bd7a0a3e9a06c3178c75a0fce502a0679fe5aa46629162ca23d5c0b2  pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-1.fc33.noarch.rpm
+2021-05-10 11:44:22.166748 +0000 build-fedora2: cb2ffdc7bbf5589b0dab75ba73cc1830b5aad5a228b68b4177ccb743d129360cc4cf9a4db7b91a8102ef69245d1c8dc373cb6862a3539dcf79180facf62eabae  pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:44:22.167458 +0000 build-fedora2: 66da28f433e7ca7ebd51d24ef37ff8ec47f42747f6f74285b5e7e24573bf2e29ec9548448c74ff03e300e9ad7b07651188e06f75f1fef6b3f93646451982274c  pkgs/vm-fc33/qubes-split-browser.spec.list
+2021-05-10 11:44:22.167490 +0000 build-fedora2: 27ea904954f848146a4a802519f5c5305ddc4a76960963e11f074ed5443e5de3938c95c5390244c4e417a911ca5671cf11d92adad3b4d9cca7357cd30881a851  pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:44:22.167516 +0000 build-fedora2: 4065409d531335a9cc32a26c6e3af80c842ae3282a9b92fcdfa95e972ba51f60154fc5a47f74cb41311283cb918c0e499d720715475c8009897fc358ec5b62ff  pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm
+2021-05-10 11:44:22.167546 +0000 build-fedora2: 03fed977ddbf364252f94a1d0bd3e56669958755bf78e8acda5a82301f307b001afd37c05508afa8fb659b085361eb56480d5d9b38a3c2d88922f47eed1fccbe  pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo
+2021-05-10 11:44:22.167601 +0000 build-fedora2: 3c2b2fda1da4f347c009c4af9f9c5489ffa6ac0229fc3c906f95c7f5e177f4af6cc3851a5127a9e3f6de802c5c5cbd99945e349ee6edbbb150401f419f3c16a1  pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:44:22.167618 +0000 build-fedora2: c8668fa69aef374411dd952132c99245192480883e29341c7c810cda87d7bbf171ae54b3e4fba3a5ee6df413e19d3b947f8938ea23a06ce09a50d8877c2be7d0  pkgs/vm-fc34/qubes-split-browser.spec.list
+2021-05-10 11:44:22.197259 +0000 build-fedora2: ================================================================================
+2021-05-10 11:44:22.197323 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2021-05-10 11:44:22.197333 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2021-05-10 11:44:22.197341 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2021-05-10 11:44:22.197349 +0000 build-fedora2: ================================================================================
+2021-05-10 11:44:22.197355 +0000 build-fedora2: DISTS_VM:
+2021-05-10 11:44:22.198222 +0000 build-fedora2:      fc32, fc33, fc34,
+2021-05-10 11:44:22.198299 +0000 build-fedora2: DISTS_ALL:
+2021-05-10 11:44:22.199151 +0000 build-fedora2:      vm-fc32, vm-fc33, vm-fc34,
+2021-05-10 11:44:22.199260 +0000 build-fedora2: DIST_DOM0:
+2021-05-10 11:44:22.200287 +0000 build-fedora2:     
+2021-05-10 11:44:22.200339 +0000 build-fedora2: BUILDER_PLUGINS:
+2021-05-10 11:44:22.201344 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2021-05-10 11:44:22.201474 +0000 build-fedora2: COMPONENTS:
+2021-05-10 11:44:22.202493 +0000 build-fedora2:      app-split-browser,
+2021-05-10 11:44:22.202590 +0000 build-fedora2: GIT_REPOS:
+2021-05-10 11:44:22.203676 +0000 build-fedora2:      qubes-src/app-split-browser,
+2021-05-10 11:44:22.203768 +0000 build-fedora2: TEMPLATE:
+2021-05-10 11:44:22.204745 +0000 build-fedora2:     
+2021-05-10 11:44:22.204908 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2021-05-10 11:44:22.205927 +0000 build-fedora2:     
+2021-05-10 11:44:22.206131 +0000 build-fedora2: TEMPLATE_ALIAS:
+2021-05-10 11:44:22.207370 +0000 build-fedora2:     
+2021-05-10 11:44:22.207427 +0000 build-fedora2: TEMPLATE_LABEL:
+2021-05-10 11:44:22.208360 +0000 build-fedora2:     
+2021-05-10 11:44:22.218906 +0000 build-fedora2: > running make
+2021-05-10 11:44:22.227781 +0000 build-fedora2: Makefile:292: target 'sign.vm.fc32.app-split-browser' does not exist
+2021-05-10 11:44:22.227857 +0000 build-fedora2: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-05-10 11:44:22.227868 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-05-10 11:44:22.227875 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-05-10 11:44:22.227882 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-05-10 11:44:22.227889 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:22.227899 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2021-05-10 11:44:22.227904 +0000 build-fedora2: fi
+2021-05-10 11:44:22.227912 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:22.227919 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-05-10 11:44:22.227924 +0000 build-fedora2: ..DIST=fc32 \
+2021-05-10 11:44:22.227929 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-05-10 11:44:22.227936 +0000 build-fedora2: ..COMPONENT=app-split-browser \
+2021-05-10 11:44:22.227957 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-05-10 11:44:22.227962 +0000 build-fedora2: ..sign || exit 1; \
+2021-05-10 11:44:22.227969 +0000 build-fedora2: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2021-05-10 11:44:22.227976 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-05-10 11:44:22.227983 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2021-05-10 11:44:22.227991 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-05-10 11:44:22.228017 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-05-10 11:44:22.228023 +0000 build-fedora2: ..fi ;\
+2021-05-10 11:44:22.228028 +0000 build-fedora2: .done ; \
+2021-05-10 11:44:22.228034 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-05-10 11:44:22.228039 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-05-10 11:44:22.228046 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-05-10 11:44:22.228051 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-05-10 11:44:22.228058 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-05-10 11:44:22.228062 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:22.228070 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-05-10 11:44:22.228075 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:22.228079 +0000 build-fedora2: fi
+2021-05-10 11:44:22.237408 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:22.237442 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:22.237618 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:22.238106 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:22.238139 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:22.238293 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:22.238817 +0000 build-fedora2: + tmp_spec=/tmp/tmp.RtestQ.spec
+2021-05-10 11:44:22.239133 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:22.239553 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.RtestQ.spec
+2021-05-10 11:44:22.240487 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:22.240503 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:22.240516 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.241545 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:22.241560 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:22.241571 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.252963 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:22.252989 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:22.252997 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:22.253008 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:22.253014 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:22.253023 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.293125 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:22.293181 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:22.293193 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.341003 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.342107 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:22.342632 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.469640 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.470277 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.521961 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:22.522139 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:22.522777 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.RtestQ.spec
+2021-05-10 11:44:22.587057 +0000 build-fedora2: + rm -f /tmp/tmp.RtestQ.spec
+2021-05-10 11:44:22.589851 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2021-05-10 11:44:22.589895 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-05-10 11:44:22.589905 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2021-05-10 11:44:22.589911 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-05-10 11:44:22.589921 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-05-10 11:44:22.589930 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2021-05-10 11:44:22.589936 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-05-10 11:44:22.589960 +0000 build-fedora2: fi
+2021-05-10 11:44:22.599036 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:22.599096 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:22.599173 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:22.599788 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:22.599830 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:22.600104 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:22.600626 +0000 build-fedora2: + tmp_spec=/tmp/tmp.fcaHgX.spec
+2021-05-10 11:44:22.601037 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:22.601522 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.fcaHgX.spec
+2021-05-10 11:44:22.602492 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:22.602523 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:22.602537 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.603529 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:22.603545 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:22.603556 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.756606 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:22.756651 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:22.756659 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:22.756665 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:22.756671 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:22.756680 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:22.968714 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:22.968761 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:22.968773 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:23.305207 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:23.306445 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:23.308018 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:23.505938 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:23.507166 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:23.667044 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:23.667138 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:23.667933 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.fcaHgX.spec
+2021-05-10 11:44:23.726789 +0000 build-fedora2: + rm -f /tmp/tmp.fcaHgX.spec
+2021-05-10 11:44:23.857544 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:44:23.863578 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:198: update target 'sign' due to: sign-prep
+2021-05-10 11:44:23.863612 +0000 build-fedora2: cd qubes-src/app-split-browser && for pkg in pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo ; do \
+2021-05-10 11:44:23.863622 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-05-10 11:44:23.863637 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-05-10 11:44:23.863643 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-05-10 11:44:23.863652 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-05-10 11:44:23.863662 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2021-05-10 11:44:23.863668 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:23.863673 +0000 build-fedora2: done
+2021-05-10 11:44:23.871627 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:23.871661 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:23.871807 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:23.872570 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:23.872588 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:23.872657 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:23.873295 +0000 build-fedora2: + tmp_spec=/tmp/tmp.mYliGq.spec
+2021-05-10 11:44:23.873391 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:23.874010 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.mYliGq.spec
+2021-05-10 11:44:23.874729 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:23.874747 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:23.874759 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.277204 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:24.277248 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:24.277259 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.372029 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:24.372073 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:24.372103 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:24.372110 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:24.372115 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:24.372124 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.673376 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:24.673422 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:24.673433 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.716456 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.717275 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:24.717758 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.888409 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.889045 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:24.954608 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:24.954760 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:24.955390 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.mYliGq.spec
+2021-05-10 11:44:25.014419 +0000 build-fedora2: + rm -f /tmp/tmp.mYliGq.spec
+2021-05-10 11:44:25.028572 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:25.146705 +0000 build-fedora2: pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm:
+2021-05-10 11:44:25.158222 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:25.278100 +0000 build-fedora2: pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm:
+2021-05-10 11:44:25.290249 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:25.415247 +0000 build-fedora2: pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm:
+2021-05-10 11:44:25.548348 +0000 build-fedora2: Makefile:292: target 'sign.vm.fc33.app-split-browser' does not exist
+2021-05-10 11:44:25.548414 +0000 build-fedora2: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-05-10 11:44:25.548424 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-05-10 11:44:25.548432 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-05-10 11:44:25.548439 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-05-10 11:44:25.548446 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:25.548455 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-05-10 11:44:25.548461 +0000 build-fedora2: fi
+2021-05-10 11:44:25.548469 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:25.548476 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-05-10 11:44:25.548481 +0000 build-fedora2: ..DIST=fc33 \
+2021-05-10 11:44:25.548487 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-05-10 11:44:25.548515 +0000 build-fedora2: ..COMPONENT=app-split-browser \
+2021-05-10 11:44:25.548521 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-05-10 11:44:25.548527 +0000 build-fedora2: ..sign || exit 1; \
+2021-05-10 11:44:25.548534 +0000 build-fedora2: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2021-05-10 11:44:25.548540 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-05-10 11:44:25.548548 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2021-05-10 11:44:25.548555 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-05-10 11:44:25.548561 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-05-10 11:44:25.548566 +0000 build-fedora2: ..fi ;\
+2021-05-10 11:44:25.548571 +0000 build-fedora2: .done ; \
+2021-05-10 11:44:25.548577 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-05-10 11:44:25.548583 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-05-10 11:44:25.548589 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-05-10 11:44:25.548595 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-05-10 11:44:25.548601 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-05-10 11:44:25.548606 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:25.548614 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-05-10 11:44:25.548619 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:25.548623 +0000 build-fedora2: fi
+2021-05-10 11:44:25.559253 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:25.559307 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:25.559385 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:25.559988 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:25.560219 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:25.560528 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:25.561265 +0000 build-fedora2: + tmp_spec=/tmp/tmp.lkfbnL.spec
+2021-05-10 11:44:25.561471 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:25.562035 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.lkfbnL.spec
+2021-05-10 11:44:25.562923 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:25.562944 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:25.562958 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.563954 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:25.563963 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:25.563972 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.618194 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:25.618229 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:25.618237 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:25.618243 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:25.618248 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:25.618258 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.622553 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:25.622574 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:25.622584 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.642956 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.643947 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:25.644484 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.854258 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.854870 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.884227 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:25.884385 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:25.885038 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.lkfbnL.spec
+2021-05-10 11:44:25.944480 +0000 build-fedora2: + rm -f /tmp/tmp.lkfbnL.spec
+2021-05-10 11:44:25.946724 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2021-05-10 11:44:25.946735 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-05-10 11:44:25.946743 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2021-05-10 11:44:25.946749 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-05-10 11:44:25.946758 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-05-10 11:44:25.946767 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2021-05-10 11:44:25.946772 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-05-10 11:44:25.946777 +0000 build-fedora2: fi
+2021-05-10 11:44:25.954502 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:25.954522 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:25.954694 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:25.955260 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:25.955411 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:25.955510 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:25.956054 +0000 build-fedora2: + tmp_spec=/tmp/tmp.pMYJOE.spec
+2021-05-10 11:44:25.956231 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:25.956751 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.pMYJOE.spec
+2021-05-10 11:44:25.957594 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:25.957611 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:25.957623 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:25.958607 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:25.958622 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:25.958633 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.023989 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:26.024050 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:26.024060 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:26.024066 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:26.024071 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:26.024081 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.044797 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:26.044843 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:26.044854 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.194884 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.195745 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:26.196311 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.509256 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.509886 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.531289 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:26.531484 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:26.532181 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.pMYJOE.spec
+2021-05-10 11:44:26.590116 +0000 build-fedora2: + rm -f /tmp/tmp.pMYJOE.spec
+2021-05-10 11:44:26.749193 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:44:26.754698 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:198: update target 'sign' due to: sign-prep
+2021-05-10 11:44:26.754736 +0000 build-fedora2: cd qubes-src/app-split-browser && for pkg in pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo ; do \
+2021-05-10 11:44:26.754745 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-05-10 11:44:26.754760 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-05-10 11:44:26.754766 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-05-10 11:44:26.754775 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-05-10 11:44:26.754786 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2021-05-10 11:44:26.754791 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:26.754797 +0000 build-fedora2: done
+2021-05-10 11:44:26.761913 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:26.761930 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:26.762105 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:26.762623 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:26.762723 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:26.762917 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:26.763458 +0000 build-fedora2: + tmp_spec=/tmp/tmp.pXLCyY.spec
+2021-05-10 11:44:26.763643 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:26.764163 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.pXLCyY.spec
+2021-05-10 11:44:26.764997 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:26.765005 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:26.765018 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.766031 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:26.766038 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:26.766048 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.798746 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:26.798788 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:26.798796 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:26.798803 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:26.798810 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:26.798820 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:26.903431 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:26.903473 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:26.903484 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:27.592082 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:27.592645 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:27.593221 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:27.705271 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:27.705882 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:27.717447 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:27.717600 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:27.718201 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.pXLCyY.spec
+2021-05-10 11:44:27.777404 +0000 build-fedora2: + rm -f /tmp/tmp.pXLCyY.spec
+2021-05-10 11:44:27.792026 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:27.911559 +0000 build-fedora2: pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm:
+2021-05-10 11:44:27.922779 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:28.043133 +0000 build-fedora2: pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm:
+2021-05-10 11:44:28.054690 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:28.173827 +0000 build-fedora2: pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm:
+2021-05-10 11:44:28.351890 +0000 build-fedora2: Makefile:292: target 'sign.vm.fc34.app-split-browser' does not exist
+2021-05-10 11:44:28.351975 +0000 build-fedora2: if [ -n "app-split-browser" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_browser"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-browser > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-05-10 11:44:28.351987 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-05-10 11:44:28.352008 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-05-10 11:44:28.352016 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-05-10 11:44:28.352023 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:28.352055 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc34 template-name)
+2021-05-10 11:44:28.352062 +0000 build-fedora2: fi
+2021-05-10 11:44:28.352070 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:28.352077 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-05-10 11:44:28.352082 +0000 build-fedora2: ..DIST=fc34 \
+2021-05-10 11:44:28.352087 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-05-10 11:44:28.352094 +0000 build-fedora2: ..COMPONENT=app-split-browser \
+2021-05-10 11:44:28.352099 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-05-10 11:44:28.352105 +0000 build-fedora2: ..sign || exit 1; \
+2021-05-10 11:44:28.352112 +0000 build-fedora2: elif [ -d qubes-src/app-split-browser/rpm ]; then \
+2021-05-10 11:44:28.352118 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-05-10 11:44:28.352126 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/app-split-browser/rpm/*/*.rpm; do \
+2021-05-10 11:44:28.352133 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-05-10 11:44:28.352139 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-05-10 11:44:28.352144 +0000 build-fedora2: ..fi ;\
+2021-05-10 11:44:28.352149 +0000 build-fedora2: .done ; \
+2021-05-10 11:44:28.352155 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-05-10 11:44:28.352161 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-05-10 11:44:28.352167 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-05-10 11:44:28.352173 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-05-10 11:44:28.352179 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-05-10 11:44:28.352184 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:28.352192 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-05-10 11:44:28.352196 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:28.352201 +0000 build-fedora2: fi
+2021-05-10 11:44:28.362447 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:28.362475 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:28.362642 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:28.363201 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:28.363282 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:28.363494 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:28.364032 +0000 build-fedora2: + tmp_spec=/tmp/tmp.gFhXsw.spec
+2021-05-10 11:44:28.364301 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:28.364776 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.gFhXsw.spec
+2021-05-10 11:44:28.365574 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:28.365584 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:28.365598 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.366550 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:28.366557 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:28.366567 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.476705 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:28.476751 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:28.476760 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:28.476766 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:28.476771 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:28.476801 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.531271 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:28.531315 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:28.531326 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.576460 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.577442 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:28.577992 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.754272 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.754422 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.803767 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:28.803999 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:28.804547 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.gFhXsw.spec
+2021-05-10 11:44:28.863851 +0000 build-fedora2: + rm -f /tmp/tmp.gFhXsw.spec
+2021-05-10 11:44:28.866270 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:182: target 'sign-prep' does not exist
+2021-05-10 11:44:28.866289 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-05-10 11:44:28.866298 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2021-05-10 11:44:28.866305 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-05-10 11:44:28.866314 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-05-10 11:44:28.866322 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2021-05-10 11:44:28.866328 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-05-10 11:44:28.866333 +0000 build-fedora2: fi
+2021-05-10 11:44:28.873455 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:28.873471 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:28.873733 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:28.874290 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:28.874355 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:28.874568 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:28.875110 +0000 build-fedora2: + tmp_spec=/tmp/tmp.UlFQi4.spec
+2021-05-10 11:44:28.875321 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:28.875864 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.UlFQi4.spec
+2021-05-10 11:44:28.876644 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:28.876660 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:28.876675 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.877687 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:28.877696 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:28.877706 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:28.991364 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:28.991427 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:28.991436 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:28.991446 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:28.991452 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:28.991461 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.047245 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:29.047292 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:29.047304 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.136500 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.137454 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:29.138008 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.278008 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.278578 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.297108 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:29.297213 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:29.297767 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.UlFQi4.spec
+2021-05-10 11:44:29.356990 +0000 build-fedora2: + rm -f /tmp/tmp.UlFQi4.spec
+2021-05-10 11:44:29.483954 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:44:29.490477 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:198: update target 'sign' due to: sign-prep
+2021-05-10 11:44:29.490526 +0000 build-fedora2: cd qubes-src/app-split-browser && for pkg in pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo ; do \
+2021-05-10 11:44:29.490535 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-05-10 11:44:29.490550 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-05-10 11:44:29.490556 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-05-10 11:44:29.490565 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-05-10 11:44:29.490576 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign $pkg </dev/null || exit 1; \
+2021-05-10 11:44:29.490581 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:29.490586 +0000 build-fedora2: done
+2021-05-10 11:44:29.498687 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:29.498710 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:29.498916 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:29.499447 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:29.499640 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:29.499799 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:29.500297 +0000 build-fedora2: + tmp_spec=/tmp/tmp.7nv5dP.spec
+2021-05-10 11:44:29.500487 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:29.501140 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.7nv5dP.spec
+2021-05-10 11:44:29.502003 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:29.502021 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:29.502034 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.502995 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:29.503010 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:29.503021 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.514332 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:29.514358 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:29.514366 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:29.514372 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:29.514378 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:29.514387 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.626399 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:29.626448 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:29.626459 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.653809 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.654531 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:29.655178 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.775209 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.775753 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:29.799611 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:29.799798 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:29.800404 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.7nv5dP.spec
+2021-05-10 11:44:29.861992 +0000 build-fedora2: + rm -f /tmp/tmp.7nv5dP.spec
+2021-05-10 11:44:29.875394 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:29.999620 +0000 build-fedora2: pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm:
+2021-05-10 11:44:30.010806 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:30.131837 +0000 build-fedora2: pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm:
+2021-05-10 11:44:30.143693 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-05-10 11:44:30.262477 +0000 build-fedora2: pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm:
+2021-05-10 11:44:30.530057 +0000 build-fedora2: Makefile:851: target 'internal-update-repo-current-testing.vm.fc32.app-split-browser' does not exist
+2021-05-10 11:44:30.530098 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc32_BASEDIR"; \
+2021-05-10 11:44:30.530107 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then \
+2021-05-10 11:44:30.530116 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-05-10 11:44:30.530122 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-05-10 11:44:30.530147 +0000 build-fedora2: fi; \
+2021-05-10 11:44:30.530154 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:44:30.530160 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:44:30.530165 +0000 build-fedora2: else \
+2021-05-10 11:44:30.530171 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:44:30.530176 +0000 build-fedora2: fi; \
+2021-05-10 11:44:30.530183 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:30.530190 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:30.530196 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-05-10 11:44:30.530204 +0000 build-fedora2: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2021-05-10 11:44:30.530210 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-05-10 11:44:30.530216 +0000 build-fedora2: ...echo "no version tag"; \
+2021-05-10 11:44:30.530221 +0000 build-fedora2: ...exit 0; \
+2021-05-10 11:44:30.530226 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:30.530230 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:30.530237 +0000 build-fedora2: .if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:30.530246 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2021-05-10 11:44:30.530251 +0000 build-fedora2: fi
+2021-05-10 11:44:30.530267 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 get-var GET_VAR=PACKAGE_LIST); \
+2021-05-10 11:44:30.530275 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-05-10 11:44:30.530280 +0000 build-fedora2: ..echo "no packages."; \
+2021-05-10 11:44:30.530285 +0000 build-fedora2: ..exit 0; \
+2021-05-10 11:44:30.530290 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:30.530297 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm \
+2021-05-10 11:44:30.530304 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:30.530310 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-05-10 11:44:30.530316 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-05-10 11:44:30.530323 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2021-05-10 11:44:30.530334 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:30.530343 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-08-44 \
+2021-05-10 11:44:30.530349 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-05-10 11:44:30.530358 +0000 build-fedora2: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-05-10 11:44:30.530365 +0000 build-fedora2: .echo "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:30.530373 +0000 build-fedora2: .DIST=fc32 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc32 \
+2021-05-10 11:44:30.530381 +0000 build-fedora2: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2021-05-10 11:44:30.530386 +0000 build-fedora2: else \
+2021-05-10 11:44:30.530393 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2021-05-10 11:44:30.530398 +0000 build-fedora2: fi; \
+2021-05-10 11:44:30.530402 +0000 build-fedora2: echo
+2021-05-10 11:44:30.541037 +0000 build-fedora2: Updating qubes-src/app-split-browser... + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:30.541052 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:30.541230 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:30.541699 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:30.541793 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:30.541951 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:30.542436 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Z1fyHK.spec
+2021-05-10 11:44:30.542633 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:30.543133 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.Z1fyHK.spec
+2021-05-10 11:44:30.543913 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:30.543920 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:30.543952 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.545036 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:30.545051 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:30.545061 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.594430 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:30.594476 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:30.594484 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:30.594495 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:30.594501 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:30.594511 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.645244 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:30.645282 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:30.645293 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.650370 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.651445 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:30.651956 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.896015 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.896595 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.897344 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:30.897544 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:30.898184 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Z1fyHK.spec
+2021-05-10 11:44:30.963073 +0000 build-fedora2: + rm -f /tmp/tmp.Z1fyHK.spec
+2021-05-10 11:44:30.969226 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:30.969244 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:30.969455 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:30.970002 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:30.970085 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:30.970324 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:30.970820 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Ioea3L.spec
+2021-05-10 11:44:30.971026 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:30.971533 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.Ioea3L.spec
+2021-05-10 11:44:30.972345 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:30.972353 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:30.972394 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.973369 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:30.973376 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:30.973401 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:30.997021 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:30.997045 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:30.997057 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:30.997271 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:30.997278 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:30.997287 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.070615 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:31.070652 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:31.070663 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.136496 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.137558 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:31.138038 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.429590 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.430286 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.489911 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:31.489986 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:31.490539 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Ioea3L.spec
+2021-05-10 11:44:31.549311 +0000 build-fedora2: + rm -f /tmp/tmp.Ioea3L.spec
+2021-05-10 11:44:31.562620 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:31.562650 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:31.562837 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:31.563374 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:31.563419 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:31.563558 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:31.564074 +0000 build-fedora2: + tmp_spec=/tmp/tmp.BaZnYB.spec
+2021-05-10 11:44:31.564233 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:31.564715 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.BaZnYB.spec
+2021-05-10 11:44:31.565463 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:31.565473 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:31.565525 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.566431 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:31.566447 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:31.566457 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.591985 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:31.592003 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:31.592010 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:31.592020 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:31.592026 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:31.592035 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.681603 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:31.681636 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:31.681648 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.741934 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.742871 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:31.743448 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.975734 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:31.976225 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.011838 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:32.011945 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:32.012574 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.BaZnYB.spec
+2021-05-10 11:44:32.070680 +0000 build-fedora2: + rm -f /tmp/tmp.BaZnYB.spec
+2021-05-10 11:44:32.083707 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2021-05-10 11:44:32.083727 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm
+2021-05-10 11:44:32.091381 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:32.091402 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:32.091583 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:32.092124 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:32.092168 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:32.092352 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:32.092905 +0000 build-fedora2: + tmp_spec=/tmp/tmp.gEu5ib.spec
+2021-05-10 11:44:32.093065 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:32.093546 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.gEu5ib.spec
+2021-05-10 11:44:32.094369 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:32.094385 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:32.094397 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.095367 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:32.095382 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:32.095409 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.200421 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:32.200462 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:32.200470 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:32.200476 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:32.200482 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:32.200491 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.271280 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:32.271313 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:32.271324 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.367567 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.368668 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:32.369270 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.618993 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.619548 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.808315 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:32.808368 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:32.808991 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.gEu5ib.spec
+2021-05-10 11:44:32.868533 +0000 build-fedora2: + rm -f /tmp/tmp.gEu5ib.spec
+2021-05-10 11:44:32.871690 +0000 build-fedora2: if [ -n "pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo" ]; then \
+2021-05-10 11:44:32.871726 +0000 build-fedora2: .cd qubes-src/app-split-browser && ln -f pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc32/rpm/; \
+2021-05-10 11:44:32.871733 +0000 build-fedora2: else \
+2021-05-10 11:44:32.871744 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-browser.spec, syntax error?`tput sgr0`"; \
+2021-05-10 11:44:32.871750 +0000 build-fedora2: .exit 1; \
+2021-05-10 11:44:32.871755 +0000 build-fedora2: fi
+2021-05-10 11:44:32.891753 +0000 build-fedora2: cd qubes-src/app-split-browser && echo pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.src.rpm pkgs/vm-fc32/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm pkgs/vm-fc32/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc32-app-split-browser
+2021-05-10 11:44:32.919746 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-05-10 11:44:32.919784 +0000 build-fedora2: [ -z "qubes-split-browser-0.13.0-2.fc32" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2021-05-10 11:44:32.919797 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-08-44" \
+2021-05-10 11:44:32.919804 +0000 build-fedora2: .upload \
+2021-05-10 11:44:32.919830 +0000 build-fedora2: ."r4.1" \
+2021-05-10 11:44:32.919838 +0000 build-fedora2: ."qubes-src/app-split-browser" \
+2021-05-10 11:44:32.919846 +0000 build-fedora2: ."qubes-split-browser-0.13.0-2.fc32" \
+2021-05-10 11:44:32.919851 +0000 build-fedora2: ."fc32" \
+2021-05-10 11:44:32.919857 +0000 build-fedora2: ."vm" \
+2021-05-10 11:44:32.919863 +0000 build-fedora2: ."current-testing" \
+2021-05-10 11:44:32.919873 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc32-current-testing" \
+2021-05-10 11:44:32.919882 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc32-current"
+2021-05-10 11:44:32.930969 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:32.931010 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:32.931117 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:32.931730 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:32.931740 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:32.931877 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:32.932472 +0000 build-fedora2: + tmp_spec=/tmp/tmp.RuWdq5.spec
+2021-05-10 11:44:32.932587 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:32.933204 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.RuWdq5.spec
+2021-05-10 11:44:32.934153 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:32.934201 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:32.934243 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.935275 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:32.935282 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:32.935291 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:32.949175 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:32.949215 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:32.949223 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:32.949229 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:32.949235 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:32.949244 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.028064 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:33.028104 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:33.028122 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.100573 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.101255 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:33.101787 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.380342 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.380836 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:33.437693 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:33.438572 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:33.439120 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.RuWdq5.spec
+2021-05-10 11:44:33.505765 +0000 build-fedora2: + rm -f /tmp/tmp.RuWdq5.spec
+2021-05-10 11:44:37.226559 +0000 build-fedora2: 
+2021-05-10 11:44:37.226808 +0000 build-fedora2: Makefile:822: update target 'internal-update-repo-current-testing.vm.fc32' due to: internal-update-repo-current-testing.vm.fc32.app-split-browser
+2021-05-10 11:44:37.226848 +0000 build-fedora2: true
+2021-05-10 11:44:37.227754 +0000 build-fedora2: Makefile:851: target 'internal-update-repo-current-testing.vm.fc33.app-split-browser' does not exist
+2021-05-10 11:44:37.227771 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc33_BASEDIR"; \
+2021-05-10 11:44:37.227780 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then \
+2021-05-10 11:44:37.227788 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-05-10 11:44:37.227794 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-05-10 11:44:37.227799 +0000 build-fedora2: fi; \
+2021-05-10 11:44:37.227806 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:44:37.227812 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:44:37.227816 +0000 build-fedora2: else \
+2021-05-10 11:44:37.227823 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:44:37.227827 +0000 build-fedora2: fi; \
+2021-05-10 11:44:37.227835 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:37.227841 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:37.227847 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-05-10 11:44:37.227855 +0000 build-fedora2: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2021-05-10 11:44:37.227861 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-05-10 11:44:37.227867 +0000 build-fedora2: ...echo "no version tag"; \
+2021-05-10 11:44:37.227872 +0000 build-fedora2: ...exit 0; \
+2021-05-10 11:44:37.227877 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:37.227882 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:37.227889 +0000 build-fedora2: .if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:37.227898 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-05-10 11:44:37.227902 +0000 build-fedora2: fi
+2021-05-10 11:44:37.227919 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc33 get-var GET_VAR=PACKAGE_LIST); \
+2021-05-10 11:44:37.227926 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-05-10 11:44:37.227932 +0000 build-fedora2: ..echo "no packages."; \
+2021-05-10 11:44:37.227954 +0000 build-fedora2: ..exit 0; \
+2021-05-10 11:44:37.227960 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:37.227967 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm \
+2021-05-10 11:44:37.227974 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:37.227980 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-05-10 11:44:37.227986 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-05-10 11:44:37.227994 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc33 \
+2021-05-10 11:44:37.228004 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc33-`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:37.228014 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-16-14 \
+2021-05-10 11:44:37.228020 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-05-10 11:44:37.228029 +0000 build-fedora2: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-05-10 11:44:37.228054 +0000 build-fedora2: .echo "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:37.228063 +0000 build-fedora2: .DIST=fc33 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc33 \
+2021-05-10 11:44:37.228072 +0000 build-fedora2: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2021-05-10 11:44:37.228076 +0000 build-fedora2: else \
+2021-05-10 11:44:37.228084 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2021-05-10 11:44:37.228088 +0000 build-fedora2: fi; \
+2021-05-10 11:44:37.228093 +0000 build-fedora2: echo
+2021-05-10 11:44:37.240098 +0000 build-fedora2: Updating qubes-src/app-split-browser... + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:37.240157 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.241645 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:37.242246 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:37.242363 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:37.242626 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:37.243575 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Tbp92f.spec
+2021-05-10 11:44:37.244393 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:37.245353 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.Tbp92f.spec
+2021-05-10 11:44:37.247026 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.247336 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:37.247361 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.249019 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.249035 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.249046 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.250201 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:37.250216 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.250223 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:37.250229 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.250234 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.250243 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.278253 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:37.278275 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.278286 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.279789 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.281474 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:37.282434 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.457654 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.459138 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.502781 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:37.503672 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:37.504575 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Tbp92f.spec
+2021-05-10 11:44:37.577381 +0000 build-fedora2: + rm -f /tmp/tmp.Tbp92f.spec
+2021-05-10 11:44:37.583980 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:37.584000 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.584443 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:37.585272 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:37.585291 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:37.587143 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:37.587940 +0000 build-fedora2: + tmp_spec=/tmp/tmp.CvQUo0.spec
+2021-05-10 11:44:37.589980 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:37.590569 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.CvQUo0.spec
+2021-05-10 11:44:37.591359 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.591370 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:37.591425 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.592802 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.592818 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.592830 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.594873 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:37.594889 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.594896 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:37.594902 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.594907 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.594916 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.621069 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:37.621108 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.621126 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.639194 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.640189 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:37.640620 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.809116 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.809626 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.826964 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:37.827032 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:37.827691 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.CvQUo0.spec
+2021-05-10 11:44:37.886566 +0000 build-fedora2: + rm -f /tmp/tmp.CvQUo0.spec
+2021-05-10 11:44:37.900445 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:37.900488 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.900577 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:37.901244 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:37.901292 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:37.901444 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:37.902011 +0000 build-fedora2: + tmp_spec=/tmp/tmp.4pWHCy.spec
+2021-05-10 11:44:37.902205 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:37.902719 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.4pWHCy.spec
+2021-05-10 11:44:37.903550 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:37.903558 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:37.903600 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.904611 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.904627 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.904637 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.905537 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:37.905544 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:37.905579 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:37.905588 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.905594 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:37.905630 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.996291 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:37.996345 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:37.996356 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.996996 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:37.997805 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:37.998394 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.165381 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.166090 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.295672 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:38.295785 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:38.296484 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.4pWHCy.spec
+2021-05-10 11:44:38.358296 +0000 build-fedora2: + rm -f /tmp/tmp.4pWHCy.spec
+2021-05-10 11:44:38.373589 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2021-05-10 11:44:38.373626 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc33/rpm
+2021-05-10 11:44:38.381782 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:38.381827 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:38.382046 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:38.382842 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:38.382889 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:38.382965 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:38.383513 +0000 build-fedora2: + tmp_spec=/tmp/tmp.KyuraZ.spec
+2021-05-10 11:44:38.383711 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:38.384680 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.KyuraZ.spec
+2021-05-10 11:44:38.385456 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:38.385466 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:38.385481 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.386623 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:38.386630 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:38.386640 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.387823 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:38.387853 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:38.387861 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:38.387867 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:38.387872 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:38.387882 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.404100 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:38.404126 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:38.404137 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.405107 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.405883 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:38.406534 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.567490 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.568130 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.614507 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:38.615583 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:38.616358 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.KyuraZ.spec
+2021-05-10 11:44:38.679208 +0000 build-fedora2: + rm -f /tmp/tmp.KyuraZ.spec
+2021-05-10 11:44:38.682703 +0000 build-fedora2: if [ -n "pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo" ]; then \
+2021-05-10 11:44:38.682748 +0000 build-fedora2: .cd qubes-src/app-split-browser && ln -f pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc33/rpm/; \
+2021-05-10 11:44:38.682757 +0000 build-fedora2: else \
+2021-05-10 11:44:38.682768 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-browser.spec, syntax error?`tput sgr0`"; \
+2021-05-10 11:44:38.682794 +0000 build-fedora2: .exit 1; \
+2021-05-10 11:44:38.682799 +0000 build-fedora2: fi
+2021-05-10 11:44:38.816508 +0000 build-fedora2: cd qubes-src/app-split-browser && echo pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.src.rpm pkgs/vm-fc33/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm pkgs/vm-fc33/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc33-app-split-browser
+2021-05-10 11:44:38.867032 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-05-10 11:44:38.867076 +0000 build-fedora2: [ -z "qubes-split-browser-0.13.0-2.fc33" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2021-05-10 11:44:38.867088 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-16-14" \
+2021-05-10 11:44:38.867094 +0000 build-fedora2: .upload \
+2021-05-10 11:44:38.867100 +0000 build-fedora2: ."r4.1" \
+2021-05-10 11:44:38.867106 +0000 build-fedora2: ."qubes-src/app-split-browser" \
+2021-05-10 11:44:38.867113 +0000 build-fedora2: ."qubes-split-browser-0.13.0-2.fc33" \
+2021-05-10 11:44:38.867118 +0000 build-fedora2: ."fc33" \
+2021-05-10 11:44:38.867123 +0000 build-fedora2: ."vm" \
+2021-05-10 11:44:38.867129 +0000 build-fedora2: ."current-testing" \
+2021-05-10 11:44:38.867137 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc33-current-testing" \
+2021-05-10 11:44:38.867146 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc33-current"
+2021-05-10 11:44:38.884775 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:38.884811 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:38.885070 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:38.885673 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:38.885758 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:38.885959 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:38.886728 +0000 build-fedora2: + tmp_spec=/tmp/tmp.nb87u8.spec
+2021-05-10 11:44:38.886737 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:38.887294 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.nb87u8.spec
+2021-05-10 11:44:38.889024 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:38.889041 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:38.889053 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.890564 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:38.890572 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:38.890581 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.891618 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:38.891624 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:38.891631 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:38.891636 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:38.891641 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:38.891649 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.917016 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:38.917058 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:38.917069 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.918502 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:38.919324 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:38.919965 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:39.075701 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:39.076196 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:39.093104 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:39.093180 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:39.093762 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.nb87u8.spec
+2021-05-10 11:44:39.154920 +0000 build-fedora2: + rm -f /tmp/tmp.nb87u8.spec
+2021-05-10 11:44:40.955036 +0000 build-fedora2: WARNING: message template /home/user/builder-r4.1/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2021-05-10 11:44:40.964848 +0000 build-fedora2: 
+2021-05-10 11:44:40.964885 +0000 build-fedora2: Makefile:822: update target 'internal-update-repo-current-testing.vm.fc33' due to: internal-update-repo-current-testing.vm.fc33.app-split-browser
+2021-05-10 11:44:40.964893 +0000 build-fedora2: true
+2021-05-10 11:44:40.966370 +0000 build-fedora2: Makefile:851: target 'internal-update-repo-current-testing.vm.fc34.app-split-browser' does not exist
+2021-05-10 11:44:40.966380 +0000 build-fedora2: repo_base_var="LINUX_REPO_fc34_BASEDIR"; \
+2021-05-10 11:44:40.966388 +0000 build-fedora2: if [ "app-split-browser" = linux-template-builder ]; then \
+2021-05-10 11:44:40.966396 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-05-10 11:44:40.966402 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-05-10 11:44:40.966407 +0000 build-fedora2: fi; \
+2021-05-10 11:44:40.966413 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:44:40.966420 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:44:40.966424 +0000 build-fedora2: else \
+2021-05-10 11:44:40.966431 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:44:40.966436 +0000 build-fedora2: fi; \
+2021-05-10 11:44:40.966443 +0000 build-fedora2: if [ -r qubes-src/app-split-browser/Makefile.builder ]; then \
+2021-05-10 11:44:40.966450 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:40.966456 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-05-10 11:44:40.966464 +0000 build-fedora2: ..vtag=`git -C qubes-src/app-split-browser tag --points-at HEAD --list v*`; \
+2021-05-10 11:44:40.966470 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-05-10 11:44:40.966476 +0000 build-fedora2: ...echo "no version tag"; \
+2021-05-10 11:44:40.966481 +0000 build-fedora2: ...exit 0; \
+2021-05-10 11:44:40.966486 +0000 build-fedora2: ..fi; \
+2021-05-10 11:44:40.966491 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:40.966498 +0000 build-fedora2: .if [ "app-split-browser" = linux-template-builder ]; then
+2021-05-10 11:44:40.966507 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc34 template-name)
+2021-05-10 11:44:40.966512 +0000 build-fedora2: fi
+2021-05-10 11:44:40.966528 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc34 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-browser` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc34 get-var GET_VAR=PACKAGE_LIST); \
+2021-05-10 11:44:40.966554 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-05-10 11:44:40.966560 +0000 build-fedora2: ..echo "no packages."; \
+2021-05-10 11:44:40.966565 +0000 build-fedora2: ..exit 0; \
+2021-05-10 11:44:40.966570 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:40.966577 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc34 PACKAGE_SET=vm \
+2021-05-10 11:44:40.966584 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:40.966590 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-05-10 11:44:40.966596 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-05-10 11:44:40.966604 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc34 \
+2021-05-10 11:44:40.966614 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc34-`basename qubes-src/app-split-browser` \
+2021-05-10 11:44:40.966624 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-40-22 \
+2021-05-10 11:44:40.966630 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-05-10 11:44:40.966639 +0000 build-fedora2: elif make -C qubes-src/app-split-browser -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-05-10 11:44:40.966646 +0000 build-fedora2: .echo "Updating qubes-src/app-split-browser... "; \
+2021-05-10 11:44:40.966654 +0000 build-fedora2: .DIST=fc34 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc34 \
+2021-05-10 11:44:40.966663 +0000 build-fedora2: .make -s -C qubes-src/app-split-browser update-repo-current-testing || exit 1; \
+2021-05-10 11:44:40.966667 +0000 build-fedora2: else \
+2021-05-10 11:44:40.966675 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-browser... skipping."; \
+2021-05-10 11:44:40.966680 +0000 build-fedora2: fi; \
+2021-05-10 11:44:40.966684 +0000 build-fedora2: echo
+2021-05-10 11:44:40.981988 +0000 build-fedora2: Updating qubes-src/app-split-browser... + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:40.982023 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:40.982544 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:40.983282 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:40.983300 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:40.984376 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:40.985169 +0000 build-fedora2: + tmp_spec=/tmp/tmp.W4Xd47.spec
+2021-05-10 11:44:40.985270 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:40.985949 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.W4Xd47.spec
+2021-05-10 11:44:40.987495 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:40.987506 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:40.987559 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:40.990272 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:40.990288 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:40.990298 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:40.991615 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:40.991622 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:40.991629 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:40.991652 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:40.991657 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:40.991666 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.006685 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:41.006717 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.006728 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.018128 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.018945 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:41.019553 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.186303 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.186855 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.227334 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:41.227710 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.228306 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.W4Xd47.spec
+2021-05-10 11:44:41.287059 +0000 build-fedora2: + rm -f /tmp/tmp.W4Xd47.spec
+2021-05-10 11:44:41.293043 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:41.293066 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.293205 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:41.293707 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:41.293740 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:41.293933 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:41.294648 +0000 build-fedora2: + tmp_spec=/tmp/tmp.kNwMhB.spec
+2021-05-10 11:44:41.294856 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.295334 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.kNwMhB.spec
+2021-05-10 11:44:41.296555 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.296615 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:41.296634 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.297739 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.297755 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.297765 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.298816 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:41.298831 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.298839 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:41.298844 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.298849 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.298858 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.345449 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:41.345495 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.345506 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.346503 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.348836 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:41.349595 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.518809 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.519299 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.567272 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:41.569301 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.570020 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.kNwMhB.spec
+2021-05-10 11:44:41.636508 +0000 build-fedora2: + rm -f /tmp/tmp.kNwMhB.spec
+2021-05-10 11:44:41.649834 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:41.649855 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.650060 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:41.650710 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:41.650720 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:41.650833 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:41.651431 +0000 build-fedora2: + tmp_spec=/tmp/tmp.QRROuy.spec
+2021-05-10 11:44:41.651528 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.652133 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.QRROuy.spec
+2021-05-10 11:44:41.652887 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.652907 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:41.652957 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.654051 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.654068 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.654079 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.655042 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:41.655057 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.655065 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:41.655071 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.655076 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.655085 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.687230 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:41.687273 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.687284 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.688300 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.689223 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:41.689881 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.846737 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.847364 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.861193 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:41.861286 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.862214 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.QRROuy.spec
+2021-05-10 11:44:41.923499 +0000 build-fedora2: + rm -f /tmp/tmp.QRROuy.spec
+2021-05-10 11:44:41.943542 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:157: target 'update-repo-do' does not exist
+2021-05-10 11:44:41.943588 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc34/rpm
+2021-05-10 11:44:41.956195 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:41.956214 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.957091 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:41.957721 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:41.957731 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:41.957864 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:41.958445 +0000 build-fedora2: + tmp_spec=/tmp/tmp.MorvUA.spec
+2021-05-10 11:44:41.959281 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:41.959961 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.MorvUA.spec
+2021-05-10 11:44:41.961871 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:41.961890 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:41.961902 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.963230 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.963246 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.963256 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.965190 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:41.965205 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:41.965212 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:41.965218 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.965223 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:41.965232 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.970561 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:41.970584 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:41.970595 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.976862 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:41.978443 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:41.979202 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.142653 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.143205 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.161428 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:42.161623 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:42.162261 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.MorvUA.spec
+2021-05-10 11:44:42.224881 +0000 build-fedora2: + rm -f /tmp/tmp.MorvUA.spec
+2021-05-10 11:44:42.234115 +0000 build-fedora2: if [ -n "pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo" ]; then \
+2021-05-10 11:44:42.234151 +0000 build-fedora2: .cd qubes-src/app-split-browser && ln -f pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc34/rpm/; \
+2021-05-10 11:44:42.234159 +0000 build-fedora2: else \
+2021-05-10 11:44:42.234169 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-browser.spec, syntax error?`tput sgr0`"; \
+2021-05-10 11:44:42.234175 +0000 build-fedora2: .exit 1; \
+2021-05-10 11:44:42.234180 +0000 build-fedora2: fi
+2021-05-10 11:44:42.235456 +0000 build-fedora2: cd qubes-src/app-split-browser && echo pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.src.rpm pkgs/vm-fc34/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm pkgs/vm-fc34/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc34-app-split-browser
+2021-05-10 11:44:42.243300 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-05-10 11:44:42.243321 +0000 build-fedora2: [ -z "qubes-split-browser-0.13.0-2.fc34" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2021-05-10 11:44:42.243331 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-05-10_11-40-22" \
+2021-05-10 11:44:42.243337 +0000 build-fedora2: .upload \
+2021-05-10 11:44:42.243342 +0000 build-fedora2: ."r4.1" \
+2021-05-10 11:44:42.243348 +0000 build-fedora2: ."qubes-src/app-split-browser" \
+2021-05-10 11:44:42.243355 +0000 build-fedora2: ."qubes-split-browser-0.13.0-2.fc34" \
+2021-05-10 11:44:42.243360 +0000 build-fedora2: ."fc34" \
+2021-05-10 11:44:42.243364 +0000 build-fedora2: ."vm" \
+2021-05-10 11:44:42.243370 +0000 build-fedora2: ."current-testing" \
+2021-05-10 11:44:42.243378 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc34-current-testing" \
+2021-05-10 11:44:42.243386 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-app-split-browser-vm-fc34-current"
+2021-05-10 11:44:42.254152 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-05-10 11:44:42.254171 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:42.254359 +0000 build-fedora2: ++ basename qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2021-05-10 11:44:42.255054 +0000 build-fedora2: + [[ xqubes-split-browser.spec.in == \x\.\i\n ]]
+2021-05-10 11:44:42.255072 +0000 build-fedora2: + '[' -r qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2021-05-10 11:44:42.255808 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-05-10 11:44:42.257169 +0000 build-fedora2: + tmp_spec=/tmp/tmp.q4MKqy.spec
+2021-05-10 11:44:42.257971 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:42.258598 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.q4MKqy.spec
+2021-05-10 11:44:42.259378 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-05-10 11:44:42.259424 +0000 build-fedora2: + '[' -z qubes-src/app-split-browser ']'
+2021-05-10 11:44:42.259468 +0000 build-fedora2: + cp qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.260507 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:42.260514 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:42.260523 +0000 build-fedora2: + sed -i 's|@VERSION@|0.13.0|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.261900 +0000 build-fedora2: + vnum=1
+2021-05-10 11:44:42.261915 +0000 build-fedora2: + read -r ver
+2021-05-10 11:44:42.261922 +0000 build-fedora2: + '[' -e qubes-src/app-split-browser/rel ']'
+2021-05-10 11:44:42.261928 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:42.261933 +0000 build-fedora2: + '[' x = x ']'
+2021-05-10 11:44:42.261942 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.272256 +0000 build-fedora2: + rnum=1
+2021-05-10 11:44:42.272279 +0000 build-fedora2: + read -r rel
+2021-05-10 11:44:42.272337 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.273449 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.274209 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec
+2021-05-10 11:44:42.274867 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-browser qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.437440 +0000 build-fedora2: + cat qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.437904 +0000 build-fedora2: + rm -rf qubes-src/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2021-05-10 11:44:42.458094 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-05-10 11:44:42.458345 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2021-05-10 11:44:42.458891 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.q4MKqy.spec
+2021-05-10 11:44:42.525374 +0000 build-fedora2: + rm -f /tmp/tmp.q4MKqy.spec
+2021-05-10 11:44:44.717478 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.1-app-split-browser-vm-fc34-current-testing does not exist, initializing with the current state
+2021-05-10 11:44:44.727758 +0000 build-fedora2: 
+2021-05-10 11:44:44.727993 +0000 build-fedora2: Makefile:822: update target 'internal-update-repo-current-testing.vm.fc34' due to: internal-update-repo-current-testing.vm.fc34.app-split-browser
+2021-05-10 11:44:44.728005 +0000 build-fedora2: true
+2021-05-10 11:44:44.728903 +0000 build-fedora2: Makefile:911: target 'post-update-repo-current-testing' does not exist
+2021-05-10 11:44:44.728919 +0000 build-fedora2: for dist in  fc32 fc33 fc34; do \
+2021-05-10 11:44:44.728927 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist}_BASEDIR"; \
+2021-05-10 11:44:44.728934 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2021-05-10 11:44:44.728940 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2021-05-10 11:44:44.728945 +0000 build-fedora2: .else \
+2021-05-10 11:44:44.728951 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.1"; \
+2021-05-10 11:44:44.728956 +0000 build-fedora2: .fi; \
+2021-05-10 11:44:44.728963 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2021-05-10 11:44:44.729015 +0000 build-fedora2: done; \
+2021-05-10 11:44:44.729023 +0000 build-fedora2: pkgset_dist= ; \
+2021-05-10 11:44:44.729028 +0000 build-fedora2: for dist in ; do \
+2021-05-10 11:44:44.729035 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2021-05-10 11:44:44.729040 +0000 build-fedora2: done; \
+2021-05-10 11:44:44.729045 +0000 build-fedora2: for dist in fc32 fc33 fc34; do \
+2021-05-10 11:44:44.729052 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2021-05-10 11:44:44.729056 +0000 build-fedora2: done; \
+2021-05-10 11:44:44.729063 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2021-05-10 11:44:44.729069 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2021-05-10 11:44:44.729077 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2021-05-10 11:44:44.729084 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2021-05-10 11:44:44.729089 +0000 build-fedora2: done
+2021-05-10 11:44:44.762398 +0000 build-fedora2: which: no mkmetalink in (/home/user/.local/bin:/home/user/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/home/user/builder-r4.1/qubes-src/builder-rpm/tools)
+2021-05-10 11:44:44.764157 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc25...
+2021-05-10 11:44:45.017642 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc29...
+2021-05-10 11:44:45.435552 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2021-05-10 11:44:45.712350 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc32...
+2021-05-10 11:44:46.047147 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2021-05-10 11:44:46.271447 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2021-05-10 11:44:46.564373 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2021-05-10 11:44:46.595503 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:44:49.699240 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2021-05-10 11:44:49.711840 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:44:56.583396 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2021-05-10 11:44:56.595970 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:45:03.424761 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2021-05-10 11:45:03.440916 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:45:06.118380 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc33...
+2021-05-10 11:45:06.130828 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:45:08.054878 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc34...
+2021-05-10 11:45:08.068502 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-05-10 11:45:08.587533 +0000 build-fedora2: Done.
+2021-05-10 11:45:08.592660 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum ~/builder-r4.1/qubes-src/linux-yum
+2021-05-10 11:45:08.593357 +0000 build-fedora2: Syncing r4.1...
+2021-05-10 11:45:10.556888 +0000 build-fedora2: sending incremental file list
+2021-05-10 11:45:10.817763 +0000 build-fedora2: .d..t...... current-testing/
+2021-05-10 11:45:10.817804 +0000 build-fedora2: .d..t...... current-testing/dom0/
+2021-05-10 11:45:10.817813 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/
+2021-05-10 11:45:10.817821 +0000 build-fedora2: .L..t...... current-testing/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.817828 +0000 build-fedora2: .d..t...... current-testing/dom0/fc25/rpm/
+2021-05-10 11:45:10.817855 +0000 build-fedora2: <f..t...... current-testing/dom0/fc25/rpm/.gitignore
+2021-05-10 11:45:10.836242 +0000 build-fedora2: .              6 100%    0.00kB/s    0:00:00  .              6 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=288/300)
+2021-05-10 11:45:10.836262 +0000 build-fedora2: .d..t...... current-testing/dom0/fc29/
+2021-05-10 11:45:10.836270 +0000 build-fedora2: .d..t...... current-testing/dom0/fc31/
+2021-05-10 11:45:10.836279 +0000 build-fedora2: .L..t...... current-testing/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.836286 +0000 build-fedora2: .d..t...... current-testing/dom0/fc31/rpm/
+2021-05-10 11:45:10.836294 +0000 build-fedora2: <f..t...... current-testing/dom0/fc31/rpm/.gitignore
+2021-05-10 11:45:10.857692 +0000 build-fedora2: .              6 100%    0.28kB/s    0:00:00  .              6 100%    0.28kB/s    0:00:00 (xfr#2, to-chk=284/300)
+2021-05-10 11:45:10.857708 +0000 build-fedora2: .d..t...... current-testing/dom0/fc32/
+2021-05-10 11:45:10.857716 +0000 build-fedora2: .L..t...... current-testing/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.857723 +0000 build-fedora2: .d..t...... current-testing/dom0/fc32/rpm/
+2021-05-10 11:45:10.857729 +0000 build-fedora2: <f..t...... current-testing/dom0/fc32/rpm/.gitignore
+2021-05-10 11:45:10.857739 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#3, to-chk=281/300)
+2021-05-10 11:45:10.857747 +0000 build-fedora2: .d..t...... current-testing/vm/
+2021-05-10 11:45:10.857755 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/
+2021-05-10 11:45:10.857766 +0000 build-fedora2: .L..t...... current-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.857774 +0000 build-fedora2: .d..t...... current-testing/vm/centos7/rpm/
+2021-05-10 11:45:10.857783 +0000 build-fedora2: <f..t...... current-testing/vm/centos7/rpm/.gitignore
+2021-05-10 11:45:10.891379 +0000 build-fedora2: .              6 100%    0.11kB/s    0:00:00  .              6 100%    0.11kB/s    0:00:00 (xfr#4, to-chk=270/300)
+2021-05-10 11:45:10.891396 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/
+2021-05-10 11:45:10.891404 +0000 build-fedora2: .L..t...... current-testing/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.891411 +0000 build-fedora2: .d..t...... current-testing/vm/centos8/rpm/
+2021-05-10 11:45:10.891418 +0000 build-fedora2: <f..t...... current-testing/vm/centos8/rpm/.gitignore
+2021-05-10 11:45:10.891425 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#5, to-chk=267/300)
+2021-05-10 11:45:10.891431 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/
+2021-05-10 11:45:10.891439 +0000 build-fedora2: .L..t...... current-testing/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.891445 +0000 build-fedora2: .d..t...... current-testing/vm/fc29/rpm/
+2021-05-10 11:45:10.891451 +0000 build-fedora2: <f..t...... current-testing/vm/fc29/rpm/.gitignore
+2021-05-10 11:45:10.891881 +0000 build-fedora2: .              6 100%    0.11kB/s    0:00:00  .              6 100%    0.11kB/s    0:00:00 (xfr#6, to-chk=264/300)
+2021-05-10 11:45:10.891889 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/
+2021-05-10 11:45:10.891897 +0000 build-fedora2: .L..t...... current-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.891903 +0000 build-fedora2: .d..t...... current-testing/vm/fc30/rpm/
+2021-05-10 11:45:10.891909 +0000 build-fedora2: <f..t...... current-testing/vm/fc30/rpm/.gitignore
+2021-05-10 11:45:10.911135 +0000 build-fedora2: .              6 100%    0.08kB/s    0:00:00  .              6 100%    0.08kB/s    0:00:00 (xfr#7, to-chk=251/300)
+2021-05-10 11:45:10.911154 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/
+2021-05-10 11:45:10.911164 +0000 build-fedora2: .L..t...... current-testing/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.911171 +0000 build-fedora2: .d..t...... current-testing/vm/fc31/rpm/
+2021-05-10 11:45:10.911193 +0000 build-fedora2: <f..t...... current-testing/vm/fc31/rpm/.gitignore
+2021-05-10 11:45:10.911203 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#8, to-chk=238/300)
+2021-05-10 11:45:10.911210 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/
+2021-05-10 11:45:10.911218 +0000 build-fedora2: .L..t...... current-testing/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.911225 +0000 build-fedora2: .d..t...... current-testing/vm/fc32/rpm/
+2021-05-10 11:45:10.911233 +0000 build-fedora2: <f..t...... current-testing/vm/fc32/rpm/.gitignore
+2021-05-10 11:45:10.911242 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#9, to-chk=215/300)
+2021-05-10 11:45:10.911251 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-split-browser-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:45:10.911270 +0000 build-fedora2: .         25,304 100%  333.93kB/s    0:00:00  .         25,304 100%  329.48kB/s    0:00:00 (xfr#10, to-chk=195/300)
+2021-05-10 11:45:10.911279 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-split-browser-0.13.0-2.fc32.src.rpm
+2021-05-10 11:45:10.911291 +0000 build-fedora2: .         30,754 100%  400.44kB/s    0:00:00  .         30,754 100%  400.44kB/s    0:00:00 (xfr#11, to-chk=194/300)
+2021-05-10 11:45:10.911300 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo
+2021-05-10 11:45:10.933034 +0000 build-fedora2: .          1,608 100%   16.36kB/s    0:00:00  .          1,608 100%   16.36kB/s    0:00:00 (xfr#12, to-chk=193/300)
+2021-05-10 11:45:10.933057 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc32/rpm/qubes-split-browser-disp-0.13.0-2.fc32.noarch.rpm
+2021-05-10 11:45:10.933222 +0000 build-fedora2: .         16,830 100%  169.44kB/s    0:00:00  .         16,830 100%  169.44kB/s    0:00:00 (xfr#13, to-chk=191/300)
+2021-05-10 11:45:10.933232 +0000 build-fedora2: .d..t...... current-testing/vm/fc33/
+2021-05-10 11:45:10.933242 +0000 build-fedora2: .L..t...... current-testing/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.933249 +0000 build-fedora2: .d..t...... current-testing/vm/fc33/rpm/
+2021-05-10 11:45:10.933257 +0000 build-fedora2: <f..t...... current-testing/vm/fc33/rpm/.gitignore
+2021-05-10 11:45:10.933266 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#14, to-chk=180/300)
+2021-05-10 11:45:10.933276 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc33/rpm/qubes-split-browser-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:45:10.933319 +0000 build-fedora2: .         25,413 100%  255.85kB/s    0:00:00  .         25,413 100%  255.85kB/s    0:00:00 (xfr#15, to-chk=160/300)
+2021-05-10 11:45:10.933329 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc33/rpm/qubes-split-browser-0.13.0-2.fc33.src.rpm
+2021-05-10 11:45:10.933472 +0000 build-fedora2: .         30,967 100%  311.77kB/s    0:00:00  .         30,967 100%  311.77kB/s    0:00:00 (xfr#16, to-chk=159/300)
+2021-05-10 11:45:10.933483 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc33/rpm/qubes-split-browser-0.13.0-2.fc33.x86_64.buildinfo
+2021-05-10 11:45:10.933863 +0000 build-fedora2: .          6,299 100%   63.42kB/s    0:00:00  .          6,299 100%   63.42kB/s    0:00:00 (xfr#17, to-chk=158/300)
+2021-05-10 11:45:10.933872 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc33/rpm/qubes-split-browser-disp-0.13.0-2.fc33.noarch.rpm
+2021-05-10 11:45:10.933885 +0000 build-fedora2: .         16,939 100%  170.54kB/s    0:00:00  .         16,939 100%  170.54kB/s    0:00:00 (xfr#18, to-chk=156/300)
+2021-05-10 11:45:10.933892 +0000 build-fedora2: cd+++++++++ current-testing/vm/fc34/
+2021-05-10 11:45:10.933898 +0000 build-fedora2: cd+++++++++ current-testing/vm/fc34/rpm/
+2021-05-10 11:45:10.933906 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc34/rpm/qubes-split-browser-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:45:10.934001 +0000 build-fedora2: .         25,417 100%  255.89kB/s    0:00:00  .         25,417 100%  255.89kB/s    0:00:00 (xfr#19, to-chk=149/300)
+2021-05-10 11:45:10.934018 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc34/rpm/qubes-split-browser-0.13.0-2.fc34.src.rpm
+2021-05-10 11:45:10.934048 +0000 build-fedora2: .         30,967 100%  311.77kB/s    0:00:00  .         30,967 100%  311.77kB/s    0:00:00 (xfr#20, to-chk=148/300)
+2021-05-10 11:45:10.934057 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc34/rpm/qubes-split-browser-0.13.0-2.fc34.x86_64.buildinfo
+2021-05-10 11:45:10.938178 +0000 build-fedora2: .          6,284 100%   60.76kB/s    0:00:00  .          6,284 100%   60.76kB/s    0:00:00 (xfr#21, to-chk=147/300)
+2021-05-10 11:45:10.938196 +0000 build-fedora2: <f+++++++++ current-testing/vm/fc34/rpm/qubes-split-browser-disp-0.13.0-2.fc34.noarch.rpm
+2021-05-10 11:45:10.938270 +0000 build-fedora2: .         16,943 100%  162.21kB/s    0:00:00  .         16,943 100%  162.21kB/s    0:00:00 (xfr#22, to-chk=146/300)
+2021-05-10 11:45:10.938278 +0000 build-fedora2: .d..t...... current/
+2021-05-10 11:45:10.938284 +0000 build-fedora2: .d..t...... current/dom0/
+2021-05-10 11:45:10.938290 +0000 build-fedora2: .d..t...... current/dom0/fc25/
+2021-05-10 11:45:10.938297 +0000 build-fedora2: .L..t...... current/dom0/fc25/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.938303 +0000 build-fedora2: .d..t...... current/dom0/fc25/rpm/
+2021-05-10 11:45:10.938310 +0000 build-fedora2: <f..t...... current/dom0/fc25/rpm/.gitignore
+2021-05-10 11:45:10.938523 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#23, to-chk=138/300)
+2021-05-10 11:45:10.938530 +0000 build-fedora2: .d..t...... current/dom0/fc31/
+2021-05-10 11:45:10.938537 +0000 build-fedora2: .L..t...... current/dom0/fc31/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.938543 +0000 build-fedora2: .d..t...... current/dom0/fc31/rpm/
+2021-05-10 11:45:10.938549 +0000 build-fedora2: <f..t...... current/dom0/fc31/rpm/.gitignore
+2021-05-10 11:45:10.938728 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#24, to-chk=135/300)
+2021-05-10 11:45:10.938735 +0000 build-fedora2: .d..t...... current/dom0/fc32/
+2021-05-10 11:45:10.938744 +0000 build-fedora2: .L..t...... current/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.938751 +0000 build-fedora2: .d..t...... current/dom0/fc32/rpm/
+2021-05-10 11:45:10.938757 +0000 build-fedora2: <f..t...... current/dom0/fc32/rpm/.gitignore
+2021-05-10 11:45:10.938767 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#25, to-chk=132/300)
+2021-05-10 11:45:10.938773 +0000 build-fedora2: .d..t...... current/vm/
+2021-05-10 11:45:10.938779 +0000 build-fedora2: .d..t...... current/vm/centos7/
+2021-05-10 11:45:10.938786 +0000 build-fedora2: .L..t...... current/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.938792 +0000 build-fedora2: .d..t...... current/vm/centos7/rpm/
+2021-05-10 11:45:10.938798 +0000 build-fedora2: <f..t...... current/vm/centos7/rpm/.gitignore
+2021-05-10 11:45:10.938958 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#26, to-chk=122/300)
+2021-05-10 11:45:10.938966 +0000 build-fedora2: .d..t...... current/vm/centos8/
+2021-05-10 11:45:10.938973 +0000 build-fedora2: .L..t...... current/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.938979 +0000 build-fedora2: .d..t...... current/vm/centos8/rpm/
+2021-05-10 11:45:10.938985 +0000 build-fedora2: <f..t...... current/vm/centos8/rpm/.gitignore
+2021-05-10 11:45:10.938992 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#27, to-chk=119/300)
+2021-05-10 11:45:10.938998 +0000 build-fedora2: .d..t...... current/vm/fc29/
+2021-05-10 11:45:10.939005 +0000 build-fedora2: .L..t...... current/vm/fc29/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939011 +0000 build-fedora2: .d..t...... current/vm/fc29/rpm/
+2021-05-10 11:45:10.939024 +0000 build-fedora2: <f..t...... current/vm/fc29/rpm/.gitignore
+2021-05-10 11:45:10.939188 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#28, to-chk=116/300)
+2021-05-10 11:45:10.939195 +0000 build-fedora2: .d..t...... current/vm/fc30/
+2021-05-10 11:45:10.939202 +0000 build-fedora2: .L..t...... current/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939208 +0000 build-fedora2: .d..t...... current/vm/fc30/rpm/
+2021-05-10 11:45:10.939214 +0000 build-fedora2: <f..t...... current/vm/fc30/rpm/.gitignore
+2021-05-10 11:45:10.939408 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#29, to-chk=113/300)
+2021-05-10 11:45:10.939415 +0000 build-fedora2: .d..t...... current/vm/fc31/
+2021-05-10 11:45:10.939422 +0000 build-fedora2: .L..t...... current/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939428 +0000 build-fedora2: .d..t...... current/vm/fc31/rpm/
+2021-05-10 11:45:10.939434 +0000 build-fedora2: <f..t...... current/vm/fc31/rpm/.gitignore
+2021-05-10 11:45:10.939441 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#30, to-chk=110/300)
+2021-05-10 11:45:10.939447 +0000 build-fedora2: .d..t...... current/vm/fc32/
+2021-05-10 11:45:10.939454 +0000 build-fedora2: .L..t...... current/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939460 +0000 build-fedora2: .d..t...... current/vm/fc32/rpm/
+2021-05-10 11:45:10.939466 +0000 build-fedora2: <f..t...... current/vm/fc32/rpm/.gitignore
+2021-05-10 11:45:10.939476 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#31, to-chk=96/300)
+2021-05-10 11:45:10.939482 +0000 build-fedora2: .d..t...... current/vm/fc33/
+2021-05-10 11:45:10.939489 +0000 build-fedora2: .L..t...... current/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939494 +0000 build-fedora2: .d..t...... current/vm/fc33/rpm/
+2021-05-10 11:45:10.939501 +0000 build-fedora2: <f..t...... current/vm/fc33/rpm/.gitignore
+2021-05-10 11:45:10.939508 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#32, to-chk=64/300)
+2021-05-10 11:45:10.939513 +0000 build-fedora2: .d..t...... security-testing/
+2021-05-10 11:45:10.939519 +0000 build-fedora2: .d..t...... security-testing/dom0/
+2021-05-10 11:45:10.939525 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/
+2021-05-10 11:45:10.939532 +0000 build-fedora2: .d..t...... security-testing/dom0/fc25/rpm/
+2021-05-10 11:45:10.939538 +0000 build-fedora2: <f..t...... security-testing/dom0/fc25/rpm/.gitignore
+2021-05-10 11:45:10.939635 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#33, to-chk=32/300)
+2021-05-10 11:45:10.939642 +0000 build-fedora2: .d..t...... security-testing/dom0/fc31/
+2021-05-10 11:45:10.939648 +0000 build-fedora2: .d..t...... security-testing/dom0/fc31/rpm/
+2021-05-10 11:45:10.939655 +0000 build-fedora2: <f..t...... security-testing/dom0/fc31/rpm/.gitignore
+2021-05-10 11:45:10.939816 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#34, to-chk=30/300)
+2021-05-10 11:45:10.939824 +0000 build-fedora2: .d..t...... security-testing/dom0/fc32/
+2021-05-10 11:45:10.939832 +0000 build-fedora2: .L..t...... security-testing/dom0/fc32/comps.xml -> ../../../comps-dom0.xml
+2021-05-10 11:45:10.939838 +0000 build-fedora2: .d..t...... security-testing/dom0/fc32/rpm/
+2021-05-10 11:45:10.939847 +0000 build-fedora2: <f..t...... security-testing/dom0/fc32/rpm/.gitignore
+2021-05-10 11:45:10.939854 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#35, to-chk=27/300)
+2021-05-10 11:45:10.939860 +0000 build-fedora2: .d..t...... security-testing/vm/
+2021-05-10 11:45:10.939866 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/
+2021-05-10 11:45:10.939874 +0000 build-fedora2: .L..t...... security-testing/vm/centos7/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.939885 +0000 build-fedora2: .d..t...... security-testing/vm/centos7/rpm/
+2021-05-10 11:45:10.939892 +0000 build-fedora2: <f..t...... security-testing/vm/centos7/rpm/.gitignore
+2021-05-10 11:45:10.940024 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#36, to-chk=17/300)
+2021-05-10 11:45:10.940031 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/
+2021-05-10 11:45:10.940039 +0000 build-fedora2: .L..t...... security-testing/vm/centos8/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.940045 +0000 build-fedora2: .d..t...... security-testing/vm/centos8/rpm/
+2021-05-10 11:45:10.940052 +0000 build-fedora2: <f..t...... security-testing/vm/centos8/rpm/.gitignore
+2021-05-10 11:45:10.940059 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#37, to-chk=14/300)
+2021-05-10 11:45:10.940065 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/
+2021-05-10 11:45:10.940071 +0000 build-fedora2: .d..t...... security-testing/vm/fc29/rpm/
+2021-05-10 11:45:10.940078 +0000 build-fedora2: <f..t...... security-testing/vm/fc29/rpm/.gitignore
+2021-05-10 11:45:10.940212 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#38, to-chk=12/300)
+2021-05-10 11:45:10.940219 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/
+2021-05-10 11:45:10.940227 +0000 build-fedora2: .L..t...... security-testing/vm/fc30/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.940233 +0000 build-fedora2: .d..t...... security-testing/vm/fc30/rpm/
+2021-05-10 11:45:10.940239 +0000 build-fedora2: <f..t...... security-testing/vm/fc30/rpm/.gitignore
+2021-05-10 11:45:10.940387 +0000 build-fedora2: .              6 100%    0.06kB/s    0:00:00  .              6 100%    0.06kB/s    0:00:00 (xfr#39, to-chk=9/300)
+2021-05-10 11:45:10.940394 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/
+2021-05-10 11:45:10.940401 +0000 build-fedora2: .L..t...... security-testing/vm/fc31/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.940408 +0000 build-fedora2: .d..t...... security-testing/vm/fc31/rpm/
+2021-05-10 11:45:10.940414 +0000 build-fedora2: <f..t...... security-testing/vm/fc31/rpm/.gitignore
+2021-05-10 11:45:10.940422 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#40, to-chk=6/300)
+2021-05-10 11:45:10.940430 +0000 build-fedora2: .d..t...... security-testing/vm/fc32/
+2021-05-10 11:45:10.940438 +0000 build-fedora2: .L..t...... security-testing/vm/fc32/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.940444 +0000 build-fedora2: .d..t...... security-testing/vm/fc32/rpm/
+2021-05-10 11:45:10.940450 +0000 build-fedora2: <f..t...... security-testing/vm/fc32/rpm/.gitignore
+2021-05-10 11:45:10.940458 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#41, to-chk=3/300)
+2021-05-10 11:45:10.940464 +0000 build-fedora2: .d..t...... security-testing/vm/fc33/
+2021-05-10 11:45:10.940471 +0000 build-fedora2: .L..t...... security-testing/vm/fc33/comps.xml -> ../../../comps-vm.xml
+2021-05-10 11:45:10.940477 +0000 build-fedora2: .d..t...... security-testing/vm/fc33/rpm/
+2021-05-10 11:45:10.940484 +0000 build-fedora2: <f..t...... security-testing/vm/fc33/rpm/.gitignore
+2021-05-10 11:45:10.940491 +0000 build-fedora2: .              0 100%    0.00kB/s    0:00:00 (xfr#42, to-chk=0/300)
+2021-05-10 11:45:12.967308 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc25...
+2021-05-10 11:45:13.074404 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.079831 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.085075 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.092428 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.104409 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc29...
+2021-05-10 11:45:13.215640 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.220487 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.225187 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.232877 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.243706 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc31...
+2021-05-10 11:45:13.357310 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.362545 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.368196 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.376106 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.387573 +0000 build-fedora2: --> Processing repo: r4.1/current/dom0/fc32...
+2021-05-10 11:45:13.641880 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.761635 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.761685 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.761693 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.761701 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos7...
+2021-05-10 11:45:13.802233 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.807026 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.812525 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.819895 +0000 build-fedora2: 11:45:14: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:13.831124 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/centos8...
+2021-05-10 11:45:14.094294 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.099244 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.104177 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.112509 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.126653 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc29...
+2021-05-10 11:45:14.259670 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.264769 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.269602 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.277435 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.288705 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc30...
+2021-05-10 11:45:14.421429 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.427451 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.432763 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.440846 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.452224 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc31...
+2021-05-10 11:45:14.599724 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.604389 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.609221 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.617286 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.630033 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc32...
+2021-05-10 11:45:14.889774 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.895819 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.901853 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.910446 +0000 build-fedora2: 11:45:15: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:14.923299 +0000 build-fedora2: --> Processing repo: r4.1/current/vm/fc33...
+2021-05-10 11:45:15.191824 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.197511 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.202870 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.211217 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.224177 +0000 build-fedora2: Done.
+2021-05-10 11:45:15.607306 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc25...
+2021-05-10 11:45:15.716612 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.721743 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.727124 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.734425 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.745789 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc29...
+2021-05-10 11:45:15.874549 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.879525 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.885044 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.892556 +0000 build-fedora2: 11:45:16: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:15.903659 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc31...
+2021-05-10 11:45:16.225149 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.230464 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.236414 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.244710 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.258266 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/dom0/fc32...
+2021-05-10 11:45:16.525625 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.530200 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.535622 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.543645 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.556411 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos7...
+2021-05-10 11:45:16.690344 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.694961 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.700240 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.708664 +0000 build-fedora2: 11:45:17: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:16.720579 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/centos8...
+2021-05-10 11:45:17.121038 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc29...
+2021-05-10 11:45:17.121080 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.121088 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.121095 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.121102 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.271067 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.276746 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.375286 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc30...
+2021-05-10 11:45:17.375324 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.375332 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.636364 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.641736 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.646977 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:17.743293 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc31...
+2021-05-10 11:45:17.743330 +0000 build-fedora2: 11:45:18: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.024098 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.029525 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.035254 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.043780 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.134840 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc32...
+2021-05-10 11:45:18.322138 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.327127 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.333286 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.342151 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.356277 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc33...
+2021-05-10 11:45:18.644152 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.649603 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.722401 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.722464 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.722473 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc34...
+2021-05-10 11:45:18.812542 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.817728 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.822471 +0000 build-fedora2: 11:45:19: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:18.836279 +0000 build-fedora2: Done.
+2021-05-10 11:45:19.237004 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc25...
+2021-05-10 11:45:19.358759 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.364330 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.369589 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.377925 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.388404 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc29...
+2021-05-10 11:45:19.498114 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.503775 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.510098 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.517940 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.530252 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc31...
+2021-05-10 11:45:19.644262 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.648772 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.653399 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.661470 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.672623 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/dom0/fc32...
+2021-05-10 11:45:19.784892 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.790166 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.795472 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.803192 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.814603 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos7...
+2021-05-10 11:45:19.925585 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.930933 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.935437 +0000 build-fedora2: 11:45:20: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.943303 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:19.954699 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/centos8...
+2021-05-10 11:45:20.068615 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.073722 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.079330 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.086593 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.097978 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc29...
+2021-05-10 11:45:20.206909 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.211448 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.216773 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.224043 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.235885 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc30...
+2021-05-10 11:45:20.345547 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.350842 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.355709 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.364067 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.376094 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc31...
+2021-05-10 11:45:20.484793 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.488562 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.493561 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.500550 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.512422 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc32...
+2021-05-10 11:45:20.625801 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.630432 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.636092 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.644240 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.656574 +0000 build-fedora2: --> Processing repo: r4.1/security-testing/vm/fc33...
+2021-05-10 11:45:20.776756 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.782156 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.787058 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.794994 +0000 build-fedora2: 11:45:21: posix_spawn avoided (fd close requested) 
+2021-05-10 11:45:20.806589 +0000 build-fedora2: Done.
+2021-05-10 11:45:20.807892 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum
+2021-05-10 11:45:20.808538 +0000 build-fedora2: Makefile:807: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc32 internal-update-repo-current-testing.vm.fc33 internal-update-repo-current-testing.vm.fc34 post-update-repo-current-testing
+2021-05-10 11:45:20.808553 +0000 build-fedora2: true
+2021-05-10 11:45:20.809774 +0000 build-fedora2: > done
+2021-05-10 11:45:20.809899 +0000 > closing log
