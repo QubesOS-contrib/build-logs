@@ -1,0 +1,869 @@
+2021-06-23 07:37:51.193455 +0000 > starting log
+2021-06-23 07:37:51.193722 +0000 build-fedora2: > starting build with log
+2021-06-23 07:37:51.193758 +0000 build-fedora2: >> make args: DISTS_VM= fc32 fc33 DIST_DOM0= BUILD_LOGS_URL= app-split-git-vm-fc32=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-17-14 app-split-git-vm-fc33=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-26-01 app-split-git-vm-fc34=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-31-20 GIT_URL_app_split_git=https://github.com/QubesOS-contrib/qubes-app-split-git sign-all update-repo-current-testing
+2021-06-23 07:37:51.193766 +0000 build-fedora2: >> MAKEFLAGS=
+2021-06-23 07:37:51.193772 +0000 build-fedora2: >> COMPONENTS=app-split-git
+2021-06-23 07:37:51.193778 +0000 build-fedora2: >> DISTS_VM=
+2021-06-23 07:37:51.193783 +0000 build-fedora2: >> DIST_DOM0=
+2021-06-23 07:37:51.193791 +0000 build-fedora2: >> qubes-builder 1716c6e56661512b9615a165f715909364d06236
+2021-06-23 07:37:51.193799 +0000 build-fedora2: >> qubes-builder/qubes-src/app-split-git 1af757fe11a39193645df5f4975cd26ae768377b
+2021-06-23 07:37:51.244501 +0000 build-fedora2: ?? pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.src.rpm
+2021-06-23 07:37:51.244548 +0000 build-fedora2: ?? pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.x86_64.buildinfo
+2021-06-23 07:37:51.244557 +0000 build-fedora2: ?? pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.x86_64.rpm
+2021-06-23 07:37:51.244563 +0000 build-fedora2: ?? pkgs/vm-fc31/qubes-split-git.spec.list
+2021-06-23 07:37:51.244571 +0000 build-fedora2: ?? pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm
+2021-06-23 07:37:51.244578 +0000 build-fedora2: ?? pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo
+2021-06-23 07:37:51.244585 +0000 build-fedora2: ?? pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm
+2021-06-23 07:37:51.244591 +0000 build-fedora2: ?? pkgs/vm-fc32/qubes-split-git.spec.list
+2021-06-23 07:37:51.244598 +0000 build-fedora2: ?? pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm
+2021-06-23 07:37:51.244605 +0000 build-fedora2: ?? pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo
+2021-06-23 07:37:51.244612 +0000 build-fedora2: ?? pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm
+2021-06-23 07:37:51.244618 +0000 build-fedora2: ?? pkgs/vm-fc33/qubes-split-git.spec.list
+2021-06-23 07:37:51.280583 +0000 build-fedora2: ffc3f6220925a07c49d97d63c9c4575db97b3156fb5caf1bdfb7ad2cab31c4222f0aa00bf278ec7818ce8b0cdaae221af67a010e7f372502906d3b0b6558b44f  pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.src.rpm
+2021-06-23 07:37:51.289262 +0000 build-fedora2: dbb2823fb2980f179cc420db33a4188b564356a2e598467c7a6cbd1f58b28c340f3f06eaf1317480f714516ea2554918e62c49d4cc9e7f876660812279e5c283  pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.x86_64.buildinfo
+2021-06-23 07:37:51.289718 +0000 build-fedora2: a288946afe60523d764ad42bcb3f31cb6ed3cb5c302f487650b217d551dbc39c22fa7da4d0f446dc5e73f7b189cab2d954873b17659b85b2f60a0629e78783bc  pkgs/vm-fc31/qubes-split-git-1.0.1-1.fc31.x86_64.rpm
+2021-06-23 07:37:51.289914 +0000 build-fedora2: 7458e9ee4f930855fed593bc7667afd765f91a9f32ba12f861e384662eee87862c80cb9d62685be78904d9c8e3ba628270db79b31a6f0cbd3a2c08bc0ffdcbe2  pkgs/vm-fc31/qubes-split-git.spec.list
+2021-06-23 07:37:51.295045 +0000 build-fedora2: 73de5935a957065c7409abd9b778881a116bd160c4ed849d33359dbd53920ffdbd6a376a66ec0191e4d7fbf2fa608d43c923343cae2424d35fcef54112623aa9  pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm
+2021-06-23 07:37:51.300621 +0000 build-fedora2: 10547c9a753c3cec9d5295ce65db2ea124460b1cea3f883990e25fe479857a7b834a3695465554ae55e5fd500e33da804ba6bf96c7fe6cfee592fc1b4a2f8bda  pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo
+2021-06-23 07:37:51.301368 +0000 build-fedora2: a21f45907cf659a7e61550c23a21d02f69f96b244fa17d1af34e8ddf3b9ea4d81a2aaab4febb4535f8753a261f03024413963f94742aea6fb76c0267927856ee  pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm
+2021-06-23 07:37:51.307014 +0000 build-fedora2: 3336a94baef5f29eb61ed49111096a6675e959f049b0cbe7afff64178370b261cb9af9c3082e141f9a0179786459bc1f0b3b485f57507622a68196618c441395  pkgs/vm-fc32/qubes-split-git.spec.list
+2021-06-23 07:37:51.322920 +0000 build-fedora2: fdea5676d9bd4c55d9e4de59773d24d826af1924c81a7d3dae69f9962b9bb4da06816be28a652adb78ea2e2bd938e2d3f9613c13649580002aabb41811dcc350  pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm
+2021-06-23 07:37:51.335349 +0000 build-fedora2: b9d3a012fe87b8739fc372178b0f95ad9f93338bfa53c865b842f70fa13307a453296d0c0f955ea7b9b018d830f98dafa1fdb31b978c3d305368c9ca38bee51f  pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo
+2021-06-23 07:37:51.342091 +0000 build-fedora2: 85e0f93a0b08b97451362a416ae705742f82666754ae4b0e335bc9ead7573ca9872b52f5b9c855cd4aecf94629d12508a15cc3b3bd4de8c542d8ced4465f8f5e  pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm
+2021-06-23 07:37:51.378259 +0000 build-fedora2: e3b6eebd16f8c9eb174ed5cdb33a356da89c2d4217d8dce8de07712598eff092f702b1e7d7ea1b2f739fbf92e6b32b6657e3a180b5f1324c2f523c8579ce5347  pkgs/vm-fc33/qubes-split-git.spec.list
+2021-06-23 07:37:51.408506 +0000 build-fedora2: ================================================================================
+2021-06-23 07:37:51.408552 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2021-06-23 07:37:51.408562 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2021-06-23 07:37:51.408571 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2021-06-23 07:37:51.408579 +0000 build-fedora2: ================================================================================
+2021-06-23 07:37:51.408584 +0000 build-fedora2: DISTS_VM:
+2021-06-23 07:37:51.409677 +0000 build-fedora2:      fc32, fc33, fc34,
+2021-06-23 07:37:51.409840 +0000 build-fedora2: DISTS_ALL:
+2021-06-23 07:37:51.411123 +0000 build-fedora2:      vm-fc32, vm-fc33, vm-fc34,
+2021-06-23 07:37:51.411438 +0000 build-fedora2: DIST_DOM0:
+2021-06-23 07:37:51.412459 +0000 build-fedora2:     
+2021-06-23 07:37:51.412600 +0000 build-fedora2: BUILDER_PLUGINS:
+2021-06-23 07:37:51.413797 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2021-06-23 07:37:51.413942 +0000 build-fedora2: COMPONENTS:
+2021-06-23 07:37:51.415081 +0000 build-fedora2:      app-split-git,
+2021-06-23 07:37:51.415141 +0000 build-fedora2: GIT_REPOS:
+2021-06-23 07:37:51.416303 +0000 build-fedora2:      qubes-src/app-split-git,
+2021-06-23 07:37:51.416469 +0000 build-fedora2: TEMPLATE:
+2021-06-23 07:37:51.417619 +0000 build-fedora2:     
+2021-06-23 07:37:51.417731 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2021-06-23 07:37:51.418880 +0000 build-fedora2:     
+2021-06-23 07:37:51.419248 +0000 build-fedora2: TEMPLATE_ALIAS:
+2021-06-23 07:37:51.420094 +0000 build-fedora2:     
+2021-06-23 07:37:51.420219 +0000 build-fedora2: TEMPLATE_LABEL:
+2021-06-23 07:37:51.421341 +0000 build-fedora2:     
+2021-06-23 07:37:51.429640 +0000 build-fedora2: > running make
+2021-06-23 07:37:51.436181 +0000 build-fedora2: Makefile:293: target 'sign.vm.fc32.app-split-git' does not exist
+2021-06-23 07:37:51.436223 +0000 build-fedora2: if [ -n "app-split-git" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_git"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-git > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-06-23 07:37:51.436233 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-06-23 07:37:51.436240 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-06-23 07:37:51.436247 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-06-23 07:37:51.436254 +0000 build-fedora2: if [ "app-split-git" = linux-template-builder ]; then
+2021-06-23 07:37:51.436283 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2021-06-23 07:37:51.436289 +0000 build-fedora2: fi
+2021-06-23 07:37:51.436297 +0000 build-fedora2: if [ -r qubes-src/app-split-git/Makefile.builder ]; then \
+2021-06-23 07:37:51.436304 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-06-23 07:37:51.436309 +0000 build-fedora2: ..DIST=fc32 \
+2021-06-23 07:37:51.436315 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-06-23 07:37:51.436321 +0000 build-fedora2: ..COMPONENT=app-split-git \
+2021-06-23 07:37:51.436326 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-06-23 07:37:51.436332 +0000 build-fedora2: ..sign || exit 1; \
+2021-06-23 07:37:51.436338 +0000 build-fedora2: elif [ -d qubes-src/app-split-git/rpm ]; then \
+2021-06-23 07:37:51.436344 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-06-23 07:37:51.436352 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/app-split-git/rpm/*/*.rpm; do \
+2021-06-23 07:37:51.436360 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-06-23 07:37:51.436366 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-06-23 07:37:51.436371 +0000 build-fedora2: ..fi ;\
+2021-06-23 07:37:51.436376 +0000 build-fedora2: .done ; \
+2021-06-23 07:37:51.436381 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-06-23 07:37:51.436387 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-06-23 07:37:51.436393 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-06-23 07:37:51.436399 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-06-23 07:37:51.436405 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-06-23 07:37:51.436410 +0000 build-fedora2: ..fi; \
+2021-06-23 07:37:51.436418 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-06-23 07:37:51.436423 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:51.436427 +0000 build-fedora2: fi
+2021-06-23 07:37:51.446661 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:51.446687 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:51.446970 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:51.447430 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:51.447495 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:51.447686 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:51.448488 +0000 build-fedora2: + tmp_spec=/tmp/tmp.uJuUpS.spec
+2021-06-23 07:37:51.448651 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:51.449212 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.uJuUpS.spec
+2021-06-23 07:37:51.450056 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:51.450072 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:51.450083 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.451298 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:51.451305 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:51.451314 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.452404 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:51.452411 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:51.452444 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:51.452453 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.453325 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.472017 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.472924 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:51.473442 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.511181 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.511704 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.532694 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:51.532762 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:51.533370 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.uJuUpS.spec
+2021-06-23 07:37:51.597470 +0000 build-fedora2: + rm -f /tmp/tmp.uJuUpS.spec
+2021-06-23 07:37:51.599927 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:198: target 'sign-prep' does not exist
+2021-06-23 07:37:51.599938 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-06-23 07:37:51.599946 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2021-06-23 07:37:51.599952 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-06-23 07:37:51.599961 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-06-23 07:37:51.599970 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2021-06-23 07:37:51.599975 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-06-23 07:37:51.599980 +0000 build-fedora2: fi
+2021-06-23 07:37:51.607990 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:51.608007 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:51.608275 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:51.608792 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:51.608865 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:51.609100 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:51.609605 +0000 build-fedora2: + tmp_spec=/tmp/tmp.f7SfqO.spec
+2021-06-23 07:37:51.609793 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:51.610366 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.f7SfqO.spec
+2021-06-23 07:37:51.611351 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:51.611359 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:51.611370 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.612361 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:51.612368 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:51.612377 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.613385 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:51.613392 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:51.613425 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:51.613434 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.614167 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.745488 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.746503 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:51.746951 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.780796 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:51.781354 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.015175 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:52.015219 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:52.015747 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.f7SfqO.spec
+2021-06-23 07:37:52.074446 +0000 build-fedora2: + rm -f /tmp/tmp.f7SfqO.spec
+2021-06-23 07:37:52.234093 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-06-23 07:37:52.510418 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:214: update target 'sign' due to: sign-prep
+2021-06-23 07:37:52.510469 +0000 build-fedora2: cd qubes-src/app-split-git && for pkg in pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo ; do \
+2021-06-23 07:37:52.510479 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-06-23 07:37:52.510496 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-06-23 07:37:52.510503 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-06-23 07:37:52.510512 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-06-23 07:37:52.510523 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2021-06-23 07:37:52.510528 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:52.510533 +0000 build-fedora2: done
+2021-06-23 07:37:52.518566 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:52.518608 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:52.518697 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:52.519435 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:52.519445 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:52.519505 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:52.520057 +0000 build-fedora2: + tmp_spec=/tmp/tmp.YAZFrv.spec
+2021-06-23 07:37:52.520198 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:52.520778 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.YAZFrv.spec
+2021-06-23 07:37:52.521520 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:52.521528 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:52.521538 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.522604 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:52.522620 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:52.522630 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.523706 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:52.523746 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:52.523754 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:52.523763 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.524494 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.535051 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.536011 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:52.536614 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.573567 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.574070 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:52.615756 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:52.615904 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:52.616521 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.YAZFrv.spec
+2021-06-23 07:37:52.675748 +0000 build-fedora2: + rm -f /tmp/tmp.YAZFrv.spec
+2021-06-23 07:37:52.689704 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-06-23 07:37:52.804462 +0000 build-fedora2: pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm:
+2021-06-23 07:37:52.815353 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-06-23 07:37:52.931946 +0000 build-fedora2: pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm:
+2021-06-23 07:37:53.050883 +0000 build-fedora2: Makefile:293: target 'sign.vm.fc33.app-split-git' does not exist
+2021-06-23 07:37:53.050950 +0000 build-fedora2: if [ -n "app-split-git" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_app_split_git"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/app-split-git > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-06-23 07:37:53.050960 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-06-23 07:37:53.050967 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-06-23 07:37:53.050975 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-06-23 07:37:53.050982 +0000 build-fedora2: if [ "app-split-git" = linux-template-builder ]; then
+2021-06-23 07:37:53.050991 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-06-23 07:37:53.050996 +0000 build-fedora2: fi
+2021-06-23 07:37:53.051004 +0000 build-fedora2: if [ -r qubes-src/app-split-git/Makefile.builder ]; then \
+2021-06-23 07:37:53.051032 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-06-23 07:37:53.051038 +0000 build-fedora2: ..DIST=fc33 \
+2021-06-23 07:37:53.051044 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-06-23 07:37:53.051050 +0000 build-fedora2: ..COMPONENT=app-split-git \
+2021-06-23 07:37:53.051055 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-06-23 07:37:53.051061 +0000 build-fedora2: ..sign || exit 1; \
+2021-06-23 07:37:53.051068 +0000 build-fedora2: elif [ -d qubes-src/app-split-git/rpm ]; then \
+2021-06-23 07:37:53.051074 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-06-23 07:37:53.051103 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/app-split-git/rpm/*/*.rpm; do \
+2021-06-23 07:37:53.051112 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-06-23 07:37:53.051124 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-06-23 07:37:53.051130 +0000 build-fedora2: ..fi ;\
+2021-06-23 07:37:53.051136 +0000 build-fedora2: .done ; \
+2021-06-23 07:37:53.051142 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-06-23 07:37:53.051148 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-06-23 07:37:53.051154 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-06-23 07:37:53.051160 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-06-23 07:37:53.051167 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-06-23 07:37:53.051171 +0000 build-fedora2: ..fi; \
+2021-06-23 07:37:53.051179 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-06-23 07:37:53.051184 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:53.051188 +0000 build-fedora2: fi
+2021-06-23 07:37:53.062040 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:53.062072 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.062221 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:53.062702 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:53.062770 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:53.062961 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:53.063484 +0000 build-fedora2: + tmp_spec=/tmp/tmp.aaFT88.spec
+2021-06-23 07:37:53.063661 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:53.064367 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.aaFT88.spec
+2021-06-23 07:37:53.065187 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.065195 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:53.065205 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.066316 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.066332 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:53.066341 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.067340 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:53.067355 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.067388 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:53.067398 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.068233 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.270217 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.271086 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:53.271585 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.306805 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.307323 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.399525 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:53.399606 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:53.400328 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.aaFT88.spec
+2021-06-23 07:37:53.460373 +0000 build-fedora2: + rm -f /tmp/tmp.aaFT88.spec
+2021-06-23 07:37:53.462732 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:198: target 'sign-prep' does not exist
+2021-06-23 07:37:53.462750 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-06-23 07:37:53.462758 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2021-06-23 07:37:53.462764 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-06-23 07:37:53.462774 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-06-23 07:37:53.462782 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2021-06-23 07:37:53.462788 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-06-23 07:37:53.462793 +0000 build-fedora2: fi
+2021-06-23 07:37:53.470857 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:53.470873 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.471115 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:53.471654 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:53.471738 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:53.471951 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:53.472599 +0000 build-fedora2: + tmp_spec=/tmp/tmp.1HA7iz.spec
+2021-06-23 07:37:53.472807 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:53.473343 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.1HA7iz.spec
+2021-06-23 07:37:53.474222 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.474238 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:53.474249 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.475293 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.475301 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:53.475310 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.476236 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:53.476243 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.476277 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:53.476286 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.476985 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.510108 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.510892 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:53.511415 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.548318 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.548872 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.549544 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:53.549744 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:53.550356 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.1HA7iz.spec
+2021-06-23 07:37:53.609853 +0000 build-fedora2: + rm -f /tmp/tmp.1HA7iz.spec
+2021-06-23 07:37:53.727172 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-06-23 07:37:53.733352 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:214: update target 'sign' due to: sign-prep
+2021-06-23 07:37:53.733391 +0000 build-fedora2: cd qubes-src/app-split-git && for pkg in pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo ; do \
+2021-06-23 07:37:53.733401 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-06-23 07:37:53.733415 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-06-23 07:37:53.733423 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-06-23 07:37:53.733432 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-06-23 07:37:53.733443 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2021-06-23 07:37:53.733448 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:53.733453 +0000 build-fedora2: done
+2021-06-23 07:37:53.741361 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:53.741412 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.741627 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:53.742315 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:53.742324 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:53.742414 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:53.743005 +0000 build-fedora2: + tmp_spec=/tmp/tmp.xLSR9U.spec
+2021-06-23 07:37:53.743142 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:53.743711 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.xLSR9U.spec
+2021-06-23 07:37:53.744446 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:53.744453 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:53.744463 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.745480 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.745487 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:53.745496 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.746642 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:53.746659 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:53.746668 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:53.746676 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.747475 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.900120 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.901093 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:53.901629 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.938393 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:53.938879 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:54.080605 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:54.080656 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:54.081257 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.xLSR9U.spec
+2021-06-23 07:37:54.141482 +0000 build-fedora2: + rm -f /tmp/tmp.xLSR9U.spec
+2021-06-23 07:37:54.155326 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-06-23 07:37:54.266299 +0000 build-fedora2: pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm:
+2021-06-23 07:37:54.277477 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-06-23 07:37:54.393967 +0000 build-fedora2: pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm:
+2021-06-23 07:37:55.281903 +0000 build-fedora2: Makefile:857: target 'internal-update-repo-current-testing.vm.fc32.app-split-git' does not exist
+2021-06-23 07:37:55.281933 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2021-06-23 07:37:55.281942 +0000 build-fedora2: if [ "app-split-git" = linux-template-builder ]; then \
+2021-06-23 07:37:55.281975 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-06-23 07:37:55.281981 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-06-23 07:37:55.281987 +0000 build-fedora2: fi; \
+2021-06-23 07:37:55.281993 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-06-23 07:37:55.282000 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-06-23 07:37:55.282004 +0000 build-fedora2: else \
+2021-06-23 07:37:55.282011 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-06-23 07:37:55.282016 +0000 build-fedora2: fi; \
+2021-06-23 07:37:55.282049 +0000 build-fedora2: if [ -r qubes-src/app-split-git/Makefile.builder ]; then \
+2021-06-23 07:37:55.282057 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-git... "; \
+2021-06-23 07:37:55.282063 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-06-23 07:37:55.282071 +0000 build-fedora2: ..vtag=`git -C qubes-src/app-split-git tag --points-at HEAD --list v*`; \
+2021-06-23 07:37:55.282076 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-06-23 07:37:55.282082 +0000 build-fedora2: ...echo "no version tag"; \
+2021-06-23 07:37:55.282089 +0000 build-fedora2: ...exit 0; \
+2021-06-23 07:37:55.282095 +0000 build-fedora2: ..fi; \
+2021-06-23 07:37:55.282100 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:55.282107 +0000 build-fedora2: .if [ "app-split-git" = linux-template-builder ]; then
+2021-06-23 07:37:55.282119 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc32 template-name)
+2021-06-23 07:37:55.282124 +0000 build-fedora2: fi
+2021-06-23 07:37:55.282142 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-git` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc32 get-var GET_VAR=PACKAGE_LIST); \
+2021-06-23 07:37:55.282149 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-06-23 07:37:55.282155 +0000 build-fedora2: ..echo "no packages."; \
+2021-06-23 07:37:55.282160 +0000 build-fedora2: ..exit 0; \
+2021-06-23 07:37:55.282165 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:55.282172 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc32 PACKAGE_SET=vm \
+2021-06-23 07:37:55.282178 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/app-split-git` \
+2021-06-23 07:37:55.282202 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-06-23 07:37:55.282208 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-06-23 07:37:55.282217 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc32 \
+2021-06-23 07:37:55.282227 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc32-`basename qubes-src/app-split-git` \
+2021-06-23 07:37:55.282237 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-17-14 \
+2021-06-23 07:37:55.282243 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-06-23 07:37:55.282252 +0000 build-fedora2: elif make -C qubes-src/app-split-git -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-06-23 07:37:55.282259 +0000 build-fedora2: .echo "Updating qubes-src/app-split-git... "; \
+2021-06-23 07:37:55.282267 +0000 build-fedora2: .DIST=fc32 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc32 \
+2021-06-23 07:37:55.282275 +0000 build-fedora2: .make -s -C qubes-src/app-split-git update-repo-current-testing || exit 1; \
+2021-06-23 07:37:55.282280 +0000 build-fedora2: else \
+2021-06-23 07:37:55.282287 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-git... skipping."; \
+2021-06-23 07:37:55.282292 +0000 build-fedora2: fi; \
+2021-06-23 07:37:55.282297 +0000 build-fedora2: echo
+2021-06-23 07:37:55.288864 +0000 build-fedora2: Updating qubes-src/app-split-git... + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:55.288880 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:55.289004 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:55.289552 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:55.289609 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:55.289765 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:55.290331 +0000 build-fedora2: + tmp_spec=/tmp/tmp.pSihJu.spec
+2021-06-23 07:37:55.290503 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:55.291006 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.pSihJu.spec
+2021-06-23 07:37:55.291825 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:55.291842 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:55.291852 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.292868 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:55.292883 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:55.292893 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.459669 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:55.459706 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:55.459719 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:55.459728 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.460873 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.464413 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.465497 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:55.466010 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.512413 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.513056 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.672655 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:55.676787 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:55.676808 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.pSihJu.spec
+2021-06-23 07:37:55.732942 +0000 build-fedora2: + rm -f /tmp/tmp.pSihJu.spec
+2021-06-23 07:37:55.739380 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:55.739395 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:55.739595 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:55.740167 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:55.740240 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:55.740419 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:55.740969 +0000 build-fedora2: + tmp_spec=/tmp/tmp.v4xtet.spec
+2021-06-23 07:37:55.741175 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:55.741704 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.v4xtet.spec
+2021-06-23 07:37:55.742551 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:55.742559 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:55.742603 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.743618 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:55.743625 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:55.743634 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.744642 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:55.744649 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:55.744680 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:55.744689 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.745378 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.909598 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.910446 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:55.910923 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.946205 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.946799 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:55.993911 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:55.993968 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:55.994630 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.v4xtet.spec
+2021-06-23 07:37:56.054855 +0000 build-fedora2: + rm -f /tmp/tmp.v4xtet.spec
+2021-06-23 07:37:56.068674 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:56.068699 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.068901 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:56.069463 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:56.069557 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:56.069747 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:56.070300 +0000 build-fedora2: + tmp_spec=/tmp/tmp.9tEBXk.spec
+2021-06-23 07:37:56.070526 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.071071 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.9tEBXk.spec
+2021-06-23 07:37:56.071906 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.071922 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:56.071937 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.072912 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.072919 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:56.072928 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.073964 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:56.073979 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.073986 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:56.073995 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.074916 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.075973 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.076744 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:56.077359 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.114313 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.114940 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.179963 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:56.180149 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.180844 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.9tEBXk.spec
+2021-06-23 07:37:56.238552 +0000 build-fedora2: + rm -f /tmp/tmp.9tEBXk.spec
+2021-06-23 07:37:56.251372 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:173: target 'update-repo-do' does not exist
+2021-06-23 07:37:56.251393 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc32/rpm
+2021-06-23 07:37:56.258832 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:56.258848 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.259136 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:56.259634 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:56.259712 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:56.259889 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:56.260431 +0000 build-fedora2: + tmp_spec=/tmp/tmp.78icTb.spec
+2021-06-23 07:37:56.260742 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.261258 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.78icTb.spec
+2021-06-23 07:37:56.262053 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.262071 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:56.262082 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.263051 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.263067 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:56.263077 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.264004 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:56.264019 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.264055 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:56.264065 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.264756 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.347706 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.348634 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:56.349138 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.385855 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.386511 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.642576 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:56.642804 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.643414 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.78icTb.spec
+2021-06-23 07:37:56.702221 +0000 build-fedora2: + rm -f /tmp/tmp.78icTb.spec
+2021-06-23 07:37:56.705261 +0000 build-fedora2: if [ -n "pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo" ]; then \
+2021-06-23 07:37:56.705286 +0000 build-fedora2: .cd qubes-src/app-split-git && ln -f pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc32/rpm/; \
+2021-06-23 07:37:56.705292 +0000 build-fedora2: else \
+2021-06-23 07:37:56.705302 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-git.spec, syntax error?`tput sgr0`"; \
+2021-06-23 07:37:56.705307 +0000 build-fedora2: .exit 1; \
+2021-06-23 07:37:56.705312 +0000 build-fedora2: fi
+2021-06-23 07:37:56.723575 +0000 build-fedora2: cd qubes-src/app-split-git && echo pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.src.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.rpm pkgs/vm-fc32/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc32-app-split-git
+2021-06-23 07:37:56.731685 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-06-23 07:37:56.731705 +0000 build-fedora2: [ -z "qubes-split-git-1.0.1-1.fc32" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2021-06-23 07:37:56.731715 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-17-14" \
+2021-06-23 07:37:56.731721 +0000 build-fedora2: .upload \
+2021-06-23 07:37:56.731742 +0000 build-fedora2: ."r4.0" \
+2021-06-23 07:37:56.731748 +0000 build-fedora2: ."qubes-src/app-split-git" \
+2021-06-23 07:37:56.731755 +0000 build-fedora2: ."qubes-split-git-1.0.1-1.fc32" \
+2021-06-23 07:37:56.731760 +0000 build-fedora2: ."fc32" \
+2021-06-23 07:37:56.731764 +0000 build-fedora2: ."vm" \
+2021-06-23 07:37:56.731770 +0000 build-fedora2: ."current-testing" \
+2021-06-23 07:37:56.731778 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-app-split-git-vm-fc32-current-testing" \
+2021-06-23 07:37:56.731785 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-app-split-git-vm-fc32-current"
+2021-06-23 07:37:56.742753 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:56.742769 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.742952 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:56.743493 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:56.743545 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:56.743722 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:56.744283 +0000 build-fedora2: + tmp_spec=/tmp/tmp.o1WNak.spec
+2021-06-23 07:37:56.744439 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.744981 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.o1WNak.spec
+2021-06-23 07:37:56.745769 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:56.745778 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:56.745788 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.746792 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.746808 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:56.746818 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.747775 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:56.747790 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:56.747800 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:56.747809 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.748540 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.768667 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.769432 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:56.769899 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.808975 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.809529 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:56.971690 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:56.971742 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:56.972394 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.o1WNak.spec
+2021-06-23 07:37:57.030317 +0000 build-fedora2: + rm -f /tmp/tmp.o1WNak.spec
+2021-06-23 07:37:57.148150 +0000 build-fedora2: fatal: No tags can describe 'e011f44b0200b8b05f6ac2be62fad22ce51fc227'.
+2021-06-23 07:37:57.148185 +0000 build-fedora2: Try --always, or create some tags.
+2021-06-23 07:37:59.560384 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-app-split-git-vm-fc32-current-testing does not exist, initializing with the current state
+2021-06-23 07:37:59.571021 +0000 build-fedora2: 
+2021-06-23 07:37:59.571332 +0000 build-fedora2: Makefile:828: update target 'internal-update-repo-current-testing.vm.fc32' due to: internal-update-repo-current-testing.vm.fc32.app-split-git
+2021-06-23 07:37:59.571341 +0000 build-fedora2: true
+2021-06-23 07:37:59.572293 +0000 build-fedora2: Makefile:857: target 'internal-update-repo-current-testing.vm.fc33.app-split-git' does not exist
+2021-06-23 07:37:59.572302 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2021-06-23 07:37:59.572309 +0000 build-fedora2: if [ "app-split-git" = linux-template-builder ]; then \
+2021-06-23 07:37:59.572317 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-06-23 07:37:59.572324 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-06-23 07:37:59.572329 +0000 build-fedora2: fi; \
+2021-06-23 07:37:59.572335 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-06-23 07:37:59.572341 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-06-23 07:37:59.572346 +0000 build-fedora2: else \
+2021-06-23 07:37:59.572353 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-06-23 07:37:59.572358 +0000 build-fedora2: fi; \
+2021-06-23 07:37:59.572365 +0000 build-fedora2: if [ -r qubes-src/app-split-git/Makefile.builder ]; then \
+2021-06-23 07:37:59.572372 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-git... "; \
+2021-06-23 07:37:59.572378 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-06-23 07:37:59.572386 +0000 build-fedora2: ..vtag=`git -C qubes-src/app-split-git tag --points-at HEAD --list v*`; \
+2021-06-23 07:37:59.572392 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-06-23 07:37:59.572398 +0000 build-fedora2: ...echo "no version tag"; \
+2021-06-23 07:37:59.572403 +0000 build-fedora2: ...exit 0; \
+2021-06-23 07:37:59.572408 +0000 build-fedora2: ..fi; \
+2021-06-23 07:37:59.572413 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:59.572420 +0000 build-fedora2: .if [ "app-split-git" = linux-template-builder ]; then
+2021-06-23 07:37:59.572429 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-06-23 07:37:59.572434 +0000 build-fedora2: fi
+2021-06-23 07:37:59.572450 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm COMPONENT=`basename qubes-src/app-split-git` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 get-var GET_VAR=PACKAGE_LIST); \
+2021-06-23 07:37:59.572457 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-06-23 07:37:59.572463 +0000 build-fedora2: ..echo "no packages."; \
+2021-06-23 07:37:59.572468 +0000 build-fedora2: ..exit 0; \
+2021-06-23 07:37:59.572473 +0000 build-fedora2: .fi; \
+2021-06-23 07:37:59.572480 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm \
+2021-06-23 07:37:59.572487 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/app-split-git` \
+2021-06-23 07:37:59.572493 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-06-23 07:37:59.572499 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-06-23 07:37:59.572507 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 \
+2021-06-23 07:37:59.572517 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc33-`basename qubes-src/app-split-git` \
+2021-06-23 07:37:59.572527 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-26-01 \
+2021-06-23 07:37:59.572533 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-06-23 07:37:59.572542 +0000 build-fedora2: elif make -C qubes-src/app-split-git -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-06-23 07:37:59.572549 +0000 build-fedora2: .echo "Updating qubes-src/app-split-git... "; \
+2021-06-23 07:37:59.572573 +0000 build-fedora2: .DIST=fc33 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 \
+2021-06-23 07:37:59.572582 +0000 build-fedora2: .make -s -C qubes-src/app-split-git update-repo-current-testing || exit 1; \
+2021-06-23 07:37:59.572587 +0000 build-fedora2: else \
+2021-06-23 07:37:59.572594 +0000 build-fedora2: .echo -n "Updating qubes-src/app-split-git... skipping."; \
+2021-06-23 07:37:59.572599 +0000 build-fedora2: fi; \
+2021-06-23 07:37:59.572604 +0000 build-fedora2: echo
+2021-06-23 07:37:59.583809 +0000 build-fedora2: Updating qubes-src/app-split-git... + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:59.583832 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.584042 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:59.584534 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:59.584610 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:59.584791 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:59.585306 +0000 build-fedora2: + tmp_spec=/tmp/tmp.PzebKA.spec
+2021-06-23 07:37:59.585495 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:59.586118 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.PzebKA.spec
+2021-06-23 07:37:59.586793 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.586803 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:59.586813 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.587823 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.587830 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:59.587839 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.588770 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:59.588776 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.588811 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:59.588840 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.589705 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.622854 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.623763 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:59.624300 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.659034 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.659677 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.667484 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:59.667709 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:59.668283 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.PzebKA.spec
+2021-06-23 07:37:59.727597 +0000 build-fedora2: + rm -f /tmp/tmp.PzebKA.spec
+2021-06-23 07:37:59.734284 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:59.734300 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.734519 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:59.735030 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:59.735108 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:59.735301 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:59.735805 +0000 build-fedora2: + tmp_spec=/tmp/tmp.l3y5EB.spec
+2021-06-23 07:37:59.735987 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:59.736485 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.l3y5EB.spec
+2021-06-23 07:37:59.737342 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.737358 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:59.737372 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.738398 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.738414 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:59.738423 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.739405 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:59.739412 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.739439 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:59.739448 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.740166 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.788707 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.789528 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:37:59.790005 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.825031 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.825640 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.862272 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:37:59.862439 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:59.863054 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.l3y5EB.spec
+2021-06-23 07:37:59.921696 +0000 build-fedora2: + rm -f /tmp/tmp.l3y5EB.spec
+2021-06-23 07:37:59.935275 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:37:59.935293 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.935475 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:37:59.935970 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:37:59.936054 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:37:59.936243 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:37:59.936757 +0000 build-fedora2: + tmp_spec=/tmp/tmp.lDrlvz.spec
+2021-06-23 07:37:59.936937 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:37:59.937463 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.lDrlvz.spec
+2021-06-23 07:37:59.938313 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:37:59.938329 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:37:59.938339 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.939301 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.939309 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:37:59.939317 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.940265 +0000 build-fedora2: + vnum=1
+2021-06-23 07:37:59.940272 +0000 build-fedora2: + read -r ver
+2021-06-23 07:37:59.940320 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:37:59.940360 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:37:59.941100 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.033722 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.034749 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:38:00.035250 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.073885 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.074487 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.189551 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:38:00.189644 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:38:00.190284 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.lDrlvz.spec
+2021-06-23 07:38:00.249746 +0000 build-fedora2: + rm -f /tmp/tmp.lDrlvz.spec
+2021-06-23 07:38:00.263215 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:173: target 'update-repo-do' does not exist
+2021-06-23 07:38:00.263235 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc33/rpm
+2021-06-23 07:38:00.270044 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:38:00.270059 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:38:00.270164 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:38:00.270645 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:38:00.270712 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:38:00.270878 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:38:00.271412 +0000 build-fedora2: + tmp_spec=/tmp/tmp.IJFakV.spec
+2021-06-23 07:38:00.271547 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:38:00.272031 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.IJFakV.spec
+2021-06-23 07:38:00.272766 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:38:00.272783 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:38:00.272839 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.273768 +0000 build-fedora2: + read -r ver
+2021-06-23 07:38:00.273774 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:38:00.273783 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.274733 +0000 build-fedora2: + vnum=1
+2021-06-23 07:38:00.274748 +0000 build-fedora2: + read -r ver
+2021-06-23 07:38:00.274759 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:38:00.274785 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.275511 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.287531 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.288458 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:38:00.288988 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.327298 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.327980 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.360567 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:38:00.360727 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:38:00.361360 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.IJFakV.spec
+2021-06-23 07:38:00.422737 +0000 build-fedora2: + rm -f /tmp/tmp.IJFakV.spec
+2021-06-23 07:38:00.425754 +0000 build-fedora2: if [ -n "pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo" ]; then \
+2021-06-23 07:38:00.425783 +0000 build-fedora2: .cd qubes-src/app-split-git && ln -f pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc33/rpm/; \
+2021-06-23 07:38:00.425791 +0000 build-fedora2: else \
+2021-06-23 07:38:00.425801 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-split-git.spec, syntax error?`tput sgr0`"; \
+2021-06-23 07:38:00.425806 +0000 build-fedora2: .exit 1; \
+2021-06-23 07:38:00.425811 +0000 build-fedora2: fi
+2021-06-23 07:38:00.624079 +0000 build-fedora2: cd qubes-src/app-split-git && echo pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.src.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc33-app-split-git
+2021-06-23 07:38:00.632926 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-06-23 07:38:00.632956 +0000 build-fedora2: [ -z "qubes-split-git-1.0.1-1.fc33" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2021-06-23 07:38:00.632967 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-06-23_07-26-01" \
+2021-06-23 07:38:00.632973 +0000 build-fedora2: .upload \
+2021-06-23 07:38:00.632978 +0000 build-fedora2: ."r4.0" \
+2021-06-23 07:38:00.632985 +0000 build-fedora2: ."qubes-src/app-split-git" \
+2021-06-23 07:38:00.632991 +0000 build-fedora2: ."qubes-split-git-1.0.1-1.fc33" \
+2021-06-23 07:38:00.632996 +0000 build-fedora2: ."fc33" \
+2021-06-23 07:38:00.633001 +0000 build-fedora2: ."vm" \
+2021-06-23 07:38:00.633006 +0000 build-fedora2: ."current-testing" \
+2021-06-23 07:38:00.633028 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-app-split-git-vm-fc33-current-testing" \
+2021-06-23 07:38:00.633037 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-app-split-git-vm-fc33-current"
+2021-06-23 07:38:00.644424 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-06-23 07:38:00.644465 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:38:00.644720 +0000 build-fedora2: ++ basename qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in
+2021-06-23 07:38:00.645475 +0000 build-fedora2: + [[ xqubes-split-git.spec.in == \x\.\i\n ]]
+2021-06-23 07:38:00.645493 +0000 build-fedora2: + '[' -r qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in ']'
+2021-06-23 07:38:00.645704 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-06-23 07:38:00.646265 +0000 build-fedora2: + tmp_spec=/tmp/tmp.3DqvXQ.spec
+2021-06-23 07:38:00.646430 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:38:00.646936 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in /tmp/tmp.3DqvXQ.spec
+2021-06-23 07:38:00.647774 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-06-23 07:38:00.647782 +0000 build-fedora2: + '[' -z qubes-src/app-split-git ']'
+2021-06-23 07:38:00.647792 +0000 build-fedora2: + cp qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.648845 +0000 build-fedora2: + read -r ver
+2021-06-23 07:38:00.648852 +0000 build-fedora2: + '[' x = x ']'
+2021-06-23 07:38:00.648861 +0000 build-fedora2: + sed -i 's|@VERSION@|1.0.1|g' qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.649893 +0000 build-fedora2: + vnum=1
+2021-06-23 07:38:00.649908 +0000 build-fedora2: + read -r ver
+2021-06-23 07:38:00.649918 +0000 build-fedora2: + '[' -e qubes-src/app-split-git/rel ']'
+2021-06-23 07:38:00.649982 +0000 build-fedora2: + grep -q @REL@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.650769 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.673681 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.674571 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec
+2021-06-23 07:38:00.675053 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-changelog qubes-src/app-split-git qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.712397 +0000 build-fedora2: + cat qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.712975 +0000 build-fedora2: + rm -rf qubes-src/app-split-git/rpm_spec/qubes-split-git.spec.in.tmp
+2021-06-23 07:38:00.763797 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-06-23 07:38:00.763925 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-06-23 07:38:00.764541 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.3DqvXQ.spec
+2021-06-23 07:38:00.823035 +0000 build-fedora2: + rm -f /tmp/tmp.3DqvXQ.spec
+2021-06-23 07:38:00.904417 +0000 build-fedora2: fatal: No tags can describe 'e011f44b0200b8b05f6ac2be62fad22ce51fc227'.
+2021-06-23 07:38:00.904459 +0000 build-fedora2: Try --always, or create some tags.
+2021-06-23 07:38:03.220238 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-app-split-git-vm-fc33-current-testing does not exist, initializing with the current state
+2021-06-23 07:38:03.229843 +0000 build-fedora2: 
+2021-06-23 07:38:03.229954 +0000 build-fedora2: Makefile:828: update target 'internal-update-repo-current-testing.vm.fc33' due to: internal-update-repo-current-testing.vm.fc33.app-split-git
+2021-06-23 07:38:03.229963 +0000 build-fedora2: true
+2021-06-23 07:38:03.230998 +0000 build-fedora2: Makefile:917: target 'post-update-repo-current-testing' does not exist
+2021-06-23 07:38:03.231014 +0000 build-fedora2: for dist in  fc32 fc33; do \
+2021-06-23 07:38:03.231023 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist//-/_}_BASEDIR"; \
+2021-06-23 07:38:03.231029 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2021-06-23 07:38:03.231036 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2021-06-23 07:38:03.231059 +0000 build-fedora2: .else \
+2021-06-23 07:38:03.231066 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-06-23 07:38:03.231071 +0000 build-fedora2: .fi; \
+2021-06-23 07:38:03.231095 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2021-06-23 07:38:03.231101 +0000 build-fedora2: done; \
+2021-06-23 07:38:03.231106 +0000 build-fedora2: pkgset_dist= ; \
+2021-06-23 07:38:03.231112 +0000 build-fedora2: for dist in ; do \
+2021-06-23 07:38:03.231118 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2021-06-23 07:38:03.231123 +0000 build-fedora2: done; \
+2021-06-23 07:38:03.231129 +0000 build-fedora2: for dist in fc32 fc33; do \
+2021-06-23 07:38:03.231135 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2021-06-23 07:38:03.231140 +0000 build-fedora2: done; \
+2021-06-23 07:38:03.231147 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2021-06-23 07:38:03.231153 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2021-06-23 07:38:03.231161 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2021-06-23 07:38:03.231168 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2021-06-23 07:38:03.231173 +0000 build-fedora2: done
+2021-06-23 07:38:03.287644 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2021-06-23 07:38:03.308248 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc32...
+2021-06-23 07:38:03.324433 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-06-23 07:38:09.400087 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc33...
+2021-06-23 07:38:09.415430 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-06-23 07:38:17.060806 +0000 build-fedora2: Done.
+2021-06-23 07:38:17.068246 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2021-06-23 07:38:17.069186 +0000 build-fedora2: Syncing r4.0...
+2021-06-23 07:38:17.812874 +0000 build-fedora2: sending incremental file list
+2021-06-23 07:38:17.847731 +0000 build-fedora2: .d..tp..... fc32/
+2021-06-23 07:38:17.847758 +0000 build-fedora2: .d..t...... fc32/repodata/
+2021-06-23 07:38:17.847766 +0000 build-fedora2: <f+++++++++ fc32/repodata/.gitignore
+2021-06-23 07:38:17.847777 +0000 build-fedora2: .             38 100%    0.00kB/s    0:00:00  .             38 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=41/46)
+2021-06-23 07:38:17.847794 +0000 build-fedora2: <f+++++++++ fc32/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2021-06-23 07:38:17.847805 +0000 build-fedora2: .            412 100%  402.34kB/s    0:00:00  .            412 100%  402.34kB/s    0:00:00 (xfr#2, to-chk=40/46)
+2021-06-23 07:38:17.847814 +0000 build-fedora2: <f+++++++++ fc32/repodata/4f15b80587440af7283809a0e1235fb99b7204396b30edb5950ccc86dac77617-primary.sqlite.bz2
+2021-06-23 07:38:17.847824 +0000 build-fedora2: .         11,706 100%   11.16MB/s    0:00:00  .         11,706 100%   11.16MB/s    0:00:00 (xfr#3, to-chk=39/46)
+2021-06-23 07:38:17.847833 +0000 build-fedora2: <f+++++++++ fc32/repodata/66a19d240adece8cb961faa4e2d17dc2285fa16fd83b04ab03e4d10ff75cee4b-other.xml.gz
+2021-06-23 07:38:17.847842 +0000 build-fedora2: .          2,395 100%    2.28MB/s    0:00:00  .          2,395 100%    2.28MB/s    0:00:00 (xfr#4, to-chk=38/46)
+2021-06-23 07:38:17.847851 +0000 build-fedora2: <f+++++++++ fc32/repodata/9aace15f02b12dfb9e51b7b78f060497cc0abccb4655a92825b16c2f3eb36cde-other.sqlite.bz2
+2021-06-23 07:38:17.847861 +0000 build-fedora2: .          4,875 100%    4.65MB/s    0:00:00  .          4,875 100%    4.65MB/s    0:00:00 (xfr#5, to-chk=37/46)
+2021-06-23 07:38:17.847870 +0000 build-fedora2: <f+++++++++ fc32/repodata/d722be41f9d95fc1f53335d12cc7fbd8a672957f6592aa7306cb8e4ad29cb305-primary.xml.gz
+2021-06-23 07:38:17.847901 +0000 build-fedora2: .          5,470 100%    5.22MB/s    0:00:00  .          5,470 100%    5.22MB/s    0:00:00 (xfr#6, to-chk=36/46)
+2021-06-23 07:38:17.847911 +0000 build-fedora2: <f+++++++++ fc32/repodata/da1d6fee193e96dd7405d5dff53dfd821bf86f6adb5baf719ac3ea2e47afc5dd-filelists.sqlite.bz2
+2021-06-23 07:38:17.847921 +0000 build-fedora2: .         31,728 100%   30.26MB/s    0:00:00  .         31,728 100%   30.26MB/s    0:00:00 (xfr#7, to-chk=35/46)
+2021-06-23 07:38:17.847930 +0000 build-fedora2: <f+++++++++ fc32/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2021-06-23 07:38:17.847939 +0000 build-fedora2: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=34/46)
+2021-06-23 07:38:17.847948 +0000 build-fedora2: <f+++++++++ fc32/repodata/f9b1df1e10df7276e4570a554ad37758b0c7b4d99d77f72f2fa6c6c70d6bf343-filelists.xml.gz
+2021-06-23 07:38:17.848139 +0000 build-fedora2: .         32,454 100%   30.95MB/s    0:00:00  .         32,454 100%   30.95MB/s    0:00:00 (xfr#9, to-chk=33/46)
+2021-06-23 07:38:17.848157 +0000 build-fedora2: <f.st...... fc32/repodata/repomd.xml
+2021-06-23 07:38:17.848168 +0000 build-fedora2: .          3,839 100%    3.66MB/s    0:00:00  .          3,839 100%    3.66MB/s    0:00:00 (xfr#10, to-chk=32/46)
+2021-06-23 07:38:17.848175 +0000 build-fedora2: <f+++++++++ fc32/repodata/repomd.xml.asc
+2021-06-23 07:38:17.848190 +0000 build-fedora2: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#11, to-chk=31/46)
+2021-06-23 07:38:17.848196 +0000 build-fedora2: .d..tp..... fc32/rpm/
+2021-06-23 07:38:17.848204 +0000 build-fedora2: .f...p..... fc32/rpm/qubes-split-browser-0.13.0-2.fc32.x86_64.buildinfo
+2021-06-23 07:38:17.848211 +0000 build-fedora2: <f+++++++++ fc32/rpm/qubes-split-git-1.0.1-1.fc32.src.rpm
+2021-06-23 07:38:17.848221 +0000 build-fedora2: .         26,951 100%   25.70MB/s    0:00:00  .         26,951 100%   25.70MB/s    0:00:00 (xfr#12, to-chk=7/46)
+2021-06-23 07:38:17.848229 +0000 build-fedora2: <f+++++++++ fc32/rpm/qubes-split-git-1.0.1-1.fc32.x86_64.buildinfo
+2021-06-23 07:38:17.848288 +0000 build-fedora2: .          1,310 100%    1.25MB/s    0:00:00  .          1,310 100%    1.25MB/s    0:00:00 (xfr#13, to-chk=6/46)
+2021-06-23 07:38:17.848297 +0000 build-fedora2: <f+++++++++ fc32/rpm/qubes-split-git-1.0.1-1.fc32.x86_64.rpm
+2021-06-23 07:38:17.848306 +0000 build-fedora2: .         13,284 100%   12.67MB/s    0:00:00  .         13,284 100%   12.67MB/s    0:00:00 (xfr#14, to-chk=5/46)
+2021-06-23 07:38:17.848314 +0000 build-fedora2: .f...p..... fc32/rpm/qubes-tunnel-1.4.2-1.fc32.x86_64.buildinfo
+2021-06-23 07:38:18.112500 +0000 build-fedora2: sending incremental file list
+2021-06-23 07:38:18.148516 +0000 build-fedora2: .d..t...... fc33/
+2021-06-23 07:38:18.148534 +0000 build-fedora2: .d..tp..... fc33/repodata/
+2021-06-23 07:38:18.148545 +0000 build-fedora2: <f..tp..... fc33/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2021-06-23 07:38:18.148592 +0000 build-fedora2: .            412 100%    0.00kB/s    0:00:00  .            412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=40/46)
+2021-06-23 07:38:18.148604 +0000 build-fedora2: <f+++++++++ fc33/repodata/227b34d92062c86a7227e4370a1bf838a3da330a72252ecea9e15ee63668c763-primary.xml.gz
+2021-06-23 07:38:18.148625 +0000 build-fedora2: .          5,496 100%    5.24MB/s    0:00:00  .          5,496 100%    5.24MB/s    0:00:00 (xfr#2, to-chk=39/46)
+2021-06-23 07:38:18.148654 +0000 build-fedora2: <f+++++++++ fc33/repodata/40ada6960cc0c78207d86a558c9c3b00924b8345b0ed639d87823ddce6495460-other.xml.gz
+2021-06-23 07:38:18.148667 +0000 build-fedora2: .          2,687 100%    2.56MB/s    0:00:00  .          2,687 100%    2.56MB/s    0:00:00 (xfr#3, to-chk=38/46)
+2021-06-23 07:38:18.148678 +0000 build-fedora2: <f+++++++++ fc33/repodata/555f4a994400e7aba5766d8dda18f0607539a761b20dfd6b29d4064db4a90719-filelists.sqlite.bz2
+2021-06-23 07:38:18.148770 +0000 build-fedora2: .         31,386 100%   29.93MB/s    0:00:00  .         31,386 100%   29.93MB/s    0:00:00 (xfr#4, to-chk=37/46)
+2021-06-23 07:38:18.148781 +0000 build-fedora2: <f+++++++++ fc33/repodata/a798356864c3fe15c1916ee761e4a3f4b95add389e738f9ef266773ebee0a543-filelists.xml.gz
+2021-06-23 07:38:18.148926 +0000 build-fedora2: .         32,469 100%   30.96MB/s    0:00:00  .         32,469 100%   30.96MB/s    0:00:00 (xfr#5, to-chk=36/46)
+2021-06-23 07:38:18.148937 +0000 build-fedora2: <f+++++++++ fc33/repodata/b83b937fe5d3d3c9810b91ac6fc22d6911f7f20ce67d5b216c96ee144358a85a-other.sqlite.bz2
+2021-06-23 07:38:18.148949 +0000 build-fedora2: .          5,394 100%    5.14MB/s    0:00:00  .          5,394 100%    5.14MB/s    0:00:00 (xfr#6, to-chk=35/46)
+2021-06-23 07:38:18.148959 +0000 build-fedora2: <f+++++++++ fc33/repodata/c368ccf975556c33c96357eea361fab406176110e7aade0a38fac84840db1630-primary.sqlite.bz2
+2021-06-23 07:38:18.149029 +0000 build-fedora2: .         11,879 100%   11.33MB/s    0:00:00  .         11,879 100%   11.33MB/s    0:00:00 (xfr#7, to-chk=34/46)
+2021-06-23 07:38:18.149040 +0000 build-fedora2: <f..tp..... fc33/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2021-06-23 07:38:18.149051 +0000 build-fedora2: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=33/46)
+2021-06-23 07:38:18.149061 +0000 build-fedora2: <f..tp..... fc33/repodata/repomd.xml
+2021-06-23 07:38:18.149133 +0000 build-fedora2: .          3,839 100%    3.66MB/s    0:00:00  .          3,839 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=32/46)
+2021-06-23 07:38:18.149141 +0000 build-fedora2: <f..t...... fc33/repodata/repomd.xml.asc
+2021-06-23 07:38:18.149152 +0000 build-fedora2: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=31/46)
+2021-06-23 07:38:18.149158 +0000 build-fedora2: .d..t...... fc33/rpm/
+2021-06-23 07:38:18.149167 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-split-git-1.0.1-1.fc33.src.rpm
+2021-06-23 07:38:18.149283 +0000 build-fedora2: .         27,824 100%   26.54MB/s    0:00:00  .         27,824 100%   26.54MB/s    0:00:00 (xfr#11, to-chk=7/46)
+2021-06-23 07:38:18.149292 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-split-git-1.0.1-1.fc33.x86_64.buildinfo
+2021-06-23 07:38:18.149304 +0000 build-fedora2: .          6,001 100%    5.72MB/s    0:00:00  .          6,001 100%    5.72MB/s    0:00:00 (xfr#12, to-chk=6/46)
+2021-06-23 07:38:18.149311 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-split-git-1.0.1-1.fc33.x86_64.rpm
+2021-06-23 07:38:18.149404 +0000 build-fedora2: .         14,101 100%   13.45MB/s    0:00:00  .         14,101 100%   13.45MB/s    0:00:00 (xfr#13, to-chk=5/46)
+2021-06-23 07:38:18.734967 +0000 build-fedora2: Makefile:813: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc32 internal-update-repo-current-testing.vm.fc33 post-update-repo-current-testing
+2021-06-23 07:38:18.735007 +0000 build-fedora2: true
+2021-06-23 07:38:18.736216 +0000 build-fedora2: > done
+2021-06-23 07:38:18.736223 +0000 > closing log
