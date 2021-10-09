@@ -1,0 +1,851 @@
+2021-10-09 09:54:00.879297 +0000 > starting log
+2021-10-09 09:54:00.879626 +0000 build-fedora2: > starting build with log
+2021-10-09 09:54:00.879657 +0000 build-fedora2: >> make args: DISTS_VM= fc33 fc34 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-fc33=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-45-09 tunnel-vm-fc34=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-51-06 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2021-10-09 09:54:00.879664 +0000 build-fedora2: >> MAKEFLAGS=
+2021-10-09 09:54:00.879670 +0000 build-fedora2: >> COMPONENTS=tunnel
+2021-10-09 09:54:00.879675 +0000 build-fedora2: >> DISTS_VM=
+2021-10-09 09:54:00.879680 +0000 build-fedora2: >> DIST_DOM0=
+2021-10-09 09:54:01.177661 +0000 build-fedora2: >> qubes-builder 487c81d8ba76c2ada8d584c0ef8b4c63050cbe1b
+2021-10-09 09:54:01.620379 +0000 build-fedora2: >> qubes-builder/qubes-src/tunnel cfd0098fe10f3dc2fbc141144221e25db6a57655
+2021-10-09 09:54:01.668493 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.src.rpm
+2021-10-09 09:54:01.668538 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.buildinfo
+2021-10-09 09:54:01.668547 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2021-10-09 09:54:01.668554 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel.spec.list
+2021-10-09 09:54:01.668562 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.668569 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.2-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.668576 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.src.rpm
+2021-10-09 09:54:01.668584 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.668591 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.rpm
+2021-10-09 09:54:01.668597 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel.spec.list
+2021-10-09 09:54:01.668604 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.1-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.668612 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.2-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.668619 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.src.rpm
+2021-10-09 09:54:01.668626 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.668633 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.rpm
+2021-10-09 09:54:01.668640 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm
+2021-10-09 09:54:01.668647 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.668654 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm
+2021-10-09 09:54:01.668661 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel.spec.list
+2021-10-09 09:54:01.668668 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm
+2021-10-09 09:54:01.668675 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo
+2021-10-09 09:54:01.668682 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm
+2021-10-09 09:54:01.668688 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel.spec.list
+2021-10-09 09:54:01.687980 +0000 build-fedora2: 69af2af72375a7dff312a44c06d7dcfb8d74ffbe637870706ea439f0484f4279929dbdf257136e736c6ef510c24bcd8979ba88fdf1d09966ce2f5c7dde23de18  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.src.rpm
+2021-10-09 09:54:01.688266 +0000 build-fedora2: 404d8962dd9814761aac61661d1c84125ada7dd9791d5a407671a3e60771727b3254d72f3c9f5eda4637ba29373324d348cf05a1f3f27d3853b067476734c2b9  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.buildinfo
+2021-10-09 09:54:01.698048 +0000 build-fedora2: 67f8775de56d69be33304e7612e37931e1d475ca65f53ab410bec4cc2f6906c907e8cc2ddd0eb8c75f9c52828d4d41c7bf4e1bad6f49e841bf7e9128d6643759  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2021-10-09 09:54:01.711989 +0000 build-fedora2: ae9c7de43a340d8a924a2ad357b66807df21e8c2a51a2eb11826670a2195328d1965b4eed01b3566dd475eb2074624cb0d45858b588b97d80bb56dcfdff0b89d  pkgs/vm-fc31/qubes-tunnel.spec.list
+2021-10-09 09:54:01.770033 +0000 build-fedora2: 20026bb9b52ee1c80b4c267845c3444acb6be471625d3030a15b0e2af82e6a5f9f6580964e4071c2011d89b088b00d4e2561fa94ce5737d6b79758db09828024  pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.781012 +0000 build-fedora2: e9fc6c43bcc9539195865ef08d6716533fe0506931c31e2988d17eedd5c793325d16b52db1270ec6675c18f85a4baccc947e64934677a4e565744b70f6c6d2d5  pkgs/vm-fc32/qubes-tunnel-1.4.2-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.830827 +0000 build-fedora2: 18b494d0e2fcca4c0dbe9beafad5e6b820aab05b0357ed07ab22cbd44b10f5a51adee6dfa8748082e7e25507e93774ba98a38a3f9b3a3bfe660c8f8953249961  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.src.rpm
+2021-10-09 09:54:01.830874 +0000 build-fedora2: fd1a0e8ba36b073cffcb25c7ee5f63830ada69fc0341d8e17cca742f370828bf80a412409150a762be5bead6c5a8dd6cb39d54f380764cf8efbb57e3e8fd811c  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.buildinfo
+2021-10-09 09:54:01.830890 +0000 build-fedora2: 5f6790dd9a9c8804305be21d8ffbf4cfad39dd09ef7a925e5b2facbdf9f23221e7dc58c4c64868068675e697f33cbeca680aeac3dbb5d12f992287e76f94bad4  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.rpm
+2021-10-09 09:54:01.830905 +0000 build-fedora2: f9d9fa08cffa7ba5bb2b0cc92c678a559b19bece955d83ea837a3add6fa77014d4f48d426d402902f065871126ae0f5514bbca62f99bd643ebceeed099eac213  pkgs/vm-fc32/qubes-tunnel.spec.list
+2021-10-09 09:54:01.870339 +0000 build-fedora2: 71eb8adedd1ac8b48daef7e5593b2014150b04af44f3bc28afde0c2a074df21ec8447479cc8d3c3ac078934931ba0424e38e58403f4258a5ccd2dbd046dd2130  pkgs/vm-fc33/qubes-tunnel-1.4.1-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.870661 +0000 build-fedora2: f9c24cc07660d5e12f3cc1bbbc9b06e748ef8e36ee7a93f35c97d3f4715b217300e55671bb8a4594c714a0f5a99b02d11e91c82e582548aa297d4e9435bf618e  pkgs/vm-fc33/qubes-tunnel-1.4.2-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.888161 +0000 build-fedora2: d13be06787450c6dd17aa60c5c8ef5883d73ddf63e2ec90c0992a4c6838939fec7a918f5029c134c857b211c83a87f6c73ed704209c5cf13babf647fe9c638e1  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.src.rpm
+2021-10-09 09:54:01.889153 +0000 build-fedora2: f6fd94be709aea597af49c886e1b892ace8e40adcc4f80d6a7a1c546a88af3f9f5e77479c96a84c3939d6b25a3d69e270282d025dae103a2eba880b7e1ed5b3a  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:01.917466 +0000 build-fedora2: 64c299bb77c591b52654bac856673140fae731fe1f629b7ab01d6051a4a6ed1dcc9edcd3668d7681230f378e13796f6cb070d140771a545e43175f6cc06c6c1b  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.rpm
+2021-10-09 09:54:01.951074 +0000 build-fedora2: 3f31cdbc62a8def83692d49874cc688f7007b38fe99b4e01e414cd239aceedeb2716bf122d0d6c80f8234d5ede33da7487fce7f37d9e89914c6d6750735882ff  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm
+2021-10-09 09:54:01.990759 +0000 build-fedora2: d12a61d7904d329f2cc568b18d0d14bfedbe3b9c9b7a013f0e890bf40be80081dfcfa4ff1bbf2fb209d3b2ab474a40e69ac665ec92d100cb375fae91284cca27  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:02.061463 +0000 build-fedora2: e2853c0f34c1a17deb6f729ca45f50886d8c178fbfbd243ae181a3048b9e8e3bf101cd047de32678aabed140f167f6a2d7c8ce6e83d9d903f3b5109c7344dce4  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm
+2021-10-09 09:54:02.101311 +0000 build-fedora2: 152d7e83c2fc1678796796ffacf19b0a658858bc47f540bb52d8688dddaf4af04c1e9e755bc8deb67b9125632d24d11cba933629f068ac527701e78fae49b365  pkgs/vm-fc33/qubes-tunnel.spec.list
+2021-10-09 09:54:02.101342 +0000 build-fedora2: 0e55f3f19e536ddc784e3a6b6f6fcc547a1b1f836840052d99742f8af30e64d208680855330f1ddc8b554b1d3610cca4104f0cec5ccdd1e75c66d727529e7fbe  pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm
+2021-10-09 09:54:02.101359 +0000 build-fedora2: b5663728d95a8838f738fc959a60557254a24ed6567fa0e62da6b65d6d0638987190294be90578a299bfdca5fa4b9e002527192c19356305a69b1fdecb86d1e7  pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo
+2021-10-09 09:54:02.101395 +0000 build-fedora2: 7e8e3e02260c5b34c46ee265ff3815cbaaa7e874ec586301cdffc3958939757386b2da3630cb916c83f05c32628961b33c0083d256518ce6e63d0512791bea4f  pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm
+2021-10-09 09:54:02.101409 +0000 build-fedora2: 6fabbbdbd3feab9c0c13061974f6ac2c0debc36462c6cfb9aac68e18776c3e37ef709ec4073b8719ccc0d445a7e556b122b8fba1a4a9e955036ae543d28c5a84  pkgs/vm-fc34/qubes-tunnel.spec.list
+2021-10-09 09:54:02.128330 +0000 build-fedora2: ================================================================================
+2021-10-09 09:54:02.128376 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2021-10-09 09:54:02.128386 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2021-10-09 09:54:02.128395 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2021-10-09 09:54:02.128404 +0000 build-fedora2: ================================================================================
+2021-10-09 09:54:02.128409 +0000 build-fedora2: DISTS_VM:
+2021-10-09 09:54:02.129333 +0000 build-fedora2:      fc33, fc34,
+2021-10-09 09:54:02.129436 +0000 build-fedora2: DISTS_ALL:
+2021-10-09 09:54:02.130745 +0000 build-fedora2:      vm-fc33, vm-fc34,
+2021-10-09 09:54:02.130851 +0000 build-fedora2: DIST_DOM0:
+2021-10-09 09:54:02.132059 +0000 build-fedora2:     
+2021-10-09 09:54:02.132181 +0000 build-fedora2: BUILDER_PLUGINS:
+2021-10-09 09:54:02.133206 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2021-10-09 09:54:02.133388 +0000 build-fedora2: COMPONENTS:
+2021-10-09 09:54:02.134396 +0000 build-fedora2:      tunnel,
+2021-10-09 09:54:02.134511 +0000 build-fedora2: GIT_REPOS:
+2021-10-09 09:54:02.135471 +0000 build-fedora2:      qubes-src/tunnel,
+2021-10-09 09:54:02.135571 +0000 build-fedora2: TEMPLATE:
+2021-10-09 09:54:02.136675 +0000 build-fedora2:     
+2021-10-09 09:54:02.136839 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2021-10-09 09:54:02.137774 +0000 build-fedora2:     
+2021-10-09 09:54:02.137887 +0000 build-fedora2: TEMPLATE_ALIAS:
+2021-10-09 09:54:02.138868 +0000 build-fedora2:     
+2021-10-09 09:54:02.138957 +0000 build-fedora2: TEMPLATE_LABEL:
+2021-10-09 09:54:02.139859 +0000 build-fedora2:     
+2021-10-09 09:54:02.147517 +0000 build-fedora2: > running make
+2021-10-09 09:54:02.153461 +0000 build-fedora2: Makefile:299: target 'sign.vm.fc33.tunnel' does not exist
+2021-10-09 09:54:02.153523 +0000 build-fedora2: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-10-09 09:54:02.153536 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-10-09 09:54:02.153545 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-10-09 09:54:02.153555 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-10-09 09:54:02.153563 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then
+2021-10-09 09:54:02.153576 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-10-09 09:54:02.153583 +0000 build-fedora2: fi
+2021-10-09 09:54:02.153592 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2021-10-09 09:54:02.153601 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-10-09 09:54:02.153608 +0000 build-fedora2: ..DIST=fc33 \
+2021-10-09 09:54:02.153615 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-10-09 09:54:02.153635 +0000 build-fedora2: ..COMPONENT=tunnel \
+2021-10-09 09:54:02.153643 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-10-09 09:54:02.153650 +0000 build-fedora2: ..sign || exit 1; \
+2021-10-09 09:54:02.153658 +0000 build-fedora2: elif [ -d qubes-src/tunnel/rpm ]; then \
+2021-10-09 09:54:02.153667 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-10-09 09:54:02.153676 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2021-10-09 09:54:02.153687 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-10-09 09:54:02.153695 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-10-09 09:54:02.153702 +0000 build-fedora2: ..fi ;\
+2021-10-09 09:54:02.153708 +0000 build-fedora2: .done ; \
+2021-10-09 09:54:02.153716 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-10-09 09:54:02.153723 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-10-09 09:54:02.153731 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-10-09 09:54:02.153739 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-10-09 09:54:02.153747 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-10-09 09:54:02.153753 +0000 build-fedora2: ..fi; \
+2021-10-09 09:54:02.153764 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-10-09 09:54:02.153769 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:02.153775 +0000 build-fedora2: fi
+2021-10-09 09:54:02.162869 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:02.162885 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:02.163083 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:02.163557 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:02.163622 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:02.163806 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:02.164322 +0000 build-fedora2: + tmp_spec=/tmp/tmp.qtAbSk.spec
+2021-10-09 09:54:02.164482 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:02.164945 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.qtAbSk.spec
+2021-10-09 09:54:02.165705 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:02.165712 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:02.165722 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.166603 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:02.166610 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:02.166621 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.507325 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:02.507367 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:02.507375 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:02.507384 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.507930 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.743507 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.744068 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.744711 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:02.915563 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:03.084959 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:03.085028 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.qtAbSk.spec
+2021-10-09 09:54:03.085055 +0000 build-fedora2: + rm -f /tmp/tmp.qtAbSk.spec
+2021-10-09 09:54:03.085067 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:198: target 'sign-prep' does not exist
+2021-10-09 09:54:03.085075 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-10-09 09:54:03.085083 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2021-10-09 09:54:03.085088 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-10-09 09:54:03.085098 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-10-09 09:54:03.085107 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2021-10-09 09:54:03.085113 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-10-09 09:54:03.085118 +0000 build-fedora2: fi
+2021-10-09 09:54:03.085124 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:03.085129 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:03.085136 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:03.085143 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:03.085154 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:03.085160 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:03.085166 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Zwiv4L.spec
+2021-10-09 09:54:03.085175 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:03.085187 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.Zwiv4L.spec
+2021-10-09 09:54:03.085193 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:03.085199 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:03.085209 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:03.450219 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:03.450262 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:03.450273 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:03.926189 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:03.926232 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:03.926240 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:03.926249 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:03.926963 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:04.088454 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:04.089117 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:04.089690 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:04.239241 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:04.239342 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:04.239943 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Zwiv4L.spec
+2021-10-09 09:54:04.303978 +0000 build-fedora2: + rm -f /tmp/tmp.Zwiv4L.spec
+2021-10-09 09:54:04.883006 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-10-09 09:54:05.129836 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:214: update target 'sign' due to: sign-prep
+2021-10-09 09:54:05.129890 +0000 build-fedora2: cd qubes-src/tunnel && for pkg in pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo ; do \
+2021-10-09 09:54:05.129919 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-10-09 09:54:05.129936 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-10-09 09:54:05.129943 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-10-09 09:54:05.129952 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-10-09 09:54:05.129965 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2021-10-09 09:54:05.129970 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:05.129975 +0000 build-fedora2: done
+2021-10-09 09:54:05.136923 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:05.136939 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:05.137224 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:05.137641 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:05.137708 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:05.137871 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:05.138354 +0000 build-fedora2: + tmp_spec=/tmp/tmp.9iBVdr.spec
+2021-10-09 09:54:05.138521 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:05.139102 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.9iBVdr.spec
+2021-10-09 09:54:05.139788 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:05.139795 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:05.139805 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.140777 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:05.140792 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:05.140802 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.277425 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:05.277468 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:05.277475 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:05.277484 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.278602 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.462492 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.463197 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.463768 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:05.725653 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:05.725707 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:05.726282 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.9iBVdr.spec
+2021-10-09 09:54:05.781727 +0000 build-fedora2: + rm -f /tmp/tmp.9iBVdr.spec
+2021-10-09 09:54:05.801656 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-10-09 09:54:06.071684 +0000 build-fedora2: pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm:
+2021-10-09 09:54:06.082957 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-10-09 09:54:06.201478 +0000 build-fedora2: pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm:
+2021-10-09 09:54:06.458995 +0000 build-fedora2: Makefile:299: target 'sign.vm.fc34.tunnel' does not exist
+2021-10-09 09:54:06.459082 +0000 build-fedora2: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2021-10-09 09:54:06.459093 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2021-10-09 09:54:06.459100 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2021-10-09 09:54:06.459108 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2021-10-09 09:54:06.459115 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then
+2021-10-09 09:54:06.459125 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc34 template-name)
+2021-10-09 09:54:06.459131 +0000 build-fedora2: fi
+2021-10-09 09:54:06.459138 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2021-10-09 09:54:06.459146 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2021-10-09 09:54:06.459151 +0000 build-fedora2: ..DIST=fc34 \
+2021-10-09 09:54:06.459157 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2021-10-09 09:54:06.459162 +0000 build-fedora2: ..COMPONENT=tunnel \
+2021-10-09 09:54:06.459168 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2021-10-09 09:54:06.459173 +0000 build-fedora2: ..sign || exit 1; \
+2021-10-09 09:54:06.459180 +0000 build-fedora2: elif [ -d qubes-src/tunnel/rpm ]; then \
+2021-10-09 09:54:06.459186 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2021-10-09 09:54:06.459194 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2021-10-09 09:54:06.459202 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2021-10-09 09:54:06.459209 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2021-10-09 09:54:06.459214 +0000 build-fedora2: ..fi ;\
+2021-10-09 09:54:06.459219 +0000 build-fedora2: .done ; \
+2021-10-09 09:54:06.459225 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2021-10-09 09:54:06.459230 +0000 build-fedora2: ..echo "--> Signing..."; \
+2021-10-09 09:54:06.459237 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2021-10-09 09:54:06.459243 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2021-10-09 09:54:06.459250 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2021-10-09 09:54:06.459254 +0000 build-fedora2: ..fi; \
+2021-10-09 09:54:06.459262 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2021-10-09 09:54:06.459267 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:06.459272 +0000 build-fedora2: fi
+2021-10-09 09:54:06.468421 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:06.468482 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.468505 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:06.469002 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:06.469070 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:06.469245 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:06.469735 +0000 build-fedora2: + tmp_spec=/tmp/tmp.sHgXqC.spec
+2021-10-09 09:54:06.469895 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:06.470363 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.sHgXqC.spec
+2021-10-09 09:54:06.471124 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.471132 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:06.471142 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.472153 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:06.472159 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:06.472169 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.487204 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:06.487248 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:06.487261 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:06.487274 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.487988 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.562665 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.563323 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.563880 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.564686 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:06.564847 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:06.565384 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.sHgXqC.spec
+2021-10-09 09:54:06.621926 +0000 build-fedora2: + rm -f /tmp/tmp.sHgXqC.spec
+2021-10-09 09:54:06.624347 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:198: target 'sign-prep' does not exist
+2021-10-09 09:54:06.624365 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2021-10-09 09:54:06.624374 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2021-10-09 09:54:06.624380 +0000 build-fedora2: .tmpname=$(mktemp); \
+2021-10-09 09:54:06.624391 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2021-10-09 09:54:06.624400 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2021-10-09 09:54:06.624406 +0000 build-fedora2: .rm -f "$tmpname"; \
+2021-10-09 09:54:06.624410 +0000 build-fedora2: fi
+2021-10-09 09:54:06.631635 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:06.631651 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.631844 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:06.632312 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:06.632386 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:06.632569 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:06.633056 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Rz8WTI.spec
+2021-10-09 09:54:06.633234 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:06.633691 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.Rz8WTI.spec
+2021-10-09 09:54:06.634455 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.634461 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:06.634472 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.635393 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:06.635400 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:06.635424 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.637265 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:06.637280 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:06.637290 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:06.637298 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.637968 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.783491 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.784226 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.784790 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.785546 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:06.785719 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:06.786258 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Rz8WTI.spec
+2021-10-09 09:54:06.843452 +0000 build-fedora2: + rm -f /tmp/tmp.Rz8WTI.spec
+2021-10-09 09:54:06.970757 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-10-09 09:54:06.981146 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:214: update target 'sign' due to: sign-prep
+2021-10-09 09:54:06.981188 +0000 build-fedora2: cd qubes-src/tunnel && for pkg in pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo ; do \
+2021-10-09 09:54:06.981199 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2021-10-09 09:54:06.981215 +0000 build-fedora2: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2021-10-09 09:54:06.981222 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2021-10-09 09:54:06.981231 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2021-10-09 09:54:06.981244 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2021-10-09 09:54:06.981249 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:06.981253 +0000 build-fedora2: done
+2021-10-09 09:54:06.988757 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:06.988773 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.988939 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:06.989412 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:06.989468 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:06.989640 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:06.990166 +0000 build-fedora2: + tmp_spec=/tmp/tmp.X5ORp3.spec
+2021-10-09 09:54:06.990365 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:06.990802 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.X5ORp3.spec
+2021-10-09 09:54:06.991632 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:06.991647 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:06.991658 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:06.992604 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:06.992619 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:06.992644 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.047597 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:07.047642 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:07.047650 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:07.047659 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.048415 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.233528 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.234285 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.234892 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.238508 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:07.238661 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:07.239216 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.X5ORp3.spec
+2021-10-09 09:54:07.295984 +0000 build-fedora2: + rm -f /tmp/tmp.X5ORp3.spec
+2021-10-09 09:54:07.312866 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-10-09 09:54:07.433788 +0000 build-fedora2: pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm:
+2021-10-09 09:54:07.445208 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2021-10-09 09:54:07.563165 +0000 build-fedora2: pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm:
+2021-10-09 09:54:07.808037 +0000 build-fedora2: Makefile:863: target 'internal-update-repo-current-testing.vm.fc33.tunnel' does not exist
+2021-10-09 09:54:07.808080 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2021-10-09 09:54:07.808103 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then \
+2021-10-09 09:54:07.808112 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-10-09 09:54:07.808119 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-10-09 09:54:07.808125 +0000 build-fedora2: fi; \
+2021-10-09 09:54:07.808131 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-10-09 09:54:07.808138 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-10-09 09:54:07.808142 +0000 build-fedora2: else \
+2021-10-09 09:54:07.808149 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-10-09 09:54:07.808153 +0000 build-fedora2: fi; \
+2021-10-09 09:54:07.808160 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2021-10-09 09:54:07.808167 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... "; \
+2021-10-09 09:54:07.808173 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-10-09 09:54:07.808181 +0000 build-fedora2: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2021-10-09 09:54:07.808187 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-10-09 09:54:07.808192 +0000 build-fedora2: ...echo "no version tag"; \
+2021-10-09 09:54:07.808198 +0000 build-fedora2: ...exit 0; \
+2021-10-09 09:54:07.808203 +0000 build-fedora2: ..fi; \
+2021-10-09 09:54:07.808207 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:07.808214 +0000 build-fedora2: .if [ "tunnel" = linux-template-builder ]; then
+2021-10-09 09:54:07.808223 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc33 template-name)
+2021-10-09 09:54:07.808229 +0000 build-fedora2: fi
+2021-10-09 09:54:07.808245 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 get-var GET_VAR=PACKAGE_LIST); \
+2021-10-09 09:54:07.808268 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-10-09 09:54:07.808274 +0000 build-fedora2: ..echo "no packages."; \
+2021-10-09 09:54:07.808279 +0000 build-fedora2: ..exit 0; \
+2021-10-09 09:54:07.808284 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:07.808292 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc33 PACKAGE_SET=vm \
+2021-10-09 09:54:07.808298 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/tunnel` \
+2021-10-09 09:54:07.808304 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-10-09 09:54:07.808310 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-10-09 09:54:07.808319 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 \
+2021-10-09 09:54:07.808329 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc33-`basename qubes-src/tunnel` \
+2021-10-09 09:54:07.808340 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-45-09 \
+2021-10-09 09:54:07.808346 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-10-09 09:54:07.808355 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-10-09 09:54:07.808361 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
+2021-10-09 09:54:07.808370 +0000 build-fedora2: .DIST=fc33 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc33 \
+2021-10-09 09:54:07.808378 +0000 build-fedora2: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2021-10-09 09:54:07.808382 +0000 build-fedora2: else \
+2021-10-09 09:54:07.808389 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2021-10-09 09:54:07.808394 +0000 build-fedora2: fi; \
+2021-10-09 09:54:07.808398 +0000 build-fedora2: echo
+2021-10-09 09:54:07.818590 +0000 build-fedora2: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:07.818607 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:07.818778 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:07.819324 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:07.819417 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:07.819666 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:07.820173 +0000 build-fedora2: + tmp_spec=/tmp/tmp.QTSFS4.spec
+2021-10-09 09:54:07.820341 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:07.820786 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.QTSFS4.spec
+2021-10-09 09:54:07.821540 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:07.821547 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:07.821557 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:07.822612 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:07.822627 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:07.822637 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.211232 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:08.211275 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:08.211282 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:08.211291 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.212143 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.293245 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.293845 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.294527 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.420974 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:08.421114 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:08.421730 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.QTSFS4.spec
+2021-10-09 09:54:08.478451 +0000 build-fedora2: + rm -f /tmp/tmp.QTSFS4.spec
+2021-10-09 09:54:08.484371 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:08.484389 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:08.484562 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:08.485028 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:08.485105 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:08.485276 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:08.485733 +0000 build-fedora2: + tmp_spec=/tmp/tmp.6ctYHG.spec
+2021-10-09 09:54:08.485916 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:08.486389 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.6ctYHG.spec
+2021-10-09 09:54:08.487137 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:08.487144 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:08.487154 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.488059 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:08.488065 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:08.488074 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.537150 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:08.537198 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:08.537211 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:08.537220 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.537945 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.580230 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.581077 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.581631 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.602671 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:08.602822 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:08.603389 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.6ctYHG.spec
+2021-10-09 09:54:08.661317 +0000 build-fedora2: + rm -f /tmp/tmp.6ctYHG.spec
+2021-10-09 09:54:08.678292 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:08.678332 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:08.678419 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:08.678887 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:08.678951 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:08.679145 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:08.679632 +0000 build-fedora2: + tmp_spec=/tmp/tmp.UO0b3G.spec
+2021-10-09 09:54:08.679785 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:08.680267 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.UO0b3G.spec
+2021-10-09 09:54:08.681060 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:08.681067 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:08.681077 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.682053 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:08.682069 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:08.682080 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.833224 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:08.833270 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:08.833280 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:08.833291 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:08.834076 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.090128 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.090856 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.091427 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.228721 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:09.228803 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:09.229510 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.UO0b3G.spec
+2021-10-09 09:54:09.285813 +0000 build-fedora2: + rm -f /tmp/tmp.UO0b3G.spec
+2021-10-09 09:54:09.298942 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:173: target 'update-repo-do' does not exist
+2021-10-09 09:54:09.298967 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc33/rpm
+2021-10-09 09:54:09.305843 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:09.305858 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:09.305986 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:09.306444 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:09.306490 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:09.306667 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:09.307158 +0000 build-fedora2: + tmp_spec=/tmp/tmp.MedLkV.spec
+2021-10-09 09:54:09.307325 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:09.307804 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.MedLkV.spec
+2021-10-09 09:54:09.308586 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:09.308602 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:09.308618 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.309504 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:09.309518 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:09.309528 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.329648 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:09.329688 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:09.329714 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:09.329727 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.330681 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.465122 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.465824 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.466394 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.644260 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:09.644407 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:09.644918 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.MedLkV.spec
+2021-10-09 09:54:09.705221 +0000 build-fedora2: + rm -f /tmp/tmp.MedLkV.spec
+2021-10-09 09:54:09.712669 +0000 build-fedora2: if [ -n "pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo" ]; then \
+2021-10-09 09:54:09.712701 +0000 build-fedora2: .cd qubes-src/tunnel && ln -f pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc33/rpm/; \
+2021-10-09 09:54:09.712708 +0000 build-fedora2: else \
+2021-10-09 09:54:09.712719 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2021-10-09 09:54:09.712725 +0000 build-fedora2: .exit 1; \
+2021-10-09 09:54:09.712729 +0000 build-fedora2: fi
+2021-10-09 09:54:09.749869 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc33-tunnel
+2021-10-09 09:54:09.845358 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-10-09 09:54:09.845401 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.4-1.fc33" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2021-10-09 09:54:09.845414 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-45-09" \
+2021-10-09 09:54:09.845420 +0000 build-fedora2: .upload \
+2021-10-09 09:54:09.845426 +0000 build-fedora2: ."r4.0" \
+2021-10-09 09:54:09.845432 +0000 build-fedora2: ."qubes-src/tunnel" \
+2021-10-09 09:54:09.845438 +0000 build-fedora2: ."qubes-tunnel-1.4.4-1.fc33" \
+2021-10-09 09:54:09.845443 +0000 build-fedora2: ."fc33" \
+2021-10-09 09:54:09.845448 +0000 build-fedora2: ."vm" \
+2021-10-09 09:54:09.845453 +0000 build-fedora2: ."current-testing" \
+2021-10-09 09:54:09.845462 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-tunnel-vm-fc33-current-testing" \
+2021-10-09 09:54:09.845470 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-tunnel-vm-fc33-current"
+2021-10-09 09:54:09.855713 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:09.855743 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:09.855848 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:09.856363 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:09.856403 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:09.856568 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:09.857076 +0000 build-fedora2: + tmp_spec=/tmp/tmp.Y74WcT.spec
+2021-10-09 09:54:09.857329 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:09.857701 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.Y74WcT.spec
+2021-10-09 09:54:09.858480 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:09.858497 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:09.858508 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.859428 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:09.859489 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:09.859501 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.861309 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:09.861324 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:09.861335 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:09.861370 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:09.862099 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:10.049512 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:10.050156 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:10.050645 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:10.052069 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:10.052336 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:10.052964 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Y74WcT.spec
+2021-10-09 09:54:10.109990 +0000 build-fedora2: + rm -f /tmp/tmp.Y74WcT.spec
+2021-10-09 09:54:17.957090 +0000 build-fedora2: WARNING: message template /home/user/builder-r4.0/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2021-10-09 09:54:17.967006 +0000 build-fedora2: 
+2021-10-09 09:54:17.967126 +0000 build-fedora2: Makefile:834: update target 'internal-update-repo-current-testing.vm.fc33' due to: internal-update-repo-current-testing.vm.fc33.tunnel
+2021-10-09 09:54:17.967135 +0000 build-fedora2: true
+2021-10-09 09:54:17.968145 +0000 build-fedora2: Makefile:863: target 'internal-update-repo-current-testing.vm.fc34.tunnel' does not exist
+2021-10-09 09:54:17.968154 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2021-10-09 09:54:17.968162 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then \
+2021-10-09 09:54:17.968170 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2021-10-09 09:54:17.968177 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2021-10-09 09:54:17.968182 +0000 build-fedora2: fi; \
+2021-10-09 09:54:17.968189 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2021-10-09 09:54:17.968195 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2021-10-09 09:54:17.968200 +0000 build-fedora2: else \
+2021-10-09 09:54:17.968207 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-10-09 09:54:17.968211 +0000 build-fedora2: fi; \
+2021-10-09 09:54:17.968218 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2021-10-09 09:54:17.968225 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... "; \
+2021-10-09 09:54:17.968231 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2021-10-09 09:54:17.968239 +0000 build-fedora2: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2021-10-09 09:54:17.968245 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2021-10-09 09:54:17.968251 +0000 build-fedora2: ...echo "no version tag"; \
+2021-10-09 09:54:17.968256 +0000 build-fedora2: ...exit 0; \
+2021-10-09 09:54:17.968276 +0000 build-fedora2: ..fi; \
+2021-10-09 09:54:17.968281 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:17.968288 +0000 build-fedora2: .if [ "tunnel" = linux-template-builder ]; then
+2021-10-09 09:54:17.968298 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc34 template-name)
+2021-10-09 09:54:17.968304 +0000 build-fedora2: fi
+2021-10-09 09:54:17.968321 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc34 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc34 get-var GET_VAR=PACKAGE_LIST); \
+2021-10-09 09:54:17.968328 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2021-10-09 09:54:17.968334 +0000 build-fedora2: ..echo "no packages."; \
+2021-10-09 09:54:17.968339 +0000 build-fedora2: ..exit 0; \
+2021-10-09 09:54:17.968344 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:17.968352 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc34 PACKAGE_SET=vm \
+2021-10-09 09:54:17.968358 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/tunnel` \
+2021-10-09 09:54:17.968365 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2021-10-09 09:54:17.968373 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2021-10-09 09:54:17.968382 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc34 \
+2021-10-09 09:54:17.968395 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc34-`basename qubes-src/tunnel` \
+2021-10-09 09:54:17.968406 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-51-06 \
+2021-10-09 09:54:17.968412 +0000 build-fedora2: ..update-repo || exit 1; \
+2021-10-09 09:54:17.968421 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2021-10-09 09:54:17.968428 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
+2021-10-09 09:54:17.968437 +0000 build-fedora2: .DIST=fc34 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/fc34 \
+2021-10-09 09:54:17.968445 +0000 build-fedora2: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2021-10-09 09:54:17.968450 +0000 build-fedora2: else \
+2021-10-09 09:54:17.968457 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2021-10-09 09:54:17.968461 +0000 build-fedora2: fi; \
+2021-10-09 09:54:17.968466 +0000 build-fedora2: echo
+2021-10-09 09:54:17.978779 +0000 build-fedora2: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:17.978798 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:17.979006 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:17.979467 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:17.979537 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:17.979708 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:17.980260 +0000 build-fedora2: + tmp_spec=/tmp/tmp.b5v37P.spec
+2021-10-09 09:54:17.980402 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:17.980868 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.b5v37P.spec
+2021-10-09 09:54:17.981961 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:17.981968 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:17.981978 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:17.982949 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:17.982964 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:17.982974 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.093234 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:18.093276 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:18.093284 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:18.093292 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.094054 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.667239 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.668235 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.668758 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.669661 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:18.669779 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:18.670294 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.b5v37P.spec
+2021-10-09 09:54:18.727950 +0000 build-fedora2: + rm -f /tmp/tmp.b5v37P.spec
+2021-10-09 09:54:18.734041 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:18.734057 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:18.734247 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:18.734708 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:18.734853 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:18.734969 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:18.735459 +0000 build-fedora2: + tmp_spec=/tmp/tmp.LqpCXi.spec
+2021-10-09 09:54:18.735599 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:18.736097 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.LqpCXi.spec
+2021-10-09 09:54:18.736841 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:18.736848 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:18.736858 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.737777 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:18.737783 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:18.737793 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.760985 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:18.761027 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:18.761048 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:18.761062 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.761793 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.873581 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.874282 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.874867 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.907910 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:18.908129 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:18.908551 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.LqpCXi.spec
+2021-10-09 09:54:18.963349 +0000 build-fedora2: + rm -f /tmp/tmp.LqpCXi.spec
+2021-10-09 09:54:18.980040 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:18.980086 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:18.980348 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:18.980883 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:18.980924 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:18.981082 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:18.981539 +0000 build-fedora2: + tmp_spec=/tmp/tmp.sVzatW.spec
+2021-10-09 09:54:18.981723 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:18.982214 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.sVzatW.spec
+2021-10-09 09:54:18.983128 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:18.983135 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:18.983145 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:18.984080 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:18.984095 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:18.984105 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.030447 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:19.030483 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:19.030491 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:19.030500 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.031421 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.067299 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.068045 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.068876 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.102792 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:19.102977 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:19.103510 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.sVzatW.spec
+2021-10-09 09:54:19.159675 +0000 build-fedora2: + rm -f /tmp/tmp.sVzatW.spec
+2021-10-09 09:54:19.171592 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:173: target 'update-repo-do' does not exist
+2021-10-09 09:54:19.171618 +0000 build-fedora2: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc34/rpm
+2021-10-09 09:54:19.178606 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:19.178622 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:19.178806 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:19.179278 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:19.179346 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:19.179532 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:19.180137 +0000 build-fedora2: + tmp_spec=/tmp/tmp.VMlht0.spec
+2021-10-09 09:54:19.180192 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:19.180684 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.VMlht0.spec
+2021-10-09 09:54:19.181418 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:19.181426 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:19.181436 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.182325 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:19.182341 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:19.182350 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.275165 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:19.275227 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:19.275234 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:19.275250 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.276186 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.523242 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.523882 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.524558 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.637812 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:19.637863 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:19.638332 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.VMlht0.spec
+2021-10-09 09:54:19.694725 +0000 build-fedora2: + rm -f /tmp/tmp.VMlht0.spec
+2021-10-09 09:54:19.702504 +0000 build-fedora2: if [ -n "pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo" ]; then \
+2021-10-09 09:54:19.702542 +0000 build-fedora2: .cd qubes-src/tunnel && ln -f pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/fc34/rpm/; \
+2021-10-09 09:54:19.702550 +0000 build-fedora2: else \
+2021-10-09 09:54:19.702561 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2021-10-09 09:54:19.702567 +0000 build-fedora2: .exit 1; \
+2021-10-09 09:54:19.702571 +0000 build-fedora2: fi
+2021-10-09 09:54:19.703771 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.src.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-fc34-tunnel
+2021-10-09 09:54:19.710498 +0000 build-fedora2: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2021-10-09 09:54:19.710518 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.4-1.fc34" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2021-10-09 09:54:19.710530 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2021-10-09_09-51-06" \
+2021-10-09 09:54:19.710535 +0000 build-fedora2: .upload \
+2021-10-09 09:54:19.710540 +0000 build-fedora2: ."r4.0" \
+2021-10-09 09:54:19.710546 +0000 build-fedora2: ."qubes-src/tunnel" \
+2021-10-09 09:54:19.710552 +0000 build-fedora2: ."qubes-tunnel-1.4.4-1.fc34" \
+2021-10-09 09:54:19.710557 +0000 build-fedora2: ."fc34" \
+2021-10-09 09:54:19.710562 +0000 build-fedora2: ."vm" \
+2021-10-09 09:54:19.710568 +0000 build-fedora2: ."current-testing" \
+2021-10-09 09:54:19.710576 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-tunnel-vm-fc34-current-testing" \
+2021-10-09 09:54:19.710584 +0000 build-fedora2: ."/home/user/github-notify-state/r4.0-tunnel-vm-fc34-current"
+2021-10-09 09:54:19.719649 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2021-10-09 09:54:19.719664 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:19.719791 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2021-10-09 09:54:19.720268 +0000 build-fedora2: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2021-10-09 09:54:19.720317 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2021-10-09 09:54:19.720465 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2021-10-09 09:54:19.720903 +0000 build-fedora2: + tmp_spec=/tmp/tmp.D0nPwl.spec
+2021-10-09 09:54:19.721048 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:19.721490 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.D0nPwl.spec
+2021-10-09 09:54:19.722197 +0000 build-fedora2: + '[' 2 -lt 2 ']'
+2021-10-09 09:54:19.722204 +0000 build-fedora2: + '[' -z qubes-src/tunnel ']'
+2021-10-09 09:54:19.722214 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.722984 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:19.722990 +0000 build-fedora2: + '[' x = x ']'
+2021-10-09 09:54:19.723000 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.4|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.772628 +0000 build-fedora2: + vnum=1
+2021-10-09 09:54:19.772645 +0000 build-fedora2: + read -r ver
+2021-10-09 09:54:19.772652 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2021-10-09 09:54:19.772661 +0000 build-fedora2: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:19.773444 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:20.094482 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:20.095150 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:20.095745 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2021-10-09 09:54:20.097820 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2021-10-09 09:54:20.097917 +0000 build-fedora2: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2021-10-09 09:54:20.098623 +0000 build-fedora2: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.D0nPwl.spec
+2021-10-09 09:54:20.155039 +0000 build-fedora2: + rm -f /tmp/tmp.D0nPwl.spec
+2021-10-09 09:54:25.104282 +0000 build-fedora2: WARNING: /home/user/github-notify-state/r4.0-tunnel-vm-fc34-current-testing does not exist, initializing with the current state
+2021-10-09 09:54:25.113900 +0000 build-fedora2: 
+2021-10-09 09:54:25.113956 +0000 build-fedora2: Makefile:834: update target 'internal-update-repo-current-testing.vm.fc34' due to: internal-update-repo-current-testing.vm.fc34.tunnel
+2021-10-09 09:54:25.113964 +0000 build-fedora2: true
+2021-10-09 09:54:25.114866 +0000 build-fedora2: Makefile:923: target 'post-update-repo-current-testing' does not exist
+2021-10-09 09:54:25.114882 +0000 build-fedora2: for dist in  fc33 fc34; do \
+2021-10-09 09:54:25.114891 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist//-/_}_BASEDIR"; \
+2021-10-09 09:54:25.114898 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2021-10-09 09:54:25.114905 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2021-10-09 09:54:25.114909 +0000 build-fedora2: .else \
+2021-10-09 09:54:25.114916 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.0"; \
+2021-10-09 09:54:25.114921 +0000 build-fedora2: .fi; \
+2021-10-09 09:54:25.114928 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2021-10-09 09:54:25.114933 +0000 build-fedora2: done; \
+2021-10-09 09:54:25.114938 +0000 build-fedora2: pkgset_dist= ; \
+2021-10-09 09:54:25.114943 +0000 build-fedora2: for dist in ; do \
+2021-10-09 09:54:25.114950 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2021-10-09 09:54:25.114954 +0000 build-fedora2: done; \
+2021-10-09 09:54:25.114974 +0000 build-fedora2: for dist in fc33 fc34; do \
+2021-10-09 09:54:25.114981 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2021-10-09 09:54:25.115000 +0000 build-fedora2: done; \
+2021-10-09 09:54:25.115007 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2021-10-09 09:54:25.115013 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2021-10-09 09:54:25.115021 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2021-10-09 09:54:25.115029 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2021-10-09 09:54:25.115034 +0000 build-fedora2: done
+2021-10-09 09:54:25.158900 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2021-10-09 09:54:25.230522 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc33...
+2021-10-09 09:54:25.270980 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-10-09 09:54:39.953680 +0000 build-fedora2: --> Processing repo: r4.0/current-testing/vm/fc34...
+2021-10-09 09:54:39.967377 +0000 build-fedora2: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2021-10-09 09:54:55.983409 +0000 build-fedora2: Done.
+2021-10-09 09:54:55.998087 +0000 build-fedora2: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2021-10-09 09:54:55.998850 +0000 build-fedora2: Syncing r4.0...
+2021-10-09 09:54:56.612705 +0000 build-fedora2: sending incremental file list
+2021-10-09 09:54:56.648691 +0000 build-fedora2: .d..t...... fc33/
+2021-10-09 09:54:56.648734 +0000 build-fedora2: .d..t...... fc33/repodata/
+2021-10-09 09:54:56.648746 +0000 build-fedora2: <f..t...... fc33/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2021-10-09 09:54:56.648764 +0000 build-fedora2: .            412 100%    0.00kB/s    0:00:00  .            412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=47/53)
+2021-10-09 09:54:56.648776 +0000 build-fedora2: <f+++++++++ fc33/repodata/492c6772bb0dad4815c5ab98ac5061f35a75abec5c1dfae7b8ad4cb339b909c3-primary.sqlite.bz2
+2021-10-09 09:54:56.648788 +0000 build-fedora2: .         13,662 100%   13.03MB/s    0:00:00  .         13,662 100%   13.03MB/s    0:00:00 (xfr#2, to-chk=46/53)
+2021-10-09 09:54:56.648800 +0000 build-fedora2: <f+++++++++ fc33/repodata/58d9b52d187b59137251f18566ecc7911ab916fe1f52cb604ccbce470c1c0d7e-other.xml.gz
+2021-10-09 09:54:56.648811 +0000 build-fedora2: .          3,249 100%    3.10MB/s    0:00:00  .          3,249 100%    3.10MB/s    0:00:00 (xfr#3, to-chk=45/53)
+2021-10-09 09:54:56.648821 +0000 build-fedora2: <f+++++++++ fc33/repodata/943a7197da078622f8ee96d9f55380911c712b1bfc0f9996f4be53b6ecb5a0f0-other.sqlite.bz2
+2021-10-09 09:54:56.648833 +0000 build-fedora2: .          6,465 100%    6.17MB/s    0:00:00  .          6,465 100%    6.17MB/s    0:00:00 (xfr#4, to-chk=44/53)
+2021-10-09 09:54:56.648859 +0000 build-fedora2: <f+++++++++ fc33/repodata/99b2f89740c69154a3bc6f4aa7f0887345bc1d78d884039aed2ebd9137e61d2b-primary.xml.gz
+2021-10-09 09:54:56.648872 +0000 build-fedora2: .          6,018 100%    5.74MB/s    0:00:00  .          6,018 100%    5.74MB/s    0:00:00 (xfr#5, to-chk=43/53)
+2021-10-09 09:54:56.648883 +0000 build-fedora2: <f+++++++++ fc33/repodata/a7529cd0efeb91b77a2cb5cb821b058228a8b963b2b93a61c375c6cac7ebf935-filelists.xml.gz
+2021-10-09 09:54:56.649018 +0000 build-fedora2: .         32,752 100%   31.23MB/s    0:00:00  .         32,752 100%   31.23MB/s    0:00:00 (xfr#6, to-chk=42/53)
+2021-10-09 09:54:56.649030 +0000 build-fedora2: <f+++++++++ fc33/repodata/ae2a55078f14355a52c92f6a14a4690a14a6632df82fafc251ad416dcd654d6c-filelists.sqlite.bz2
+2021-10-09 09:54:56.649261 +0000 build-fedora2: .         32,708 100%   31.19MB/s    0:00:00  .         32,708 100%   31.19MB/s    0:00:00 (xfr#7, to-chk=41/53)
+2021-10-09 09:54:56.649305 +0000 build-fedora2: <f..t...... fc33/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2021-10-09 09:54:56.649344 +0000 build-fedora2: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=40/53)
+2021-10-09 09:54:56.649352 +0000 build-fedora2: <f..t...... fc33/repodata/repomd.xml
+2021-10-09 09:54:56.649365 +0000 build-fedora2: .          3,839 100%    3.66MB/s    0:00:00  .          3,839 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=39/53)
+2021-10-09 09:54:56.649373 +0000 build-fedora2: <f..t...... fc33/repodata/repomd.xml.asc
+2021-10-09 09:54:56.649385 +0000 build-fedora2: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=38/53)
+2021-10-09 09:54:56.649392 +0000 build-fedora2: .d..t...... fc33/rpm/
+2021-10-09 09:54:56.649401 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-tunnel-1.4.4-1.fc33.src.rpm
+2021-10-09 09:54:56.649429 +0000 build-fedora2: .         32,768  96%   31.25MB/s    0:00:00  .         33,912 100%   32.34MB/s    0:00:00 (xfr#11, to-chk=2/53)
+2021-10-09 09:54:56.649437 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo
+2021-10-09 09:54:56.649467 +0000 build-fedora2: .          5,973 100%    5.70MB/s    0:00:00  .          5,973 100%    5.70MB/s    0:00:00 (xfr#12, to-chk=1/53)
+2021-10-09 09:54:56.649475 +0000 build-fedora2: <f+++++++++ fc33/rpm/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm
+2021-10-09 09:54:56.649488 +0000 build-fedora2: .         12,311 100%   11.74MB/s    0:00:00  .         12,311 100%   11.74MB/s    0:00:00 (xfr#13, to-chk=0/53)
+2021-10-09 09:54:56.912138 +0000 build-fedora2: sending incremental file list
+2021-10-09 09:54:56.946505 +0000 build-fedora2: .d..t...... fc34/
+2021-10-09 09:54:56.946548 +0000 build-fedora2: .d..t...... fc34/repodata/
+2021-10-09 09:54:56.946561 +0000 build-fedora2: <f..t...... fc34/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2021-10-09 09:54:56.946583 +0000 build-fedora2: .            412 100%    0.00kB/s    0:00:00  .            412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=29/35)
+2021-10-09 09:54:56.946594 +0000 build-fedora2: <f+++++++++ fc34/repodata/1229539fd7daf11eb1e8c8efb735f25a96627ba2da2d2362d4fa5691a4878da2-primary.xml.gz
+2021-10-09 09:54:56.946605 +0000 build-fedora2: .          4,648 100%    4.43MB/s    0:00:00  .          4,648 100%    4.43MB/s    0:00:00 (xfr#2, to-chk=28/35)
+2021-10-09 09:54:56.946616 +0000 build-fedora2: <f+++++++++ fc34/repodata/2120f4a310d92c387e8599a021b1dcbec3829d6349193ed3dcf356eaae1e9b63-filelists.sqlite.bz2
+2021-10-09 09:54:56.946662 +0000 build-fedora2: .         31,216 100%   29.77MB/s    0:00:00  .         31,216 100%   29.77MB/s    0:00:00 (xfr#3, to-chk=27/35)
+2021-10-09 09:54:56.946673 +0000 build-fedora2: <f+++++++++ fc34/repodata/43727fed384030a575b6507e2c22f93fc1268bdd159947031e40e0d87f71b372-filelists.xml.gz
+2021-10-09 09:54:56.946782 +0000 build-fedora2: .         31,730 100%   30.26MB/s    0:00:00  .         31,730 100%   30.26MB/s    0:00:00 (xfr#4, to-chk=26/35)
+2021-10-09 09:54:56.946793 +0000 build-fedora2: <f+++++++++ fc34/repodata/73d747b26661357542ebe5d337ebea015ef92fef4edaa90db0a0fcc39f77cfe7-other.sqlite.bz2
+2021-10-09 09:54:56.946829 +0000 build-fedora2: .          4,316 100%    4.12MB/s    0:00:00  .          4,316 100%    4.12MB/s    0:00:00 (xfr#5, to-chk=25/35)
+2021-10-09 09:54:56.946853 +0000 build-fedora2: <f+++++++++ fc34/repodata/75e81528c625fc48910c50a4b9d80ce1fb9c469d2a7e18dd2d0629dbd948b3a4-primary.sqlite.bz2
+2021-10-09 09:54:56.946892 +0000 build-fedora2: .         11,292 100%   10.77MB/s    0:00:00  .         11,292 100%   10.77MB/s    0:00:00 (xfr#6, to-chk=24/35)
+2021-10-09 09:54:56.946940 +0000 build-fedora2: <f+++++++++ fc34/repodata/a0515bb4c2de7aa28324cc3fe00d454021daea380148098bd4f78fe6260c7c16-other.xml.gz
+2021-10-09 09:54:56.946951 +0000 build-fedora2: .          2,022 100%    1.93MB/s    0:00:00  .          2,022 100%    1.93MB/s    0:00:00 (xfr#7, to-chk=23/35)
+2021-10-09 09:54:56.946978 +0000 build-fedora2: <f..t...... fc34/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2021-10-09 09:54:56.946989 +0000 build-fedora2: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=22/35)
+2021-10-09 09:54:56.946995 +0000 build-fedora2: <f..t...... fc34/repodata/repomd.xml
+2021-10-09 09:54:56.947031 +0000 build-fedora2: .          3,839 100%    3.66MB/s    0:00:00  .          3,839 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=21/35)
+2021-10-09 09:54:56.947039 +0000 build-fedora2: <f..t...... fc34/repodata/repomd.xml.asc
+2021-10-09 09:54:56.947050 +0000 build-fedora2: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=20/35)
+2021-10-09 09:54:56.947056 +0000 build-fedora2: .d..t...... fc34/rpm/
+2021-10-09 09:54:56.947063 +0000 build-fedora2: <f+++++++++ fc34/rpm/qubes-tunnel-1.4.4-1.fc34.src.rpm
+2021-10-09 09:54:56.947194 +0000 build-fedora2: .         32,768  96%   31.25MB/s    0:00:00  .         33,911 100%   32.34MB/s    0:00:00 (xfr#11, to-chk=2/35)
+2021-10-09 09:54:56.947203 +0000 build-fedora2: <f+++++++++ fc34/rpm/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo
+2021-10-09 09:54:56.947216 +0000 build-fedora2: .          5,954 100%    5.68MB/s    0:00:00  .          5,954 100%    5.68MB/s    0:00:00 (xfr#12, to-chk=1/35)
+2021-10-09 09:54:56.947224 +0000 build-fedora2: <f+++++++++ fc34/rpm/qubes-tunnel-1.4.4-1.fc34.x86_64.rpm
+2021-10-09 09:54:56.947276 +0000 build-fedora2: .         12,310 100%   11.74MB/s    0:00:00  .         12,310 100%   11.74MB/s    0:00:00 (xfr#13, to-chk=0/35)
+2021-10-09 09:54:57.602870 +0000 build-fedora2: Makefile:819: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.fc33 internal-update-repo-current-testing.vm.fc34 post-update-repo-current-testing
+2021-10-09 09:54:57.602912 +0000 build-fedora2: true
+2021-10-09 09:54:57.603929 +0000 build-fedora2: > done
+2021-10-09 09:54:57.604126 +0000 > closing log
