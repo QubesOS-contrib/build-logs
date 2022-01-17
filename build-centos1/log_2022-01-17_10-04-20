@@ -1,0 +1,851 @@
+2022-01-17 10:04:20.275014 +0000 > starting log
+2022-01-17 10:04:20.275282 +0000 build-centos1: > starting build with log
+2022-01-17 10:04:20.275315 +0000 build-centos1: >> make args: DISTS_VM= centos7 centos8 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-centos7=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-43-31 tunnel-vm-centos8=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-54-14 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2022-01-17 10:04:20.275322 +0000 build-centos1: >> MAKEFLAGS=
+2022-01-17 10:04:20.275329 +0000 build-centos1: >> COMPONENTS=tunnel
+2022-01-17 10:04:20.275334 +0000 build-centos1: >> DISTS_VM=
+2022-01-17 10:04:20.275339 +0000 build-centos1: >> DIST_DOM0=
+2022-01-17 10:04:20.659912 +0000 build-centos1: >> qubes-builder c209be5e4a3cafae882bea4e438e48552805ee52
+2022-01-17 10:04:20.876642 +0000 build-centos1: >> qubes-builder/qubes-src/tunnel 6ab467044d17ce58bb4966c6a65a2af5c96e6884
+2022-01-17 10:04:20.898591 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.1-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:20.898622 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.2-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:20.898631 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.3-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:20.898639 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.src.rpm
+2022-01-17 10:04:20.898647 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.x86_64.buildinfo
+2022-01-17 10:04:20.898655 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.x86_64.rpm
+2022-01-17 10:04:20.898662 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm
+2022-01-17 10:04:20.898670 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo
+2022-01-17 10:04:20.898677 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm
+2022-01-17 10:04:20.898683 +0000 build-centos1: !! pkgs/vm-centos7/qubes-tunnel.spec.list
+2022-01-17 10:04:20.898692 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.1-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:20.898700 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.2-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:20.898725 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.src.rpm
+2022-01-17 10:04:20.898733 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:20.898741 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.x86_64.rpm
+2022-01-17 10:04:20.898748 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.src.rpm
+2022-01-17 10:04:20.898756 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.x86_64.buildinfo
+2022-01-17 10:04:20.898763 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.x86_64.rpm
+2022-01-17 10:04:20.898770 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm
+2022-01-17 10:04:20.898778 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo
+2022-01-17 10:04:20.898785 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm
+2022-01-17 10:04:20.898792 +0000 build-centos1: !! pkgs/vm-centos8/qubes-tunnel.spec.list
+2022-01-17 10:04:20.905801 +0000 build-centos1: 112c3448124b2bbcd0cedc2a5884068d75ef08b743abecc87dc39fcaab4748a9e26b8278dc1fc4f460e1fca0481857789709fdaeff6eaccdabc3b45741708216  pkgs/vm-centos7/qubes-tunnel-1.4.1-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:20.922958 +0000 build-centos1: 7d987930e597e70a0e5dfd99830e79244b4c053cbdeb89c23c8d8ddf60ffb83415debd6aa3ad01b73e9f9b08c42b8eaf25bf54db8ecad0180b2956fa7b1c576b  pkgs/vm-centos7/qubes-tunnel-1.4.2-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:21.002023 +0000 build-centos1: bade2a4901d5c2e92666041aed9e0404df6a16dfc193fd90e25d652473fa705b21278b8105fb01593bf4d5e58d81c8164693fd62b1a8c77bf4f7a7991f5cf83f  pkgs/vm-centos7/qubes-tunnel-1.4.3-1.centos7.x86_64.buildinfo
+2022-01-17 10:04:21.024621 +0000 build-centos1: 5d7425e076b9db693d2df42b2bdd4a295bfeddad5d6577eaa9c0bdc705a87710aca3ebd8af5289c6ff0dc2247dd5d8ae0fd2f4d9ebaad8780c4de0eb944872c5  pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.src.rpm
+2022-01-17 10:04:21.058441 +0000 build-centos1: 9e14be96ad0dfd5fa433f6e993f181654b781b6c43e627db21b4dd3989c989bfd9541d108d30184fa536731127b87de9f3830c9cb05196c3e948fecc7123bc15  pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.x86_64.buildinfo
+2022-01-17 10:04:21.103186 +0000 build-centos1: 03727d7a8bd625ee29b3a13a3ecfc86508ce6e3db5d298fd3582aec0162ac3ad3e0db738617a2782dab995a8bdd48cca02a071dbf3227790753a4d19cb043da1  pkgs/vm-centos7/qubes-tunnel-1.4.4-1.el7.x86_64.rpm
+2022-01-17 10:04:21.106284 +0000 build-centos1: 2510199d2497e3eafbc70d1bd606a51462b5372f5b0330d1d4e5bc184a6bdc4080db1b770b65935d20ba220999580710eb4fd343c6e277520b4b73db7d87e8ef  pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm
+2022-01-17 10:04:21.111415 +0000 build-centos1: f74f303a99543f3e12853d740bab18e1eeeb232d80fdbe1995f8a951b561cde0fcae228c15ae35c2f4265a7c62202f0de516c738dbcf47688f5c688b48005447  pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo
+2022-01-17 10:04:21.121426 +0000 build-centos1: 488d7cd2b7ddb02774ee4f376448b97de3116c97083a3bc286aeba7aacd843c81622af445bcf8fc20c9f50276f9e5c82f4253fbfc3ffda377d2c3fbbbd1f6c60  pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm
+2022-01-17 10:04:21.147453 +0000 build-centos1: 429cee88952a97b1bb12345584ef9fe8acecb16a65cc1304f84677be70e3d030bef2b54a91b84822398bb566694edc19050b2f6b0fcdcccb9d976e003739c534  pkgs/vm-centos7/qubes-tunnel.spec.list
+2022-01-17 10:04:21.156161 +0000 build-centos1: 320516c578ef08aa013ab6ca4278c2b2db27c48b2409be8162733f15ff82425ed25fe8c83a4dbe3378e4e2c50ca13fa7ab78056d56bc93273ece7ab51bc7ed90  pkgs/vm-centos8/qubes-tunnel-1.4.1-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:21.171871 +0000 build-centos1: f54acd56ebf0b312769098bd52e5bfb25a0a4eab2da1182efa484795cd0f9a33ef3bf3595bad59fdd30dd5600623ca9de7bbe6c079bd4a864e581530ad656a02  pkgs/vm-centos8/qubes-tunnel-1.4.2-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:21.183870 +0000 build-centos1: 534928de9c99234ee83d666f49a7abe6a66427f28218bd26dd76452c4931d1d6836642cb101c77e5f1f9b5eda74b0f4fd7127f8cfc360d8292e639540cb260bd  pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.src.rpm
+2022-01-17 10:04:21.184188 +0000 build-centos1: 91495ed855cf50f61b5de31336b8d0e33444a0e886419b133ef9de25f3038410b97814ea5319deea220f54047fe2e5519e40c1e7209ff85da4867a3c1c1d96b4  pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.x86_64.buildinfo
+2022-01-17 10:04:21.184525 +0000 build-centos1: f0b3bff837b050b2bb55fd7c596264771601f8345b97756770dcd1cd0f4dbaeb28784188b0ef86b75b9c96393af2aae7721bd0248a9ce506d523e2f3a7a5cb3c  pkgs/vm-centos8/qubes-tunnel-1.4.3-1.centos8.x86_64.rpm
+2022-01-17 10:04:21.206204 +0000 build-centos1: f0cb5ea35a736ac385ec7f6456b0b680cd88f175926a3508bba8288d97d0f0465eff719bcdc2e86fcca97114acf445d3a33a5a4b835aeba9d43bb383279ddeed  pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.src.rpm
+2022-01-17 10:04:21.247448 +0000 build-centos1: 323c90ce9674f953f36ceabeccbdb83d036825c7ea2acecef8861e86dcf766da187d05b1b9d05296b9e7421ad4fb984dc115d1b4bf80547c1933bb911b4782dd  pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.x86_64.buildinfo
+2022-01-17 10:04:21.247857 +0000 build-centos1: b5e91b95fd33939f733a2c5dfbc80f4dc5dc0d4bcb5f99023a316f3b2c0dd6aabb3b989d840664322bd9cc1c4cbc94515f69e17b8265917e6c1604786cea76a5  pkgs/vm-centos8/qubes-tunnel-1.4.4-1.el8.x86_64.rpm
+2022-01-17 10:04:21.247914 +0000 build-centos1: 971f02c48357dadbe98e54f081cb04487cdf93661787f55f79926f9c4dc441bfeaf48c3cfe34b740d5d94f13265e077f01c9980ef9cd326ee9af2f5638f57a48  pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm
+2022-01-17 10:04:21.247931 +0000 build-centos1: 0521e133f941d555519bf410a374feea8b8963a70a4d18d37708589b6c81e6ef8cf33aeef85271ddbdc06a026b292a1a3f6cf27c69ba6440e3d7988b8479e130  pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo
+2022-01-17 10:04:21.247963 +0000 build-centos1: 53b106ed39fc7288bb771acdf5440868395e4a9084c5c9858862e3a2205108be711d6a4e79e000b960841b3d25059e014430b98cba7953fd669086cd0db3303b  pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm
+2022-01-17 10:04:21.247994 +0000 build-centos1: d45598f11ef97245d0680d656c4041a1e8080c9677b1ff719fde3d442706432a7afe674258bed17b1f6c2ca6cd06c1a874ccbbdf84249569037cee8adfbb732d  pkgs/vm-centos8/qubes-tunnel.spec.list
+2022-01-17 10:04:21.271903 +0000 build-centos1: ================================================================================
+2022-01-17 10:04:21.271925 +0000 build-centos1:                            B U I L D   I N F O                                  
+2022-01-17 10:04:21.271936 +0000 build-centos1: Items in red indicate it was automatically generated by configuration file(s)
+2022-01-17 10:04:21.271945 +0000 build-centos1: Items in white indicate it was automatically removed by configuration file(s)
+2022-01-17 10:04:21.271954 +0000 build-centos1: ================================================================================
+2022-01-17 10:04:21.271959 +0000 build-centos1: DISTS_VM:
+2022-01-17 10:04:21.272864 +0000 build-centos1:      centos7, centos8,
+2022-01-17 10:04:21.272979 +0000 build-centos1: DISTS_ALL:
+2022-01-17 10:04:21.273893 +0000 build-centos1:      vm-centos7, vm-centos8,
+2022-01-17 10:04:21.273981 +0000 build-centos1: DIST_DOM0:
+2022-01-17 10:04:21.274873 +0000 build-centos1:     
+2022-01-17 10:04:21.274987 +0000 build-centos1: BUILDER_PLUGINS:
+2022-01-17 10:04:21.275859 +0000 build-centos1:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2022-01-17 10:04:21.275981 +0000 build-centos1: COMPONENTS:
+2022-01-17 10:04:21.276884 +0000 build-centos1:      tunnel,
+2022-01-17 10:04:21.276990 +0000 build-centos1: GIT_REPOS:
+2022-01-17 10:04:21.277880 +0000 build-centos1:      qubes-src/tunnel,
+2022-01-17 10:04:21.277984 +0000 build-centos1: TEMPLATE:
+2022-01-17 10:04:21.278894 +0000 build-centos1:     
+2022-01-17 10:04:21.279003 +0000 build-centos1: TEMPLATE_FLAVOR_DIR:
+2022-01-17 10:04:21.279888 +0000 build-centos1:     
+2022-01-17 10:04:21.280008 +0000 build-centos1: TEMPLATE_ALIAS:
+2022-01-17 10:04:21.280895 +0000 build-centos1:     
+2022-01-17 10:04:21.281020 +0000 build-centos1: TEMPLATE_LABEL:
+2022-01-17 10:04:21.281964 +0000 build-centos1:     
+2022-01-17 10:04:21.288956 +0000 build-centos1: > running make
+2022-01-17 10:04:21.294423 +0000 build-centos1: Makefile:299: target 'sign.vm.centos7.tunnel' does not exist
+2022-01-17 10:04:21.294469 +0000 build-centos1: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2022-01-17 10:04:21.294481 +0000 build-centos1: SIGN_KEY=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4; \
+2022-01-17 10:04:21.294488 +0000 build-centos1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2022-01-17 10:04:21.294496 +0000 build-centos1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2022-01-17 10:04:21.294503 +0000 build-centos1: if [ "tunnel" = linux-template-builder ]; then
+2022-01-17 10:04:21.294514 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos7 template-name)
+2022-01-17 10:04:21.294519 +0000 build-centos1: fi
+2022-01-17 10:04:21.294526 +0000 build-centos1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2022-01-17 10:04:21.294534 +0000 build-centos1: .make --no-print-directory -f Makefile.generic \
+2022-01-17 10:04:21.294539 +0000 build-centos1: ..DIST=centos7 \
+2022-01-17 10:04:21.294545 +0000 build-centos1: ..PACKAGE_SET=vm \
+2022-01-17 10:04:21.294550 +0000 build-centos1: ..COMPONENT=tunnel \
+2022-01-17 10:04:21.294556 +0000 build-centos1: ..SIGN_KEY=$SIGN_KEY \
+2022-01-17 10:04:21.294561 +0000 build-centos1: ..sign || exit 1; \
+2022-01-17 10:04:21.294577 +0000 build-centos1: elif [ -d qubes-src/tunnel/rpm ]; then \
+2022-01-17 10:04:21.294584 +0000 build-centos1: .# Old mechanism supported only for RPM
+2022-01-17 10:04:21.294592 +0000 build-centos1: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2022-01-17 10:04:21.294600 +0000 build-centos1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2022-01-17 10:04:21.294607 +0000 build-centos1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2022-01-17 10:04:21.294612 +0000 build-centos1: ..fi ;\
+2022-01-17 10:04:21.294617 +0000 build-centos1: .done ; \
+2022-01-17 10:04:21.294623 +0000 build-centos1: .if [ -n "$FILE_LIST" ]; then \
+2022-01-17 10:04:21.294629 +0000 build-centos1: ..echo "--> Signing..."; \
+2022-01-17 10:04:21.294636 +0000 build-centos1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2022-01-17 10:04:21.294642 +0000 build-centos1: ..if [ -n "$SIGN_KEY" ]; then \
+2022-01-17 10:04:21.294648 +0000 build-centos1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2022-01-17 10:04:21.294653 +0000 build-centos1: ..fi; \
+2022-01-17 10:04:21.294662 +0000 build-centos1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2022-01-17 10:04:21.294666 +0000 build-centos1: .fi; \
+2022-01-17 10:04:21.294671 +0000 build-centos1: fi
+2022-01-17 10:04:21.356895 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:21.356935 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:21.356976 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:21.357504 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:21.357553 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:21.357692 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:21.358190 +0000 build-centos1: + tmp_spec=/tmp/tmp.7YNANm.spec
+2022-01-17 10:04:21.358329 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:21.358806 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.7YNANm.spec
+2022-01-17 10:04:21.359866 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:21.359882 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:21.359893 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.360769 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:21.360777 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:21.360787 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.361730 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:21.361749 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:21.361795 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:21.361806 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.362425 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.434172 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.434827 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.435372 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.436076 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:21.436238 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:21.436798 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.7YNANm.spec
+2022-01-17 10:04:21.516038 +0000 build-centos1: + rm -f /tmp/tmp.7YNANm.spec
+2022-01-17 10:04:21.518318 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:201: target 'sign-prep' does not exist
+2022-01-17 10:04:21.518343 +0000 build-centos1: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2022-01-17 10:04:21.518352 +0000 build-centos1: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2022-01-17 10:04:21.518358 +0000 build-centos1: .tmpname=$(mktemp); \
+2022-01-17 10:04:21.518368 +0000 build-centos1: .qubes-gpg-client-wrapper --armor --export "B082674E8CF907A67B5523D64FDD1A4BA90CA2E4" > "$tmpname"; \
+2022-01-17 10:04:21.518378 +0000 build-centos1: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2022-01-17 10:04:21.518383 +0000 build-centos1: .rm -f "$tmpname"; \
+2022-01-17 10:04:21.518388 +0000 build-centos1: fi
+2022-01-17 10:04:21.537014 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:21.537030 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:21.537205 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:21.537684 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:21.537803 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:21.537930 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:21.538395 +0000 build-centos1: + tmp_spec=/tmp/tmp.yoTDSq.spec
+2022-01-17 10:04:21.538564 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:21.539013 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.yoTDSq.spec
+2022-01-17 10:04:21.539713 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:21.539720 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:21.539730 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.540627 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:21.540642 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:21.540652 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.541490 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:21.541505 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:21.541538 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:21.541548 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.542176 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.579864 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.580461 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.581019 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:21.581708 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:21.581854 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:21.582320 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.yoTDSq.spec
+2022-01-17 10:04:21.637212 +0000 build-centos1: + rm -f /tmp/tmp.yoTDSq.spec
+2022-01-17 10:04:21.797823 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2022-01-17 10:04:22.100489 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:217: update target 'sign' due to: sign-prep
+2022-01-17 10:04:22.100541 +0000 build-centos1: cd qubes-src/tunnel && for pkg in pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo ; do \
+2022-01-17 10:04:22.100551 +0000 build-centos1: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2022-01-17 10:04:22.100584 +0000 build-centos1: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > "$pkg".tmp && \
+2022-01-17 10:04:22.100591 +0000 build-centos1: ..mv -f "$pkg".tmp "$pkg"; \
+2022-01-17 10:04:22.100603 +0000 build-centos1: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2022-01-17 10:04:22.100617 +0000 build-centos1: ..setsid -w rpmsign --digest-algo=sha256 --key-id=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --addsign  -- "$pkg" </dev/null || exit 1; \
+2022-01-17 10:04:22.100623 +0000 build-centos1: .fi; \
+2022-01-17 10:04:22.100628 +0000 build-centos1: done
+2022-01-17 10:04:22.106362 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:22.106377 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:22.106551 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:22.106962 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:22.107055 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:22.107182 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:22.107643 +0000 build-centos1: + tmp_spec=/tmp/tmp.4k3n4N.spec
+2022-01-17 10:04:22.107777 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:22.108197 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.4k3n4N.spec
+2022-01-17 10:04:22.108975 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:22.109013 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:22.109029 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.109756 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:22.109763 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:22.109775 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.110527 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:22.110533 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:22.110571 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:22.110581 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.111138 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.124663 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.125167 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.125660 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.126181 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:22.126308 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:22.126752 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.4k3n4N.spec
+2022-01-17 10:04:22.181307 +0000 build-centos1: + rm -f /tmp/tmp.4k3n4N.spec
+2022-01-17 10:04:22.203696 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:22.317542 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:22.433029 +0000 build-centos1: pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm:
+2022-01-17 10:04:22.443050 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:22.558564 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:22.673598 +0000 build-centos1: pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm:
+2022-01-17 10:04:22.787866 +0000 build-centos1: Makefile:299: target 'sign.vm.centos8.tunnel' does not exist
+2022-01-17 10:04:22.787935 +0000 build-centos1: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2022-01-17 10:04:22.787950 +0000 build-centos1: SIGN_KEY=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4; \
+2022-01-17 10:04:22.787958 +0000 build-centos1: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2022-01-17 10:04:22.787966 +0000 build-centos1: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2022-01-17 10:04:22.787973 +0000 build-centos1: if [ "tunnel" = linux-template-builder ]; then
+2022-01-17 10:04:22.787983 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos8 template-name)
+2022-01-17 10:04:22.787989 +0000 build-centos1: fi
+2022-01-17 10:04:22.787996 +0000 build-centos1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2022-01-17 10:04:22.788004 +0000 build-centos1: .make --no-print-directory -f Makefile.generic \
+2022-01-17 10:04:22.788009 +0000 build-centos1: ..DIST=centos8 \
+2022-01-17 10:04:22.788015 +0000 build-centos1: ..PACKAGE_SET=vm \
+2022-01-17 10:04:22.788021 +0000 build-centos1: ..COMPONENT=tunnel \
+2022-01-17 10:04:22.788026 +0000 build-centos1: ..SIGN_KEY=$SIGN_KEY \
+2022-01-17 10:04:22.788032 +0000 build-centos1: ..sign || exit 1; \
+2022-01-17 10:04:22.788038 +0000 build-centos1: elif [ -d qubes-src/tunnel/rpm ]; then \
+2022-01-17 10:04:22.788045 +0000 build-centos1: .# Old mechanism supported only for RPM
+2022-01-17 10:04:22.788053 +0000 build-centos1: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2022-01-17 10:04:22.788061 +0000 build-centos1: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2022-01-17 10:04:22.788068 +0000 build-centos1: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2022-01-17 10:04:22.788073 +0000 build-centos1: ..fi ;\
+2022-01-17 10:04:22.788078 +0000 build-centos1: .done ; \
+2022-01-17 10:04:22.788084 +0000 build-centos1: .if [ -n "$FILE_LIST" ]; then \
+2022-01-17 10:04:22.788090 +0000 build-centos1: ..echo "--> Signing..."; \
+2022-01-17 10:04:22.788096 +0000 build-centos1: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2022-01-17 10:04:22.788102 +0000 build-centos1: ..if [ -n "$SIGN_KEY" ]; then \
+2022-01-17 10:04:22.788109 +0000 build-centos1: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2022-01-17 10:04:22.788114 +0000 build-centos1: ..fi; \
+2022-01-17 10:04:22.788122 +0000 build-centos1: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2022-01-17 10:04:22.788127 +0000 build-centos1: .fi; \
+2022-01-17 10:04:22.788132 +0000 build-centos1: fi
+2022-01-17 10:04:22.797865 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:22.797882 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:22.798051 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:22.798517 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:22.798600 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:22.798769 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:22.799238 +0000 build-centos1: + tmp_spec=/tmp/tmp.pLvYts.spec
+2022-01-17 10:04:22.799422 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:22.799909 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.pLvYts.spec
+2022-01-17 10:04:22.800641 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:22.800657 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:22.800671 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.801526 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:22.801533 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:22.801544 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.802428 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:22.802443 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:22.802453 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:22.802462 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.803123 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.945502 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.946233 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.946769 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:22.947522 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:22.947697 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:22.948222 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.pLvYts.spec
+2022-01-17 10:04:23.003527 +0000 build-centos1: + rm -f /tmp/tmp.pLvYts.spec
+2022-01-17 10:04:23.005902 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:201: target 'sign-prep' does not exist
+2022-01-17 10:04:23.005920 +0000 build-centos1: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2022-01-17 10:04:23.005929 +0000 build-centos1: .mkdir -p /home/user/builder-r4.0/keyrings/rpmdb; \
+2022-01-17 10:04:23.005935 +0000 build-centos1: .tmpname=$(mktemp); \
+2022-01-17 10:04:23.005946 +0000 build-centos1: .qubes-gpg-client-wrapper --armor --export "B082674E8CF907A67B5523D64FDD1A4BA90CA2E4" > "$tmpname"; \
+2022-01-17 10:04:23.005955 +0000 build-centos1: .rpmkeys --dbpath=/home/user/builder-r4.0/keyrings/rpmdb --import "$tmpname"; \
+2022-01-17 10:04:23.005961 +0000 build-centos1: .rm -f "$tmpname"; \
+2022-01-17 10:04:23.005966 +0000 build-centos1: fi
+2022-01-17 10:04:23.012641 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:23.012658 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.012816 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:23.013294 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:23.013384 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:23.013633 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:23.014056 +0000 build-centos1: + tmp_spec=/tmp/tmp.zPhTeH.spec
+2022-01-17 10:04:23.014251 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.014743 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.zPhTeH.spec
+2022-01-17 10:04:23.015454 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.015461 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:23.015518 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.016396 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.016403 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:23.016428 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.017262 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:23.017278 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.017288 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:23.017297 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.017991 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.095697 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.096240 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.096813 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.097479 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:23.097639 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.098241 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.zPhTeH.spec
+2022-01-17 10:04:23.153604 +0000 build-centos1: + rm -f /tmp/tmp.zPhTeH.spec
+2022-01-17 10:04:23.275818 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2022-01-17 10:04:23.285376 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:217: update target 'sign' due to: sign-prep
+2022-01-17 10:04:23.285403 +0000 build-centos1: cd qubes-src/tunnel && for pkg in pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo ; do \
+2022-01-17 10:04:23.285412 +0000 build-centos1: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2022-01-17 10:04:23.285428 +0000 build-centos1: ../home/user/builder-r4.0/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > "$pkg".tmp && \
+2022-01-17 10:04:23.285435 +0000 build-centos1: ..mv -f "$pkg".tmp "$pkg"; \
+2022-01-17 10:04:23.285444 +0000 build-centos1: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2022-01-17 10:04:23.285457 +0000 build-centos1: ..setsid -w rpmsign --digest-algo=sha256 --key-id=B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --addsign  -- "$pkg" </dev/null || exit 1; \
+2022-01-17 10:04:23.285462 +0000 build-centos1: .fi; \
+2022-01-17 10:04:23.285467 +0000 build-centos1: done
+2022-01-17 10:04:23.292065 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:23.292082 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.292263 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:23.292749 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:23.292864 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:23.292999 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:23.293453 +0000 build-centos1: + tmp_spec=/tmp/tmp.1ucfIJ.spec
+2022-01-17 10:04:23.293660 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.294147 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.1ucfIJ.spec
+2022-01-17 10:04:23.294850 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.294866 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:23.294877 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.295762 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.295831 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:23.295860 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.296486 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:23.296501 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.296512 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:23.296521 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.297080 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.336926 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.337519 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.338032 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.338610 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:23.338742 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.339220 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.1ucfIJ.spec
+2022-01-17 10:04:23.393344 +0000 build-centos1: + rm -f /tmp/tmp.1ucfIJ.spec
+2022-01-17 10:04:23.409834 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:23.522734 +0000 build-centos1: pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm:
+2022-01-17 10:04:23.533410 +0000 build-centos1: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2022-01-17 10:04:23.647481 +0000 build-centos1: pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm:
+2022-01-17 10:04:23.762654 +0000 build-centos1: Makefile:863: target 'internal-update-repo-current-testing.vm.centos7.tunnel' does not exist
+2022-01-17 10:04:23.762701 +0000 build-centos1: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2022-01-17 10:04:23.762725 +0000 build-centos1: if [ "tunnel" = linux-template-builder ]; then \
+2022-01-17 10:04:23.762735 +0000 build-centos1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2022-01-17 10:04:23.762742 +0000 build-centos1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2022-01-17 10:04:23.762747 +0000 build-centos1: fi; \
+2022-01-17 10:04:23.762754 +0000 build-centos1: if [ -n "${!repo_base_var}" ]; then \
+2022-01-17 10:04:23.762761 +0000 build-centos1: .repo_basedir="${!repo_base_var}"; \
+2022-01-17 10:04:23.762765 +0000 build-centos1: else \
+2022-01-17 10:04:23.762772 +0000 build-centos1: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2022-01-17 10:04:23.762777 +0000 build-centos1: fi; \
+2022-01-17 10:04:23.762784 +0000 build-centos1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2022-01-17 10:04:23.762791 +0000 build-centos1: .echo -n "Updating qubes-src/tunnel... "; \
+2022-01-17 10:04:23.762797 +0000 build-centos1: .if [ "0" -eq 1 ]; then \
+2022-01-17 10:04:23.762805 +0000 build-centos1: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2022-01-17 10:04:23.762811 +0000 build-centos1: ..if [ -z "$vtag" ]; then \
+2022-01-17 10:04:23.762817 +0000 build-centos1: ...echo "no version tag"; \
+2022-01-17 10:04:23.762823 +0000 build-centos1: ...exit 0; \
+2022-01-17 10:04:23.762828 +0000 build-centos1: ..fi; \
+2022-01-17 10:04:23.762832 +0000 build-centos1: .fi; \
+2022-01-17 10:04:23.762839 +0000 build-centos1: .if [ "tunnel" = linux-template-builder ]; then
+2022-01-17 10:04:23.762850 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos7 template-name)
+2022-01-17 10:04:23.762855 +0000 build-centos1: fi
+2022-01-17 10:04:23.762873 +0000 build-centos1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=centos7 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos7 get-var GET_VAR=PACKAGE_LIST); \
+2022-01-17 10:04:23.762899 +0000 build-centos1: .if [ -z "$component_packages" ]; then \
+2022-01-17 10:04:23.762906 +0000 build-centos1: ..echo "no packages."; \
+2022-01-17 10:04:23.762911 +0000 build-centos1: ..exit 0; \
+2022-01-17 10:04:23.762916 +0000 build-centos1: .fi; \
+2022-01-17 10:04:23.762924 +0000 build-centos1: .make -s -f Makefile.generic DIST=centos7 PACKAGE_SET=vm \
+2022-01-17 10:04:23.762930 +0000 build-centos1: ..COMPONENT=`basename qubes-src/tunnel` \
+2022-01-17 10:04:23.762937 +0000 build-centos1: ..SNAPSHOT_REPO=current-testing \
+2022-01-17 10:04:23.762943 +0000 build-centos1: ..TARGET_REPO=current-testing \
+2022-01-17 10:04:23.762952 +0000 build-centos1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos7 \
+2022-01-17 10:04:23.762963 +0000 build-centos1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-centos7-`basename qubes-src/tunnel` \
+2022-01-17 10:04:23.762974 +0000 build-centos1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-43-31 \
+2022-01-17 10:04:23.762980 +0000 build-centos1: ..update-repo || exit 1; \
+2022-01-17 10:04:23.762990 +0000 build-centos1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2022-01-17 10:04:23.762997 +0000 build-centos1: .echo "Updating qubes-src/tunnel... "; \
+2022-01-17 10:04:23.763006 +0000 build-centos1: .DIST=centos7 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos7 \
+2022-01-17 10:04:23.763014 +0000 build-centos1: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2022-01-17 10:04:23.763019 +0000 build-centos1: else \
+2022-01-17 10:04:23.763027 +0000 build-centos1: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2022-01-17 10:04:23.763031 +0000 build-centos1: fi; \
+2022-01-17 10:04:23.763036 +0000 build-centos1: echo
+2022-01-17 10:04:23.772765 +0000 build-centos1: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:23.772780 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.772983 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:23.773444 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:23.773557 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:23.773730 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:23.774182 +0000 build-centos1: + tmp_spec=/tmp/tmp.9ea5lc.spec
+2022-01-17 10:04:23.774339 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.774814 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.9ea5lc.spec
+2022-01-17 10:04:23.775553 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.775562 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:23.775581 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.776428 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.776436 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:23.776445 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.777305 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:23.777320 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.777330 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:23.777339 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.778035 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.856088 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.856770 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.857301 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.858111 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:23.858191 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.858760 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.9ea5lc.spec
+2022-01-17 10:04:23.913158 +0000 build-centos1: + rm -f /tmp/tmp.9ea5lc.spec
+2022-01-17 10:04:23.918908 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:23.918925 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.919127 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:23.919624 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:23.919686 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:23.919860 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:23.920314 +0000 build-centos1: + tmp_spec=/tmp/tmp.TRO84m.spec
+2022-01-17 10:04:23.920498 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.920960 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.TRO84m.spec
+2022-01-17 10:04:23.921861 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:23.921877 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:23.921888 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.922838 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.922845 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:23.922898 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.923756 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:23.923762 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:23.923795 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:23.923804 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.924421 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.978873 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.979508 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.980047 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:23.980758 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:23.980892 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:23.981348 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.TRO84m.spec
+2022-01-17 10:04:24.037416 +0000 build-centos1: + rm -f /tmp/tmp.TRO84m.spec
+2022-01-17 10:04:24.054201 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:24.054222 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.054355 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:24.054840 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:24.054911 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:24.055072 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:24.055537 +0000 build-centos1: + tmp_spec=/tmp/tmp.UGVZMw.spec
+2022-01-17 10:04:24.055702 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.056146 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.UGVZMw.spec
+2022-01-17 10:04:24.056885 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.056892 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:24.056905 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.057907 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.057922 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:24.057932 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.058927 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:24.058934 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.058976 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:24.058986 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.059628 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.111157 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.111766 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.112273 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.112853 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:24.112992 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.113427 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.UGVZMw.spec
+2022-01-17 10:04:24.168787 +0000 build-centos1: + rm -f /tmp/tmp.UGVZMw.spec
+2022-01-17 10:04:24.180698 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:176: target 'update-repo-do' does not exist
+2022-01-17 10:04:24.180721 +0000 build-centos1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/centos7/rpm
+2022-01-17 10:04:24.187382 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:24.187399 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.187580 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:24.188031 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:24.188099 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:24.188328 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:24.188746 +0000 build-centos1: + tmp_spec=/tmp/tmp.0uucQC.spec
+2022-01-17 10:04:24.188901 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.189378 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.0uucQC.spec
+2022-01-17 10:04:24.190095 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.190103 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:24.190114 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.190984 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.190991 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:24.191000 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.191864 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:24.191870 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.191896 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:24.191905 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.192555 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.193362 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.194052 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.194553 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.205194 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:24.205330 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.205865 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.0uucQC.spec
+2022-01-17 10:04:24.261428 +0000 build-centos1: + rm -f /tmp/tmp.0uucQC.spec
+2022-01-17 10:04:24.279388 +0000 build-centos1: if [ -n "pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo" ]; then \
+2022-01-17 10:04:24.279429 +0000 build-centos1: .cd qubes-src/tunnel && ln -f pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/centos7/rpm/; \
+2022-01-17 10:04:24.279437 +0000 build-centos1: else \
+2022-01-17 10:04:24.279448 +0000 build-centos1: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2022-01-17 10:04:24.279453 +0000 build-centos1: .exit 1; \
+2022-01-17 10:04:24.279458 +0000 build-centos1: fi
+2022-01-17 10:04:24.281210 +0000 build-centos1: cd qubes-src/tunnel && echo pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.src.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.rpm pkgs/vm-centos7/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-centos7-tunnel
+2022-01-17 10:04:24.288790 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2022-01-17 10:04:24.288814 +0000 build-centos1: [ -z "qubes-tunnel-1.4.5-1.el7" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2022-01-17 10:04:24.288827 +0000 build-centos1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-43-31" \
+2022-01-17 10:04:24.288833 +0000 build-centos1: .upload \
+2022-01-17 10:04:24.288838 +0000 build-centos1: ."r4.0" \
+2022-01-17 10:04:24.288844 +0000 build-centos1: ."qubes-src/tunnel" \
+2022-01-17 10:04:24.288850 +0000 build-centos1: ."qubes-tunnel-1.4.5-1.el7" \
+2022-01-17 10:04:24.288856 +0000 build-centos1: ."centos7" \
+2022-01-17 10:04:24.288861 +0000 build-centos1: ."vm" \
+2022-01-17 10:04:24.288866 +0000 build-centos1: ."current-testing" \
+2022-01-17 10:04:24.288875 +0000 build-centos1: ."/home/user/github-notify-state/r4.0-tunnel-vm-centos7-current-testing" \
+2022-01-17 10:04:24.288883 +0000 build-centos1: ."/home/user/github-notify-state/r4.0-tunnel-vm-centos7-current"
+2022-01-17 10:04:24.298421 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:24.298437 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.298647 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:24.299070 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:24.299138 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:24.299296 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:24.299769 +0000 build-centos1: + tmp_spec=/tmp/tmp.1rVi8I.spec
+2022-01-17 10:04:24.299948 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.300376 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.1rVi8I.spec
+2022-01-17 10:04:24.301124 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:24.301131 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:24.301142 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.301971 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.301978 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:24.301987 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.302845 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:24.302851 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:24.302880 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:24.302889 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.303540 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.347899 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.348477 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.349029 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:24.349676 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:24.349834 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:24.350321 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.1rVi8I.spec
+2022-01-17 10:04:24.406146 +0000 build-centos1: + rm -f /tmp/tmp.1rVi8I.spec
+2022-01-17 10:04:28.965303 +0000 build-centos1: WARNING: message template /home/user/builder-r4.0/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2022-01-17 10:04:28.973842 +0000 build-centos1: 
+2022-01-17 10:04:28.974083 +0000 build-centos1: Makefile:834: update target 'internal-update-repo-current-testing.vm.centos7' due to: internal-update-repo-current-testing.vm.centos7.tunnel
+2022-01-17 10:04:28.974093 +0000 build-centos1: true
+2022-01-17 10:04:28.975035 +0000 build-centos1: Makefile:863: target 'internal-update-repo-current-testing.vm.centos8.tunnel' does not exist
+2022-01-17 10:04:28.975044 +0000 build-centos1: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2022-01-17 10:04:28.975051 +0000 build-centos1: if [ "tunnel" = linux-template-builder ]; then \
+2022-01-17 10:04:28.975060 +0000 build-centos1: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2022-01-17 10:04:28.975066 +0000 build-centos1: repo_base_var="LINUX_REPO__BASEDIR"; \
+2022-01-17 10:04:28.975071 +0000 build-centos1: fi; \
+2022-01-17 10:04:28.975078 +0000 build-centos1: if [ -n "${!repo_base_var}" ]; then \
+2022-01-17 10:04:28.975084 +0000 build-centos1: .repo_basedir="${!repo_base_var}"; \
+2022-01-17 10:04:28.975089 +0000 build-centos1: else \
+2022-01-17 10:04:28.975096 +0000 build-centos1: .repo_basedir="qubes-src/linux-yum/r4.0"; \
+2022-01-17 10:04:28.975100 +0000 build-centos1: fi; \
+2022-01-17 10:04:28.975108 +0000 build-centos1: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2022-01-17 10:04:28.975114 +0000 build-centos1: .echo -n "Updating qubes-src/tunnel... "; \
+2022-01-17 10:04:28.975120 +0000 build-centos1: .if [ "0" -eq 1 ]; then \
+2022-01-17 10:04:28.975128 +0000 build-centos1: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2022-01-17 10:04:28.975134 +0000 build-centos1: ..if [ -z "$vtag" ]; then \
+2022-01-17 10:04:28.975140 +0000 build-centos1: ...echo "no version tag"; \
+2022-01-17 10:04:28.975162 +0000 build-centos1: ...exit 0; \
+2022-01-17 10:04:28.975167 +0000 build-centos1: ..fi; \
+2022-01-17 10:04:28.975172 +0000 build-centos1: .fi; \
+2022-01-17 10:04:28.975179 +0000 build-centos1: .if [ "tunnel" = linux-template-builder ]; then
+2022-01-17 10:04:28.975189 +0000 build-centos1: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=centos8 template-name)
+2022-01-17 10:04:28.975194 +0000 build-centos1: fi
+2022-01-17 10:04:28.975212 +0000 build-centos1: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=centos8 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos8 get-var GET_VAR=PACKAGE_LIST); \
+2022-01-17 10:04:28.975219 +0000 build-centos1: .if [ -z "$component_packages" ]; then \
+2022-01-17 10:04:28.975225 +0000 build-centos1: ..echo "no packages."; \
+2022-01-17 10:04:28.975230 +0000 build-centos1: ..exit 0; \
+2022-01-17 10:04:28.975235 +0000 build-centos1: .fi; \
+2022-01-17 10:04:28.975243 +0000 build-centos1: .make -s -f Makefile.generic DIST=centos8 PACKAGE_SET=vm \
+2022-01-17 10:04:28.975249 +0000 build-centos1: ..COMPONENT=`basename qubes-src/tunnel` \
+2022-01-17 10:04:28.975255 +0000 build-centos1: ..SNAPSHOT_REPO=current-testing \
+2022-01-17 10:04:28.975262 +0000 build-centos1: ..TARGET_REPO=current-testing \
+2022-01-17 10:04:28.975271 +0000 build-centos1: ..UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos8 \
+2022-01-17 10:04:28.975282 +0000 build-centos1: ..SNAPSHOT_FILE=/home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-centos8-`basename qubes-src/tunnel` \
+2022-01-17 10:04:28.975293 +0000 build-centos1: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-54-14 \
+2022-01-17 10:04:28.975299 +0000 build-centos1: ..update-repo || exit 1; \
+2022-01-17 10:04:28.975308 +0000 build-centos1: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2022-01-17 10:04:28.975315 +0000 build-centos1: .echo "Updating qubes-src/tunnel... "; \
+2022-01-17 10:04:28.975324 +0000 build-centos1: .DIST=centos8 UPDATE_REPO=/home/user/builder-r4.0/$repo_basedir/current-testing/vm/centos8 \
+2022-01-17 10:04:28.975333 +0000 build-centos1: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2022-01-17 10:04:28.975337 +0000 build-centos1: else \
+2022-01-17 10:04:28.975345 +0000 build-centos1: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2022-01-17 10:04:28.975349 +0000 build-centos1: fi; \
+2022-01-17 10:04:28.975354 +0000 build-centos1: echo
+2022-01-17 10:04:28.985169 +0000 build-centos1: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:28.985187 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:28.985406 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:28.985922 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:28.985989 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:28.986162 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:28.986664 +0000 build-centos1: + tmp_spec=/tmp/tmp.39lmPB.spec
+2022-01-17 10:04:28.986854 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:28.987314 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.39lmPB.spec
+2022-01-17 10:04:28.988061 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:28.988068 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:28.988109 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:28.988988 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:28.988996 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:28.989015 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:28.989871 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:28.989886 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:28.989896 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:28.989905 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:28.990539 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.070100 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.070733 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.071255 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.071952 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:29.072117 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.072741 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.39lmPB.spec
+2022-01-17 10:04:29.128178 +0000 build-centos1: + rm -f /tmp/tmp.39lmPB.spec
+2022-01-17 10:04:29.133924 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:29.133940 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.134102 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:29.134613 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:29.134686 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:29.134841 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:29.135328 +0000 build-centos1: + tmp_spec=/tmp/tmp.bvmFl8.spec
+2022-01-17 10:04:29.135551 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.135984 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.bvmFl8.spec
+2022-01-17 10:04:29.136715 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.136723 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:29.136764 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.137797 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.137836 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:29.137847 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.138881 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:29.138897 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.138908 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:29.138918 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.139566 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.171159 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.172086 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.172705 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.173338 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:29.173488 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.173947 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.bvmFl8.spec
+2022-01-17 10:04:29.228802 +0000 build-centos1: + rm -f /tmp/tmp.bvmFl8.spec
+2022-01-17 10:04:29.245088 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:29.245106 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.245185 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:29.245778 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:29.245787 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:29.245863 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:29.246377 +0000 build-centos1: + tmp_spec=/tmp/tmp.xmRdod.spec
+2022-01-17 10:04:29.246468 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.246989 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.xmRdod.spec
+2022-01-17 10:04:29.247643 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.247649 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:29.247660 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.248531 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.248538 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:29.248550 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.249368 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:29.249374 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.249415 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:29.249423 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.250094 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.289687 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.290278 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.290874 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.301641 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:29.301776 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.302367 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.xmRdod.spec
+2022-01-17 10:04:29.357781 +0000 build-centos1: + rm -f /tmp/tmp.xmRdod.spec
+2022-01-17 10:04:29.368389 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-rpm/Makefile.rpmbuilder:176: target 'update-repo-do' does not exist
+2022-01-17 10:04:29.368415 +0000 build-centos1: mkdir -p /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/centos8/rpm
+2022-01-17 10:04:29.375024 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:29.375041 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.375169 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:29.375632 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:29.375714 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:29.375844 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:29.376286 +0000 build-centos1: + tmp_spec=/tmp/tmp.lw4Bjx.spec
+2022-01-17 10:04:29.376454 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.376893 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.lw4Bjx.spec
+2022-01-17 10:04:29.377557 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.377584 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:29.377627 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.378550 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.378565 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:29.378576 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.379390 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:29.379405 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.379412 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:29.379421 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.380025 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.391063 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.391693 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.392233 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.404033 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:29.404167 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.404713 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.lw4Bjx.spec
+2022-01-17 10:04:29.460219 +0000 build-centos1: + rm -f /tmp/tmp.lw4Bjx.spec
+2022-01-17 10:04:29.467358 +0000 build-centos1: if [ -n "pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo" ]; then \
+2022-01-17 10:04:29.467389 +0000 build-centos1: .cd qubes-src/tunnel && ln -f pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo  /home/user/builder-r4.0/qubes-src/linux-yum/r4.0/current-testing/vm/centos8/rpm/; \
+2022-01-17 10:04:29.467396 +0000 build-centos1: else \
+2022-01-17 10:04:29.467407 +0000 build-centos1: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2022-01-17 10:04:29.467412 +0000 build-centos1: .exit 1; \
+2022-01-17 10:04:29.467417 +0000 build-centos1: fi
+2022-01-17 10:04:29.468752 +0000 build-centos1: cd qubes-src/tunnel && echo pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.src.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.rpm pkgs/vm-centos8/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo  > /home/user/builder-r4.0/repo-latest-snapshot/current-testing-vm-centos8-tunnel
+2022-01-17 10:04:29.475992 +0000 build-centos1: /home/user/builder-r4.0/qubes-src/builder-github//Makefile.github:18: target 'notify-github' does not exist
+2022-01-17 10:04:29.476012 +0000 build-centos1: [ -z "qubes-tunnel-1.4.5-1.el8" ] || /home/user/builder-r4.0/qubes-src/builder-github//notify-issues \
+2022-01-17 10:04:29.476025 +0000 build-centos1: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-centos1/log_2022-01-17_09-54-14" \
+2022-01-17 10:04:29.476030 +0000 build-centos1: .upload \
+2022-01-17 10:04:29.476036 +0000 build-centos1: ."r4.0" \
+2022-01-17 10:04:29.476042 +0000 build-centos1: ."qubes-src/tunnel" \
+2022-01-17 10:04:29.476048 +0000 build-centos1: ."qubes-tunnel-1.4.5-1.el8" \
+2022-01-17 10:04:29.476053 +0000 build-centos1: ."centos8" \
+2022-01-17 10:04:29.476058 +0000 build-centos1: ."vm" \
+2022-01-17 10:04:29.476064 +0000 build-centos1: ."current-testing" \
+2022-01-17 10:04:29.476072 +0000 build-centos1: ."/home/user/github-notify-state/r4.0-tunnel-vm-centos8-current-testing" \
+2022-01-17 10:04:29.476080 +0000 build-centos1: ."/home/user/github-notify-state/r4.0-tunnel-vm-centos8-current"
+2022-01-17 10:04:29.485598 +0000 build-centos1: + ERR_OUTPUT=/dev/stderr
+2022-01-17 10:04:29.485631 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.485833 +0000 build-centos1: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2022-01-17 10:04:29.486308 +0000 build-centos1: + [[ xqubes-tunnel.spec.in == \x\.\i\n ]]
+2022-01-17 10:04:29.486441 +0000 build-centos1: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2022-01-17 10:04:29.486702 +0000 build-centos1: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2022-01-17 10:04:29.487198 +0000 build-centos1: + tmp_spec=/tmp/tmp.Mgo8gV.spec
+2022-01-17 10:04:29.487277 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.487838 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.Mgo8gV.spec
+2022-01-17 10:04:29.488471 +0000 build-centos1: + '[' 2 -lt 2 ']'
+2022-01-17 10:04:29.488478 +0000 build-centos1: + '[' -z qubes-src/tunnel ']'
+2022-01-17 10:04:29.488525 +0000 build-centos1: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.489541 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.489547 +0000 build-centos1: + '[' x = x ']'
+2022-01-17 10:04:29.489557 +0000 build-centos1: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.490491 +0000 build-centos1: + vnum=1
+2022-01-17 10:04:29.490506 +0000 build-centos1: + read -r ver
+2022-01-17 10:04:29.490513 +0000 build-centos1: + '[' -e qubes-src/tunnel/rel ']'
+2022-01-17 10:04:29.490522 +0000 build-centos1: + grep -q @REL@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.491160 +0000 build-centos1: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.524626 +0000 build-centos1: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.525289 +0000 build-centos1: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.525820 +0000 build-centos1: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2022-01-17 10:04:29.526543 +0000 build-centos1: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2022-01-17 10:04:29.526699 +0000 build-centos1: ++ dirname /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/query-spec
+2022-01-17 10:04:29.527242 +0000 build-centos1: + /home/user/builder-r4.0/qubes-src/builder-rpm/scripts/../tools/spectool --list-files --source 0 /tmp/tmp.Mgo8gV.spec
+2022-01-17 10:04:29.582573 +0000 build-centos1: + rm -f /tmp/tmp.Mgo8gV.spec
+2022-01-17 10:04:32.018885 +0000 build-centos1: WARNING: message template /home/user/builder-r4.0/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2022-01-17 10:04:32.027362 +0000 build-centos1: 
+2022-01-17 10:04:32.027462 +0000 build-centos1: Makefile:834: update target 'internal-update-repo-current-testing.vm.centos8' due to: internal-update-repo-current-testing.vm.centos8.tunnel
+2022-01-17 10:04:32.027471 +0000 build-centos1: true
+2022-01-17 10:04:32.028517 +0000 build-centos1: Makefile:923: target 'post-update-repo-current-testing' does not exist
+2022-01-17 10:04:32.028533 +0000 build-centos1: for dist in  centos7 centos8; do \
+2022-01-17 10:04:32.028542 +0000 build-centos1: .repo_base_var="LINUX_REPO_${dist//-/_}_BASEDIR"; \
+2022-01-17 10:04:32.028549 +0000 build-centos1: .if [ -n "${!repo_base_var}" ]; then \
+2022-01-17 10:04:32.028556 +0000 build-centos1: ..repo_basedir="${!repo_base_var}"; \
+2022-01-17 10:04:32.028561 +0000 build-centos1: .else \
+2022-01-17 10:04:32.028568 +0000 build-centos1: ..repo_basedir="qubes-src/linux-yum/r4.0"; \
+2022-01-17 10:04:32.028573 +0000 build-centos1: .fi; \
+2022-01-17 10:04:32.028580 +0000 build-centos1: .repos_to_update="$repos_to_update $repo_basedir"; \
+2022-01-17 10:04:32.028585 +0000 build-centos1: done; \
+2022-01-17 10:04:32.028590 +0000 build-centos1: pkgset_dist= ; \
+2022-01-17 10:04:32.028595 +0000 build-centos1: for dist in ; do \
+2022-01-17 10:04:32.028621 +0000 build-centos1: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2022-01-17 10:04:32.028628 +0000 build-centos1: done; \
+2022-01-17 10:04:32.028635 +0000 build-centos1: for dist in centos7 centos8; do \
+2022-01-17 10:04:32.028643 +0000 build-centos1: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2022-01-17 10:04:32.028649 +0000 build-centos1: done; \
+2022-01-17 10:04:32.028657 +0000 build-centos1: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2022-01-17 10:04:32.028663 +0000 build-centos1: .[ -z "$repo" ] && continue; \
+2022-01-17 10:04:32.028671 +0000 build-centos1: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2022-01-17 10:04:32.028679 +0000 build-centos1: .(cd $repo/.. && ./update_repo-current-testing.sh r4.0 $pkgset_dist); \
+2022-01-17 10:04:32.028684 +0000 build-centos1: done
+2022-01-17 10:04:32.058631 +0000 build-centos1: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2022-01-17 10:04:32.086687 +0000 build-centos1: --> Processing repo: r4.0/current-testing/vm/centos7...
+2022-01-17 10:04:32.099223 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2022-01-17 10:04:33.488741 +0000 build-centos1: --> Processing repo: r4.0/current-testing/vm/centos8...
+2022-01-17 10:04:33.502179 +0000 build-centos1: warning: Found bdb Packages database while attempting sqlite backend: using bdb backend.
+2022-01-17 10:04:41.734044 +0000 build-centos1: Done.
+2022-01-17 10:04:41.746175 +0000 build-centos1: ~/builder-r4.0/qubes-src/linux-yum ~/builder-r4.0/qubes-src/linux-yum
+2022-01-17 10:04:41.746923 +0000 build-centos1: Syncing r4.0...
+2022-01-17 10:04:42.284252 +0000 build-centos1: sending incremental file list
+2022-01-17 10:04:42.314216 +0000 build-centos1: .d..t...... centos7/
+2022-01-17 10:04:42.314258 +0000 build-centos1: .d..t...... centos7/repodata/
+2022-01-17 10:04:42.314270 +0000 build-centos1: <f..t...... centos7/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2022-01-17 10:04:42.314283 +0000 build-centos1: .            412 100%    0.00kB/s    0:00:00  .            412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=33/39)
+2022-01-17 10:04:42.314307 +0000 build-centos1: <f+++++++++ centos7/repodata/3b2315497b20a34269754e778bb3562b394d7bb2b084eaff8e6d184b53cd4293-other.sqlite.bz2
+2022-01-17 10:04:42.314319 +0000 build-centos1: .          3,640 100%    3.47MB/s    0:00:00  .          3,640 100%    3.47MB/s    0:00:00 (xfr#2, to-chk=32/39)
+2022-01-17 10:04:42.314330 +0000 build-centos1: <f+++++++++ centos7/repodata/758126eb3ad0cd4d624b3bcb8684edb1abec5fd3b1d548485a329d9cac2d9ce4-filelists.sqlite.bz2
+2022-01-17 10:04:42.314341 +0000 build-centos1: .          3,169 100%    3.02MB/s    0:00:00  .          3,169 100%    3.02MB/s    0:00:00 (xfr#3, to-chk=31/39)
+2022-01-17 10:04:42.314351 +0000 build-centos1: <f+++++++++ centos7/repodata/acd12a6144a6b53f5bb72673591b32b274e10541369c043c10fcdba946537502-other.xml.gz
+2022-01-17 10:04:42.314362 +0000 build-centos1: .          2,076 100%    1.98MB/s    0:00:00  .          2,076 100%    1.98MB/s    0:00:00 (xfr#4, to-chk=30/39)
+2022-01-17 10:04:42.314372 +0000 build-centos1: <f+++++++++ centos7/repodata/e0f3bd3bb41684a213be32b63b69fcc8129ae683b2da261ab48438116142ec1e-filelists.xml.gz
+2022-01-17 10:04:42.314387 +0000 build-centos1: .          1,435 100%    1.37MB/s    0:00:00  .          1,435 100%    1.37MB/s    0:00:00 (xfr#5, to-chk=29/39)
+2022-01-17 10:04:42.314398 +0000 build-centos1: <f+++++++++ centos7/repodata/e8fde730ad3ea640b84bee142422e8292b06e102263670f3d637000fbe231126-primary.sqlite.bz2
+2022-01-17 10:04:42.314409 +0000 build-centos1: .          6,484 100%    6.18MB/s    0:00:00  .          6,484 100%    6.18MB/s    0:00:00 (xfr#6, to-chk=28/39)
+2022-01-17 10:04:42.314420 +0000 build-centos1: <f+++++++++ centos7/repodata/f1d31b5f98dabc01c22e250eaf938bc90a0b358234378982e5cdc92d319664ce-primary.xml.gz
+2022-01-17 10:04:42.314436 +0000 build-centos1: .          2,987 100%    2.85MB/s    0:00:00  .          2,987 100%    2.85MB/s    0:00:00 (xfr#7, to-chk=27/39)
+2022-01-17 10:04:42.314464 +0000 build-centos1: <f..t...... centos7/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2022-01-17 10:04:42.314475 +0000 build-centos1: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=26/39)
+2022-01-17 10:04:42.314484 +0000 build-centos1: <f..t...... centos7/repodata/repomd.xml
+2022-01-17 10:04:42.314525 +0000 build-centos1: .          3,833 100%    3.66MB/s    0:00:00  .          3,833 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=25/39)
+2022-01-17 10:04:42.314533 +0000 build-centos1: <f..t...... centos7/repodata/repomd.xml.asc
+2022-01-17 10:04:42.314547 +0000 build-centos1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=24/39)
+2022-01-17 10:04:42.314553 +0000 build-centos1: .d..t...... centos7/rpm/
+2022-01-17 10:04:42.314561 +0000 build-centos1: <f+++++++++ centos7/rpm/qubes-tunnel-1.4.5-1.el7.src.rpm
+2022-01-17 10:04:42.314631 +0000 build-centos1: .         30,111 100%   28.72MB/s    0:00:00  .         30,111 100%   28.72MB/s    0:00:00 (xfr#11, to-chk=2/39)
+2022-01-17 10:04:42.314640 +0000 build-centos1: <f+++++++++ centos7/rpm/qubes-tunnel-1.4.5-1.el7.x86_64.buildinfo
+2022-01-17 10:04:42.314653 +0000 build-centos1: .          1,285 100%    1.23MB/s    0:00:00  .          1,285 100%    1.23MB/s    0:00:00 (xfr#12, to-chk=1/39)
+2022-01-17 10:04:42.314661 +0000 build-centos1: <f+++++++++ centos7/rpm/qubes-tunnel-1.4.5-1.el7.x86_64.rpm
+2022-01-17 10:04:42.314696 +0000 build-centos1: .          8,536 100%    8.14MB/s    0:00:00  .          8,536 100%    8.14MB/s    0:00:00 (xfr#13, to-chk=0/39)
+2022-01-17 10:04:42.538769 +0000 build-centos1: sending incremental file list
+2022-01-17 10:04:42.572432 +0000 build-centos1: .d..t...... centos8/
+2022-01-17 10:04:42.572451 +0000 build-centos1: .d..t...... centos8/repodata/
+2022-01-17 10:04:42.572463 +0000 build-centos1: <f..t...... centos8/repodata/016023c0cda96048f20d0cd30dfbe5fb146155a13389084130f47c8405f05aac-comps.xml
+2022-01-17 10:04:42.572501 +0000 build-centos1: .            412 100%    0.00kB/s    0:00:00  .            412 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=63/69)
+2022-01-17 10:04:42.572523 +0000 build-centos1: <f+++++++++ centos8/repodata/36554cecdc7d71c618b9ea51d88de3886cd5bb837f1e3217b585cb5a944576ee-other.xml.gz
+2022-01-17 10:04:42.572564 +0000 build-centos1: .          4,522 100%    4.31MB/s    0:00:00  .          4,522 100%    4.31MB/s    0:00:00 (xfr#2, to-chk=62/69)
+2022-01-17 10:04:42.572576 +0000 build-centos1: <f+++++++++ centos8/repodata/4d81318680150ee5c47b2e946f81b547348edbe10a2722a6edb5fbb3e8b647b0-filelists.xml.gz
+2022-01-17 10:04:42.572636 +0000 build-centos1: .         32,768  97%   31.25MB/s    0:00:00  .         33,575 100%   32.02MB/s    0:00:00 (xfr#3, to-chk=61/69)
+2022-01-17 10:04:42.572648 +0000 build-centos1: <f+++++++++ centos8/repodata/4f4abd093f1893cde0460d783bfb15436e55f66e435b9b5fdc9b0f340b504271-filelists.sqlite.bz2
+2022-01-17 10:04:42.572789 +0000 build-centos1: .         32,768  92%   31.25MB/s    0:00:00  .         35,485 100%   33.84MB/s    0:00:00 (xfr#4, to-chk=60/69)
+2022-01-17 10:04:42.572811 +0000 build-centos1: <f+++++++++ centos8/repodata/7233f03ba0afeb97719f133c86af53c10cb51171349cbbde8d88ff51546de127-other.sqlite.bz2
+2022-01-17 10:04:42.572827 +0000 build-centos1: .          9,106 100%    8.68MB/s    0:00:00  .          9,106 100%    8.68MB/s    0:00:00 (xfr#5, to-chk=59/69)
+2022-01-17 10:04:42.572838 +0000 build-centos1: <f+++++++++ centos8/repodata/7b805ffa5512e27e55c387a470b0331934eb92e792d1c9af469902ad66348bf5-primary.xml.gz
+2022-01-17 10:04:42.572914 +0000 build-centos1: .          7,420 100%    7.08MB/s    0:00:00  .          7,420 100%    7.08MB/s    0:00:00 (xfr#6, to-chk=58/69)
+2022-01-17 10:04:42.572926 +0000 build-centos1: <f+++++++++ centos8/repodata/7ff82512359a8e61597a6af295b52300a65bcbfd29d3d2a3005eba060682bfa5-primary.sqlite.bz2
+2022-01-17 10:04:42.572953 +0000 build-centos1: .         18,158 100%   17.32MB/s    0:00:00  .         18,158 100%   17.32MB/s    0:00:00 (xfr#7, to-chk=57/69)
+2022-01-17 10:04:42.572963 +0000 build-centos1: <f..t...... centos8/repodata/f31de4fb51b2912e1fe6e7d11e9e43d637c9aaf39d233371e542efd414d1ed82-comps.xml.gz
+2022-01-17 10:04:42.572976 +0000 build-centos1: .            263 100%  256.84kB/s    0:00:00  .            263 100%  256.84kB/s    0:00:00 (xfr#8, to-chk=56/69)
+2022-01-17 10:04:42.573007 +0000 build-centos1: <f..t...... centos8/repodata/repomd.xml
+2022-01-17 10:04:42.573046 +0000 build-centos1: .          3,839 100%    3.66MB/s    0:00:00  .          3,839 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=55/69)
+2022-01-17 10:04:42.573067 +0000 build-centos1: <f..t...... centos8/repodata/repomd.xml.asc
+2022-01-17 10:04:42.573078 +0000 build-centos1: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=54/69)
+2022-01-17 10:04:42.573086 +0000 build-centos1: .d..t...... centos8/rpm/
+2022-01-17 10:04:42.573094 +0000 build-centos1: <f+++++++++ centos8/rpm/qubes-tunnel-1.4.5-1.el8.src.rpm
+2022-01-17 10:04:42.573168 +0000 build-centos1: .         32,768  96%   31.25MB/s    0:00:00  .         33,824 100%   32.26MB/s    0:00:00 (xfr#11, to-chk=2/69)
+2022-01-17 10:04:42.573177 +0000 build-centos1: <f+++++++++ centos8/rpm/qubes-tunnel-1.4.5-1.el8.x86_64.buildinfo
+2022-01-17 10:04:42.573189 +0000 build-centos1: .          6,982 100%    6.66MB/s    0:00:00  .          6,982 100%    6.66MB/s    0:00:00 (xfr#12, to-chk=1/69)
+2022-01-17 10:04:42.573197 +0000 build-centos1: <f+++++++++ centos8/rpm/qubes-tunnel-1.4.5-1.el8.x86_64.rpm
+2022-01-17 10:04:42.573279 +0000 build-centos1: .         12,400 100%   11.83MB/s    0:00:00  .         12,400 100%   11.83MB/s    0:00:00 (xfr#13, to-chk=0/69)
+2022-01-17 10:04:43.174904 +0000 build-centos1: Makefile:819: update target 'update-repo-current-testing' due to: internal-update-repo-current-testing.vm.centos7 internal-update-repo-current-testing.vm.centos8 post-update-repo-current-testing
+2022-01-17 10:04:43.174946 +0000 build-centos1: true
+2022-01-17 10:04:43.175921 +0000 build-centos1: > done
+2022-01-17 10:04:43.176000 +0000 > closing log
