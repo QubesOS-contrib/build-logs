@@ -1,0 +1,1008 @@
+2023-07-26 09:24:37.596062 +0000 > starting log
+2023-07-26 09:24:37.596467 +0000 build-fedora2: > starting build with log
+2023-07-26 09:24:37.596510 +0000 build-fedora2: >> make args: DISTS_VM= fc37 fc38 DIST_DOM0= BUILD_LOGS_URL= tunnel-vm-fc37=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-21-09 tunnel-vm-fc38=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-23-20 GIT_URL_tunnel=https://github.com/QubesOS-contrib/qubes-tunnel sign-all update-repo-current-testing
+2023-07-26 09:24:37.596522 +0000 build-fedora2: >> MAKEFLAGS=
+2023-07-26 09:24:37.596532 +0000 build-fedora2: >> COMPONENTS=tunnel
+2023-07-26 09:24:37.596541 +0000 build-fedora2: >> DISTS_VM=
+2023-07-26 09:24:37.596549 +0000 build-fedora2: >> DIST_DOM0=
+2023-07-26 09:24:37.596560 +0000 build-fedora2: >> qubes-builder 19e2b0ab5e44b2383f9f76446c14f6f52d52a76b
+2023-07-26 09:24:37.596579 +0000 build-fedora2: >> qubes-builder/qubes-src/tunnel 6dbbad5ac935d62f359ddc993f44a719e9179a36
+2023-07-26 09:24:37.596591 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.src.rpm
+2023-07-26 09:24:37.596602 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.buildinfo
+2023-07-26 09:24:37.596612 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2023-07-26 09:24:37.596621 +0000 build-fedora2: !! pkgs/vm-fc31/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596631 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.596641 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.2-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.596651 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.src.rpm
+2023-07-26 09:24:37.596661 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.596670 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.rpm
+2023-07-26 09:24:37.596679 +0000 build-fedora2: !! pkgs/vm-fc32/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596689 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.1-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.596699 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.2-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.596709 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.src.rpm
+2023-07-26 09:24:37.596718 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.596728 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.rpm
+2023-07-26 09:24:37.596737 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm
+2023-07-26 09:24:37.596747 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.596757 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm
+2023-07-26 09:24:37.596766 +0000 build-fedora2: !! pkgs/vm-fc33/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596775 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo
+2023-07-26 09:24:37.596785 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.src.rpm
+2023-07-26 09:24:37.596794 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.x86_64.buildinfo
+2023-07-26 09:24:37.596804 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.x86_64.rpm
+2023-07-26 09:24:37.596813 +0000 build-fedora2: !! pkgs/vm-fc34/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596822 +0000 build-fedora2: !! pkgs/vm-fc35/qubes-tunnel-1.4.4-1.fc35.x86_64.buildinfo
+2023-07-26 09:24:37.596832 +0000 build-fedora2: !! pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.src.rpm
+2023-07-26 09:24:37.596842 +0000 build-fedora2: !! pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.x86_64.buildinfo
+2023-07-26 09:24:37.596851 +0000 build-fedora2: !! pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.x86_64.rpm
+2023-07-26 09:24:37.596860 +0000 build-fedora2: !! pkgs/vm-fc35/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596869 +0000 build-fedora2: !! pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.src.rpm
+2023-07-26 09:24:37.596879 +0000 build-fedora2: !! pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.x86_64.buildinfo
+2023-07-26 09:24:37.596897 +0000 build-fedora2: !! pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.x86_64.rpm
+2023-07-26 09:24:37.596906 +0000 build-fedora2: !! pkgs/vm-fc36/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596916 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.src.rpm
+2023-07-26 09:24:37.596926 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.x86_64.buildinfo
+2023-07-26 09:24:37.596935 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.x86_64.rpm
+2023-07-26 09:24:37.596944 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm
+2023-07-26 09:24:37.596954 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo
+2023-07-26 09:24:37.596963 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm
+2023-07-26 09:24:37.596972 +0000 build-fedora2: !! pkgs/vm-fc37/qubes-tunnel.spec.list
+2023-07-26 09:24:37.596982 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.src.rpm
+2023-07-26 09:24:37.596991 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.x86_64.buildinfo
+2023-07-26 09:24:37.597001 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.x86_64.rpm
+2023-07-26 09:24:37.597010 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm
+2023-07-26 09:24:37.597019 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo
+2023-07-26 09:24:37.597029 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm
+2023-07-26 09:24:37.597037 +0000 build-fedora2: !! pkgs/vm-fc38/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597054 +0000 build-fedora2: e37696a65befa52205c395f73db45408a6cc992bc3fce72f055841db19df780e06d7f7768705bcc48d42dd6f05dc13e58161f3d45277c9ca9068dd076a5f474f  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.src.rpm
+2023-07-26 09:24:37.597071 +0000 build-fedora2: e1a2f92f2f7648e5271faa0c7a80c15139fb80002a5b887fbe61f466a3638218902703efc1304634f6489965f8dc0a68a031f0e16a43ef379e230125d14eb234  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.buildinfo
+2023-07-26 09:24:37.597088 +0000 build-fedora2: 3acb295913f3e1f25043e5ce1f4618b28e4ee32d860791d5b858315b962be27d092e2101fe520249357e40a1b4e2844454c9d6f382deb00f8a3b698592e49ef9  pkgs/vm-fc31/qubes-tunnel-1.4.1-1.fc31.x86_64.rpm
+2023-07-26 09:24:37.597104 +0000 build-fedora2: ae9c7de43a340d8a924a2ad357b66807df21e8c2a51a2eb11826670a2195328d1965b4eed01b3566dd475eb2074624cb0d45858b588b97d80bb56dcfdff0b89d  pkgs/vm-fc31/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597121 +0000 build-fedora2: 1151cc8614dce0453e708cc8e5a44e01a9889605799ee1c313ee69917f7e0df5163414b3c65fdb7eadf5fc012d03e581470c64c4b22fd604146da1f2d32b6f2a  pkgs/vm-fc32/qubes-tunnel-1.4.1-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.597141 +0000 build-fedora2: df4fec357fecea8664083d129213260f83af23bcfd44e5ba865e2a8fbf9a5e10a25479cc9896721f07e7aea866ca04cbfdd2d5893f42c8bf3da199d50f84a11a  pkgs/vm-fc32/qubes-tunnel-1.4.2-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.597158 +0000 build-fedora2: 9cead6a59de5d38e8d3a96874aaf4530169c282739e8210965f6d7c2706c926206fec7167fc8bd8331a919afddef6135c4a49b4a5ed1a719c932060f8c6c2e7f  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.src.rpm
+2023-07-26 09:24:37.597174 +0000 build-fedora2: 7adfc9b0538d08b7e10f646910abad5ab0346fcee13ee1a2a1fbd244aed010b97dc54ec8de4187ace9347a929054435c6a19384898ae3218f06150c1aae2ee4b  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.buildinfo
+2023-07-26 09:24:37.597191 +0000 build-fedora2: 3c182dcada96d4169432c36a33e29fba76013b0031e4ad0ab32dbc0a971f464440e60c3f4f3e4c4a06e5ae6b778e2666e007db5dce7e64c15cf3150e36072cd1  pkgs/vm-fc32/qubes-tunnel-1.4.3-1.fc32.x86_64.rpm
+2023-07-26 09:24:37.597207 +0000 build-fedora2: f9d9fa08cffa7ba5bb2b0cc92c678a559b19bece955d83ea837a3add6fa77014d4f48d426d402902f065871126ae0f5514bbca62f99bd643ebceeed099eac213  pkgs/vm-fc32/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597264 +0000 build-fedora2: 81a28f895b3d8a9ff0e734cbc4557fd3feea90e7bbb795cc670c0834f4a35736c01c0a20a1e3cddeebcf106fe850d478c8b5fa0dae32d4af487c76dbd748e4dc  pkgs/vm-fc33/qubes-tunnel-1.4.1-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.597293 +0000 build-fedora2: 8493f19ca5a2fd595734df6b68525ea1900f72da42aa93b30bf497c54f893f5edc86ddeace366f4f315efddfc3abe464ccf51fa2defe7a993820df84b3d0fa3f  pkgs/vm-fc33/qubes-tunnel-1.4.2-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.597311 +0000 build-fedora2: 5db994038b7b75c45304dd3f4b9c9cc38a02d5465d36286130d583c69dc11fa6b0d0f75f8117bac1d7d84ddf750f2ac0ed46f1656a4bcfcaa42052fe320e96cd  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.src.rpm
+2023-07-26 09:24:37.597327 +0000 build-fedora2: 3d2ba8c801f439e84c458a31676479282068435504bb00f2a7b78fc2a9bf40ccd9b9bedf9ab4c7ec3d42909bac8f31e43fda9cbfd21cb94e101838bc4bf42498  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.597344 +0000 build-fedora2: 1fbcb5173a4226cb91eaaf3ab5dea678fdc8a22d6aca625fc4a251380ef7d0f12cb2209098c36c79a7392685b4bdfc937e09ec62ff1f13a727d55c0199cf0edb  pkgs/vm-fc33/qubes-tunnel-1.4.3-1.fc33.x86_64.rpm
+2023-07-26 09:24:37.597360 +0000 build-fedora2: 00b47c5e0683910aec151a199a62111d08af8f433cd34e2d4377e6cfe016b24a40799335ea7c445845f8412c98c34067401ecfd868f029e36b907cfe98148a0a  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.src.rpm
+2023-07-26 09:24:37.597376 +0000 build-fedora2: 65e330739906bce64ea285627f5b23cf312251f728cfe0fb4ae15d688ff3d8d0fba39c5198c0fda78b24569d7745d3da370675b1642e418a6e7d55714fff210e  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.buildinfo
+2023-07-26 09:24:37.597392 +0000 build-fedora2: 2155149cc5a48e7b9a8ee96914144152cb9220f447273c6f992464c467b128f17f7baee7310c766a115e2a424900da0a56f673882ca2f64e4701a6464acd78bf  pkgs/vm-fc33/qubes-tunnel-1.4.4-1.fc33.x86_64.rpm
+2023-07-26 09:24:37.597408 +0000 build-fedora2: 152d7e83c2fc1678796796ffacf19b0a658858bc47f540bb52d8688dddaf4af04c1e9e755bc8deb67b9125632d24d11cba933629f068ac527701e78fae49b365  pkgs/vm-fc33/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597424 +0000 build-fedora2: 08ce861e27cbe809b889192084bfac19fdbc12d4387f37bd63d170e061e2a6f272d95e6f45e11f9d0df42b158054b35410c20f17611cfafc9142a4aaeb557878  pkgs/vm-fc34/qubes-tunnel-1.4.4-1.fc34.x86_64.buildinfo
+2023-07-26 09:24:37.597440 +0000 build-fedora2: c46c9d83d24bc7a00eefbd4e3ae8198f188552e2c71ae813a4a2bc405be1ab8ff1e178b276ca519ba7aa5f3e95ec60dbadc127c8d0a85b9fb694aa74f0e341e9  pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.src.rpm
+2023-07-26 09:24:37.597456 +0000 build-fedora2: 03f04b90d6b1cd9ca9da6473b6bb125348397a11e03377dadcd1eb409dd31202f11137cc277b6ee935e4569e3c7d21707ef8a535ce0afb47e55b1ab0e62ef693  pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.x86_64.buildinfo
+2023-07-26 09:24:37.597472 +0000 build-fedora2: c9d9ffb4eedee4fe0a6453705acfc7e935bb3e64afaa05839ff9da462ea0a44c479ea8301173b53e62f438ec71d23f024518502944dfa2f6b9f4a99645d34895  pkgs/vm-fc34/qubes-tunnel-1.4.5-1.fc34.x86_64.rpm
+2023-07-26 09:24:37.597488 +0000 build-fedora2: ae3d6b3ed93e2013f399fea5259a8ca3cb9d5e8badb91344486a05d0a30b446a065db95126802fa13f4d966eb06956b637b1d14977f47628f297e32cf1899a54  pkgs/vm-fc34/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597505 +0000 build-fedora2: abf41568e10caf4a61f37bad65fb836fbe8f04da0515b2347e5fcbacb4493533f67615c3982ecfa64835b1be01ea8b12338fc2fd97a9e2f6ee2af0e3e918d473  pkgs/vm-fc35/qubes-tunnel-1.4.4-1.fc35.x86_64.buildinfo
+2023-07-26 09:24:37.597521 +0000 build-fedora2: d4b0d4e77600a23f061a078ce1114443af7831965a9997dfbe0e8ec3d37e5748b4c618c22a14c93cdfe4b6268b41c9c515e8888abefb244c3165e8ccf868c37f  pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.src.rpm
+2023-07-26 09:24:37.597537 +0000 build-fedora2: 1a2f6af7adcd892f38558cf43341107ad9d73be305444f5a84283a28e5dc21228f1172d7dc50feec4876794b349a70c54e80f89b2a3c29609bc1de9addfba028  pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.x86_64.buildinfo
+2023-07-26 09:24:37.597553 +0000 build-fedora2: 69cf717bf4dd5648e0db254befb3df3d630f4fca0d9de8d37bf029adc7a108f91d1ec0b01cc059e0069a8aef18b028e7fe6d89fcbfd039ceb0d1873c4cea3c52  pkgs/vm-fc35/qubes-tunnel-1.4.5-1.fc35.x86_64.rpm
+2023-07-26 09:24:37.597599 +0000 build-fedora2: 19084df1fcbd8604694d5821ada9fcb531c55a2f1b1824b46150417ef64365dc9418a013677059e8859ebf74a624adbc9085cc0a3977245bd9c095597c17ef58  pkgs/vm-fc35/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597617 +0000 build-fedora2: 1777d2e58800ae081cd455503ddda9f58fe912a6e4f288f8518cf51486904df929c9ab4c6416409085ee4839a199d32c21f52f1652dddd4ce038d5786a6fc307  pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.src.rpm
+2023-07-26 09:24:37.597634 +0000 build-fedora2: adb9d1596cef59540a44e767ab497bd5872d72e0a40d37d13ceac0bb99f9a90ae0d82481e0aed008715552e3619baed42bd6f086105971a1cf94491bccc1bcec  pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.x86_64.buildinfo
+2023-07-26 09:24:37.597650 +0000 build-fedora2: 2ce58c126b3d75629386daf794b3634c33a0c06d4edce6d55557bd8c34121a97e1bd6b0d1a2373ee2d313a229c9d01f5752e56fc20c15bd63d573a9966e9048e  pkgs/vm-fc36/qubes-tunnel-1.4.5-1.fc36.x86_64.rpm
+2023-07-26 09:24:37.597666 +0000 build-fedora2: f2df1a3fcb7ab0c299c51fb77622d9f382af416ad65d58ca6f0136f8faef2e885830bb4e7cd5e0cae35cffb9e753f390e3e24c5762beaefe7d2ee15eac703cc5  pkgs/vm-fc36/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597682 +0000 build-fedora2: f335903b102f19a51f792e467c6acfda6fb3a3a9792273c98e5883b6a7547bfadd02205c214c1efb39bf50d64e5a12f6fc09f98c6acb61f46ad94ea886077254  pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.src.rpm
+2023-07-26 09:24:37.597699 +0000 build-fedora2: ae51dade4c477da4d08427a64ef7b1cb8e490b7c7755210e2bc049246a2b674422565be67e52496cbc5b34b02b035d0a6c410ff1fc6b2f4e486b60fbef703ee4  pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.x86_64.buildinfo
+2023-07-26 09:24:37.597715 +0000 build-fedora2: f3062858b8300519da0556eb7280fb2a1d42c435cde8fdc7eb0697d5feeccf0a9f20a4221af102ee5d57fb4a60b84dcb4b76f056305b28bc4512bdf7c232fa87  pkgs/vm-fc37/qubes-tunnel-1.4.5-1.fc37.x86_64.rpm
+2023-07-26 09:24:37.597731 +0000 build-fedora2: 0a7329f8b3410bb7821dba818cff71c61fb36fc93b5207acfd5253156adf11c2f44be51bf8776614d06b16c29cb66b2d07cc94bf768a7a28b597499470bcf763  pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm
+2023-07-26 09:24:37.597748 +0000 build-fedora2: 2589b3d08e384e838a96a87b7c396a39ff793af9f40f1c1cde52cc59f1e1d84f95deb908495cc239d37ae0d11d845bc1a7800b67b434eb1b795745b1956ee834  pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo
+2023-07-26 09:24:37.597764 +0000 build-fedora2: f6560ea67c0efdff794623792481d199a7b05f6f041c9a9a9bc0d824f2b081c6c42bb8ca8dfa9eb493c9d429a9e8795226962dd7293209687d1cd5dca946e770  pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm
+2023-07-26 09:24:37.597779 +0000 build-fedora2: 066824a13217a2892c72a353d0e06e8c72bc6de6aa70fd74bba7bf84b28977a9fa241fff8dae69e40076f4ab401cb85b50fcb737523db49db610145516051b05  pkgs/vm-fc37/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597796 +0000 build-fedora2: 0ce45f0af65f076beeca2a653cba2ac36a2bd4b83e67fba866a5f04372e474024a4e10094d8e975f09a8c45646127d5da1b648eba0d81883ef86f1de03c455ff  pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.src.rpm
+2023-07-26 09:24:37.597812 +0000 build-fedora2: 791a92ef4fa3793675d180be76c15fe89047649b785c29470e02b0d2682d2e42763b771232996c00658cce3250ce160e056f988025ad7ecd99057993e0f263f8  pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.x86_64.buildinfo
+2023-07-26 09:24:37.597829 +0000 build-fedora2: d70ff073d7796d2221e9f2eb668cc5380778ca6c952c12308b74da731e8c348ebb95b02f4a3261827b74518f322b901ba118da0cbaa2e58990a8e784e1f13ed7  pkgs/vm-fc38/qubes-tunnel-1.4.5-1.fc38.x86_64.rpm
+2023-07-26 09:24:37.597845 +0000 build-fedora2: f3c59026e54f2581b28cb3968d7c71323c0b9cba98239a8612f9d0ef7238daa19c38a2b4bad3aa4188ad478ccce963dd6036d7458372385d24c5b76b91e0f0c1  pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm
+2023-07-26 09:24:37.597861 +0000 build-fedora2: 81621b06190fbf094a8b2ccfda7268482c52f4b3b6c9a015e0d839abc7acd33cbf2a09eeead1768922ef33e1f918b8c04f761aa2a327a2640f2083efabf8d839  pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo
+2023-07-26 09:24:37.597878 +0000 build-fedora2: c17d8677522b87cfe7fd0cc8ced01b0a15f82249974acbf0a4d1d2b5d60f65379d2962bffe99322b765553027a4a90fe7dcd0532d51eaed87145c78a6bed513c  pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm
+2023-07-26 09:24:37.597898 +0000 build-fedora2: 46c0771c3c0f4b28c9bf3b48ccd320838b668b212de2188a6d16ff1046a35988a20e52fcff6446ee343a9a2eddd84e71293af4d87f55ec90a128989edf0932b0  pkgs/vm-fc38/qubes-tunnel.spec.list
+2023-07-26 09:24:37.597910 +0000 build-fedora2: ================================================================================
+2023-07-26 09:24:37.597921 +0000 build-fedora2:                            B U I L D   I N F O                                  
+2023-07-26 09:24:37.597932 +0000 build-fedora2: Items in red indicate it was automatically generated by configuration file(s)
+2023-07-26 09:24:37.597943 +0000 build-fedora2: Items in white indicate it was automatically removed by configuration file(s)
+2023-07-26 09:24:37.597954 +0000 build-fedora2: ================================================================================
+2023-07-26 09:24:37.597962 +0000 build-fedora2: DISTS_VM:
+2023-07-26 09:24:37.597970 +0000 build-fedora2:      fc37, fc38,
+2023-07-26 09:24:37.597978 +0000 build-fedora2: DISTS_ALL:
+2023-07-26 09:24:37.597986 +0000 build-fedora2:      vm-fc37, vm-fc38,
+2023-07-26 09:24:37.597993 +0000 build-fedora2: DIST_DOM0:
+2023-07-26 09:24:37.598001 +0000 build-fedora2:     
+2023-07-26 09:24:37.598008 +0000 build-fedora2: BUILDER_PLUGINS:
+2023-07-26 09:24:37.598019 +0000 build-fedora2:      builder-rpm, mgmt-salt, contrib-configs, builder-github,
+2023-07-26 09:24:37.598026 +0000 build-fedora2: COMPONENTS:
+2023-07-26 09:24:37.598033 +0000 build-fedora2:      tunnel,
+2023-07-26 09:24:37.598041 +0000 build-fedora2: GIT_REPOS:
+2023-07-26 09:24:37.598049 +0000 build-fedora2:      qubes-src/tunnel,
+2023-07-26 09:24:37.598056 +0000 build-fedora2: TEMPLATE:
+2023-07-26 09:24:37.598063 +0000 build-fedora2:     
+2023-07-26 09:24:37.598071 +0000 build-fedora2: TEMPLATE_FLAVOR_DIR:
+2023-07-26 09:24:37.598078 +0000 build-fedora2:     
+2023-07-26 09:24:37.598086 +0000 build-fedora2: TEMPLATE_ALIAS:
+2023-07-26 09:24:37.598093 +0000 build-fedora2:     
+2023-07-26 09:24:37.598100 +0000 build-fedora2: TEMPLATE_LABEL:
+2023-07-26 09:24:37.598107 +0000 build-fedora2:     
+2023-07-26 09:24:37.598115 +0000 build-fedora2: > running make
+2023-07-26 09:24:37.598126 +0000 build-fedora2: Makefile:299: update target 'sign.vm.fc37.tunnel' due to: target does not exist
+2023-07-26 09:24:37.598187 +0000 build-fedora2: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2023-07-26 09:24:37.598199 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2023-07-26 09:24:37.598208 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2023-07-26 09:24:37.598219 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2023-07-26 09:24:37.598245 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then
+2023-07-26 09:24:37.598257 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc37 template-name)
+2023-07-26 09:24:37.598265 +0000 build-fedora2: fi
+2023-07-26 09:24:37.598275 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2023-07-26 09:24:37.598286 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2023-07-26 09:24:37.598294 +0000 build-fedora2: ..DIST=fc37 \
+2023-07-26 09:24:37.598302 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2023-07-26 09:24:37.598310 +0000 build-fedora2: ..COMPONENT=tunnel \
+2023-07-26 09:24:37.598319 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2023-07-26 09:24:37.598327 +0000 build-fedora2: ..sign || exit 1; \
+2023-07-26 09:24:37.598342 +0000 build-fedora2: elif [ -d qubes-src/tunnel/rpm ]; then \
+2023-07-26 09:24:37.598352 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2023-07-26 09:24:37.598362 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2023-07-26 09:24:37.598372 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2023-07-26 09:24:37.598381 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2023-07-26 09:24:37.598389 +0000 build-fedora2: ..fi ;\
+2023-07-26 09:24:37.598396 +0000 build-fedora2: .done ; \
+2023-07-26 09:24:37.598405 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2023-07-26 09:24:37.598413 +0000 build-fedora2: ..echo "--> Signing..."; \
+2023-07-26 09:24:37.598422 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2023-07-26 09:24:37.598431 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2023-07-26 09:24:37.598440 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2023-07-26 09:24:37.598447 +0000 build-fedora2: ..fi; \
+2023-07-26 09:24:37.598458 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2023-07-26 09:24:37.598465 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:37.598472 +0000 build-fedora2: fi
+2023-07-26 09:24:37.598480 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:37.598489 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:37.598499 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:37.598507 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:37.598514 +0000 build-fedora2: + dist=fc37
+2023-07-26 09:24:37.598522 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:37.598532 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:37.598540 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:37.598549 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:37.598559 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:37.598568 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:37.598576 +0000 build-fedora2: + tmp_spec=/tmp/tmp.veSe5e.spec
+2023-07-26 09:24:37.598587 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:37.598602 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.veSe5e.spec
+2023-07-26 09:24:37.598611 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:37.598619 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:37.598629 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:37.598637 +0000 build-fedora2: + output=/tmp/tmp.veSe5e.spec
+2023-07-26 09:24:37.598648 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:37.598660 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598668 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:37.598676 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:37.598687 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598695 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:37.598702 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:37.598711 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:37.598718 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:37.598726 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:37.598737 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598744 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:37.598751 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:37.598767 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598778 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598788 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598798 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:37.598807 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:37.598817 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.veSe5e.spec
+2023-07-26 09:24:37.737741 +0000 build-fedora2: + rm -f /tmp/tmp.veSe5e.spec
+2023-07-26 09:24:37.740843 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:204: update target 'sign-prep' due to: target does not exist
+2023-07-26 09:24:37.740862 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2023-07-26 09:24:37.740874 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2023-07-26 09:24:37.740884 +0000 build-fedora2: .tmpname=$(mktemp); \
+2023-07-26 09:24:37.740897 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2023-07-26 09:24:37.740909 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2023-07-26 09:24:37.740918 +0000 build-fedora2: .rm -f "$tmpname"; \
+2023-07-26 09:24:37.740925 +0000 build-fedora2: fi
+2023-07-26 09:24:37.906944 +0000 build-fedora2: warning: Found bdb_ro Packages database while attempting sqlite backend: using bdb_ro backend.
+2023-07-26 09:24:37.934084 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:37.934151 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:37.954631 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:37.954666 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:37.975852 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:37.975888 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:37.989569 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:37.989592 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:38.007286 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:220: update target 'sign' due to: sign-prep
+2023-07-26 09:24:38.007315 +0000 build-fedora2: cd qubes-src/tunnel && for pkg in pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo ; do \
+2023-07-26 09:24:38.007326 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2023-07-26 09:24:38.007341 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2023-07-26 09:24:38.007349 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2023-07-26 09:24:38.007358 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2023-07-26 09:24:38.007370 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2023-07-26 09:24:38.007376 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:38.007382 +0000 build-fedora2: done
+2023-07-26 09:24:38.033143 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 09:24:38.166788 +0000 build-fedora2: pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm:
+2023-07-26 09:24:38.187905 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 09:24:38.303085 +0000 build-fedora2: pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm:
+2023-07-26 09:24:38.415520 +0000 build-fedora2: Makefile:299: update target 'sign.vm.fc38.tunnel' due to: target does not exist
+2023-07-26 09:24:38.415580 +0000 build-fedora2: if [ -n "tunnel" -a "0" -ne 0 ]; then BRANCH=master; branch_var="BRANCH_tunnel"; [ -n "${!branch_var}" ] && BRANCH="${!branch_var}"; pushd qubes-src/tunnel > /dev/null; CURRENT_BRANCH=`git symbolic-ref --short HEAD 2>/dev/null || git describe --tags --exact-match HEAD`; if [ "$BRANCH" != "$CURRENT_BRANCH" ]; then echo "-> ERROR: Wrong branch $branch_var=$CURRENT_BRANCH (expected $BRANCH)"; exit 1; fi; popd > /dev/null; fi
+2023-07-26 09:24:38.415591 +0000 build-fedora2: SIGN_KEY=04A8F986B97FBCB838F08C305FE4986AD0941E87; \
+2023-07-26 09:24:38.415598 +0000 build-fedora2: sign_key_var="SIGN_KEY_${DIST%%+*}"; \
+2023-07-26 09:24:38.415604 +0000 build-fedora2: [ -n "${!sign_key_var}" ] && SIGN_KEY="${!sign_key_var}"; \
+2023-07-26 09:24:38.415609 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then
+2023-07-26 09:24:38.415616 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc38 template-name)
+2023-07-26 09:24:38.415621 +0000 build-fedora2: fi
+2023-07-26 09:24:38.415627 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2023-07-26 09:24:38.415633 +0000 build-fedora2: .make --no-print-directory -f Makefile.generic \
+2023-07-26 09:24:38.415637 +0000 build-fedora2: ..DIST=fc38 \
+2023-07-26 09:24:38.415642 +0000 build-fedora2: ..PACKAGE_SET=vm \
+2023-07-26 09:24:38.415647 +0000 build-fedora2: ..COMPONENT=tunnel \
+2023-07-26 09:24:38.415652 +0000 build-fedora2: ..SIGN_KEY=$SIGN_KEY \
+2023-07-26 09:24:38.415656 +0000 build-fedora2: ..sign || exit 1; \
+2023-07-26 09:24:38.415661 +0000 build-fedora2: elif [ -d qubes-src/tunnel/rpm ]; then \
+2023-07-26 09:24:38.415667 +0000 build-fedora2: .# Old mechanism supported only for RPM
+2023-07-26 09:24:38.415672 +0000 build-fedora2: FILE_LIST=""; for RPM in qubes-src/tunnel/rpm/*/*.rpm; do \
+2023-07-26 09:24:38.415678 +0000 build-fedora2: ..if ! qubes-src/installer-qubes-os/rpm_verify $RPM > /dev/null; then \
+2023-07-26 09:24:38.415683 +0000 build-fedora2: ...FILE_LIST="$FILE_LIST $RPM" ;\
+2023-07-26 09:24:38.415687 +0000 build-fedora2: ..fi ;\
+2023-07-26 09:24:38.415692 +0000 build-fedora2: .done ; \
+2023-07-26 09:24:38.415696 +0000 build-fedora2: .if [ -n "$FILE_LIST" ]; then \
+2023-07-26 09:24:38.415701 +0000 build-fedora2: ..echo "--> Signing..."; \
+2023-07-26 09:24:38.415706 +0000 build-fedora2: ..RPMSIGN_OPTS=--digest-algo=sha256; \
+2023-07-26 09:24:38.415711 +0000 build-fedora2: ..if [ -n "$SIGN_KEY" ]; then \
+2023-07-26 09:24:38.415716 +0000 build-fedora2: ...RPMSIGN_OPTS="--key-id=$SIGN_KEY"; \
+2023-07-26 09:24:38.415721 +0000 build-fedora2: ..fi; \
+2023-07-26 09:24:38.415727 +0000 build-fedora2: ..setsid -w rpmsign "$RPMSIGN_OPTS" --addsign $FILE_LIST </dev/null ;\
+2023-07-26 09:24:38.415731 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:38.415735 +0000 build-fedora2: fi
+2023-07-26 09:24:38.425891 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:38.425924 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:38.425933 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:38.425939 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:38.425944 +0000 build-fedora2: + dist=fc38
+2023-07-26 09:24:38.425949 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:38.426053 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:38.426639 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:38.426701 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:38.426731 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:38.426811 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:38.427378 +0000 build-fedora2: + tmp_spec=/tmp/tmp.JBDH9g.spec
+2023-07-26 09:24:38.427531 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:38.428271 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.JBDH9g.spec
+2023-07-26 09:24:38.429285 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:38.429315 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:38.429357 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:38.429369 +0000 build-fedora2: + output=/tmp/tmp.JBDH9g.spec
+2023-07-26 09:24:38.429440 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:38.429457 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.430817 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:38.430834 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:38.430915 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.432287 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:38.432320 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:38.432335 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:38.432350 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:38.432358 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:38.432367 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.433424 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:38.433437 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:38.433445 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.435518 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.436685 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.437707 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:38.439073 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:38.439094 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.JBDH9g.spec
+2023-07-26 09:24:38.610175 +0000 build-fedora2: + rm -f /tmp/tmp.JBDH9g.spec
+2023-07-26 09:24:38.612820 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:204: update target 'sign-prep' due to: target does not exist
+2023-07-26 09:24:38.612861 +0000 build-fedora2: if [ -n "qubes-gpg-client-wrapper" ]; then \
+2023-07-26 09:24:38.612870 +0000 build-fedora2: .mkdir -p /home/user/builder-r4.1/keyrings/rpmdb; \
+2023-07-26 09:24:38.612875 +0000 build-fedora2: .tmpname=$(mktemp); \
+2023-07-26 09:24:38.612881 +0000 build-fedora2: .qubes-gpg-client-wrapper --armor --export "04A8F986B97FBCB838F08C305FE4986AD0941E87" > "$tmpname"; \
+2023-07-26 09:24:38.612888 +0000 build-fedora2: .rpmkeys --dbpath=/home/user/builder-r4.1/keyrings/rpmdb --import "$tmpname"; \
+2023-07-26 09:24:38.612892 +0000 build-fedora2: .rm -f "$tmpname"; \
+2023-07-26 09:24:38.612896 +0000 build-fedora2: fi
+2023-07-26 09:24:38.723026 +0000 build-fedora2: warning: Found bdb_ro Packages database while attempting sqlite backend: using bdb_ro backend.
+2023-07-26 09:24:38.734300 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:38.734330 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:38.750477 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:38.750519 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:38.765169 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:38.765197 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:38.777177 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:38.777203 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:38.797889 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:220: update target 'sign' due to: sign-prep
+2023-07-26 09:24:38.797931 +0000 build-fedora2: cd qubes-src/tunnel && for pkg in pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo ; do \
+2023-07-26 09:24:38.797945 +0000 build-fedora2: .if [ "${pkg##*.}" = "buildinfo" ]; then \
+2023-07-26 09:24:38.797965 +0000 build-fedora2: ../home/user/builder-r4.1/qubes-src/builder-rpm/scripts/update-rpmbuildinfo "$pkg" | /usr/bin/qubes-gpg-client-wrapper --clearsign --local-user 04A8F986B97FBCB838F08C305FE4986AD0941E87 > "$pkg".tmp && \
+2023-07-26 09:24:38.797976 +0000 build-fedora2: ..mv -f "$pkg".tmp "$pkg"; \
+2023-07-26 09:24:38.797988 +0000 build-fedora2: .elif [ "$(rpmkeys --checksig -- "$pkg")" != "$pkg: digests signatures OK" ]; then \
+2023-07-26 09:24:38.798004 +0000 build-fedora2: ..setsid -w rpmsign --digest-algo=sha256 --key-id=04A8F986B97FBCB838F08C305FE4986AD0941E87 --addsign  -- "$pkg" </dev/null || exit 1; \
+2023-07-26 09:24:38.798012 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:38.798020 +0000 build-fedora2: done
+2023-07-26 09:24:38.819770 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 09:24:38.931793 +0000 build-fedora2: pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm:
+2023-07-26 09:24:38.948830 +0000 build-fedora2: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 09:24:39.070548 +0000 build-fedora2: pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm:
+2023-07-26 09:24:39.212578 +0000 build-fedora2: Makefile:863: update target 'internal-update-repo-current-testing.vm.fc37.tunnel' due to: target does not exist
+2023-07-26 09:24:39.212637 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2023-07-26 09:24:39.212653 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then \
+2023-07-26 09:24:39.212665 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2023-07-26 09:24:39.212676 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2023-07-26 09:24:39.212684 +0000 build-fedora2: fi; \
+2023-07-26 09:24:39.212694 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2023-07-26 09:24:39.212703 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2023-07-26 09:24:39.212710 +0000 build-fedora2: else \
+2023-07-26 09:24:39.212719 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2023-07-26 09:24:39.212726 +0000 build-fedora2: fi; \
+2023-07-26 09:24:39.212735 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2023-07-26 09:24:39.212744 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... "; \
+2023-07-26 09:24:39.212753 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2023-07-26 09:24:39.212764 +0000 build-fedora2: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2023-07-26 09:24:39.212773 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2023-07-26 09:24:39.212781 +0000 build-fedora2: ...echo "no version tag"; \
+2023-07-26 09:24:39.212789 +0000 build-fedora2: ...exit 0; \
+2023-07-26 09:24:39.212819 +0000 build-fedora2: ..fi; \
+2023-07-26 09:24:39.212827 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:39.212837 +0000 build-fedora2: .if [ "tunnel" = linux-template-builder ]; then
+2023-07-26 09:24:39.212850 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc37 template-name)
+2023-07-26 09:24:39.212858 +0000 build-fedora2: fi
+2023-07-26 09:24:39.212879 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc37 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc37 get-var GET_VAR=PACKAGE_LIST); \
+2023-07-26 09:24:39.212889 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2023-07-26 09:24:39.212898 +0000 build-fedora2: ..echo "no packages."; \
+2023-07-26 09:24:39.212906 +0000 build-fedora2: ..exit 0; \
+2023-07-26 09:24:39.212914 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:39.212923 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc37 PACKAGE_SET=vm \
+2023-07-26 09:24:39.212932 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/tunnel` \
+2023-07-26 09:24:39.212941 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2023-07-26 09:24:39.212950 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2023-07-26 09:24:39.212961 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc37 \
+2023-07-26 09:24:39.212974 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc37-`basename qubes-src/tunnel` \
+2023-07-26 09:24:39.212988 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-21-09 \
+2023-07-26 09:24:39.212996 +0000 build-fedora2: ..update-repo || exit 1; \
+2023-07-26 09:24:39.213008 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2023-07-26 09:24:39.213018 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
+2023-07-26 09:24:39.213029 +0000 build-fedora2: .DIST=fc37 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc37 \
+2023-07-26 09:24:39.213039 +0000 build-fedora2: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2023-07-26 09:24:39.213047 +0000 build-fedora2: else \
+2023-07-26 09:24:39.213056 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2023-07-26 09:24:39.213063 +0000 build-fedora2: fi; \
+2023-07-26 09:24:39.213070 +0000 build-fedora2: echo
+2023-07-26 09:24:39.230743 +0000 build-fedora2: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:39.230781 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:39.230797 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:39.230807 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:39.230815 +0000 build-fedora2: + dist=fc37
+2023-07-26 09:24:39.230824 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:39.230960 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:39.231919 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:39.231944 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:39.231975 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:39.232296 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:39.233292 +0000 build-fedora2: + tmp_spec=/tmp/tmp.uvBEE3.spec
+2023-07-26 09:24:39.233567 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:39.234506 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.uvBEE3.spec
+2023-07-26 09:24:39.235923 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:39.235937 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:39.235973 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:39.235984 +0000 build-fedora2: + output=/tmp/tmp.uvBEE3.spec
+2023-07-26 09:24:39.235995 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:39.236011 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.237737 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:39.237758 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:39.237772 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.239596 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:39.239643 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:39.239665 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:39.239686 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:39.239698 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:39.239713 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.241507 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:39.241531 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:39.241549 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.243285 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.244613 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.245717 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.247067 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:39.247094 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.uvBEE3.spec
+2023-07-26 09:24:39.415564 +0000 build-fedora2: + rm -f /tmp/tmp.uvBEE3.spec
+2023-07-26 09:24:39.434898 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:39.434930 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:39.434942 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:39.434956 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:39.434973 +0000 build-fedora2: + dist=fc37
+2023-07-26 09:24:39.435001 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:39.435325 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:39.436277 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:39.436287 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:39.436296 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:39.436456 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:39.437310 +0000 build-fedora2: + tmp_spec=/tmp/tmp.iiFqxi.spec
+2023-07-26 09:24:39.437465 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:39.438330 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.iiFqxi.spec
+2023-07-26 09:24:39.439424 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:39.439435 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:39.439526 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:39.439536 +0000 build-fedora2: + output=/tmp/tmp.iiFqxi.spec
+2023-07-26 09:24:39.439621 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:39.439636 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.441066 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:39.441083 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:39.441111 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.442496 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:39.442514 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:39.442522 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:39.442529 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:39.442535 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:39.442543 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.443422 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:39.443463 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:39.443473 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.444157 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.444871 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.445406 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:39.446039 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:39.446053 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.iiFqxi.spec
+2023-07-26 09:24:39.568575 +0000 build-fedora2: + rm -f /tmp/tmp.iiFqxi.spec
+2023-07-26 09:24:39.582573 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.582627 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.592988 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.593010 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.604571 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.604593 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.614639 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.614671 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.629417 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.629444 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.647488 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.647520 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.664132 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.664157 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.682942 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.682979 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.698980 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.699039 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.710581 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.710607 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.723765 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.723794 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.739047 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.739074 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.744786 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:179: update target 'update-repo-do' due to: target does not exist
+2023-07-26 09:24:39.744817 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc37/rpm
+2023-07-26 09:24:39.748468 +0000 build-fedora2: if [ -n "pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo" ]; then \
+2023-07-26 09:24:39.748509 +0000 build-fedora2: .cd qubes-src/tunnel && ln -f pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc37/rpm/; \
+2023-07-26 09:24:39.748521 +0000 build-fedora2: else \
+2023-07-26 09:24:39.748535 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2023-07-26 09:24:39.748545 +0000 build-fedora2: .exit 1; \
+2023-07-26 09:24:39.748553 +0000 build-fedora2: fi
+2023-07-26 09:24:39.749733 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.src.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm pkgs/vm-fc37/qubes-tunnel-1.4.5-2.fc37.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc37-tunnel
+2023-07-26 09:24:39.762460 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.762477 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.771982 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.772003 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.781434 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.781458 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.791503 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.791533 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.813518 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.813556 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.824280 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.824314 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.842908 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.842931 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.852916 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.852941 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.858705 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: update target 'notify-github' due to: target does not exist
+2023-07-26 09:24:39.858723 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.5-2.fc37" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2023-07-26 09:24:39.858748 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-21-09" \
+2023-07-26 09:24:39.858755 +0000 build-fedora2: .upload \
+2023-07-26 09:24:39.858760 +0000 build-fedora2: ."r4.1" \
+2023-07-26 09:24:39.858766 +0000 build-fedora2: ."qubes-src/tunnel" \
+2023-07-26 09:24:39.858771 +0000 build-fedora2: ."qubes-tunnel-1.4.5-2.fc37" \
+2023-07-26 09:24:39.858776 +0000 build-fedora2: ."fc37" \
+2023-07-26 09:24:39.858780 +0000 build-fedora2: ."vm" \
+2023-07-26 09:24:39.858785 +0000 build-fedora2: ."current-testing" \
+2023-07-26 09:24:39.858791 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc37-current-testing" \
+2023-07-26 09:24:39.858797 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc37-current"
+2023-07-26 09:24:39.869569 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.869603 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.892852 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.892895 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.904954 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.904982 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.919815 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.919843 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.936633 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.936662 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:39.956436 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:39.956458 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.433357 +0000 build-fedora2: WARNING: message template /home/user/builder-r4.1/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2023-07-26 09:24:46.454170 +0000 build-fedora2: 
+2023-07-26 09:24:46.454649 +0000 build-fedora2: Makefile:834: update target 'internal-update-repo-current-testing.vm.fc37' due to: internal-update-repo-current-testing.vm.fc37.tunnel
+2023-07-26 09:24:46.454668 +0000 build-fedora2: true
+2023-07-26 09:24:46.456294 +0000 build-fedora2: Makefile:863: update target 'internal-update-repo-current-testing.vm.fc38.tunnel' due to: target does not exist
+2023-07-26 09:24:46.456311 +0000 build-fedora2: repo_base_var="LINUX_REPO_${DIST//-/_}_BASEDIR"; \
+2023-07-26 09:24:46.456322 +0000 build-fedora2: if [ "tunnel" = linux-template-builder ]; then \
+2023-07-26 09:24:46.456333 +0000 build-fedora2: .# templates belongs to dom0 repository, even though PACKAGE_SET=vm
+2023-07-26 09:24:46.456342 +0000 build-fedora2: repo_base_var="LINUX_REPO__BASEDIR"; \
+2023-07-26 09:24:46.456350 +0000 build-fedora2: fi; \
+2023-07-26 09:24:46.456358 +0000 build-fedora2: if [ -n "${!repo_base_var}" ]; then \
+2023-07-26 09:24:46.456367 +0000 build-fedora2: .repo_basedir="${!repo_base_var}"; \
+2023-07-26 09:24:46.456374 +0000 build-fedora2: else \
+2023-07-26 09:24:46.456383 +0000 build-fedora2: .repo_basedir="qubes-src/linux-yum/r4.1"; \
+2023-07-26 09:24:46.456390 +0000 build-fedora2: fi; \
+2023-07-26 09:24:46.456400 +0000 build-fedora2: if [ -r qubes-src/tunnel/Makefile.builder ]; then \
+2023-07-26 09:24:46.456409 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... "; \
+2023-07-26 09:24:46.456434 +0000 build-fedora2: .if [ "0" -eq 1 ]; then \
+2023-07-26 09:24:46.456446 +0000 build-fedora2: ..vtag=`git -C qubes-src/tunnel tag --points-at HEAD --list v*`; \
+2023-07-26 09:24:46.456455 +0000 build-fedora2: ..if [ -z "$vtag" ]; then \
+2023-07-26 09:24:46.456464 +0000 build-fedora2: ...echo "no version tag"; \
+2023-07-26 09:24:46.456472 +0000 build-fedora2: ...exit 0; \
+2023-07-26 09:24:46.456479 +0000 build-fedora2: ..fi; \
+2023-07-26 09:24:46.456487 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:46.456496 +0000 build-fedora2: .if [ "tunnel" = linux-template-builder ]; then
+2023-07-26 09:24:46.456508 +0000 build-fedora2: export TEMPLATE_NAME=$(MAKEFLAGS= make -s -C qubes-src/linux-template-builder DIST=fc38 template-name)
+2023-07-26 09:24:46.456516 +0000 build-fedora2: fi
+2023-07-26 09:24:46.456536 +0000 build-fedora2: component_packages=$(MAKEFLAGS= make -s -f Makefile.generic DIST=fc38 PACKAGE_SET=vm COMPONENT=`basename qubes-src/tunnel` UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc38 get-var GET_VAR=PACKAGE_LIST); \
+2023-07-26 09:24:46.456547 +0000 build-fedora2: .if [ -z "$component_packages" ]; then \
+2023-07-26 09:24:46.456555 +0000 build-fedora2: ..echo "no packages."; \
+2023-07-26 09:24:46.456563 +0000 build-fedora2: ..exit 0; \
+2023-07-26 09:24:46.456570 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:46.456580 +0000 build-fedora2: .make -s -f Makefile.generic DIST=fc38 PACKAGE_SET=vm \
+2023-07-26 09:24:46.456589 +0000 build-fedora2: ..COMPONENT=`basename qubes-src/tunnel` \
+2023-07-26 09:24:46.456598 +0000 build-fedora2: ..SNAPSHOT_REPO=current-testing \
+2023-07-26 09:24:46.456606 +0000 build-fedora2: ..TARGET_REPO=current-testing \
+2023-07-26 09:24:46.456617 +0000 build-fedora2: ..UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc38 \
+2023-07-26 09:24:46.456630 +0000 build-fedora2: ..SNAPSHOT_FILE=/home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc38-`basename qubes-src/tunnel` \
+2023-07-26 09:24:46.456644 +0000 build-fedora2: ..BUILD_LOG_URL=https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-23-20 \
+2023-07-26 09:24:46.456652 +0000 build-fedora2: ..update-repo || exit 1; \
+2023-07-26 09:24:46.456664 +0000 build-fedora2: elif make -C qubes-src/tunnel -n update-repo-current-testing >/dev/null 2>/dev/null; then \
+2023-07-26 09:24:46.456673 +0000 build-fedora2: .echo "Updating qubes-src/tunnel... "; \
+2023-07-26 09:24:46.456685 +0000 build-fedora2: .DIST=fc38 UPDATE_REPO=/home/user/builder-r4.1/$repo_basedir/current-testing/vm/fc38 \
+2023-07-26 09:24:46.456695 +0000 build-fedora2: .make -s -C qubes-src/tunnel update-repo-current-testing || exit 1; \
+2023-07-26 09:24:46.456703 +0000 build-fedora2: else \
+2023-07-26 09:24:46.456712 +0000 build-fedora2: .echo -n "Updating qubes-src/tunnel... skipping."; \
+2023-07-26 09:24:46.456720 +0000 build-fedora2: fi; \
+2023-07-26 09:24:46.456726 +0000 build-fedora2: echo
+2023-07-26 09:24:46.475500 +0000 build-fedora2: Updating qubes-src/tunnel... + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:46.475531 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:46.475545 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:46.475555 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:46.475570 +0000 build-fedora2: + dist=fc38
+2023-07-26 09:24:46.475579 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:46.475992 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:46.476900 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:46.476926 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:46.476943 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:46.477278 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:46.478243 +0000 build-fedora2: + tmp_spec=/tmp/tmp.IOlPqc.spec
+2023-07-26 09:24:46.478534 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:46.479478 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.IOlPqc.spec
+2023-07-26 09:24:46.480957 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:46.480976 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:46.480988 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:46.480997 +0000 build-fedora2: + output=/tmp/tmp.IOlPqc.spec
+2023-07-26 09:24:46.481008 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:46.481020 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.482491 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:46.482504 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:46.482516 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.484289 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:46.484301 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:46.484323 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:46.484381 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:46.484392 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:46.484403 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.486047 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:46.486059 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:46.486070 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.487716 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.489026 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.490167 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.491641 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:46.491666 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.IOlPqc.spec
+2023-07-26 09:24:46.663100 +0000 build-fedora2: + rm -f /tmp/tmp.IOlPqc.spec
+2023-07-26 09:24:46.689546 +0000 build-fedora2: + ERR_OUTPUT=/dev/stderr
+2023-07-26 09:24:46.689577 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:46.689593 +0000 build-fedora2: + spec_file=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:46.689603 +0000 build-fedora2: + query_field='%{SOURCE0}'
+2023-07-26 09:24:46.689613 +0000 build-fedora2: + dist=fc38
+2023-07-26 09:24:46.689622 +0000 build-fedora2: + '[' 4 -lt 4 ']'
+2023-07-26 09:24:46.689992 +0000 build-fedora2: ++ basename qubes-src/tunnel/rpm_spec/qubes-tunnel.spec
+2023-07-26 09:24:46.691155 +0000 build-fedora2: + spec_file_bn=qubes-tunnel.spec
+2023-07-26 09:24:46.691169 +0000 build-fedora2: + [[ qubes-tunnel.spec.in == \.\i\n ]]
+2023-07-26 09:24:46.691263 +0000 build-fedora2: + '[' -r qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:46.691557 +0000 build-fedora2: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-07-26 09:24:46.692692 +0000 build-fedora2: + tmp_spec=/tmp/tmp.nzqX71.spec
+2023-07-26 09:24:46.692932 +0000 build-fedora2: ++ dirname /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/query-spec
+2023-07-26 09:24:46.694096 +0000 build-fedora2: + /home/user/builder-r4.1/qubes-src/builder-rpm/scripts/generate-spec qubes-src/tunnel qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in /tmp/tmp.nzqX71.spec
+2023-07-26 09:24:46.695547 +0000 build-fedora2: + '[' 3 -lt 3 ']'
+2023-07-26 09:24:46.695565 +0000 build-fedora2: + source_dir=qubes-src/tunnel
+2023-07-26 09:24:46.695652 +0000 build-fedora2: + input=qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in
+2023-07-26 09:24:46.695681 +0000 build-fedora2: + output=/tmp/tmp.nzqX71.spec
+2023-07-26 09:24:46.695781 +0000 build-fedora2: + '[' '!' -e qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in ']'
+2023-07-26 09:24:46.695822 +0000 build-fedora2: + cp qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.697375 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:46.697456 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:46.697526 +0000 build-fedora2: + sed -i 's|@VERSION@|1.4.5|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.699044 +0000 build-fedora2: + vnum=1
+2023-07-26 09:24:46.699067 +0000 build-fedora2: + read -r ver
+2023-07-26 09:24:46.699177 +0000 build-fedora2: + '[' -e qubes-src/tunnel/rel ']'
+2023-07-26 09:24:46.699243 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:46.699310 +0000 build-fedora2: + '[' -z '' ']'
+2023-07-26 09:24:46.699409 +0000 build-fedora2: + sed -i 's|@REL@|2|g' qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.700949 +0000 build-fedora2: + rnum=1
+2023-07-26 09:24:46.700971 +0000 build-fedora2: + read -r rel
+2023-07-26 09:24:46.701069 +0000 build-fedora2: + sed -i -e s:@BACKEND_VMM@:xen:g qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.702623 +0000 build-fedora2: + grep -q @CHANGELOG@ qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.704037 +0000 build-fedora2: + cat qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.705291 +0000 build-fedora2: + rm -rf qubes-src/tunnel/rpm_spec/qubes-tunnel.spec.in.tmp
+2023-07-26 09:24:46.706971 +0000 build-fedora2: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-07-26 09:24:46.706995 +0000 build-fedora2: + spectool --list-files --source 0 /tmp/tmp.nzqX71.spec
+2023-07-26 09:24:46.870214 +0000 build-fedora2: + rm -f /tmp/tmp.nzqX71.spec
+2023-07-26 09:24:46.882292 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.882322 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.897693 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.897723 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.916596 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.916626 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.935117 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.935150 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.962906 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.962939 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.982399 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.982431 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:46.999709 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:46.999740 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.010880 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.010896 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.033558 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.033580 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.048437 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.048459 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.065090 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.065117 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.085469 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.085501 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.096596 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-rpm/Makefile.rpmbuilder:179: update target 'update-repo-do' due to: target does not exist
+2023-07-26 09:24:47.096627 +0000 build-fedora2: mkdir -p /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc38/rpm
+2023-07-26 09:24:47.105135 +0000 build-fedora2: if [ -n "pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo" ]; then \
+2023-07-26 09:24:47.105174 +0000 build-fedora2: .cd qubes-src/tunnel && ln -f pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo  /home/user/builder-r4.1/qubes-src/linux-yum/r4.1/current-testing/vm/fc38/rpm/; \
+2023-07-26 09:24:47.105185 +0000 build-fedora2: else \
+2023-07-26 09:24:47.105199 +0000 build-fedora2: .echo "`tput bold`No packages defined by rpm_spec/qubes-tunnel.spec, syntax error?`tput sgr0`"; \
+2023-07-26 09:24:47.105208 +0000 build-fedora2: .exit 1; \
+2023-07-26 09:24:47.105216 +0000 build-fedora2: fi
+2023-07-26 09:24:47.107822 +0000 build-fedora2: cd qubes-src/tunnel && echo pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.src.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.rpm pkgs/vm-fc38/qubes-tunnel-1.4.5-2.fc38.x86_64.buildinfo  > /home/user/builder-r4.1/repo-latest-snapshot/current-testing-vm-fc38-tunnel
+2023-07-26 09:24:47.125319 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.125349 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.143668 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.143699 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.159608 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.159638 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.178181 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.178211 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.192865 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.192894 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.209711 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.209741 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.230038 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.230066 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.250462 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.250508 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.261513 +0000 build-fedora2: /home/user/builder-r4.1/qubes-src/builder-github//Makefile.github:18: update target 'notify-github' due to: target does not exist
+2023-07-26 09:24:47.261572 +0000 build-fedora2: [ -z "qubes-tunnel-1.4.5-2.fc38" ] || /home/user/builder-r4.1/qubes-src/builder-github//notify-issues \
+2023-07-26 09:24:47.261592 +0000 build-fedora2: .--build-log="https://github.com/QubesOS-contrib/build-logs/tree/master/build-fedora2/log_2023-07-26_09-23-20" \
+2023-07-26 09:24:47.261603 +0000 build-fedora2: .upload \
+2023-07-26 09:24:47.261612 +0000 build-fedora2: ."r4.1" \
+2023-07-26 09:24:47.261625 +0000 build-fedora2: ."qubes-src/tunnel" \
+2023-07-26 09:24:47.261634 +0000 build-fedora2: ."qubes-tunnel-1.4.5-2.fc38" \
+2023-07-26 09:24:47.261642 +0000 build-fedora2: ."fc38" \
+2023-07-26 09:24:47.261649 +0000 build-fedora2: ."vm" \
+2023-07-26 09:24:47.261658 +0000 build-fedora2: ."current-testing" \
+2023-07-26 09:24:47.261668 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc38-current-testing" \
+2023-07-26 09:24:47.261679 +0000 build-fedora2: ."/home/user/github-notify-state/r4.1-tunnel-vm-fc38-current"
+2023-07-26 09:24:47.278289 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.278322 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.311151 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.311272 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.327792 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.327823 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.348076 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.348192 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.365186 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.365206 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:47.393879 +0000 build-fedora2: error: Unable to open rpm_spec/qubes-tunnel.spec: No such file or directory
+2023-07-26 09:24:47.393903 +0000 build-fedora2: error: query of specfile rpm_spec/qubes-tunnel.spec failed, can't parse
+2023-07-26 09:24:50.687707 +0000 build-fedora2: WARNING: message template /home/user/builder-r4.1/qubes-src/builder-github/templates/message-current-testing-vm doesn't exist, not adding comments
+2023-07-26 09:24:50.704533 +0000 build-fedora2: 
+2023-07-26 09:24:50.704594 +0000 build-fedora2: Makefile:834: update target 'internal-update-repo-current-testing.vm.fc38' due to: internal-update-repo-current-testing.vm.fc38.tunnel
+2023-07-26 09:24:50.704609 +0000 build-fedora2: true
+2023-07-26 09:24:50.705967 +0000 build-fedora2: Makefile:923: update target 'post-update-repo-current-testing' due to: target does not exist
+2023-07-26 09:24:50.705991 +0000 build-fedora2: for dist in  fc37 fc38; do \
+2023-07-26 09:24:50.706004 +0000 build-fedora2: .repo_base_var="LINUX_REPO_${dist//-/_}_BASEDIR"; \
+2023-07-26 09:24:50.706014 +0000 build-fedora2: .if [ -n "${!repo_base_var}" ]; then \
+2023-07-26 09:24:50.706023 +0000 build-fedora2: ..repo_basedir="${!repo_base_var}"; \
+2023-07-26 09:24:50.706031 +0000 build-fedora2: .else \
+2023-07-26 09:24:50.706041 +0000 build-fedora2: ..repo_basedir="qubes-src/linux-yum/r4.1"; \
+2023-07-26 09:24:50.706048 +0000 build-fedora2: .fi; \
+2023-07-26 09:24:50.706058 +0000 build-fedora2: .repos_to_update="$repos_to_update $repo_basedir"; \
+2023-07-26 09:24:50.706088 +0000 build-fedora2: done; \
+2023-07-26 09:24:50.706097 +0000 build-fedora2: pkgset_dist= ; \
+2023-07-26 09:24:50.706106 +0000 build-fedora2: for dist in ; do \
+2023-07-26 09:24:50.706115 +0000 build-fedora2: .pkgset_dist="$pkgset_dist dom0/$dist"; \
+2023-07-26 09:24:50.706122 +0000 build-fedora2: done; \
+2023-07-26 09:24:50.706131 +0000 build-fedora2: for dist in fc37 fc38; do \
+2023-07-26 09:24:50.706140 +0000 build-fedora2: .pkgset_dist="$pkgset_dist vm/$dist"; \
+2023-07-26 09:24:50.706147 +0000 build-fedora2: done; \
+2023-07-26 09:24:50.706157 +0000 build-fedora2: for repo in `echo $repos_to_update|tr ' ' '\n'|sort|uniq`; do \
+2023-07-26 09:24:50.706166 +0000 build-fedora2: .[ -z "$repo" ] && continue; \
+2023-07-26 09:24:50.706176 +0000 build-fedora2: .[ -x "$repo/../update_repo-current-testing.sh" ] || continue; \
+2023-07-26 09:24:50.706187 +0000 build-fedora2: .(cd $repo/.. && ./update_repo-current-testing.sh r4.1 $pkgset_dist); \
+2023-07-26 09:24:50.706194 +0000 build-fedora2: done
+2023-07-26 09:24:50.714275 +0000 build-fedora2: ~/builder-r4.1/qubes-src/linux-yum ~/builder-r4.1/qubes-src/linux-yum
+2023-07-26 09:24:50.718398 +0000 build-fedora2: --> Processing repo: r4.1/current-testing/vm/fc37...
+2023-07-26 09:24:50.745778 +0000 build-fedora2: warning: Found bdb_ro Packages database while attempting sqlite backend: using bdb_ro backend.
+2023-07-26 09:24:50.747840 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.747859 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.747867 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.747873 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.747879 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.747885 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.747890 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.748280 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.748290 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.748295 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.748301 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.748306 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.748311 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.748316 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.748744 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.748753 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.748758 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.748764 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.748769 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.748774 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.748779 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.749291 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.749299 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.749305 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.749319 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.749325 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.749330 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.749335 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.749814 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.749822 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.749827 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.749833 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.749838 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.749843 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.749849 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.750579 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.750597 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.750605 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.750612 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.750617 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.750623 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.750628 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.751653 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.751669 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.751676 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.751681 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.751687 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.751692 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.751697 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.751824 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.751833 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.751839 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.751846 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.751853 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.751860 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.751867 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.752231 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.752322 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.752339 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.752350 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.752360 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.752392 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.752403 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.752885 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.752901 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.752912 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.752921 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.752938 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.752947 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.752956 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.753063 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.753078 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.753088 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.753097 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.753106 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.753115 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.753124 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.753793 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.753812 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.753822 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.753831 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.753841 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.753850 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.753859 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.754776 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.754791 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.754801 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.754810 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.754820 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.754828 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.754837 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755133 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.755147 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.755156 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755165 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755175 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.755184 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755193 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755423 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.755439 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.755449 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755458 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755467 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.755476 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755485 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755817 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.755831 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.755840 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755849 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.755858 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.755867 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.755876 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.756108 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.756121 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.756131 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.756140 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.756149 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.756158 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.756167 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.757288 +0000 build-fedora2: ERROR: There are unsigned RPM packages in r4.1/current-testing/vm/fc37/rpm repo:
+2023-07-26 09:24:50.757301 +0000 build-fedora2: ---------------------------------------
+2023-07-26 09:24:50.771044 +0000 build-fedora2: warning: Found bdb_ro Packages database while attempting sqlite backend: using bdb_ro backend.
+2023-07-26 09:24:50.773572 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.773591 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.773601 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.773611 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.773621 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.773630 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.773639 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.773931 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.773945 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.773954 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.773963 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.773973 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.773991 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.774001 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.774291 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.774305 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.774314 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.774324 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.774333 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.774342 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.774351 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.774817 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.774830 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.774840 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.774849 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.774858 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.774868 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.774877 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.775197 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.775210 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.775239 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.775251 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.775260 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.775269 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.775278 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.775690 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.775704 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.775714 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.775723 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.775732 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.775741 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.775750 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.776211 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.776238 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.776248 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.776258 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.776267 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.776276 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.776285 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.776722 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.776738 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.776747 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.776756 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.776766 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.776775 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.776784 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777335 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.777363 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.777375 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777385 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777394 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.777403 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777412 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777586 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.777601 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.777611 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777620 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777630 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.777639 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777648 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777814 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.777828 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.777837 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777847 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.777856 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.777865 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.777874 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778078 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.778091 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.778101 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778110 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778119 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.778128 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778137 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778310 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.778337 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.778347 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778356 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778366 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.778375 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778384 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778593 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.778607 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.778616 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778625 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778635 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.778644 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778653 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778807 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.778821 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.778830 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778839 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.778849 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.778858 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.778867 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.779108 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.779122 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.779131 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.779140 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.779150 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.779158 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.779167 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.779400 +0000 build-fedora2: error: Verifying a signature using certificate 04A8F986B97FBCB838F08C305FE4986AD0941E87 (Qubes OS Contrib Release 4 Signing Key):
+2023-07-26 09:24:50.779414 +0000 build-fedora2:   1. Certificiate 5FE4986AD0941E87 invalid: certificate is not alive
+2023-07-26 09:24:50.779423 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.779432 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.779441 +0000 build-fedora2:   2. Key 5FE4986AD0941E87 invalid: key is not alive
+2023-07-26 09:24:50.779450 +0000 build-fedora2:       because: The primary key is not live
+2023-07-26 09:24:50.779459 +0000 build-fedora2:       because: Expired on 2021-09-25T10:25:20Z
+2023-07-26 09:24:50.780588 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-core-agent-bridge-device-4.0.2-1.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780606 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-core-agent-bridge-device-4.0.2-1.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780627 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-core-agent-bridge-device-network-manager-4.0.2-1.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780640 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-remote-desktop-4.0.3-2.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780653 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-remote-desktop-4.0.3-2.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780665 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-0.15.5-1.fc37.noarch.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780677 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-0.15.5-1.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780689 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-0.16.0-1.fc37.noarch.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780701 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-0.16.0-1.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780714 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-disp-0.15.5-1.fc37.noarch.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780726 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-browser-disp-0.16.0-1.fc37.noarch.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780738 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-git-1.0.1-2.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780750 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-split-git-1.0.1-2.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780762 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-tunnel-1.4.5-1.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780775 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-tunnel-1.4.5-1.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780787 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-tunnel-1.4.5-2.fc37.src.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.780799 +0000 build-fedora2: r4.1/current-testing/vm/fc37/rpm/qubes-tunnel-1.4.5-2.fc37.x86_64.rpm: digests SIGNATURES NOT OK
+2023-07-26 09:24:50.781526 +0000 build-fedora2: ---------------------------------------
+2023-07-26 09:24:50.781539 +0000 build-fedora2: Sign them before proceeding.
+2023-07-26 09:24:50.781550 +0000 build-fedora2: make: *** [Makefile:923: post-update-repo-current-testing] Error 1
+2023-07-26 09:24:50.781559 +0000 > closing log
