@@ -1,0 +1,79 @@
+2023-07-26 10:08:02.854637 +0000 > starting log
+2023-07-26 10:08:02.854930 +0000 build-r42-centos1: > starting build with log
+2023-07-26 10:08:02.854947 +0000 build-r42-centos1: >> args:
+2023-07-26 10:08:02.854958 +0000 build-r42-centos1: >>   ()
+2023-07-26 10:08:02.854968 +0000 build-r42-centos1: >> component:
+2023-07-26 10:08:02.854976 +0000 build-r42-centos1: >>   tunnel
+2023-07-26 10:08:02.854987 +0000 build-r42-centos1: >>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956
+2023-07-26 10:08:02.855004 +0000 build-r42-centos1: >>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7
+2023-07-26 10:08:02.855021 +0000 build-r42-centos1: >> distributions:
+2023-07-26 10:08:02.855033 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-07-26 10:08:02.855066 +0000 build-r42-centos1: Executing 'bash -c mkdir -p /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4&&qubes-gpg-client-wrapper --armor --export B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > /tmp/tmplg8bmlpp/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc&&rpmkeys --dbpath=/home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --import /tmp/tmplg8bmlpp/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc'.
+2023-07-26 10:08:02.986622 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-07-26 10:08:02.987741 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.el8.x86_64.rpm'.
+2023-07-26 10:08:03.002652 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/build/rpm/qubes-tunnel-1.4.6-1.el8.x86_64.rpm'.
+2023-07-26 10:08:03.026589 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:08:03.214028 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:08:03.390794 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/build/rpm/qubes-tunnel-1.4.6-1.el8.x86_64.rpm:
+2023-07-26 10:08:03.404579 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.el8.src.rpm'.
+2023-07-26 10:08:03.419323 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/prep/qubes-tunnel-1.4.6-1.el8.src.rpm'.
+2023-07-26 10:08:03.446286 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:08:03.606738 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:08:03.780034 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/prep/qubes-tunnel-1.4.6-1.el8.src.rpm:
+2023-07-26 10:08:03.796768 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.el8.x86_64.buildinfo'.
+2023-07-26 10:08:03.811882 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/update-rpmbuildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/build/rpm/qubes-tunnel-1.4.6-1.el8.x86_64.buildinfo qubes-gpg-client-wrapper B082674E8CF907A67B5523D64FDD1A4BA90CA2E4'.
+2023-07-26 10:08:03.993700 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Provisioning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-07-26 10:08:04.004568 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm centos-stream8 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2023-07-26 10:08:04.035233 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Publishing RPMs to 'current-testing'.
+2023-07-26 10:08:04.035375 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Verifying signatures.
+2023-07-26 10:08:04.042769 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/build/rpm/qubes-tunnel-1.4.6-1.el8.x86_64.rpm --check-only'.
+2023-07-26 10:08:04.081094 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-centos-stream8/prep/qubes-tunnel-1.4.6-1.el8.src.rpm --check-only'.
+2023-07-26 10:08:04.112110 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Updating metadata.
+2023-07-26 10:08:04.126382 +0000 build-r42-centos1: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8&&createrepo_c -g comps.xml .'.
+2023-07-26 10:08:04.175701 +0000 build-r42-centos1: output: Directory walk started
+2023-07-26 10:08:04.175749 +0000 build-r42-centos1: output: Directory walk done - 2 packages
+2023-07-26 10:08:04.175765 +0000 build-r42-centos1: output: Using comps.xml from target repo
+2023-07-26 10:08:04.175778 +0000 build-r42-centos1: output: Temporary output repo path: ./.repodata/
+2023-07-26 10:08:04.175788 +0000 build-r42-centos1: output: Preparing sqlite DBs
+2023-07-26 10:08:04.175798 +0000 build-r42-centos1: output: Pool started (with 5 workers)
+2023-07-26 10:08:04.175806 +0000 build-r42-centos1: output: Pool finished
+2023-07-26 10:08:04.191061 +0000 build-r42-centos1: tunnel:vm-centos-stream-8.x86_64:rpm_spec/qubes-tunnel.spec: Signing metadata.
+2023-07-26 10:08:04.205341 +0000 build-r42-centos1: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.asc'.
+2023-07-26 10:08:04.379558 +0000 build-r42-centos1: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.
+2023-07-26 10:08:04.393149 +0000 build-r42-centos1: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.metalink'.
+2023-07-26 10:08:04.608851 +0000 build-r42-centos1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/centos-stream8/'.
+2023-07-26 10:08:05.247888 +0000 build-r42-centos1: output: sending incremental file list
+2023-07-26 10:08:05.268694 +0000 build-r42-centos1: output: .d..tp..... ./
+2023-07-26 10:08:05.268750 +0000 build-r42-centos1: output: cL+++++++++ comps.xml -> ../../../comps-vm.xml
+2023-07-26 10:08:05.268766 +0000 build-r42-centos1: output: cd+++++++++ repodata/
+2023-07-26 10:08:05.268782 +0000 build-r42-centos1: output: <f+++++++++ repodata/0a4d9ec5911f793f87955cf8bbc866b0c930c8f9aa2384ec29cc1f360a31da93-comps.xml.gz
+2023-07-26 10:08:05.268798 +0000 build-r42-centos1: output: .          8,416 100%    0.00kB/s    0:00:00  .          8,416 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=13/18)
+2023-07-26 10:08:05.268813 +0000 build-r42-centos1: output: <f+++++++++ repodata/3451fd65b091c900ec422bec141a342f1e1327bff6055a0ab13e7c7ba3bdfcac-filelists.sqlite.bz2
+2023-07-26 10:08:05.268827 +0000 build-r42-centos1: output: .          1,081 100%    1.03MB/s    0:00:00  .          1,081 100%    1.03MB/s    0:00:00 (xfr#2, to-chk=12/18)
+2023-07-26 10:08:05.268840 +0000 build-r42-centos1: output: <f+++++++++ repodata/397e43a81ad38941589caaed70c4fabc438fb360cee27a55821a1db270bacaa3-comps.xml
+2023-07-26 10:08:05.268854 +0000 build-r42-centos1: output: .         25,819 100%   24.62MB/s    0:00:00  .         25,819 100%   24.62MB/s    0:00:00 (xfr#3, to-chk=11/18)
+2023-07-26 10:08:05.268866 +0000 build-r42-centos1: output: <f+++++++++ repodata/7c107a028d27f049c81794bbda855c8c927e30998a0046853d72857976c7321a-primary.sqlite.bz2
+2023-07-26 10:08:05.268880 +0000 build-r42-centos1: output: .          2,423 100%    2.31MB/s    0:00:00  .          2,423 100%    2.31MB/s    0:00:00 (xfr#4, to-chk=10/18)
+2023-07-26 10:08:05.268892 +0000 build-r42-centos1: output: <f+++++++++ repodata/82faeb0e89280afba082be86eba4ad3c482b9267eb5dac0d17014ad3e00add6c-other.sqlite.bz2
+2023-07-26 10:08:05.268906 +0000 build-r42-centos1: output: .            740 100%  722.66kB/s    0:00:00  .            740 100%  722.66kB/s    0:00:00 (xfr#5, to-chk=9/18)
+2023-07-26 10:08:05.268928 +0000 build-r42-centos1: output: <f+++++++++ repodata/a07e90618beba7fe83797169d87b682b243278bc8ffe94728855454c3958b097-filelists.xml.gz
+2023-07-26 10:08:05.268948 +0000 build-r42-centos1: output: .            437 100%  426.76kB/s    0:00:00  .            437 100%  426.76kB/s    0:00:00 (xfr#6, to-chk=8/18)
+2023-07-26 10:08:05.268961 +0000 build-r42-centos1: output: <f+++++++++ repodata/d159fd67cb73a014be761638578689104d6dfb0432b474c782dc1a56a48af2c2-other.xml.gz
+2023-07-26 10:08:05.268978 +0000 build-r42-centos1: output: .            290 100%  283.20kB/s    0:00:00  .            290 100%  283.20kB/s    0:00:00 (xfr#7, to-chk=7/18)
+2023-07-26 10:08:05.268993 +0000 build-r42-centos1: output: <f+++++++++ repodata/fb1a3eb6dc4d93d7bb1d4b3eff6fcfbeca39bcb6c055928183fcb154a25f5b40-primary.xml.gz
+2023-07-26 10:08:05.269009 +0000 build-r42-centos1: output: .            931 100%  909.18kB/s    0:00:00  .            931 100%  909.18kB/s    0:00:00 (xfr#8, to-chk=6/18)
+2023-07-26 10:08:05.269081 +0000 build-r42-centos1: output: <f+++++++++ repodata/repomd.xml
+2023-07-26 10:08:05.269104 +0000 build-r42-centos1: output: .          3,831 100%    3.65MB/s    0:00:00  .          3,831 100%    3.65MB/s    0:00:00 (xfr#9, to-chk=5/18)
+2023-07-26 10:08:05.269160 +0000 build-r42-centos1: output: <f+++++++++ repodata/repomd.xml.asc
+2023-07-26 10:08:05.269194 +0000 build-r42-centos1: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=4/18)
+2023-07-26 10:08:05.269259 +0000 build-r42-centos1: output: <f+++++++++ repodata/repomd.xml.metalink
+2023-07-26 10:08:05.269279 +0000 build-r42-centos1: output: .          3,049 100%    2.91MB/s    0:00:00  .          3,049 100%    2.91MB/s    0:00:00 (xfr#11, to-chk=3/18)
+2023-07-26 10:08:05.269330 +0000 build-r42-centos1: output: cd+++++++++ rpm/
+2023-07-26 10:08:05.269352 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.el8.src.rpm
+2023-07-26 10:08:05.269420 +0000 build-r42-centos1: output: .         32,768  96%   31.25MB/s    0:00:00  .         34,049 100%   32.47MB/s    0:00:00 (xfr#12, to-chk=2/18)
+2023-07-26 10:08:05.269444 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.el8.x86_64.buildinfo
+2023-07-26 10:08:05.269525 +0000 build-r42-centos1: output: .          1,287 100%    1.23MB/s    0:00:00  .          1,287 100%    1.23MB/s    0:00:00 (xfr#13, to-chk=1/18)
+2023-07-26 10:08:05.269539 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.el8.x86_64.rpm
+2023-07-26 10:08:05.269605 +0000 build-r42-centos1: output: .         12,404 100%   11.83MB/s    0:00:00  .         12,404 100%   11.83MB/s    0:00:00 (xfr#14, to-chk=0/18)
+2023-07-26 10:08:05.452621 +0000 build-r42-centos1: > done
+2023-07-26 10:08:05.452684 +0000 > closing log
