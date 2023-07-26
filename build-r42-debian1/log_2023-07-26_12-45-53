@@ -1,0 +1,99 @@
+2023-07-26 12:45:53.017604 +0000 > starting log
+2023-07-26 12:45:53.017745 +0000 build-r42-debian1: > starting build with log
+2023-07-26 12:45:53.017753 +0000 build-r42-debian1: >> args:
+2023-07-26 12:45:53.017758 +0000 build-r42-debian1: >>   ()
+2023-07-26 12:45:53.017762 +0000 build-r42-debian1: >> component:
+2023-07-26 12:45:53.017766 +0000 build-r42-debian1: >>   tunnel
+2023-07-26 12:45:53.017771 +0000 build-r42-debian1: >>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956
+2023-07-26 12:45:53.017779 +0000 build-r42-debian1: >>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7
+2023-07-26 12:45:53.017786 +0000 build-r42-debian1: >> distributions:
+2023-07-26 12:45:53.017793 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2023-07-26 12:45:53.017806 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --armor --export FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA > /tmp/tmp2tubfxdh/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc&&gpg2 --homedir /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring --import /tmp/tmp2tubfxdh/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc'.
+2023-07-26 12:45:53.116147 +0000 build-r42-debian1: output: gpg: keybox '/home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring/pubring.kbx' created
+2023-07-26 12:45:53.117338 +0000 build-r42-debian1: output: gpg: /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring/trustdb.gpg: trustdb created
+2023-07-26 12:45:53.117367 +0000 build-r42-debian1: output: gpg: key A8F7A1DC99F29DAA: public key "Qubes OS Contrib Release 4 Signing Key" imported
+2023-07-26 12:45:53.131330 +0000 build-r42-debian1: output: gpg: Total number processed: 1
+2023-07-26 12:45:53.131365 +0000 build-r42-debian1: output: gpg:               imported: 1
+2023-07-26 12:45:53.150003 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:debian: Signing from 'qubes-tunnel_1.4.6-1+deb11u1_amd64.changes' info.
+2023-07-26 12:45:53.165638 +0000 build-r42-debian1: Executing 'bash -c debsign -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes'.
+2023-07-26 12:45:53.200763 +0000 build-r42-debian1: output:  signfile dsc /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:54.646167 +0000 build-r42-debian1: output: 
+2023-07-26 12:45:54.706141 +0000 build-r42-debian1: output:  fixup_buildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1.dsc /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo
+2023-07-26 12:45:54.709012 +0000 build-r42-debian1: output:  signfile buildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:55.169198 +0000 build-r42-debian1: output: 
+2023-07-26 12:45:55.187047 +0000 build-r42-debian1: output:  fixup_changes dsc /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1.dsc /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes
+2023-07-26 12:45:55.204635 +0000 build-r42-debian1: output:  fixup_changes buildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes
+2023-07-26 12:45:55.207270 +0000 build-r42-debian1: output:  signfile changes /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:55.528422 +0000 build-r42-debian1: output: 
+2023-07-26 12:45:55.529929 +0000 build-r42-debian1: output: Successfully signed dsc, buildinfo, changes files
+2023-07-26 12:45:55.538117 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:debian: Provisioning local repository '/home/user/builder-r4.2/repository/vm-bullseye'.
+2023-07-26 12:45:55.549270 +0000 build-r42-debian1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_deb/scripts/create-skeleton r4.2 debian /home/user/builder-r4.2/repository-publish/deb'.
+2023-07-26 12:45:55.583851 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:debian: Publishing packages.
+2023-07-26 12:45:55.583908 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:debian: Verifying signatures.
+2023-07-26 12:45:55.590652 +0000 build-r42-debian1: Executing 'bash -c gpg2 -q --homedir /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1.dsc&&gpg2 -q --homedir /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes&&gpg2 -q --homedir /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo'.
+2023-07-26 12:45:55.592753 +0000 build-r42-debian1: output: gpg: Signature made Wed Jul 26 14:45:54 2023 CEST
+2023-07-26 12:45:55.592791 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:55.592807 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-07-26 12:45:55.592835 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-07-26 12:45:55.592875 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-07-26 12:45:55.592889 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-07-26 12:45:55.594490 +0000 build-r42-debian1: output: gpg: Signature made Wed Jul 26 14:45:55 2023 CEST
+2023-07-26 12:45:55.594509 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:55.594532 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-07-26 12:45:55.594591 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-07-26 12:45:55.594609 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-07-26 12:45:55.594676 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-07-26 12:45:55.596528 +0000 build-r42-debian1: output: gpg: Signature made Wed Jul 26 14:45:55 2023 CEST
+2023-07-26 12:45:55.596552 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-07-26 12:45:55.596767 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-07-26 12:45:55.596782 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-07-26 12:45:55.596794 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-07-26 12:45:55.596805 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-07-26 12:45:55.614554 +0000 build-r42-debian1: Executing 'bash -c reprepro --ignore=surprisingbinary --ignore=surprisingarch --keepunreferencedfiles -b /home/user/builder-r4.2/repository-publish/deb/r4.2/vm include bullseye-testing /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-bullseye/build/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes'.
+2023-07-26 12:45:55.691775 +0000 build-r42-debian1: output: 'qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2023-07-26 12:45:55.691840 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2023-07-26 12:45:55.712737 +0000 build-r42-debian1: output: Exporting indices...
+2023-07-26 12:45:55.721706 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:bullseye-testing: Signing metadata (Release.gpg).
+2023-07-26 12:45:55.729362 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --detach-sign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release.gpg /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release'.
+2023-07-26 12:45:55.940097 +0000 build-r42-debian1: tunnel:vm-debian-11.amd64:bullseye-testing: Signing metadata (InRelease).
+2023-07-26 12:45:55.947211 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --clearsign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/InRelease /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release'.
+2023-07-26 12:45:56.097127 +0000 build-r42-debian1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/pool/'.
+2023-07-26 12:45:56.799251 +0000 build-r42-debian1: output: sending incremental file list
+2023-07-26 12:45:56.820732 +0000 build-r42-debian1: output: .d..tp..... ./
+2023-07-26 12:45:56.821402 +0000 build-r42-debian1: output: cd+++++++++ main/
+2023-07-26 12:45:56.821430 +0000 build-r42-debian1: output: cd+++++++++ main/q/
+2023-07-26 12:45:56.821444 +0000 build-r42-debian1: output: cd+++++++++ main/q/qubes-tunnel/
+2023-07-26 12:45:56.821458 +0000 build-r42-debian1: output: <f+++++++++ main/q/qubes-tunnel/qubes-tunnel_1.4.6-1+deb11u1.debian.tar.xz
+2023-07-26 12:45:56.821473 +0000 build-r42-debian1: output: .          2,664 100%    0.00kB/s    0:00:00  .          2,664 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=4/9)
+2023-07-26 12:45:56.821495 +0000 build-r42-debian1: output: <f+++++++++ main/q/qubes-tunnel/qubes-tunnel_1.4.6-1+deb11u1.dsc
+2023-07-26 12:45:56.821509 +0000 build-r42-debian1: output: .          1,428 100%    1.36MB/s    0:00:00  .          1,428 100%    1.36MB/s    0:00:00 (xfr#2, to-chk=3/9)
+2023-07-26 12:45:56.821520 +0000 build-r42-debian1: output: <f+++++++++ main/q/qubes-tunnel/qubes-tunnel_1.4.6-1+deb11u1_all.deb
+2023-07-26 12:45:56.821540 +0000 build-r42-debian1: output: .          7,840 100%    7.48MB/s    0:00:00  .          7,840 100%    7.48MB/s    0:00:00 (xfr#3, to-chk=2/9)
+2023-07-26 12:45:56.821561 +0000 build-r42-debian1: output: <f+++++++++ main/q/qubes-tunnel/qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo
+2023-07-26 12:45:56.821596 +0000 build-r42-debian1: output: .          5,670 100%    5.41MB/s    0:00:00  .          5,670 100%    5.41MB/s    0:00:00 (xfr#4, to-chk=1/9)
+2023-07-26 12:45:56.821754 +0000 build-r42-debian1: output: <f+++++++++ main/q/qubes-tunnel/qubes-tunnel_1.4.6.orig.tar.gz
+2023-07-26 12:45:56.821772 +0000 build-r42-debian1: output: .         27,051 100%   25.80MB/s    0:00:00  .         27,051 100%   25.80MB/s    0:00:00 (xfr#5, to-chk=0/9)
+2023-07-26 12:45:56.972396 +0000 build-r42-debian1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/dists/bullseye-testing/'.
+2023-07-26 12:45:57.070220 +0000 build-r42-debian1: output: sending incremental file list
+2023-07-26 12:45:57.089772 +0000 build-r42-debian1: output: .d..tp..... ./
+2023-07-26 12:45:57.089814 +0000 build-r42-debian1: output: <f+++++++++ InRelease
+2023-07-26 12:45:57.089835 +0000 build-r42-debian1: output: .          2,176 100%    0.00kB/s    0:00:00  .          2,176 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2023-07-26 12:45:57.089855 +0000 build-r42-debian1: output: <f+++++++++ Release
+2023-07-26 12:45:57.089883 +0000 build-r42-debian1: output: .          1,639 100%    1.56MB/s    0:00:00  .          1,639 100%    1.56MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2023-07-26 12:45:57.089924 +0000 build-r42-debian1: output: <f+++++++++ Release.gpg
+2023-07-26 12:45:57.089978 +0000 build-r42-debian1: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2023-07-26 12:45:57.090082 +0000 build-r42-debian1: output: cd+++++++++ main/
+2023-07-26 12:45:57.090145 +0000 build-r42-debian1: output: cd+++++++++ main/binary-amd64/
+2023-07-26 12:45:57.090160 +0000 build-r42-debian1: output: <f+++++++++ main/binary-amd64/Packages
+2023-07-26 12:45:57.090195 +0000 build-r42-debian1: output: .            748 100%  730.47kB/s    0:00:00  .            748 100%  730.47kB/s    0:00:00 (xfr#4, to-chk=4/12)
+2023-07-26 12:45:57.090270 +0000 build-r42-debian1: output: <f+++++++++ main/binary-amd64/Packages.gz
+2023-07-26 12:45:57.090312 +0000 build-r42-debian1: output: .            514 100%  501.95kB/s    0:00:00  .            514 100%  501.95kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2023-07-26 12:45:57.090327 +0000 build-r42-debian1: output: <f+++++++++ main/binary-amd64/Release
+2023-07-26 12:45:57.090408 +0000 build-r42-debian1: output: .            187 100%  182.62kB/s    0:00:00  .            187 100%  182.62kB/s    0:00:00 (xfr#6, to-chk=2/12)
+2023-07-26 12:45:57.090425 +0000 build-r42-debian1: output: cd+++++++++ main/source/
+2023-07-26 12:45:57.090499 +0000 build-r42-debian1: output: <f+++++++++ main/source/Release
+2023-07-26 12:45:57.090521 +0000 build-r42-debian1: output: .            188 100%  183.59kB/s    0:00:00  .            188 100%  183.59kB/s    0:00:00 (xfr#7, to-chk=1/12)
+2023-07-26 12:45:57.090594 +0000 build-r42-debian1: output: <f+++++++++ main/source/Sources.gz
+2023-07-26 12:45:57.090616 +0000 build-r42-debian1: output: .            635 100%  620.12kB/s    0:00:00  .            635 100%  620.12kB/s    0:00:00 (xfr#8, to-chk=0/12)
+2023-07-26 12:45:57.203955 +0000 build-r42-debian1: > done
+2023-07-26 12:45:57.204012 +0000 > closing log
