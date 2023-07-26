@@ -1,0 +1,79 @@
+2023-07-26 10:04:58.999695 +0000 > starting log
+2023-07-26 10:04:59.000201 +0000 build-r42-fedora2: > starting build with log
+2023-07-26 10:04:59.000220 +0000 build-r42-fedora2: >> args:
+2023-07-26 10:04:59.000301 +0000 build-r42-fedora2: >>   ()
+2023-07-26 10:04:59.000314 +0000 build-r42-fedora2: >> component:
+2023-07-26 10:04:59.000322 +0000 build-r42-fedora2: >>   tunnel
+2023-07-26 10:04:59.000334 +0000 build-r42-fedora2: >>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956
+2023-07-26 10:04:59.000353 +0000 build-r42-fedora2: >>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7
+2023-07-26 10:04:59.000370 +0000 build-r42-fedora2: >> distributions:
+2023-07-26 10:04:59.000384 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-37.x86_64>, <QubesDistribution vm-fedora-38.x86_64>]
+2023-07-26 10:04:59.000420 +0000 build-r42-fedora2: Executing 'bash -c mkdir -p /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87&&qubes-gpg-client-wrapper --armor --export 04A8F986B97FBCB838F08C305FE4986AD0941E87 > /tmp/tmpagpf8058/04A8F986B97FBCB838F08C305FE4986AD0941E87.asc&&rpmkeys --dbpath=/home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --import /tmp/tmpagpf8058/04A8F986B97FBCB838F08C305FE4986AD0941E87.asc'.
+2023-07-26 10:04:59.076435 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-fc37'.
+2023-07-26 10:04:59.077498 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.fc37.x86_64.rpm'.
+2023-07-26 10:04:59.090760 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/build/rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.rpm'.
+2023-07-26 10:04:59.119882 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:04:59.274450 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:04:59.405061 +0000 build-r42-fedora2: output: /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/build/rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.rpm:
+2023-07-26 10:04:59.416085 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.fc37.src.rpm'.
+2023-07-26 10:04:59.427689 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/prep/qubes-tunnel-1.4.6-1.fc37.src.rpm'.
+2023-07-26 10:04:59.444900 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:04:59.608397 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-07-26 10:04:59.813458 +0000 build-r42-fedora2: output: /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/prep/qubes-tunnel-1.4.6-1.fc37.src.rpm:
+2023-07-26 10:04:59.825328 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Signing 'qubes-tunnel-1.4.6-1.fc37.x86_64.buildinfo'.
+2023-07-26 10:04:59.837144 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/update-rpmbuildinfo /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/build/rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.buildinfo qubes-gpg-client-wrapper 04A8F986B97FBCB838F08C305FE4986AD0941E87'.
+2023-07-26 10:05:00.012713 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Provisioning local repository '/home/user/builder-r4.2/repository/vm-fc37'.
+2023-07-26 10:05:00.028611 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm fc37 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2023-07-26 10:05:00.065487 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Publishing RPMs to 'current-testing'.
+2023-07-26 10:05:00.065540 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Verifying signatures.
+2023-07-26 10:05:00.074926 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/build/rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.rpm --check-only'.
+2023-07-26 10:05:00.108192 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/tunnel/1.4.6-1/vm-fc37/prep/qubes-tunnel-1.4.6-1.fc37.src.rpm --check-only'.
+2023-07-26 10:05:00.131781 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Updating metadata.
+2023-07-26 10:05:00.141472 +0000 build-r42-fedora2: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37&&createrepo_c -g comps.xml .'.
+2023-07-26 10:05:00.179376 +0000 build-r42-fedora2: output: Directory walk started
+2023-07-26 10:05:00.179424 +0000 build-r42-fedora2: output: Directory walk done - 2 packages
+2023-07-26 10:05:00.179439 +0000 build-r42-fedora2: output: Using comps.xml from target repo
+2023-07-26 10:05:00.179451 +0000 build-r42-fedora2: output: Temporary output repo path: ./.repodata/
+2023-07-26 10:05:00.179461 +0000 build-r42-fedora2: output: Preparing sqlite DBs
+2023-07-26 10:05:00.179470 +0000 build-r42-fedora2: output: Pool started (with 5 workers)
+2023-07-26 10:05:00.179478 +0000 build-r42-fedora2: output: Pool finished
+2023-07-26 10:05:00.195029 +0000 build-r42-fedora2: tunnel:vm-fedora-37.x86_64:rpm_spec/qubes-tunnel.spec: Signing metadata.
+2023-07-26 10:05:00.209236 +0000 build-r42-fedora2: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u 04A8F986B97FBCB838F08C305FE4986AD0941E87 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/repodata/repomd.xml.asc'.
+2023-07-26 10:05:00.421342 +0000 build-r42-fedora2: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/repodata/repomd.xml.
+2023-07-26 10:05:00.436528 +0000 build-r42-fedora2: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/repodata/repomd.xml.metalink'.
+2023-07-26 10:05:00.612485 +0000 build-r42-fedora2: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/fc37/'.
+2023-07-26 10:05:01.383871 +0000 build-r42-fedora2: output: sending incremental file list
+2023-07-26 10:05:01.404222 +0000 build-r42-fedora2: output: .d..tp..... ./
+2023-07-26 10:05:01.405123 +0000 build-r42-fedora2: output: cL+++++++++ comps.xml -> ../../../comps-vm.xml
+2023-07-26 10:05:01.405162 +0000 build-r42-fedora2: output: cd+++++++++ repodata/
+2023-07-26 10:05:01.405179 +0000 build-r42-fedora2: output: <f+++++++++ repodata/0a4d9ec5911f793f87955cf8bbc866b0c930c8f9aa2384ec29cc1f360a31da93-comps.xml.gz
+2023-07-26 10:05:01.405195 +0000 build-r42-fedora2: output: .          8,416 100%    0.00kB/s    0:00:00  .          8,416 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=13/18)
+2023-07-26 10:05:01.405210 +0000 build-r42-fedora2: output: <f+++++++++ repodata/19a3e31b7c0a1fb0456ed665620343982e0db78b8a62385400b3257c2c823366-filelists.xml.gz
+2023-07-26 10:05:01.405241 +0000 build-r42-fedora2: output: .            440 100%  429.69kB/s    0:00:00  .            440 100%  429.69kB/s    0:00:00 (xfr#2, to-chk=12/18)
+2023-07-26 10:05:01.405257 +0000 build-r42-fedora2: output: <f+++++++++ repodata/2a356b82f48bec7d5c977f5b989f544779555533aa9ea5631086d9a3ab8592c3-primary.sqlite.bz2
+2023-07-26 10:05:01.405271 +0000 build-r42-fedora2: output: .          2,472 100%    2.36MB/s    0:00:00  .          2,472 100%    2.36MB/s    0:00:00 (xfr#3, to-chk=11/18)
+2023-07-26 10:05:01.405283 +0000 build-r42-fedora2: output: <f+++++++++ repodata/2b422692c0866072123fc0cf79fc726f103d4304dbc128780023b38356da0ddf-other.xml.gz
+2023-07-26 10:05:01.405297 +0000 build-r42-fedora2: output: .            290 100%  283.20kB/s    0:00:00  .            290 100%  283.20kB/s    0:00:00 (xfr#4, to-chk=10/18)
+2023-07-26 10:05:01.405309 +0000 build-r42-fedora2: output: <f+++++++++ repodata/397e43a81ad38941589caaed70c4fabc438fb360cee27a55821a1db270bacaa3-comps.xml
+2023-07-26 10:05:01.405322 +0000 build-r42-fedora2: output: .         25,819 100%   24.62MB/s    0:00:00  .         25,819 100%   24.62MB/s    0:00:00 (xfr#5, to-chk=9/18)
+2023-07-26 10:05:01.405335 +0000 build-r42-fedora2: output: <f+++++++++ repodata/4d1e16962baee05948e25da5528919cf3c3dd1489f26d2b53792266f2439de48-other.sqlite.bz2
+2023-07-26 10:05:01.405348 +0000 build-r42-fedora2: output: .            734 100%  716.80kB/s    0:00:00  .            734 100%  716.80kB/s    0:00:00 (xfr#6, to-chk=8/18)
+2023-07-26 10:05:01.405361 +0000 build-r42-fedora2: output: <f+++++++++ repodata/71e03c792c98220929bb1a2305eeca55652093cc12b2e9c7e46a782abd8de156-filelists.sqlite.bz2
+2023-07-26 10:05:01.405374 +0000 build-r42-fedora2: output: .          1,096 100%    1.05MB/s    0:00:00  .          1,096 100%    1.05MB/s    0:00:00 (xfr#7, to-chk=7/18)
+2023-07-26 10:05:01.405386 +0000 build-r42-fedora2: output: <f+++++++++ repodata/e43f22a14cb67ec800dc9c11ac4703a1a2b3597474034e181c180d194e0c5f95-primary.xml.gz
+2023-07-26 10:05:01.405399 +0000 build-r42-fedora2: output: .            927 100%  905.27kB/s    0:00:00  .            927 100%  905.27kB/s    0:00:00 (xfr#8, to-chk=6/18)
+2023-07-26 10:05:01.405408 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml
+2023-07-26 10:05:01.405435 +0000 build-r42-fedora2: output: .          3,831 100%    3.65MB/s    0:00:00  .          3,831 100%    3.65MB/s    0:00:00 (xfr#9, to-chk=5/18)
+2023-07-26 10:05:01.405445 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml.asc
+2023-07-26 10:05:01.405458 +0000 build-r42-fedora2: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=4/18)
+2023-07-26 10:05:01.405468 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml.metalink
+2023-07-26 10:05:01.405481 +0000 build-r42-fedora2: output: .          2,899 100%    2.76MB/s    0:00:00  .          2,899 100%    2.76MB/s    0:00:00 (xfr#11, to-chk=3/18)
+2023-07-26 10:05:01.405490 +0000 build-r42-fedora2: output: cd+++++++++ rpm/
+2023-07-26 10:05:01.405500 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.fc37.src.rpm
+2023-07-26 10:05:01.405513 +0000 build-r42-fedora2: output: .         32,768  91%   31.25MB/s    0:00:00  .         35,667 100%   34.01MB/s    0:00:00 (xfr#12, to-chk=2/18)
+2023-07-26 10:05:01.405523 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.buildinfo
+2023-07-26 10:05:01.405548 +0000 build-r42-fedora2: output: .          6,272 100%    5.98MB/s    0:00:00  .          6,272 100%    5.98MB/s    0:00:00 (xfr#13, to-chk=1/18)
+2023-07-26 10:05:01.405560 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-tunnel-1.4.6-1.fc37.x86_64.rpm
+2023-07-26 10:05:01.405573 +0000 build-r42-fedora2: output: .         12,318 100%   11.75MB/s    0:00:00  .         12,318 100%   11.75MB/s    0:00:00 (xfr#14, to-chk=0/18)
+2023-07-26 10:05:01.630274 +0000 build-r42-fedora2: > done
+2023-07-26 10:05:01.630354 +0000 > closing log
