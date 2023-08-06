@@ -1,0 +1,47 @@
+2023-08-06 09:59:25.649848 +0000 > starting log
+2023-08-06 09:59:25.650018 +0000 build-r42-centos1: > starting build with log
+2023-08-06 09:59:25.650026 +0000 build-r42-centos1: >> args:
+2023-08-06 09:59:25.650031 +0000 build-r42-centos1: >>   ()
+2023-08-06 09:59:25.650035 +0000 build-r42-centos1: >> component:
+2023-08-06 09:59:25.650040 +0000 build-r42-centos1: >>   app-split-git
+2023-08-06 09:59:25.650045 +0000 build-r42-centos1: >>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c
+2023-08-06 09:59:25.650052 +0000 build-r42-centos1: >>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d
+2023-08-06 09:59:25.650060 +0000 build-r42-centos1: >> distributions:
+2023-08-06 09:59:25.650066 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-08-06 09:59:25.650072 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64: Source hash is the same than already prepared source. Skipping.
+2023-08-06 09:59:25.650078 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64: Source hash is the same than already built source. Skipping.
+2023-08-06 09:59:25.650094 +0000 build-r42-centos1: Executing 'bash -c mkdir -p /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4&&qubes-gpg-client-wrapper --armor --export B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > /tmp/tmpfwm3j2au/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc&&rpmkeys --dbpath=/home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --import /tmp/tmpfwm3j2au/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc'.
+2023-08-06 09:59:25.694292 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-08-06 09:59:25.694729 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.el8.x86_64.rpm'.
+2023-08-06 09:59:25.694757 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/build/rpm/qubes-split-git-1.0.1-3.el8.x86_64.rpm'.
+2023-08-06 09:59:25.719824 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-06 09:59:25.851136 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-06 09:59:25.976227 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/build/rpm/qubes-split-git-1.0.1-3.el8.x86_64.rpm:
+2023-08-06 09:59:25.977684 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.el8.src.rpm'.
+2023-08-06 09:59:25.977750 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/prep/qubes-split-git-1.0.1-3.el8.src.rpm'.
+2023-08-06 09:59:26.000820 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-06 09:59:26.163142 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-06 09:59:26.388058 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/prep/qubes-split-git-1.0.1-3.el8.src.rpm:
+2023-08-06 09:59:26.389757 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.el8.x86_64.buildinfo'.
+2023-08-06 09:59:26.389801 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/update-rpmbuildinfo /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/build/rpm/qubes-split-git-1.0.1-3.el8.x86_64.buildinfo qubes-gpg-client-wrapper B082674E8CF907A67B5523D64FDD1A4BA90CA2E4'.
+2023-08-06 09:59:26.543521 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Provisioning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-08-06 09:59:26.546392 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm centos-stream8 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2023-08-06 09:59:26.570118 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Publishing RPMs to 'current-testing'.
+2023-08-06 09:59:26.570278 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Verifying signatures.
+2023-08-06 09:59:26.570372 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/build/rpm/qubes-split-git-1.0.1-3.el8.x86_64.rpm --check-only'.
+2023-08-06 09:59:26.582156 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-centos-stream8/prep/qubes-split-git-1.0.1-3.el8.src.rpm --check-only'.
+2023-08-06 09:59:26.590391 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Updating metadata.
+2023-08-06 09:59:26.590759 +0000 build-r42-centos1: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8&&createrepo_c -g comps.xml .'.
+2023-08-06 09:59:26.642237 +0000 build-r42-centos1: output: Directory walk started
+2023-08-06 09:59:26.642271 +0000 build-r42-centos1: output: Directory walk done - 4 packages
+2023-08-06 09:59:26.642285 +0000 build-r42-centos1: output: Using comps.xml from target repo
+2023-08-06 09:59:26.642297 +0000 build-r42-centos1: output: Temporary output repo path: ./.repodata/
+2023-08-06 09:59:26.642328 +0000 build-r42-centos1: output: Preparing sqlite DBs
+2023-08-06 09:59:26.642340 +0000 build-r42-centos1: output: Pool started (with 5 workers)
+2023-08-06 09:59:26.642349 +0000 build-r42-centos1: output: Pool finished
+2023-08-06 09:59:26.644477 +0000 build-r42-centos1: app-split-git:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-git.spec: Signing metadata.
+2023-08-06 09:59:26.644588 +0000 build-r42-centos1: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.asc'.
+2023-08-06 09:59:26.808829 +0000 build-r42-centos1: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.
+2023-08-06 09:59:26.808908 +0000 build-r42-centos1: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.metalink'.
+2023-08-06 09:59:26.969196 +0000 build-r42-centos1: > done
+2023-08-06 09:59:26.969278 +0000 > closing log
