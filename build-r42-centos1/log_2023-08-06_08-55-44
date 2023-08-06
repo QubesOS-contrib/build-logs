@@ -1,0 +1,25 @@
+2023-08-06 08:55:44.037547 +0000 > starting log
+2023-08-06 08:55:44.037783 +0000 build-r42-centos1: > starting build with log
+2023-08-06 08:55:44.037797 +0000 build-r42-centos1: >> args:
+2023-08-06 08:55:44.037805 +0000 build-r42-centos1: >>   ()
+2023-08-06 08:55:44.037812 +0000 build-r42-centos1: >> component:
+2023-08-06 08:55:44.037819 +0000 build-r42-centos1: >>   app-split-git
+2023-08-06 08:55:44.037825 +0000 build-r42-centos1: >> distributions:
+2023-08-06 08:55:44.037834 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-08-06 08:56:13.374665 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp5581 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-06 08:56:29.220957 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5581 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-06 08:56:44.722146 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp5581 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-06 08:56:45.302440 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm disp5581 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-git.git /builder/app-split-git /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-08-06 08:56:53.529188 +0000 build-r42-centos1: output: --> Verifying tags...
+2023-08-06 08:56:53.529323 +0000 build-r42-centos1: output: ---> Good tag 2955f665c488700631f4d08ed0ca561148c33459.
+2023-08-06 08:56:53.529334 +0000 build-r42-centos1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2023-08-06 08:56:53.529341 +0000 build-r42-centos1: output: --> Switching branch from master branch to master
+2023-08-06 08:56:53.540317 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp5581 qubesbuilder.FileCopyOut+__builder__app-split-git /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2023-08-06 08:57:47.868870 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp7315 bash -c 'rm -rf /builder/incoming/app-split-git /builder/app-split-git'
+2023-08-06 08:58:02.411478 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7315 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-git
+2023-08-06 08:58:02.913149 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp7315 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-git /builder'
+2023-08-06 08:58:03.246309 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm disp7315 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'rm -f /builder/app-split-git/hash /builder/app-split-git/vtags && cd /builder && git -C /builder/app-split-git rev-parse '\''HEAD^{}'\'' >> /builder/app-split-git/hash && git -C /builder/app-split-git tag --points-at HEAD --list '\''v*'\'' >> /builder/app-split-git/vtags''.
+2023-08-06 08:58:05.111962 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp7315 qubesbuilder.FileCopyOut+__builder__app-split-git__hash /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2dijs5_d
+2023-08-06 08:58:06.118734 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp7315 qubesbuilder.FileCopyOut+__builder__app-split-git__vtags /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2dijs5_d
+2023-08-06 08:58:11.694724 +0000 build-r42-centos1: > done
+2023-08-06 08:58:11.694784 +0000 > closing log
