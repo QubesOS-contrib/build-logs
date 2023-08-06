@@ -1,0 +1,46 @@
+2023-08-06 09:59:39.335905 +0000 > starting log
+2023-08-06 09:59:39.336191 +0000 build-r42-fedora2: > starting build with log
+2023-08-06 09:59:39.336207 +0000 build-r42-fedora2: >> args:
+2023-08-06 09:59:39.336218 +0000 build-r42-fedora2: >>   ()
+2023-08-06 09:59:39.336227 +0000 build-r42-fedora2: >> component:
+2023-08-06 09:59:39.336256 +0000 build-r42-fedora2: >>   app-split-git
+2023-08-06 09:59:39.336270 +0000 build-r42-fedora2: >>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c
+2023-08-06 09:59:39.336287 +0000 build-r42-fedora2: >>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d
+2023-08-06 09:59:39.336304 +0000 build-r42-fedora2: >> distributions:
+2023-08-06 09:59:39.336318 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-37.x86_64>, <QubesDistribution vm-fedora-38.x86_64>]
+2023-08-06 09:59:39.336339 +0000 build-r42-fedora2: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc37/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/fc37/'.
+2023-08-06 09:59:39.852282 +0000 build-r42-fedora2: output: sending incremental file list
+2023-08-06 09:59:39.871872 +0000 build-r42-fedora2: output: .d..t...... ./
+2023-08-06 09:59:39.873608 +0000 build-r42-fedora2: output: .L..t...... comps.xml -> ../../../comps-vm.xml
+2023-08-06 09:59:39.873625 +0000 build-r42-fedora2: output: .d..t...... repodata/
+2023-08-06 09:59:39.873640 +0000 build-r42-fedora2: output: <f..t...... repodata/0a4d9ec5911f793f87955cf8bbc866b0c930c8f9aa2384ec29cc1f360a31da93-comps.xml.gz
+2023-08-06 09:59:39.873657 +0000 build-r42-fedora2: output: .            700   8%    0.00kB/s    0:00:00  .          8,416 100%    7.36MB/s    0:00:00 (xfr#1, to-chk=16/21)
+2023-08-06 09:59:39.873671 +0000 build-r42-fedora2: output: <f+++++++++ repodata/12622e7fc3e43076d25abde1ca346f4fc88190fecdb578aaefc776564e3bb9e3-filelists.xml.gz
+2023-08-06 09:59:39.873685 +0000 build-r42-fedora2: output: .            613 100%  598.63kB/s    0:00:00  .            613 100%  598.63kB/s    0:00:00 (xfr#2, to-chk=15/21)
+2023-08-06 09:59:39.873699 +0000 build-r42-fedora2: output: <f+++++++++ repodata/1e56880e4f209d9d9d59c2bbdf526ddef14674408cc77574f4075751ca77ae0a-primary.sqlite.bz2
+2023-08-06 09:59:39.873713 +0000 build-r42-fedora2: output: .          3,198 100%    3.05MB/s    0:00:00  .          3,198 100%    3.05MB/s    0:00:00 (xfr#3, to-chk=14/21)
+2023-08-06 09:59:39.873726 +0000 build-r42-fedora2: output: <f+++++++++ repodata/2cd152a9dbcd7b8d61cb2ce99e77ecf96aa4a1659c6f3c467ad384486cd37746-primary.xml.gz
+2023-08-06 09:59:39.873740 +0000 build-r42-fedora2: output: .          1,360 100%    1.30MB/s    0:00:00  .          1,360 100%    1.30MB/s    0:00:00 (xfr#4, to-chk=13/21)
+2023-08-06 09:59:39.873752 +0000 build-r42-fedora2: output: <f..t...... repodata/397e43a81ad38941589caaed70c4fabc438fb360cee27a55821a1db270bacaa3-comps.xml
+2023-08-06 09:59:39.873766 +0000 build-r42-fedora2: output: .            700   2%  683.59kB/s    0:00:00  .         25,819 100%   24.62MB/s    0:00:00 (xfr#5, to-chk=12/21)
+2023-08-06 09:59:39.873778 +0000 build-r42-fedora2: output: <f+++++++++ repodata/5ce62323d4bd70aad848d055c741121110517233c980d5d9a6e3bb2ba44a5163-other.xml.gz
+2023-08-06 09:59:39.873792 +0000 build-r42-fedora2: output: .            722 100%  705.08kB/s    0:00:00  .            722 100%  705.08kB/s    0:00:00 (xfr#6, to-chk=11/21)
+2023-08-06 09:59:39.873804 +0000 build-r42-fedora2: output: <f+++++++++ repodata/61ede73b05f368a55db2746683df17e5b53e1821eff10b665a07841ba895bd42-filelists.sqlite.bz2
+2023-08-06 09:59:39.873818 +0000 build-r42-fedora2: output: .          1,345 100%    1.28MB/s    0:00:00  .          1,345 100%    1.28MB/s    0:00:00 (xfr#7, to-chk=10/21)
+2023-08-06 09:59:39.873840 +0000 build-r42-fedora2: output: <f+++++++++ repodata/e99211ec3e2f81ba07b69f9499ce0b0d1162ab0a0e34bee5ae177f85a3040bb1-other.sqlite.bz2
+2023-08-06 09:59:39.873855 +0000 build-r42-fedora2: output: .          1,493 100%    1.42MB/s    0:00:00  .          1,493 100%    1.42MB/s    0:00:00 (xfr#8, to-chk=9/21)
+2023-08-06 09:59:39.873883 +0000 build-r42-fedora2: output: <f.st...... repodata/repomd.xml
+2023-08-06 09:59:39.873898 +0000 build-r42-fedora2: output: .          3,834 100%    3.66MB/s    0:00:00  .          3,834 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=8/21)
+2023-08-06 09:59:39.873907 +0000 build-r42-fedora2: output: <f..t...... repodata/repomd.xml.asc
+2023-08-06 09:59:39.873925 +0000 build-r42-fedora2: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=7/21)
+2023-08-06 09:59:39.873939 +0000 build-r42-fedora2: output: <f..t...... repodata/repomd.xml.metalink
+2023-08-06 09:59:39.874046 +0000 build-r42-fedora2: output: .          2,100  72%    2.00MB/s    0:00:00  .          2,899 100%    2.76MB/s    0:00:00 (xfr#11, to-chk=6/21)
+2023-08-06 09:59:39.874063 +0000 build-r42-fedora2: output: .d..t...... rpm/
+2023-08-06 09:59:39.874128 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-git-1.0.1-3.fc37.src.rpm
+2023-08-06 09:59:39.874149 +0000 build-r42-fedora2: output: .         30,990 100%   29.55MB/s    0:00:00  .         30,990 100%   29.55MB/s    0:00:00 (xfr#12, to-chk=5/21)
+2023-08-06 09:59:39.874210 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-git-1.0.1-3.fc37.x86_64.buildinfo
+2023-08-06 09:59:39.874256 +0000 build-r42-fedora2: output: .          6,292 100%    6.00MB/s    0:00:00  .          6,292 100%    6.00MB/s    0:00:00 (xfr#13, to-chk=4/21)
+2023-08-06 09:59:39.874273 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-git-1.0.1-3.fc37.x86_64.rpm
+2023-08-06 09:59:39.874350 +0000 build-r42-fedora2: output: .         13,735 100%   13.10MB/s    0:00:00  .         13,735 100%   13.10MB/s    0:00:00 (xfr#14, to-chk=3/21)
+2023-08-06 09:59:40.069894 +0000 build-r42-fedora2: > done
+2023-08-06 09:59:40.069934 +0000 > closing log
