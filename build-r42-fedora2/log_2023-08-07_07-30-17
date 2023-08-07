@@ -1,0 +1,47 @@
+2023-08-07 07:30:17.483301 +0000 > starting log
+2023-08-07 07:30:17.483484 +0000 build-r42-fedora2: > starting build with log
+2023-08-07 07:30:17.483502 +0000 build-r42-fedora2: >> args:
+2023-08-07 07:30:17.483510 +0000 build-r42-fedora2: >>   ()
+2023-08-07 07:30:17.483516 +0000 build-r42-fedora2: >> component:
+2023-08-07 07:30:17.483521 +0000 build-r42-fedora2: >>   app-split-git
+2023-08-07 07:30:17.483528 +0000 build-r42-fedora2: >>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c
+2023-08-07 07:30:17.483539 +0000 build-r42-fedora2: >>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d
+2023-08-07 07:30:17.483549 +0000 build-r42-fedora2: >> distributions:
+2023-08-07 07:30:17.483557 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-37.x86_64>, <QubesDistribution vm-fedora-38.x86_64>]
+2023-08-07 07:30:17.483566 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64: Source hash is the same than already prepared source. Skipping.
+2023-08-07 07:30:17.483574 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64: Source hash is the same than already built source. Skipping.
+2023-08-07 07:30:17.483604 +0000 build-r42-fedora2: Executing 'bash -c mkdir -p /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87&&qubes-gpg-client-wrapper --armor --export 04A8F986B97FBCB838F08C305FE4986AD0941E87 > /tmp/tmpk5w7qfn0/04A8F986B97FBCB838F08C305FE4986AD0941E87.asc&&rpmkeys --dbpath=/home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --import /tmp/tmpk5w7qfn0/04A8F986B97FBCB838F08C305FE4986AD0941E87.asc'.
+2023-08-07 07:30:17.564601 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-fc38'.
+2023-08-07 07:30:17.565687 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.fc38.x86_64.rpm'.
+2023-08-07 07:30:17.565833 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/build/rpm/qubes-split-git-1.0.1-3.fc38.x86_64.rpm'.
+2023-08-07 07:30:17.586232 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-07 07:30:27.517445 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-07 07:30:36.307274 +0000 build-r42-fedora2: output: /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/build/rpm/qubes-split-git-1.0.1-3.fc38.x86_64.rpm:
+2023-08-07 07:30:36.308635 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.fc38.src.rpm'.
+2023-08-07 07:30:36.308662 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/prep/qubes-split-git-1.0.1-3.fc38.src.rpm'.
+2023-08-07 07:30:36.325357 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-07 07:30:36.744684 +0000 build-r42-fedora2: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-08-07 07:30:37.048291 +0000 build-r42-fedora2: output: /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/prep/qubes-split-git-1.0.1-3.fc38.src.rpm:
+2023-08-07 07:30:37.049870 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Signing 'qubes-split-git-1.0.1-3.fc38.x86_64.buildinfo'.
+2023-08-07 07:30:37.049929 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/update-rpmbuildinfo /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/build/rpm/qubes-split-git-1.0.1-3.fc38.x86_64.buildinfo qubes-gpg-client-wrapper 04A8F986B97FBCB838F08C305FE4986AD0941E87'.
+2023-08-07 07:30:37.753470 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Provisioning local repository '/home/user/builder-r4.2/repository/vm-fc38'.
+2023-08-07 07:30:37.756515 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm fc38 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2023-08-07 07:30:37.775631 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Publishing RPMs to 'current-testing'.
+2023-08-07 07:30:37.775734 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Verifying signatures.
+2023-08-07 07:30:37.775810 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/build/rpm/qubes-split-git-1.0.1-3.fc38.x86_64.rpm --check-only'.
+2023-08-07 07:30:37.785061 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-git/1.0.1-3/vm-fc38/prep/qubes-split-git-1.0.1-3.fc38.src.rpm --check-only'.
+2023-08-07 07:30:37.795494 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Updating metadata.
+2023-08-07 07:30:37.796052 +0000 build-r42-fedora2: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38&&createrepo_c -g comps.xml .'.
+2023-08-07 07:30:37.828709 +0000 build-r42-fedora2: output: Directory walk started
+2023-08-07 07:30:37.828760 +0000 build-r42-fedora2: output: Directory walk done - 4 packages
+2023-08-07 07:30:37.828775 +0000 build-r42-fedora2: output: Using comps.xml from target repo
+2023-08-07 07:30:37.828788 +0000 build-r42-fedora2: output: Temporary output repo path: ./.repodata/
+2023-08-07 07:30:37.828798 +0000 build-r42-fedora2: output: Preparing sqlite DBs
+2023-08-07 07:30:37.828808 +0000 build-r42-fedora2: output: Pool started (with 5 workers)
+2023-08-07 07:30:37.828817 +0000 build-r42-fedora2: output: Pool finished
+2023-08-07 07:30:37.830362 +0000 build-r42-fedora2: app-split-git:vm-fedora-38.x86_64:rpm_spec/qubes-split-git.spec: Signing metadata.
+2023-08-07 07:30:37.830533 +0000 build-r42-fedora2: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u 04A8F986B97FBCB838F08C305FE4986AD0941E87 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38/repodata/repomd.xml.asc'.
+2023-08-07 07:30:39.056295 +0000 build-r42-fedora2: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38/repodata/repomd.xml.
+2023-08-07 07:30:39.056385 +0000 build-r42-fedora2: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc38/repodata/repomd.xml.metalink'.
+2023-08-07 07:30:39.195122 +0000 build-r42-fedora2: > done
+2023-08-07 07:30:39.195177 +0000 > closing log
