@@ -1,0 +1,748 @@
+2023-08-07 07:40:59.377159 +0000 > starting log
+2023-08-07 07:40:59.377297 +0000 build-r42-debian1: > starting build with log
+2023-08-07 07:40:59.377305 +0000 build-r42-debian1: >> args:
+2023-08-07 07:40:59.377310 +0000 build-r42-debian1: >>   ()
+2023-08-07 07:40:59.377314 +0000 build-r42-debian1: >> component:
+2023-08-07 07:40:59.377318 +0000 build-r42-debian1: >>   app-split-browser
+2023-08-07 07:40:59.377323 +0000 build-r42-debian1: >>     commit-hash: 99e5cf67905f4ceff67b08449681a44a33c8cba0
+2023-08-07 07:40:59.377331 +0000 build-r42-debian1: >>     source-hash: d915ea3f655fb65dfe429aa17d889bce33379199451d760cc9cd0ca9fee17afd056122c396dc64f69651a8d4018e83b6382970f4f198c2b40a5866550a4e10bc
+2023-08-07 07:40:59.377339 +0000 build-r42-debian1: >> distributions:
+2023-08-07 07:40:59.377345 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2023-08-07 07:41:12.738290 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-08-07 07:41:12.952154 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7949 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-08-07 07:41:13.275005 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-08-07 07:41:13.612857 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'rm -rf /builder/incoming/source_deb /builder/plugins/source_deb'
+2023-08-07 07:41:13.904065 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7949 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_deb
+2023-08-07 07:41:14.099296 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source_deb /builder/plugins'
+2023-08-07 07:41:14.325935 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-07 07:41:14.657568 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7949 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-07 07:41:14.943231 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-07 07:41:15.181886 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'rm -rf /builder/incoming/source /builder/plugins/source'
+2023-08-07 07:41:15.471616 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7949 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2023-08-07 07:41:15.635087 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp7949 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source /builder/plugins'
+2023-08-07 07:41:15.829411 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp7949 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' DIST='bookworm' LC_ALL='C' DEBFULLNAME='Builder' DEBEMAIL='user@localhost' bash -c '/builder/plugins/source_deb/scripts/modify-changelog-for-build /builder/app-split-browser debian bookworm deb12u  && /builder/plugins/source_deb/scripts/get-source-info /builder/app-split-browser debian''.
+2023-08-07 07:41:16.003341 +0000 build-r42-debian1: output: + test 4 -lt 4
+2023-08-07 07:41:16.003419 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2023-08-07 07:41:16.003433 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2023-08-07 07:41:16.003444 +0000 build-r42-debian1: output: + DIST_NAME=bookworm
+2023-08-07 07:41:16.003454 +0000 build-r42-debian1: output: + DIST_TAG=deb12u
+2023-08-07 07:41:16.003463 +0000 build-r42-debian1: output: + DEVEL_VERSION=
+2023-08-07 07:41:16.003963 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/modify-changelog-for-build
+2023-08-07 07:41:16.005528 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2023-08-07 07:41:16.005554 +0000 build-r42-debian1: output: + cd /builder/app-split-browser
+2023-08-07 07:41:16.005582 +0000 build-r42-debian1: output: + '[' 0 -gt 0 ']'
+2023-08-07 07:41:16.005623 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-changelog --verify
+2023-08-07 07:41:16.224880 +0000 build-r42-debian1: output: + debchange -t -l+deb12u 'Build for bookworm'
+2023-08-07 07:41:16.398535 +0000 build-r42-debian1: output: + debchange -t --force-distribution -r -D bookworm bookworm
+2023-08-07 07:41:16.498619 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Debian release names are not known.
+2023-08-07 07:41:16.498693 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Ubuntu release names are not known.
+2023-08-07 07:41:16.503151 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/clamp-changelog-entry-date /builder/app-split-browser/debian/changelog
+2023-08-07 07:41:16.513199 +0000 build-r42-debian1: output: + test 2 -ne 2
+2023-08-07 07:41:16.513261 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2023-08-07 07:41:16.513275 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2023-08-07 07:41:16.513503 +0000 build-r42-debian1: output: ++ basename debian
+2023-08-07 07:41:16.514250 +0000 build-r42-debian1: output: + DIRECTORY_BN=debian
+2023-08-07 07:41:16.514298 +0000 build-r42-debian1: output: + DIRECTORY_MANGLE_PATH=debian
+2023-08-07 07:41:16.514359 +0000 build-r42-debian1: output: + DIRECTORY_MANGLE_PATH=debian
+2023-08-07 07:41:16.514407 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/get-source-info
+2023-08-07 07:41:16.515033 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2023-08-07 07:41:16.515227 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-parser changelog --package-release-name /builder/app-split-browser/debian/changelog
+2023-08-07 07:41:16.588082 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-parser changelog --package-release-name-full /builder/app-split-browser/debian/changelog
+2023-08-07 07:41:16.661306 +0000 build-r42-debian1: output: + grep -Po '(?<=^3.0 \()\w+'
+2023-08-07 07:41:16.670296 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp7949 qubesbuilder.FileCopyOut+__builder__app-split-browser__debian_package_release_name /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpppr2oe6h
+2023-08-07 07:41:34.048194 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-08-07 07:41:34.446159 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-08-07 07:41:35.549763 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-08-07 07:41:49.787041 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/distfiles/app-split-browser'
+2023-08-07 07:41:50.084114 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/distfiles/app-split-browser
+2023-08-07 07:41:50.245033 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'mkdir -p /builder/distfiles && mv /builder/incoming/app-split-browser /builder/distfiles'
+2023-08-07 07:41:50.428680 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'rm -rf /builder/incoming/source_deb /builder/plugins/source_deb'
+2023-08-07 07:41:50.702000 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_deb
+2023-08-07 07:41:50.947985 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source_deb /builder/plugins'
+2023-08-07 07:41:51.339414 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-07 07:41:51.548162 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-07 07:41:51.820696 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-07 07:41:52.031003 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'rm -rf /builder/incoming/source /builder/plugins/source'
+2023-08-07 07:41:52.267227 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2023-08-07 07:41:52.501131 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9974 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source /builder/plugins'
+2023-08-07 07:41:52.770894 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp9974 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' DIST='bookworm' LC_ALL='C' DEBFULLNAME='Builder' DEBEMAIL='user@localhost' bash -c '/builder/plugins/fetch/scripts/create-archive /builder/app-split-browser qubes-split-browser_0.16.1.orig.tar.gz && mv /builder/app-split-browser/qubes-split-browser_0.16.1.orig.tar.gz /builder && /builder/plugins/source_deb/scripts/modify-changelog-for-build /builder/app-split-browser debian bookworm deb12u  && mkdir -p /builder/build && cd /builder/build && cp -a /builder/app-split-browser/debian . && chmod -R -- u+rwX,g+rX-w,o+rX-w . && chmod +x debian/rules && dpkg-source -b . && /builder/plugins/source_deb/scripts/debian-get-packages-list /builder/qubes-split-browser_0.16.1-1+deb12u1.dsc >/builder/debian_packages.list''.
+2023-08-07 07:41:52.975817 +0000 build-r42-debian1: output: ++ tar --version
+2023-08-07 07:41:52.975873 +0000 build-r42-debian1: output: ++ head -1
+2023-08-07 07:41:52.976514 +0000 build-r42-debian1: output: ++ awk '{print $4}'
+2023-08-07 07:41:52.991937 +0000 build-r42-debian1: output: + TAR_VERSION=1.34
+2023-08-07 07:41:52.991989 +0000 build-r42-debian1: output: ++ readlink -f /builder/app-split-browser
+2023-08-07 07:41:52.993097 +0000 build-r42-debian1: output: + GIT_ARCHIVE_SRC=/builder/app-split-browser
+2023-08-07 07:41:52.993125 +0000 build-r42-debian1: output: + GIT_ARCHIVE_TYPE=gz
+2023-08-07 07:41:52.993152 +0000 build-r42-debian1: output: + GIT_TARBALL_NAME=qubes-split-browser_0.16.1.orig.tar
+2023-08-07 07:41:52.993212 +0000 build-r42-debian1: output: + '[' x '!=' x ']'
+2023-08-07 07:41:52.993247 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.1.orig.tar
+2023-08-07 07:41:52.993320 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.1.orig
+2023-08-07 07:41:52.993344 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.1
+2023-08-07 07:41:52.993422 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.1/
+2023-08-07 07:41:52.993464 +0000 build-r42-debian1: output: + pushd /builder/app-split-browser
+2023-08-07 07:41:52.993510 +0000 build-r42-debian1: output: /builder/app-split-browser ~
+2023-08-07 07:41:52.993576 +0000 build-r42-debian1: output: ++ git log -1 --format=%ct
+2023-08-07 07:41:53.012358 +0000 build-r42-debian1: output: + SOURCE_DATE_EPOCH=1691310392
+2023-08-07 07:41:53.013009 +0000 build-r42-debian1: output: ++ printf '%s\n' 1.34 1.28
+2023-08-07 07:41:53.013046 +0000 build-r42-debian1: output: ++ sort -V
+2023-08-07 07:41:53.013459 +0000 build-r42-debian1: output: ++ head -n1
+2023-08-07 07:41:53.015913 +0000 build-r42-debian1: output: + '[' 1.28 == 1.28 ']'
+2023-08-07 07:41:53.015973 +0000 build-r42-debian1: output: + tar --sort=name --mtime=@1691310392 --owner=0 --group=0 --numeric-owner --mode=go=rX '--xform=s%^\./%qubes-split-browser_0.16.1/%' --exclude-vcs-ignores --exclude-ignore=.tarignore --exclude pkgs --exclude '.git/*' --exclude qubes-split-browser_0.16.1.orig.tar -cf qubes-split-browser_0.16.1.orig.tar .
+2023-08-07 07:41:53.019780 +0000 build-r42-debian1: output: + case "$GIT_ARCHIVE_TYPE" in
+2023-08-07 07:41:53.019837 +0000 build-r42-debian1: output: + gzip -fn qubes-split-browser_0.16.1.orig.tar
+2023-08-07 07:41:53.025997 +0000 build-r42-debian1: output: + popd
+2023-08-07 07:41:53.026029 +0000 build-r42-debian1: output: ~
+2023-08-07 07:41:53.028812 +0000 build-r42-debian1: output: + test 4 -lt 4
+2023-08-07 07:41:53.028870 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2023-08-07 07:41:53.028889 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2023-08-07 07:41:53.028993 +0000 build-r42-debian1: output: + DIST_NAME=bookworm
+2023-08-07 07:41:53.029009 +0000 build-r42-debian1: output: + DIST_TAG=deb12u
+2023-08-07 07:41:53.029053 +0000 build-r42-debian1: output: + DEVEL_VERSION=
+2023-08-07 07:41:53.029184 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/modify-changelog-for-build
+2023-08-07 07:41:53.030886 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2023-08-07 07:41:53.030924 +0000 build-r42-debian1: output: + cd /builder/app-split-browser
+2023-08-07 07:41:53.030944 +0000 build-r42-debian1: output: + '[' 0 -gt 0 ']'
+2023-08-07 07:41:53.030961 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-changelog --verify
+2023-08-07 07:41:53.243336 +0000 build-r42-debian1: output: + debchange -t -l+deb12u 'Build for bookworm'
+2023-08-07 07:41:53.414742 +0000 build-r42-debian1: output: + debchange -t --force-distribution -r -D bookworm bookworm
+2023-08-07 07:41:53.482733 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Debian release names are not known.
+2023-08-07 07:41:53.482792 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Ubuntu release names are not known.
+2023-08-07 07:41:53.485182 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/clamp-changelog-entry-date /builder/app-split-browser/debian/changelog
+2023-08-07 07:41:53.618474 +0000 build-r42-debian1: output: dpkg-source: info: using source format '3.0 (quilt)'
+2023-08-07 07:41:53.627286 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser using existing ./qubes-split-browser_0.16.1.orig.tar.gz
+2023-08-07 07:41:53.638192 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2023-08-07 07:41:53.646167 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .pylintrc, use --include-removal to override
+2023-08-07 07:41:53.646213 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file LICENSE-0BSD, use --include-removal to override
+2023-08-07 07:41:53.646225 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file README.md, use --include-removal to override
+2023-08-07 07:41:53.646234 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .qubesbuilder, use --include-removal to override
+2023-08-07 07:41:53.646250 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .eslintrc.yml, use --include-removal to override
+2023-08-07 07:41:53.646258 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file version, use --include-removal to override
+2023-08-07 07:41:53.646267 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .gitlab-ci.yml, use --include-removal to override
+2023-08-07 07:41:53.646299 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file Makefile.builder, use --include-removal to override
+2023-08-07 07:41:53.646308 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory scripts
+2023-08-07 07:41:53.646354 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-shellcheck, use --include-removal to override
+2023-08-07 07:41:53.646402 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-pylint, use --include-removal to override
+2023-08-07 07:41:53.646418 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-eslint, use --include-removal to override
+2023-08-07 07:41:53.646447 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory archlinux
+2023-08-07 07:41:53.646456 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file archlinux/PKGBUILD.in, use --include-removal to override
+2023-08-07 07:41:53.646501 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/GNUmakefile, use --include-removal to override
+2023-08-07 07:41:53.646512 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser
+2023-08-07 07:41:53.646556 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr
+2023-08-07 07:41:53.646570 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/lib
+2023-08-07 07:41:53.646615 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/lib/tmpfiles.d
+2023-08-07 07:41:53.646659 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/lib/tmpfiles.d/split-browser.conf, use --include-removal to override
+2023-08-07 07:41:53.646674 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/bin
+2023-08-07 07:41:53.646685 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark-pretty2url, use --include-removal to override
+2023-08-07 07:41:53.646735 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/x11-unoverride-redirect, use --include-removal to override
+2023-08-07 07:41:53.646773 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-login-fields, use --include-removal to override
+2023-08-07 07:41:53.646793 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-cmd, use --include-removal to override
+2023-08-07 07:41:53.646845 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser, use --include-removal to override
+2023-08-07 07:41:53.646876 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-login, use --include-removal to override
+2023-08-07 07:41:53.646888 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark, use --include-removal to override
+2023-08-07 07:41:53.646937 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark-pretty, use --include-removal to override
+2023-08-07 07:41:53.646951 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/share
+2023-08-07 07:41:53.646961 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/share/applications
+2023-08-07 07:41:53.646981 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/share/applications/split-browser.desktop, use --include-removal to override
+2023-08-07 07:41:53.646993 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/share/applications/split-browser-safest.desktop, use --include-removal to override
+2023-08-07 07:41:53.647040 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc
+2023-08-07 07:41:53.647055 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc/split-browser
+2023-08-07 07:41:53.647067 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/10-defaults.bash, use --include-removal to override
+2023-08-07 07:41:53.647079 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/20-utf-8.bash.EXAMPLE, use --include-removal to override
+2023-08-07 07:41:53.647151 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc/split-browser/prefs
+2023-08-07 07:41:53.647168 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/32-ui-tweaks.js.EXAMPLE, use --include-removal to override
+2023-08-07 07:41:53.647177 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/12-no-tor-checks.js, use --include-removal to override
+2023-08-07 07:41:53.647193 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/11-no-updates.js, use --include-removal to override
+2023-08-07 07:41:53.647223 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/15-downloads-directory.js, use --include-removal to override
+2023-08-07 07:41:53.647234 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/14-no-nags.js, use --include-removal to override
+2023-08-07 07:41:53.647243 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr
+2023-08-07 07:41:53.647276 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/lib
+2023-08-07 07:41:53.647285 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/lib/tmpfiles.d
+2023-08-07 07:41:53.647336 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/lib/tmpfiles.d/split-browser-disp.conf, use --include-removal to override
+2023-08-07 07:41:53.647351 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share
+2023-08-07 07:41:53.647361 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share/split-browser-disp
+2023-08-07 07:41:53.647408 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox
+2023-08-07 07:41:53.647425 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox/sb-load.js, use --include-removal to override
+2023-08-07 07:41:53.647437 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox/sb.js, use --include-removal to override
+2023-08-07 07:41:53.647479 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/split-browser-disp/21-tor-browser.bash, use --include-removal to override
+2023-08-07 07:41:53.647491 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/split-browser-disp/22-firefox.bash.EXAMPLE, use --include-removal to override
+2023-08-07 07:41:53.647500 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/etc/qubes-rpc
+2023-08-07 07:41:53.647549 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/qubes-rpc/split-browser-disp, use --include-removal to override
+2023-08-07 07:41:53.647562 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory rpm_spec
+2023-08-07 07:41:53.647573 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file rpm_spec/qubes-split-browser.spec.in, use --include-removal to override
+2023-08-07 07:41:53.647615 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file rpm_spec/lib64.diff, use --include-removal to override
+2023-08-07 07:41:53.648996 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz
+2023-08-07 07:41:53.659891 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.1-1+deb12u1.dsc
+2023-08-07 07:41:53.778506 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyOut+__builder__qubes-split-browser_0.16.1-1+deb12u1.dsc /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep
+2023-08-07 07:41:54.030355 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyOut+__builder__qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep
+2023-08-07 07:41:54.229857 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyOut+__builder__debian_packages.list /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpppr2oe6h
+2023-08-07 07:41:54.390510 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9974 qubesbuilder.FileCopyOut+__builder__qubes-split-browser_0.16.1.orig.tar.gz /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep
+2023-08-07 07:42:14.012050 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/pbuilder /builder/pbuilder'
+2023-08-07 07:42:28.428703 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_deb/pbuilder
+2023-08-07 07:42:28.751778 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder && mv /builder/incoming/pbuilder /builder'
+2023-08-07 07:42:28.892921 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/vm-bookworm /builder/repository/vm-bookworm'
+2023-08-07 07:42:29.079991 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/repository/vm-bookworm
+2023-08-07 07:42:29.424182 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/repository && mv /builder/incoming/vm-bookworm /builder/repository'
+2023-08-07 07:42:29.588795 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/build_deb /builder/plugins/build_deb'
+2023-08-07 07:42:29.793263 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build_deb
+2023-08-07 07:42:30.115858 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/build_deb /builder/plugins'
+2023-08-07 07:42:30.321418 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/chroot_deb /builder/plugins/chroot_deb'
+2023-08-07 07:42:30.603418 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_deb
+2023-08-07 07:42:30.892269 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/chroot_deb /builder/plugins'
+2023-08-07 07:42:31.026393 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/build /builder/plugins/build'
+2023-08-07 07:42:31.336214 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build
+2023-08-07 07:42:31.583021 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/build /builder/plugins'
+2023-08-07 07:42:31.776403 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/qubes-split-browser_0.16.1-1+deb12u1.dsc /builder/build/qubes-split-browser_0.16.1-1+deb12u1.dsc'
+2023-08-07 07:42:32.007818 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep/qubes-split-browser_0.16.1-1+deb12u1.dsc
+2023-08-07 07:42:32.254108 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/build && mv /builder/incoming/qubes-split-browser_0.16.1-1+deb12u1.dsc /builder/build'
+2023-08-07 07:42:32.466464 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz /builder/build/qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz'
+2023-08-07 07:42:32.689405 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep/qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz
+2023-08-07 07:42:32.961905 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/build && mv /builder/incoming/qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz /builder/build'
+2023-08-07 07:42:33.164879 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/qubes-split-browser_0.16.1.orig.tar.gz /builder/build/qubes-split-browser_0.16.1.orig.tar.gz'
+2023-08-07 07:42:33.360672 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/prep/qubes-split-browser_0.16.1.orig.tar.gz
+2023-08-07 07:42:33.590969 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/build && mv /builder/incoming/qubes-split-browser_0.16.1.orig.tar.gz /builder/build'
+2023-08-07 07:42:33.824319 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'rm -rf /builder/incoming/base.tgz /builder/pbuilder/base.tgz'
+2023-08-07 07:42:34.031962 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/cache/chroot/bookworm/pbuilder/base.tgz
+2023-08-07 07:42:35.220484 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp1966 bash -c 'mkdir -p /builder/pbuilder && mv /builder/incoming/base.tgz /builder/pbuilder'
+2023-08-07 07:42:35.656355 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp1966 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'mkdir -p /builder/cache/aptcache && /builder/plugins/build_deb/scripts/create-local-repo /builder/repository debian bookworm && sudo -E pbuilder update --distribution bookworm --configfile /builder/pbuilder/pbuilderrc --othermirror "deb [trusted=yes] file:///tmp/qubes-deb bookworm main" && sudo -E pbuilder build --override-config --distribution bookworm --configfile /builder/pbuilder/pbuilderrc --othermirror "deb [trusted=yes] file:///tmp/qubes-deb bookworm main" /builder/build/qubes-split-browser_0.16.1-1+deb12u1.dsc && /builder/plugins/build_deb/scripts/patch-changes /builder/build/qubes-split-browser_0.16.1-1+deb12u1.dsc /builder/pbuilder/results/qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo /builder/pbuilder/results/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes''.
+2023-08-07 07:42:35.843167 +0000 build-r42-debian1: output: + '[' 3 -lt 2 ']'
+2023-08-07 07:42:35.843226 +0000 build-r42-debian1: output: + REPO_DIR=/builder/repository
+2023-08-07 07:42:35.843240 +0000 build-r42-debian1: output: + DISTRIBUTION=debian
+2023-08-07 07:42:35.843250 +0000 build-r42-debian1: output: + SUITE=bookworm
+2023-08-07 07:42:35.843520 +0000 build-r42-debian1: output: + mkdir -p /builder/repository/conf
+2023-08-07 07:42:35.844924 +0000 build-r42-debian1: output: + mkdir -p /builder/repository/conf
+2023-08-07 07:42:35.846193 +0000 build-r42-debian1: output: + cd /builder/repository
+2023-08-07 07:42:35.846207 +0000 build-r42-debian1: output: + cat
+2023-08-07 07:42:35.847501 +0000 build-r42-debian1: output: + mkdir -p dists/bookworm/main/binary-amd64
+2023-08-07 07:42:35.848994 +0000 build-r42-debian1: output: + dpkg-scanpackages --multiversion .
+2023-08-07 07:42:35.995328 +0000 build-r42-debian1: output: dpkg-scanpackages: info: Wrote 1 entries to output Packages file.
+2023-08-07 07:42:35.996797 +0000 build-r42-debian1: output: + gzip -9c dists/bookworm/main/binary-amd64/Packages
+2023-08-07 07:42:35.999143 +0000 build-r42-debian1: output: ++ LC_ALL=C
+2023-08-07 07:42:35.999162 +0000 build-r42-debian1: output: ++ date -u '+%a, %d %b %Y %H:%M:%S %Z'
+2023-08-07 07:42:35.999640 +0000 build-r42-debian1: output: + DATE='Mon, 07 Aug 2023 07:42:36 UTC'
+2023-08-07 07:42:35.999695 +0000 build-r42-debian1: output: + cat
+2023-08-07 07:42:36.000441 +0000 build-r42-debian1: output: + calc_sha1 main/binary-amd64/Packages
+2023-08-07 07:42:36.000481 +0000 build-r42-debian1: output: + f=dists/bookworm/main/binary-amd64/Packages
+2023-08-07 07:42:36.000521 +0000 build-r42-debian1: output: + echo -n ' '
+2023-08-07 07:42:36.000964 +0000 build-r42-debian1: output: ++ cut '-d ' -f 1
+2023-08-07 07:42:36.001000 +0000 build-r42-debian1: output: ++ sha256sum dists/bookworm/main/binary-amd64/Packages
+2023-08-07 07:42:36.003702 +0000 build-r42-debian1: output: + echo -n cb8ee4cffdd47bb6e000cc5165823474332d15d4a653aa25c570a72ae8c53a3e ''
+2023-08-07 07:42:36.003728 +0000 build-r42-debian1: output: ++ stat -c %s dists/bookworm/main/binary-amd64/Packages
+2023-08-07 07:42:36.006174 +0000 build-r42-debian1: output: + echo -n 750 ''
+2023-08-07 07:42:36.006205 +0000 build-r42-debian1: output: + echo main/binary-amd64/Packages
+2023-08-07 07:42:36.006217 +0000 build-r42-debian1: output: + calc_sha1 main/binary-amd64/Packages.gz
+2023-08-07 07:42:36.006283 +0000 build-r42-debian1: output: + f=dists/bookworm/main/binary-amd64/Packages.gz
+2023-08-07 07:42:36.006436 +0000 build-r42-debian1: output: + echo -n ' '
+2023-08-07 07:42:36.006447 +0000 build-r42-debian1: output: ++ sha256sum dists/bookworm/main/binary-amd64/Packages.gz
+2023-08-07 07:42:36.006454 +0000 build-r42-debian1: output: ++ cut '-d ' -f 1
+2023-08-07 07:42:36.008240 +0000 build-r42-debian1: output: + echo -n 32e74257407ae335ed08440282836ce553061b4d201097541f765cf02a1bee00 ''
+2023-08-07 07:42:36.008597 +0000 build-r42-debian1: output: ++ stat -c %s dists/bookworm/main/binary-amd64/Packages.gz
+2023-08-07 07:42:36.009707 +0000 build-r42-debian1: output: + echo -n 526 ''
+2023-08-07 07:42:36.009754 +0000 build-r42-debian1: output: + echo main/binary-amd64/Packages.gz
+2023-08-07 07:42:36.009872 +0000 build-r42-debian1: output: + mapfile -d '' changes_files
+2023-08-07 07:42:36.010450 +0000 build-r42-debian1: output: ++ find /builder/repository -name '*.changes' -not -path /builder/repository/dists -not -path /builder/repository/pool -print0
+2023-08-07 07:42:36.012945 +0000 build-r42-debian1: output: + for changes in "${changes_files[@]}"
+2023-08-07 07:42:36.013021 +0000 build-r42-debian1: output: + reprepro -b /builder/repository --ignore=surprisingbinary --ignore=surprisingarch include bookworm /builder/repository/vm-bookworm/tunnel_1.4.6/qubes-tunnel_1.4.6-1+deb12u1_amd64.changes
+2023-08-07 07:42:36.069799 +0000 build-r42-debian1: output: 'qubes-tunnel_1.4.6-1+deb12u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2023-08-07 07:42:36.069847 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2023-08-07 07:42:36.084824 +0000 build-r42-debian1: output: Exporting indices...
+2023-08-07 07:42:36.113017 +0000 build-r42-debian1: output: W: /root/.pbuilderrc does not exist
+2023-08-07 07:42:36.165948 +0000 build-r42-debian1: output: W: libeatmydata is not installed on the host, not using it.
+2023-08-07 07:42:36.172518 +0000 build-r42-debian1: output: dpkg-query: no packages found matching systemd
+2023-08-07 07:42:36.173703 +0000 build-r42-debian1: output: W: cgroups are not available on the host, not using them.
+2023-08-07 07:42:36.176329 +0000 build-r42-debian1: output: I: Current time: Mon Aug  7 09:42:36 CEST 2023
+2023-08-07 07:42:36.176804 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1691394156
+2023-08-07 07:42:36.177288 +0000 build-r42-debian1: output: I: Building the build Environment
+2023-08-07 07:42:36.177908 +0000 build-r42-debian1: output: I: extracting base tarball [/builder/pbuilder/base.tgz]
+2023-08-07 07:42:39.590930 +0000 build-r42-debian1: output: I: copying local configuration
+2023-08-07 07:42:39.597941 +0000 build-r42-debian1: output: W: No local /etc/hostname to copy, relying on /builder/pbuilder/build/1903/etc/hostname to be correct
+2023-08-07 07:42:39.597982 +0000 build-r42-debian1: output: W: No local /etc/mailname to copy, relying on /builder/pbuilder/build/1903/etc/mailname to be correct
+2023-08-07 07:42:39.604179 +0000 build-r42-debian1: output: W: --override-config is not set; not updating apt.conf Read the manpage for details.
+2023-08-07 07:42:39.604552 +0000 build-r42-debian1: output: I: mounting /proc filesystem
+2023-08-07 07:42:39.614169 +0000 build-r42-debian1: output: I: mounting /sys filesystem
+2023-08-07 07:42:39.620142 +0000 build-r42-debian1: output: I: creating /{dev,run}/shm
+2023-08-07 07:42:39.629809 +0000 build-r42-debian1: output: I: mounting /dev/pts filesystem
+2023-08-07 07:42:39.636114 +0000 build-r42-debian1: output: I: redirecting /dev/ptmx to /dev/pts/ptmx
+2023-08-07 07:42:39.640997 +0000 build-r42-debian1: output: I: Mounting /builder/repository to /tmp/qubes-deb
+2023-08-07 07:42:39.642749 +0000 build-r42-debian1: output: I: policy-rc.d already exists
+2023-08-07 07:42:39.648421 +0000 build-r42-debian1: output: I: Refreshing the base.tgz
+2023-08-07 07:42:39.648483 +0000 build-r42-debian1: output: I: upgrading packages
+2023-08-07 07:42:41.616032 +0000 build-r42-debian1: output: Hit:1 https://deb.debian.org/debian bookworm InRelease
+2023-08-07 07:42:42.237155 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:42:42.267889 +0000 build-r42-debian1: output: I: Obtaining the cached apt archive contents
+2023-08-07 07:42:42.287533 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:42:42.444141 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:42:42.444201 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:42:42.505592 +0000 build-r42-debian1: output: Calculating upgrade...
+2023-08-07 07:42:42.583530 +0000 build-r42-debian1: output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2023-08-07 07:42:42.600676 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:42:42.750753 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:42:42.750815 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:42:42.886181 +0000 build-r42-debian1: output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2023-08-07 07:42:42.897870 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:42:43.013178 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:42:43.013230 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:42:43.137028 +0000 build-r42-debian1: output: build-essential is already the newest version (12.9).
+2023-08-07 07:42:43.137093 +0000 build-r42-debian1: output: dpkg-dev is already the newest version (1.21.22).
+2023-08-07 07:42:43.137109 +0000 build-r42-debian1: output: aptitude is already the newest version (0.8.13-5).
+2023-08-07 07:42:43.137131 +0000 build-r42-debian1: output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2023-08-07 07:42:43.137525 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2023-08-07 07:42:43.139873 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/1903/tmp/hooks/E30origin starting
+2023-08-07 07:42:43.143562 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/1903/tmp/hooks/E30origin finished
+2023-08-07 07:42:43.143594 +0000 build-r42-debian1: output: I: unmounting /tmp/qubes-deb filesystem
+2023-08-07 07:42:43.154004 +0000 build-r42-debian1: output: I: unmounting dev/ptmx filesystem
+2023-08-07 07:42:43.157022 +0000 build-r42-debian1: output: I: unmounting dev/pts filesystem
+2023-08-07 07:42:43.158950 +0000 build-r42-debian1: output: I: unmounting dev/shm filesystem
+2023-08-07 07:42:43.161596 +0000 build-r42-debian1: output: I: unmounting proc filesystem
+2023-08-07 07:42:43.164180 +0000 build-r42-debian1: output: I: unmounting sys filesystem
+2023-08-07 07:42:43.189054 +0000 build-r42-debian1: output: I: creating base tarball [/builder/pbuilder/base.tgz]
+2023-08-07 07:43:09.132133 +0000 build-r42-debian1: output: I: cleaning the build env
+2023-08-07 07:43:09.132197 +0000 build-r42-debian1: output: I: removing directory /builder/pbuilder/build/1903 and its subdirectories
+2023-08-07 07:43:09.699673 +0000 build-r42-debian1: output: W: /root/.pbuilderrc does not exist
+2023-08-07 07:43:09.753550 +0000 build-r42-debian1: output: W: libeatmydata is not installed on the host, not using it.
+2023-08-07 07:43:09.759944 +0000 build-r42-debian1: output: dpkg-query: no packages found matching systemd
+2023-08-07 07:43:09.761499 +0000 build-r42-debian1: output: W: cgroups are not available on the host, not using them.
+2023-08-07 07:43:09.819835 +0000 build-r42-debian1: output: I: pbuilder: network access will be disabled during build
+2023-08-07 07:43:09.820848 +0000 build-r42-debian1: output: I: Current time: Mon Aug  7 09:43:10 CEST 2023
+2023-08-07 07:43:09.822087 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1691394190
+2023-08-07 07:43:09.823105 +0000 build-r42-debian1: output: I: Building the build Environment
+2023-08-07 07:43:09.824577 +0000 build-r42-debian1: output: I: extracting base tarball [/builder/pbuilder/base.tgz]
+2023-08-07 07:43:13.379609 +0000 build-r42-debian1: output: I: copying local configuration
+2023-08-07 07:43:13.381432 +0000 build-r42-debian1: output: W: No local /etc/hostname to copy, relying on /builder/pbuilder/build/2116/etc/hostname to be correct
+2023-08-07 07:43:13.381662 +0000 build-r42-debian1: output: W: No local /etc/mailname to copy, relying on /builder/pbuilder/build/2116/etc/mailname to be correct
+2023-08-07 07:43:13.385045 +0000 build-r42-debian1: output: I: Installing apt-lines
+2023-08-07 07:43:13.448891 +0000 build-r42-debian1: output: I: mounting /proc filesystem
+2023-08-07 07:43:13.452830 +0000 build-r42-debian1: output: I: mounting /sys filesystem
+2023-08-07 07:43:13.455916 +0000 build-r42-debian1: output: I: creating /{dev,run}/shm
+2023-08-07 07:43:13.461744 +0000 build-r42-debian1: output: I: mounting /dev/pts filesystem
+2023-08-07 07:43:13.465243 +0000 build-r42-debian1: output: I: redirecting /dev/ptmx to /dev/pts/ptmx
+2023-08-07 07:43:13.469067 +0000 build-r42-debian1: output: I: Mounting /builder/repository to /tmp/qubes-deb
+2023-08-07 07:43:13.470524 +0000 build-r42-debian1: output: I: policy-rc.d already exists
+2023-08-07 07:43:13.473677 +0000 build-r42-debian1: output: I: created buildresult dir: /builder/pbuilder/results
+2023-08-07 07:43:13.473776 +0000 build-r42-debian1: output: I: Obtaining the cached apt archive contents
+2023-08-07 07:43:13.492249 +0000 build-r42-debian1: output: I: Copying source file
+2023-08-07 07:43:13.504625 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.1-1+deb12u1.dsc]
+2023-08-07 07:43:13.507952 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.1.orig.tar.gz]
+2023-08-07 07:43:13.510949 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz]
+2023-08-07 07:43:13.522953 +0000 build-r42-debian1: output: I: Extracting source
+2023-08-07 07:43:13.603189 +0000 build-r42-debian1: output: dpkg-source: warning: extracting unsigned source package (qubes-split-browser_0.16.1-1+deb12u1.dsc)
+2023-08-07 07:43:13.605603 +0000 build-r42-debian1: output: dpkg-source: info: extracting qubes-split-browser in qubes-split-browser-0.16.1
+2023-08-07 07:43:13.605626 +0000 build-r42-debian1: output: dpkg-source: info: unpacking qubes-split-browser_0.16.1.orig.tar.gz
+2023-08-07 07:43:13.612571 +0000 build-r42-debian1: output: dpkg-source: info: unpacking qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz
+2023-08-07 07:43:13.621211 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2023-08-07 07:43:13.621237 +0000 build-r42-debian1: output: dpkg-source: info: applying esr.diff
+2023-08-07 07:43:13.630789 +0000 build-r42-debian1: output: I: using fakeroot in build.
+2023-08-07 07:43:13.630817 +0000 build-r42-debian1: output: I: Installing the build-deps
+2023-08-07 07:43:13.630827 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/2116/tmp/hooks/D30update starting
+2023-08-07 07:43:13.650168 +0000 build-r42-debian1: output: Get:1 file:/tmp/qubes-deb bookworm InRelease
+2023-08-07 07:43:13.650213 +0000 build-r42-debian1: output: Ign:1 file:/tmp/qubes-deb bookworm InRelease
+2023-08-07 07:43:13.650228 +0000 build-r42-debian1: output: Get:2 file:/tmp/qubes-deb bookworm Release [1608 B]
+2023-08-07 07:43:13.654673 +0000 build-r42-debian1: output: Get:2 file:/tmp/qubes-deb bookworm Release [1608 B]
+2023-08-07 07:43:13.654783 +0000 build-r42-debian1: output: Get:3 file:/tmp/qubes-deb bookworm Release.gpg
+2023-08-07 07:43:13.654931 +0000 build-r42-debian1: output: Ign:3 file:/tmp/qubes-deb bookworm Release.gpg
+2023-08-07 07:43:13.655016 +0000 build-r42-debian1: output: Get:4 file:/tmp/qubes-deb bookworm/main amd64 Packages [512 B]
+2023-08-07 07:43:14.534078 +0000 build-r42-debian1: output: Hit:5 https://deb.debian.org/debian bookworm InRelease
+2023-08-07 07:43:15.120190 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:43:15.137717 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/2116/tmp/hooks/D30update finished
+2023-08-07 07:43:15.231977 +0000 build-r42-debian1: output:  -> Attempting to satisfy build-dependencies
+2023-08-07 07:43:15.288017 +0000 build-r42-debian1: output:  -> Creating pbuilder-satisfydepends-dummy package
+2023-08-07 07:43:15.296305 +0000 build-r42-debian1: output: Package: pbuilder-satisfydepends-dummy
+2023-08-07 07:43:15.296375 +0000 build-r42-debian1: output: Version: 0.invalid.0
+2023-08-07 07:43:15.296410 +0000 build-r42-debian1: output: Architecture: amd64
+2023-08-07 07:43:15.296426 +0000 build-r42-debian1: output: Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+2023-08-07 07:43:15.296450 +0000 build-r42-debian1: output: Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+2023-08-07 07:43:15.296468 +0000 build-r42-debian1: output:  This package was created automatically by pbuilder to satisfy the
+2023-08-07 07:43:15.296492 +0000 build-r42-debian1: output:  build-dependencies of the package being currently built.
+2023-08-07 07:43:15.296527 +0000 build-r42-debian1: output: Depends: debhelper-compat (= 12)
+2023-08-07 07:43:15.299177 +0000 build-r42-debian1: output: dpkg-deb: building package 'pbuilder-satisfydepends-dummy' in '/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+2023-08-07 07:43:15.338674 +0000 build-r42-debian1: output: Selecting previously unselected package pbuilder-satisfydepends-dummy.
+2023-08-07 07:43:15.346244 +0000 build-r42-debian1: output: (Reading database ... 12951 files and directories currently installed.)
+2023-08-07 07:43:15.347511 +0000 build-r42-debian1: output: Preparing to unpack .../pbuilder-satisfydepends-dummy.deb ...
+2023-08-07 07:43:15.358393 +0000 build-r42-debian1: output: Unpacking pbuilder-satisfydepends-dummy (0.invalid.0) ...
+2023-08-07 07:43:15.401901 +0000 build-r42-debian1: output: Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+2023-08-07 07:43:15.401954 +0000 build-r42-debian1: output: dpkg: pbuilder-satisfydepends-dummy: dependency problems, but configuring anyway as you requested:
+2023-08-07 07:43:15.401972 +0000 build-r42-debian1: output:  pbuilder-satisfydepends-dummy depends on debhelper-compat (= 12); however:
+2023-08-07 07:43:15.401995 +0000 build-r42-debian1: output:   Package debhelper-compat is not installed.
+2023-08-07 07:43:15.402005 +0000 build-r42-debian1: output: 
+2023-08-07 07:43:15.596774 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:43:15.707926 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:43:15.707973 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:43:15.731626 +0000 build-r42-debian1: output: Initializing package states...
+2023-08-07 07:43:15.857090 +0000 build-r42-debian1: output: Writing extended state information...
+2023-08-07 07:43:15.938860 +0000 build-r42-debian1: output: Building tag database...
+2023-08-07 07:43:16.649876 +0000 build-r42-debian1: output: pbuilder-satisfydepends-dummy is already installed at the requested version (0.invalid.0)
+2023-08-07 07:43:16.649938 +0000 build-r42-debian1: output: pbuilder-satisfydepends-dummy is already installed at the requested version (0.invalid.0)
+2023-08-07 07:43:16.649948 +0000 build-r42-debian1: output: The following NEW packages will be installed:
+2023-08-07 07:43:16.649992 +0000 build-r42-debian1: output:   autoconf{a} automake{a} autopoint{a} autotools-dev{a} bsdextrautils{a} debhelper{a} dh-autoreconf{a} dh-strip-nondeterminism{a} dwz{a} file{a} gettext{a} gettext-base{a} groff-base{a} intltool-debian{a} libarchive-zip-perl{a} libdebhelper-perl{a} libelf1{a} libfile-stripnondeterminism-perl{a} libicu72{a} libmagic-mgc{a} libmagic1{a} libpipeline1{a} libsub-override-perl{a} libtool{a} libuchardet0{a} libxml2{a} m4{a} man-db{a} po-debconf{a} sensible-utils{a}
+2023-08-07 07:43:16.650002 +0000 build-r42-debian1: output: The following packages are RECOMMENDED but will NOT be installed:
+2023-08-07 07:43:16.650010 +0000 build-r42-debian1: output:   curl libarchive-cpio-perl libltdl-dev libmail-sendmail-perl lynx wget
+2023-08-07 07:43:16.650018 +0000 build-r42-debian1: output: 0 packages upgraded, 30 newly installed, 0 to remove and 0 not upgraded.
+2023-08-07 07:43:16.650047 +0000 build-r42-debian1: output: Need to get 18.7 MB of archives. After unpacking 72.4 MB will be used.
+2023-08-07 07:43:16.650054 +0000 build-r42-debian1: output: Writing extended state information...
+2023-08-07 07:43:17.636728 +0000 build-r42-debian1: output: Get: 1 https://deb.debian.org/debian bookworm/main amd64 sensible-utils all 0.0.17+nmu1 [19.0 kB]
+2023-08-07 07:43:18.021023 +0000 build-r42-debian1: output: Get: 2 https://deb.debian.org/debian bookworm/main amd64 libmagic-mgc amd64 1:5.44-3 [305 kB]
+2023-08-07 07:43:18.503563 +0000 build-r42-debian1: output: Get: 3 https://deb.debian.org/debian bookworm/main amd64 libmagic1 amd64 1:5.44-3 [104 kB]
+2023-08-07 07:43:18.603697 +0000 build-r42-debian1: output: Get: 4 https://deb.debian.org/debian bookworm/main amd64 file amd64 1:5.44-3 [42.5 kB]
+2023-08-07 07:43:18.620031 +0000 build-r42-debian1: output: Get: 5 https://deb.debian.org/debian bookworm/main amd64 gettext-base amd64 0.21-12 [160 kB]
+2023-08-07 07:43:18.763221 +0000 build-r42-debian1: output: Get: 6 https://deb.debian.org/debian bookworm/main amd64 libuchardet0 amd64 0.0.7-1 [67.8 kB]
+2023-08-07 07:43:18.809350 +0000 build-r42-debian1: output: Get: 7 https://deb.debian.org/debian bookworm/main amd64 groff-base amd64 1.22.4-10 [916 kB]
+2023-08-07 07:43:19.517775 +0000 build-r42-debian1: output: Get: 8 https://deb.debian.org/debian bookworm/main amd64 bsdextrautils amd64 2.38.1-5+b1 [86.6 kB]
+2023-08-07 07:43:19.591519 +0000 build-r42-debian1: output: Get: 9 https://deb.debian.org/debian bookworm/main amd64 libpipeline1 amd64 1.5.7-1 [38.5 kB]
+2023-08-07 07:43:19.623833 +0000 build-r42-debian1: output: Get: 10 https://deb.debian.org/debian bookworm/main amd64 man-db amd64 2.11.2-2 [1386 kB]
+2023-08-07 07:43:20.598420 +0000 build-r42-debian1: output: Get: 11 https://deb.debian.org/debian bookworm/main amd64 m4 amd64 1.4.19-3 [287 kB]
+2023-08-07 07:43:20.748718 +0000 build-r42-debian1: output: Get: 12 https://deb.debian.org/debian bookworm/main amd64 autoconf all 2.71-3 [332 kB]
+2023-08-07 07:43:20.941800 +0000 build-r42-debian1: output: Get: 13 https://deb.debian.org/debian bookworm/main amd64 autotools-dev all 20220109.1 [51.6 kB]
+2023-08-07 07:43:20.972071 +0000 build-r42-debian1: output: Get: 14 https://deb.debian.org/debian bookworm/main amd64 automake all 1:1.16.5-1.3 [823 kB]
+2023-08-07 07:43:21.463302 +0000 build-r42-debian1: output: Get: 15 https://deb.debian.org/debian bookworm/main amd64 autopoint all 0.21-12 [495 kB]
+2023-08-07 07:43:21.737557 +0000 build-r42-debian1: output: Get: 16 https://deb.debian.org/debian bookworm/main amd64 libdebhelper-perl all 13.11.4 [81.2 kB]
+2023-08-07 07:43:21.818176 +0000 build-r42-debian1: output: Get: 17 https://deb.debian.org/debian bookworm/main amd64 libtool all 2.4.7-5 [517 kB]
+2023-08-07 07:43:22.106349 +0000 build-r42-debian1: output: Get: 18 https://deb.debian.org/debian bookworm/main amd64 dh-autoreconf all 20 [17.1 kB]
+2023-08-07 07:43:22.118476 +0000 build-r42-debian1: output: Get: 19 https://deb.debian.org/debian bookworm/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+2023-08-07 07:43:22.208378 +0000 build-r42-debian1: output: Get: 20 https://deb.debian.org/debian bookworm/main amd64 libsub-override-perl all 0.09-4 [9304 B]
+2023-08-07 07:43:22.214378 +0000 build-r42-debian1: output: Get: 21 https://deb.debian.org/debian bookworm/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [19.4 kB]
+2023-08-07 07:43:22.223723 +0000 build-r42-debian1: output: Get: 22 https://deb.debian.org/debian bookworm/main amd64 dh-strip-nondeterminism all 1.13.1-1 [8620 B]
+2023-08-07 07:43:22.229182 +0000 build-r42-debian1: output: Get: 23 https://deb.debian.org/debian bookworm/main amd64 libelf1 amd64 0.188-2.1 [174 kB]
+2023-08-07 07:43:22.275587 +0000 build-r42-debian1: output: Get: 24 https://deb.debian.org/debian bookworm/main amd64 dwz amd64 0.15-1 [109 kB]
+2023-08-07 07:43:22.349510 +0000 build-r42-debian1: output: Get: 25 https://deb.debian.org/debian bookworm/main amd64 libicu72 amd64 72.1-3 [9376 kB]
+2023-08-07 07:43:30.269804 +0000 build-r42-debian1: output: Get: 26 https://deb.debian.org/debian bookworm/main amd64 libxml2 amd64 2.9.14+dfsg-1.3~deb12u1 [687 kB]
+2023-08-07 07:43:30.661094 +0000 build-r42-debian1: output: Get: 27 https://deb.debian.org/debian bookworm/main amd64 gettext amd64 0.21-12 [1300 kB]
+2023-08-07 07:43:31.401213 +0000 build-r42-debian1: output: Get: 28 https://deb.debian.org/debian bookworm/main amd64 intltool-debian all 0.35.0+20060710.6 [22.9 kB]
+2023-08-07 07:43:31.401277 +0000 build-r42-debian1: output: Get: 29 https://deb.debian.org/debian bookworm/main amd64 po-debconf all 1.0.21+nmu1 [248 kB]
+2023-08-07 07:43:31.581567 +0000 build-r42-debian1: output: Get: 30 https://deb.debian.org/debian bookworm/main amd64 debhelper all 13.11.4 [942 kB]
+2023-08-07 07:43:32.101390 +0000 build-r42-debian1: output: Fetched 18.7 MB in 15s (1213 kB/s)
+2023-08-07 07:43:32.228516 +0000 build-r42-debian1: output: debconf: delaying package configuration, since apt-utils is not installed
+2023-08-07 07:43:32.265297 +0000 build-r42-debian1: output: Selecting previously unselected package sensible-utils..
+2023-08-07 07:43:32.268755 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12951 files and directories currently installed.).
+2023-08-07 07:43:32.269532 +0000 build-r42-debian1: output: Preparing to unpack .../00-sensible-utils_0.0.17+nmu1_all.deb ....
+2023-08-07 07:43:32.271631 +0000 build-r42-debian1: output: Unpacking sensible-utils (0.0.17+nmu1) ....
+2023-08-07 07:43:32.303060 +0000 build-r42-debian1: output: Selecting previously unselected package libmagic-mgc..
+2023-08-07 07:43:32.305212 +0000 build-r42-debian1: output: Preparing to unpack .../01-libmagic-mgc_1%3a5.44-3_amd64.deb ....
+2023-08-07 07:43:32.310686 +0000 build-r42-debian1: output: Unpacking libmagic-mgc (1:5.44-3) ....
+2023-08-07 07:43:32.382839 +0000 build-r42-debian1: output: Selecting previously unselected package libmagic1:amd64..
+2023-08-07 07:43:32.384700 +0000 build-r42-debian1: output: Preparing to unpack .../02-libmagic1_1%3a5.44-3_amd64.deb ....
+2023-08-07 07:43:32.391859 +0000 build-r42-debian1: output: Unpacking libmagic1:amd64 (1:5.44-3) ....
+2023-08-07 07:43:32.420785 +0000 build-r42-debian1: output: Selecting previously unselected package file..
+2023-08-07 07:43:32.423155 +0000 build-r42-debian1: output: Preparing to unpack .../03-file_1%3a5.44-3_amd64.deb ....
+2023-08-07 07:43:32.425516 +0000 build-r42-debian1: output: Unpacking file (1:5.44-3) ....
+2023-08-07 07:43:32.451727 +0000 build-r42-debian1: output: Selecting previously unselected package gettext-base..
+2023-08-07 07:43:32.453961 +0000 build-r42-debian1: output: Preparing to unpack .../04-gettext-base_0.21-12_amd64.deb ....
+2023-08-07 07:43:32.459284 +0000 build-r42-debian1: output: Unpacking gettext-base (0.21-12) ....
+2023-08-07 07:43:32.517945 +0000 build-r42-debian1: output: Selecting previously unselected package libuchardet0:amd64..
+2023-08-07 07:43:32.520192 +0000 build-r42-debian1: output: Preparing to unpack .../05-libuchardet0_0.0.7-1_amd64.deb ....
+2023-08-07 07:43:32.522344 +0000 build-r42-debian1: output: Unpacking libuchardet0:amd64 (0.0.7-1) ....
+2023-08-07 07:43:32.553909 +0000 build-r42-debian1: output: Selecting previously unselected package groff-base..
+2023-08-07 07:43:32.556520 +0000 build-r42-debian1: output: Preparing to unpack .../06-groff-base_1.22.4-10_amd64.deb ....
+2023-08-07 07:43:32.558656 +0000 build-r42-debian1: output: Unpacking groff-base (1.22.4-10) ....
+2023-08-07 07:43:32.702142 +0000 build-r42-debian1: output: Selecting previously unselected package bsdextrautils..
+2023-08-07 07:43:32.704357 +0000 build-r42-debian1: output: Preparing to unpack .../07-bsdextrautils_2.38.1-5+b1_amd64.deb ....
+2023-08-07 07:43:32.708281 +0000 build-r42-debian1: output: Unpacking bsdextrautils (2.38.1-5+b1) ....
+2023-08-07 07:43:32.749313 +0000 build-r42-debian1: output: Selecting previously unselected package libpipeline1:amd64..
+2023-08-07 07:43:32.751695 +0000 build-r42-debian1: output: Preparing to unpack .../08-libpipeline1_1.5.7-1_amd64.deb ....
+2023-08-07 07:43:32.756848 +0000 build-r42-debian1: output: Unpacking libpipeline1:amd64 (1.5.7-1) ....
+2023-08-07 07:43:32.797809 +0000 build-r42-debian1: output: Selecting previously unselected package man-db..
+2023-08-07 07:43:32.799790 +0000 build-r42-debian1: output: Preparing to unpack .../09-man-db_2.11.2-2_amd64.deb ....
+2023-08-07 07:43:32.801551 +0000 build-r42-debian1: output: Unpacking man-db (2.11.2-2) ....
+2023-08-07 07:43:32.971488 +0000 build-r42-debian1: output: Selecting previously unselected package m4..
+2023-08-07 07:43:32.974732 +0000 build-r42-debian1: output: Preparing to unpack .../10-m4_1.4.19-3_amd64.deb ....
+2023-08-07 07:43:32.985796 +0000 build-r42-debian1: output: Unpacking m4 (1.4.19-3) ....
+2023-08-07 07:43:33.053908 +0000 build-r42-debian1: output: Selecting previously unselected package autoconf..
+2023-08-07 07:43:33.055411 +0000 build-r42-debian1: output: Preparing to unpack .../11-autoconf_2.71-3_all.deb ....
+2023-08-07 07:43:33.057400 +0000 build-r42-debian1: output: Unpacking autoconf (2.71-3) ....
+2023-08-07 07:43:33.116362 +0000 build-r42-debian1: output: Selecting previously unselected package autotools-dev..
+2023-08-07 07:43:33.118769 +0000 build-r42-debian1: output: Preparing to unpack .../12-autotools-dev_20220109.1_all.deb ....
+2023-08-07 07:43:33.120964 +0000 build-r42-debian1: output: Unpacking autotools-dev (20220109.1) ....
+2023-08-07 07:43:33.152685 +0000 build-r42-debian1: output: Selecting previously unselected package automake..
+2023-08-07 07:43:33.155070 +0000 build-r42-debian1: output: Preparing to unpack .../13-automake_1%3a1.16.5-1.3_all.deb ....
+2023-08-07 07:43:33.161710 +0000 build-r42-debian1: output: Unpacking automake (1:1.16.5-1.3) ....
+2023-08-07 07:43:33.266499 +0000 build-r42-debian1: output: Selecting previously unselected package autopoint..
+2023-08-07 07:43:33.268877 +0000 build-r42-debian1: output: Preparing to unpack .../14-autopoint_0.21-12_all.deb ....
+2023-08-07 07:43:33.271213 +0000 build-r42-debian1: output: Unpacking autopoint (0.21-12) ....
+2023-08-07 07:43:33.310592 +0000 build-r42-debian1: output: Selecting previously unselected package libdebhelper-perl..
+2023-08-07 07:43:33.313118 +0000 build-r42-debian1: output: Preparing to unpack .../15-libdebhelper-perl_13.11.4_all.deb ....
+2023-08-07 07:43:33.315279 +0000 build-r42-debian1: output: Unpacking libdebhelper-perl (13.11.4) ....
+2023-08-07 07:43:33.365835 +0000 build-r42-debian1: output: Selecting previously unselected package libtool..
+2023-08-07 07:43:33.368254 +0000 build-r42-debian1: output: Preparing to unpack .../16-libtool_2.4.7-5_all.deb ....
+2023-08-07 07:43:33.370359 +0000 build-r42-debian1: output: Unpacking libtool (2.4.7-5) ....
+2023-08-07 07:43:33.416683 +0000 build-r42-debian1: output: Selecting previously unselected package dh-autoreconf..
+2023-08-07 07:43:33.419152 +0000 build-r42-debian1: output: Preparing to unpack .../17-dh-autoreconf_20_all.deb ....
+2023-08-07 07:43:33.421657 +0000 build-r42-debian1: output: Unpacking dh-autoreconf (20) ....
+2023-08-07 07:43:33.449543 +0000 build-r42-debian1: output: Selecting previously unselected package libarchive-zip-perl..
+2023-08-07 07:43:33.452118 +0000 build-r42-debian1: output: Preparing to unpack .../18-libarchive-zip-perl_1.68-1_all.deb ....
+2023-08-07 07:43:33.454381 +0000 build-r42-debian1: output: Unpacking libarchive-zip-perl (1.68-1) ....
+2023-08-07 07:43:33.495617 +0000 build-r42-debian1: output: Selecting previously unselected package libsub-override-perl..
+2023-08-07 07:43:33.498044 +0000 build-r42-debian1: output: Preparing to unpack .../19-libsub-override-perl_0.09-4_all.deb ....
+2023-08-07 07:43:33.500111 +0000 build-r42-debian1: output: Unpacking libsub-override-perl (0.09-4) ....
+2023-08-07 07:43:33.524151 +0000 build-r42-debian1: output: Selecting previously unselected package libfile-stripnondeterminism-perl..
+2023-08-07 07:43:33.526182 +0000 build-r42-debian1: output: Preparing to unpack .../20-libfile-stripnondeterminism-perl_1.13.1-1_all.deb ....
+2023-08-07 07:43:33.528282 +0000 build-r42-debian1: output: Unpacking libfile-stripnondeterminism-perl (1.13.1-1) ....
+2023-08-07 07:43:33.558741 +0000 build-r42-debian1: output: Selecting previously unselected package dh-strip-nondeterminism..
+2023-08-07 07:43:33.560616 +0000 build-r42-debian1: output: Preparing to unpack .../21-dh-strip-nondeterminism_1.13.1-1_all.deb ....
+2023-08-07 07:43:33.562779 +0000 build-r42-debian1: output: Unpacking dh-strip-nondeterminism (1.13.1-1) ....
+2023-08-07 07:43:33.588768 +0000 build-r42-debian1: output: Selecting previously unselected package libelf1:amd64..
+2023-08-07 07:43:33.591252 +0000 build-r42-debian1: output: Preparing to unpack .../22-libelf1_0.188-2.1_amd64.deb ....
+2023-08-07 07:43:33.596527 +0000 build-r42-debian1: output: Unpacking libelf1:amd64 (0.188-2.1) ....
+2023-08-07 07:43:33.640069 +0000 build-r42-debian1: output: Selecting previously unselected package dwz..
+2023-08-07 07:43:33.642357 +0000 build-r42-debian1: output: Preparing to unpack .../23-dwz_0.15-1_amd64.deb ....
+2023-08-07 07:43:33.644357 +0000 build-r42-debian1: output: Unpacking dwz (0.15-1) ....
+2023-08-07 07:43:33.681988 +0000 build-r42-debian1: output: Selecting previously unselected package libicu72:amd64..
+2023-08-07 07:43:33.684376 +0000 build-r42-debian1: output: Preparing to unpack .../24-libicu72_72.1-3_amd64.deb ....
+2023-08-07 07:43:33.686725 +0000 build-r42-debian1: output: Unpacking libicu72:amd64 (72.1-3) ....
+2023-08-07 07:43:34.370516 +0000 build-r42-debian1: output: Selecting previously unselected package libxml2:amd64..
+2023-08-07 07:43:34.372869 +0000 build-r42-debian1: output: Preparing to unpack .../25-libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb ....
+2023-08-07 07:43:34.375163 +0000 build-r42-debian1: output: Unpacking libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ....
+2023-08-07 07:43:34.461999 +0000 build-r42-debian1: output: Selecting previously unselected package gettext..
+2023-08-07 07:43:34.464143 +0000 build-r42-debian1: output: Preparing to unpack .../26-gettext_0.21-12_amd64.deb ....
+2023-08-07 07:43:34.466445 +0000 build-r42-debian1: output: Unpacking gettext (0.21-12) ....
+2023-08-07 07:43:34.625847 +0000 build-r42-debian1: output: Selecting previously unselected package intltool-debian..
+2023-08-07 07:43:34.628341 +0000 build-r42-debian1: output: Preparing to unpack .../27-intltool-debian_0.35.0+20060710.6_all.deb ....
+2023-08-07 07:43:34.630454 +0000 build-r42-debian1: output: Unpacking intltool-debian (0.35.0+20060710.6) ....
+2023-08-07 07:43:34.657836 +0000 build-r42-debian1: output: Selecting previously unselected package po-debconf..
+2023-08-07 07:43:34.660260 +0000 build-r42-debian1: output: Preparing to unpack .../28-po-debconf_1.0.21+nmu1_all.deb ....
+2023-08-07 07:43:34.662498 +0000 build-r42-debian1: output: Unpacking po-debconf (1.0.21+nmu1) ....
+2023-08-07 07:43:34.723713 +0000 build-r42-debian1: output: Selecting previously unselected package debhelper..
+2023-08-07 07:43:34.726110 +0000 build-r42-debian1: output: Preparing to unpack .../29-debhelper_13.11.4_all.deb ....
+2023-08-07 07:43:34.731587 +0000 build-r42-debian1: output: Unpacking debhelper (13.11.4) ....
+2023-08-07 07:43:34.936583 +0000 build-r42-debian1: output: Setting up libpipeline1:amd64 (1.5.7-1) ....
+2023-08-07 07:43:34.942825 +0000 build-r42-debian1: output: Setting up libicu72:amd64 (72.1-3) ....
+2023-08-07 07:43:34.949509 +0000 build-r42-debian1: output: Setting up bsdextrautils (2.38.1-5+b1) ....
+2023-08-07 07:43:34.959440 +0000 build-r42-debian1: output: Setting up libmagic-mgc (1:5.44-3) ....
+2023-08-07 07:43:34.966604 +0000 build-r42-debian1: output: Setting up libarchive-zip-perl (1.68-1) ....
+2023-08-07 07:43:34.973040 +0000 build-r42-debian1: output: Setting up libdebhelper-perl (13.11.4) ....
+2023-08-07 07:43:34.982518 +0000 build-r42-debian1: output: Setting up libmagic1:amd64 (1:5.44-3) ....
+2023-08-07 07:43:34.996845 +0000 build-r42-debian1: output: Setting up gettext-base (0.21-12) ....
+2023-08-07 07:43:35.005808 +0000 build-r42-debian1: output: Setting up m4 (1.4.19-3) ....
+2023-08-07 07:43:35.012891 +0000 build-r42-debian1: output: Setting up file (1:5.44-3) ....
+2023-08-07 07:43:35.019384 +0000 build-r42-debian1: output: Setting up autotools-dev (20220109.1) ....
+2023-08-07 07:43:35.028835 +0000 build-r42-debian1: output: Setting up autopoint (0.21-12) ....
+2023-08-07 07:43:35.035283 +0000 build-r42-debian1: output: Setting up autoconf (2.71-3) ....
+2023-08-07 07:43:35.046801 +0000 build-r42-debian1: output: Setting up sensible-utils (0.0.17+nmu1) ....
+2023-08-07 07:43:35.053836 +0000 build-r42-debian1: output: Setting up libuchardet0:amd64 (0.0.7-1) ....
+2023-08-07 07:43:35.060877 +0000 build-r42-debian1: output: Setting up libsub-override-perl (0.09-4) ....
+2023-08-07 07:43:35.070711 +0000 build-r42-debian1: output: Setting up libelf1:amd64 (0.188-2.1) ....
+2023-08-07 07:43:35.077014 +0000 build-r42-debian1: output: Setting up libxml2:amd64 (2.9.14+dfsg-1.3~deb12u1) ....
+2023-08-07 07:43:35.083656 +0000 build-r42-debian1: output: Setting up automake (1:1.16.5-1.3) ....
+2023-08-07 07:43:35.093339 +0000 build-r42-debian1: output: update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode.
+2023-08-07 07:43:35.098341 +0000 build-r42-debian1: output: Setting up libfile-stripnondeterminism-perl (1.13.1-1) ....
+2023-08-07 07:43:35.104961 +0000 build-r42-debian1: output: Setting up gettext (0.21-12) ....
+2023-08-07 07:43:35.114590 +0000 build-r42-debian1: output: Setting up libtool (2.4.7-5) ....
+2023-08-07 07:43:35.121241 +0000 build-r42-debian1: output: Setting up intltool-debian (0.35.0+20060710.6) ....
+2023-08-07 07:43:35.127715 +0000 build-r42-debian1: output: Setting up dh-autoreconf (20) ....
+2023-08-07 07:43:35.137792 +0000 build-r42-debian1: output: Setting up dh-strip-nondeterminism (1.13.1-1) ....
+2023-08-07 07:43:35.146580 +0000 build-r42-debian1: output: Setting up dwz (0.15-1) ....
+2023-08-07 07:43:35.156253 +0000 build-r42-debian1: output: Setting up groff-base (1.22.4-10) ....
+2023-08-07 07:43:35.166730 +0000 build-r42-debian1: output: Setting up po-debconf (1.0.21+nmu1) ....
+2023-08-07 07:43:35.172820 +0000 build-r42-debian1: output: Setting up man-db (2.11.2-2) ....
+2023-08-07 07:43:35.264072 +0000 build-r42-debian1: output: Not building database; man-db/auto-update is not 'true'..
+2023-08-07 07:43:35.443573 +0000 build-r42-debian1: output: Setting up debhelper (13.11.4) ....
+2023-08-07 07:43:35.450047 +0000 build-r42-debian1: output: Processing triggers for libc-bin (2.36-9+deb12u1) ....
+2023-08-07 07:43:35.599843 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:43:35.888577 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:43:35.888637 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:43:36.066577 +0000 build-r42-debian1: output: Reading extended state information...
+2023-08-07 07:43:36.087466 +0000 build-r42-debian1: output: Initializing package states...
+2023-08-07 07:43:36.231529 +0000 build-r42-debian1: output: Writing extended state information...
+2023-08-07 07:43:36.319244 +0000 build-r42-debian1: output: Building tag database...
+2023-08-07 07:43:36.348142 +0000 build-r42-debian1: output:  -> Finished parsing the build-deps
+2023-08-07 07:43:36.360796 +0000 build-r42-debian1: output: Reading package lists...
+2023-08-07 07:43:36.546923 +0000 build-r42-debian1: output: Building dependency tree...
+2023-08-07 07:43:36.547010 +0000 build-r42-debian1: output: Reading state information...
+2023-08-07 07:43:36.740556 +0000 build-r42-debian1: output: The following additional packages will be installed:
+2023-08-07 07:43:36.740877 +0000 build-r42-debian1: output:   libfakeroot
+2023-08-07 07:43:36.752561 +0000 build-r42-debian1: output: The following NEW packages will be installed:
+2023-08-07 07:43:36.752718 +0000 build-r42-debian1: output:   fakeroot libfakeroot
+2023-08-07 07:43:37.823749 +0000 build-r42-debian1: output: 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+2023-08-07 07:43:37.823808 +0000 build-r42-debian1: output: Need to get 95.2 kB of archives.
+2023-08-07 07:43:37.823824 +0000 build-r42-debian1: output: After this operation, 360 kB of additional disk space will be used.
+2023-08-07 07:43:37.823848 +0000 build-r42-debian1: output: Get:1 https://deb.debian.org/debian bookworm/main amd64 libfakeroot amd64 1.31-1.2 [28.3 kB]
+2023-08-07 07:43:38.190697 +0000 build-r42-debian1: output: Get:2 https://deb.debian.org/debian bookworm/main amd64 fakeroot amd64 1.31-1.2 [66.9 kB]
+2023-08-07 07:43:38.427491 +0000 build-r42-debian1: output: debconf: delaying package configuration, since apt-utils is not installed
+2023-08-07 07:43:38.456081 +0000 build-r42-debian1: output: Fetched 95.2 kB in 2s (61.7 kB/s)
+2023-08-07 07:43:38.476977 +0000 build-r42-debian1: output: Selecting previously unselected package libfakeroot:amd64..
+2023-08-07 07:43:38.482930 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 14869 files and directories currently installed.).
+2023-08-07 07:43:38.483896 +0000 build-r42-debian1: output: Preparing to unpack .../libfakeroot_1.31-1.2_amd64.deb ....
+2023-08-07 07:43:38.491198 +0000 build-r42-debian1: output: Unpacking libfakeroot:amd64 (1.31-1.2) ....
+2023-08-07 07:43:38.530093 +0000 build-r42-debian1: output: Selecting previously unselected package fakeroot..
+2023-08-07 07:43:38.531779 +0000 build-r42-debian1: output: Preparing to unpack .../fakeroot_1.31-1.2_amd64.deb ....
+2023-08-07 07:43:38.533569 +0000 build-r42-debian1: output: Unpacking fakeroot (1.31-1.2) ....
+2023-08-07 07:43:38.573386 +0000 build-r42-debian1: output: Setting up libfakeroot:amd64 (1.31-1.2) ....
+2023-08-07 07:43:38.584205 +0000 build-r42-debian1: output: Setting up fakeroot (1.31-1.2) ....
+2023-08-07 07:43:38.589451 +0000 build-r42-debian1: output: update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode.
+2023-08-07 07:43:38.599927 +0000 build-r42-debian1: output: Processing triggers for man-db (2.11.2-2) ....
+2023-08-07 07:43:38.603225 +0000 build-r42-debian1: output: Not building database; man-db/auto-update is not 'true'..
+2023-08-07 07:43:38.605964 +0000 build-r42-debian1: output: Processing triggers for libc-bin (2.36-9+deb12u1) ....
+2023-08-07 07:43:38.707548 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2023-08-07 07:43:38.710447 +0000 build-r42-debian1: output: I: new cache content 'dwz_0.15-1_amd64.deb' added
+2023-08-07 07:43:38.711998 +0000 build-r42-debian1: output: I: new cache content 'debhelper_13.11.4_all.deb' added
+2023-08-07 07:43:38.713730 +0000 build-r42-debian1: output: I: new cache content 'file_1%3a5.44-3_amd64.deb' added
+2023-08-07 07:43:38.715493 +0000 build-r42-debian1: output: I: new cache content 'intltool-debian_0.35.0+20060710.6_all.deb' added
+2023-08-07 07:43:38.718778 +0000 build-r42-debian1: output: I: new cache content 'fakeroot_1.31-1.2_amd64.deb' added
+2023-08-07 07:43:38.721762 +0000 build-r42-debian1: output: I: new cache content 'dh-autoreconf_20_all.deb' added
+2023-08-07 07:43:38.724874 +0000 build-r42-debian1: output: I: new cache content 'libtool_2.4.7-5_all.deb' added
+2023-08-07 07:43:38.727776 +0000 build-r42-debian1: output: I: new cache content 'po-debconf_1.0.21+nmu1_all.deb' added
+2023-08-07 07:43:38.730764 +0000 build-r42-debian1: output: I: new cache content 'libxml2_2.9.14+dfsg-1.3~deb12u1_amd64.deb' added
+2023-08-07 07:43:38.733731 +0000 build-r42-debian1: output: I: new cache content 'bsdextrautils_2.38.1-5+b1_amd64.deb' added
+2023-08-07 07:43:38.736588 +0000 build-r42-debian1: output: I: new cache content 'libuchardet0_0.0.7-1_amd64.deb' added
+2023-08-07 07:43:38.739513 +0000 build-r42-debian1: output: I: new cache content 'dh-strip-nondeterminism_1.13.1-1_all.deb' added
+2023-08-07 07:43:38.742309 +0000 build-r42-debian1: output: I: new cache content 'libdebhelper-perl_13.11.4_all.deb' added
+2023-08-07 07:43:38.744941 +0000 build-r42-debian1: output: I: new cache content 'autopoint_0.21-12_all.deb' added
+2023-08-07 07:43:38.747705 +0000 build-r42-debian1: output: I: new cache content 'libarchive-zip-perl_1.68-1_all.deb' added
+2023-08-07 07:43:38.749880 +0000 build-r42-debian1: output: I: new cache content 'libfakeroot_1.31-1.2_amd64.deb' added
+2023-08-07 07:43:38.751715 +0000 build-r42-debian1: output: I: new cache content 'sensible-utils_0.0.17+nmu1_all.deb' added
+2023-08-07 07:43:38.753885 +0000 build-r42-debian1: output: I: new cache content 'libmagic-mgc_1%3a5.44-3_amd64.deb' added
+2023-08-07 07:43:38.756064 +0000 build-r42-debian1: output: I: new cache content 'autotools-dev_20220109.1_all.deb' added
+2023-08-07 07:43:38.758010 +0000 build-r42-debian1: output: I: new cache content 'libmagic1_1%3a5.44-3_amd64.deb' added
+2023-08-07 07:43:38.759478 +0000 build-r42-debian1: output: I: new cache content 'autoconf_2.71-3_all.deb' added
+2023-08-07 07:43:38.760823 +0000 build-r42-debian1: output: I: new cache content 'libfile-stripnondeterminism-perl_1.13.1-1_all.deb' added
+2023-08-07 07:43:38.762201 +0000 build-r42-debian1: output: I: new cache content 'm4_1.4.19-3_amd64.deb' added
+2023-08-07 07:43:38.763684 +0000 build-r42-debian1: output: I: new cache content 'gettext-base_0.21-12_amd64.deb' added
+2023-08-07 07:43:38.765016 +0000 build-r42-debian1: output: I: new cache content 'man-db_2.11.2-2_amd64.deb' added
+2023-08-07 07:43:38.766783 +0000 build-r42-debian1: output: I: new cache content 'groff-base_1.22.4-10_amd64.deb' added
+2023-08-07 07:43:38.768498 +0000 build-r42-debian1: output: I: new cache content 'libpipeline1_1.5.7-1_amd64.deb' added
+2023-08-07 07:43:38.770017 +0000 build-r42-debian1: output: I: new cache content 'gettext_0.21-12_amd64.deb' added
+2023-08-07 07:43:38.771798 +0000 build-r42-debian1: output: I: new cache content 'libsub-override-perl_0.09-4_all.deb' added
+2023-08-07 07:43:38.773952 +0000 build-r42-debian1: output: I: new cache content 'libicu72_72.1-3_amd64.deb' added
+2023-08-07 07:43:38.775825 +0000 build-r42-debian1: output: I: new cache content 'libelf1_0.188-2.1_amd64.deb' added
+2023-08-07 07:43:38.777883 +0000 build-r42-debian1: output: I: new cache content 'automake_1%3a1.16.5-1.3_all.deb' added
+2023-08-07 07:43:38.780947 +0000 build-r42-debian1: output: I: Building the package
+2023-08-07 07:43:38.785306 +0000 build-r42-debian1: output: I: Running cd /build/qubes-split-browser-0.16.1/ && env PATH="/usr/sbin:/usr/bin:/sbin:/bin" HOME="/nonexistent" dpkg-buildpackage -us -uc -sa
+2023-08-07 07:43:38.889340 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source package qubes-split-browser
+2023-08-07 07:43:38.889393 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source version 0.16.1-1+deb12u1
+2023-08-07 07:43:38.889422 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source distribution bookworm
+2023-08-07 07:43:38.889431 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source changed by Builder <user@localhost>
+2023-08-07 07:43:38.916795 +0000 build-r42-debian1: output: dpkg-buildpackage: info: host architecture amd64
+2023-08-07 07:43:38.918342 +0000 build-r42-debian1: output:  dpkg-source --before-build .
+2023-08-07 07:43:39.101128 +0000 build-r42-debian1: output:  fakeroot debian/rules clean
+2023-08-07 07:43:39.108544 +0000 build-r42-debian1: output: dh clean
+2023-08-07 07:43:39.165114 +0000 build-r42-debian1: output:    dh_clean
+2023-08-07 07:43:39.213042 +0000 build-r42-debian1: output:  dpkg-source -b .
+2023-08-07 07:43:39.346886 +0000 build-r42-debian1: output: dpkg-source: info: using source format '3.0 (quilt)'
+2023-08-07 07:43:39.346951 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser using existing ./qubes-split-browser_0.16.1.orig.tar.gz
+2023-08-07 07:43:39.363977 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2023-08-07 07:43:39.378227 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.1-1+deb12u1.debian.tar.xz
+2023-08-07 07:43:39.392197 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.1-1+deb12u1.dsc
+2023-08-07 07:43:39.395914 +0000 build-r42-debian1: output:  debian/rules build
+2023-08-07 07:43:39.397729 +0000 build-r42-debian1: output: dh build
+2023-08-07 07:43:39.466552 +0000 build-r42-debian1: output:    dh_update_autotools_config
+2023-08-07 07:43:39.502819 +0000 build-r42-debian1: output:    dh_autoreconf
+2023-08-07 07:43:39.541841 +0000 build-r42-debian1: output:    create-stamp debian/debhelper-build-stamp
+2023-08-07 07:43:39.543809 +0000 build-r42-debian1: output:  fakeroot debian/rules binary
+2023-08-07 07:43:39.548269 +0000 build-r42-debian1: output: dh binary
+2023-08-07 07:43:39.605807 +0000 build-r42-debian1: output:    dh_testroot
+2023-08-07 07:43:39.637632 +0000 build-r42-debian1: output:    dh_prep
+2023-08-07 07:43:39.658277 +0000 build-r42-debian1: output:    debian/rules override_dh_auto_install
+2023-08-07 07:43:39.659010 +0000 build-r42-debian1: output: make[1]: Entering directory '/build/qubes-split-browser-0.16.1'
+2023-08-07 07:43:39.659048 +0000 build-r42-debian1: output: /usr/bin/make -C vm PREFIX=/usr \
+2023-08-07 07:43:39.659208 +0000 build-r42-debian1: output:               DESTDIR='/build/qubes-split-browser-0.16.1/debian/qubes-split-browser' \
+2023-08-07 07:43:39.659241 +0000 build-r42-debian1: output:               install-persist
+2023-08-07 07:43:39.660013 +0000 build-r42-debian1: output: make[2]: Entering directory '/build/qubes-split-browser-0.16.1/vm'
+2023-08-07 07:43:39.660669 +0000 build-r42-debian1: output: + umask 022
+2023-08-07 07:43:39.660703 +0000 build-r42-debian1: output: + mkdir -p -- /build/qubes-split-browser-0.16.1/debian/qubes-split-browser/usr/ /build/qubes-split-browser-0.16.1/debian/qubes-split-browser/etc/
+2023-08-07 07:43:39.661558 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser/usr/bin qubes-split-browser/usr/lib qubes-split-browser/usr/share /build/qubes-split-browser-0.16.1/debian/qubes-split-browser/usr/
+2023-08-07 07:43:39.663348 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser/etc/split-browser /build/qubes-split-browser-0.16.1/debian/qubes-split-browser/etc/
+2023-08-07 07:43:39.665333 +0000 build-r42-debian1: output: make[2]: Leaving directory '/build/qubes-split-browser-0.16.1/vm'
+2023-08-07 07:43:39.665357 +0000 build-r42-debian1: output: /usr/bin/make -C vm PREFIX=/usr \
+2023-08-07 07:43:39.665459 +0000 build-r42-debian1: output:               DESTDIR='/build/qubes-split-browser-0.16.1/debian/qubes-split-browser-disp' \
+2023-08-07 07:43:39.665496 +0000 build-r42-debian1: output:               install-disp
+2023-08-07 07:43:39.666247 +0000 build-r42-debian1: output: make[2]: Entering directory '/build/qubes-split-browser-0.16.1/vm'
+2023-08-07 07:43:39.667455 +0000 build-r42-debian1: output: + umask 022
+2023-08-07 07:43:39.667487 +0000 build-r42-debian1: output: + mkdir -p -- /build/qubes-split-browser-0.16.1/debian/qubes-split-browser-disp/usr/ /build/qubes-split-browser-0.16.1/debian/qubes-split-browser-disp/etc/
+2023-08-07 07:43:39.668610 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser-disp/usr/lib qubes-split-browser-disp/usr/share /build/qubes-split-browser-0.16.1/debian/qubes-split-browser-disp/usr/
+2023-08-07 07:43:39.671332 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser-disp/etc/qubes-rpc qubes-split-browser-disp/etc/split-browser-disp /build/qubes-split-browser-0.16.1/debian/qubes-split-browser-disp/etc/
+2023-08-07 07:43:39.673752 +0000 build-r42-debian1: output: make[2]: Leaving directory '/build/qubes-split-browser-0.16.1/vm'
+2023-08-07 07:43:39.673772 +0000 build-r42-debian1: output: make[1]: Leaving directory '/build/qubes-split-browser-0.16.1'
+2023-08-07 07:43:39.674518 +0000 build-r42-debian1: output:    dh_installdocs
+2023-08-07 07:43:39.721707 +0000 build-r42-debian1: output:    dh_installchangelogs
+2023-08-07 07:43:39.813733 +0000 build-r42-debian1: output:    dh_installinit
+2023-08-07 07:43:39.856303 +0000 build-r42-debian1: output:    dh_installsystemd
+2023-08-07 07:43:39.890800 +0000 build-r42-debian1: output:    dh_perl
+2023-08-07 07:43:39.924973 +0000 build-r42-debian1: output:    dh_link
+2023-08-07 07:43:39.954245 +0000 build-r42-debian1: output:    dh_strip_nondeterminism
+2023-08-07 07:43:40.185426 +0000 build-r42-debian1: output:    dh_compress
+2023-08-07 07:43:40.241354 +0000 build-r42-debian1: output:    dh_fixperms
+2023-08-07 07:43:40.301523 +0000 build-r42-debian1: output:    dh_missing
+2023-08-07 07:43:40.334051 +0000 build-r42-debian1: output:    dh_installdeb
+2023-08-07 07:43:40.363010 +0000 build-r42-debian1: output:    dh_gencontrol
+2023-08-07 07:43:40.463757 +0000 build-r42-debian1: output:    dh_md5sums
+2023-08-07 07:43:40.505880 +0000 build-r42-debian1: output:    dh_builddeb
+2023-08-07 07:43:40.522237 +0000 build-r42-debian1: output: dpkg-deb: building package 'qubes-split-browser-disp' in '../qubes-split-browser-disp_0.16.1-1+deb12u1_all.deb'.
+2023-08-07 07:43:40.524176 +0000 build-r42-debian1: output: dpkg-deb: building package 'qubes-split-browser' in '../qubes-split-browser_0.16.1-1+deb12u1_all.deb'.
+2023-08-07 07:43:40.569963 +0000 build-r42-debian1: output:  dpkg-genbuildinfo -O../qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo
+2023-08-07 07:43:40.656577 +0000 build-r42-debian1: output:  dpkg-genchanges -sa -O../qubes-split-browser_0.16.1-1+deb12u1_amd64.changes
+2023-08-07 07:43:40.735387 +0000 build-r42-debian1: output: dpkg-genchanges: info: including full source code in upload
+2023-08-07 07:43:40.738110 +0000 build-r42-debian1: output:  dpkg-source --after-build .
+2023-08-07 07:43:40.829064 +0000 build-r42-debian1: output: dpkg-buildpackage: info: full upload (original source is included)
+2023-08-07 07:43:40.833249 +0000 build-r42-debian1: output: I: copying local configuration
+2023-08-07 07:43:40.866241 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2023-08-07 07:43:40.903228 +0000 build-r42-debian1: output: I: unmounting /tmp/qubes-deb filesystem
+2023-08-07 07:43:40.921659 +0000 build-r42-debian1: output: I: unmounting dev/ptmx filesystem
+2023-08-07 07:43:40.928779 +0000 build-r42-debian1: output: I: unmounting dev/pts filesystem
+2023-08-07 07:43:40.938925 +0000 build-r42-debian1: output: I: unmounting dev/shm filesystem
+2023-08-07 07:43:40.951071 +0000 build-r42-debian1: output: I: unmounting proc filesystem
+2023-08-07 07:43:40.963598 +0000 build-r42-debian1: output: I: unmounting sys filesystem
+2023-08-07 07:43:40.980487 +0000 build-r42-debian1: output: I: cleaning the build env
+2023-08-07 07:43:40.980537 +0000 build-r42-debian1: output: I: removing directory /builder/pbuilder/build/2116 and its subdirectories
+2023-08-07 07:43:41.543435 +0000 build-r42-debian1: output: I: Current time: Mon Aug  7 09:43:41 CEST 2023
+2023-08-07 07:43:41.547321 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1691394221
+2023-08-07 07:43:41.716181 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser_0.16.1-1+deb12u1_amd64.changes /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:41.996627 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:43.400205 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser_0.16.1-1+deb12u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:43.601039 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser-dbgsym_0.16.1-1+deb12u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:43.791577 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-dbgsym_0.16.1-1+deb12u1_all.deb.
+2023-08-07 07:43:43.791786 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser-dbgsym_0.16.1-1+deb12u1_all.ddeb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:43.932051 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-dbgsym_0.16.1-1+deb12u1_all.ddeb.
+2023-08-07 07:43:43.932114 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser-disp_0.16.1-1+deb12u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:44.117195 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser-disp-dbgsym_0.16.1-1+deb12u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:44.265534 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-disp-dbgsym_0.16.1-1+deb12u1_all.deb.
+2023-08-07 07:43:44.265612 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1966 qubesbuilder.FileCopyOut+__builder__pbuilder__results__qubes-split-browser-disp-dbgsym_0.16.1-1+deb12u1_all.ddeb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build
+2023-08-07 07:43:44.406502 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-disp-dbgsym_0.16.1-1+deb12u1_all.ddeb.
+2023-08-07 07:43:47.783046 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Provisioning local repository '/home/user/builder-r4.2/repository/vm-bookworm'.
+2023-08-07 07:43:47.796200 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --armor --export FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA > /tmp/tmpzzv0qbd1/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc&&gpg2 --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring --import /tmp/tmpzzv0qbd1/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc'.
+2023-08-07 07:43:48.007206 +0000 build-r42-debian1: output: gpg: keybox '/home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring/pubring.kbx' created
+2023-08-07 07:43:48.007632 +0000 build-r42-debian1: output: gpg: /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring/trustdb.gpg: trustdb created
+2023-08-07 07:43:48.007654 +0000 build-r42-debian1: output: gpg: key A8F7A1DC99F29DAA: public key "Qubes OS Contrib Release 4 Signing Key" imported
+2023-08-07 07:43:48.013541 +0000 build-r42-debian1: output: gpg: Total number processed: 1
+2023-08-07 07:43:48.013569 +0000 build-r42-debian1: output: gpg:               imported: 1
+2023-08-07 07:43:48.015916 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Signing from 'qubes-split-browser_0.16.1-1+deb12u1_amd64.changes' info.
+2023-08-07 07:43:48.016031 +0000 build-r42-debian1: Executing 'bash -c debsign -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes'.
+2023-08-07 07:43:48.030474 +0000 build-r42-debian1: output:  signfile dsc /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:48.353667 +0000 build-r42-debian1: output: 
+2023-08-07 07:43:48.370689 +0000 build-r42-debian1: output:  fixup_buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1.dsc /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo
+2023-08-07 07:43:48.373420 +0000 build-r42-debian1: output:  signfile buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:48.684311 +0000 build-r42-debian1: output: 
+2023-08-07 07:43:48.699629 +0000 build-r42-debian1: output:  fixup_changes dsc /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1.dsc /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes
+2023-08-07 07:43:48.714341 +0000 build-r42-debian1: output:  fixup_changes buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes
+2023-08-07 07:43:48.716339 +0000 build-r42-debian1: output:  signfile changes /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:49.075777 +0000 build-r42-debian1: output: 
+2023-08-07 07:43:49.078868 +0000 build-r42-debian1: output: Successfully signed dsc, buildinfo, changes files
+2023-08-07 07:43:49.081211 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Provisioning local repository '/home/user/builder-r4.2/repository/vm-bookworm'.
+2023-08-07 07:43:49.085817 +0000 build-r42-debian1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_deb/scripts/create-skeleton r4.2 debian /home/user/builder-r4.2/repository-publish/deb'.
+2023-08-07 07:43:49.104455 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Publishing packages.
+2023-08-07 07:43:49.104500 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Verifying signatures.
+2023-08-07 07:43:49.104538 +0000 build-r42-debian1: Executing 'bash -c gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1.dsc&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo'.
+2023-08-07 07:43:49.107006 +0000 build-r42-debian1: output: gpg: Signature made Mon Aug  7 09:43:48 2023 CEST
+2023-08-07 07:43:49.107038 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:49.107048 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-08-07 07:43:49.107054 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-08-07 07:43:49.107062 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-08-07 07:43:49.107069 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-08-07 07:43:49.108682 +0000 build-r42-debian1: output: gpg: Signature made Mon Aug  7 09:43:49 2023 CEST
+2023-08-07 07:43:49.108730 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:49.108779 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-08-07 07:43:49.108788 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-08-07 07:43:49.108841 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-08-07 07:43:49.108850 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-08-07 07:43:49.144764 +0000 build-r42-debian1: output: gpg: Signature made Mon Aug  7 09:43:48 2023 CEST
+2023-08-07 07:43:49.144829 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2023-08-07 07:43:49.144856 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2023-08-07 07:43:49.144870 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2023-08-07 07:43:49.144893 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2023-08-07 07:43:49.144949 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2023-08-07 07:43:49.146349 +0000 build-r42-debian1: Executing 'bash -c reprepro --ignore=surprisingbinary --ignore=surprisingarch --keepunreferencedfiles -b /home/user/builder-r4.2/repository-publish/deb/r4.2/vm include bookworm-testing /home/user/builder-r4.2/components/app-split-browser/0.16.1-1/vm-bookworm/build/qubes-split-browser_0.16.1-1+deb12u1_amd64.changes'.
+2023-08-07 07:43:49.166312 +0000 build-r42-debian1: output: 'qubes-split-browser_0.16.1-1+deb12u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2023-08-07 07:43:49.166406 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2023-08-07 07:43:49.183329 +0000 build-r42-debian1: output: Exporting indices...
+2023-08-07 07:43:49.188870 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:bookworm-testing: Signing metadata (Release.gpg).
+2023-08-07 07:43:49.188905 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --detach-sign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm-testing/Release.gpg /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm-testing/Release'.
+2023-08-07 07:43:49.310756 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:bookworm-testing: Signing metadata (InRelease).
+2023-08-07 07:43:49.310821 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --clearsign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm-testing/InRelease /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm-testing/Release'.
+2023-08-07 07:43:49.507590 +0000 build-r42-debian1: > done
+2023-08-07 07:43:49.507678 +0000 > closing log
