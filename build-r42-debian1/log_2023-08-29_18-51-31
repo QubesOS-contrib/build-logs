@@ -1,0 +1,25 @@
+2023-08-29 18:51:31.467109 +0000 > starting log
+2023-08-29 18:51:31.467285 +0000 build-r42-debian1: > starting build with log
+2023-08-29 18:51:31.467295 +0000 build-r42-debian1: >> args:
+2023-08-29 18:51:31.467302 +0000 build-r42-debian1: >>   ()
+2023-08-29 18:51:31.467307 +0000 build-r42-debian1: >> component:
+2023-08-29 18:51:31.467312 +0000 build-r42-debian1: >>   tunnel
+2023-08-29 18:51:31.467318 +0000 build-r42-debian1: >>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956
+2023-08-29 18:51:31.467329 +0000 build-r42-debian1: >>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7
+2023-08-29 18:51:31.467339 +0000 build-r42-debian1: >> distributions:
+2023-08-29 18:51:31.467347 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2023-08-29 18:51:31.467354 +0000 build-r42-debian1: tunnel: source already fetched. Updating.
+2023-08-29 18:51:46.777889 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9003 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-29 18:52:28.416362 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9003 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-29 18:52:29.184881 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9003 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-29 18:52:29.513193 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9003 bash -c 'rm -rf /builder/incoming/tunnel /builder/tunnel'
+2023-08-29 18:52:30.022668 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp9003 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/tunnel
+2023-08-29 18:52:30.453371 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp9003 bash -c 'mkdir -p /builder && mv /builder/incoming/tunnel /builder'
+2023-08-29 18:52:30.736795 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp9003 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-tunnel.git /builder/tunnel /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-08-29 18:52:33.445846 +0000 build-r42-debian1: output: --> Verifying tags...
+2023-08-29 18:52:33.445936 +0000 build-r42-debian1: output: ---> Good tag cb198213be00a5c516311ae0d42867feeaaf9a0a.
+2023-08-29 18:52:33.446124 +0000 build-r42-debian1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2023-08-29 18:52:33.446142 +0000 build-r42-debian1: output: --> Merging...
+2023-08-29 18:52:33.463204 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9003 qubesbuilder.FileCopyOut+__builder__tunnel /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2023-08-29 18:52:39.659641 +0000 build-r42-debian1: > done
+2023-08-29 18:52:39.659688 +0000 > closing log
