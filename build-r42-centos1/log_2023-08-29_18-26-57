@@ -1,0 +1,22 @@
+2023-08-29 18:26:57.887822 +0000 > starting log
+2023-08-29 18:26:57.888061 +0000 build-r42-centos1: > starting build with log
+2023-08-29 18:26:57.888071 +0000 build-r42-centos1: >> args:
+2023-08-29 18:26:57.888077 +0000 build-r42-centos1: >>   ()
+2023-08-29 18:26:57.888082 +0000 build-r42-centos1: >> component:
+2023-08-29 18:26:57.888087 +0000 build-r42-centos1: >>   app-split-git
+2023-08-29 18:26:57.888093 +0000 build-r42-centos1: >>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c
+2023-08-29 18:26:57.888104 +0000 build-r42-centos1: >>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d
+2023-08-29 18:26:57.888114 +0000 build-r42-centos1: >> distributions:
+2023-08-29 18:26:57.888120 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-08-29 18:26:57.888126 +0000 build-r42-centos1: app-split-git: source already fetched. Updating.
+2023-08-29 18:27:10.455245 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp6055 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-29 18:27:10.934582 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp6055 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-29 18:27:11.813827 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp6055 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-29 18:27:25.033284 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp6055 bash -c 'rm -rf /builder/incoming/app-split-git /builder/app-split-git'
+2023-08-29 18:27:25.333206 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp6055 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-git
+2023-08-29 18:27:25.495373 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp6055 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-git /builder'
+2023-08-29 18:27:25.875737 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm disp6055 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-git.git /builder/app-split-git /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-08-29 18:27:28.614074 +0000 build-r42-centos1: output: args: (128, ['git', 'fetch', '-q', '--tags', '--', 'https://github.com/QubesOS-contrib/qubes-app-split-git.git', 'master'])
+2023-08-29 18:27:28.614136 +0000 build-r42-centos1: output: stdout: b''
+2023-08-29 18:27:28.614158 +0000 build-r42-centos1: output: stderr: b"fatal: unable to access 'https://github.com/QubesOS-contrib/qubes-app-split-git.git/': Could not resolve host: github.com\n"
+2023-08-29 18:27:45.327909 +0000 > closing log
