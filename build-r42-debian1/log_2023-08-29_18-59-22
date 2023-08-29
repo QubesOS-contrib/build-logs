@@ -1,0 +1,25 @@
+2023-08-29 18:59:22.856706 +0000 > starting log
+2023-08-29 18:59:22.856890 +0000 build-r42-debian1: > starting build with log
+2023-08-29 18:59:22.856900 +0000 build-r42-debian1: >> args:
+2023-08-29 18:59:22.856907 +0000 build-r42-debian1: >>   ()
+2023-08-29 18:59:22.856912 +0000 build-r42-debian1: >> component:
+2023-08-29 18:59:22.856918 +0000 build-r42-debian1: >>   app-split-git
+2023-08-29 18:59:22.856924 +0000 build-r42-debian1: >>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c
+2023-08-29 18:59:22.856934 +0000 build-r42-debian1: >>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d
+2023-08-29 18:59:22.856944 +0000 build-r42-debian1: >> distributions:
+2023-08-29 18:59:22.856952 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2023-08-29 18:59:22.856959 +0000 build-r42-debian1: app-split-git: source already fetched. Updating.
+2023-08-29 18:59:39.321612 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp835 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-29 18:59:40.451951 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp835 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-29 18:59:40.968166 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp835 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-29 18:59:41.160159 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp835 bash -c 'rm -rf /builder/incoming/app-split-git /builder/app-split-git'
+2023-08-29 18:59:41.590451 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp835 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-git
+2023-08-29 18:59:42.655316 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp835 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-git /builder'
+2023-08-29 18:59:42.930702 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp835 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-git.git /builder/app-split-git /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-08-29 18:59:46.052842 +0000 build-r42-debian1: output: --> Verifying tags...
+2023-08-29 18:59:46.052908 +0000 build-r42-debian1: output: ---> Good tag 2955f665c488700631f4d08ed0ca561148c33459.
+2023-08-29 18:59:46.052936 +0000 build-r42-debian1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2023-08-29 18:59:46.052947 +0000 build-r42-debian1: output: --> Merging...
+2023-08-29 18:59:46.069189 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp835 qubesbuilder.FileCopyOut+__builder__app-split-git /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2023-08-29 18:59:49.331647 +0000 build-r42-debian1: > done
+2023-08-29 18:59:49.331709 +0000 > closing log
