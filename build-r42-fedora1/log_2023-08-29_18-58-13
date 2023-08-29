@@ -1,0 +1,22 @@
+2023-08-29 18:58:13.172379 +0000 > starting log
+2023-08-29 18:58:13.172534 +0000 build-r42-fedora1: > starting build with log
+2023-08-29 18:58:13.172542 +0000 build-r42-fedora1: >> args:
+2023-08-29 18:58:13.172548 +0000 build-r42-fedora1: >>   ()
+2023-08-29 18:58:13.172552 +0000 build-r42-fedora1: >> component:
+2023-08-29 18:58:13.172556 +0000 build-r42-fedora1: >>   app-split-browser
+2023-08-29 18:58:13.172562 +0000 build-r42-fedora1: >>     commit-hash: 99e5cf67905f4ceff67b08449681a44a33c8cba0
+2023-08-29 18:58:13.172582 +0000 build-r42-fedora1: >>     source-hash: d915ea3f655fb65dfe429aa17d889bce33379199451d760cc9cd0ca9fee17afd056122c396dc64f69651a8d4018e83b6382970f4f198c2b40a5866550a4e10bc
+2023-08-29 18:58:13.172591 +0000 build-r42-fedora1: >> distributions:
+2023-08-29 18:58:13.172597 +0000 build-r42-fedora1: >>   [<QubesDistribution host-fedora-37.x86_64>]
+2023-08-29 18:58:13.172603 +0000 build-r42-fedora1: app-split-browser: source already fetched. Updating.
+2023-08-29 18:58:29.184758 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp4473 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-08-29 18:58:29.730589 +0000 build-r42-fedora1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp4473 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-08-29 18:58:30.075055 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp4473 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-08-29 18:58:31.454679 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp4473 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-08-29 18:58:45.387383 +0000 build-r42-fedora1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp4473 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-08-29 18:58:45.676337 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp4473 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-08-29 18:58:46.683945 +0000 build-r42-fedora1: Executing '/usr/bin/qvm-run-vm disp4473 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-08-29 18:58:48.796907 +0000 build-r42-fedora1: output: args: (128, ['git', 'fetch', '-q', '--tags', '--', 'https://github.com/QubesOS-contrib/qubes-app-split-browser.git', 'master'])
+2023-08-29 18:58:48.796967 +0000 build-r42-fedora1: output: stdout: b''
+2023-08-29 18:58:48.796999 +0000 build-r42-fedora1: output: stderr: b"fatal: unable to access 'https://github.com/QubesOS-contrib/qubes-app-split-browser.git/': Could not resolve host: github.com\n"
+2023-08-29 18:58:52.605829 +0000 > closing log
