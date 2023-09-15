@@ -1,0 +1,16 @@
+2023-09-15 00:48:22.311383 +0000 > starting log
+2023-09-15 00:48:22.311573 +0000 build-r42-fedora1: > starting build with log
+2023-09-15 00:48:22.311581 +0000 build-r42-fedora1: >> args:
+2023-09-15 00:48:22.311586 +0000 build-r42-fedora1: >>   ()
+2023-09-15 00:48:22.311590 +0000 build-r42-fedora1: >> component:
+2023-09-15 00:48:22.311595 +0000 build-r42-fedora1: >>   builder-rpm
+2023-09-15 00:48:22.311599 +0000 build-r42-fedora1: >> distributions:
+2023-09-15 00:48:22.311604 +0000 build-r42-fedora1: >>   [<QubesDistribution host-fedora-37.x86_64>]
+2023-09-15 00:48:36.199771 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp7622 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-09-15 00:48:36.589199 +0000 build-r42-fedora1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp7622 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-09-15 00:48:37.930231 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp7622 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-09-15 00:48:39.573513 +0000 build-r42-fedora1: Executing '/usr/bin/qvm-run-vm disp7622 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2023-09-15 00:48:50.260380 +0000 build-r42-fedora1: output: args: (128, ['git', 'clone', '-n', '-q', '-b', 'master', 'https://github.com/QubesOS-contrib/qubes-builder-rpm.git', PosixPath('/builder/builder-rpm')])
+2023-09-15 00:48:50.260427 +0000 build-r42-fedora1: output: stdout: b''
+2023-09-15 00:48:50.260437 +0000 build-r42-fedora1: output: stderr: b"fatal: could not read Username for 'https://github.com': No such device or address\n"
+2023-09-15 00:48:57.237417 +0000 > closing log
