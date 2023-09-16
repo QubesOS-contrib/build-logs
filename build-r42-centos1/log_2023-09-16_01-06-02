@@ -1,0 +1,16 @@
+2023-09-16 01:06:02.764128 +0000 > starting log
+2023-09-16 01:06:02.764324 +0000 build-r42-centos1: > starting build with log
+2023-09-16 01:06:02.764406 +0000 build-r42-centos1: >> args:
+2023-09-16 01:06:02.764440 +0000 build-r42-centos1: >>   ()
+2023-09-16 01:06:02.764450 +0000 build-r42-centos1: >> component:
+2023-09-16 01:06:02.764458 +0000 build-r42-centos1: >>   builder-rpm
+2023-09-16 01:06:02.764465 +0000 build-r42-centos1: >> distributions:
+2023-09-16 01:06:02.764476 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-09-16 01:06:28.531838 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp2430 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-09-16 01:06:29.089626 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2430 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-09-16 01:06:29.672673 +0000 build-r42-centos1: copy-in (cmd): /usr/bin/qvm-run-vm disp2430 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-09-16 01:06:31.987672 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm disp2430 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2023-09-16 01:06:35.108711 +0000 build-r42-centos1: output: args: (128, ['git', 'clone', '-n', '-q', '-b', 'master', 'https://github.com/QubesOS-contrib/qubes-builder-rpm.git', PosixPath('/builder/builder-rpm')])
+2023-09-16 01:06:35.108755 +0000 build-r42-centos1: output: stdout: b''
+2023-09-16 01:06:35.108767 +0000 build-r42-centos1: output: stderr: b"fatal: could not read Username for 'https://github.com': No such device or address\n"
+2023-09-16 01:06:37.990821 +0000 > closing log
