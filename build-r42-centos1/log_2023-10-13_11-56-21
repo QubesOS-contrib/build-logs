@@ -1,0 +1,53 @@
+2023-10-13 11:56:21.950037 +0000 > starting log
+2023-10-13 11:56:21.950259 +0000 build-r42-centos1: > starting build with log
+2023-10-13 11:56:21.950272 +0000 build-r42-centos1: >> args:
+2023-10-13 11:56:21.950280 +0000 build-r42-centos1: >>   ()
+2023-10-13 11:56:21.950287 +0000 build-r42-centos1: >> component:
+2023-10-13 11:56:21.950294 +0000 build-r42-centos1: >>   app-split-browser
+2023-10-13 11:56:21.950303 +0000 build-r42-centos1: >>     commit-hash: af61fc9eb5998211ff951c18d5f834fa4ba09c7a
+2023-10-13 11:56:21.950316 +0000 build-r42-centos1: >>     source-hash: 74a62b31d90eb1957bec33c006450c40a0253e50c69eb5647f3d935257ad32a1ce50fcf907d9f17813c3e6537d838ff0eabc7a6d4a30a2457d08c680d984852f
+2023-10-13 11:56:21.950328 +0000 build-r42-centos1: >> distributions:
+2023-10-13 11:56:21.950337 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2023-10-13 11:56:21.950348 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64: Source hash is the same than already prepared source. Skipping.
+2023-10-13 11:56:21.950359 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64: Source hash is the same than already built source. Skipping.
+2023-10-13 11:56:21.950384 +0000 build-r42-centos1: Executing 'bash -c mkdir -p /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4&&qubes-gpg-client-wrapper --armor --export B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 > /tmp/tmpj5f339l4/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc&&rpmkeys --dbpath=/home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --import /tmp/tmpj5f339l4/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4.asc'.
+2023-10-13 11:56:22.013988 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-10-13 11:56:22.015176 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Signing 'qubes-split-browser-0.16.2-1.el8.noarch.rpm'.
+2023-10-13 11:56:22.015425 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-0.16.2-1.el8.noarch.rpm'.
+2023-10-13 11:56:22.043473 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:22.206143 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:22.356074 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-0.16.2-1.el8.noarch.rpm:
+2023-10-13 11:56:22.372284 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Signing 'qubes-split-browser-disp-0.16.2-1.el8.noarch.rpm'.
+2023-10-13 11:56:22.372411 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-disp-0.16.2-1.el8.noarch.rpm'.
+2023-10-13 11:56:22.398812 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:22.549530 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:22.680802 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-disp-0.16.2-1.el8.noarch.rpm:
+2023-10-13 11:56:22.697743 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Signing 'qubes-split-browser-0.16.2-1.el8.src.rpm'.
+2023-10-13 11:56:22.697834 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/prep/qubes-split-browser-0.16.2-1.el8.src.rpm'.
+2023-10-13 11:56:22.723613 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:22.875813 +0000 build-r42-centos1: output: warning: Could not set GPG_TTY to stdin: Inappropriate ioctl for device
+2023-10-13 11:56:23.027891 +0000 build-r42-centos1: output: /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/prep/qubes-split-browser-0.16.2-1.el8.src.rpm:
+2023-10-13 11:56:23.043181 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Signing 'qubes-split-browser-0.16.2-1.el8.x86_64.buildinfo'.
+2023-10-13 11:56:23.043232 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/update-rpmbuildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-0.16.2-1.el8.x86_64.buildinfo qubes-gpg-client-wrapper B082674E8CF907A67B5523D64FDD1A4BA90CA2E4'.
+2023-10-13 11:56:23.231693 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Provisioning local repository '/home/user/builder-r4.2/repository/vm-centos-stream8'.
+2023-10-13 11:56:23.237309 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm centos-stream8 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2023-10-13 11:56:23.284356 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Publishing RPMs to 'current-testing'.
+2023-10-13 11:56:23.284385 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64:rpm_spec/qubes-split-browser.spec: Verifying signatures.
+2023-10-13 11:56:23.284488 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-0.16.2-1.el8.noarch.rpm --check-only'.
+2023-10-13 11:56:23.299985 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/build/rpm/qubes-split-browser-disp-0.16.2-1.el8.noarch.rpm --check-only'.
+2023-10-13 11:56:23.321977 +0000 build-r42-centos1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --db-path /home/user/builder-r4.2/rpmdb/B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-centos-stream8/prep/qubes-split-browser-0.16.2-1.el8.src.rpm --check-only'.
+2023-10-13 11:56:23.352459 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64: Updating metadata.
+2023-10-13 11:56:23.353259 +0000 build-r42-centos1: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8&&createrepo_c -g comps.xml .'.
+2023-10-13 11:56:23.409125 +0000 build-r42-centos1: output: Directory walk started
+2023-10-13 11:56:23.409182 +0000 build-r42-centos1: output: Directory walk done - 10 packages
+2023-10-13 11:56:23.409198 +0000 build-r42-centos1: output: Using comps.xml from target repo
+2023-10-13 11:56:23.409209 +0000 build-r42-centos1: output: Temporary output repo path: ./.repodata/
+2023-10-13 11:56:23.409219 +0000 build-r42-centos1: output: Preparing sqlite DBs
+2023-10-13 11:56:23.409229 +0000 build-r42-centos1: output: Pool started (with 5 workers)
+2023-10-13 11:56:23.409237 +0000 build-r42-centos1: output: Pool finished
+2023-10-13 11:56:23.424076 +0000 build-r42-centos1: app-split-browser:vm-centos-stream-8.x86_64: Signing metadata.
+2023-10-13 11:56:23.424205 +0000 build-r42-centos1: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u B082674E8CF907A67B5523D64FDD1A4BA90CA2E4 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.asc'.
+2023-10-13 11:56:23.593963 +0000 build-r42-centos1: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.
+2023-10-13 11:56:23.594043 +0000 build-r42-centos1: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/repodata/repomd.xml.metalink'.
+2023-10-13 11:56:23.803393 +0000 build-r42-centos1: > done
+2023-10-13 11:56:23.803454 +0000 > closing log
