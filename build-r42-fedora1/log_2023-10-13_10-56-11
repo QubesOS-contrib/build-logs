@@ -1,0 +1,26 @@
+2023-10-13 10:56:11.221991 +0000 > starting log
+2023-10-13 10:56:11.222210 +0000 build-r42-fedora1: > starting build with log
+2023-10-13 10:56:11.222220 +0000 build-r42-fedora1: >> args:
+2023-10-13 10:56:11.222226 +0000 build-r42-fedora1: >>   ()
+2023-10-13 10:56:11.222232 +0000 build-r42-fedora1: >> component:
+2023-10-13 10:56:11.222238 +0000 build-r42-fedora1: >>   app-split-browser
+2023-10-13 10:56:11.222244 +0000 build-r42-fedora1: >>     commit-hash: af61fc9eb5998211ff951c18d5f834fa4ba09c7a
+2023-10-13 10:56:11.222256 +0000 build-r42-fedora1: >>     source-hash: 74a62b31d90eb1957bec33c006450c40a0253e50c69eb5647f3d935257ad32a1ce50fcf907d9f17813c3e6537d838ff0eabc7a6d4a30a2457d08c680d984852f
+2023-10-13 10:56:11.222265 +0000 build-r42-fedora1: >> distributions:
+2023-10-13 10:56:11.222272 +0000 build-r42-fedora1: >>   [<QubesDistribution host-fedora-37.x86_64>]
+2023-10-13 10:56:11.222279 +0000 build-r42-fedora1: app-split-browser: source already fetched. Updating.
+2023-10-13 10:56:39.919450 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp2974 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-10-13 10:56:40.761641 +0000 build-r42-fedora1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-10-13 10:56:41.353666 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp2974 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-10-13 10:56:42.201229 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp2974 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-10-13 10:56:42.873038 +0000 build-r42-fedora1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2974 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-10-13 10:56:43.496901 +0000 build-r42-fedora1: copy-in (cmd): /usr/bin/qvm-run-vm disp2974 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-10-13 10:56:43.975062 +0000 build-r42-fedora1: Executing '/usr/bin/qvm-run-vm disp2974 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2023-10-13 10:56:46.352988 +0000 build-r42-fedora1: output: --> Verifying tags...
+2023-10-13 10:56:46.353034 +0000 build-r42-fedora1: output: ---> Good tag c796f55e07409a16f51dbd71ab7373b977bae0eb.
+2023-10-13 10:56:46.353043 +0000 build-r42-fedora1: output: ---> Good tag f5bc184e8fa44927a02ef9429e692bfbc50d544f.
+2023-10-13 10:56:46.353057 +0000 build-r42-fedora1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2023-10-13 10:56:46.353067 +0000 build-r42-fedora1: output: --> Merging...
+2023-10-13 10:56:46.375978 +0000 build-r42-fedora1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp2974 qubesbuilder.FileCopyOut+__builder__app-split-browser /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2023-10-13 10:56:50.856125 +0000 build-r42-fedora1: > done
+2023-10-13 10:56:50.856175 +0000 > closing log
