@@ -1,0 +1,1259 @@
+2023-10-13 10:55:43.407036 +0000 > starting log
+2023-10-13 10:55:43.407218 +0000 build-r42-fedora2: > starting build with log
+2023-10-13 10:55:43.407226 +0000 build-r42-fedora2: >> args:
+2023-10-13 10:55:43.407231 +0000 build-r42-fedora2: >>   ()
+2023-10-13 10:55:43.407236 +0000 build-r42-fedora2: >> component:
+2023-10-13 10:55:43.407240 +0000 build-r42-fedora2: >>   app-split-browser
+2023-10-13 10:55:43.407245 +0000 build-r42-fedora2: >>     commit-hash: af61fc9eb5998211ff951c18d5f834fa4ba09c7a
+2023-10-13 10:55:43.407254 +0000 build-r42-fedora2: >>     source-hash: 74a62b31d90eb1957bec33c006450c40a0253e50c69eb5647f3d935257ad32a1ce50fcf907d9f17813c3e6537d838ff0eabc7a6d4a30a2457d08c680d984852f
+2023-10-13 10:55:43.407261 +0000 build-r42-fedora2: >> distributions:
+2023-10-13 10:55:43.407268 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-37.x86_64>, <QubesDistribution vm-fedora-38.x86_64>]
+2023-10-13 10:55:58.427486 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-10-13 10:56:09.785083 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-10-13 10:56:11.626368 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-10-13 10:56:26.285297 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'rm -rf /builder/incoming/source_rpm /builder/plugins/source_rpm'
+2023-10-13 10:56:39.747618 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_rpm
+2023-10-13 10:56:40.562768 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source_rpm /builder/plugins'
+2023-10-13 10:56:41.248480 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-10-13 10:56:42.110272 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-10-13 10:56:42.825745 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-10-13 10:56:43.372516 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'rm -rf /builder/incoming/source /builder/plugins/source'
+2023-10-13 10:56:43.894295 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2023-10-13 10:56:44.544621 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source /builder/plugins'
+2023-10-13 10:56:45.119683 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'rm -rf /builder/incoming/chroot_rpm /builder/plugins/chroot_rpm'
+2023-10-13 10:56:45.687394 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_rpm
+2023-10-13 10:56:46.135262 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp5025 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/chroot_rpm /builder/plugins'
+2023-10-13 10:56:46.524727 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm disp5025 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' DIST='fc37' PACKAGE_SET='vm' bash -c '/builder/plugins/source_rpm/scripts/get-source-info /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec fc37''.
+2023-10-13 10:56:47.001702 +0000 build-r42-fedora2: output: + ERR_OUTPUT=/dev/stderr
+2023-10-13 10:56:47.001784 +0000 build-r42-fedora2: output: + test 3 -ne 3
+2023-10-13 10:56:47.001802 +0000 build-r42-fedora2: output: + SOURCE_DIR=/builder/app-split-browser
+2023-10-13 10:56:47.001823 +0000 build-r42-fedora2: output: + SPEC_FILE=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.001833 +0000 build-r42-fedora2: output: + DIST_TAG=fc37
+2023-10-13 10:56:47.002157 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/get-source-info
+2023-10-13 10:56:47.003560 +0000 build-r42-fedora2: output: + SCRIPTS_DIR=/builder/plugins/source_rpm/scripts
+2023-10-13 10:56:47.003598 +0000 build-r42-fedora2: output: + SPEC_MANGLE_PATH=rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.003617 +0000 build-r42-fedora2: output: + SPEC_MANGLE_PATH=rpm_spec_qubes-split-browser.spec
+2023-10-13 10:56:47.003990 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec '%{name}-%{version}-%{release}\n' fc37
+2023-10-13 10:56:47.004027 +0000 build-r42-fedora2: output: + head -1
+2023-10-13 10:56:47.005074 +0000 build-r42-fedora2: output: + ERR_OUTPUT=/dev/stderr
+2023-10-13 10:56:47.005123 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:47.005141 +0000 build-r42-fedora2: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.005155 +0000 build-r42-fedora2: output: + query_field='%{name}-%{version}-%{release}\n'
+2023-10-13 10:56:47.005164 +0000 build-r42-fedora2: output: + dist=fc37
+2023-10-13 10:56:47.005267 +0000 build-r42-fedora2: output: + '[' 4 -lt 4 ']'
+2023-10-13 10:56:47.005275 +0000 build-r42-fedora2: output: + rpm_defines=()
+2023-10-13 10:56:47.005368 +0000 build-r42-fedora2: output: + export -f set_rpm_defines
+2023-10-13 10:56:47.005445 +0000 build-r42-fedora2: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.006010 +0000 build-r42-fedora2: output: + spec_file_bn=qubes-split-browser.spec
+2023-10-13 10:56:47.006031 +0000 build-r42-fedora2: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2023-10-13 10:56:47.006068 +0000 build-r42-fedora2: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:47.006261 +0000 build-r42-fedora2: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-10-13 10:56:47.007273 +0000 build-r42-fedora2: output: + tmp_spec=/tmp/tmp.hdrYps.spec
+2023-10-13 10:56:47.007499 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2023-10-13 10:56:47.007998 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.hdrYps.spec
+2023-10-13 10:56:47.008727 +0000 build-r42-fedora2: output: + '[' 3 -lt 3 ']'
+2023-10-13 10:56:47.008764 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:47.008921 +0000 build-r42-fedora2: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2023-10-13 10:56:47.008951 +0000 build-r42-fedora2: output: + output=/tmp/tmp.hdrYps.spec
+2023-10-13 10:56:47.008973 +0000 build-r42-fedora2: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:47.008995 +0000 build-r42-fedora2: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.010995 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:47.011024 +0000 build-r42-fedora2: output: + '[' -z '' ']'
+2023-10-13 10:56:47.011047 +0000 build-r42-fedora2: output: + sed -i 's|@VERSION@|0.16.2|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.013345 +0000 build-r42-fedora2: output: + vnum=1
+2023-10-13 10:56:47.013391 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:47.013413 +0000 build-r42-fedora2: output: + '[' -e /builder/app-split-browser/rel ']'
+2023-10-13 10:56:47.013511 +0000 build-r42-fedora2: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.014699 +0000 build-r42-fedora2: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.016498 +0000 build-r42-fedora2: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.018322 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2023-10-13 10:56:47.019252 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.166154 +0000 build-r42-fedora2: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.166797 +0000 build-r42-fedora2: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.168036 +0000 build-r42-fedora2: output: + '[' '%{name}-%{version}-%{release}\n' = '%{SOURCE0}' ']'
+2023-10-13 10:56:47.168055 +0000 build-r42-fedora2: output: + '[' '%{name}-%{version}-%{release}\n' = PACKAGES_LIST ']'
+2023-10-13 10:56:47.168070 +0000 build-r42-fedora2: output: + rpm -q --define 'dist .fc37' --qf '%{name}-%{version}-%{release}\n' --specfile /tmp/tmp.hdrYps.spec
+2023-10-13 10:56:47.220708 +0000 build-r42-fedora2: output: + cat
+2023-10-13 10:56:47.223403 +0000 build-r42-fedora2: output: + rm -f /tmp/tmp.hdrYps.spec
+2023-10-13 10:56:47.225445 +0000 build-r42-fedora2: output: + awk '{print $2}'
+2023-10-13 10:56:47.225487 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec '%{SOURCE0}' fc37
+2023-10-13 10:56:47.226666 +0000 build-r42-fedora2: output: + ERR_OUTPUT=/dev/stderr
+2023-10-13 10:56:47.226705 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:47.226772 +0000 build-r42-fedora2: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.226874 +0000 build-r42-fedora2: output: + query_field='%{SOURCE0}'
+2023-10-13 10:56:47.226901 +0000 build-r42-fedora2: output: + dist=fc37
+2023-10-13 10:56:47.227014 +0000 build-r42-fedora2: output: + '[' 4 -lt 4 ']'
+2023-10-13 10:56:47.227063 +0000 build-r42-fedora2: output: + rpm_defines=()
+2023-10-13 10:56:47.227072 +0000 build-r42-fedora2: output: + export -f set_rpm_defines
+2023-10-13 10:56:47.227081 +0000 build-r42-fedora2: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:47.227785 +0000 build-r42-fedora2: output: + spec_file_bn=qubes-split-browser.spec
+2023-10-13 10:56:47.227805 +0000 build-r42-fedora2: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2023-10-13 10:56:47.227817 +0000 build-r42-fedora2: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:47.228038 +0000 build-r42-fedora2: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-10-13 10:56:47.228693 +0000 build-r42-fedora2: output: + tmp_spec=/tmp/tmp.w7izkC.spec
+2023-10-13 10:56:47.229060 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2023-10-13 10:56:47.229843 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.w7izkC.spec
+2023-10-13 10:56:47.230834 +0000 build-r42-fedora2: output: + '[' 3 -lt 3 ']'
+2023-10-13 10:56:47.230848 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:47.230856 +0000 build-r42-fedora2: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2023-10-13 10:56:47.230875 +0000 build-r42-fedora2: output: + output=/tmp/tmp.w7izkC.spec
+2023-10-13 10:56:47.230889 +0000 build-r42-fedora2: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:47.231126 +0000 build-r42-fedora2: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.232245 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:47.232262 +0000 build-r42-fedora2: output: + '[' -z '' ']'
+2023-10-13 10:56:47.232273 +0000 build-r42-fedora2: output: + sed -i 's|@VERSION@|0.16.2|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.233820 +0000 build-r42-fedora2: output: + vnum=1
+2023-10-13 10:56:47.233837 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:47.234348 +0000 build-r42-fedora2: output: + '[' -e /builder/app-split-browser/rel ']'
+2023-10-13 10:56:47.234363 +0000 build-r42-fedora2: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.235200 +0000 build-r42-fedora2: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.236270 +0000 build-r42-fedora2: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.237097 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2023-10-13 10:56:47.237671 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.335458 +0000 build-r42-fedora2: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.335750 +0000 build-r42-fedora2: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:47.336420 +0000 build-r42-fedora2: output: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2023-10-13 10:56:47.336435 +0000 build-r42-fedora2: output: + spectool --list-files --source 0 /tmp/tmp.w7izkC.spec
+2023-10-13 10:56:48.446041 +0000 build-r42-fedora2: output: + rm -f /tmp/tmp.w7izkC.spec
+2023-10-13 10:56:48.446950 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec PACKAGES_LIST fc37
+2023-10-13 10:56:48.447615 +0000 build-r42-fedora2: output: + ERR_OUTPUT=/dev/stderr
+2023-10-13 10:56:48.447632 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:48.447680 +0000 build-r42-fedora2: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:48.447687 +0000 build-r42-fedora2: output: + query_field=PACKAGES_LIST
+2023-10-13 10:56:48.447707 +0000 build-r42-fedora2: output: + dist=fc37
+2023-10-13 10:56:48.447735 +0000 build-r42-fedora2: output: + '[' 4 -lt 4 ']'
+2023-10-13 10:56:48.447770 +0000 build-r42-fedora2: output: + rpm_defines=()
+2023-10-13 10:56:48.447816 +0000 build-r42-fedora2: output: + export -f set_rpm_defines
+2023-10-13 10:56:48.447825 +0000 build-r42-fedora2: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:56:48.448507 +0000 build-r42-fedora2: output: + spec_file_bn=qubes-split-browser.spec
+2023-10-13 10:56:48.448519 +0000 build-r42-fedora2: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2023-10-13 10:56:48.448526 +0000 build-r42-fedora2: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:48.448533 +0000 build-r42-fedora2: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2023-10-13 10:56:48.449005 +0000 build-r42-fedora2: output: + tmp_spec=/tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.449067 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2023-10-13 10:56:48.449556 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.450389 +0000 build-r42-fedora2: output: + '[' 3 -lt 3 ']'
+2023-10-13 10:56:48.450397 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:56:48.450430 +0000 build-r42-fedora2: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2023-10-13 10:56:48.450447 +0000 build-r42-fedora2: output: + output=/tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.450480 +0000 build-r42-fedora2: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:56:48.450510 +0000 build-r42-fedora2: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.451278 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:48.451298 +0000 build-r42-fedora2: output: + '[' -z '' ']'
+2023-10-13 10:56:48.451350 +0000 build-r42-fedora2: output: + sed -i 's|@VERSION@|0.16.2|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.452457 +0000 build-r42-fedora2: output: + vnum=1
+2023-10-13 10:56:48.452472 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:56:48.452482 +0000 build-r42-fedora2: output: + '[' -e /builder/app-split-browser/rel ']'
+2023-10-13 10:56:48.452518 +0000 build-r42-fedora2: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.453087 +0000 build-r42-fedora2: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.463375 +0000 build-r42-fedora2: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.463417 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2023-10-13 10:56:48.463434 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.558095 +0000 build-r42-fedora2: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.558446 +0000 build-r42-fedora2: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:56:48.559540 +0000 build-r42-fedora2: output: + '[' PACKAGES_LIST = '%{SOURCE0}' ']'
+2023-10-13 10:56:48.559558 +0000 build-r42-fedora2: output: + '[' PACKAGES_LIST = PACKAGES_LIST ']'
+2023-10-13 10:56:48.559673 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2023-10-13 10:56:48.560428 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/query-builtrpms /tmp/tmp.tFHZlF.spec fc37
+2023-10-13 10:56:48.561618 +0000 build-r42-fedora2: output: + test 2 -ne 2
+2023-10-13 10:56:48.561633 +0000 build-r42-fedora2: output: + SPEC_FILE=/tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.561643 +0000 build-r42-fedora2: output: + DIST_TAG=fc37
+2023-10-13 10:56:48.561687 +0000 build-r42-fedora2: output: + rpm_defines=(--define "dist .${DIST_TAG}")
+2023-10-13 10:56:48.561697 +0000 build-r42-fedora2: output: ++ type -t set_rpm_defines
+2023-10-13 10:56:48.562259 +0000 build-r42-fedora2: output: + '[' function = function ']'
+2023-10-13 10:56:48.562280 +0000 build-r42-fedora2: output: + set_rpm_defines fc37
+2023-10-13 10:56:48.562291 +0000 build-r42-fedora2: output: + local dist=fc37
+2023-10-13 10:56:48.562327 +0000 build-r42-fedora2: output: + raw_dist=fc37
+2023-10-13 10:56:48.562338 +0000 build-r42-fedora2: output: + [[ fc37 = \f\c* ]]
+2023-10-13 10:56:48.562394 +0000 build-r42-fedora2: output: + dist_ver=37
+2023-10-13 10:56:48.562454 +0000 build-r42-fedora2: output: + rpm_defines+=(--define "fedora $dist_ver")
+2023-10-13 10:56:48.562482 +0000 build-r42-fedora2: output: + RPM_OPS=("${rpm_defines[@]}")
+2023-10-13 10:56:48.562528 +0000 build-r42-fedora2: output: + rpmspec --builtrpms --define 'dist .fc37' --define 'fedora 37' -q --qf '%{name}-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.562536 +0000 build-r42-fedora2: output: + uniq
+2023-10-13 10:56:48.562747 +0000 build-r42-fedora2: output: + sort
+2023-10-13 10:56:48.573179 +0000 build-r42-fedora2: output: + rpmspec --builtrpms --define 'dist .fc37' --define 'fedora 37' -q --qf '%{name}-debuginfo-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.573216 +0000 build-r42-fedora2: output: + grep -v -- '-devel\|-debuginfo-debuginfo\|-debugsource-debuginfo'
+2023-10-13 10:56:48.582055 +0000 build-r42-fedora2: output: + rpmspec --builtrpms --define 'dist .fc37' --define 'fedora 37' -q --qf '%{name}-debugsource-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.582231 +0000 build-r42-fedora2: output: + grep -v -- '-devel\|-debuginfo-debugsource\|-debugsource-debugsource'
+2023-10-13 10:56:48.591742 +0000 build-r42-fedora2: output: + rm -f /tmp/tmp.tFHZlF.spec
+2023-10-13 10:56:48.598198 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyOut+__builder__app-split-browser__rpm_spec_qubes-split-browser.spec_package_release_name /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpwzhxp5me
+2023-10-13 10:56:48.967308 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp5025 qubesbuilder.FileCopyOut+__builder__app-split-browser__rpm_spec_qubes-split-browser.spec_packages.list /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpwzhxp5me
+2023-10-13 10:57:23.150066 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/distfiles/app-split-browser'
+2023-10-13 10:57:49.990568 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/distfiles/app-split-browser
+2023-10-13 10:57:50.788070 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/distfiles && mv /builder/incoming/app-split-browser /builder/distfiles'
+2023-10-13 10:57:51.220415 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/app-split-browser /builder/app-split-browser'
+2023-10-13 10:57:51.941332 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2023-10-13 10:57:52.645345 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder && mv /builder/incoming/app-split-browser /builder'
+2023-10-13 10:57:53.230028 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/source_rpm /builder/plugins/source_rpm'
+2023-10-13 10:57:53.850674 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_rpm
+2023-10-13 10:57:54.484779 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source_rpm /builder/plugins'
+2023-10-13 10:57:54.909918 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-10-13 10:57:55.306502 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-10-13 10:57:55.652469 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-10-13 10:57:55.966840 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/source /builder/plugins/source'
+2023-10-13 10:57:56.353716 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2023-10-13 10:57:57.133234 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/source /builder/plugins'
+2023-10-13 10:57:57.509131 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/chroot_rpm /builder/plugins/chroot_rpm'
+2023-10-13 10:57:57.669042 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_rpm
+2023-10-13 10:57:57.824025 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/chroot_rpm /builder/plugins'
+2023-10-13 10:57:57.982843 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'rm -rf /builder/incoming/mock /builder/cache/mock'
+2023-10-13 10:57:58.152842 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/cache/chroot/fc37/mock
+2023-10-13 10:58:00.692141 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp3479 bash -c 'mkdir -p /builder/cache && mv /builder/incoming/mock /builder/cache'
+2023-10-13 10:58:01.015504 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm disp3479 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' DIST='fc37' PACKAGE_SET='vm' bash -c 'sudo chown -R root:mock /builder/cache/mock && /builder/plugins/fetch/scripts/create-archive /builder/app-split-browser qubes-split-browser-0.16.2.tar.gz && /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec && mkdir -p /builder/build && sudo chown -R user:mock /builder/build && sudo --preserve-env=DIST,PACKAGE_SET,USE_QUBES_REPO_VERSION /usr/libexec/mock/mock --buildsrpm --spec /builder/app-split-browser/rpm_spec/qubes-split-browser.spec --root /builder/plugins/chroot_rpm/mock/fedora-37-x86_64.cfg --sources=/builder/app-split-browser --resultdir=/builder/build --disablerepo=builder-local --isolation=nspawn --verbose --plugin-option=root_cache:age_check=False --no-clean''.
+2023-10-13 10:58:01.231424 +0000 build-r42-fedora2: output: ++ tar --version
+2023-10-13 10:58:01.231472 +0000 build-r42-fedora2: output: ++ head -1
+2023-10-13 10:58:01.231485 +0000 build-r42-fedora2: output: ++ awk '{print $4}'
+2023-10-13 10:58:01.354270 +0000 build-r42-fedora2: output: + TAR_VERSION=1.34
+2023-10-13 10:58:01.360570 +0000 build-r42-fedora2: output: ++ readlink -f /builder/app-split-browser
+2023-10-13 10:58:01.360640 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_SRC=/builder/app-split-browser
+2023-10-13 10:58:01.360665 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_TYPE=gz
+2023-10-13 10:58:01.360679 +0000 build-r42-fedora2: output: + GIT_TARBALL_NAME=qubes-split-browser-0.16.2.tar
+2023-10-13 10:58:01.360689 +0000 build-r42-fedora2: output: + '[' x '!=' x ']'
+2023-10-13 10:58:01.361001 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.2.tar
+2023-10-13 10:58:01.361058 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.2
+2023-10-13 10:58:01.361067 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.2
+2023-10-13 10:58:01.361074 +0000 build-r42-fedora2: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.2/
+2023-10-13 10:58:01.361086 +0000 build-r42-fedora2: output: + pushd /builder/app-split-browser
+2023-10-13 10:58:01.361126 +0000 build-r42-fedora2: output: ++ git log -1 --format=%ct
+2023-10-13 10:58:01.361134 +0000 build-r42-fedora2: output: /builder/app-split-browser ~
+2023-10-13 10:58:01.382191 +0000 build-r42-fedora2: output: + SOURCE_DATE_EPOCH=1696868023
+2023-10-13 10:58:01.382884 +0000 build-r42-fedora2: output: ++ sort -V
+2023-10-13 10:58:01.382910 +0000 build-r42-fedora2: output: ++ head -n1
+2023-10-13 10:58:01.383079 +0000 build-r42-fedora2: output: ++ printf '%s\n' 1.34 1.28
+2023-10-13 10:58:01.386800 +0000 build-r42-fedora2: output: + '[' 1.28 == 1.28 ']'
+2023-10-13 10:58:01.386844 +0000 build-r42-fedora2: output: + tar --sort=name --mtime=@1696868023 --owner=0 --group=0 --numeric-owner --mode=go=rX '--xform=s%^\./%qubes-split-browser-0.16.2/%' --exclude-vcs-ignores --exclude-ignore=.tarignore --exclude pkgs --exclude '.git/*' --exclude qubes-split-browser-0.16.2.tar -cf qubes-split-browser-0.16.2.tar .
+2023-10-13 10:58:01.390608 +0000 build-r42-fedora2: output: + case "$GIT_ARCHIVE_TYPE" in
+2023-10-13 10:58:01.390684 +0000 build-r42-fedora2: output: + gzip -fn qubes-split-browser-0.16.2.tar
+2023-10-13 10:58:01.396922 +0000 build-r42-fedora2: output: ~
+2023-10-13 10:58:01.397141 +0000 build-r42-fedora2: output: + popd
+2023-10-13 10:58:01.399356 +0000 build-r42-fedora2: output: + '[' 3 -lt 3 ']'
+2023-10-13 10:58:01.399604 +0000 build-r42-fedora2: output: + source_dir=/builder/app-split-browser
+2023-10-13 10:58:01.399856 +0000 build-r42-fedora2: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2023-10-13 10:58:01.399999 +0000 build-r42-fedora2: output: + output=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2023-10-13 10:58:01.400119 +0000 build-r42-fedora2: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2023-10-13 10:58:01.400406 +0000 build-r42-fedora2: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.404403 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:58:01.404417 +0000 build-r42-fedora2: output: + '[' -z '' ']'
+2023-10-13 10:58:01.404438 +0000 build-r42-fedora2: output: + sed -i 's|@VERSION@|0.16.2|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.407581 +0000 build-r42-fedora2: output: + vnum=1
+2023-10-13 10:58:01.407617 +0000 build-r42-fedora2: output: + read -r ver
+2023-10-13 10:58:01.407627 +0000 build-r42-fedora2: output: + '[' -e /builder/app-split-browser/rel ']'
+2023-10-13 10:58:01.407656 +0000 build-r42-fedora2: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.409514 +0000 build-r42-fedora2: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.411598 +0000 build-r42-fedora2: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.413276 +0000 build-r42-fedora2: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2023-10-13 10:58:01.415491 +0000 build-r42-fedora2: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.621050 +0000 build-r42-fedora2: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:01.621575 +0000 build-r42-fedora2: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2023-10-13 10:58:02.281312 +0000 build-r42-fedora2: output: INFO: mock.py version 5.0 starting (python version = 3.11.4, NVR = mock-5.0-1.fc38)...
+2023-10-13 10:58:02.319857 +0000 build-r42-fedora2: output: Start: init plugins
+2023-10-13 10:58:02.340572 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/yum_cache
+2023-10-13 10:58:02.347894 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/dnf_cache
+2023-10-13 10:58:02.358042 +0000 build-r42-fedora2: output: INFO: selinux disabled
+2023-10-13 10:58:02.363580 +0000 build-r42-fedora2: output: Finish: init plugins
+2023-10-13 10:58:02.392711 +0000 build-r42-fedora2: output: INFO: Signal handler active
+2023-10-13 10:58:02.396697 +0000 build-r42-fedora2: output: Start: run
+2023-10-13 10:58:02.396735 +0000 build-r42-fedora2: output: DEBUG: mock final configuration:
+2023-10-13 10:58:02.450914 +0000 build-r42-fedora2: output: DEBUG:     _aliases:  {'yum.conf': 'dnf.conf', 'dnf5.conf': 'dnf.conf'}
+2023-10-13 10:58:02.450972 +0000 build-r42-fedora2: output: DEBUG:     config_paths:  []
+2023-10-13 10:58:02.450982 +0000 build-r42-fedora2: output: DEBUG:     version:  5.0
+2023-10-13 10:58:02.451064 +0000 build-r42-fedora2: output: DEBUG:     basedir:  /builder/build
+2023-10-13 10:58:02.451107 +0000 build-r42-fedora2: output: DEBUG:     resultdir:  /builder/build
+2023-10-13 10:58:02.451156 +0000 build-r42-fedora2: output: DEBUG:     rootdir:  /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:02.451234 +0000 build-r42-fedora2: output: DEBUG:     cache_topdir:  /builder/cache/mock
+2023-10-13 10:58:02.451263 +0000 build-r42-fedora2: output: DEBUG:     clean:  False
+2023-10-13 10:58:02.451312 +0000 build-r42-fedora2: output: DEBUG:     check:  True
+2023-10-13 10:58:02.451396 +0000 build-r42-fedora2: output: DEBUG:     post_install:  False
+2023-10-13 10:58:02.451407 +0000 build-r42-fedora2: output: DEBUG:     chroothome:  /builddir
+2023-10-13 10:58:02.451480 +0000 build-r42-fedora2: output: DEBUG:     log_config_file:  logging.ini
+2023-10-13 10:58:02.451530 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_timeout:  0
+2023-10-13 10:58:02.451610 +0000 build-r42-fedora2: output: DEBUG:     host_arch:  x86_64
+2023-10-13 10:58:02.451622 +0000 build-r42-fedora2: output: DEBUG:     chrootuid:  1000
+2023-10-13 10:58:02.451704 +0000 build-r42-fedora2: output: DEBUG:     chrootgid:  135
+2023-10-13 10:58:02.451762 +0000 build-r42-fedora2: output: DEBUG:     chrootgroup:  mock
+2023-10-13 10:58:02.451830 +0000 build-r42-fedora2: output: DEBUG:     chrootuser:  mockbuild
+2023-10-13 10:58:02.451880 +0000 build-r42-fedora2: output: DEBUG:     build_log_fmt_name:  unadorned
+2023-10-13 10:58:02.451958 +0000 build-r42-fedora2: output: DEBUG:     root_log_fmt_name:  detailed
+2023-10-13 10:58:02.451987 +0000 build-r42-fedora2: output: DEBUG:     state_log_fmt_name:  state
+2023-10-13 10:58:02.452031 +0000 build-r42-fedora2: output: DEBUG:     online:  True
+2023-10-13 10:58:02.452078 +0000 build-r42-fedora2: output: DEBUG:     isolation:  None
+2023-10-13 10:58:02.452119 +0000 build-r42-fedora2: output: DEBUG:     use_nspawn:  None
+2023-10-13 10:58:02.452203 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_networking:  False
+2023-10-13 10:58:02.452327 +0000 build-r42-fedora2: output: DEBUG:     nspawn_args:  ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.79isxsxa:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+2023-10-13 10:58:02.452358 +0000 build-r42-fedora2: output: DEBUG:     use_container_host_hostname:  True
+2023-10-13 10:58:02.452422 +0000 build-r42-fedora2: output: DEBUG:     use_bootstrap:  False
+2023-10-13 10:58:02.452471 +0000 build-r42-fedora2: output: DEBUG:     use_bootstrap_image:  True
+2023-10-13 10:58:02.452518 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_image:  fedora:latest
+2023-10-13 10:58:02.452582 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_image_ready:  False
+2023-10-13 10:58:02.452644 +0000 build-r42-fedora2: output: DEBUG:     internal_dev_setup:  True
+2023-10-13 10:58:02.452673 +0000 build-r42-fedora2: output: DEBUG:     cleanup_on_success:  True
+2023-10-13 10:58:02.452726 +0000 build-r42-fedora2: output: DEBUG:     cleanup_on_failure:  True
+2023-10-13 10:58:02.452807 +0000 build-r42-fedora2: output: DEBUG:     exclude_from_homedir_cleanup:  ['build/SOURCES', '.bash_history', '.bashrc']
+2023-10-13 10:58:02.452854 +0000 build-r42-fedora2: output: DEBUG:     createrepo_on_rpms:  False
+2023-10-13 10:58:02.452961 +0000 build-r42-fedora2: output: DEBUG:     createrepo_command:  /usr/bin/createrepo_c -d -q -x *.src.rpm
+2023-10-13 10:58:02.453010 +0000 build-r42-fedora2: output: DEBUG:     tar_binary:  /bin/tar
+2023-10-13 10:58:02.453025 +0000 build-r42-fedora2: output: DEBUG:     tar:  gnutar
+2023-10-13 10:58:02.453082 +0000 build-r42-fedora2: output: DEBUG:     backup_on_clean:  False
+2023-10-13 10:58:02.453124 +0000 build-r42-fedora2: output: DEBUG:     backup_base_dir:  /builder/build/backup
+2023-10-13 10:58:02.453173 +0000 build-r42-fedora2: output: DEBUG:     redhat_subscription_required:  False
+2023-10-13 10:58:02.453218 +0000 build-r42-fedora2: output: DEBUG:     ssl_ca_bundle_path:  None
+2023-10-13 10:58:02.453261 +0000 build-r42-fedora2: output: DEBUG:     ssl_extra_certs:  None
+2023-10-13 10:58:02.453371 +0000 build-r42-fedora2: output: DEBUG:     plugins:  ['tmpfs', 'root_cache', 'yum_cache', 'mount', 'bind_mount', 'ccache', 'selinux', 'package_state', 'chroot_scan', 'lvm_root', 'compress_logs', 'sign', 'pm_request', 'hw_info', 'procenv', 'showrc', 'rpkg_preprocessor', 'overlayfs']
+2023-10-13 10:58:02.453397 +0000 build-r42-fedora2: output: DEBUG:     plugin_dir:  /usr/lib/python3.11/site-packages/mockbuild/plugins
+2023-10-13 10:58:02.454119 +0000 build-r42-fedora2: output: DEBUG:     plugin_conf:  {'ccache_enable': False, 'ccache_opts': {'max_cache_size': '4G', 'compress': None, 'dir': '/builder/cache/mock/fedora-37-x86_64/ccache/u1000/', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'yum_cache_enable': True, 'yum_cache_opts': {'max_age_days': 30, 'max_metadata_age_days': 30, 'online': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'root_cache_enable': True, 'root_cache_opts': {'age_check': False, 'max_age_days': 15, 'dir': '/builder/cache/mock/fedora-37-x86_64/root_cache/', 'compress_program': 'pigz', 'decompress_program': None, 'exclude_dirs': ['./proc', './sys', './dev', './tmp/ccache', './var/cache/yum', './var/cache/dnf', './var/log'], 'extension': '.gz', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'bind_mount_enable': False, 'bind_mount_opts': {'dirs': [('/builder/plugins', '/plugins')], 'create_dirs': False, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'mount_enable': True, 'mount_opts': {'dirs': [], 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'tmpfs_enable': False, 'tmpfs_opts': {'required_ram_mb': 900, 'max_fs_size': None, 'mode': '0755', 'keep_mounted': False, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'selinux_enable': True, 'selinux_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'package_state_enable': True, 'package_state_opts': {'available_pkgs': False, 'installed_pkgs': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'pm_request_enable': False, 'pm_request_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'lvm_root_enable': False, 'lvm_root_opts': {'pool_name': 'mockbuild', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'chroot_scan_enable': False, 'chroot_scan_opts': {'regexes': ['^[^k]?core(\\.\\d+)?$', '\\.log$'], 'only_failed': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'sign_enable': False, 'sign_opts': {'cmd': 'rpmsign', 'opts': '--addsign %(rpms)s', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'hw_info_enable': True, 'hw_info_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'procenv_enable': False, 'procenv_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'showrc_enable': False, 'showrc_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'compress_logs_enable': False, 'compress_logs_opts': {'command': 'gzip', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'rpkg_preprocessor_enable': False, 'rpkg_preprocessor_opts': {'requires': ['preproc-rpmspec'], 'cmd': '/usr/bin/preproc-rpmspec %(source_spec)s --output %(target_spec)s', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'overlayfs_enable': False, 'overlayfs_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}}
+2023-10-13 10:58:02.454164 +0000 build-r42-fedora2: output: DEBUG:     environment:  {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}
+2023-10-13 10:58:02.454174 +0000 build-r42-fedora2: output: DEBUG:     scm:  False
+2023-10-13 10:58:02.454197 +0000 build-r42-fedora2: output: DEBUG:     scm_opts:  {'method': 'git', 'cvs_get': 'cvs -d /srv/cvs co SCM_BRN SCM_PKG', 'git_get': 'git clone SCM_BRN git://localhost/SCM_PKG.git SCM_PKG', 'svn_get': 'svn co file:///srv/svn/SCM_PKG/SCM_BRN SCM_PKG', 'distgit_get': 'rpkg clone -a --branch SCM_BRN SCM_PKG SCM_PKG', 'distgit_src_get': 'rpkg sources', 'spec': 'SCM_PKG.spec', 'ext_src_dir': '/dev/null', 'write_tar': False, 'git_timestamps': False, 'exclude_vcs': True}
+2023-10-13 10:58:02.454204 +0000 build-r42-fedora2: output: DEBUG:     use_host_resolv:  False
+2023-10-13 10:58:02.454211 +0000 build-r42-fedora2: output: DEBUG:     chroot_setup_cmd:  install @buildsys-build
+2023-10-13 10:58:02.454219 +0000 build-r42-fedora2: output: DEBUG:     target_arch:  x86_64
+2023-10-13 10:58:02.454261 +0000 build-r42-fedora2: output: DEBUG:     releasever:  37
+2023-10-13 10:58:02.454309 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_arch:  x86_64
+2023-10-13 10:58:02.454367 +0000 build-r42-fedora2: output: DEBUG:     dnf_vars:  {}
+2023-10-13 10:58:02.454416 +0000 build-r42-fedora2: output: DEBUG:     yum_builddep_opts:  []
+2023-10-13 10:58:02.454463 +0000 build-r42-fedora2: output: DEBUG:     yum_common_opts:  []
+2023-10-13 10:58:02.454513 +0000 build-r42-fedora2: output: DEBUG:     update_before_build:  True
+2023-10-13 10:58:02.454560 +0000 build-r42-fedora2: output: DEBUG:     priorities.conf:
+2023-10-13 10:58:02.454643 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:58:02.454656 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:58:02.454749 +0000 build-r42-fedora2: output: DEBUG:     rhnplugin.conf:
+2023-10-13 10:58:02.454812 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:58:02.454852 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:58:02.454903 +0000 build-r42-fedora2: output: DEBUG:     subscription-manager.conf:
+2023-10-13 10:58:02.454951 +0000 build-r42-fedora2: output: DEBUG:     more_buildreqs:  {}
+2023-10-13 10:58:02.454999 +0000 build-r42-fedora2: output: DEBUG:     nosync:  False
+2023-10-13 10:58:02.455046 +0000 build-r42-fedora2: output: DEBUG:     nosync_force:  False
+2023-10-13 10:58:02.455123 +0000 build-r42-fedora2: output: DEBUG:     files:  {'etc/hosts': '127.0.0.1 localhost localhost.localdomain\n::1       localhost localhost.localdomain localhost6 localhost6.localdomain6\n'}
+2023-10-13 10:58:02.455200 +0000 build-r42-fedora2: output: DEBUG:     macros:  {'%_topdir': '/builddir/build', '%_rpmfilename': '%%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm', '%_buildhost': 'reproducible', '%clamp_mtime_to_source_date_epoch': '1', '%source_date_epoch_from_changelog': '1', '%use_source_date_epoch_as_buildtime': '1', '%_platform_multiplier': 1}
+2023-10-13 10:58:02.455231 +0000 build-r42-fedora2: output: DEBUG:     hostname:  None
+2023-10-13 10:58:02.455303 +0000 build-r42-fedora2: output: DEBUG:     module_enable:  []
+2023-10-13 10:58:02.455347 +0000 build-r42-fedora2: output: DEBUG:     module_install:  []
+2023-10-13 10:58:02.455415 +0000 build-r42-fedora2: output: DEBUG:     module_setup_commands:  []
+2023-10-13 10:58:02.455498 +0000 build-r42-fedora2: output: DEBUG:     forcearch:  None
+2023-10-13 10:58:02.455540 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_chroot_additional_packages:  []
+2023-10-13 10:58:02.455567 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_enable:  []
+2023-10-13 10:58:02.455633 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_install:  []
+2023-10-13 10:58:02.455673 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_setup_commands:  []
+2023-10-13 10:58:02.455720 +0000 build-r42-fedora2: output: DEBUG:     no_root_shells:  False
+2023-10-13 10:58:02.455786 +0000 build-r42-fedora2: output: DEBUG:     extra_chroot_dirs:  ['/run/lock']
+2023-10-13 10:58:02.455830 +0000 build-r42-fedora2: output: DEBUG:     package_manager:  dnf
+2023-10-13 10:58:02.455965 +0000 build-r42-fedora2: output: DEBUG:     package_manager_max_attempts:  1
+2023-10-13 10:58:02.455998 +0000 build-r42-fedora2: output: DEBUG:     package_manager_attempt_delay:  10
+2023-10-13 10:58:02.456155 +0000 build-r42-fedora2: output: DEBUG:     dynamic_buildrequires:  True
+2023-10-13 10:58:02.456186 +0000 build-r42-fedora2: output: DEBUG:     dynamic_buildrequires_max_loops:  10
+2023-10-13 10:58:02.456257 +0000 build-r42-fedora2: output: DEBUG:     external_buildrequires:  False
+2023-10-13 10:58:02.456300 +0000 build-r42-fedora2: output: DEBUG:     dev_loop_count:  12
+2023-10-13 10:58:02.456383 +0000 build-r42-fedora2: output: DEBUG:     yum_command:  /usr/bin/yum
+2023-10-13 10:58:02.456407 +0000 build-r42-fedora2: output: DEBUG:     system_yum_command:  /usr/bin/yum
+2023-10-13 10:58:02.456498 +0000 build-r42-fedora2: output: DEBUG:     yum_install_command:  install yum yum-utils
+2023-10-13 10:58:02.456506 +0000 build-r42-fedora2: output: DEBUG:     yum_builddep_command:  /usr/bin/yum-builddep
+2023-10-13 10:58:02.456562 +0000 build-r42-fedora2: output: DEBUG:     yum_avoid_opts:  {}
+2023-10-13 10:58:02.456614 +0000 build-r42-fedora2: output: DEBUG:     dnf_command:  /usr/bin/dnf-3
+2023-10-13 10:58:02.456663 +0000 build-r42-fedora2: output: DEBUG:     system_dnf_command:  /usr/bin/dnf-3
+2023-10-13 10:58:02.456749 +0000 build-r42-fedora2: output: DEBUG:     dnf_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2023-10-13 10:58:02.456815 +0000 build-r42-fedora2: output: DEBUG:     dnf_install_command:  install python3-dnf python3-dnf-plugins-core
+2023-10-13 10:58:02.456875 +0000 build-r42-fedora2: output: DEBUG:     dnf_disable_plugins:  ['local', 'spacewalk', 'versionlock']
+2023-10-13 10:58:02.456920 +0000 build-r42-fedora2: output: DEBUG:     dnf_avoid_opts:  {}
+2023-10-13 10:58:02.456985 +0000 build-r42-fedora2: output: DEBUG:     dnf5_command:  /usr/bin/dnf5
+2023-10-13 10:58:02.457028 +0000 build-r42-fedora2: output: DEBUG:     system_dnf5_command:  /usr/bin/dnf5
+2023-10-13 10:58:02.457098 +0000 build-r42-fedora2: output: DEBUG:     dnf5_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2023-10-13 10:58:02.457139 +0000 build-r42-fedora2: output: DEBUG:     dnf5_install_command:  install dnf5 dnf5-plugins
+2023-10-13 10:58:02.457207 +0000 build-r42-fedora2: output: DEBUG:     dnf5_disable_plugins:  []
+2023-10-13 10:58:02.457251 +0000 build-r42-fedora2: output: DEBUG:     dnf5_avoid_opts:  {'remove': ['--allowerasing']}
+2023-10-13 10:58:02.457302 +0000 build-r42-fedora2: output: DEBUG:     microdnf_command:  /usr/bin/microdnf
+2023-10-13 10:58:02.457366 +0000 build-r42-fedora2: output: DEBUG:     microdnf_install_command:  dnf-install microdnf dnf dnf-plugins-core
+2023-10-13 10:58:02.457430 +0000 build-r42-fedora2: output: DEBUG:     microdnf_builddep_command:  /usr/bin/dnf
+2023-10-13 10:58:02.457485 +0000 build-r42-fedora2: output: DEBUG:     microdnf_builddep_opts:  []
+2023-10-13 10:58:02.457544 +0000 build-r42-fedora2: output: DEBUG:     microdnf_common_opts:  []
+2023-10-13 10:58:02.457595 +0000 build-r42-fedora2: output: DEBUG:     microdnf_avoid_opts:  {}
+2023-10-13 10:58:02.457654 +0000 build-r42-fedora2: output: DEBUG:     rpm_command:  /bin/rpm
+2023-10-13 10:58:02.457697 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_command:  /usr/bin/rpmbuild
+2023-10-13 10:58:02.457780 +0000 build-r42-fedora2: output: DEBUG:     user_agent:  Mock (fedora-37-x86_64; x86_64)
+2023-10-13 10:58:02.457843 +0000 build-r42-fedora2: output: DEBUG:     opstimeout:  0
+2023-10-13 10:58:02.457903 +0000 build-r42-fedora2: output: DEBUG:     stderr_line_prefix:
+2023-10-13 10:58:02.457947 +0000 build-r42-fedora2: output: DEBUG:     chroot_additional_packages:  []
+2023-10-13 10:58:02.458014 +0000 build-r42-fedora2: output: DEBUG:     additional_packages:  []
+2023-10-13 10:58:02.458299 +0000 build-r42-fedora2: output: DEBUG:     no-config:  {'epel-8': {'alternatives': {'alma+epel-8': {'description': ['Builds against AlmaLinux 8 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-8': {'description': ['Builds against CentOS Stream 8 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 8) together with the official EPEL 8 repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'circlelinux+epel-8': {'description': ['Builds against Circle Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://cclinux.org/']}, 'rhel+epel-8': {'description': ['Builds against Red Hat Enterprise Linux 8 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-8': {'description': ['Builds against Rocky Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}, 'epel-9': {'alternatives': {'alma+epel-9': {'description': ['Builds against AlmaLinux 9 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-9': {'description': ['Builds against CentOS Stream 9 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 9) together with the official EPEL repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'rhel+epel-9': {'description': ['Builds against Red Hat Enterprise Linux 9 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-9': {'description': ['Builds against Rocky Linux 9 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}}
+2023-10-13 10:58:02.458310 +0000 build-r42-fedora2: output: DEBUG:     seccomp:  False
+2023-10-13 10:58:02.458316 +0000 build-r42-fedora2: output: DEBUG:     copy_host_users:  []
+2023-10-13 10:58:02.458393 +0000 build-r42-fedora2: output: DEBUG:     qemu_user_static_mapping:  {'aarch64': 'aarch64', 'armv7hl': 'arm', 'i386': 'i386', 'i686': 'i386', 'ppc64': 'ppc64', 'ppc64le': 'ppc64le', 's390x': 's390x', 'x86_64': 'x86_64'}
+2023-10-13 10:58:02.458429 +0000 build-r42-fedora2: output: DEBUG:     recursion_limit:  5000
+2023-10-13 10:58:02.458493 +0000 build-r42-fedora2: output: DEBUG:     config_path:  /etc/mock
+2023-10-13 10:58:02.458542 +0000 build-r42-fedora2: output: DEBUG:     chroot_name:  fedora-37-x86_64
+2023-10-13 10:58:02.458618 +0000 build-r42-fedora2: output: DEBUG:     config_file:  /builder/plugins/chroot_rpm/mock/fedora-37-x86_64.cfg
+2023-10-13 10:58:02.458657 +0000 build-r42-fedora2: output: DEBUG:     dist:  fc37
+2023-10-13 10:58:02.458705 +0000 build-r42-fedora2: output: DEBUG:     legal_host_arches:  ('x86_64',)
+2023-10-13 10:58:02.458785 +0000 build-r42-fedora2: output: DEBUG:     root:  fedora-37-x86_64
+2023-10-13 10:58:02.458828 +0000 build-r42-fedora2: output: DEBUG:     dnf.conf:
+2023-10-13 10:58:02.458897 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:58:02.458943 +0000 build-r42-fedora2: output: keepcache=1
+2023-10-13 10:58:02.458988 +0000 build-r42-fedora2: output: debuglevel=2
+2023-10-13 10:58:02.459053 +0000 build-r42-fedora2: output: reposdir=/dev/null
+2023-10-13 10:58:02.459098 +0000 build-r42-fedora2: output: logfile=/var/log/yum.log
+2023-10-13 10:58:02.459143 +0000 build-r42-fedora2: output: retries=20
+2023-10-13 10:58:02.459189 +0000 build-r42-fedora2: output: obsoletes=1
+2023-10-13 10:58:02.459252 +0000 build-r42-fedora2: output: gpgcheck=0
+2023-10-13 10:58:02.459292 +0000 build-r42-fedora2: output: assumeyes=1
+2023-10-13 10:58:02.459337 +0000 build-r42-fedora2: output: syslog_ident=mock
+2023-10-13 10:58:02.459402 +0000 build-r42-fedora2: output: syslog_device=
+2023-10-13 10:58:02.459442 +0000 build-r42-fedora2: output: install_weak_deps=0
+2023-10-13 10:58:02.459488 +0000 build-r42-fedora2: output: metadata_expire=0
+2023-10-13 10:58:02.459533 +0000 build-r42-fedora2: output: mdpolicy=group:primary
+2023-10-13 10:58:02.459593 +0000 build-r42-fedora2: output: best=1
+2023-10-13 10:58:02.459629 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.459695 +0000 build-r42-fedora2: output: # repos
+2023-10-13 10:58:02.459734 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.459810 +0000 build-r42-fedora2: output: [fedora]
+2023-10-13 10:58:02.459857 +0000 build-r42-fedora2: output: name=fedora
+2023-10-13 10:58:02.459914 +0000 build-r42-fedora2: output: metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+2023-10-13 10:58:02.459955 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:58:02.460029 +0000 build-r42-fedora2: output: gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$releasever-primary
+2023-10-13 10:58:02.460066 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:58:02.460107 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:58:02.460154 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.460215 +0000 build-r42-fedora2: output: [updates]
+2023-10-13 10:58:02.460261 +0000 build-r42-fedora2: output: name=updates
+2023-10-13 10:58:02.460330 +0000 build-r42-fedora2: output: metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+2023-10-13 10:58:02.460370 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:58:02.460439 +0000 build-r42-fedora2: output: gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$releasever-primary
+2023-10-13 10:58:02.460483 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:58:02.460525 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:58:02.460591 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.460631 +0000 build-r42-fedora2: output: [builder-local]
+2023-10-13 10:58:02.460678 +0000 build-r42-fedora2: output: name=builder-local
+2023-10-13 10:58:02.460766 +0000 build-r42-fedora2: output: baseurl=file:///builder/repository
+2023-10-13 10:58:02.460806 +0000 build-r42-fedora2: output: gpgcheck=0
+2023-10-13 10:58:02.460872 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:58:02.461031 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:58:02.461177 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.461312 +0000 build-r42-fedora2: output: [qubes-current]
+2023-10-13 10:58:02.461339 +0000 build-r42-fedora2: output: name=qubes-vm-current
+2023-10-13 10:58:02.461384 +0000 build-r42-fedora2: output: baseurl=https://yum.qubes-os.org/rNone/current/vm/fc$releasever
+2023-10-13 10:58:02.461423 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:58:02.461480 +0000 build-r42-fedora2: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-primary
+2023-10-13 10:58:02.461521 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:58:02.461559 +0000 build-r42-fedora2: output: repo_gpgcheck = 1
+2023-10-13 10:58:02.461604 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:58:02.461638 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:58:02.461670 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:58:02.461715 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.461779 +0000 build-r42-fedora2: output: [qubes-current-testing]
+2023-10-13 10:58:02.461822 +0000 build-r42-fedora2: output: name=qubes-vm-testing
+2023-10-13 10:58:02.461862 +0000 build-r42-fedora2: output: baseurl=https://yum.qubes-os.org/rNone/current-testing/vm/fc$releasever
+2023-10-13 10:58:02.461900 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:58:02.461943 +0000 build-r42-fedora2: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-primary
+2023-10-13 10:58:02.461978 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:58:02.462017 +0000 build-r42-fedora2: output: repo_gpgcheck = 1
+2023-10-13 10:58:02.462057 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:58:02.462093 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:58:02.462130 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:58:02.462164 +0000 build-r42-fedora2: output: 
+2023-10-13 10:58:02.462187 +0000 build-r42-fedora2: output: DEBUG:     __jinja_expand:  True
+2023-10-13 10:58:02.462206 +0000 build-r42-fedora2: output: DEBUG:     verbose:  2
+2023-10-13 10:58:02.462235 +0000 build-r42-fedora2: output: DEBUG:     print_main_output:  False
+2023-10-13 10:58:02.462271 +0000 build-r42-fedora2: output: DEBUG:     cache_alterations:  False
+2023-10-13 10:58:02.462308 +0000 build-r42-fedora2: output: DEBUG:     enable_disable_repos:  ['--disablerepo', 'builder-local']
+2023-10-13 10:58:02.462323 +0000 build-r42-fedora2: output: DEBUG:     build_log_fmt_str:  %(message)s
+2023-10-13 10:58:02.462362 +0000 build-r42-fedora2: output: DEBUG:     root_log_fmt_str:  %(levelname)s %(filename)s:%(lineno)d:  %(message)s
+2023-10-13 10:58:02.462401 +0000 build-r42-fedora2: output: DEBUG:     state_log_fmt_str:  %(asctime)s - %(message)s
+2023-10-13 10:58:02.462438 +0000 build-r42-fedora2: output: INFO: Start(/builder/app-split-browser/rpm_spec/qubes-split-browser.spec)  Config(fedora-37-x86_64)
+2023-10-13 10:58:02.469569 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build
+2023-10-13 10:58:02.478079 +0000 build-r42-fedora2: output: Mock Version: 5.0
+2023-10-13 10:58:02.478248 +0000 build-r42-fedora2: output: INFO: Mock Version: 5.0
+2023-10-13 10:58:02.478664 +0000 build-r42-fedora2: output: INFO: Mock Version: 5.0
+2023-10-13 10:58:02.485416 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64
+2023-10-13 10:58:02.486382 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64
+2023-10-13 10:58:02.487340 +0000 build-r42-fedora2: output: Start: chroot init
+2023-10-13 10:58:02.489562 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64
+2023-10-13 10:58:02.492404 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:02.493139 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:02.506169 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build
+2023-10-13 10:58:02.509321 +0000 build-r42-fedora2: output: INFO: calling preinit hooks
+2023-10-13 10:58:02.511266 +0000 build-r42-fedora2: output: INFO: enabled root cache
+2023-10-13 10:58:02.512310 +0000 build-r42-fedora2: output: INFO: skipping root_cache aging check
+2023-10-13 10:58:02.513898 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/root_cache/
+2023-10-13 10:58:02.513999 +0000 build-r42-fedora2: output: Start: unpacking root cache
+2023-10-13 10:58:02.520368 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:02.525116 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:02.525143 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/builder/cache/mock/fedora-37-x86_64/root_cache/cache.tar.gz', '-C', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.503422 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:03.506979 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./proc
+2023-10-13 10:58:03.508046 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./proc
+2023-10-13 10:58:03.512030 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./sys
+2023-10-13 10:58:03.513437 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./sys
+2023-10-13 10:58:03.519229 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./dev
+2023-10-13 10:58:03.521315 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./dev
+2023-10-13 10:58:03.526799 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./tmp/ccache
+2023-10-13 10:58:03.528765 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./tmp/ccache
+2023-10-13 10:58:03.533599 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/cache/yum
+2023-10-13 10:58:03.534734 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/cache/yum
+2023-10-13 10:58:03.538010 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/cache/dnf
+2023-10-13 10:58:03.539178 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/cache/dnf
+2023-10-13 10:58:03.543648 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/log
+2023-10-13 10:58:03.545723 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/log
+2023-10-13 10:58:03.546049 +0000 build-r42-fedora2: output: Finish: unpacking root cache
+2023-10-13 10:58:03.547934 +0000 build-r42-fedora2: output: INFO: enabled package manager cache
+2023-10-13 10:58:03.551656 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/yum_cache
+2023-10-13 10:58:03.555262 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/dnf_cache
+2023-10-13 10:58:03.555413 +0000 build-r42-fedora2: output: Start: cleaning package manager metadata
+2023-10-13 10:58:03.557351 +0000 build-r42-fedora2: output: Finish: cleaning package manager metadata
+2023-10-13 10:58:03.563957 +0000 build-r42-fedora2: output: INFO: enabled HW Info plugin
+2023-10-13 10:58:03.567000 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:03.567050 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.573941 +0000 build-r42-fedora2: output: DEBUG: Architecture:                    x86_64
+2023-10-13 10:58:03.573966 +0000 build-r42-fedora2: output: DEBUG: CPU op-mode(s):                  32-bit, 64-bit
+2023-10-13 10:58:03.574047 +0000 build-r42-fedora2: output: DEBUG: Address sizes:                   48 bits physical, 48 bits virtual
+2023-10-13 10:58:03.574096 +0000 build-r42-fedora2: output: DEBUG: Byte Order:                      Little Endian
+2023-10-13 10:58:03.574287 +0000 build-r42-fedora2: output: DEBUG: CPU(s):                          2
+2023-10-13 10:58:03.574296 +0000 build-r42-fedora2: output: DEBUG: On-line CPU(s) list:             0,1
+2023-10-13 10:58:03.574388 +0000 build-r42-fedora2: output: DEBUG: Vendor ID:                       AuthenticAMD
+2023-10-13 10:58:03.574444 +0000 build-r42-fedora2: output: DEBUG: Model name:                      AMD Ryzen 9 5900X 12-Core Processor
+2023-10-13 10:58:03.574660 +0000 build-r42-fedora2: output: DEBUG: CPU family:                      25
+2023-10-13 10:58:03.574671 +0000 build-r42-fedora2: output: DEBUG: Model:                           33
+2023-10-13 10:58:03.574843 +0000 build-r42-fedora2: output: DEBUG: Thread(s) per core:              1
+2023-10-13 10:58:03.574938 +0000 build-r42-fedora2: output: DEBUG: Core(s) per socket:              2
+2023-10-13 10:58:03.575006 +0000 build-r42-fedora2: output: DEBUG: Socket(s):                       1
+2023-10-13 10:58:03.575218 +0000 build-r42-fedora2: output: DEBUG: Stepping:                        2
+2023-10-13 10:58:03.575291 +0000 build-r42-fedora2: output: DEBUG: BogoMIPS:                        7386.14
+2023-10-13 10:58:03.575431 +0000 build-r42-fedora2: output: DEBUG: Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch bpext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip pku ospke vaes vpclmulqdq rdpid
+2023-10-13 10:58:03.575441 +0000 build-r42-fedora2: output: DEBUG: Hypervisor vendor:               Xen
+2023-10-13 10:58:03.575447 +0000 build-r42-fedora2: output: DEBUG: Virtualization type:             full
+2023-10-13 10:58:03.575612 +0000 build-r42-fedora2: output: DEBUG: L1d cache:                       64 KiB (2 instances)
+2023-10-13 10:58:03.575698 +0000 build-r42-fedora2: output: DEBUG: L1i cache:                       64 KiB (2 instances)
+2023-10-13 10:58:03.575738 +0000 build-r42-fedora2: output: DEBUG: L2 cache:                        1 MiB (2 instances)
+2023-10-13 10:58:03.577020 +0000 build-r42-fedora2: output: DEBUG: L3 cache:                        128 MiB (2 instances)
+2023-10-13 10:58:03.577036 +0000 build-r42-fedora2: output: DEBUG: NUMA node(s):                    1
+2023-10-13 10:58:03.577047 +0000 build-r42-fedora2: output: DEBUG: NUMA node0 CPU(s):               0,1
+2023-10-13 10:58:03.577055 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Itlb multihit:     Not affected
+2023-10-13 10:58:03.577119 +0000 build-r42-fedora2: output: DEBUG: Vulnerability L1tf:              Not affected
+2023-10-13 10:58:03.577128 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Mds:               Not affected
+2023-10-13 10:58:03.577168 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Meltdown:          Not affected
+2023-10-13 10:58:03.577176 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Mmio stale data:   Not affected
+2023-10-13 10:58:03.577208 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Retbleed:          Not affected
+2023-10-13 10:58:03.577217 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+2023-10-13 10:58:03.577244 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+2023-10-13 10:58:03.577305 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spectre v2:        Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+2023-10-13 10:58:03.577314 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Srbds:             Not affected
+2023-10-13 10:58:03.577339 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Tsx async abort:   Not affected
+2023-10-13 10:58:03.577345 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:03.580016 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:03.580037 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/free'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.587015 +0000 build-r42-fedora2: output: DEBUG:                total        used        free      shared  buff/cache   available
+2023-10-13 10:58:03.587045 +0000 build-r42-fedora2: output: DEBUG: Mem:         3361104      302380     2107684         748      951040     2888932
+2023-10-13 10:58:03.587056 +0000 build-r42-fedora2: output: DEBUG: Swap:        1048572        1280     1047292
+2023-10-13 10:58:03.587225 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:03.594021 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:03.594054 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/df', '-H', '/builder/build/fedora-37-x86_64/root', '/builder/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.599905 +0000 build-r42-fedora2: output: DEBUG: Filesystem      Size  Used Avail Use% Mounted on
+2023-10-13 10:58:03.599931 +0000 build-r42-fedora2: output: DEBUG: /dev/xvdb        32G  627M   31G   2% /builder
+2023-10-13 10:58:03.599946 +0000 build-r42-fedora2: output: DEBUG: /dev/xvdb        32G  627M   31G   2% /builder
+2023-10-13 10:58:03.600196 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:03.609125 +0000 build-r42-fedora2: output: DEBUG: create skeleton dirs
+2023-10-13 10:58:03.612961 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/rpm
+2023-10-13 10:58:03.616412 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/yum
+2023-10-13 10:58:03.619896 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/dbus
+2023-10-13 10:58:03.623350 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/log
+2023-10-13 10:58:03.626772 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/dnf
+2023-10-13 10:58:03.630649 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/yum
+2023-10-13 10:58:03.633321 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/rpm
+2023-10-13 10:58:03.635552 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/tmp
+2023-10-13 10:58:03.638140 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/tmp/ccache
+2023-10-13 10:58:03.641517 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/tmp
+2023-10-13 10:58:03.645331 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf
+2023-10-13 10:58:03.648330 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf/vars
+2023-10-13 10:58:03.651231 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/yum.repos.d
+2023-10-13 10:58:03.654058 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/yum
+2023-10-13 10:58:03.657690 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:58:03.660481 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:58:03.663942 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/run/lock
+2023-10-13 10:58:03.669758 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:58:03.670721 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:58:03.673734 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:58:03.674739 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:58:03.677787 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/mapper
+2023-10-13 10:58:03.678585 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/mapper
+2023-10-13 10:58:03.678745 +0000 build-r42-fedora2: output: DEBUG: kernel version == 6.1.43-1.qubes.fc32.x86_64
+2023-10-13 10:58:03.747927 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/fstab
+2023-10-13 10:58:03.749939 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/yum/yum.conf
+2023-10-13 10:58:03.751787 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/dnf/dnf.conf
+2023-10-13 10:58:03.753702 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/var/log/yum.log
+2023-10-13 10:58:03.755139 +0000 build-r42-fedora2: output: DEBUG: rootdir = /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:03.755160 +0000 build-r42-fedora2: output: DEBUG: resultdir = /builder/build
+2023-10-13 10:58:03.757631 +0000 build-r42-fedora2: output: DEBUG: searching for 'dnf' package manager or alternatives
+2023-10-13 10:58:03.763024 +0000 build-r42-fedora2: output: INFO: Package manager dnf detected and used (fallback)
+2023-10-13 10:58:03.766625 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/mock
+2023-10-13 10:58:03.769675 +0000 build-r42-fedora2: output: DEBUG: Updating files in /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+2023-10-13 10:58:03.771866 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust
+2023-10-13 10:58:03.774797 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/./source
+2023-10-13 10:58:03.776308 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/./extracted
+2023-10-13 10:58:03.780043 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/blacklist
+2023-10-13 10:58:03.782050 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/blocklist
+2023-10-13 10:58:03.784205 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/anchors
+2023-10-13 10:58:03.788727 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/pem
+2023-10-13 10:58:03.805368 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/java
+2023-10-13 10:58:03.805429 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/edk2
+2023-10-13 10:58:03.810265 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/openssl
+2023-10-13 10:58:03.817376 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/pem/directory-hash
+2023-10-13 10:58:03.900500 +0000 build-r42-fedora2: output: DEBUG: Updating files in /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+2023-10-13 10:58:03.903089 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source
+2023-10-13 10:58:03.913102 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./blacklist
+2023-10-13 10:58:03.915196 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./blocklist
+2023-10-13 10:58:03.917605 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+2023-10-13 10:58:03.927590 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf
+2023-10-13 10:58:03.928545 +0000 build-r42-fedora2: output: DEBUG: configure DNF vars
+2023-10-13 10:58:03.932548 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/yum
+2023-10-13 10:58:03.935865 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:03.935916 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/fedora-37-x86_64/yum_cache', '/builder/build/fedora-37-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.943119 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:03.947363 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/dnf
+2023-10-13 10:58:03.950861 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:03.950903 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/fedora-37-x86_64/dnf_cache', '/builder/build/fedora-37-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:03.955796 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.015154 +0000 build-r42-fedora2: output: Start: installing minimal buildroot with dnf
+2023-10-13 10:58:04.044295 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:58:04.049091 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.049125 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.055433 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.058638 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:58:04.062334 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.062426 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.065955 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.069317 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.069345 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.073412 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.076641 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:58:04.079668 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.079984 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.085095 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.088141 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:58:04.091081 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.091120 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.095291 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.098297 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.098348 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.102855 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.105737 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:58:04.108591 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.108636 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/builder/build/fedora-37-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.114285 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.118875 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:58:04.123205 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.123236 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/builder/build/fedora-37-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.128379 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:04.147077 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/installation-homedir
+2023-10-13 10:58:04.151095 +0000 build-r42-fedora2: output: DEBUG: ['/usr/bin/dnf-3', '--installroot', '/builder/build/fedora-37-x86_64/root/', '--releasever', '37', '--disablerepo', 'builder-local', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', '@buildsys-build']
+2023-10-13 10:58:04.157422 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:04.157563 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/usr/bin/dnf-3', '--installroot', '/builder/build/fedora-37-x86_64/root/', '--releasever', '37', '--disablerepo', 'builder-local', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', '@buildsys-build'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builder/build/fedora-37-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+2023-10-13 10:58:04.403598 +0000 build-r42-fedora2: output: DEBUG: No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+2023-10-13 10:58:05.588027 +0000 build-r42-fedora2: output: DEBUG: fedora                                           19 kB/s |  19 kB     00:01
+2023-10-13 10:58:06.188012 +0000 build-r42-fedora2: output: DEBUG: updates                                          26 kB/s |  11 kB     00:00
+2023-10-13 10:58:16.036714 +0000 build-r42-fedora2: output: DEBUG: updates                                         2.0 MB/s |  20 MB     00:09
+2023-10-13 10:58:27.829068 +0000 build-r42-fedora2: output: DEBUG: Dependencies resolved.
+2023-10-13 10:58:27.831210 +0000 build-r42-fedora2: output: DEBUG: ================================================================================
+2023-10-13 10:58:27.831241 +0000 build-r42-fedora2: output: DEBUG:  Package                     Arch        Version             Repository    Size
+2023-10-13 10:58:27.831252 +0000 build-r42-fedora2: output: DEBUG: ================================================================================
+2023-10-13 10:58:27.831265 +0000 build-r42-fedora2: output: DEBUG: Upgrading:
+2023-10-13 10:58:27.831278 +0000 build-r42-fedora2: output: DEBUG:  glibc                       x86_64      2.36-14.fc37        updates      2.2 M
+2023-10-13 10:58:27.831296 +0000 build-r42-fedora2: output: DEBUG:  glibc-common                x86_64      2.36-14.fc37        updates      359 k
+2023-10-13 10:58:27.831340 +0000 build-r42-fedora2: output: DEBUG:  glibc-gconv-extra           x86_64      2.36-14.fc37        updates      1.7 M
+2023-10-13 10:58:27.831352 +0000 build-r42-fedora2: output: DEBUG:  glibc-minimal-langpack      x86_64      2.36-14.fc37        updates       79 k
+2023-10-13 10:58:27.831403 +0000 build-r42-fedora2: output: DEBUG: Installing Groups:
+2023-10-13 10:58:27.831428 +0000 build-r42-fedora2: output: DEBUG:  Buildsystem building group
+2023-10-13 10:58:27.831465 +0000 build-r42-fedora2: output: DEBUG: Transaction Summary
+2023-10-13 10:58:27.831491 +0000 build-r42-fedora2: output: DEBUG: ================================================================================
+2023-10-13 10:58:27.831528 +0000 build-r42-fedora2: output: DEBUG: Upgrade  4 Packages
+2023-10-13 10:58:27.831553 +0000 build-r42-fedora2: output: DEBUG: Total download size: 4.3 M
+2023-10-13 10:58:27.831583 +0000 build-r42-fedora2: output: DEBUG: Downloading Packages:
+2023-10-13 10:58:28.903955 +0000 build-r42-fedora2: output: DEBUG: (1/4): glibc-common-2.36-14.fc37.x86_64.rpm     558 kB/s | 359 kB     00:00
+2023-10-13 10:58:29.135913 +0000 build-r42-fedora2: output: DEBUG: (2/4): glibc-minimal-langpack-2.36-14.fc37.x86_ 342 kB/s |  79 kB     00:00
+2023-10-13 10:58:29.839020 +0000 build-r42-fedora2: output: DEBUG: (3/4): glibc-gconv-extra-2.36-14.fc37.x86_64.rp 1.1 MB/s | 1.7 MB     00:01
+2023-10-13 10:58:29.908463 +0000 build-r42-fedora2: output: DEBUG: (4/4): glibc-2.36-14.fc37.x86_64.rpm            1.3 MB/s | 2.2 MB     00:01
+2023-10-13 10:58:29.908717 +0000 build-r42-fedora2: output: DEBUG: --------------------------------------------------------------------------------
+2023-10-13 10:58:29.908740 +0000 build-r42-fedora2: output: DEBUG: Total                                           2.0 MB/s | 4.3 MB     00:02
+2023-10-13 10:58:29.971874 +0000 build-r42-fedora2: output: DEBUG: Running transaction check
+2023-10-13 10:58:30.033474 +0000 build-r42-fedora2: output: DEBUG: Transaction check succeeded.
+2023-10-13 10:58:30.033530 +0000 build-r42-fedora2: output: DEBUG: Running transaction test
+2023-10-13 10:58:30.070488 +0000 build-r42-fedora2: output: DEBUG: Transaction test succeeded.
+2023-10-13 10:58:30.070540 +0000 build-r42-fedora2: output: DEBUG: Running transaction
+2023-10-13 10:58:30.142132 +0000 build-r42-fedora2: output: DEBUG:   Preparing        :                                                        1/1
+2023-10-13 10:58:30.215235 +0000 build-r42-fedora2: output: DEBUG:   Upgrading        : glibc-common-2.36-14.fc37.x86_64                       1/8
+2023-10-13 10:58:30.224648 +0000 build-r42-fedora2: output: DEBUG:   Upgrading        : glibc-gconv-extra-2.36-14.fc37.x86_64                  2/8
+2023-10-13 10:58:30.227994 +0000 build-r42-fedora2: output: DEBUG:   Running scriptlet: glibc-gconv-extra-2.36-14.fc37.x86_64                  2/8
+2023-10-13 10:58:30.230297 +0000 build-r42-fedora2: output: DEBUG:   Upgrading        : glibc-minimal-langpack-2.36-14.fc37.x86_64             3/8
+2023-10-13 10:58:30.264593 +0000 build-r42-fedora2: output: DEBUG:   Running scriptlet: glibc-2.36-14.fc37.x86_64                              4/8
+2023-10-13 10:58:30.271832 +0000 build-r42-fedora2: output: DEBUG:   Upgrading        : glibc-2.36-14.fc37.x86_64                              4/8
+2023-10-13 10:58:30.282592 +0000 build-r42-fedora2: output: DEBUG:   Running scriptlet: glibc-2.36-14.fc37.x86_64                              4/8
+2023-10-13 10:58:30.290667 +0000 build-r42-fedora2: output: DEBUG:   Cleanup          : glibc-2.36-9.fc37.x86_64                               5/8
+2023-10-13 10:58:30.299455 +0000 build-r42-fedora2: output: DEBUG:   Cleanup          : glibc-minimal-langpack-2.36-9.fc37.x86_64              6/8
+2023-10-13 10:58:30.299477 +0000 build-r42-fedora2: output: DEBUG:   Cleanup          : glibc-gconv-extra-2.36-9.fc37.x86_64                   7/8
+2023-10-13 10:58:30.311078 +0000 build-r42-fedora2: output: DEBUG:   Running scriptlet: glibc-gconv-extra-2.36-9.fc37.x86_64                   7/8
+2023-10-13 10:58:30.317210 +0000 build-r42-fedora2: output: DEBUG:   Cleanup          : glibc-common-2.36-9.fc37.x86_64                        8/8
+2023-10-13 10:58:30.403767 +0000 build-r42-fedora2: output: DEBUG:   Running scriptlet: glibc-common-2.36-9.fc37.x86_64                        8/8
+2023-10-13 10:58:30.404031 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-2.36-14.fc37.x86_64                              1/8
+2023-10-13 10:58:30.404094 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-2.36-9.fc37.x86_64                               2/8
+2023-10-13 10:58:30.404127 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-common-2.36-14.fc37.x86_64                       3/8
+2023-10-13 10:58:30.404137 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-common-2.36-9.fc37.x86_64                        4/8
+2023-10-13 10:58:30.404222 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-gconv-extra-2.36-14.fc37.x86_64                  5/8
+2023-10-13 10:58:30.404232 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-gconv-extra-2.36-9.fc37.x86_64                   6/8
+2023-10-13 10:58:30.404240 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-minimal-langpack-2.36-14.fc37.x86_64             7/8
+2023-10-13 10:58:31.498762 +0000 build-r42-fedora2: output: DEBUG:   Verifying        : glibc-minimal-langpack-2.36-9.fc37.x86_64              8/8
+2023-10-13 10:58:31.498806 +0000 build-r42-fedora2: output: DEBUG: Notifying dom0 about installed applications
+2023-10-13 10:58:33.842495 +0000 build-r42-fedora2: output: DEBUG: Upgraded:
+2023-10-13 10:58:33.842557 +0000 build-r42-fedora2: output: DEBUG:   glibc-2.36-14.fc37.x86_64
+2023-10-13 10:58:33.842609 +0000 build-r42-fedora2: output: DEBUG:   glibc-common-2.36-14.fc37.x86_64
+2023-10-13 10:58:33.842624 +0000 build-r42-fedora2: output: DEBUG:   glibc-gconv-extra-2.36-14.fc37.x86_64
+2023-10-13 10:58:33.842685 +0000 build-r42-fedora2: output: DEBUG:   glibc-minimal-langpack-2.36-14.fc37.x86_64
+2023-10-13 10:58:33.842696 +0000 build-r42-fedora2: output: DEBUG: Complete!
+2023-10-13 10:58:33.946514 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:33.959793 +0000 build-r42-fedora2: output: DEBUG: kill orphans in chroot /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:33.971542 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:33.971601 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:33.979978 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:33.985520 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:33.985613 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:33.993042 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:33.998015 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:33.998047 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.003069 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.008230 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.008288 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.015142 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.030525 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.030576 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.038389 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.045663 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.045743 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.061143 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.061651 +0000 build-r42-fedora2: output: Finish: installing minimal buildroot with dnf
+2023-10-13 10:58:34.125523 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build
+2023-10-13 10:58:34.153759 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/RPMS
+2023-10-13 10:58:34.155254 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/RPMS
+2023-10-13 10:58:34.167635 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/SPECS
+2023-10-13 10:58:34.169229 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/SPECS
+2023-10-13 10:58:34.177259 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/SRPMS
+2023-10-13 10:58:34.179079 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/SRPMS
+2023-10-13 10:58:34.187056 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/SOURCES
+2023-10-13 10:58:34.207840 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/BUILD
+2023-10-13 10:58:34.214099 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/BUILD
+2023-10-13 10:58:34.226408 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/BUILDROOT
+2023-10-13 10:58:34.228411 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/BUILDROOT
+2023-10-13 10:58:34.237430 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir/build/originals
+2023-10-13 10:58:34.239670 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/builddir/build/originals
+2023-10-13 10:58:34.253882 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/builddir
+2023-10-13 10:58:34.280007 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.280443 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['userdel', '-f', 'mockbuild', '--prefix', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.336201 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.352746 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.353031 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['groupdel', 'mock', '--prefix', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.381087 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.397363 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.397941 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['groupadd', 'mock', '-g', '135', '--prefix', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.426071 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.440985 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.441463 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['useradd', 'mockbuild', '-o', '-u', '1000', '-g', '135', '-N', '-d', '/builddir', '--prefix', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.490215 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.510121 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/.initialized
+2023-10-13 10:58:34.520692 +0000 build-r42-fedora2: output: Finish: chroot init
+2023-10-13 10:58:34.532121 +0000 build-r42-fedora2: output: Start: buildsrpm
+2023-10-13 10:58:34.580898 +0000 build-r42-fedora2: output: Start: rpmbuild -bs
+2023-10-13 10:58:34.603800 +0000 build-r42-fedora2: output: INFO: ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs  --target x86_64 --nodeps /builddir/build/SPECS/qubes-split-browser.spec'], chrootPath='/builder/build/fedora-37-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7d3d673e3e50>timeout=0uid=1000gid=135user='mockbuild'nspawn_args=['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.79isxsxa:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']unshare_net=TrueprintOutput=False)
+2023-10-13 10:58:34.608362 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.609229 +0000 build-r42-fedora2: output: DEBUG: Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.79isxsxa:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+2023-10-13 10:58:34.627091 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'c3b543afcbe24efc9a06202055bc93a5', '-D', '/builder/build/fedora-37-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.79isxsxa:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs  --target x86_64 --nodeps /builddir/build/SPECS/qubes-split-browser.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+2023-10-13 10:58:34.950559 +0000 build-r42-fedora2: output: DEBUG: Building target platforms: x86_64
+2023-10-13 10:58:34.950603 +0000 build-r42-fedora2: output: DEBUG: Building for target x86_64
+2023-10-13 10:58:34.950629 +0000 build-r42-fedora2: output: DEBUG: setting SOURCE_DATE_EPOCH=1696809600
+2023-10-13 10:58:34.952223 +0000 build-r42-fedora2: output: DEBUG: Wrote: /builddir/build/SRPMS/qubes-split-browser-0.16.2-1.fc37.src.rpm
+2023-10-13 10:58:34.958791 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.962463 +0000 build-r42-fedora2: output: Finish: rpmbuild -bs
+2023-10-13 10:58:34.962485 +0000 build-r42-fedora2: output: DEBUG: Copying package to result dir
+2023-10-13 10:58:34.966119 +0000 build-r42-fedora2: output: Finish: buildsrpm
+2023-10-13 10:58:34.966681 +0000 build-r42-fedora2: output: INFO: Done(/builder/app-split-browser/rpm_spec/qubes-split-browser.spec) Config(fedora-37-x86_64) 0 minutes 32 seconds
+2023-10-13 10:58:34.966706 +0000 build-r42-fedora2: output: INFO: Results and/or logs in: /builder/build
+2023-10-13 10:58:34.967383 +0000 build-r42-fedora2: output: INFO: Cleaning up build root ('cleanup_on_success=True')
+2023-10-13 10:58:34.968251 +0000 build-r42-fedora2: output: Start: clean chroot
+2023-10-13 10:58:34.971651 +0000 build-r42-fedora2: output: DEBUG: kill orphans in chroot /builder/build/fedora-37-x86_64/root
+2023-10-13 10:58:34.982713 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.982763 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/fedora-37-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:34.989740 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:34.994904 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:34.994951 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/fedora-37-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:35.001984 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:58:35.006447 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:58:35.006489 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['btrfs', 'subv', 'list', '/builder/build'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:58:35.015863 +0000 build-r42-fedora2: output: DEBUG: ERROR: not a btrfs filesystem: /builder/build
+2023-10-13 10:58:35.016059 +0000 build-r42-fedora2: output: DEBUG: ERROR: can't access '/builder/build'
+2023-10-13 10:58:35.016596 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 1
+2023-10-13 10:58:35.017990 +0000 build-r42-fedora2: output: DEBUG: Please ignore the error above about btrfs.
+2023-10-13 10:58:39.136363 +0000 build-r42-fedora2: output: Finish: clean chroot
+2023-10-13 10:58:39.139494 +0000 build-r42-fedora2: output: Finish: run
+2023-10-13 10:58:39.221792 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3479 qubesbuilder.FileCopyOut+__builder__build__qubes-split-browser-0.16.2-1.fc37.src.rpm /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-fc37/prep
+2023-10-13 10:58:42.791068 +0000 build-r42-fedora2: app-split-browser:vm-fedora-37.x86_64: Cleaning local repository '/home/user/builder-r4.2/repository/vm-fc37' (all versions).
+2023-10-13 10:58:57.002892 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/vm-fc37 /builder/repository/vm-fc37'
+2023-10-13 10:58:57.326040 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/repository/vm-fc37
+2023-10-13 10:58:57.511406 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/repository && mv /builder/incoming/vm-fc37 /builder/repository'
+2023-10-13 10:58:57.776906 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/qubes-split-browser-0.16.2-1.fc37.src.rpm /builder/build/qubes-split-browser-0.16.2-1.fc37.src.rpm'
+2023-10-13 10:58:57.960995 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.2-1/vm-fc37/prep/qubes-split-browser-0.16.2-1.fc37.src.rpm
+2023-10-13 10:58:58.108302 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/build && mv /builder/incoming/qubes-split-browser-0.16.2-1.fc37.src.rpm /builder/build'
+2023-10-13 10:58:58.298050 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/build_rpm /builder/plugins/build_rpm'
+2023-10-13 10:58:58.564653 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build_rpm
+2023-10-13 10:58:58.802847 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/build_rpm /builder/plugins'
+2023-10-13 10:58:58.995382 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/chroot_rpm /builder/plugins/chroot_rpm'
+2023-10-13 10:58:59.142646 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_rpm
+2023-10-13 10:58:59.284920 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/chroot_rpm /builder/plugins'
+2023-10-13 10:58:59.444364 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/build /builder/plugins/build'
+2023-10-13 10:58:59.624141 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build
+2023-10-13 10:58:59.829192 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/build /builder/plugins'
+2023-10-13 10:59:00.002002 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'rm -rf /builder/incoming/mock /builder/cache/mock'
+2023-10-13 10:59:00.132294 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp2261 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/cache/chroot/fc37/mock
+2023-10-13 10:59:02.201102 +0000 build-r42-fedora2: copy-in (cmd): /usr/bin/qvm-run-vm disp2261 bash -c 'mkdir -p /builder/cache && mv /builder/incoming/mock /builder/cache'
+2023-10-13 10:59:02.495629 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm disp2261 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' DIST='fc37' PACKAGE_SET='vm' BIND_MOUNT_ENABLE='True' bash -c 'cd /builder/repository && createrepo_c . && sudo chown -R user:mock /builder/build && sudo chown -R root:mock /builder/cache/mock && sudo --preserve-env=DIST,PACKAGE_SET,USE_QUBES_REPO_VERSION /usr/libexec/mock/mock --no-cleanup-after --rebuild /builder/build/qubes-split-browser-0.16.2-1.fc37.src.rpm --root /builder/plugins/chroot_rpm/mock/fedora-37-x86_64.cfg --resultdir=/builder/build --isolation=nspawn --verbose --plugin-option=root_cache:age_check=False --no-clean && sudo --preserve-env=DIST,PACKAGE_SET,USE_QUBES_REPO_VERSION,BIND_MOUNT_ENABLE /usr/libexec/mock/mock --root /builder/plugins/chroot_rpm/mock/fedora-37-x86_64.cfg --chroot /plugins/build_rpm/scripts/rpmbuildinfo /builddir/build/SRPMS/qubes-split-browser-0.16.2-1.fc37.src.rpm > /builder/build/qubes-split-browser-0.16.2-1.fc37.x86_64.buildinfo && /builder/plugins/build_rpm/scripts/filter-packages-by-dist-arch /builder/build /builder/build/rpm fc37 x86_64''.
+2023-10-13 10:59:02.773498 +0000 build-r42-fedora2: output: Directory walk started
+2023-10-13 10:59:02.773572 +0000 build-r42-fedora2: output: Directory walk done - 4 packages
+2023-10-13 10:59:02.773614 +0000 build-r42-fedora2: output: Temporary output repo path: ./.repodata/
+2023-10-13 10:59:02.773648 +0000 build-r42-fedora2: output: Preparing sqlite DBs
+2023-10-13 10:59:02.773667 +0000 build-r42-fedora2: output: Pool started (with 5 workers)
+2023-10-13 10:59:02.773677 +0000 build-r42-fedora2: output: Pool finished
+2023-10-13 10:59:03.606186 +0000 build-r42-fedora2: output: INFO: mock.py version 5.0 starting (python version = 3.11.4, NVR = mock-5.0-1.fc38)...
+2023-10-13 10:59:03.669413 +0000 build-r42-fedora2: output: Start: init plugins
+2023-10-13 10:59:03.694170 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/yum_cache
+2023-10-13 10:59:03.701176 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/dnf_cache
+2023-10-13 10:59:03.710626 +0000 build-r42-fedora2: output: INFO: selinux disabled
+2023-10-13 10:59:03.716256 +0000 build-r42-fedora2: output: Finish: init plugins
+2023-10-13 10:59:03.772195 +0000 build-r42-fedora2: output: INFO: Signal handler active
+2023-10-13 10:59:03.780839 +0000 build-r42-fedora2: output: Start: run
+2023-10-13 10:59:03.780875 +0000 build-r42-fedora2: output: DEBUG: mock final configuration:
+2023-10-13 10:59:03.871579 +0000 build-r42-fedora2: output: DEBUG:     _aliases:  {'yum.conf': 'dnf.conf', 'dnf5.conf': 'dnf.conf'}
+2023-10-13 10:59:03.871676 +0000 build-r42-fedora2: output: DEBUG:     config_paths:  []
+2023-10-13 10:59:03.871692 +0000 build-r42-fedora2: output: DEBUG:     version:  5.0
+2023-10-13 10:59:03.871709 +0000 build-r42-fedora2: output: DEBUG:     basedir:  /builder/build
+2023-10-13 10:59:03.871720 +0000 build-r42-fedora2: output: DEBUG:     resultdir:  /builder/build
+2023-10-13 10:59:03.871805 +0000 build-r42-fedora2: output: DEBUG:     rootdir:  /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:03.871890 +0000 build-r42-fedora2: output: DEBUG:     cache_topdir:  /builder/cache/mock
+2023-10-13 10:59:03.871929 +0000 build-r42-fedora2: output: DEBUG:     clean:  False
+2023-10-13 10:59:03.871952 +0000 build-r42-fedora2: output: DEBUG:     check:  True
+2023-10-13 10:59:03.872014 +0000 build-r42-fedora2: output: DEBUG:     post_install:  False
+2023-10-13 10:59:03.872031 +0000 build-r42-fedora2: output: DEBUG:     chroothome:  /builddir
+2023-10-13 10:59:03.872102 +0000 build-r42-fedora2: output: DEBUG:     log_config_file:  logging.ini
+2023-10-13 10:59:03.872114 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_timeout:  0
+2023-10-13 10:59:03.872210 +0000 build-r42-fedora2: output: DEBUG:     host_arch:  x86_64
+2023-10-13 10:59:03.872273 +0000 build-r42-fedora2: output: DEBUG:     chrootuid:  1000
+2023-10-13 10:59:03.872426 +0000 build-r42-fedora2: output: DEBUG:     chrootgid:  135
+2023-10-13 10:59:03.872439 +0000 build-r42-fedora2: output: DEBUG:     chrootgroup:  mock
+2023-10-13 10:59:03.872681 +0000 build-r42-fedora2: output: DEBUG:     chrootuser:  mockbuild
+2023-10-13 10:59:03.872758 +0000 build-r42-fedora2: output: DEBUG:     build_log_fmt_name:  unadorned
+2023-10-13 10:59:03.872891 +0000 build-r42-fedora2: output: DEBUG:     root_log_fmt_name:  detailed
+2023-10-13 10:59:03.872942 +0000 build-r42-fedora2: output: DEBUG:     state_log_fmt_name:  state
+2023-10-13 10:59:03.872981 +0000 build-r42-fedora2: output: DEBUG:     online:  True
+2023-10-13 10:59:03.872998 +0000 build-r42-fedora2: output: DEBUG:     isolation:  None
+2023-10-13 10:59:03.873080 +0000 build-r42-fedora2: output: DEBUG:     use_nspawn:  None
+2023-10-13 10:59:03.873138 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_networking:  False
+2023-10-13 10:59:03.873345 +0000 build-r42-fedora2: output: DEBUG:     nspawn_args:  ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.18cf8u7y:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+2023-10-13 10:59:03.873407 +0000 build-r42-fedora2: output: DEBUG:     use_container_host_hostname:  True
+2023-10-13 10:59:03.873421 +0000 build-r42-fedora2: output: DEBUG:     use_bootstrap:  False
+2023-10-13 10:59:03.873434 +0000 build-r42-fedora2: output: DEBUG:     use_bootstrap_image:  True
+2023-10-13 10:59:03.873496 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_image:  fedora:latest
+2023-10-13 10:59:03.873518 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_image_ready:  False
+2023-10-13 10:59:03.873583 +0000 build-r42-fedora2: output: DEBUG:     internal_dev_setup:  True
+2023-10-13 10:59:03.873624 +0000 build-r42-fedora2: output: DEBUG:     cleanup_on_success:  False
+2023-10-13 10:59:03.873675 +0000 build-r42-fedora2: output: DEBUG:     cleanup_on_failure:  False
+2023-10-13 10:59:03.873704 +0000 build-r42-fedora2: output: DEBUG:     exclude_from_homedir_cleanup:  ['build/SOURCES', '.bash_history', '.bashrc']
+2023-10-13 10:59:03.873766 +0000 build-r42-fedora2: output: DEBUG:     createrepo_on_rpms:  False
+2023-10-13 10:59:03.873827 +0000 build-r42-fedora2: output: DEBUG:     createrepo_command:  /usr/bin/createrepo_c -d -q -x *.src.rpm
+2023-10-13 10:59:03.873873 +0000 build-r42-fedora2: output: DEBUG:     tar_binary:  /bin/tar
+2023-10-13 10:59:03.873887 +0000 build-r42-fedora2: output: DEBUG:     tar:  gnutar
+2023-10-13 10:59:03.873975 +0000 build-r42-fedora2: output: DEBUG:     backup_on_clean:  False
+2023-10-13 10:59:03.873997 +0000 build-r42-fedora2: output: DEBUG:     backup_base_dir:  /builder/build/backup
+2023-10-13 10:59:03.874064 +0000 build-r42-fedora2: output: DEBUG:     redhat_subscription_required:  False
+2023-10-13 10:59:03.874084 +0000 build-r42-fedora2: output: DEBUG:     ssl_ca_bundle_path:  None
+2023-10-13 10:59:03.874142 +0000 build-r42-fedora2: output: DEBUG:     ssl_extra_certs:  None
+2023-10-13 10:59:03.874238 +0000 build-r42-fedora2: output: DEBUG:     plugins:  ['tmpfs', 'root_cache', 'yum_cache', 'mount', 'bind_mount', 'ccache', 'selinux', 'package_state', 'chroot_scan', 'lvm_root', 'compress_logs', 'sign', 'pm_request', 'hw_info', 'procenv', 'showrc', 'rpkg_preprocessor', 'overlayfs']
+2023-10-13 10:59:03.874257 +0000 build-r42-fedora2: output: DEBUG:     plugin_dir:  /usr/lib/python3.11/site-packages/mockbuild/plugins
+2023-10-13 10:59:03.875189 +0000 build-r42-fedora2: output: DEBUG:     plugin_conf:  {'ccache_enable': False, 'ccache_opts': {'max_cache_size': '4G', 'compress': None, 'dir': '/builder/cache/mock/fedora-37-x86_64/ccache/u1000/', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'yum_cache_enable': True, 'yum_cache_opts': {'max_age_days': 30, 'max_metadata_age_days': 30, 'online': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'root_cache_enable': True, 'root_cache_opts': {'age_check': False, 'max_age_days': 15, 'dir': '/builder/cache/mock/fedora-37-x86_64/root_cache/', 'compress_program': 'pigz', 'decompress_program': None, 'exclude_dirs': ['./proc', './sys', './dev', './tmp/ccache', './var/cache/yum', './var/cache/dnf', './var/log'], 'extension': '.gz', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'bind_mount_enable': False, 'bind_mount_opts': {'dirs': [('/builder/plugins', '/plugins')], 'create_dirs': False, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'mount_enable': True, 'mount_opts': {'dirs': [], 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'tmpfs_enable': False, 'tmpfs_opts': {'required_ram_mb': 900, 'max_fs_size': None, 'mode': '0755', 'keep_mounted': False, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'selinux_enable': True, 'selinux_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'package_state_enable': True, 'package_state_opts': {'available_pkgs': False, 'installed_pkgs': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'pm_request_enable': False, 'pm_request_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'lvm_root_enable': False, 'lvm_root_opts': {'pool_name': 'mockbuild', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'chroot_scan_enable': False, 'chroot_scan_opts': {'regexes': ['^[^k]?core(\\.\\d+)?$', '\\.log$'], 'only_failed': True, 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'sign_enable': False, 'sign_opts': {'cmd': 'rpmsign', 'opts': '--addsign %(rpms)s', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'hw_info_enable': True, 'hw_info_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'procenv_enable': False, 'procenv_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'showrc_enable': False, 'showrc_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'compress_logs_enable': False, 'compress_logs_opts': {'command': 'gzip', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'rpkg_preprocessor_enable': False, 'rpkg_preprocessor_opts': {'requires': ['preproc-rpmspec'], 'cmd': '/usr/bin/preproc-rpmspec %(source_spec)s --output %(target_spec)s', 'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}, 'overlayfs_enable': False, 'overlayfs_opts': {'basedir': '/builder/build/fedora-37-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/fedora-37-x86_64', 'root': 'fedora-37-x86_64', 'resultdir': '/builder/build'}}
+2023-10-13 10:59:03.875264 +0000 build-r42-fedora2: output: DEBUG:     environment:  {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}
+2023-10-13 10:59:03.875278 +0000 build-r42-fedora2: output: DEBUG:     scm:  False
+2023-10-13 10:59:03.875325 +0000 build-r42-fedora2: output: DEBUG:     scm_opts:  {'method': 'git', 'cvs_get': 'cvs -d /srv/cvs co SCM_BRN SCM_PKG', 'git_get': 'git clone SCM_BRN git://localhost/SCM_PKG.git SCM_PKG', 'svn_get': 'svn co file:///srv/svn/SCM_PKG/SCM_BRN SCM_PKG', 'distgit_get': 'rpkg clone -a --branch SCM_BRN SCM_PKG SCM_PKG', 'distgit_src_get': 'rpkg sources', 'spec': 'SCM_PKG.spec', 'ext_src_dir': '/dev/null', 'write_tar': False, 'git_timestamps': False, 'exclude_vcs': True}
+2023-10-13 10:59:03.875336 +0000 build-r42-fedora2: output: DEBUG:     use_host_resolv:  False
+2023-10-13 10:59:03.875355 +0000 build-r42-fedora2: output: DEBUG:     chroot_setup_cmd:  install @buildsys-build
+2023-10-13 10:59:03.875365 +0000 build-r42-fedora2: output: DEBUG:     target_arch:  x86_64
+2023-10-13 10:59:03.875374 +0000 build-r42-fedora2: output: DEBUG:     releasever:  37
+2023-10-13 10:59:03.875391 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_arch:  x86_64
+2023-10-13 10:59:03.875400 +0000 build-r42-fedora2: output: DEBUG:     dnf_vars:  {}
+2023-10-13 10:59:03.875415 +0000 build-r42-fedora2: output: DEBUG:     yum_builddep_opts:  []
+2023-10-13 10:59:03.875424 +0000 build-r42-fedora2: output: DEBUG:     yum_common_opts:  []
+2023-10-13 10:59:03.875443 +0000 build-r42-fedora2: output: DEBUG:     update_before_build:  True
+2023-10-13 10:59:03.875452 +0000 build-r42-fedora2: output: DEBUG:     priorities.conf:
+2023-10-13 10:59:03.875462 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:59:03.875532 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:59:03.875559 +0000 build-r42-fedora2: output: DEBUG:     rhnplugin.conf:
+2023-10-13 10:59:03.875624 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:59:03.875639 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:59:03.875697 +0000 build-r42-fedora2: output: DEBUG:     subscription-manager.conf:
+2023-10-13 10:59:03.875712 +0000 build-r42-fedora2: output: DEBUG:     more_buildreqs:  {}
+2023-10-13 10:59:03.875827 +0000 build-r42-fedora2: output: DEBUG:     nosync:  False
+2023-10-13 10:59:03.875872 +0000 build-r42-fedora2: output: DEBUG:     nosync_force:  False
+2023-10-13 10:59:03.875907 +0000 build-r42-fedora2: output: DEBUG:     files:  {'etc/hosts': '127.0.0.1 localhost localhost.localdomain\n::1       localhost localhost.localdomain localhost6 localhost6.localdomain6\n'}
+2023-10-13 10:59:03.876020 +0000 build-r42-fedora2: output: DEBUG:     macros:  {'%_topdir': '/builddir/build', '%_rpmfilename': '%%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm', '%_buildhost': 'reproducible', '%clamp_mtime_to_source_date_epoch': '1', '%source_date_epoch_from_changelog': '1', '%use_source_date_epoch_as_buildtime': '1', '%_platform_multiplier': 1}
+2023-10-13 10:59:03.876045 +0000 build-r42-fedora2: output: DEBUG:     hostname:  None
+2023-10-13 10:59:03.876063 +0000 build-r42-fedora2: output: DEBUG:     module_enable:  []
+2023-10-13 10:59:03.876131 +0000 build-r42-fedora2: output: DEBUG:     module_install:  []
+2023-10-13 10:59:03.876152 +0000 build-r42-fedora2: output: DEBUG:     module_setup_commands:  []
+2023-10-13 10:59:03.876229 +0000 build-r42-fedora2: output: DEBUG:     forcearch:  None
+2023-10-13 10:59:03.876243 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_chroot_additional_packages:  []
+2023-10-13 10:59:03.876316 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_enable:  []
+2023-10-13 10:59:03.876332 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_install:  []
+2023-10-13 10:59:03.876403 +0000 build-r42-fedora2: output: DEBUG:     bootstrap_module_setup_commands:  []
+2023-10-13 10:59:03.876425 +0000 build-r42-fedora2: output: DEBUG:     no_root_shells:  False
+2023-10-13 10:59:03.876446 +0000 build-r42-fedora2: output: DEBUG:     extra_chroot_dirs:  ['/run/lock']
+2023-10-13 10:59:03.876527 +0000 build-r42-fedora2: output: DEBUG:     package_manager:  dnf
+2023-10-13 10:59:03.876547 +0000 build-r42-fedora2: output: DEBUG:     package_manager_max_attempts:  1
+2023-10-13 10:59:03.876564 +0000 build-r42-fedora2: output: DEBUG:     package_manager_attempt_delay:  10
+2023-10-13 10:59:03.876667 +0000 build-r42-fedora2: output: DEBUG:     dynamic_buildrequires:  True
+2023-10-13 10:59:03.876695 +0000 build-r42-fedora2: output: DEBUG:     dynamic_buildrequires_max_loops:  10
+2023-10-13 10:59:03.876705 +0000 build-r42-fedora2: output: DEBUG:     external_buildrequires:  False
+2023-10-13 10:59:03.876786 +0000 build-r42-fedora2: output: DEBUG:     dev_loop_count:  12
+2023-10-13 10:59:03.876832 +0000 build-r42-fedora2: output: DEBUG:     yum_command:  /usr/bin/yum
+2023-10-13 10:59:03.876877 +0000 build-r42-fedora2: output: DEBUG:     system_yum_command:  /usr/bin/yum
+2023-10-13 10:59:03.876918 +0000 build-r42-fedora2: output: DEBUG:     yum_install_command:  install yum yum-utils
+2023-10-13 10:59:03.877043 +0000 build-r42-fedora2: output: DEBUG:     yum_builddep_command:  /usr/bin/yum-builddep
+2023-10-13 10:59:03.877067 +0000 build-r42-fedora2: output: DEBUG:     yum_avoid_opts:  {}
+2023-10-13 10:59:03.877121 +0000 build-r42-fedora2: output: DEBUG:     dnf_command:  /usr/bin/dnf-3
+2023-10-13 10:59:03.877140 +0000 build-r42-fedora2: output: DEBUG:     system_dnf_command:  /usr/bin/dnf-3
+2023-10-13 10:59:03.877165 +0000 build-r42-fedora2: output: DEBUG:     dnf_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2023-10-13 10:59:03.877183 +0000 build-r42-fedora2: output: DEBUG:     dnf_install_command:  install python3-dnf python3-dnf-plugins-core
+2023-10-13 10:59:03.877199 +0000 build-r42-fedora2: output: DEBUG:     dnf_disable_plugins:  ['local', 'spacewalk', 'versionlock']
+2023-10-13 10:59:03.877278 +0000 build-r42-fedora2: output: DEBUG:     dnf_avoid_opts:  {}
+2023-10-13 10:59:03.877328 +0000 build-r42-fedora2: output: DEBUG:     dnf5_command:  /usr/bin/dnf5
+2023-10-13 10:59:03.877357 +0000 build-r42-fedora2: output: DEBUG:     system_dnf5_command:  /usr/bin/dnf5
+2023-10-13 10:59:03.877430 +0000 build-r42-fedora2: output: DEBUG:     dnf5_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2023-10-13 10:59:03.877447 +0000 build-r42-fedora2: output: DEBUG:     dnf5_install_command:  install dnf5 dnf5-plugins
+2023-10-13 10:59:03.877517 +0000 build-r42-fedora2: output: DEBUG:     dnf5_disable_plugins:  []
+2023-10-13 10:59:03.877534 +0000 build-r42-fedora2: output: DEBUG:     dnf5_avoid_opts:  {'remove': ['--allowerasing']}
+2023-10-13 10:59:03.877618 +0000 build-r42-fedora2: output: DEBUG:     microdnf_command:  /usr/bin/microdnf
+2023-10-13 10:59:03.877638 +0000 build-r42-fedora2: output: DEBUG:     microdnf_install_command:  dnf-install microdnf dnf dnf-plugins-core
+2023-10-13 10:59:03.877706 +0000 build-r42-fedora2: output: DEBUG:     microdnf_builddep_command:  /usr/bin/dnf
+2023-10-13 10:59:03.877723 +0000 build-r42-fedora2: output: DEBUG:     microdnf_builddep_opts:  []
+2023-10-13 10:59:03.877812 +0000 build-r42-fedora2: output: DEBUG:     microdnf_common_opts:  []
+2023-10-13 10:59:03.877834 +0000 build-r42-fedora2: output: DEBUG:     microdnf_avoid_opts:  {}
+2023-10-13 10:59:03.877909 +0000 build-r42-fedora2: output: DEBUG:     rpm_command:  /bin/rpm
+2023-10-13 10:59:03.877933 +0000 build-r42-fedora2: output: DEBUG:     rpmbuild_command:  /usr/bin/rpmbuild
+2023-10-13 10:59:03.878003 +0000 build-r42-fedora2: output: DEBUG:     user_agent:  Mock (fedora-37-x86_64; x86_64)
+2023-10-13 10:59:03.878019 +0000 build-r42-fedora2: output: DEBUG:     opstimeout:  0
+2023-10-13 10:59:03.878036 +0000 build-r42-fedora2: output: DEBUG:     stderr_line_prefix:
+2023-10-13 10:59:03.878133 +0000 build-r42-fedora2: output: DEBUG:     chroot_additional_packages:  []
+2023-10-13 10:59:03.878155 +0000 build-r42-fedora2: output: DEBUG:     additional_packages:  []
+2023-10-13 10:59:03.878558 +0000 build-r42-fedora2: output: DEBUG:     no-config:  {'epel-8': {'alternatives': {'alma+epel-8': {'description': ['Builds against AlmaLinux 8 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-8': {'description': ['Builds against CentOS Stream 8 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 8) together with the official EPEL 8 repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'circlelinux+epel-8': {'description': ['Builds against Circle Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://cclinux.org/']}, 'rhel+epel-8': {'description': ['Builds against Red Hat Enterprise Linux 8 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-8': {'description': ['Builds against Rocky Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}, 'epel-9': {'alternatives': {'alma+epel-9': {'description': ['Builds against AlmaLinux 9 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-9': {'description': ['Builds against CentOS Stream 9 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 9) together with the official EPEL repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'rhel+epel-9': {'description': ['Builds against Red Hat Enterprise Linux 9 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-9': {'description': ['Builds against Rocky Linux 9 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}}
+2023-10-13 10:59:03.878581 +0000 build-r42-fedora2: output: DEBUG:     seccomp:  False
+2023-10-13 10:59:03.878613 +0000 build-r42-fedora2: output: DEBUG:     copy_host_users:  []
+2023-10-13 10:59:03.878633 +0000 build-r42-fedora2: output: DEBUG:     qemu_user_static_mapping:  {'aarch64': 'aarch64', 'armv7hl': 'arm', 'i386': 'i386', 'i686': 'i386', 'ppc64': 'ppc64', 'ppc64le': 'ppc64le', 's390x': 's390x', 'x86_64': 'x86_64'}
+2023-10-13 10:59:03.878643 +0000 build-r42-fedora2: output: DEBUG:     recursion_limit:  5000
+2023-10-13 10:59:03.878664 +0000 build-r42-fedora2: output: DEBUG:     config_path:  /etc/mock
+2023-10-13 10:59:03.878677 +0000 build-r42-fedora2: output: DEBUG:     chroot_name:  fedora-37-x86_64
+2023-10-13 10:59:03.878703 +0000 build-r42-fedora2: output: DEBUG:     config_file:  /builder/plugins/chroot_rpm/mock/fedora-37-x86_64.cfg
+2023-10-13 10:59:03.878761 +0000 build-r42-fedora2: output: DEBUG:     dist:  fc37
+2023-10-13 10:59:03.878790 +0000 build-r42-fedora2: output: DEBUG:     legal_host_arches:  ('x86_64',)
+2023-10-13 10:59:03.878863 +0000 build-r42-fedora2: output: DEBUG:     root:  fedora-37-x86_64
+2023-10-13 10:59:03.878908 +0000 build-r42-fedora2: output: DEBUG:     dnf.conf:
+2023-10-13 10:59:03.878928 +0000 build-r42-fedora2: output: [main]
+2023-10-13 10:59:03.878991 +0000 build-r42-fedora2: output: keepcache=1
+2023-10-13 10:59:03.879009 +0000 build-r42-fedora2: output: debuglevel=2
+2023-10-13 10:59:03.879026 +0000 build-r42-fedora2: output: reposdir=/dev/null
+2023-10-13 10:59:03.879162 +0000 build-r42-fedora2: output: logfile=/var/log/yum.log
+2023-10-13 10:59:03.879211 +0000 build-r42-fedora2: output: retries=20
+2023-10-13 10:59:03.879226 +0000 build-r42-fedora2: output: obsoletes=1
+2023-10-13 10:59:03.879239 +0000 build-r42-fedora2: output: gpgcheck=0
+2023-10-13 10:59:03.879348 +0000 build-r42-fedora2: output: assumeyes=1
+2023-10-13 10:59:03.879379 +0000 build-r42-fedora2: output: syslog_ident=mock
+2023-10-13 10:59:03.879412 +0000 build-r42-fedora2: output: syslog_device=
+2023-10-13 10:59:03.879424 +0000 build-r42-fedora2: output: install_weak_deps=0
+2023-10-13 10:59:03.879448 +0000 build-r42-fedora2: output: metadata_expire=0
+2023-10-13 10:59:03.879494 +0000 build-r42-fedora2: output: mdpolicy=group:primary
+2023-10-13 10:59:03.879517 +0000 build-r42-fedora2: output: best=1
+2023-10-13 10:59:03.879572 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.879605 +0000 build-r42-fedora2: output: # repos
+2023-10-13 10:59:03.879618 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.879689 +0000 build-r42-fedora2: output: [fedora]
+2023-10-13 10:59:03.879723 +0000 build-r42-fedora2: output: name=fedora
+2023-10-13 10:59:03.879807 +0000 build-r42-fedora2: output: metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+2023-10-13 10:59:03.879882 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:59:03.879903 +0000 build-r42-fedora2: output: gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$releasever-primary
+2023-10-13 10:59:03.879920 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:59:03.879930 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:59:03.880012 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.880037 +0000 build-r42-fedora2: output: [updates]
+2023-10-13 10:59:03.880096 +0000 build-r42-fedora2: output: name=updates
+2023-10-13 10:59:03.880151 +0000 build-r42-fedora2: output: metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+2023-10-13 10:59:03.880167 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:59:03.880244 +0000 build-r42-fedora2: output: gpgkey=file:///usr/share/distribution-gpg-keys/fedora/RPM-GPG-KEY-fedora-$releasever-primary
+2023-10-13 10:59:03.880260 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:59:03.880273 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:59:03.880364 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.880375 +0000 build-r42-fedora2: output: [builder-local]
+2023-10-13 10:59:03.880486 +0000 build-r42-fedora2: output: name=builder-local
+2023-10-13 10:59:03.880530 +0000 build-r42-fedora2: output: baseurl=file:///builder/repository
+2023-10-13 10:59:03.880541 +0000 build-r42-fedora2: output: gpgcheck=0
+2023-10-13 10:59:03.880552 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:59:03.880640 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:59:03.880656 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.880669 +0000 build-r42-fedora2: output: [qubes-current]
+2023-10-13 10:59:03.880733 +0000 build-r42-fedora2: output: name=qubes-vm-current
+2023-10-13 10:59:03.880795 +0000 build-r42-fedora2: output: baseurl=https://yum.qubes-os.org/rNone/current/vm/fc$releasever
+2023-10-13 10:59:03.880833 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:59:03.880893 +0000 build-r42-fedora2: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-primary
+2023-10-13 10:59:03.880918 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:59:03.880976 +0000 build-r42-fedora2: output: repo_gpgcheck = 1
+2023-10-13 10:59:03.881018 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:59:03.881059 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:59:03.881103 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:59:03.881143 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.881189 +0000 build-r42-fedora2: output: [qubes-current-testing]
+2023-10-13 10:59:03.881231 +0000 build-r42-fedora2: output: name=qubes-vm-testing
+2023-10-13 10:59:03.881275 +0000 build-r42-fedora2: output: baseurl=https://yum.qubes-os.org/rNone/current-testing/vm/fc$releasever
+2023-10-13 10:59:03.881295 +0000 build-r42-fedora2: output: failovermethod=priority
+2023-10-13 10:59:03.881368 +0000 build-r42-fedora2: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-primary
+2023-10-13 10:59:03.881384 +0000 build-r42-fedora2: output: gpgcheck=1
+2023-10-13 10:59:03.881449 +0000 build-r42-fedora2: output: repo_gpgcheck = 1
+2023-10-13 10:59:03.881469 +0000 build-r42-fedora2: output: exclude=qubes-release
+2023-10-13 10:59:03.881532 +0000 build-r42-fedora2: output: enabled=0
+2023-10-13 10:59:03.881575 +0000 build-r42-fedora2: output: skip_if_unavailable=0
+2023-10-13 10:59:03.881627 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:03.881640 +0000 build-r42-fedora2: output: DEBUG:     __jinja_expand:  True
+2023-10-13 10:59:03.881693 +0000 build-r42-fedora2: output: DEBUG:     verbose:  2
+2023-10-13 10:59:03.881776 +0000 build-r42-fedora2: output: DEBUG:     print_main_output:  False
+2023-10-13 10:59:03.881788 +0000 build-r42-fedora2: output: DEBUG:     cache_alterations:  False
+2023-10-13 10:59:03.881865 +0000 build-r42-fedora2: output: DEBUG:     enable_disable_repos:  []
+2023-10-13 10:59:03.881910 +0000 build-r42-fedora2: output: DEBUG:     build_log_fmt_str:  %(message)s
+2023-10-13 10:59:03.881937 +0000 build-r42-fedora2: output: DEBUG:     root_log_fmt_str:  %(levelname)s %(filename)s:%(lineno)d:  %(message)s
+2023-10-13 10:59:03.881995 +0000 build-r42-fedora2: output: DEBUG:     state_log_fmt_str:  %(asctime)s - %(message)s
+2023-10-13 10:59:03.886245 +0000 build-r42-fedora2: output: DEBUG: Local file: /builder/build/qubes-split-browser-0.16.2-1.fc37.src.rpm
+2023-10-13 10:59:03.894623 +0000 build-r42-fedora2: output: INFO: Start(/builder/build/qubes-split-browser-0.16.2-1.fc37.src.rpm)  Config(fedora-37-x86_64)
+2023-10-13 10:59:03.910380 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build
+2023-10-13 10:59:03.922560 +0000 build-r42-fedora2: output: Mock Version: 5.0
+2023-10-13 10:59:03.922878 +0000 build-r42-fedora2: output: INFO: Mock Version: 5.0
+2023-10-13 10:59:03.923143 +0000 build-r42-fedora2: output: INFO: Mock Version: 5.0
+2023-10-13 10:59:03.929054 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64
+2023-10-13 10:59:03.929814 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64
+2023-10-13 10:59:03.930533 +0000 build-r42-fedora2: output: Start: chroot init
+2023-10-13 10:59:03.931908 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64
+2023-10-13 10:59:03.934368 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:03.935268 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:03.950686 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build
+2023-10-13 10:59:03.954273 +0000 build-r42-fedora2: output: INFO: calling preinit hooks
+2023-10-13 10:59:03.957101 +0000 build-r42-fedora2: output: INFO: enabled root cache
+2023-10-13 10:59:03.958450 +0000 build-r42-fedora2: output: INFO: skipping root_cache aging check
+2023-10-13 10:59:03.960897 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/root_cache/
+2023-10-13 10:59:03.960915 +0000 build-r42-fedora2: output: Start: unpacking root cache
+2023-10-13 10:59:03.968468 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:03.974201 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:03.974260 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/builder/cache/mock/fedora-37-x86_64/root_cache/cache.tar.gz', '-C', '/builder/build/fedora-37-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.091456 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.095569 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./proc
+2023-10-13 10:59:05.096586 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./proc
+2023-10-13 10:59:05.099901 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./sys
+2023-10-13 10:59:05.100943 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./sys
+2023-10-13 10:59:05.104691 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./dev
+2023-10-13 10:59:05.106318 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./dev
+2023-10-13 10:59:05.111471 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./tmp/ccache
+2023-10-13 10:59:05.113465 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./tmp/ccache
+2023-10-13 10:59:05.118667 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/cache/yum
+2023-10-13 10:59:05.120226 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/cache/yum
+2023-10-13 10:59:05.124466 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/cache/dnf
+2023-10-13 10:59:05.126015 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/cache/dnf
+2023-10-13 10:59:05.130886 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/./var/log
+2023-10-13 10:59:05.132908 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/./var/log
+2023-10-13 10:59:05.133359 +0000 build-r42-fedora2: output: Finish: unpacking root cache
+2023-10-13 10:59:05.134464 +0000 build-r42-fedora2: output: INFO: enabled package manager cache
+2023-10-13 10:59:05.137033 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/yum_cache
+2023-10-13 10:59:05.139373 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/cache/mock/fedora-37-x86_64/dnf_cache
+2023-10-13 10:59:05.139458 +0000 build-r42-fedora2: output: Start: cleaning package manager metadata
+2023-10-13 10:59:05.140822 +0000 build-r42-fedora2: output: Finish: cleaning package manager metadata
+2023-10-13 10:59:05.149071 +0000 build-r42-fedora2: output: INFO: enabled HW Info plugin
+2023-10-13 10:59:05.152650 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.152696 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.160018 +0000 build-r42-fedora2: output: DEBUG: Architecture:                    x86_64
+2023-10-13 10:59:05.160041 +0000 build-r42-fedora2: output: DEBUG: CPU op-mode(s):                  32-bit, 64-bit
+2023-10-13 10:59:05.160056 +0000 build-r42-fedora2: output: DEBUG: Address sizes:                   48 bits physical, 48 bits virtual
+2023-10-13 10:59:05.160277 +0000 build-r42-fedora2: output: DEBUG: Byte Order:                      Little Endian
+2023-10-13 10:59:05.160362 +0000 build-r42-fedora2: output: DEBUG: CPU(s):                          2
+2023-10-13 10:59:05.160414 +0000 build-r42-fedora2: output: DEBUG: On-line CPU(s) list:             0,1
+2023-10-13 10:59:05.160502 +0000 build-r42-fedora2: output: DEBUG: Vendor ID:                       AuthenticAMD
+2023-10-13 10:59:05.160556 +0000 build-r42-fedora2: output: DEBUG: Model name:                      AMD Ryzen 9 5900X 12-Core Processor
+2023-10-13 10:59:05.160643 +0000 build-r42-fedora2: output: DEBUG: CPU family:                      25
+2023-10-13 10:59:05.160770 +0000 build-r42-fedora2: output: DEBUG: Model:                           33
+2023-10-13 10:59:05.160782 +0000 build-r42-fedora2: output: DEBUG: Thread(s) per core:              1
+2023-10-13 10:59:05.160792 +0000 build-r42-fedora2: output: DEBUG: Core(s) per socket:              2
+2023-10-13 10:59:05.161051 +0000 build-r42-fedora2: output: DEBUG: Socket(s):                       1
+2023-10-13 10:59:05.161064 +0000 build-r42-fedora2: output: DEBUG: Stepping:                        2
+2023-10-13 10:59:05.161170 +0000 build-r42-fedora2: output: DEBUG: BogoMIPS:                        7386.14
+2023-10-13 10:59:05.161319 +0000 build-r42-fedora2: output: DEBUG: Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm rep_good nopl cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch bpext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip pku ospke vaes vpclmulqdq rdpid
+2023-10-13 10:59:05.161358 +0000 build-r42-fedora2: output: DEBUG: Hypervisor vendor:               Xen
+2023-10-13 10:59:05.161401 +0000 build-r42-fedora2: output: DEBUG: Virtualization type:             full
+2023-10-13 10:59:05.161435 +0000 build-r42-fedora2: output: DEBUG: L1d cache:                       64 KiB (2 instances)
+2023-10-13 10:59:05.161529 +0000 build-r42-fedora2: output: DEBUG: L1i cache:                       64 KiB (2 instances)
+2023-10-13 10:59:05.161564 +0000 build-r42-fedora2: output: DEBUG: L2 cache:                        1 MiB (2 instances)
+2023-10-13 10:59:05.161634 +0000 build-r42-fedora2: output: DEBUG: L3 cache:                        128 MiB (2 instances)
+2023-10-13 10:59:05.161675 +0000 build-r42-fedora2: output: DEBUG: NUMA node(s):                    1
+2023-10-13 10:59:05.161711 +0000 build-r42-fedora2: output: DEBUG: NUMA node0 CPU(s):               0,1
+2023-10-13 10:59:05.161804 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Itlb multihit:     Not affected
+2023-10-13 10:59:05.161889 +0000 build-r42-fedora2: output: DEBUG: Vulnerability L1tf:              Not affected
+2023-10-13 10:59:05.161963 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Mds:               Not affected
+2023-10-13 10:59:05.161971 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Meltdown:          Not affected
+2023-10-13 10:59:05.162019 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Mmio stale data:   Not affected
+2023-10-13 10:59:05.162202 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Retbleed:          Not affected
+2023-10-13 10:59:05.162246 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl
+2023-10-13 10:59:05.162287 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+2023-10-13 10:59:05.162378 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Spectre v2:        Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling, PBRSB-eIBRS Not affected
+2023-10-13 10:59:05.162402 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Srbds:             Not affected
+2023-10-13 10:59:05.162448 +0000 build-r42-fedora2: output: DEBUG: Vulnerability Tsx async abort:   Not affected
+2023-10-13 10:59:05.162711 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.165455 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.165501 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/free'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.172234 +0000 build-r42-fedora2: output: DEBUG:                total        used        free      shared  buff/cache   available
+2023-10-13 10:59:05.172290 +0000 build-r42-fedora2: output: DEBUG: Mem:         3212732      315380     1948976         728      948376     2726988
+2023-10-13 10:59:05.172312 +0000 build-r42-fedora2: output: DEBUG: Swap:        1048572        1280     1047292
+2023-10-13 10:59:05.172402 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.178122 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.178168 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/df', '-H', '/builder/build/fedora-37-x86_64/root', '/builder/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.183917 +0000 build-r42-fedora2: output: DEBUG: Filesystem      Size  Used Avail Use% Mounted on
+2023-10-13 10:59:05.183957 +0000 build-r42-fedora2: output: DEBUG: /dev/xvdb        32G  625M   31G   2% /builder
+2023-10-13 10:59:05.183985 +0000 build-r42-fedora2: output: DEBUG: /dev/xvdb        32G  625M   31G   2% /builder
+2023-10-13 10:59:05.184056 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.191763 +0000 build-r42-fedora2: output: DEBUG: create skeleton dirs
+2023-10-13 10:59:05.194629 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/rpm
+2023-10-13 10:59:05.197306 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/yum
+2023-10-13 10:59:05.202292 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/lib/dbus
+2023-10-13 10:59:05.207314 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/log
+2023-10-13 10:59:05.212355 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/dnf
+2023-10-13 10:59:05.216448 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/yum
+2023-10-13 10:59:05.220242 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/rpm
+2023-10-13 10:59:05.224993 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/tmp
+2023-10-13 10:59:05.229898 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/tmp/ccache
+2023-10-13 10:59:05.233431 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/tmp
+2023-10-13 10:59:05.237042 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf
+2023-10-13 10:59:05.259975 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf/vars
+2023-10-13 10:59:05.264770 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/yum.repos.d
+2023-10-13 10:59:05.268402 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/yum
+2023-10-13 10:59:05.271283 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:59:05.273573 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:59:05.275878 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/run/lock
+2023-10-13 10:59:05.281925 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:59:05.282668 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:59:05.285199 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:59:05.286261 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:59:05.288789 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/mapper
+2023-10-13 10:59:05.289586 +0000 build-r42-fedora2: output: DEBUG: creating dir: /builder/build/fedora-37-x86_64/root/dev/mapper
+2023-10-13 10:59:05.289703 +0000 build-r42-fedora2: output: DEBUG: kernel version == 6.1.43-1.qubes.fc32.x86_64
+2023-10-13 10:59:05.358701 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/fstab
+2023-10-13 10:59:05.360075 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/yum/yum.conf
+2023-10-13 10:59:05.361688 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/etc/dnf/dnf.conf
+2023-10-13 10:59:05.363181 +0000 build-r42-fedora2: output: DEBUG: touching file: /builder/build/fedora-37-x86_64/root/var/log/yum.log
+2023-10-13 10:59:05.364750 +0000 build-r42-fedora2: output: DEBUG: rootdir = /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:05.364799 +0000 build-r42-fedora2: output: DEBUG: resultdir = /builder/build
+2023-10-13 10:59:05.367853 +0000 build-r42-fedora2: output: DEBUG: searching for 'dnf' package manager or alternatives
+2023-10-13 10:59:05.373046 +0000 build-r42-fedora2: output: INFO: Package manager dnf detected and used (fallback)
+2023-10-13 10:59:05.377066 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/mock
+2023-10-13 10:59:05.381877 +0000 build-r42-fedora2: output: DEBUG: Updating files in /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+2023-10-13 10:59:05.383348 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust
+2023-10-13 10:59:05.386133 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/./source
+2023-10-13 10:59:05.387932 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/./extracted
+2023-10-13 10:59:05.391000 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/blacklist
+2023-10-13 10:59:05.392757 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/blocklist
+2023-10-13 10:59:05.396154 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/source/anchors
+2023-10-13 10:59:05.401649 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/pem
+2023-10-13 10:59:05.405439 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/java
+2023-10-13 10:59:05.409343 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/edk2
+2023-10-13 10:59:05.413152 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/openssl
+2023-10-13 10:59:05.423823 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/pki/ca-trust/extracted/pem/directory-hash
+2023-10-13 10:59:05.550198 +0000 build-r42-fedora2: output: DEBUG: Updating files in /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+2023-10-13 10:59:05.553679 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source
+2023-10-13 10:59:05.566250 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./blacklist
+2023-10-13 10:59:05.569700 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./blocklist
+2023-10-13 10:59:05.573317 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+2023-10-13 10:59:05.587715 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/etc/dnf
+2023-10-13 10:59:05.589931 +0000 build-r42-fedora2: output: DEBUG: configure DNF vars
+2023-10-13 10:59:05.595774 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/yum
+2023-10-13 10:59:05.599635 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.599750 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/fedora-37-x86_64/yum_cache', '/builder/build/fedora-37-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.606003 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.610013 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/var/cache/dnf
+2023-10-13 10:59:05.614172 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.614233 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/fedora-37-x86_64/dnf_cache', '/builder/build/fedora-37-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.622783 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.705284 +0000 build-r42-fedora2: output: Start: installing minimal buildroot with dnf
+2023-10-13 10:59:05.728815 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:59:05.732620 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.732670 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.739564 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.742349 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/proc
+2023-10-13 10:59:05.746720 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.746798 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.751301 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.755743 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.755808 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.759009 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.763191 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:59:05.769641 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.769700 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.778934 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.782015 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/sys
+2023-10-13 10:59:05.788280 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.788341 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.792362 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.798518 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.798568 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.802517 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.807386 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/shm
+2023-10-13 10:59:05.813591 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.813645 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/builder/build/fedora-37-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.824254 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.829998 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/dev/pts
+2023-10-13 10:59:05.835314 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.835365 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/builder/build/fedora-37-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:05.839373 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:05.859808 +0000 build-r42-fedora2: output: DEBUG: ensuring that dir exists: /builder/build/fedora-37-x86_64/root/installation-homedir
+2023-10-13 10:59:05.864966 +0000 build-r42-fedora2: output: DEBUG: ['/usr/bin/dnf-3', '--installroot', '/builder/build/fedora-37-x86_64/root/', '--releasever', '37', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', '@buildsys-build']
+2023-10-13 10:59:05.874989 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:05.875056 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/usr/bin/dnf-3', '--installroot', '/builder/build/fedora-37-x86_64/root/', '--releasever', '37', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', '@buildsys-build'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builder/build/fedora-37-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+2023-10-13 10:59:06.144001 +0000 build-r42-fedora2: output: DEBUG: No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+2023-10-13 10:59:07.049166 +0000 build-r42-fedora2: output: DEBUG: fedora                                          0.0  B/s |   0  B     00:00
+2023-10-13 10:59:07.049218 +0000 build-r42-fedora2: output: DEBUG: Errors during downloading metadata for repository 'fedora':
+2023-10-13 10:59:07.049243 +0000 build-r42-fedora2: output: DEBUG:   - Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=fedora-37&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+2023-10-13 10:59:07.061510 +0000 build-r42-fedora2: output: DEBUG: Error: Failed to download metadata for repo 'fedora': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=fedora-37&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+2023-10-13 10:59:07.100027 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 1
+2023-10-13 10:59:07.107553 +0000 build-r42-fedora2: output: DEBUG: kill orphans in chroot /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:07.114677 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.114722 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.121050 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.127432 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.127500 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.132748 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.141286 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.141331 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.146733 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.151804 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.151835 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.158381 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.163289 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.163358 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.167211 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.171303 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.171396 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/fedora-37-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.175433 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.177543 +0000 build-r42-fedora2: output: ERROR: Exception(/builder/build/qubes-split-browser-0.16.2-1.fc37.src.rpm) Config(fedora-37-x86_64) 0 minutes 3 seconds
+2023-10-13 10:59:07.177564 +0000 build-r42-fedora2: output: INFO: Results and/or logs in: /builder/build
+2023-10-13 10:59:07.182891 +0000 build-r42-fedora2: output: DEBUG: kill orphans in chroot /builder/build/fedora-37-x86_64/root
+2023-10-13 10:59:07.223709 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.223768 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/fedora-37-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.229583 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.235357 +0000 build-r42-fedora2: output: DEBUG: child environment: None
+2023-10-13 10:59:07.235408 +0000 build-r42-fedora2: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/fedora-37-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2023-10-13 10:59:07.241246 +0000 build-r42-fedora2: output: DEBUG: Child return code was: 0
+2023-10-13 10:59:07.243449 +0000 build-r42-fedora2: output: ERROR: Command failed:
+2023-10-13 10:59:07.243534 +0000 build-r42-fedora2: output:  # /usr/bin/dnf-3 --installroot /builder/build/fedora-37-x86_64/root/ --releasever 37 --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock install @buildsys-build
+2023-10-13 10:59:07.243562 +0000 build-r42-fedora2: output: No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+2023-10-13 10:59:07.243609 +0000 build-r42-fedora2: output: fedora                                          0.0  B/s |   0  B     00:00
+2023-10-13 10:59:07.243625 +0000 build-r42-fedora2: output: Errors during downloading metadata for repository 'fedora':
+2023-10-13 10:59:07.243648 +0000 build-r42-fedora2: output:   - Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=fedora-37&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+2023-10-13 10:59:07.243756 +0000 build-r42-fedora2: output: Error: Failed to download metadata for repo 'fedora': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=fedora-37&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+2023-10-13 10:59:07.243791 +0000 build-r42-fedora2: output: 
+2023-10-13 10:59:10.339871 +0000 > closing log
