@@ -1,0 +1,31 @@
+2023-11-24 13:10:06.665634 +0000 > starting log
+2023-11-24 13:10:06.665775 +0000 build-r42-debian1: > starting build with log
+2023-11-24 13:10:06.665783 +0000 build-r42-debian1: >> args:
+2023-11-24 13:10:06.665788 +0000 build-r42-debian1: >>   ()
+2023-11-24 13:10:06.665792 +0000 build-r42-debian1: >> component:
+2023-11-24 13:10:06.665796 +0000 build-r42-debian1: >>   contrib-configs
+2023-11-24 13:10:06.665801 +0000 build-r42-debian1: >>     commit-hash: dba7bfef14b9d3f4882a5b9bd7e933c10907f8d0
+2023-11-24 13:10:06.665809 +0000 build-r42-debian1: >>     source-hash: f310cae54d84c009df63b0ac2f603410c5514af669da3463151584ac0bf08202a9723da62bc67d7554384c705e8905b700e1a4d925ccf6e90c7efbc46b781ea5
+2023-11-24 13:10:06.665816 +0000 build-r42-debian1: >> distributions:
+2023-11-24 13:10:06.665822 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2023-11-24 13:10:06.665827 +0000 build-r42-debian1: contrib-configs: source already fetched. Updating.
+2023-11-24 13:10:20.269226 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp5173 bash -c 'rm -rf /builder/incoming/fetch /builder/plugins/fetch'
+2023-11-24 13:10:57.104302 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5173 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2023-11-24 13:10:57.808262 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp5173 bash -c 'mkdir -p /builder/plugins && mv /builder/incoming/fetch /builder/plugins'
+2023-11-24 13:10:58.075602 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp5173 bash -c 'rm -rf /builder/incoming/contrib-configs /builder/contrib-configs'
+2023-11-24 13:10:58.305148 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp5173 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2023-11-24 13:10:58.722250 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp5173 bash -c 'mkdir -p /builder && mv /builder/incoming/contrib-configs /builder'
+2023-11-24 13:10:59.023066 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp5173 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2023-11-24 13:11:03.285656 +0000 build-r42-debian1: output: --> Verifying tags...
+2023-11-24 13:11:03.285710 +0000 build-r42-debian1: output: ---> Good tag eef560d3a73822ec65e19298a3833ab9562455b1.
+2023-11-24 13:11:03.285720 +0000 build-r42-debian1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2023-11-24 13:11:03.285726 +0000 build-r42-debian1: output: --> Merging...
+2023-11-24 13:11:03.296677 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp5173 qubesbuilder.FileCopyOut+__builder__contrib-configs /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2023-11-24 13:11:33.225276 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp3082 bash -c 'rm -rf /builder/incoming/contrib-configs /builder/contrib-configs'
+2023-11-24 13:11:57.788820 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm disp3082 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2023-11-24 13:11:58.386612 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm disp3082 bash -c 'mkdir -p /builder && mv /builder/incoming/contrib-configs /builder'
+2023-11-24 13:11:58.662298 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm disp3082 env VERBOSE='1' DEBUG='1' BACKEND_VMM='xen' bash -c 'rm -f /builder/contrib-configs/hash /builder/contrib-configs/vtags && cd /builder && git -C /builder/contrib-configs rev-parse '\''HEAD^{}'\'' >> /builder/contrib-configs/hash && git -C /builder/contrib-configs tag --points-at HEAD --list '\''v*'\'' >> /builder/contrib-configs/vtags''.
+2023-11-24 13:11:59.084087 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3082 qubesbuilder.FileCopyOut+__builder__contrib-configs__hash /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2ot4xieg
+2023-11-24 13:11:59.445249 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3082 qubesbuilder.FileCopyOut+__builder__contrib-configs__vtags /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2ot4xieg
+2023-11-24 13:12:05.158828 +0000 build-r42-debian1: > done
+2023-11-24 13:12:05.158877 +0000 > closing log
