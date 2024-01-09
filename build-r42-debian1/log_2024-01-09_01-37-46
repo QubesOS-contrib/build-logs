@@ -1,0 +1,16 @@
+2024-01-09 01:37:46.248710 +0000 > starting log
+2024-01-09 01:37:46.249040 +0000 build-r42-debian1: > starting build with log
+2024-01-09 01:37:46.249058 +0000 build-r42-debian1: >> args:
+2024-01-09 01:37:46.249068 +0000 build-r42-debian1: >>   ()
+2024-01-09 01:37:46.249077 +0000 build-r42-debian1: >> component:
+2024-01-09 01:37:46.249086 +0000 build-r42-debian1: >>   builder-debian
+2024-01-09 01:37:46.249096 +0000 build-r42-debian1: >> distributions:
+2024-01-09 01:37:46.249110 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2024-01-09 01:37:57.252066 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm -- disp7986 rm -rf -- /builder/incoming/fetch /builder/plugins/fetch
+2024-01-09 01:37:58.149501 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp7986 qubesbuilder.FileCopyIn /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-01-09 01:38:10.295228 +0000 build-r42-debian1: copy-in (cmd): /usr/bin/qvm-run-vm -- disp7986 mkdir -p -- /builder/plugins && mv -- /builder/incoming/fetch /builder/plugins
+2024-01-09 01:38:10.532130 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm -- disp7986 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-builder-debian.git /builder/builder-debian /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-01-09 01:38:11.869468 +0000 build-r42-debian1: output: args: (128, ['git', 'clone', '-n', '-q', '-b', 'main', 'https://github.com/QubesOS-contrib/qubes-builder-debian.git', PosixPath('/builder/builder-debian')])
+2024-01-09 01:38:11.869558 +0000 build-r42-debian1: output: stdout: b''
+2024-01-09 01:38:11.869578 +0000 build-r42-debian1: output: stderr: b"fatal: could not read Username for 'https://github.com': No such device or address\n"
+2024-01-09 01:38:14.748944 +0000 > closing log
