@@ -1,0 +1,822 @@
+2024-02-25 13:59:35.375015 +0000 > starting log
+2024-02-25 13:59:35.375195 +0000 build-r42-debian1: > starting build with log
+2024-02-25 13:59:35.375209 +0000 build-r42-debian1: >> args:
+2024-02-25 13:59:35.375218 +0000 build-r42-debian1: >>   ()
+2024-02-25 13:59:35.375225 +0000 build-r42-debian1: >> component:
+2024-02-25 13:59:35.375233 +0000 build-r42-debian1: >>   app-split-browser
+2024-02-25 13:59:35.375242 +0000 build-r42-debian1: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-02-25 13:59:35.375256 +0000 build-r42-debian1: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-02-25 13:59:35.375268 +0000 build-r42-debian1: >> distributions:
+2024-02-25 13:59:35.375280 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2024-02-25 13:59:52.430246 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1066 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-02-25 13:59:52.940129 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1066 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-02-25 13:59:53.536800 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1066 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource_deb /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_deb
+2024-02-25 13:59:53.867675 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1066 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2024-02-25 13:59:54.307613 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm -- disp1066 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen DIST=bullseye LC_ALL=C DEBFULLNAME=Builder DEBEMAIL=user@localhost bash -c '/builder/plugins/source_deb/scripts/modify-changelog-for-build /builder/app-split-browser debian bullseye deb11u  && /builder/plugins/source_deb/scripts/get-source-info /builder/app-split-browser debian''.
+2024-02-25 13:59:55.397103 +0000 build-r42-debian1: output: + test 4 -lt 4
+2024-02-25 13:59:55.397181 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2024-02-25 13:59:55.397189 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2024-02-25 13:59:55.397327 +0000 build-r42-debian1: output: + DIST_NAME=bullseye
+2024-02-25 13:59:55.397372 +0000 build-r42-debian1: output: + DIST_TAG=deb11u
+2024-02-25 13:59:55.397407 +0000 build-r42-debian1: output: + DEVEL_VERSION=
+2024-02-25 13:59:55.398362 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/modify-changelog-for-build
+2024-02-25 13:59:55.541366 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2024-02-25 13:59:55.541429 +0000 build-r42-debian1: output: + cd /builder/app-split-browser
+2024-02-25 13:59:55.541437 +0000 build-r42-debian1: output: + '[' 0 -gt 0 ']'
+2024-02-25 13:59:55.541443 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-changelog --verify
+2024-02-25 13:59:56.008727 +0000 build-r42-debian1: output: + debchange -t -l+deb11u 'Build for bullseye'
+2024-02-25 13:59:56.343260 +0000 build-r42-debian1: output: + debchange -t --force-distribution -r -D bullseye bullseye
+2024-02-25 13:59:56.508527 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Debian release names are not known.
+2024-02-25 13:59:56.508589 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Ubuntu release names are not known.
+2024-02-25 13:59:56.514461 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/clamp-changelog-entry-date /builder/app-split-browser/debian/changelog
+2024-02-25 13:59:56.638357 +0000 build-r42-debian1: output: + test 2 -ne 2
+2024-02-25 13:59:56.638436 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2024-02-25 13:59:56.638469 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2024-02-25 13:59:56.639486 +0000 build-r42-debian1: output: ++ basename debian
+2024-02-25 13:59:56.641381 +0000 build-r42-debian1: output: + DIRECTORY_BN=debian
+2024-02-25 13:59:56.641498 +0000 build-r42-debian1: output: + DIRECTORY_MANGLE_PATH=debian
+2024-02-25 13:59:56.641521 +0000 build-r42-debian1: output: + DIRECTORY_MANGLE_PATH=debian
+2024-02-25 13:59:56.641666 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/get-source-info
+2024-02-25 13:59:56.643361 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2024-02-25 13:59:56.643380 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-parser changelog --package-release-name /builder/app-split-browser/debian/changelog
+2024-02-25 13:59:56.757089 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-parser changelog --package-release-name-full /builder/app-split-browser/debian/changelog
+2024-02-25 13:59:56.824662 +0000 build-r42-debian1: output: + grep -Po '(?<=^3.0 \()\w+'
+2024-02-25 13:59:57.171981 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1066 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser-2Fdebian_package_release_name /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpcb49ff58
+2024-02-25 14:00:50.475843 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1425 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-02-25 14:00:50.767372 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1425 qubesbuilder.FileCopyIn+-2Fbuilder-2Fdistfiles-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/distfiles/app-split-browser
+2024-02-25 14:00:50.999274 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1425 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2024-02-25 14:00:51.193179 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1425 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-02-25 14:00:51.472094 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1425 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource_deb /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_deb
+2024-02-25 14:00:51.731661 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm -- disp1425 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen DIST=bullseye LC_ALL=C DEBFULLNAME=Builder DEBEMAIL=user@localhost bash -c '/builder/plugins/fetch/scripts/create-archive /builder/app-split-browser qubes-split-browser_0.16.3.orig.tar.gz && mv /builder/app-split-browser/qubes-split-browser_0.16.3.orig.tar.gz /builder && /builder/plugins/source_deb/scripts/modify-changelog-for-build /builder/app-split-browser debian bullseye deb11u  && mkdir -p /builder/build && cd /builder/build && cp -a /builder/app-split-browser/debian . && chmod -R -- u+rwX,g+rX-w,o+rX-w . && chmod +x debian/rules && dpkg-source -b . && /builder/plugins/source_deb/scripts/debian-get-packages-list /builder/qubes-split-browser_0.16.3-1+deb11u1.dsc >/builder/debian_packages.list''.
+2024-02-25 14:00:51.940002 +0000 build-r42-debian1: output: ++ tar --version
+2024-02-25 14:00:51.940079 +0000 build-r42-debian1: output: ++ awk '{print $4}'
+2024-02-25 14:00:51.940522 +0000 build-r42-debian1: output: ++ head -1
+2024-02-25 14:00:52.014639 +0000 build-r42-debian1: output: + TAR_VERSION=1.34
+2024-02-25 14:00:52.014684 +0000 build-r42-debian1: output: ++ readlink -f /builder/app-split-browser
+2024-02-25 14:00:52.015207 +0000 build-r42-debian1: output: + GIT_ARCHIVE_SRC=/builder/app-split-browser
+2024-02-25 14:00:52.015254 +0000 build-r42-debian1: output: + GIT_ARCHIVE_TYPE=gz
+2024-02-25 14:00:52.015285 +0000 build-r42-debian1: output: + GIT_TARBALL_NAME=qubes-split-browser_0.16.3.orig.tar
+2024-02-25 14:00:52.015332 +0000 build-r42-debian1: output: + '[' x '!=' x ']'
+2024-02-25 14:00:52.015381 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.3.orig.tar
+2024-02-25 14:00:52.015392 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.3.orig
+2024-02-25 14:00:52.015435 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.3
+2024-02-25 14:00:52.015445 +0000 build-r42-debian1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser_0.16.3/
+2024-02-25 14:00:52.015484 +0000 build-r42-debian1: output: /builder/app-split-browser ~
+2024-02-25 14:00:52.015522 +0000 build-r42-debian1: output: + pushd /builder/app-split-browser
+2024-02-25 14:00:52.015658 +0000 build-r42-debian1: output: ++ git log -1 --format=%ct
+2024-02-25 14:00:52.080778 +0000 build-r42-debian1: output: + SOURCE_DATE_EPOCH=1702921817
+2024-02-25 14:00:52.080828 +0000 build-r42-debian1: output: ++ printf '%s\n' 1.34 1.28
+2024-02-25 14:00:52.080885 +0000 build-r42-debian1: output: ++ head -n1
+2024-02-25 14:00:52.082642 +0000 build-r42-debian1: output: ++ sort -V
+2024-02-25 14:00:52.087464 +0000 build-r42-debian1: output: + '[' 1.28 == 1.28 ']'
+2024-02-25 14:00:52.087496 +0000 build-r42-debian1: output: + tar --sort=name --mtime=@1702921817 --owner=0 --group=0 --numeric-owner --mode=go=rX '--xform=s%^\./%qubes-split-browser_0.16.3/%' --exclude-vcs-ignores --exclude-ignore=.tarignore --exclude pkgs --exclude '.git/*' --exclude qubes-split-browser_0.16.3.orig.tar -cf qubes-split-browser_0.16.3.orig.tar .
+2024-02-25 14:00:52.090503 +0000 build-r42-debian1: output: + case "$GIT_ARCHIVE_TYPE" in
+2024-02-25 14:00:52.090558 +0000 build-r42-debian1: output: + gzip -fn qubes-split-browser_0.16.3.orig.tar
+2024-02-25 14:00:52.100853 +0000 build-r42-debian1: output: + popd
+2024-02-25 14:00:52.100897 +0000 build-r42-debian1: output: ~
+2024-02-25 14:00:52.104451 +0000 build-r42-debian1: output: + test 4 -lt 4
+2024-02-25 14:00:52.104491 +0000 build-r42-debian1: output: + SOURCE_DIR=/builder/app-split-browser
+2024-02-25 14:00:52.104506 +0000 build-r42-debian1: output: + DEBIAN_DIRECTORY=debian
+2024-02-25 14:00:52.104517 +0000 build-r42-debian1: output: + DIST_NAME=bullseye
+2024-02-25 14:00:52.104617 +0000 build-r42-debian1: output: + DIST_TAG=deb11u
+2024-02-25 14:00:52.104753 +0000 build-r42-debian1: output: + DEVEL_VERSION=
+2024-02-25 14:00:52.105122 +0000 build-r42-debian1: output: ++ dirname /builder/plugins/source_deb/scripts/modify-changelog-for-build
+2024-02-25 14:00:52.109542 +0000 build-r42-debian1: output: + SCRIPTS_DIR=/builder/plugins/source_deb/scripts
+2024-02-25 14:00:52.109575 +0000 build-r42-debian1: output: + cd /builder/app-split-browser
+2024-02-25 14:00:52.109597 +0000 build-r42-debian1: output: + '[' 0 -gt 0 ']'
+2024-02-25 14:00:52.109679 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/debian-changelog --verify
+2024-02-25 14:00:52.420969 +0000 build-r42-debian1: output: + debchange -t -l+deb11u 'Build for bullseye'
+2024-02-25 14:00:52.992602 +0000 build-r42-debian1: output: + debchange -t --force-distribution -r -D bullseye bullseye
+2024-02-25 14:00:53.075445 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Debian release names are not known.
+2024-02-25 14:00:53.075491 +0000 build-r42-debian1: output: libdistro-info-perl is not installed, Ubuntu release names are not known.
+2024-02-25 14:00:53.079876 +0000 build-r42-debian1: output: + /builder/plugins/source_deb/scripts/clamp-changelog-entry-date /builder/app-split-browser/debian/changelog
+2024-02-25 14:00:53.415015 +0000 build-r42-debian1: output: dpkg-source: info: using source format '3.0 (quilt)'
+2024-02-25 14:00:53.457785 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser using existing ./qubes-split-browser_0.16.3.orig.tar.gz
+2024-02-25 14:00:53.474650 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2024-02-25 14:00:53.478698 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .pylintrc, use --include-removal to override
+2024-02-25 14:00:53.478727 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file LICENSE-0BSD, use --include-removal to override
+2024-02-25 14:00:53.478741 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file README.md, use --include-removal to override
+2024-02-25 14:00:53.478748 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .qubesbuilder, use --include-removal to override
+2024-02-25 14:00:53.478790 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .eslintrc.yml, use --include-removal to override
+2024-02-25 14:00:53.478821 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file version, use --include-removal to override
+2024-02-25 14:00:53.478875 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file .gitlab-ci.yml, use --include-removal to override
+2024-02-25 14:00:53.478939 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file Makefile.builder, use --include-removal to override
+2024-02-25 14:00:53.478959 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory scripts
+2024-02-25 14:00:53.478983 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-shellcheck, use --include-removal to override
+2024-02-25 14:00:53.479037 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-pylint, use --include-removal to override
+2024-02-25 14:00:53.479142 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file scripts/run-eslint, use --include-removal to override
+2024-02-25 14:00:53.479193 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory archlinux
+2024-02-25 14:00:53.479205 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file archlinux/PKGBUILD.in, use --include-removal to override
+2024-02-25 14:00:53.479216 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/GNUmakefile, use --include-removal to override
+2024-02-25 14:00:53.479227 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser
+2024-02-25 14:00:53.479275 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr
+2024-02-25 14:00:53.479319 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/lib
+2024-02-25 14:00:53.479350 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/lib/tmpfiles.d
+2024-02-25 14:00:53.479415 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/lib/tmpfiles.d/split-browser.conf, use --include-removal to override
+2024-02-25 14:00:53.479439 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/bin
+2024-02-25 14:00:53.479477 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark-pretty2url, use --include-removal to override
+2024-02-25 14:00:53.479518 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/x11-unoverride-redirect, use --include-removal to override
+2024-02-25 14:00:53.479571 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-login-fields, use --include-removal to override
+2024-02-25 14:00:53.479595 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-cmd, use --include-removal to override
+2024-02-25 14:00:53.479620 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser, use --include-removal to override
+2024-02-25 14:00:53.479675 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-login, use --include-removal to override
+2024-02-25 14:00:53.479713 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark, use --include-removal to override
+2024-02-25 14:00:53.479764 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/bin/split-browser-bookmark-pretty, use --include-removal to override
+2024-02-25 14:00:53.479836 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/share
+2024-02-25 14:00:53.479868 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/usr/share/applications
+2024-02-25 14:00:53.479879 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/share/applications/split-browser.desktop, use --include-removal to override
+2024-02-25 14:00:53.479907 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/usr/share/applications/split-browser-safest.desktop, use --include-removal to override
+2024-02-25 14:00:53.479989 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc
+2024-02-25 14:00:53.480013 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc/split-browser
+2024-02-25 14:00:53.480030 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/10-defaults.bash, use --include-removal to override
+2024-02-25 14:00:53.480057 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/20-utf-8.bash.EXAMPLE, use --include-removal to override
+2024-02-25 14:00:53.480124 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser/etc/split-browser/prefs
+2024-02-25 14:00:53.480156 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/32-ui-tweaks.js.EXAMPLE, use --include-removal to override
+2024-02-25 14:00:53.480195 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/12-no-tor-checks.js, use --include-removal to override
+2024-02-25 14:00:53.480242 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/11-no-updates.js, use --include-removal to override
+2024-02-25 14:00:53.480273 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/15-downloads-directory.js, use --include-removal to override
+2024-02-25 14:00:53.480333 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser/etc/split-browser/prefs/14-no-nags.js, use --include-removal to override
+2024-02-25 14:00:53.480349 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr
+2024-02-25 14:00:53.480391 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/lib
+2024-02-25 14:00:53.480424 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/lib/tmpfiles.d
+2024-02-25 14:00:53.480471 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/lib/tmpfiles.d/split-browser-disp.conf, use --include-removal to override
+2024-02-25 14:00:53.480496 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share
+2024-02-25 14:00:53.480534 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share/split-browser-disp
+2024-02-25 14:00:53.480548 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox
+2024-02-25 14:00:53.480611 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox/sb-load.js, use --include-removal to override
+2024-02-25 14:00:53.480655 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/usr/share/split-browser-disp/firefox/sb.js, use --include-removal to override
+2024-02-25 14:00:53.480696 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/split-browser-disp/21-tor-browser.bash, use --include-removal to override
+2024-02-25 14:00:53.480733 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/split-browser-disp/22-firefox.bash.EXAMPLE, use --include-removal to override
+2024-02-25 14:00:53.480768 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory vm/qubes-split-browser-disp/etc/qubes-rpc
+2024-02-25 14:00:53.480813 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file vm/qubes-split-browser-disp/etc/qubes-rpc/split-browser-disp, use --include-removal to override
+2024-02-25 14:00:53.480840 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of directory rpm_spec
+2024-02-25 14:00:53.480906 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file rpm_spec/qubes-split-browser.spec.in, use --include-removal to override
+2024-02-25 14:00:53.480916 +0000 build-r42-debian1: output: dpkg-source: warning: ignoring deletion of file rpm_spec/lib64.diff, use --include-removal to override
+2024-02-25 14:00:53.481779 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.3-1+deb11u1.debian.tar.xz
+2024-02-25 14:00:53.499895 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.3-1+deb11u1.dsc
+2024-02-25 14:00:53.776370 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1425 qubesbuilder.FileCopyOut+-2Fbuilder-2Fqubes--split--browser_0.16.3.orig.tar.gz /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep
+2024-02-25 14:00:53.988230 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1425 qubesbuilder.FileCopyOut+-2Fbuilder-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1.dsc /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep
+2024-02-25 14:00:54.219949 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1425 qubesbuilder.FileCopyOut+-2Fbuilder-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1.debian.tar.xz /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep
+2024-02-25 14:00:54.396903 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1425 qubesbuilder.FileCopyOut+-2Fbuilder-2Fdebian_packages.list /usr/lib/qubes/qfile-unpacker 1000 /tmp/tmpcb49ff58
+2024-02-25 14:01:23.931433 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fpbuilder /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_deb/pbuilder
+2024-02-25 14:01:24.154803 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuild-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1.debian.tar.xz /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep/qubes-split-browser_0.16.3-1+deb11u1.debian.tar.xz
+2024-02-25 14:01:24.369274 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuild-2Fqubes--split--browser_0.16.3.orig.tar.gz /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep/qubes-split-browser_0.16.3.orig.tar.gz
+2024-02-25 14:01:24.589471 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuild-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1.dsc /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/prep/qubes-split-browser_0.16.3-1+deb11u1.dsc
+2024-02-25 14:01:24.746821 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fpbuilder-2Fbase.tgz /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/cache/chroot/bullseye/pbuilder/base.tgz
+2024-02-25 14:01:26.280424 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fbuild /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build
+2024-02-25 14:01:26.428812 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fbuild_deb /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/build_deb
+2024-02-25 14:01:26.571026 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fchroot_deb /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_deb
+2024-02-25 14:01:26.890914 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9245 qubesbuilder.FileCopyIn+-2Fbuilder-2Frepository-2Fvm--bullseye /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/repository/vm-bullseye
+2024-02-25 14:01:27.241699 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm -- disp9245 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'mkdir -p /builder/cache/aptcache && /builder/plugins/build_deb/scripts/create-local-repo /builder/repository debian bullseye && sudo -E pbuilder update --distribution bullseye --configfile /builder/pbuilder/pbuilderrc --othermirror "deb [trusted=yes] file:///tmp/qubes-deb bullseye main" && sudo -E pbuilder build --override-config --distribution bullseye --configfile /builder/pbuilder/pbuilderrc --othermirror "deb [trusted=yes] file:///tmp/qubes-deb bullseye main" /builder/build/qubes-split-browser_0.16.3-1+deb11u1.dsc && /builder/plugins/build_deb/scripts/patch-changes /builder/build/qubes-split-browser_0.16.3-1+deb11u1.dsc /builder/pbuilder/results/qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo /builder/pbuilder/results/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes''.
+2024-02-25 14:01:27.380235 +0000 build-r42-debian1: output: + '[' 3 -lt 2 ']'
+2024-02-25 14:01:27.380272 +0000 build-r42-debian1: output: + REPO_DIR=/builder/repository
+2024-02-25 14:01:27.380289 +0000 build-r42-debian1: output: + DISTRIBUTION=debian
+2024-02-25 14:01:27.380316 +0000 build-r42-debian1: output: + SUITE=bullseye
+2024-02-25 14:01:27.380328 +0000 build-r42-debian1: output: + mkdir -p /builder/repository/conf
+2024-02-25 14:01:27.381495 +0000 build-r42-debian1: output: + mkdir -p /builder/repository/conf
+2024-02-25 14:01:27.382219 +0000 build-r42-debian1: output: + cd /builder/repository
+2024-02-25 14:01:27.382249 +0000 build-r42-debian1: output: + cat
+2024-02-25 14:01:27.383044 +0000 build-r42-debian1: output: + mkdir -p dists/bullseye/main/binary-amd64
+2024-02-25 14:01:27.383851 +0000 build-r42-debian1: output: + dpkg-scanpackages --multiversion .
+2024-02-25 14:01:27.515116 +0000 build-r42-debian1: output: dpkg-scanpackages: info: Wrote 1 entries to output Packages file.
+2024-02-25 14:01:27.517755 +0000 build-r42-debian1: output: + gzip -9c dists/bullseye/main/binary-amd64/Packages
+2024-02-25 14:01:27.519607 +0000 build-r42-debian1: output: ++ LC_ALL=C
+2024-02-25 14:01:27.519643 +0000 build-r42-debian1: output: ++ date -u '+%a, %d %b %Y %H:%M:%S %Z'
+2024-02-25 14:01:27.520216 +0000 build-r42-debian1: output: + DATE='Sun, 25 Feb 2024 14:01:27 UTC'
+2024-02-25 14:01:27.520388 +0000 build-r42-debian1: output: + cat
+2024-02-25 14:01:27.521370 +0000 build-r42-debian1: output: + calc_sha1 main/binary-amd64/Packages
+2024-02-25 14:01:27.521422 +0000 build-r42-debian1: output: + f=dists/bullseye/main/binary-amd64/Packages
+2024-02-25 14:01:27.521500 +0000 build-r42-debian1: output: + echo -n ' '
+2024-02-25 14:01:27.522297 +0000 build-r42-debian1: output: ++ sha256sum dists/bullseye/main/binary-amd64/Packages
+2024-02-25 14:01:27.522328 +0000 build-r42-debian1: output: ++ cut '-d ' -f 1
+2024-02-25 14:01:27.526373 +0000 build-r42-debian1: output: + echo -n b174d287b9d7e57198983306116d1b8752b062d73cea952bcb81f5222ce3916c ''
+2024-02-25 14:01:27.526812 +0000 build-r42-debian1: output: ++ stat -c %s dists/bullseye/main/binary-amd64/Packages
+2024-02-25 14:01:27.529566 +0000 build-r42-debian1: output: + echo -n 750 ''
+2024-02-25 14:01:27.529597 +0000 build-r42-debian1: output: + echo main/binary-amd64/Packages
+2024-02-25 14:01:27.529613 +0000 build-r42-debian1: output: + calc_sha1 main/binary-amd64/Packages.gz
+2024-02-25 14:01:27.529626 +0000 build-r42-debian1: output: + f=dists/bullseye/main/binary-amd64/Packages.gz
+2024-02-25 14:01:27.529642 +0000 build-r42-debian1: output: + echo -n ' '
+2024-02-25 14:01:27.530018 +0000 build-r42-debian1: output: ++ sha256sum dists/bullseye/main/binary-amd64/Packages.gz
+2024-02-25 14:01:27.530234 +0000 build-r42-debian1: output: ++ cut '-d ' -f 1
+2024-02-25 14:01:27.532441 +0000 build-r42-debian1: output: + echo -n c835c7dc6ff83ae27f7204926f0a028865955bcaf8f147eccde3df1b9c6c7bfd ''
+2024-02-25 14:01:27.532896 +0000 build-r42-debian1: output: ++ stat -c %s dists/bullseye/main/binary-amd64/Packages.gz
+2024-02-25 14:01:27.534123 +0000 build-r42-debian1: output: + echo -n 528 ''
+2024-02-25 14:01:27.534157 +0000 build-r42-debian1: output: + echo main/binary-amd64/Packages.gz
+2024-02-25 14:01:27.534178 +0000 build-r42-debian1: output: + mapfile -d '' changes_files
+2024-02-25 14:01:27.534731 +0000 build-r42-debian1: output: ++ find /builder/repository -name '*.changes' -not -path /builder/repository/dists -not -path /builder/repository/pool -print0
+2024-02-25 14:01:27.537105 +0000 build-r42-debian1: output: + for changes in "${changes_files[@]}"
+2024-02-25 14:01:27.537145 +0000 build-r42-debian1: output: + reprepro -b /builder/repository --ignore=surprisingbinary --ignore=surprisingarch include bullseye /builder/repository/vm-bullseye/tunnel_1.4.6/qubes-tunnel_1.4.6-1+deb11u1_amd64.changes
+2024-02-25 14:01:27.597735 +0000 build-r42-debian1: output: 'qubes-tunnel_1.4.6-1+deb11u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2024-02-25 14:01:27.597779 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2024-02-25 14:01:27.619425 +0000 build-r42-debian1: output: Exporting indices...
+2024-02-25 14:01:27.650730 +0000 build-r42-debian1: output: W: /root/.pbuilderrc does not exist
+2024-02-25 14:01:27.694394 +0000 build-r42-debian1: output: W: libeatmydata is not installed on the host, not using it.
+2024-02-25 14:01:27.702326 +0000 build-r42-debian1: output: dpkg-query: no packages found matching systemd
+2024-02-25 14:01:27.704690 +0000 build-r42-debian1: output: W: cgroups are not available on the host, not using them.
+2024-02-25 14:01:27.709759 +0000 build-r42-debian1: output: I: Current time: Sun Feb 25 15:01:27 CET 2024
+2024-02-25 14:01:27.710808 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1708869687
+2024-02-25 14:01:27.711804 +0000 build-r42-debian1: output: I: Building the build Environment
+2024-02-25 14:01:27.713084 +0000 build-r42-debian1: output: I: extracting base tarball [/builder/pbuilder/base.tgz]
+2024-02-25 14:01:30.418060 +0000 build-r42-debian1: output: I: copying local configuration
+2024-02-25 14:01:30.447057 +0000 build-r42-debian1: output: W: No local /etc/hostname to copy, relying on /builder/pbuilder/build/1459/etc/hostname to be correct
+2024-02-25 14:01:30.447106 +0000 build-r42-debian1: output: W: No local /etc/mailname to copy, relying on /builder/pbuilder/build/1459/etc/mailname to be correct
+2024-02-25 14:01:30.453116 +0000 build-r42-debian1: output: W: --override-config is not set; not updating apt.conf Read the manpage for details.
+2024-02-25 14:01:30.453151 +0000 build-r42-debian1: output: I: mounting /proc filesystem
+2024-02-25 14:01:30.458821 +0000 build-r42-debian1: output: I: mounting /sys filesystem
+2024-02-25 14:01:30.462429 +0000 build-r42-debian1: output: I: creating /{dev,run}/shm
+2024-02-25 14:01:30.469091 +0000 build-r42-debian1: output: I: mounting /dev/pts filesystem
+2024-02-25 14:01:30.478007 +0000 build-r42-debian1: output: I: redirecting /dev/ptmx to /dev/pts/ptmx
+2024-02-25 14:01:30.485703 +0000 build-r42-debian1: output: I: Mounting /builder/repository to /tmp/qubes-deb
+2024-02-25 14:01:30.488355 +0000 build-r42-debian1: output: I: policy-rc.d already exists
+2024-02-25 14:01:30.495100 +0000 build-r42-debian1: output: I: Refreshing the base.tgz
+2024-02-25 14:01:30.495141 +0000 build-r42-debian1: output: I: upgrading packages
+2024-02-25 14:01:31.287570 +0000 build-r42-debian1: output: Get:1 https://deb.debian.org/debian bullseye InRelease [116 kB]
+2024-02-25 14:01:31.990006 +0000 build-r42-debian1: output: Get:2 https://deb.debian.org/debian bullseye/main amd64 Packages [8068 kB]
+2024-02-25 14:01:54.598739 +0000 build-r42-debian1: output: Fetched 8183 kB in 24s (340 kB/s)
+2024-02-25 14:01:54.930561 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:01:54.948455 +0000 build-r42-debian1: output: I: Obtaining the cached apt archive contents
+2024-02-25 14:01:54.959979 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:01:55.074489 +0000 build-r42-debian1: output: Building dependency tree...
+2024-02-25 14:01:55.074524 +0000 build-r42-debian1: output: Reading state information...
+2024-02-25 14:01:55.129862 +0000 build-r42-debian1: output: Calculating upgrade...
+2024-02-25 14:01:55.196063 +0000 build-r42-debian1: output: The following packages will be upgraded:
+2024-02-25 14:01:55.196102 +0000 build-r42-debian1: output:   adduser base-files dpkg dpkg-dev libc-bin libc-dev-bin libc6 libc6-dev
+2024-02-25 14:01:55.196140 +0000 build-r42-debian1: output:   libdpkg-perl libgnutls30 libgssapi-krb5-2 libk5crypto3 libkrb5-3
+2024-02-25 14:01:55.196152 +0000 build-r42-debian1: output:   libkrb5support0 libncursesw6 libperl5.32 libssl1.1 libsystemd0 libtinfo6
+2024-02-25 14:01:55.196159 +0000 build-r42-debian1: output:   libudev1 linux-libc-dev ncurses-base ncurses-bin openssl perl perl-base
+2024-02-25 14:01:55.196183 +0000 build-r42-debian1: output:   perl-modules-5.32 tar tzdata
+2024-02-25 14:01:56.308534 +0000 build-r42-debian1: output: 29 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2024-02-25 14:01:56.308578 +0000 build-r42-debian1: output: Need to get 30.9 MB of archives.
+2024-02-25 14:01:56.308587 +0000 build-r42-debian1: output: After this operation, 140 kB of additional disk space will be used.
+2024-02-25 14:01:56.308595 +0000 build-r42-debian1: output: Get:1 https://deb.debian.org/debian bullseye/main amd64 base-files amd64 11.1+deb11u9 [70.2 kB]
+2024-02-25 14:01:57.113122 +0000 build-r42-debian1: output: Get:2 https://deb.debian.org/debian bullseye/main amd64 tar amd64 1.34+dfsg-1+deb11u1 [847 kB]
+2024-02-25 14:01:58.325610 +0000 build-r42-debian1: output: Get:3 https://deb.debian.org/debian bullseye/main amd64 dpkg amd64 1.20.13 [2538 kB]
+2024-02-25 14:02:00.665120 +0000 build-r42-debian1: output: Get:4 https://deb.debian.org/debian bullseye/main amd64 ncurses-bin amd64 6.2+20201114-2+deb11u2 [429 kB]
+2024-02-25 14:02:00.975483 +0000 build-r42-debian1: output: Get:5 https://deb.debian.org/debian bullseye/main amd64 libperl5.32 amd64 5.32.1-4+deb11u3 [4121 kB]
+2024-02-25 14:02:03.667474 +0000 build-r42-debian1: output: Get:6 https://deb.debian.org/debian bullseye/main amd64 perl amd64 5.32.1-4+deb11u3 [293 kB]
+2024-02-25 14:02:03.867363 +0000 build-r42-debian1: output: Get:7 https://deb.debian.org/debian bullseye/main amd64 perl-base amd64 5.32.1-4+deb11u3 [1628 kB]
+2024-02-25 14:02:04.895437 +0000 build-r42-debian1: output: Get:8 https://deb.debian.org/debian bullseye/main amd64 perl-modules-5.32 all 5.32.1-4+deb11u3 [2823 kB]
+2024-02-25 14:02:06.649890 +0000 build-r42-debian1: output: Get:9 https://deb.debian.org/debian bullseye/main amd64 libc6-dev amd64 2.31-13+deb11u8 [2361 kB]
+2024-02-25 14:02:08.240351 +0000 build-r42-debian1: output: Get:10 https://deb.debian.org/debian bullseye/main amd64 libc-dev-bin amd64 2.31-13+deb11u8 [276 kB]
+2024-02-25 14:02:23.018009 +0000 build-r42-debian1: output: Get:11 https://deb.debian.org/debian bullseye/main amd64 linux-libc-dev amd64 5.10.209-2 [1698 kB]
+2024-02-25 14:02:30.899250 +0000 build-r42-debian1: output: Get:12 https://deb.debian.org/debian bullseye/main amd64 libc6 amd64 2.31-13+deb11u8 [2823 kB]
+2024-02-25 14:02:35.059917 +0000 build-r42-debian1: output: Get:13 https://deb.debian.org/debian bullseye/main amd64 libc-bin amd64 2.31-13+deb11u8 [829 kB]
+2024-02-25 14:02:35.695225 +0000 build-r42-debian1: output: Get:14 https://deb.debian.org/debian bullseye/main amd64 ncurses-base all 6.2+20201114-2+deb11u2 [272 kB]
+2024-02-25 14:02:35.938362 +0000 build-r42-debian1: output: Get:15 https://deb.debian.org/debian bullseye/main amd64 libsystemd0 amd64 247.3-7+deb11u4 [376 kB]
+2024-02-25 14:02:36.193783 +0000 build-r42-debian1: output: Get:16 https://deb.debian.org/debian bullseye/main amd64 adduser all 3.118+deb11u1 [241 kB]
+2024-02-25 14:02:36.342294 +0000 build-r42-debian1: output: Get:17 https://deb.debian.org/debian bullseye/main amd64 libgnutls30 amd64 3.7.1-5+deb11u4 [1340 kB]
+2024-02-25 14:02:37.264751 +0000 build-r42-debian1: output: Get:18 https://deb.debian.org/debian bullseye/main amd64 libk5crypto3 amd64 1.18.3-6+deb11u4 [114 kB]
+2024-02-25 14:02:37.317142 +0000 build-r42-debian1: output: Get:19 https://deb.debian.org/debian bullseye/main amd64 libkrb5support0 amd64 1.18.3-6+deb11u4 [65.6 kB]
+2024-02-25 14:02:37.371547 +0000 build-r42-debian1: output: Get:20 https://deb.debian.org/debian bullseye/main amd64 libkrb5-3 amd64 1.18.3-6+deb11u4 [363 kB]
+2024-02-25 14:02:37.629657 +0000 build-r42-debian1: output: Get:21 https://deb.debian.org/debian bullseye/main amd64 libgssapi-krb5-2 amd64 1.18.3-6+deb11u4 [165 kB]
+2024-02-25 14:02:37.699969 +0000 build-r42-debian1: output: Get:22 https://deb.debian.org/debian bullseye/main amd64 libssl1.1 amd64 1.1.1w-0+deb11u1 [1566 kB]
+2024-02-25 14:02:38.634832 +0000 build-r42-debian1: output: Get:23 https://deb.debian.org/debian bullseye/main amd64 libncursesw6 amd64 6.2+20201114-2+deb11u2 [132 kB]
+2024-02-25 14:02:38.712468 +0000 build-r42-debian1: output: Get:24 https://deb.debian.org/debian bullseye/main amd64 libtinfo6 amd64 6.2+20201114-2+deb11u2 [342 kB]
+2024-02-25 14:02:51.459417 +0000 build-r42-debian1: output: Get:25 https://deb.debian.org/debian bullseye/main amd64 libudev1 amd64 247.3-7+deb11u4 [168 kB]
+2024-02-25 14:02:51.673062 +0000 build-r42-debian1: output: Get:26 https://deb.debian.org/debian bullseye/main amd64 tzdata all 2024a-0+deb11u1 [304 kB]
+2024-02-25 14:02:52.126185 +0000 build-r42-debian1: output: Get:27 https://deb.debian.org/debian bullseye/main amd64 dpkg-dev all 1.20.13 [2314 kB]
+2024-02-25 14:02:55.112314 +0000 build-r42-debian1: output: Get:28 https://deb.debian.org/debian bullseye/main amd64 libdpkg-perl all 1.20.13 [1552 kB]
+2024-02-25 14:02:56.557594 +0000 build-r42-debian1: output: Get:29 https://deb.debian.org/debian bullseye/main amd64 openssl amd64 1.1.1w-0+deb11u1 [859 kB]
+2024-02-25 14:02:57.471178 +0000 build-r42-debian1: output: debconf: delaying package configuration, since apt-utils is not installed
+2024-02-25 14:02:57.495757 +0000 build-r42-debian1: output: Fetched 30.9 MB in 1min 2s (497 kB/s)
+2024-02-25 14:02:57.516261 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:57.516703 +0000 build-r42-debian1: output: Preparing to unpack .../base-files_11.1+deb11u9_amd64.deb ....
+2024-02-25 14:02:57.526142 +0000 build-r42-debian1: output: Unpacking base-files (11.1+deb11u9) over (11.1+deb11u7) ....
+2024-02-25 14:02:57.566091 +0000 build-r42-debian1: output: Setting up base-files (11.1+deb11u9) ....
+2024-02-25 14:02:57.568154 +0000 build-r42-debian1: output: Installing new version of config file /etc/debian_version ....
+2024-02-25 14:02:57.624655 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:57.625011 +0000 build-r42-debian1: output: Preparing to unpack .../tar_1.34+dfsg-1+deb11u1_amd64.deb ....
+2024-02-25 14:02:57.635453 +0000 build-r42-debian1: output: Unpacking tar (1.34+dfsg-1+deb11u1) over (1.34+dfsg-1) ....
+2024-02-25 14:02:57.794006 +0000 build-r42-debian1: output: Setting up tar (1.34+dfsg-1+deb11u1) ....
+2024-02-25 14:02:57.828062 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:57.828422 +0000 build-r42-debian1: output: Preparing to unpack .../dpkg_1.20.13_amd64.deb ....
+2024-02-25 14:02:57.835329 +0000 build-r42-debian1: output: Unpacking dpkg (1.20.13) over (1.20.12) ....
+2024-02-25 14:02:58.029218 +0000 build-r42-debian1: output: Setting up dpkg (1.20.13) ....
+2024-02-25 14:02:58.071663 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:58.072225 +0000 build-r42-debian1: output: Preparing to unpack .../ncurses-bin_6.2+20201114-2+deb11u2_amd64.deb ....
+2024-02-25 14:02:58.082098 +0000 build-r42-debian1: output: Unpacking ncurses-bin (6.2+20201114-2+deb11u2) over (6.2+20201114-2+deb11u1) ....
+2024-02-25 14:02:58.140724 +0000 build-r42-debian1: output: Setting up ncurses-bin (6.2+20201114-2+deb11u2) ....
+2024-02-25 14:02:58.173173 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:58.174059 +0000 build-r42-debian1: output: Preparing to unpack .../libperl5.32_5.32.1-4+deb11u3_amd64.deb ....
+2024-02-25 14:02:58.185880 +0000 build-r42-debian1: output: Unpacking libperl5.32:amd64 (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ....
+2024-02-25 14:02:58.783918 +0000 build-r42-debian1: output: Preparing to unpack .../perl_5.32.1-4+deb11u3_amd64.deb ....
+2024-02-25 14:02:58.803763 +0000 build-r42-debian1: output: Unpacking perl (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ....
+2024-02-25 14:02:58.880080 +0000 build-r42-debian1: output: Preparing to unpack .../perl-base_5.32.1-4+deb11u3_amd64.deb ....
+2024-02-25 14:02:58.899383 +0000 build-r42-debian1: output: Unpacking perl-base (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ....
+2024-02-25 14:02:59.331412 +0000 build-r42-debian1: output: Setting up perl-base (5.32.1-4+deb11u3) ....
+2024-02-25 14:02:59.367788 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12943 files and directories currently installed.).
+2024-02-25 14:02:59.368631 +0000 build-r42-debian1: output: Preparing to unpack .../perl-modules-5.32_5.32.1-4+deb11u3_all.deb ....
+2024-02-25 14:02:59.375994 +0000 build-r42-debian1: output: Unpacking perl-modules-5.32 (5.32.1-4+deb11u3) over (5.32.1-4+deb11u2) ....
+2024-02-25 14:02:59.927600 +0000 build-r42-debian1: output: Preparing to unpack .../libc6-dev_2.31-13+deb11u8_amd64.deb ....
+2024-02-25 14:02:59.937962 +0000 build-r42-debian1: output: Unpacking libc6-dev:amd64 (2.31-13+deb11u8) over (2.31-13+deb11u6) ....
+2024-02-25 14:03:00.343524 +0000 build-r42-debian1: output: Preparing to unpack .../libc-dev-bin_2.31-13+deb11u8_amd64.deb ....
+2024-02-25 14:03:00.349667 +0000 build-r42-debian1: output: Unpacking libc-dev-bin (2.31-13+deb11u8) over (2.31-13+deb11u6) ....
+2024-02-25 14:03:00.399051 +0000 build-r42-debian1: output: Preparing to unpack .../linux-libc-dev_5.10.209-2_amd64.deb ....
+2024-02-25 14:03:00.409107 +0000 build-r42-debian1: output: Unpacking linux-libc-dev:amd64 (5.10.209-2) over (5.10.178-3) ....
+2024-02-25 14:03:00.820291 +0000 build-r42-debian1: output: Preparing to unpack .../libc6_2.31-13+deb11u8_amd64.deb ....
+2024-02-25 14:03:00.934598 +0000 build-r42-debian1: output: Unpacking libc6:amd64 (2.31-13+deb11u8) over (2.31-13+deb11u6) ....
+2024-02-25 14:03:01.287300 +0000 build-r42-debian1: output: Setting up libc6:amd64 (2.31-13+deb11u8) ....
+2024-02-25 14:03:01.436014 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:01.436850 +0000 build-r42-debian1: output: Preparing to unpack .../libc-bin_2.31-13+deb11u8_amd64.deb ....
+2024-02-25 14:03:01.445406 +0000 build-r42-debian1: output: Unpacking libc-bin (2.31-13+deb11u8) over (2.31-13+deb11u6) ....
+2024-02-25 14:03:01.592482 +0000 build-r42-debian1: output: Setting up libc-bin (2.31-13+deb11u8) ....
+2024-02-25 14:03:01.659482 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:01.660144 +0000 build-r42-debian1: output: Preparing to unpack .../ncurses-base_6.2+20201114-2+deb11u2_all.deb ....
+2024-02-25 14:03:01.670866 +0000 build-r42-debian1: output: Unpacking ncurses-base (6.2+20201114-2+deb11u2) over (6.2+20201114-2+deb11u1) ....
+2024-02-25 14:03:01.735760 +0000 build-r42-debian1: output: Setting up ncurses-base (6.2+20201114-2+deb11u2) ....
+2024-02-25 14:03:01.780150 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:01.781110 +0000 build-r42-debian1: output: Preparing to unpack .../libsystemd0_247.3-7+deb11u4_amd64.deb ....
+2024-02-25 14:03:01.790497 +0000 build-r42-debian1: output: Unpacking libsystemd0:amd64 (247.3-7+deb11u4) over (247.3-7+deb11u2) ....
+2024-02-25 14:03:01.852663 +0000 build-r42-debian1: output: Setting up libsystemd0:amd64 (247.3-7+deb11u4) ....
+2024-02-25 14:03:01.898647 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:01.899335 +0000 build-r42-debian1: output: Preparing to unpack .../adduser_3.118+deb11u1_all.deb ....
+2024-02-25 14:03:01.906310 +0000 build-r42-debian1: output: Unpacking adduser (3.118+deb11u1) over (3.118) ....
+2024-02-25 14:03:01.992796 +0000 build-r42-debian1: output: Setting up adduser (3.118+deb11u1) ....
+2024-02-25 14:03:02.110201 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.110739 +0000 build-r42-debian1: output: Preparing to unpack .../libgnutls30_3.7.1-5+deb11u4_amd64.deb ....
+2024-02-25 14:03:02.117432 +0000 build-r42-debian1: output: Unpacking libgnutls30:amd64 (3.7.1-5+deb11u4) over (3.7.1-5+deb11u3) ....
+2024-02-25 14:03:02.257430 +0000 build-r42-debian1: output: Setting up libgnutls30:amd64 (3.7.1-5+deb11u4) ....
+2024-02-25 14:03:02.329787 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.330590 +0000 build-r42-debian1: output: Preparing to unpack .../libk5crypto3_1.18.3-6+deb11u4_amd64.deb ....
+2024-02-25 14:03:02.339154 +0000 build-r42-debian1: output: Unpacking libk5crypto3:amd64 (1.18.3-6+deb11u4) over (1.18.3-6+deb11u3) ....
+2024-02-25 14:03:02.369288 +0000 build-r42-debian1: output: Setting up libk5crypto3:amd64 (1.18.3-6+deb11u4) ....
+2024-02-25 14:03:02.397781 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.398296 +0000 build-r42-debian1: output: Preparing to unpack .../libkrb5support0_1.18.3-6+deb11u4_amd64.deb ....
+2024-02-25 14:03:02.404239 +0000 build-r42-debian1: output: Unpacking libkrb5support0:amd64 (1.18.3-6+deb11u4) over (1.18.3-6+deb11u3) ....
+2024-02-25 14:03:02.445364 +0000 build-r42-debian1: output: Setting up libkrb5support0:amd64 (1.18.3-6+deb11u4) ....
+2024-02-25 14:03:02.471846 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.472433 +0000 build-r42-debian1: output: Preparing to unpack .../libkrb5-3_1.18.3-6+deb11u4_amd64.deb ....
+2024-02-25 14:03:02.480820 +0000 build-r42-debian1: output: Unpacking libkrb5-3:amd64 (1.18.3-6+deb11u4) over (1.18.3-6+deb11u3) ....
+2024-02-25 14:03:02.536405 +0000 build-r42-debian1: output: Setting up libkrb5-3:amd64 (1.18.3-6+deb11u4) ....
+2024-02-25 14:03:02.564492 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.565102 +0000 build-r42-debian1: output: Preparing to unpack .../libgssapi-krb5-2_1.18.3-6+deb11u4_amd64.deb ....
+2024-02-25 14:03:02.572865 +0000 build-r42-debian1: output: Unpacking libgssapi-krb5-2:amd64 (1.18.3-6+deb11u4) over (1.18.3-6+deb11u3) ....
+2024-02-25 14:03:02.611562 +0000 build-r42-debian1: output: Setting up libgssapi-krb5-2:amd64 (1.18.3-6+deb11u4) ....
+2024-02-25 14:03:02.678678 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.680902 +0000 build-r42-debian1: output: Preparing to unpack .../libssl1.1_1.1.1w-0+deb11u1_amd64.deb ....
+2024-02-25 14:03:02.691472 +0000 build-r42-debian1: output: Unpacking libssl1.1:amd64 (1.1.1w-0+deb11u1) over (1.1.1n-0+deb11u4) ....
+2024-02-25 14:03:02.797930 +0000 build-r42-debian1: output: Setting up libssl1.1:amd64 (1.1.1w-0+deb11u1) ....
+2024-02-25 14:03:02.897072 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:02.898109 +0000 build-r42-debian1: output: Preparing to unpack .../libncursesw6_6.2+20201114-2+deb11u2_amd64.deb ....
+2024-02-25 14:03:02.904154 +0000 build-r42-debian1: output: Unpacking libncursesw6:amd64 (6.2+20201114-2+deb11u2) over (6.2+20201114-2+deb11u1) ....
+2024-02-25 14:03:02.952585 +0000 build-r42-debian1: output: Preparing to unpack .../libtinfo6_6.2+20201114-2+deb11u2_amd64.deb ....
+2024-02-25 14:03:02.957249 +0000 build-r42-debian1: output: Unpacking libtinfo6:amd64 (6.2+20201114-2+deb11u2) over (6.2+20201114-2+deb11u1) ....
+2024-02-25 14:03:02.992932 +0000 build-r42-debian1: output: Setting up libtinfo6:amd64 (6.2+20201114-2+deb11u2) ....
+2024-02-25 14:03:03.024632 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:03.025169 +0000 build-r42-debian1: output: Preparing to unpack .../libudev1_247.3-7+deb11u4_amd64.deb ....
+2024-02-25 14:03:03.030393 +0000 build-r42-debian1: output: Unpacking libudev1:amd64 (247.3-7+deb11u4) over (247.3-7+deb11u2) ....
+2024-02-25 14:03:03.064243 +0000 build-r42-debian1: output: Setting up libudev1:amd64 (247.3-7+deb11u4) ....
+2024-02-25 14:03:03.100447 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12941 files and directories currently installed.).
+2024-02-25 14:03:03.101094 +0000 build-r42-debian1: output: Preparing to unpack .../tzdata_2024a-0+deb11u1_all.deb ....
+2024-02-25 14:03:03.109555 +0000 build-r42-debian1: output: Unpacking tzdata (2024a-0+deb11u1) over (2021a-1+deb11u10) ....
+2024-02-25 14:03:03.626164 +0000 build-r42-debian1: output: Preparing to unpack .../dpkg-dev_1.20.13_all.deb ....
+2024-02-25 14:03:03.631249 +0000 build-r42-debian1: output: Unpacking dpkg-dev (1.20.13) over (1.20.12) ....
+2024-02-25 14:03:03.801376 +0000 build-r42-debian1: output: Preparing to unpack .../libdpkg-perl_1.20.13_all.deb ....
+2024-02-25 14:03:03.810036 +0000 build-r42-debian1: output: Unpacking libdpkg-perl (1.20.13) over (1.20.12) ....
+2024-02-25 14:03:03.934037 +0000 build-r42-debian1: output: Preparing to unpack .../openssl_1.1.1w-0+deb11u1_amd64.deb ....
+2024-02-25 14:03:03.939438 +0000 build-r42-debian1: output: Unpacking openssl (1.1.1w-0+deb11u1) over (1.1.1n-0+deb11u4) ....
+2024-02-25 14:03:04.038434 +0000 build-r42-debian1: output: Setting up perl-modules-5.32 (5.32.1-4+deb11u3) ....
+2024-02-25 14:03:04.048399 +0000 build-r42-debian1: output: Setting up linux-libc-dev:amd64 (5.10.209-2) ....
+2024-02-25 14:03:04.055378 +0000 build-r42-debian1: output: Setting up tzdata (2024a-0+deb11u1) ....
+2024-02-25 14:03:04.131337 +0000 build-r42-debian1: output: .
+2024-02-25 14:03:04.131372 +0000 build-r42-debian1: output: Current default time zone: 'Etc/UTC'.
+2024-02-25 14:03:04.133983 +0000 build-r42-debian1: output: Local time is now:      Sun Feb 25 14:03:04 UTC 2024..
+2024-02-25 14:03:04.134032 +0000 build-r42-debian1: output: Universal Time is now:  Sun Feb 25 14:03:04 UTC 2024..
+2024-02-25 14:03:04.134058 +0000 build-r42-debian1: output: Run 'dpkg-reconfigure tzdata' if you wish to change it..
+2024-02-25 14:03:04.134070 +0000 build-r42-debian1: output: .
+2024-02-25 14:03:04.153696 +0000 build-r42-debian1: output: Setting up libncursesw6:amd64 (6.2+20201114-2+deb11u2) ....
+2024-02-25 14:03:04.159828 +0000 build-r42-debian1: output: Setting up libperl5.32:amd64 (5.32.1-4+deb11u3) ....
+2024-02-25 14:03:04.164894 +0000 build-r42-debian1: output: Setting up libc-dev-bin (2.31-13+deb11u8) ....
+2024-02-25 14:03:04.172430 +0000 build-r42-debian1: output: Setting up openssl (1.1.1w-0+deb11u1) ....
+2024-02-25 14:03:04.181925 +0000 build-r42-debian1: output: Setting up perl (5.32.1-4+deb11u3) ....
+2024-02-25 14:03:04.203384 +0000 build-r42-debian1: output: Setting up libdpkg-perl (1.20.13) ....
+2024-02-25 14:03:04.210471 +0000 build-r42-debian1: output: Setting up libc6-dev:amd64 (2.31-13+deb11u8) ....
+2024-02-25 14:03:04.216793 +0000 build-r42-debian1: output: Setting up dpkg-dev (1.20.13) ....
+2024-02-25 14:03:04.229930 +0000 build-r42-debian1: output: Processing triggers for libc-bin (2.31-13+deb11u8) ....
+2024-02-25 14:03:04.343714 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:03:04.560082 +0000 build-r42-debian1: output: Building dependency tree...
+2024-02-25 14:03:04.560143 +0000 build-r42-debian1: output: Reading state information...
+2024-02-25 14:03:04.705134 +0000 build-r42-debian1: output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2024-02-25 14:03:04.715638 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:03:04.828438 +0000 build-r42-debian1: output: Building dependency tree...
+2024-02-25 14:03:04.828472 +0000 build-r42-debian1: output: Reading state information...
+2024-02-25 14:03:04.941557 +0000 build-r42-debian1: output: aptitude is already the newest version (0.8.13-3).
+2024-02-25 14:03:04.941619 +0000 build-r42-debian1: output: build-essential is already the newest version (12.9).
+2024-02-25 14:03:04.941635 +0000 build-r42-debian1: output: dpkg-dev is already the newest version (1.20.13).
+2024-02-25 14:03:04.941649 +0000 build-r42-debian1: output: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+2024-02-25 14:03:04.942056 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2024-02-25 14:03:04.946742 +0000 build-r42-debian1: output: I: new cache content 'dpkg_1.20.13_amd64.deb' added
+2024-02-25 14:03:04.950601 +0000 build-r42-debian1: output: I: new cache content 'libkrb5support0_1.18.3-6+deb11u4_amd64.deb' added
+2024-02-25 14:03:04.953782 +0000 build-r42-debian1: output: I: new cache content 'libc6-dev_2.31-13+deb11u8_amd64.deb' added
+2024-02-25 14:03:04.956551 +0000 build-r42-debian1: output: I: new cache content 'libudev1_247.3-7+deb11u4_amd64.deb' added
+2024-02-25 14:03:04.958406 +0000 build-r42-debian1: output: I: new cache content 'perl_5.32.1-4+deb11u3_amd64.deb' added
+2024-02-25 14:03:04.960968 +0000 build-r42-debian1: output: I: new cache content 'tzdata_2024a-0+deb11u1_all.deb' added
+2024-02-25 14:03:04.967096 +0000 build-r42-debian1: output: I: new cache content 'adduser_3.118+deb11u1_all.deb' added
+2024-02-25 14:03:04.969903 +0000 build-r42-debian1: output: I: new cache content 'ncurses-bin_6.2+20201114-2+deb11u2_amd64.deb' added
+2024-02-25 14:03:04.975042 +0000 build-r42-debian1: output: I: new cache content 'ncurses-base_6.2+20201114-2+deb11u2_all.deb' added
+2024-02-25 14:03:04.976875 +0000 build-r42-debian1: output: I: new cache content 'libc-dev-bin_2.31-13+deb11u8_amd64.deb' added
+2024-02-25 14:03:04.978763 +0000 build-r42-debian1: output: I: new cache content 'libk5crypto3_1.18.3-6+deb11u4_amd64.deb' added
+2024-02-25 14:03:04.980691 +0000 build-r42-debian1: output: I: new cache content 'libc6_2.31-13+deb11u8_amd64.deb' added
+2024-02-25 14:03:04.982901 +0000 build-r42-debian1: output: I: new cache content 'openssl_1.1.1w-0+deb11u1_amd64.deb' added
+2024-02-25 14:03:04.985288 +0000 build-r42-debian1: output: I: new cache content 'dpkg-dev_1.20.13_all.deb' added
+2024-02-25 14:03:04.987548 +0000 build-r42-debian1: output: I: new cache content 'libc-bin_2.31-13+deb11u8_amd64.deb' added
+2024-02-25 14:03:04.989574 +0000 build-r42-debian1: output: I: new cache content 'tar_1.34+dfsg-1+deb11u1_amd64.deb' added
+2024-02-25 14:03:04.991652 +0000 build-r42-debian1: output: I: new cache content 'libkrb5-3_1.18.3-6+deb11u4_amd64.deb' added
+2024-02-25 14:03:04.993577 +0000 build-r42-debian1: output: I: new cache content 'perl-modules-5.32_5.32.1-4+deb11u3_all.deb' added
+2024-02-25 14:03:04.995860 +0000 build-r42-debian1: output: I: new cache content 'libssl1.1_1.1.1w-0+deb11u1_amd64.deb' added
+2024-02-25 14:03:04.998227 +0000 build-r42-debian1: output: I: new cache content 'base-files_11.1+deb11u9_amd64.deb' added
+2024-02-25 14:03:05.000391 +0000 build-r42-debian1: output: I: new cache content 'libtinfo6_6.2+20201114-2+deb11u2_amd64.deb' added
+2024-02-25 14:03:05.002683 +0000 build-r42-debian1: output: I: new cache content 'libgnutls30_3.7.1-5+deb11u4_amd64.deb' added
+2024-02-25 14:03:05.005089 +0000 build-r42-debian1: output: I: new cache content 'libperl5.32_5.32.1-4+deb11u3_amd64.deb' added
+2024-02-25 14:03:05.007109 +0000 build-r42-debian1: output: I: new cache content 'libdpkg-perl_1.20.13_all.deb' added
+2024-02-25 14:03:05.008958 +0000 build-r42-debian1: output: I: new cache content 'libsystemd0_247.3-7+deb11u4_amd64.deb' added
+2024-02-25 14:03:05.010826 +0000 build-r42-debian1: output: I: new cache content 'perl-base_5.32.1-4+deb11u3_amd64.deb' added
+2024-02-25 14:03:05.012713 +0000 build-r42-debian1: output: I: new cache content 'libgssapi-krb5-2_1.18.3-6+deb11u4_amd64.deb' added
+2024-02-25 14:03:05.014817 +0000 build-r42-debian1: output: I: new cache content 'libncursesw6_6.2+20201114-2+deb11u2_amd64.deb' added
+2024-02-25 14:03:05.016512 +0000 build-r42-debian1: output: I: new cache content 'linux-libc-dev_5.10.209-2_amd64.deb' added
+2024-02-25 14:03:05.017533 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/1459/tmp/hooks/E30origin starting
+2024-02-25 14:03:05.021571 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/1459/tmp/hooks/E30origin finished
+2024-02-25 14:03:05.021593 +0000 build-r42-debian1: output: I: unmounting /tmp/qubes-deb filesystem
+2024-02-25 14:03:05.030328 +0000 build-r42-debian1: output: I: unmounting dev/ptmx filesystem
+2024-02-25 14:03:05.033442 +0000 build-r42-debian1: output: I: unmounting dev/pts filesystem
+2024-02-25 14:03:05.036349 +0000 build-r42-debian1: output: I: unmounting dev/shm filesystem
+2024-02-25 14:03:05.039096 +0000 build-r42-debian1: output: I: unmounting proc filesystem
+2024-02-25 14:03:05.042011 +0000 build-r42-debian1: output: I: unmounting sys filesystem
+2024-02-25 14:03:05.060643 +0000 build-r42-debian1: output: I: creating base tarball [/builder/pbuilder/base.tgz]
+2024-02-25 14:03:27.880159 +0000 build-r42-debian1: output: I: cleaning the build env
+2024-02-25 14:03:27.880220 +0000 build-r42-debian1: output: I: removing directory /builder/pbuilder/build/1459 and its subdirectories
+2024-02-25 14:03:28.511507 +0000 build-r42-debian1: output: W: /root/.pbuilderrc does not exist
+2024-02-25 14:03:28.580856 +0000 build-r42-debian1: output: W: libeatmydata is not installed on the host, not using it.
+2024-02-25 14:03:28.590831 +0000 build-r42-debian1: output: dpkg-query: no packages found matching systemd
+2024-02-25 14:03:28.594375 +0000 build-r42-debian1: output: W: cgroups are not available on the host, not using them.
+2024-02-25 14:03:28.711848 +0000 build-r42-debian1: output: I: pbuilder: network access will be disabled during build
+2024-02-25 14:03:28.712711 +0000 build-r42-debian1: output: I: Current time: Sun Feb 25 15:03:28 CET 2024
+2024-02-25 14:03:28.713611 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1708869808
+2024-02-25 14:03:28.714632 +0000 build-r42-debian1: output: I: Building the build Environment
+2024-02-25 14:03:28.715587 +0000 build-r42-debian1: output: I: extracting base tarball [/builder/pbuilder/base.tgz]
+2024-02-25 14:03:31.718375 +0000 build-r42-debian1: output: I: copying local configuration
+2024-02-25 14:03:31.722043 +0000 build-r42-debian1: output: W: No local /etc/hostname to copy, relying on /builder/pbuilder/build/2210/etc/hostname to be correct
+2024-02-25 14:03:31.722089 +0000 build-r42-debian1: output: W: No local /etc/mailname to copy, relying on /builder/pbuilder/build/2210/etc/mailname to be correct
+2024-02-25 14:03:31.725919 +0000 build-r42-debian1: output: I: Installing apt-lines
+2024-02-25 14:03:31.792433 +0000 build-r42-debian1: output: I: mounting /proc filesystem
+2024-02-25 14:03:31.798775 +0000 build-r42-debian1: output: I: mounting /sys filesystem
+2024-02-25 14:03:31.800082 +0000 build-r42-debian1: output: I: creating /{dev,run}/shm
+2024-02-25 14:03:31.808439 +0000 build-r42-debian1: output: I: mounting /dev/pts filesystem
+2024-02-25 14:03:31.812578 +0000 build-r42-debian1: output: I: redirecting /dev/ptmx to /dev/pts/ptmx
+2024-02-25 14:03:31.820749 +0000 build-r42-debian1: output: I: Mounting /builder/repository to /tmp/qubes-deb
+2024-02-25 14:03:31.822974 +0000 build-r42-debian1: output: I: policy-rc.d already exists
+2024-02-25 14:03:31.828395 +0000 build-r42-debian1: output: I: created buildresult dir: /builder/pbuilder/results
+2024-02-25 14:03:31.828417 +0000 build-r42-debian1: output: I: Obtaining the cached apt archive contents
+2024-02-25 14:03:31.877365 +0000 build-r42-debian1: output: I: Copying source file
+2024-02-25 14:03:31.888436 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.3-1+deb11u1.dsc]
+2024-02-25 14:03:31.890496 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.3.orig.tar.gz]
+2024-02-25 14:03:31.892444 +0000 build-r42-debian1: output: I: copying [/builder/build/qubes-split-browser_0.16.3-1+deb11u1.debian.tar.xz]
+2024-02-25 14:03:31.901021 +0000 build-r42-debian1: output: I: Extracting source
+2024-02-25 14:03:31.995660 +0000 build-r42-debian1: output: dpkg-source: warning: extracting unsigned source package (qubes-split-browser_0.16.3-1+deb11u1.dsc)
+2024-02-25 14:03:32.000229 +0000 build-r42-debian1: output: dpkg-source: info: extracting qubes-split-browser in qubes-split-browser-0.16.3
+2024-02-25 14:03:32.000292 +0000 build-r42-debian1: output: dpkg-source: info: unpacking qubes-split-browser_0.16.3.orig.tar.gz
+2024-02-25 14:03:32.012779 +0000 build-r42-debian1: output: dpkg-source: info: unpacking qubes-split-browser_0.16.3-1+deb11u1.debian.tar.xz
+2024-02-25 14:03:32.023804 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2024-02-25 14:03:32.023851 +0000 build-r42-debian1: output: dpkg-source: info: applying esr.diff
+2024-02-25 14:03:32.039398 +0000 build-r42-debian1: output: I: Not using root during the build.
+2024-02-25 14:03:32.039432 +0000 build-r42-debian1: output: I: Installing the build-deps
+2024-02-25 14:03:32.039661 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/2210/tmp/hooks/D30update starting
+2024-02-25 14:03:32.071770 +0000 build-r42-debian1: output: Get:1 file:/tmp/qubes-deb bullseye InRelease
+2024-02-25 14:03:32.071831 +0000 build-r42-debian1: output: Ign:1 file:/tmp/qubes-deb bullseye InRelease
+2024-02-25 14:03:32.071855 +0000 build-r42-debian1: output: Get:2 file:/tmp/qubes-deb bullseye Release [1608 B]
+2024-02-25 14:03:32.081301 +0000 build-r42-debian1: output: Get:2 file:/tmp/qubes-deb bullseye Release [1608 B]
+2024-02-25 14:03:32.081623 +0000 build-r42-debian1: output: Get:3 file:/tmp/qubes-deb bullseye Release.gpg
+2024-02-25 14:03:32.082089 +0000 build-r42-debian1: output: Ign:3 file:/tmp/qubes-deb bullseye Release.gpg
+2024-02-25 14:03:32.082220 +0000 build-r42-debian1: output: Get:4 file:/tmp/qubes-deb bullseye/main amd64 Packages [514 B]
+2024-02-25 14:03:32.933362 +0000 build-r42-debian1: output: Hit:5 https://deb.debian.org/debian bullseye InRelease
+2024-02-25 14:03:33.408418 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:03:33.424212 +0000 build-r42-debian1: output: I: user script /builder/pbuilder/build/2210/tmp/hooks/D30update finished
+2024-02-25 14:03:33.473494 +0000 build-r42-debian1: output:  -> Attempting to satisfy build-dependencies
+2024-02-25 14:03:33.506282 +0000 build-r42-debian1: output:  -> Creating pbuilder-satisfydepends-dummy package
+2024-02-25 14:03:33.511345 +0000 build-r42-debian1: output: Package: pbuilder-satisfydepends-dummy
+2024-02-25 14:03:33.511380 +0000 build-r42-debian1: output: Version: 0.invalid.0
+2024-02-25 14:03:33.511389 +0000 build-r42-debian1: output: Architecture: amd64
+2024-02-25 14:03:33.511409 +0000 build-r42-debian1: output: Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+2024-02-25 14:03:33.511419 +0000 build-r42-debian1: output: Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+2024-02-25 14:03:33.511435 +0000 build-r42-debian1: output:  This package was created automatically by pbuilder to satisfy the
+2024-02-25 14:03:33.511445 +0000 build-r42-debian1: output:  build-dependencies of the package being currently built.
+2024-02-25 14:03:33.511493 +0000 build-r42-debian1: output: Depends: debhelper-compat (= 12)
+2024-02-25 14:03:33.512911 +0000 build-r42-debian1: output: dpkg-deb: building package 'pbuilder-satisfydepends-dummy' in '/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+2024-02-25 14:03:33.532163 +0000 build-r42-debian1: output: Selecting previously unselected package pbuilder-satisfydepends-dummy.
+2024-02-25 14:03:33.537267 +0000 build-r42-debian1: output: (Reading database ... 12947 files and directories currently installed.)
+2024-02-25 14:03:33.537746 +0000 build-r42-debian1: output: Preparing to unpack .../pbuilder-satisfydepends-dummy.deb ...
+2024-02-25 14:03:33.540588 +0000 build-r42-debian1: output: Unpacking pbuilder-satisfydepends-dummy (0.invalid.0) ...
+2024-02-25 14:03:33.556958 +0000 build-r42-debian1: output: Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+2024-02-25 14:03:33.557296 +0000 build-r42-debian1: output: dpkg: pbuilder-satisfydepends-dummy: dependency problems, but configuring anyway as you requested:
+2024-02-25 14:03:33.557324 +0000 build-r42-debian1: output:  pbuilder-satisfydepends-dummy depends on debhelper-compat (= 12); however:
+2024-02-25 14:03:33.557476 +0000 build-r42-debian1: output:   Package debhelper-compat is not installed.
+2024-02-25 14:03:33.557498 +0000 build-r42-debian1: output: 
+2024-02-25 14:03:33.716391 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:03:33.858317 +0000 build-r42-debian1: output: Building dependency tree...
+2024-02-25 14:03:33.858352 +0000 build-r42-debian1: output: Reading state information...
+2024-02-25 14:03:33.885528 +0000 build-r42-debian1: output: Initializing package states...
+2024-02-25 14:03:33.987608 +0000 build-r42-debian1: output: Writing extended state information...
+2024-02-25 14:03:34.068666 +0000 build-r42-debian1: output: Building tag database...
+2024-02-25 14:03:34.706845 +0000 build-r42-debian1: output: pbuilder-satisfydepends-dummy is already installed at the requested version (0.invalid.0)
+2024-02-25 14:03:34.706899 +0000 build-r42-debian1: output: pbuilder-satisfydepends-dummy is already installed at the requested version (0.invalid.0)
+2024-02-25 14:03:34.706909 +0000 build-r42-debian1: output: The following NEW packages will be installed:
+2024-02-25 14:03:34.706941 +0000 build-r42-debian1: output:   autoconf{a} automake{a} autopoint{a} autotools-dev{a} bsdextrautils{a} debhelper{a} dh-autoreconf{a} dh-strip-nondeterminism{a} dwz{a} file{a} gettext{a} gettext-base{a} groff-base{a} intltool-debian{a} libarchive-zip-perl{a} libdebhelper-perl{a} libelf1{a} libfile-stripnondeterminism-perl{a} libicu67{a} libmagic-mgc{a} libmagic1{a} libpipeline1{a} libsigsegv2{a} libsub-override-perl{a} libtool{a} libuchardet0{a} libxml2{a} m4{a} man-db{a} po-debconf{a} sensible-utils{a}
+2024-02-25 14:03:34.706959 +0000 build-r42-debian1: output: The following packages are RECOMMENDED but will NOT be installed:
+2024-02-25 14:03:34.706994 +0000 build-r42-debian1: output:   curl libarchive-cpio-perl libltdl-dev libmail-sendmail-perl lynx wget
+2024-02-25 14:03:34.707003 +0000 build-r42-debian1: output: 0 packages upgraded, 31 newly installed, 0 to remove and 0 not upgraded.
+2024-02-25 14:03:34.707011 +0000 build-r42-debian1: output: Need to get 18.3 MB of archives. After unpacking 67.7 MB will be used.
+2024-02-25 14:03:34.707020 +0000 build-r42-debian1: output: Writing extended state information...
+2024-02-25 14:03:35.621486 +0000 build-r42-debian1: output: Get: 1 https://deb.debian.org/debian bullseye/main amd64 bsdextrautils amd64 2.36.1-8+deb11u1 [145 kB]
+2024-02-25 14:03:36.189162 +0000 build-r42-debian1: output: Get: 2 https://deb.debian.org/debian bullseye/main amd64 libuchardet0 amd64 0.0.7-1 [67.8 kB]
+2024-02-25 14:03:36.293597 +0000 build-r42-debian1: output: Get: 3 https://deb.debian.org/debian bullseye/main amd64 groff-base amd64 1.22.4-6 [936 kB]
+2024-02-25 14:03:37.316157 +0000 build-r42-debian1: output: Get: 4 https://deb.debian.org/debian bullseye/main amd64 libpipeline1 amd64 1.5.3-1 [34.3 kB]
+2024-02-25 14:03:37.342218 +0000 build-r42-debian1: output: Get: 5 https://deb.debian.org/debian bullseye/main amd64 man-db amd64 2.9.4-2 [1354 kB]
+2024-02-25 14:03:38.454254 +0000 build-r42-debian1: output: Get: 6 https://deb.debian.org/debian bullseye/main amd64 sensible-utils all 0.0.14 [14.8 kB]
+2024-02-25 14:03:38.490183 +0000 build-r42-debian1: output: Get: 7 https://deb.debian.org/debian bullseye/main amd64 libmagic-mgc amd64 1:5.39-3+deb11u1 [273 kB]
+2024-02-25 14:03:38.705477 +0000 build-r42-debian1: output: Get: 8 https://deb.debian.org/debian bullseye/main amd64 libmagic1 amd64 1:5.39-3+deb11u1 [128 kB]
+2024-02-25 14:03:38.764850 +0000 build-r42-debian1: output: Get: 9 https://deb.debian.org/debian bullseye/main amd64 file amd64 1:5.39-3+deb11u1 [69.2 kB]
+2024-02-25 14:03:38.917718 +0000 build-r42-debian1: output: Get: 10 https://deb.debian.org/debian bullseye/main amd64 gettext-base amd64 0.21-4 [175 kB]
+2024-02-25 14:03:39.017646 +0000 build-r42-debian1: output: Get: 11 https://deb.debian.org/debian bullseye/main amd64 libsigsegv2 amd64 2.13-1 [34.8 kB]
+2024-02-25 14:03:39.026759 +0000 build-r42-debian1: output: Get: 12 https://deb.debian.org/debian bullseye/main amd64 m4 amd64 1.4.18-5 [204 kB]
+2024-02-25 14:03:39.187542 +0000 build-r42-debian1: output: Get: 13 https://deb.debian.org/debian bullseye/main amd64 autoconf all 2.69-14 [313 kB]
+2024-02-25 14:03:39.397130 +0000 build-r42-debian1: output: Get: 14 https://deb.debian.org/debian bullseye/main amd64 autotools-dev all 20180224.1+nmu1 [77.1 kB]
+2024-02-25 14:03:39.494142 +0000 build-r42-debian1: output: Get: 15 https://deb.debian.org/debian bullseye/main amd64 automake all 1:1.16.3-2 [814 kB]
+2024-02-25 14:03:40.104097 +0000 build-r42-debian1: output: Get: 16 https://deb.debian.org/debian bullseye/main amd64 autopoint all 0.21-4 [510 kB]
+2024-02-25 14:03:40.496732 +0000 build-r42-debian1: output: Get: 17 https://deb.debian.org/debian bullseye/main amd64 libdebhelper-perl all 13.3.4 [189 kB]
+2024-02-25 14:03:40.607545 +0000 build-r42-debian1: output: Get: 18 https://deb.debian.org/debian bullseye/main amd64 libtool all 2.4.6-15 [513 kB]
+2024-02-25 14:03:55.928071 +0000 build-r42-debian1: output: Get: 19 https://deb.debian.org/debian bullseye/main amd64 dh-autoreconf all 20 [17.1 kB]
+2024-02-25 14:03:55.934146 +0000 build-r42-debian1: output: Get: 20 https://deb.debian.org/debian bullseye/main amd64 libarchive-zip-perl all 1.68-1 [104 kB]
+2024-02-25 14:03:56.221481 +0000 build-r42-debian1: output: Get: 21 https://deb.debian.org/debian bullseye/main amd64 libsub-override-perl all 0.09-2 [10.2 kB]
+2024-02-25 14:03:56.223706 +0000 build-r42-debian1: output: Get: 22 https://deb.debian.org/debian bullseye/main amd64 libfile-stripnondeterminism-perl all 1.12.0-1 [26.3 kB]
+2024-02-25 14:03:56.296107 +0000 build-r42-debian1: output: Get: 23 https://deb.debian.org/debian bullseye/main amd64 dh-strip-nondeterminism all 1.12.0-1 [15.4 kB]
+2024-02-25 14:03:56.302162 +0000 build-r42-debian1: output: Get: 24 https://deb.debian.org/debian bullseye/main amd64 libelf1 amd64 0.183-1 [165 kB]
+2024-02-25 14:03:56.530258 +0000 build-r42-debian1: output: Get: 25 https://deb.debian.org/debian bullseye/main amd64 dwz amd64 0.13+20210201-1 [175 kB]
+2024-02-25 14:03:56.819604 +0000 build-r42-debian1: output: Get: 26 https://deb.debian.org/debian bullseye/main amd64 libicu67 amd64 67.1-7 [8622 kB]
+2024-02-25 14:04:07.097663 +0000 build-r42-debian1: output: Get: 27 https://deb.debian.org/debian bullseye/main amd64 libxml2 amd64 2.9.10+dfsg-6.7+deb11u4 [693 kB]
+2024-02-25 14:04:07.604863 +0000 build-r42-debian1: output: Get: 28 https://deb.debian.org/debian bullseye/main amd64 gettext amd64 0.21-4 [1311 kB]
+2024-02-25 14:04:08.592017 +0000 build-r42-debian1: output: Get: 29 https://deb.debian.org/debian bullseye/main amd64 intltool-debian all 0.35.0+20060710.5 [26.8 kB]
+2024-02-25 14:04:08.600929 +0000 build-r42-debian1: output: Get: 30 https://deb.debian.org/debian bullseye/main amd64 po-debconf all 1.0.21+nmu1 [248 kB]
+2024-02-25 14:04:08.776206 +0000 build-r42-debian1: output: Get: 31 https://deb.debian.org/debian bullseye/main amd64 debhelper all 13.3.4 [1049 kB]
+2024-02-25 14:04:09.531119 +0000 build-r42-debian1: output: Fetched 18.3 MB in 35s (526 kB/s)
+2024-02-25 14:04:09.660109 +0000 build-r42-debian1: output: debconf: delaying package configuration, since apt-utils is not installed
+2024-02-25 14:04:09.708217 +0000 build-r42-debian1: output: Selecting previously unselected package bsdextrautils..
+2024-02-25 14:04:09.715597 +0000 build-r42-debian1: output: (Reading database ... .(Reading database ... 5%.(Reading database ... 10%.(Reading database ... 15%.(Reading database ... 20%.(Reading database ... 25%.(Reading database ... 30%.(Reading database ... 35%.(Reading database ... 40%.(Reading database ... 45%.(Reading database ... 50%.(Reading database ... 55%.(Reading database ... 60%.(Reading database ... 65%.(Reading database ... 70%.(Reading database ... 75%.(Reading database ... 80%.(Reading database ... 85%.(Reading database ... 90%.(Reading database ... 95%.(Reading database ... 100%.(Reading database ... 12947 files and directories currently installed.).
+2024-02-25 14:04:09.715950 +0000 build-r42-debian1: output: Preparing to unpack .../00-bsdextrautils_2.36.1-8+deb11u1_amd64.deb ....
+2024-02-25 14:04:09.721705 +0000 build-r42-debian1: output: Unpacking bsdextrautils (2.36.1-8+deb11u1) ....
+2024-02-25 14:04:09.773191 +0000 build-r42-debian1: output: Selecting previously unselected package libuchardet0:amd64..
+2024-02-25 14:04:09.774468 +0000 build-r42-debian1: output: Preparing to unpack .../01-libuchardet0_0.0.7-1_amd64.deb ....
+2024-02-25 14:04:09.778820 +0000 build-r42-debian1: output: Unpacking libuchardet0:amd64 (0.0.7-1) ....
+2024-02-25 14:04:09.815366 +0000 build-r42-debian1: output: Selecting previously unselected package groff-base..
+2024-02-25 14:04:09.817191 +0000 build-r42-debian1: output: Preparing to unpack .../02-groff-base_1.22.4-6_amd64.deb ....
+2024-02-25 14:04:09.819710 +0000 build-r42-debian1: output: Unpacking groff-base (1.22.4-6) ....
+2024-02-25 14:04:09.987094 +0000 build-r42-debian1: output: Selecting previously unselected package libpipeline1:amd64..
+2024-02-25 14:04:09.988614 +0000 build-r42-debian1: output: Preparing to unpack .../03-libpipeline1_1.5.3-1_amd64.deb ....
+2024-02-25 14:04:09.991408 +0000 build-r42-debian1: output: Unpacking libpipeline1:amd64 (1.5.3-1) ....
+2024-02-25 14:04:10.034655 +0000 build-r42-debian1: output: Selecting previously unselected package man-db..
+2024-02-25 14:04:10.036495 +0000 build-r42-debian1: output: Preparing to unpack .../04-man-db_2.9.4-2_amd64.deb ....
+2024-02-25 14:04:10.041999 +0000 build-r42-debian1: output: Unpacking man-db (2.9.4-2) ....
+2024-02-25 14:04:10.279211 +0000 build-r42-debian1: output: Selecting previously unselected package sensible-utils..
+2024-02-25 14:04:10.280963 +0000 build-r42-debian1: output: Preparing to unpack .../05-sensible-utils_0.0.14_all.deb ....
+2024-02-25 14:04:10.284161 +0000 build-r42-debian1: output: Unpacking sensible-utils (0.0.14) ....
+2024-02-25 14:04:10.316746 +0000 build-r42-debian1: output: Selecting previously unselected package libmagic-mgc..
+2024-02-25 14:04:10.318750 +0000 build-r42-debian1: output: Preparing to unpack .../06-libmagic-mgc_1%3a5.39-3+deb11u1_amd64.deb ....
+2024-02-25 14:04:10.321393 +0000 build-r42-debian1: output: Unpacking libmagic-mgc (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:10.396988 +0000 build-r42-debian1: output: Selecting previously unselected package libmagic1:amd64..
+2024-02-25 14:04:10.398452 +0000 build-r42-debian1: output: Preparing to unpack .../07-libmagic1_1%3a5.39-3+deb11u1_amd64.deb ....
+2024-02-25 14:04:10.400595 +0000 build-r42-debian1: output: Unpacking libmagic1:amd64 (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:10.432914 +0000 build-r42-debian1: output: Selecting previously unselected package file..
+2024-02-25 14:04:10.434663 +0000 build-r42-debian1: output: Preparing to unpack .../08-file_1%3a5.39-3+deb11u1_amd64.deb ....
+2024-02-25 14:04:10.436944 +0000 build-r42-debian1: output: Unpacking file (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:10.472030 +0000 build-r42-debian1: output: Selecting previously unselected package gettext-base..
+2024-02-25 14:04:10.473876 +0000 build-r42-debian1: output: Preparing to unpack .../09-gettext-base_0.21-4_amd64.deb ....
+2024-02-25 14:04:10.476199 +0000 build-r42-debian1: output: Unpacking gettext-base (0.21-4) ....
+2024-02-25 14:04:10.546628 +0000 build-r42-debian1: output: Selecting previously unselected package libsigsegv2:amd64..
+2024-02-25 14:04:10.548442 +0000 build-r42-debian1: output: Preparing to unpack .../10-libsigsegv2_2.13-1_amd64.deb ....
+2024-02-25 14:04:10.551013 +0000 build-r42-debian1: output: Unpacking libsigsegv2:amd64 (2.13-1) ....
+2024-02-25 14:04:10.582956 +0000 build-r42-debian1: output: Selecting previously unselected package m4..
+2024-02-25 14:04:10.584619 +0000 build-r42-debian1: output: Preparing to unpack .../11-m4_1.4.18-5_amd64.deb ....
+2024-02-25 14:04:10.587137 +0000 build-r42-debian1: output: Unpacking m4 (1.4.18-5) ....
+2024-02-25 14:04:10.642980 +0000 build-r42-debian1: output: Selecting previously unselected package autoconf..
+2024-02-25 14:04:10.644814 +0000 build-r42-debian1: output: Preparing to unpack .../12-autoconf_2.69-14_all.deb ....
+2024-02-25 14:04:10.647383 +0000 build-r42-debian1: output: Unpacking autoconf (2.69-14) ....
+2024-02-25 14:04:10.723567 +0000 build-r42-debian1: output: Selecting previously unselected package autotools-dev..
+2024-02-25 14:04:10.725481 +0000 build-r42-debian1: output: Preparing to unpack .../13-autotools-dev_20180224.1+nmu1_all.deb ....
+2024-02-25 14:04:10.728099 +0000 build-r42-debian1: output: Unpacking autotools-dev (20180224.1+nmu1) ....
+2024-02-25 14:04:10.767944 +0000 build-r42-debian1: output: Selecting previously unselected package automake..
+2024-02-25 14:04:10.769835 +0000 build-r42-debian1: output: Preparing to unpack .../14-automake_1%3a1.16.3-2_all.deb ....
+2024-02-25 14:04:10.773638 +0000 build-r42-debian1: output: Unpacking automake (1:1.16.3-2) ....
+2024-02-25 14:04:10.889350 +0000 build-r42-debian1: output: Selecting previously unselected package autopoint..
+2024-02-25 14:04:10.890899 +0000 build-r42-debian1: output: Preparing to unpack .../15-autopoint_0.21-4_all.deb ....
+2024-02-25 14:04:10.892877 +0000 build-r42-debian1: output: Unpacking autopoint (0.21-4) ....
+2024-02-25 14:04:10.937762 +0000 build-r42-debian1: output: Selecting previously unselected package libdebhelper-perl..
+2024-02-25 14:04:10.939709 +0000 build-r42-debian1: output: Preparing to unpack .../16-libdebhelper-perl_13.3.4_all.deb ....
+2024-02-25 14:04:10.942026 +0000 build-r42-debian1: output: Unpacking libdebhelper-perl (13.3.4) ....
+2024-02-25 14:04:11.001679 +0000 build-r42-debian1: output: Selecting previously unselected package libtool..
+2024-02-25 14:04:11.003507 +0000 build-r42-debian1: output: Preparing to unpack .../17-libtool_2.4.6-15_all.deb ....
+2024-02-25 14:04:11.006252 +0000 build-r42-debian1: output: Unpacking libtool (2.4.6-15) ....
+2024-02-25 14:04:11.057477 +0000 build-r42-debian1: output: Selecting previously unselected package dh-autoreconf..
+2024-02-25 14:04:11.059372 +0000 build-r42-debian1: output: Preparing to unpack .../18-dh-autoreconf_20_all.deb ....
+2024-02-25 14:04:11.061575 +0000 build-r42-debian1: output: Unpacking dh-autoreconf (20) ....
+2024-02-25 14:04:11.088789 +0000 build-r42-debian1: output: Selecting previously unselected package libarchive-zip-perl..
+2024-02-25 14:04:11.090871 +0000 build-r42-debian1: output: Preparing to unpack .../19-libarchive-zip-perl_1.68-1_all.deb ....
+2024-02-25 14:04:11.105216 +0000 build-r42-debian1: output: Unpacking libarchive-zip-perl (1.68-1) ....
+2024-02-25 14:04:11.232538 +0000 build-r42-debian1: output: Selecting previously unselected package libsub-override-perl..
+2024-02-25 14:04:11.234992 +0000 build-r42-debian1: output: Preparing to unpack .../20-libsub-override-perl_0.09-2_all.deb ....
+2024-02-25 14:04:11.249257 +0000 build-r42-debian1: output: Unpacking libsub-override-perl (0.09-2) ....
+2024-02-25 14:04:11.299802 +0000 build-r42-debian1: output: Selecting previously unselected package libfile-stripnondeterminism-perl..
+2024-02-25 14:04:11.301009 +0000 build-r42-debian1: output: Preparing to unpack .../21-libfile-stripnondeterminism-perl_1.12.0-1_all.deb ....
+2024-02-25 14:04:11.304968 +0000 build-r42-debian1: output: Unpacking libfile-stripnondeterminism-perl (1.12.0-1) ....
+2024-02-25 14:04:11.335000 +0000 build-r42-debian1: output: Selecting previously unselected package dh-strip-nondeterminism..
+2024-02-25 14:04:11.336553 +0000 build-r42-debian1: output: Preparing to unpack .../22-dh-strip-nondeterminism_1.12.0-1_all.deb ....
+2024-02-25 14:04:11.338410 +0000 build-r42-debian1: output: Unpacking dh-strip-nondeterminism (1.12.0-1) ....
+2024-02-25 14:04:11.360080 +0000 build-r42-debian1: output: Selecting previously unselected package libelf1:amd64..
+2024-02-25 14:04:11.361716 +0000 build-r42-debian1: output: Preparing to unpack .../23-libelf1_0.183-1_amd64.deb ....
+2024-02-25 14:04:11.363669 +0000 build-r42-debian1: output: Unpacking libelf1:amd64 (0.183-1) ....
+2024-02-25 14:04:11.398433 +0000 build-r42-debian1: output: Selecting previously unselected package dwz..
+2024-02-25 14:04:11.399934 +0000 build-r42-debian1: output: Preparing to unpack .../24-dwz_0.13+20210201-1_amd64.deb ....
+2024-02-25 14:04:11.401915 +0000 build-r42-debian1: output: Unpacking dwz (0.13+20210201-1) ....
+2024-02-25 14:04:11.461925 +0000 build-r42-debian1: output: Selecting previously unselected package libicu67:amd64..
+2024-02-25 14:04:11.463335 +0000 build-r42-debian1: output: Preparing to unpack .../25-libicu67_67.1-7_amd64.deb ....
+2024-02-25 14:04:11.465093 +0000 build-r42-debian1: output: Unpacking libicu67:amd64 (67.1-7) ....
+2024-02-25 14:04:11.994102 +0000 build-r42-debian1: output: Selecting previously unselected package libxml2:amd64..
+2024-02-25 14:04:11.995555 +0000 build-r42-debian1: output: Preparing to unpack .../26-libxml2_2.9.10+dfsg-6.7+deb11u4_amd64.deb ....
+2024-02-25 14:04:11.997351 +0000 build-r42-debian1: output: Unpacking libxml2:amd64 (2.9.10+dfsg-6.7+deb11u4) ....
+2024-02-25 14:04:12.065433 +0000 build-r42-debian1: output: Selecting previously unselected package gettext..
+2024-02-25 14:04:12.066804 +0000 build-r42-debian1: output: Preparing to unpack .../27-gettext_0.21-4_amd64.deb ....
+2024-02-25 14:04:12.070172 +0000 build-r42-debian1: output: Unpacking gettext (0.21-4) ....
+2024-02-25 14:04:12.184365 +0000 build-r42-debian1: output: Selecting previously unselected package intltool-debian..
+2024-02-25 14:04:12.186182 +0000 build-r42-debian1: output: Preparing to unpack .../28-intltool-debian_0.35.0+20060710.5_all.deb ....
+2024-02-25 14:04:12.188121 +0000 build-r42-debian1: output: Unpacking intltool-debian (0.35.0+20060710.5) ....
+2024-02-25 14:04:12.212689 +0000 build-r42-debian1: output: Selecting previously unselected package po-debconf..
+2024-02-25 14:04:12.214652 +0000 build-r42-debian1: output: Preparing to unpack .../29-po-debconf_1.0.21+nmu1_all.deb ....
+2024-02-25 14:04:12.217158 +0000 build-r42-debian1: output: Unpacking po-debconf (1.0.21+nmu1) ....
+2024-02-25 14:04:12.289313 +0000 build-r42-debian1: output: Selecting previously unselected package debhelper..
+2024-02-25 14:04:12.290966 +0000 build-r42-debian1: output: Preparing to unpack .../30-debhelper_13.3.4_all.deb ....
+2024-02-25 14:04:12.293289 +0000 build-r42-debian1: output: Unpacking debhelper (13.3.4) ....
+2024-02-25 14:04:12.825579 +0000 build-r42-debian1: output: Setting up libpipeline1:amd64 (1.5.3-1) ....
+2024-02-25 14:04:12.851327 +0000 build-r42-debian1: output: Setting up bsdextrautils (2.36.1-8+deb11u1) ....
+2024-02-25 14:04:12.868875 +0000 build-r42-debian1: output: update-alternatives: using /usr/bin/write.ul to provide /usr/bin/write (write) in auto mode.
+2024-02-25 14:04:12.894730 +0000 build-r42-debian1: output: Setting up libicu67:amd64 (67.1-7) ....
+2024-02-25 14:04:12.912920 +0000 build-r42-debian1: output: Setting up libmagic-mgc (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:12.921839 +0000 build-r42-debian1: output: Setting up libarchive-zip-perl (1.68-1) ....
+2024-02-25 14:04:12.927120 +0000 build-r42-debian1: output: Setting up libdebhelper-perl (13.3.4) ....
+2024-02-25 14:04:12.934666 +0000 build-r42-debian1: output: Setting up libmagic1:amd64 (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:12.942658 +0000 build-r42-debian1: output: Setting up gettext-base (0.21-4) ....
+2024-02-25 14:04:12.949831 +0000 build-r42-debian1: output: Setting up file (1:5.39-3+deb11u1) ....
+2024-02-25 14:04:12.954590 +0000 build-r42-debian1: output: Setting up autotools-dev (20180224.1+nmu1) ....
+2024-02-25 14:04:12.959308 +0000 build-r42-debian1: output: Setting up libsigsegv2:amd64 (2.13-1) ....
+2024-02-25 14:04:12.966541 +0000 build-r42-debian1: output: Setting up autopoint (0.21-4) ....
+2024-02-25 14:04:12.971605 +0000 build-r42-debian1: output: Setting up sensible-utils (0.0.14) ....
+2024-02-25 14:04:12.977318 +0000 build-r42-debian1: output: Setting up libuchardet0:amd64 (0.0.7-1) ....
+2024-02-25 14:04:12.986538 +0000 build-r42-debian1: output: Setting up libsub-override-perl (0.09-2) ....
+2024-02-25 14:04:12.992453 +0000 build-r42-debian1: output: Setting up libelf1:amd64 (0.183-1) ....
+2024-02-25 14:04:13.006170 +0000 build-r42-debian1: output: Setting up libxml2:amd64 (2.9.10+dfsg-6.7+deb11u4) ....
+2024-02-25 14:04:13.018646 +0000 build-r42-debian1: output: Setting up libfile-stripnondeterminism-perl (1.12.0-1) ....
+2024-02-25 14:04:13.023342 +0000 build-r42-debian1: output: Setting up gettext (0.21-4) ....
+2024-02-25 14:04:13.030124 +0000 build-r42-debian1: output: Setting up libtool (2.4.6-15) ....
+2024-02-25 14:04:13.034235 +0000 build-r42-debian1: output: Setting up m4 (1.4.18-5) ....
+2024-02-25 14:04:13.039646 +0000 build-r42-debian1: output: Setting up intltool-debian (0.35.0+20060710.5) ....
+2024-02-25 14:04:13.047576 +0000 build-r42-debian1: output: Setting up autoconf (2.69-14) ....
+2024-02-25 14:04:13.054471 +0000 build-r42-debian1: output: Setting up dh-strip-nondeterminism (1.12.0-1) ....
+2024-02-25 14:04:13.061022 +0000 build-r42-debian1: output: Setting up dwz (0.13+20210201-1) ....
+2024-02-25 14:04:13.070997 +0000 build-r42-debian1: output: Setting up groff-base (1.22.4-6) ....
+2024-02-25 14:04:13.082491 +0000 build-r42-debian1: output: Setting up automake (1:1.16.3-2) ....
+2024-02-25 14:04:13.091946 +0000 build-r42-debian1: output: update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode.
+2024-02-25 14:04:13.097471 +0000 build-r42-debian1: output: Setting up po-debconf (1.0.21+nmu1) ....
+2024-02-25 14:04:13.105002 +0000 build-r42-debian1: output: Setting up man-db (2.9.4-2) ....
+2024-02-25 14:04:13.181445 +0000 build-r42-debian1: output: Not building database; man-db/auto-update is not 'true'..
+2024-02-25 14:04:13.288853 +0000 build-r42-debian1: output: Setting up dh-autoreconf (20) ....
+2024-02-25 14:04:13.294322 +0000 build-r42-debian1: output: Setting up debhelper (13.3.4) ....
+2024-02-25 14:04:13.299126 +0000 build-r42-debian1: output: Processing triggers for libc-bin (2.31-13+deb11u8) ....
+2024-02-25 14:04:13.420753 +0000 build-r42-debian1: output: Reading package lists...
+2024-02-25 14:04:13.570533 +0000 build-r42-debian1: output: Building dependency tree...
+2024-02-25 14:04:13.570585 +0000 build-r42-debian1: output: Reading state information...
+2024-02-25 14:04:13.705828 +0000 build-r42-debian1: output: Reading extended state information...
+2024-02-25 14:04:13.726474 +0000 build-r42-debian1: output: Initializing package states...
+2024-02-25 14:04:13.891057 +0000 build-r42-debian1: output: Writing extended state information...
+2024-02-25 14:04:13.959510 +0000 build-r42-debian1: output: Building tag database...
+2024-02-25 14:04:13.986890 +0000 build-r42-debian1: output:  -> Finished parsing the build-deps
+2024-02-25 14:04:13.987052 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2024-02-25 14:04:13.991260 +0000 build-r42-debian1: output: I: new cache content 'libmagic1_1%3a5.39-3+deb11u1_amd64.deb' added
+2024-02-25 14:04:13.993974 +0000 build-r42-debian1: output: I: new cache content 'autoconf_2.69-14_all.deb' added
+2024-02-25 14:04:13.997297 +0000 build-r42-debian1: output: I: new cache content 'libsub-override-perl_0.09-2_all.deb' added
+2024-02-25 14:04:14.017857 +0000 build-r42-debian1: output: I: new cache content 'autopoint_0.21-4_all.deb' added
+2024-02-25 14:04:14.023672 +0000 build-r42-debian1: output: I: new cache content 'gettext_0.21-4_amd64.deb' added
+2024-02-25 14:04:14.027761 +0000 build-r42-debian1: output: I: new cache content 'libelf1_0.183-1_amd64.deb' added
+2024-02-25 14:04:14.032905 +0000 build-r42-debian1: output: I: new cache content 'automake_1%3a1.16.3-2_all.deb' added
+2024-02-25 14:04:14.042058 +0000 build-r42-debian1: output: I: new cache content 'man-db_2.9.4-2_amd64.deb' added
+2024-02-25 14:04:14.046492 +0000 build-r42-debian1: output: I: new cache content 'dh-autoreconf_20_all.deb' added
+2024-02-25 14:04:14.049770 +0000 build-r42-debian1: output: I: new cache content 'intltool-debian_0.35.0+20060710.5_all.deb' added
+2024-02-25 14:04:14.053792 +0000 build-r42-debian1: output: I: new cache content 'po-debconf_1.0.21+nmu1_all.deb' added
+2024-02-25 14:04:14.056864 +0000 build-r42-debian1: output: I: new cache content 'libmagic-mgc_1%3a5.39-3+deb11u1_amd64.deb' added
+2024-02-25 14:04:14.061199 +0000 build-r42-debian1: output: I: new cache content 'libuchardet0_0.0.7-1_amd64.deb' added
+2024-02-25 14:04:14.064252 +0000 build-r42-debian1: output: I: new cache content 'dh-strip-nondeterminism_1.12.0-1_all.deb' added
+2024-02-25 14:04:14.073143 +0000 build-r42-debian1: output: I: new cache content 'debhelper_13.3.4_all.deb' added
+2024-02-25 14:04:14.077398 +0000 build-r42-debian1: output: I: new cache content 'bsdextrautils_2.36.1-8+deb11u1_amd64.deb' added
+2024-02-25 14:04:14.080390 +0000 build-r42-debian1: output: I: new cache content 'libarchive-zip-perl_1.68-1_all.deb' added
+2024-02-25 14:04:14.088872 +0000 build-r42-debian1: output: I: new cache content 'gettext-base_0.21-4_amd64.deb' added
+2024-02-25 14:04:14.094114 +0000 build-r42-debian1: output: I: new cache content 'file_1%3a5.39-3+deb11u1_amd64.deb' added
+2024-02-25 14:04:14.097730 +0000 build-r42-debian1: output: I: new cache content 'libsigsegv2_2.13-1_amd64.deb' added
+2024-02-25 14:04:14.104400 +0000 build-r42-debian1: output: I: new cache content 'dwz_0.13+20210201-1_amd64.deb' added
+2024-02-25 14:04:14.110265 +0000 build-r42-debian1: output: I: new cache content 'groff-base_1.22.4-6_amd64.deb' added
+2024-02-25 14:04:14.114157 +0000 build-r42-debian1: output: I: new cache content 'libicu67_67.1-7_amd64.deb' added
+2024-02-25 14:04:14.117881 +0000 build-r42-debian1: output: I: new cache content 'autotools-dev_20180224.1+nmu1_all.deb' added
+2024-02-25 14:04:14.122002 +0000 build-r42-debian1: output: I: new cache content 'sensible-utils_0.0.14_all.deb' added
+2024-02-25 14:04:14.125558 +0000 build-r42-debian1: output: I: new cache content 'libxml2_2.9.10+dfsg-6.7+deb11u4_amd64.deb' added
+2024-02-25 14:04:14.130835 +0000 build-r42-debian1: output: I: new cache content 'libtool_2.4.6-15_all.deb' added
+2024-02-25 14:04:14.138099 +0000 build-r42-debian1: output: I: new cache content 'libdebhelper-perl_13.3.4_all.deb' added
+2024-02-25 14:04:14.143192 +0000 build-r42-debian1: output: I: new cache content 'libpipeline1_1.5.3-1_amd64.deb' added
+2024-02-25 14:04:14.148064 +0000 build-r42-debian1: output: I: new cache content 'm4_1.4.18-5_amd64.deb' added
+2024-02-25 14:04:14.155124 +0000 build-r42-debian1: output: I: new cache content 'libfile-stripnondeterminism-perl_1.12.0-1_all.deb' added
+2024-02-25 14:04:14.164862 +0000 build-r42-debian1: output: I: Building the package
+2024-02-25 14:04:14.171892 +0000 build-r42-debian1: output: I: Running cd /build/qubes-split-browser-0.16.3/ && env PATH="/usr/sbin:/usr/bin:/sbin:/bin" HOME="/nonexistent" dpkg-buildpackage -us -uc -sa
+2024-02-25 14:04:14.281423 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source package qubes-split-browser
+2024-02-25 14:04:14.281491 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source version 0.16.3-1+deb11u1
+2024-02-25 14:04:14.281501 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source distribution bullseye
+2024-02-25 14:04:14.281507 +0000 build-r42-debian1: output: dpkg-buildpackage: info: source changed by Builder <user@localhost>
+2024-02-25 14:04:14.305886 +0000 build-r42-debian1: output: dpkg-buildpackage: info: host architecture amd64
+2024-02-25 14:04:14.307917 +0000 build-r42-debian1: output:  dpkg-source --before-build .
+2024-02-25 14:04:14.455098 +0000 build-r42-debian1: output:  debian/rules clean
+2024-02-25 14:04:14.457093 +0000 build-r42-debian1: output: dh clean
+2024-02-25 14:04:14.542641 +0000 build-r42-debian1: output:    dh_clean
+2024-02-25 14:04:14.591692 +0000 build-r42-debian1: output:  dpkg-source -b .
+2024-02-25 14:04:14.801973 +0000 build-r42-debian1: output: dpkg-source: info: using source format '3.0 (quilt)'
+2024-02-25 14:04:14.802032 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser using existing ./qubes-split-browser_0.16.3.orig.tar.gz
+2024-02-25 14:04:14.840757 +0000 build-r42-debian1: output: dpkg-source: info: using patch list from debian/patches/series
+2024-02-25 14:04:14.874514 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.3-1+deb11u1.debian.tar.xz
+2024-02-25 14:04:14.916459 +0000 build-r42-debian1: output: dpkg-source: info: building qubes-split-browser in qubes-split-browser_0.16.3-1+deb11u1.dsc
+2024-02-25 14:04:14.926644 +0000 build-r42-debian1: output:  debian/rules binary
+2024-02-25 14:04:14.926701 +0000 build-r42-debian1: output: dh binary
+2024-02-25 14:04:14.986660 +0000 build-r42-debian1: output:    dh_update_autotools_config
+2024-02-25 14:04:15.030381 +0000 build-r42-debian1: output:    dh_autoreconf
+2024-02-25 14:04:15.083210 +0000 build-r42-debian1: output:    create-stamp debian/debhelper-build-stamp
+2024-02-25 14:04:15.083267 +0000 build-r42-debian1: output:    dh_prep
+2024-02-25 14:04:15.124633 +0000 build-r42-debian1: output:    debian/rules override_dh_auto_install
+2024-02-25 14:04:15.129780 +0000 build-r42-debian1: output: + umask 022
+2024-02-25 14:04:15.129851 +0000 build-r42-debian1: output: + mkdir -p -- /build/qubes-split-browser-0.16.3/debian/qubes-split-browser/usr/ /build/qubes-split-browser-0.16.3/debian/qubes-split-browser/etc/
+2024-02-25 14:04:15.129870 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser/usr/bin qubes-split-browser/usr/lib qubes-split-browser/usr/share /build/qubes-split-browser-0.16.3/debian/qubes-split-browser/usr/
+2024-02-25 14:04:15.129891 +0000 build-r42-debian1: output: make[1]: Entering directory '/build/qubes-split-browser-0.16.3'
+2024-02-25 14:04:15.129941 +0000 build-r42-debian1: output: /usr/bin/make -C vm PREFIX=/usr \
+2024-02-25 14:04:15.129957 +0000 build-r42-debian1: output:               DESTDIR='/build/qubes-split-browser-0.16.3/debian/qubes-split-browser' \
+2024-02-25 14:04:15.129965 +0000 build-r42-debian1: output:               install-persist
+2024-02-25 14:04:15.129974 +0000 build-r42-debian1: output: make[2]: Entering directory '/build/qubes-split-browser-0.16.3/vm'
+2024-02-25 14:04:15.137379 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser/etc/split-browser /build/qubes-split-browser-0.16.3/debian/qubes-split-browser/etc/
+2024-02-25 14:04:15.137430 +0000 build-r42-debian1: output: + umask 022
+2024-02-25 14:04:15.137441 +0000 build-r42-debian1: output: + mkdir -p -- /build/qubes-split-browser-0.16.3/debian/qubes-split-browser-disp/usr/ /build/qubes-split-browser-0.16.3/debian/qubes-split-browser-disp/etc/
+2024-02-25 14:04:15.137452 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser-disp/usr/lib qubes-split-browser-disp/usr/share /build/qubes-split-browser-0.16.3/debian/qubes-split-browser-disp/usr/
+2024-02-25 14:04:15.137469 +0000 build-r42-debian1: output: + cp -R -- qubes-split-browser-disp/etc/qubes-rpc qubes-split-browser-disp/etc/split-browser-disp /build/qubes-split-browser-0.16.3/debian/qubes-split-browser-disp/etc/
+2024-02-25 14:04:15.137476 +0000 build-r42-debian1: output: make[2]: Leaving directory '/build/qubes-split-browser-0.16.3/vm'
+2024-02-25 14:04:15.137481 +0000 build-r42-debian1: output: /usr/bin/make -C vm PREFIX=/usr \
+2024-02-25 14:04:15.137488 +0000 build-r42-debian1: output:               DESTDIR='/build/qubes-split-browser-0.16.3/debian/qubes-split-browser-disp' \
+2024-02-25 14:04:15.137492 +0000 build-r42-debian1: output:               install-disp
+2024-02-25 14:04:15.137498 +0000 build-r42-debian1: output: make[2]: Entering directory '/build/qubes-split-browser-0.16.3/vm'
+2024-02-25 14:04:15.140983 +0000 build-r42-debian1: output: make[2]: Leaving directory '/build/qubes-split-browser-0.16.3/vm'
+2024-02-25 14:04:15.141011 +0000 build-r42-debian1: output: make[1]: Leaving directory '/build/qubes-split-browser-0.16.3'
+2024-02-25 14:04:15.141019 +0000 build-r42-debian1: output:    dh_installdocs
+2024-02-25 14:04:15.179987 +0000 build-r42-debian1: output:    dh_installchangelogs
+2024-02-25 14:04:15.225992 +0000 build-r42-debian1: output:    dh_installinit
+2024-02-25 14:04:15.247004 +0000 build-r42-debian1: output:    dh_installsystemd
+2024-02-25 14:04:15.293650 +0000 build-r42-debian1: output:    dh_perl
+2024-02-25 14:04:15.317662 +0000 build-r42-debian1: output:    dh_link
+2024-02-25 14:04:15.339925 +0000 build-r42-debian1: output:    dh_strip_nondeterminism
+2024-02-25 14:04:15.466398 +0000 build-r42-debian1: output:    dh_compress
+2024-02-25 14:04:15.504675 +0000 build-r42-debian1: output:    dh_fixperms
+2024-02-25 14:04:15.538786 +0000 build-r42-debian1: output:    dh_missing
+2024-02-25 14:04:15.553982 +0000 build-r42-debian1: output:    dh_installdeb
+2024-02-25 14:04:15.585621 +0000 build-r42-debian1: output:    dh_gencontrol
+2024-02-25 14:04:15.655293 +0000 build-r42-debian1: output:    dh_md5sums
+2024-02-25 14:04:15.678645 +0000 build-r42-debian1: output:    dh_builddeb
+2024-02-25 14:04:15.696544 +0000 build-r42-debian1: output: dpkg-deb: building package 'qubes-split-browser-disp' in '../qubes-split-browser-disp_0.16.3-1+deb11u1_all.deb'.
+2024-02-25 14:04:15.696593 +0000 build-r42-debian1: output: dpkg-deb: building package 'qubes-split-browser' in '../qubes-split-browser_0.16.3-1+deb11u1_all.deb'.
+2024-02-25 14:04:15.756049 +0000 build-r42-debian1: output:  dpkg-genbuildinfo
+2024-02-25 14:04:15.837318 +0000 build-r42-debian1: output:  dpkg-genchanges -sa >../qubes-split-browser_0.16.3-1+deb11u1_amd64.changes
+2024-02-25 14:04:15.903611 +0000 build-r42-debian1: output: dpkg-genchanges: info: including full source code in upload
+2024-02-25 14:04:15.906281 +0000 build-r42-debian1: output:  dpkg-source --after-build .
+2024-02-25 14:04:16.005578 +0000 build-r42-debian1: output: dpkg-buildpackage: info: full upload (original source is included)
+2024-02-25 14:04:16.010059 +0000 build-r42-debian1: output: I: copying local configuration
+2024-02-25 14:04:16.028282 +0000 build-r42-debian1: output: I: Copying back the cached apt archive contents
+2024-02-25 14:04:16.087356 +0000 build-r42-debian1: output: I: unmounting /tmp/qubes-deb filesystem
+2024-02-25 14:04:16.093473 +0000 build-r42-debian1: output: I: unmounting dev/ptmx filesystem
+2024-02-25 14:04:16.096687 +0000 build-r42-debian1: output: I: unmounting dev/pts filesystem
+2024-02-25 14:04:16.099980 +0000 build-r42-debian1: output: I: unmounting dev/shm filesystem
+2024-02-25 14:04:16.103251 +0000 build-r42-debian1: output: I: unmounting proc filesystem
+2024-02-25 14:04:16.106955 +0000 build-r42-debian1: output: I: unmounting sys filesystem
+2024-02-25 14:04:16.111618 +0000 build-r42-debian1: output: I: cleaning the build env
+2024-02-25 14:04:16.111662 +0000 build-r42-debian1: output: I: removing directory /builder/pbuilder/build/2210 and its subdirectories
+2024-02-25 14:04:16.618453 +0000 build-r42-debian1: output: I: Current time: Sun Feb 25 15:04:16 CET 2024
+2024-02-25 14:04:16.620141 +0000 build-r42-debian1: output: I: pbuilder-time-stamp: 1708869856
+2024-02-25 14:04:16.831674 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser--disp_0.16.3--1-2Bdeb11u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:17.116790 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1_amd64.changes /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:19.475510 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:33.862713 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser--disp--dbgsym_0.16.3--1-2Bdeb11u1_all.ddeb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:34.374625 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-disp-dbgsym_0.16.3-1+deb11u1_all.ddeb.
+2024-02-25 14:04:34.374697 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser_0.16.3--1-2Bdeb11u1_amd64.buildinfo /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:35.222025 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser--dbgsym_0.16.3--1-2Bdeb11u1_all.ddeb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:35.550822 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-dbgsym_0.16.3-1+deb11u1_all.ddeb.
+2024-02-25 14:04:35.550901 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser--disp--dbgsym_0.16.3--1-2Bdeb11u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:35.720553 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-disp-dbgsym_0.16.3-1+deb11u1_all.deb.
+2024-02-25 14:04:35.720780 +0000 build-r42-debian1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9245 qubesbuilder.FileCopyOut+-2Fbuilder-2Fpbuilder-2Fresults-2Fqubes--split--browser--dbgsym_0.16.3--1-2Bdeb11u1_all.deb /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build
+2024-02-25 14:04:35.917999 +0000 build-r42-debian1: File not found inside container: /builder/pbuilder/results/qubes-split-browser-dbgsym_0.16.3-1+deb11u1_all.deb.
+2024-02-25 14:04:40.275676 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64:debian: Provisioning local repository '/home/user/builder-r4.2/repository/vm-bullseye'.
+2024-02-25 14:04:40.286039 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --armor --export FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA > /tmp/tmp7d0s9xvy/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc&&gpg2 --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring --import /tmp/tmp7d0s9xvy/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc'.
+2024-02-25 14:59:11.002786 +0000 > closing log
