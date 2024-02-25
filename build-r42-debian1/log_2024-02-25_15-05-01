@@ -1,0 +1,63 @@
+2024-02-25 15:05:01.290890 +0000 > starting log
+2024-02-25 15:05:01.291099 +0000 build-r42-debian1: > starting build with log
+2024-02-25 15:05:01.291110 +0000 build-r42-debian1: >> args:
+2024-02-25 15:05:01.291116 +0000 build-r42-debian1: >>   ()
+2024-02-25 15:05:01.291121 +0000 build-r42-debian1: >> component:
+2024-02-25 15:05:01.291187 +0000 build-r42-debian1: >>   app-split-browser
+2024-02-25 15:05:01.291199 +0000 build-r42-debian1: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-02-25 15:05:01.291210 +0000 build-r42-debian1: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-02-25 15:05:01.291220 +0000 build-r42-debian1: >> distributions:
+2024-02-25 15:05:01.291232 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2024-02-25 15:05:01.291240 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64: Source hash is the same than already prepared source. Skipping.
+2024-02-25 15:05:01.291248 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64: Source hash is the same than already built source. Skipping.
+2024-02-25 15:05:01.291265 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --armor --export FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA > /tmp/tmpjo4e681t/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc&&gpg2 --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring --import /tmp/tmpjo4e681t/FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA.asc'.
+2024-02-25 15:05:01.320284 +0000 build-r42-debian1: output: gpg: keybox '/home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring/pubring.kbx' created
+2024-02-25 15:05:01.321161 +0000 build-r42-debian1: output: gpg: /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring/trustdb.gpg: trustdb created
+2024-02-25 15:05:01.321224 +0000 build-r42-debian1: output: gpg: key A8F7A1DC99F29DAA: public key "Qubes OS Contrib Release 4 Signing Key" imported
+2024-02-25 15:05:01.337290 +0000 build-r42-debian1: output: gpg: Total number processed: 1
+2024-02-25 15:05:01.337322 +0000 build-r42-debian1: output: gpg:               imported: 1
+2024-02-25 15:05:01.356965 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64:debian: Signing from 'qubes-split-browser_0.16.3-1+deb11u1_amd64.changes' info.
+2024-02-25 15:05:01.357023 +0000 build-r42-debian1: Executing 'bash -c debsign -kFC96B46D36C606C8B22A376DA8F7A1DC99F29DAA -pqubes-gpg-client-wrapper --no-re-sign /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes'.
+2024-02-25 15:05:01.391544 +0000 build-r42-debian1: output:  signfile dsc /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1.dsc FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:01.811610 +0000 build-r42-debian1: output: 
+2024-02-25 15:05:01.848017 +0000 build-r42-debian1: output:  fixup_buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1.dsc /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo
+2024-02-25 15:05:01.851626 +0000 build-r42-debian1: output:  signfile buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:02.221032 +0000 build-r42-debian1: output: 
+2024-02-25 15:05:02.243907 +0000 build-r42-debian1: output:  fixup_changes dsc /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1.dsc /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes
+2024-02-25 15:05:02.265342 +0000 build-r42-debian1: output:  fixup_changes buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes
+2024-02-25 15:05:02.268624 +0000 build-r42-debian1: output:  signfile changes /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:02.589193 +0000 build-r42-debian1: output: 
+2024-02-25 15:05:02.591039 +0000 build-r42-debian1: output: Successfully signed dsc, buildinfo, changes files
+2024-02-25 15:05:02.607543 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64:debian: Provisioning local repository '/home/user/builder-r4.2/repository/vm-bullseye'.
+2024-02-25 15:05:02.617884 +0000 build-r42-debian1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_deb/scripts/create-skeleton r4.2 debian /home/user/builder-r4.2/repository-publish/deb'.
+2024-02-25 15:05:02.662183 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64:debian: Publishing packages.
+2024-02-25 15:05:02.662240 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64:debian: Verifying signatures.
+2024-02-25 15:05:02.662327 +0000 build-r42-debian1: Executing 'bash -c gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1.dsc&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo'.
+2024-02-25 15:05:02.665719 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:05:01 2024 CET
+2024-02-25 15:05:02.665758 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:02.665983 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-02-25 15:05:02.666045 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-02-25 15:05:02.666130 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-02-25 15:05:02.666183 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-02-25 15:05:02.669538 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:05:02 2024 CET
+2024-02-25 15:05:02.669573 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:02.669801 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-02-25 15:05:02.669820 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-02-25 15:05:02.669871 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-02-25 15:05:02.669890 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-02-25 15:05:02.672565 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:05:01 2024 CET
+2024-02-25 15:05:02.672598 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-02-25 15:05:02.672614 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-02-25 15:05:02.672657 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-02-25 15:05:02.672719 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-02-25 15:05:02.672782 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-02-25 15:05:02.682070 +0000 build-r42-debian1: Executing 'bash -c reprepro --ignore=surprisingbinary --ignore=surprisingarch --keepunreferencedfiles -b /home/user/builder-r4.2/repository-publish/deb/r4.2/vm include bullseye-testing /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bullseye/build/qubes-split-browser_0.16.3-1+deb11u1_amd64.changes'.
+2024-02-25 15:05:02.710264 +0000 build-r42-debian1: output: 'qubes-split-browser_0.16.3-1+deb11u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2024-02-25 15:05:02.710300 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2024-02-25 15:05:02.748840 +0000 build-r42-debian1: output: Exporting indices...
+2024-02-25 15:05:02.760467 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64: Signing metadata (Release.gpg).
+2024-02-25 15:05:02.760674 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --detach-sign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release.gpg /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release'.
+2024-02-25 15:05:02.935581 +0000 build-r42-debian1: app-split-browser:vm-debian-11.amd64: Signing metadata (InRelease).
+2024-02-25 15:05:02.935834 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --clearsign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/InRelease /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/Release'.
+2024-02-25 15:05:03.125585 +0000 build-r42-debian1: > done
+2024-02-25 15:05:03.125646 +0000 > closing log
