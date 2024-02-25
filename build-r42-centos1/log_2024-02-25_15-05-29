@@ -1,0 +1,48 @@
+2024-02-25 15:05:29.591047 +0000 > starting log
+2024-02-25 15:05:29.591251 +0000 build-r42-centos1: > starting build with log
+2024-02-25 15:05:29.591262 +0000 build-r42-centos1: >> args:
+2024-02-25 15:05:29.591267 +0000 build-r42-centos1: >>   ()
+2024-02-25 15:05:29.591272 +0000 build-r42-centos1: >> component:
+2024-02-25 15:05:29.591276 +0000 build-r42-centos1: >>   app-split-browser
+2024-02-25 15:05:29.591282 +0000 build-r42-centos1: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-02-25 15:05:29.591289 +0000 build-r42-centos1: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-02-25 15:05:29.591297 +0000 build-r42-centos1: >> distributions:
+2024-02-25 15:05:29.591303 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-02-25 15:05:29.591322 +0000 build-r42-centos1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/centos-stream8/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/centos-stream8/'.
+2024-02-25 15:05:30.082416 +0000 build-r42-centos1: output: sending incremental file list
+2024-02-25 15:05:30.122109 +0000 build-r42-centos1: output: .d..t...... ./
+2024-02-25 15:05:30.124156 +0000 build-r42-centos1: output: .L..t...... comps.xml -> ../../../comps-vm.xml
+2024-02-25 15:05:30.124195 +0000 build-r42-centos1: output: .d..t...... repodata/
+2024-02-25 15:05:30.124210 +0000 build-r42-centos1: output: <f+++++++++ repodata/0a073adafcf153216de6abce8c20b8b812a42b6a06c0c1b2a77c3003e5f24b49-primary.xml.gz
+2024-02-25 15:05:30.124222 +0000 build-r42-centos1: output: .          2,927 100%    0.00kB/s    0:00:00  .          2,927 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=28/33)
+2024-02-25 15:05:30.124230 +0000 build-r42-centos1: output: <f..t...... repodata/0a4d9ec5911f793f87955cf8bbc866b0c930c8f9aa2384ec29cc1f360a31da93-comps.xml.gz
+2024-02-25 15:05:30.124248 +0000 build-r42-centos1: output: .            700   8%  683.59kB/s    0:00:00  .          8,416 100%    8.03MB/s    0:00:00 (xfr#2, to-chk=27/33)
+2024-02-25 15:05:30.124253 +0000 build-r42-centos1: output: <f..t...... repodata/397e43a81ad38941589caaed70c4fabc438fb360cee27a55821a1db270bacaa3-comps.xml
+2024-02-25 15:05:30.124263 +0000 build-r42-centos1: output: .            700   2%  683.59kB/s    0:00:00  .         25,819 100%   24.62MB/s    0:00:00 (xfr#3, to-chk=26/33)
+2024-02-25 15:05:30.124268 +0000 build-r42-centos1: output: <f+++++++++ repodata/84c0ab15dbf45c4fac30de84d235f740e0263bd4c847d46cc6c280e6eeb67d26-other.xml.gz
+2024-02-25 15:05:30.124275 +0000 build-r42-centos1: output: .          2,236 100%    2.13MB/s    0:00:00  .          2,236 100%    2.13MB/s    0:00:00 (xfr#4, to-chk=25/33)
+2024-02-25 15:05:30.124282 +0000 build-r42-centos1: output: <f+++++++++ repodata/9be95bb3a2fc8cd33e77bdb95021dc3dbfece523e51d3e208d76511913e91735-primary.sqlite.bz2
+2024-02-25 15:05:30.124294 +0000 build-r42-centos1: output: .          7,765 100%    7.41MB/s    0:00:00  .          7,765 100%    7.41MB/s    0:00:00 (xfr#5, to-chk=24/33)
+2024-02-25 15:05:30.124301 +0000 build-r42-centos1: output: <f+++++++++ repodata/e0753bbe2a2c356f92399cecdb83151ff24e17bc833cb7e70848219dbd3c8366-filelists.sqlite.bz2
+2024-02-25 15:05:30.124308 +0000 build-r42-centos1: output: .          3,807 100%    3.63MB/s    0:00:00  .          3,807 100%    3.63MB/s    0:00:00 (xfr#6, to-chk=23/33)
+2024-02-25 15:05:30.124316 +0000 build-r42-centos1: output: <f+++++++++ repodata/ea43cc3c9ac3b3d4e0fbe5ec5fd29a799790a4342df1631d7129ee87bd05af4e-filelists.xml.gz
+2024-02-25 15:05:30.124323 +0000 build-r42-centos1: output: .          1,505 100%    1.44MB/s    0:00:00  .          1,505 100%    1.44MB/s    0:00:00 (xfr#7, to-chk=22/33)
+2024-02-25 15:05:30.124330 +0000 build-r42-centos1: output: <f+++++++++ repodata/ea84d67c71479b1b5eca7f508b1344219322c1875df582f21af6a13686726b0b-other.sqlite.bz2
+2024-02-25 15:05:30.124376 +0000 build-r42-centos1: output: .          4,770 100%    4.55MB/s    0:00:00  .          4,770 100%    4.55MB/s    0:00:00 (xfr#8, to-chk=21/33)
+2024-02-25 15:05:30.124404 +0000 build-r42-centos1: output: <f..t...... repodata/repomd.xml
+2024-02-25 15:05:30.124414 +0000 build-r42-centos1: output: .          3,838 100%    3.66MB/s    0:00:00  .          3,838 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=20/33)
+2024-02-25 15:05:30.124419 +0000 build-r42-centos1: output: <f..t...... repodata/repomd.xml.asc
+2024-02-25 15:05:30.124428 +0000 build-r42-centos1: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=19/33)
+2024-02-25 15:05:30.124433 +0000 build-r42-centos1: output: <f..t...... repodata/repomd.xml.metalink
+2024-02-25 15:05:30.124441 +0000 build-r42-centos1: output: .          2,100  68%    2.00MB/s    0:00:00  .          3,049 100%    2.91MB/s    0:00:00 (xfr#11, to-chk=18/33)
+2024-02-25 15:05:30.124446 +0000 build-r42-centos1: output: .d..t...... rpm/
+2024-02-25 15:05:30.124452 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.el8.noarch.rpm
+2024-02-25 15:05:30.124468 +0000 build-r42-centos1: output: .         25,508 100%   24.33MB/s    0:00:00  .         25,508 100%   24.33MB/s    0:00:00 (xfr#12, to-chk=11/33)
+2024-02-25 15:05:30.124474 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.el8.src.rpm
+2024-02-25 15:05:30.124482 +0000 build-r42-centos1: output: .         32,595 100%   31.09MB/s    0:00:00  .         32,595 100%   31.09MB/s    0:00:00 (xfr#13, to-chk=10/33)
+2024-02-25 15:05:30.124488 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.el8.x86_64.buildinfo
+2024-02-25 15:05:30.124495 +0000 build-r42-centos1: output: .          1,601 100%    1.53MB/s    0:00:00  .          1,601 100%    1.53MB/s    0:00:00 (xfr#14, to-chk=9/33)
+2024-02-25 15:05:30.124501 +0000 build-r42-centos1: output: <f+++++++++ rpm/qubes-split-browser-disp-0.16.3-1.el8.noarch.rpm
+2024-02-25 15:05:30.124509 +0000 build-r42-centos1: output: .         16,940 100%   16.16MB/s    0:00:00  .         16,940 100%   16.16MB/s    0:00:00 (xfr#15, to-chk=6/33)
+2024-02-25 15:05:30.299478 +0000 build-r42-centos1: > done
+2024-02-25 15:05:30.299546 +0000 > closing log
