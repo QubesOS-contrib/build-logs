@@ -1,0 +1,26 @@
+2024-02-25 14:59:10.477911 +0000 > starting log
+2024-02-25 14:59:10.478129 +0000 build-r42-centos1: > starting build with log
+2024-02-25 14:59:10.478142 +0000 build-r42-centos1: >> args:
+2024-02-25 14:59:10.478150 +0000 build-r42-centos1: >>   ()
+2024-02-25 14:59:10.478157 +0000 build-r42-centos1: >> component:
+2024-02-25 14:59:10.478164 +0000 build-r42-centos1: >>   contrib-configs
+2024-02-25 14:59:10.478173 +0000 build-r42-centos1: >>     commit-hash: fbc101e6bc671bca56ab12fd868960aa6184dd33
+2024-02-25 14:59:10.478186 +0000 build-r42-centos1: >>     source-hash: 993a6196935884b39e29e9c95c2e9e6e722fda7b44ea22977b3fb1f74094c38e76299371efc140fb4f8ca37b8fc1ffc0ecd994f3c2968a7d8c4a7b148d2c6867
+2024-02-25 14:59:10.478198 +0000 build-r42-centos1: >> distributions:
+2024-02-25 14:59:10.478208 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-02-25 14:59:10.478216 +0000 build-r42-centos1: contrib-configs: source already fetched. Updating.
+2024-02-25 14:59:26.568032 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp3427 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2024-02-25 14:59:40.173048 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp3427 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-02-25 14:59:40.689956 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp3427 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-02-25 14:59:45.522250 +0000 build-r42-centos1: output: --> Verifying tags...
+2024-02-25 14:59:45.522339 +0000 build-r42-centos1: output: ---> Good tag 437562752b2a06693f580fef9f614af25a6bd4f8.
+2024-02-25 14:59:45.522358 +0000 build-r42-centos1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2024-02-25 14:59:45.522379 +0000 build-r42-centos1: output: --> Merging...
+2024-02-25 14:59:45.541991 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3427 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2024-02-25 14:59:59.329842 +0000 build-r42-centos1: ['rm -f -- /builder/contrib-configs/hash /builder/contrib-configs/vtags', 'cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> /builder/contrib-configs/hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> /builder/contrib-configs/vtags"]
+2024-02-25 15:00:18.461385 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6183 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2024-02-25 15:00:18.708547 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp6183 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'rm -f -- /builder/contrib-configs/hash /builder/contrib-configs/vtags && cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> /builder/contrib-configs/hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> /builder/contrib-configs/vtags''.
+2024-02-25 15:00:19.761233 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp6183 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs-2Fvtags /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp1q_4amhj
+2024-02-25 15:00:21.139531 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp6183 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs-2Fhash /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp1q_4amhj
+2024-02-25 15:00:42.975120 +0000 build-r42-centos1: > done
+2024-02-25 15:00:42.975181 +0000 > closing log
