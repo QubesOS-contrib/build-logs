@@ -1,0 +1,22 @@
+2024-03-03 17:44:54.091710 +0000 > starting log
+2024-03-03 17:44:54.092060 +0000 build-r42-centos1: > starting build with log
+2024-03-03 17:44:54.092071 +0000 build-r42-centos1: >> args:
+2024-03-03 17:44:54.092077 +0000 build-r42-centos1: >>   ()
+2024-03-03 17:44:54.092083 +0000 build-r42-centos1: >> component:
+2024-03-03 17:44:54.092088 +0000 build-r42-centos1: >>   app-split-browser
+2024-03-03 17:44:54.092095 +0000 build-r42-centos1: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-03-03 17:44:54.092107 +0000 build-r42-centos1: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-03-03 17:44:54.092117 +0000 build-r42-centos1: >> distributions:
+2024-03-03 17:44:54.092124 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-03-03 17:44:54.092131 +0000 build-r42-centos1: app-split-browser: source already fetched. Updating.
+2024-03-03 17:45:22.644178 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9032 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-03-03 17:45:23.133897 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9032 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-03-03 17:45:23.268433 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp9032 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2024-03-03 17:45:25.600759 +0000 build-r42-centos1: output: --> Verifying tags...
+2024-03-03 17:45:25.600803 +0000 build-r42-centos1: output: ---> Good tag 6583c3b793abce396a248e45cfe0553f90b535e8.
+2024-03-03 17:45:25.600810 +0000 build-r42-centos1: output: ---> Good tag 1c56d63b517f97e7b0ed6d01dfef29ca7757633b.
+2024-03-03 17:45:25.600816 +0000 build-r42-centos1: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2024-03-03 17:45:25.600821 +0000 build-r42-centos1: output: --> Merging...
+2024-03-03 17:45:25.620700 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9032 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2024-03-03 17:45:30.091745 +0000 build-r42-centos1: > done
+2024-03-03 17:45:30.091795 +0000 > closing log
