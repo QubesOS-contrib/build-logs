@@ -1,0 +1,67 @@
+2024-04-09 15:04:34.905980 +0000 > starting log
+2024-04-09 15:04:34.906309 +0000 build-r42-fedora2: > starting build with log
+2024-04-09 15:04:34.906326 +0000 build-r42-fedora2: >> args:
+2024-04-09 15:04:34.906337 +0000 build-r42-fedora2: >>   ()
+2024-04-09 15:04:34.906346 +0000 build-r42-fedora2: >> component:
+2024-04-09 15:04:34.906355 +0000 build-r42-fedora2: >>   app-split-browser
+2024-04-09 15:04:34.906367 +0000 build-r42-fedora2: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-04-09 15:04:34.906384 +0000 build-r42-fedora2: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-04-09 15:04:34.906401 +0000 build-r42-fedora2: >> distributions:
+2024-04-09 15:04:34.906414 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>]
+2024-04-09 15:04:34.906435 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.2 vm fc39 /home/user/builder-r4.2/repository-publish/rpm /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/comps/comps-vm.xml'.
+2024-04-09 15:04:34.906448 +0000 build-r42-fedora2: app-split-browser:vm-fedora-39.x86_64:rpm_spec/qubes-split-browser.spec: Publishing RPMs to 'current'.
+2024-04-09 15:04:34.906461 +0000 build-r42-fedora2: app-split-browser:vm-fedora-39.x86_64:rpm_spec/qubes-split-browser.spec: Verifying signatures.
+2024-04-09 15:04:34.906488 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-fc39/build/rpm/qubes-split-browser-0.16.3-1.fc39.noarch.rpm --check-only'.
+2024-04-09 15:04:34.906516 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-fc39/build/rpm/qubes-split-browser-disp-0.16.3-1.fc39.noarch.rpm --check-only'.
+2024-04-09 15:04:34.906543 +0000 build-r42-fedora2: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/sign_rpm/scripts/sign-rpm --sign-key 04A8F986B97FBCB838F08C305FE4986AD0941E87 --db-path /home/user/builder-r4.2/rpmdb/04A8F986B97FBCB838F08C305FE4986AD0941E87 --rpm /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-fc39/prep/qubes-split-browser-0.16.3-1.fc39.src.rpm --check-only'.
+2024-04-09 15:04:34.906554 +0000 build-r42-fedora2: app-split-browser:vm-fedora-39.x86_64: Updating metadata.
+2024-04-09 15:04:34.906592 +0000 build-r42-fedora2: Executing 'bash -c cd /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39&&createrepo_c -g comps.xml .'.
+2024-04-09 15:04:34.937862 +0000 build-r42-fedora2: output: Directory walk started
+2024-04-09 15:04:34.937895 +0000 build-r42-fedora2: output: Directory walk done - 3 packages
+2024-04-09 15:04:34.937909 +0000 build-r42-fedora2: output: Using comps.xml from target repo
+2024-04-09 15:04:34.937934 +0000 build-r42-fedora2: output: Temporary output repo path: ./.repodata/
+2024-04-09 15:04:34.938000 +0000 build-r42-fedora2: output: Preparing sqlite DBs
+2024-04-09 15:04:34.938016 +0000 build-r42-fedora2: output: Pool started (with 5 workers)
+2024-04-09 15:04:34.938025 +0000 build-r42-fedora2: output: Pool finished
+2024-04-09 15:04:34.954663 +0000 build-r42-fedora2: app-split-browser:vm-fedora-39.x86_64: Signing metadata.
+2024-04-09 15:04:34.954814 +0000 build-r42-fedora2: Executing 'bash -c qubes-gpg-client-wrapper --batch --no-tty --yes --detach-sign --armor -u 04A8F986B97FBCB838F08C305FE4986AD0941E87 /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/repodata/repomd.xml.asc'.
+2024-04-09 15:04:35.110061 +0000 build-r42-fedora2: Creating metalink for /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/repodata/repomd.xml.
+2024-04-09 15:04:35.110124 +0000 build-r42-fedora2: Executing 'bash -c mkmetalink -b /home/user/builder-r4.2/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/repodata/repomd.xml > /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/repodata/repomd.xml.metalink'.
+2024-04-09 15:04:35.224736 +0000 build-r42-fedora2: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current/vm/fc39/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current/vm/fc39/'.
+2024-04-09 15:04:35.307215 +0000 build-r42-fedora2: output: sending incremental file list
+2024-04-09 15:04:35.387124 +0000 build-r42-fedora2: output: .d..tp..... ./
+2024-04-09 15:04:35.387194 +0000 build-r42-fedora2: output: cL+++++++++ comps.xml -> ../../../comps-vm.xml
+2024-04-09 15:04:35.387209 +0000 build-r42-fedora2: output: cd+++++++++ repodata/
+2024-04-09 15:04:35.387236 +0000 build-r42-fedora2: output: <f+++++++++ repodata/0a4d9ec5911f793f87955cf8bbc866b0c930c8f9aa2384ec29cc1f360a31da93-comps.xml.gz
+2024-04-09 15:04:35.387252 +0000 build-r42-fedora2: output: .          8,416 100%    0.00kB/s    0:00:00  .          8,416 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=14/19)
+2024-04-09 15:04:35.387266 +0000 build-r42-fedora2: output: <f+++++++++ repodata/200c5aff80b4493a5454cc35658397aa96e8caa63922fb2a81a410fa5f3476c9-filelists.sqlite.bz2
+2024-04-09 15:04:35.387290 +0000 build-r42-fedora2: output: .          1,847 100%    1.76MB/s    0:00:00  .          1,847 100%    1.76MB/s    0:00:00 (xfr#2, to-chk=13/19)
+2024-04-09 15:04:35.387303 +0000 build-r42-fedora2: output: <f+++++++++ repodata/36eb3694ae5d3cbabf7bb212a6da2d1a23ff74e56bad00944f944d7b65d54e6d-primary.xml.gz
+2024-04-09 15:04:35.387316 +0000 build-r42-fedora2: output: .          1,406 100%    1.34MB/s    0:00:00  .          1,406 100%    1.34MB/s    0:00:00 (xfr#3, to-chk=12/19)
+2024-04-09 15:04:35.387338 +0000 build-r42-fedora2: output: <f+++++++++ repodata/38626de67e52d55b40e0837a4f60ea789d07f6f08c14fddb8db4bf981824f3d2-filelists.xml.gz
+2024-04-09 15:04:35.387351 +0000 build-r42-fedora2: output: .            762 100%  744.14kB/s    0:00:00  .            762 100%  744.14kB/s    0:00:00 (xfr#4, to-chk=11/19)
+2024-04-09 15:04:35.387364 +0000 build-r42-fedora2: output: <f+++++++++ repodata/397e43a81ad38941589caaed70c4fabc438fb360cee27a55821a1db270bacaa3-comps.xml
+2024-04-09 15:04:35.387401 +0000 build-r42-fedora2: output: .         25,819 100%   24.62MB/s    0:00:00  .         25,819 100%   24.62MB/s    0:00:00 (xfr#5, to-chk=10/19)
+2024-04-09 15:04:35.387416 +0000 build-r42-fedora2: output: <f+++++++++ repodata/5653b12d2959fc208207e29e4c973d67a9dc854b9860e231c4d2b489b6ec9a30-primary.sqlite.bz2
+2024-04-09 15:04:35.387430 +0000 build-r42-fedora2: output: .          3,680 100%    3.51MB/s    0:00:00  .          3,680 100%    3.51MB/s    0:00:00 (xfr#6, to-chk=9/19)
+2024-04-09 15:04:35.387452 +0000 build-r42-fedora2: output: <f+++++++++ repodata/9edf1cb10fd4a70d105d991643acd3e2bdd5663d88927717498058e1b0e91f97-other.sqlite.bz2
+2024-04-09 15:04:35.387466 +0000 build-r42-fedora2: output: .          2,022 100%    1.93MB/s    0:00:00  .          2,022 100%    1.93MB/s    0:00:00 (xfr#7, to-chk=8/19)
+2024-04-09 15:04:35.387487 +0000 build-r42-fedora2: output: <f+++++++++ repodata/f068301e6a71c19bc86ebb2fba854e37d82d717da7438f17901c9418633f4eb9-other.xml.gz
+2024-04-09 15:04:35.387501 +0000 build-r42-fedora2: output: .            911 100%  889.65kB/s    0:00:00  .            911 100%  889.65kB/s    0:00:00 (xfr#8, to-chk=7/19)
+2024-04-09 15:04:35.387541 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml
+2024-04-09 15:04:35.387577 +0000 build-r42-fedora2: output: .          3,834 100%    3.66MB/s    0:00:00  .          3,834 100%    3.66MB/s    0:00:00 (xfr#9, to-chk=6/19)
+2024-04-09 15:04:35.387609 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml.asc
+2024-04-09 15:04:35.387622 +0000 build-r42-fedora2: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#10, to-chk=5/19)
+2024-04-09 15:04:35.387632 +0000 build-r42-fedora2: output: <f+++++++++ repodata/repomd.xml.metalink
+2024-04-09 15:04:35.387645 +0000 build-r42-fedora2: output: .          2,779 100%    2.65MB/s    0:00:00  .          2,779 100%    2.65MB/s    0:00:00 (xfr#11, to-chk=4/19)
+2024-04-09 15:04:35.387759 +0000 build-r42-fedora2: output: cd+++++++++ rpm/
+2024-04-09 15:04:35.387776 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.fc39.noarch.rpm
+2024-04-09 15:04:35.387790 +0000 build-r42-fedora2: output: .         25,440 100%   24.26MB/s    0:00:00  .         25,440 100%   24.26MB/s    0:00:00 (xfr#12, to-chk=3/19)
+2024-04-09 15:04:35.387811 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.fc39.src.rpm
+2024-04-09 15:04:35.387857 +0000 build-r42-fedora2: output: .         32,768  81%   31.25MB/s    0:00:00  .         40,023 100%   38.17MB/s    0:00:00 (xfr#13, to-chk=2/19)
+2024-04-09 15:04:35.387889 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.3-1.fc39.x86_64.buildinfo
+2024-04-09 15:04:35.388093 +0000 build-r42-fedora2: output: .          6,663 100%    6.35MB/s    0:00:00  .          6,663 100%    6.35MB/s    0:00:00 (xfr#14, to-chk=1/19)
+2024-04-09 15:04:35.388186 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-disp-0.16.3-1.fc39.noarch.rpm
+2024-04-09 15:04:35.388270 +0000 build-r42-fedora2: output: .         16,965 100%   16.18MB/s    0:00:00  .         16,965 100%   16.18MB/s    0:00:00 (xfr#15, to-chk=0/19)
+2024-04-09 15:04:35.556468 +0000 build-r42-fedora2: > done
+2024-04-09 15:04:35.556510 +0000 > closing log
