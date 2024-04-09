@@ -1,0 +1,61 @@
+2024-04-09 15:04:30.934111 +0000 > starting log
+2024-04-09 15:04:30.934338 +0000 build-r42-debian1: > starting build with log
+2024-04-09 15:04:30.934351 +0000 build-r42-debian1: >> args:
+2024-04-09 15:04:30.934359 +0000 build-r42-debian1: >>   ()
+2024-04-09 15:04:30.934366 +0000 build-r42-debian1: >> component:
+2024-04-09 15:04:30.934373 +0000 build-r42-debian1: >>   app-split-browser
+2024-04-09 15:04:30.934382 +0000 build-r42-debian1: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-04-09 15:04:30.934394 +0000 build-r42-debian1: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-04-09 15:04:30.934407 +0000 build-r42-debian1: >> distributions:
+2024-04-09 15:04:30.934417 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2024-04-09 15:04:30.934429 +0000 build-r42-debian1: Executing 'bash -c /home/user/qubes-builderv2/qubesbuilder/plugins/publish_deb/scripts/create-skeleton r4.2 debian /home/user/builder-r4.2/repository-publish/deb'.
+2024-04-09 15:04:30.934438 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Publishing packages.
+2024-04-09 15:04:30.934446 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64:debian: Verifying signatures.
+2024-04-09 15:04:30.934489 +0000 build-r42-debian1: Executing 'bash -c gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/build/qubes-split-browser_0.16.3-1+deb12u1.dsc&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/build/qubes-split-browser_0.16.3-1+deb12u1_amd64.changes&&gpg2 -q --homedir /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/sign/keyring --verify /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/build/qubes-split-browser_0.16.3-1+deb12u1_amd64.buildinfo'.
+2024-04-09 15:04:30.934498 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:09:15 2024 CET
+2024-04-09 15:04:30.934507 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-04-09 15:04:30.934516 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-04-09 15:04:30.934524 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-04-09 15:04:30.934533 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-04-09 15:04:30.934542 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-04-09 15:04:30.934549 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:09:16 2024 CET
+2024-04-09 15:04:30.934574 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-04-09 15:04:30.934585 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-04-09 15:04:30.934594 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-04-09 15:04:30.934602 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-04-09 15:04:30.934611 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-04-09 15:04:30.934618 +0000 build-r42-debian1: output: gpg: Signature made Sun Feb 25 16:09:15 2024 CET
+2024-04-09 15:04:30.934627 +0000 build-r42-debian1: output: gpg:                using RSA key FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA
+2024-04-09 15:04:30.934636 +0000 build-r42-debian1: output: gpg: Good signature from "Qubes OS Contrib Release 4 Signing Key" [unknown]
+2024-04-09 15:04:30.934652 +0000 build-r42-debian1: output: gpg: WARNING: This key is not certified with a trusted signature!
+2024-04-09 15:04:30.934662 +0000 build-r42-debian1: output: gpg:          There is no indication that the signature belongs to the owner.
+2024-04-09 15:04:30.934670 +0000 build-r42-debian1: output: Primary key fingerprint: FC96 B46D 36C6 06C8 B22A  376D A8F7 A1DC 99F2 9DAA
+2024-04-09 15:04:30.934688 +0000 build-r42-debian1: Executing 'bash -c reprepro --ignore=surprisingbinary --ignore=surprisingarch --keepunreferencedfiles -b /home/user/builder-r4.2/repository-publish/deb/r4.2/vm include bookworm /home/user/builder-r4.2/components/app-split-browser/0.16.3-1/vm-bookworm/build/qubes-split-browser_0.16.3-1+deb12u1_amd64.changes'.
+2024-04-09 15:04:30.934700 +0000 build-r42-debian1: output: 'qubes-split-browser_0.16.3-1+deb12u1_amd64.buildinfo' looks like architecture 'amd64', but this is not listed in the Architecture-Header!
+2024-04-09 15:04:30.934708 +0000 build-r42-debian1: output: Ignoring as --ignore=surprisingarch given.
+2024-04-09 15:04:30.934715 +0000 build-r42-debian1: output: Exporting indices...
+2024-04-09 15:04:30.934723 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64: Signing metadata (Release.gpg).
+2024-04-09 15:04:30.934740 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --detach-sign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm/Release.gpg /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm/Release'.
+2024-04-09 15:04:31.069282 +0000 build-r42-debian1: app-split-browser:vm-debian-12.amd64: Signing metadata (InRelease).
+2024-04-09 15:04:31.069463 +0000 build-r42-debian1: Executing 'bash -c qubes-gpg-client-wrapper --clearsign --armor --local-user FC96B46D36C606C8B22A376DA8F7A1DC99F29DAA --batch --no-tty --output /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm/InRelease /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm/Release'.
+2024-04-09 15:04:31.234980 +0000 build-r42-debian1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/pool/'.
+2024-04-09 15:04:31.325451 +0000 build-r42-debian1: output: sending incremental file list
+2024-04-09 15:04:31.461322 +0000 build-r42-debian1: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/dists/bookworm/'.
+2024-04-09 15:04:31.565238 +0000 build-r42-debian1: output: sending incremental file list
+2024-04-09 15:04:31.585909 +0000 build-r42-debian1: output: .d..t...... ./
+2024-04-09 15:04:31.586875 +0000 build-r42-debian1: output: <f.st...... InRelease
+2024-04-09 15:04:31.587589 +0000 build-r42-debian1: output: .          2,150 100%    0.00kB/s    0:00:00  .          2,150 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=10/12)
+2024-04-09 15:04:31.587620 +0000 build-r42-debian1: output: <f.st...... Release
+2024-04-09 15:04:31.587639 +0000 build-r42-debian1: output: .          1,613 100%    1.54MB/s    0:00:00  .          1,613 100%    1.54MB/s    0:00:00 (xfr#2, to-chk=9/12)
+2024-04-09 15:04:31.587650 +0000 build-r42-debian1: output: <f..t...... Release.gpg
+2024-04-09 15:04:31.587689 +0000 build-r42-debian1: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=8/12)
+2024-04-09 15:04:31.587702 +0000 build-r42-debian1: output: .d..t...... main/binary-amd64/
+2024-04-09 15:04:31.587712 +0000 build-r42-debian1: output: <f.st...... main/binary-amd64/Packages
+2024-04-09 15:04:31.587725 +0000 build-r42-debian1: output: .          1,530 100%    1.46MB/s    0:00:00  .          1,530 100%    1.46MB/s    0:00:00 (xfr#4, to-chk=4/12)
+2024-04-09 15:04:31.587759 +0000 build-r42-debian1: output: <f.st...... main/binary-amd64/Packages.gz
+2024-04-09 15:04:31.587774 +0000 build-r42-debian1: output: .            695 100%  678.71kB/s    0:00:00  .            695 100%  678.71kB/s    0:00:00 (xfr#5, to-chk=3/12)
+2024-04-09 15:04:31.587783 +0000 build-r42-debian1: output: .d..t...... main/source/
+2024-04-09 15:04:31.587792 +0000 build-r42-debian1: output: <f.st...... main/source/Sources.gz
+2024-04-09 15:04:31.587806 +0000 build-r42-debian1: output: .            670 100%  654.30kB/s    0:00:00  .            670 100%  654.30kB/s    0:00:00 (xfr#6, to-chk=0/12)
+2024-04-09 15:04:31.725460 +0000 build-r42-debian1: > done
+2024-04-09 15:04:31.725532 +0000 > closing log
