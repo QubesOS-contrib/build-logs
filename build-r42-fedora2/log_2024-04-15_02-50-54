@@ -1,0 +1,22 @@
+2024-04-15 02:50:54.450797 +0000 > starting log
+2024-04-15 02:50:54.450940 +0000 build-r42-fedora2: > starting build with log
+2024-04-15 02:50:54.450948 +0000 build-r42-fedora2: >> args:
+2024-04-15 02:50:54.450954 +0000 build-r42-fedora2: >>   ()
+2024-04-15 02:50:54.450958 +0000 build-r42-fedora2: >> component:
+2024-04-15 02:50:54.450962 +0000 build-r42-fedora2: >>   builder-rpm
+2024-04-15 02:50:54.450967 +0000 build-r42-fedora2: >>     commit-hash: fa42621395a89eceacdcc701c3a672df33791b63
+2024-04-15 02:50:54.450975 +0000 build-r42-fedora2: >>     source-hash: 7e9c38256ef3ad483b757e1b0f094b3b1cea447c15df54bcc750e4d9603966eb7f6186dd3298d8225e709eef3af13fb4c85c5df257d8b890f876c1c378afc631
+2024-04-15 02:50:54.450983 +0000 build-r42-fedora2: >> distributions:
+2024-04-15 02:50:54.450990 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>]
+2024-04-15 02:50:54.450995 +0000 build-r42-fedora2: builder-rpm: source already fetched. Updating.
+2024-04-15 02:51:19.871587 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9966 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuilder--rpm /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/builder-rpm
+2024-04-15 02:51:20.435375 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9966 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-04-15 02:51:24.147092 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp9966 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-04-15 02:51:29.619664 +0000 build-r42-fedora2: output: --> Verifying tags...
+2024-04-15 02:51:29.619753 +0000 build-r42-fedora2: output: ERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '5b51027f3185e7eb573780859cd0393e5484310d']); stderr: [GNUPG:] NEWSIG
+2024-04-15 02:51:29.619786 +0000 build-r42-fedora2: output: [GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1713149443 9 0064428F455451B3EBE78A7F063938BA42CFA724
+2024-04-15 02:51:29.619801 +0000 build-r42-fedora2: output: [GNUPG:] NO_PUBKEY 063938BA42CFA724
+2024-04-15 02:51:29.619810 +0000 build-r42-fedora2: output: 
+2024-04-15 02:51:29.619826 +0000 build-r42-fedora2: output: ---> Invalid tag 5b51027f3185e7eb573780859cd0393e5484310d.
+2024-04-15 02:51:29.620006 +0000 build-r42-fedora2: output: Not enough distinct tag signatures. Found 0, mandatory minimum is 1.
+2024-04-15 02:51:33.847297 +0000 > closing log
