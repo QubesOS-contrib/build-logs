@@ -1,0 +1,26 @@
+2024-04-27 09:10:18.509532 +0000 > starting log
+2024-04-27 09:10:18.509764 +0000 build-r42-fedora2: > starting build with log
+2024-04-27 09:10:18.509777 +0000 build-r42-fedora2: >> args:
+2024-04-27 09:10:18.509786 +0000 build-r42-fedora2: >>   ()
+2024-04-27 09:10:18.509793 +0000 build-r42-fedora2: >> component:
+2024-04-27 09:10:18.509802 +0000 build-r42-fedora2: >>   contrib-configs
+2024-04-27 09:10:18.509813 +0000 build-r42-fedora2: >>     commit-hash: 82905e05dc9e55378e98d6c3b8c7afd76b234cf2
+2024-04-27 09:10:18.509834 +0000 build-r42-fedora2: >>     source-hash: aed4d0609952beb9d26be6312ae58cb5919789237a8dc6dc7b40c7819c4980f7c0a269880fd90ef1f8c6a1593f5fc5f414c0d0825e270b1ad0533e3c90fc9faa
+2024-04-27 09:10:18.509847 +0000 build-r42-fedora2: >> distributions:
+2024-04-27 09:10:18.509862 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>]
+2024-04-27 09:10:18.509874 +0000 build-r42-fedora2: contrib-configs: source already fetched. Updating.
+2024-04-27 09:10:37.454821 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1130 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2024-04-27 09:10:38.885753 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1130 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-04-27 09:10:39.210107 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp1130 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-04-27 09:10:43.830238 +0000 build-r42-fedora2: output: --> Verifying tags...
+2024-04-27 09:10:43.830304 +0000 build-r42-fedora2: output: ---> Good tag e72c862a0d070d995ba61204cd7545a51c2e3ec7.
+2024-04-27 09:10:43.830325 +0000 build-r42-fedora2: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2024-04-27 09:10:43.830345 +0000 build-r42-fedora2: output: --> Merging...
+2024-04-27 09:10:43.853629 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1130 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2024-04-27 09:10:56.242756 +0000 build-r42-fedora2: ['rm -f -- /builder/contrib-configs/hash /builder/contrib-configs/vtags', 'cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> /builder/contrib-configs/hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> /builder/contrib-configs/vtags"]
+2024-04-27 09:11:14.725149 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9613 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs
+2024-04-27 09:11:15.454582 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp9613 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'rm -f -- /builder/contrib-configs/hash /builder/contrib-configs/vtags && cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> /builder/contrib-configs/hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> /builder/contrib-configs/vtags''.
+2024-04-27 09:11:16.046688 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9613 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs-2Fhash /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmpa1m1xs0a
+2024-04-27 09:11:16.225222 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9613 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs-2Fvtags /usr/lib/qubes/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmpa1m1xs0a
+2024-04-27 09:11:20.395421 +0000 build-r42-fedora2: > done
+2024-04-27 09:11:20.395484 +0000 > closing log
