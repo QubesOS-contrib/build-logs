@@ -1,0 +1,14 @@
+2024-05-14 23:33:32.525563 +0000 > starting log
+2024-05-14 23:33:32.525765 +0000 build-r42-centos1: > starting build with log
+2024-05-14 23:33:32.525782 +0000 build-r42-centos1: >> args:
+2024-05-14 23:33:32.525791 +0000 build-r42-centos1: >>   ()
+2024-05-14 23:33:32.525796 +0000 build-r42-centos1: >> component:
+2024-05-14 23:33:32.525802 +0000 build-r42-centos1: >>   builder-rpm
+2024-05-14 23:33:32.525808 +0000 build-r42-centos1: >> distributions:
+2024-05-14 23:33:32.525814 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-05-14 23:33:41.041939 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp5307 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-05-14 23:33:41.339141 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp5307 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-05-14 23:35:24.309503 +0000 build-r42-centos1: output: args: (128, ['git', 'clone', '-n', '-q', '-b', 'main', 'https://github.com/QubesOS/qubes-builder-rpm.git', PosixPath('/builder/builder-rpm')])
+2024-05-14 23:35:24.309577 +0000 build-r42-centos1: output: stdout: b''
+2024-05-14 23:35:24.309621 +0000 build-r42-centos1: output: stderr: b'error: RPC failed; curl 18 Transferred a partial file\nerror: 2375 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: fetch-pack: invalid index-pack output\n'
+2024-05-14 23:35:26.916081 +0000 > closing log
