@@ -1,0 +1,18 @@
+2024-05-26 03:13:58.570809 +0000 > starting log
+2024-05-26 03:13:58.571016 +0000 build-r42-debian1: > starting build with log
+2024-05-26 03:13:58.571033 +0000 build-r42-debian1: >> args:
+2024-05-26 03:13:58.571041 +0000 build-r42-debian1: >>   ()
+2024-05-26 03:13:58.571047 +0000 build-r42-debian1: >> component:
+2024-05-26 03:13:58.571053 +0000 build-r42-debian1: >>   builder-debian
+2024-05-26 03:13:58.571067 +0000 build-r42-debian1: >> distributions:
+2024-05-26 03:13:58.571074 +0000 build-r42-debian1: >>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>]
+2024-05-26 03:14:05.917974 +0000 build-r42-debian1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp583 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-05-26 03:14:06.137882 +0000 build-r42-debian1: Executing '/usr/bin/qvm-run-vm -- disp583 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-debian.git /builder/builder-debian /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-05-26 03:14:31.207596 +0000 build-r42-debian1: output: --> Verifying tags...
+2024-05-26 03:14:31.207682 +0000 build-r42-debian1: output: ERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', 'afa87fe517a4c91d2b513426c9d7404c01ea0b80']); stderr: [GNUPG:] NEWSIG
+2024-05-26 03:14:31.207729 +0000 build-r42-debian1: output: [GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1715726798 9 0064428F455451B3EBE78A7F063938BA42CFA724
+2024-05-26 03:14:31.207747 +0000 build-r42-debian1: output: [GNUPG:] NO_PUBKEY 063938BA42CFA724
+2024-05-26 03:14:31.207765 +0000 build-r42-debian1: output: 
+2024-05-26 03:14:31.207884 +0000 build-r42-debian1: output: ---> Invalid tag afa87fe517a4c91d2b513426c9d7404c01ea0b80.
+2024-05-26 03:14:31.207910 +0000 build-r42-debian1: output: Not enough distinct tag signatures. Found 0, mandatory minimum is 1.
+2024-05-26 03:14:34.823742 +0000 > closing log
