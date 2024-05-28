@@ -1,0 +1,18 @@
+2024-05-28 00:43:01.283105 +0000 > starting log
+2024-05-28 00:43:01.283483 +0000 build-r42-fedora2: > starting build with log
+2024-05-28 00:43:01.283518 +0000 build-r42-fedora2: >> args:
+2024-05-28 00:43:01.283534 +0000 build-r42-fedora2: >>   ()
+2024-05-28 00:43:01.283547 +0000 build-r42-fedora2: >> component:
+2024-05-28 00:43:01.283559 +0000 build-r42-fedora2: >>   builder-rpm
+2024-05-28 00:43:01.283573 +0000 build-r42-fedora2: >>     commit-hash: fa42621395a89eceacdcc701c3a672df33791b63
+2024-05-28 00:43:01.283595 +0000 build-r42-fedora2: >>     source-hash: 7e9c38256ef3ad483b757e1b0f094b3b1cea447c15df54bcc750e4d9603966eb7f6186dd3298d8225e709eef3af13fb4c85c5df257d8b890f876c1c378afc631
+2024-05-28 00:43:01.283606 +0000 build-r42-fedora2: >> distributions:
+2024-05-28 00:43:01.283622 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>]
+2024-05-28 00:43:01.283635 +0000 build-r42-fedora2: builder-rpm: source already fetched. Updating.
+2024-05-28 00:43:08.921252 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2430 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuilder--rpm /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/builder-rpm
+2024-05-28 00:43:10.927327 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2430 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-05-28 00:43:11.146566 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp2430 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-05-28 00:43:27.421935 +0000 build-r42-fedora2: output: args: (128, ['git', 'fetch', '-q', '--tags', '--', 'https://github.com/QubesOS/qubes-builder-rpm.git', 'main'])
+2024-05-28 00:43:27.421998 +0000 build-r42-fedora2: output: stdout: b''
+2024-05-28 00:43:27.422021 +0000 build-r42-fedora2: output: stderr: b"fatal: unable to access 'https://github.com/QubesOS/qubes-builder-rpm.git/': Could not resolve host: github.com\n"
+2024-05-28 00:43:31.287745 +0000 > closing log
