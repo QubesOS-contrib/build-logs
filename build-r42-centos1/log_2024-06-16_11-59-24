@@ -1,0 +1,740 @@
+2024-06-16 11:59:24.599084 +0000 > starting log
+2024-06-16 11:59:24.599612 +0000 build-r42-centos1: > starting build with log
+2024-06-16 11:59:24.599632 +0000 build-r42-centos1: >> args:
+2024-06-16 11:59:24.599640 +0000 build-r42-centos1: >>   ()
+2024-06-16 11:59:24.599646 +0000 build-r42-centos1: >> component:
+2024-06-16 11:59:24.599652 +0000 build-r42-centos1: >>   app-split-browser
+2024-06-16 11:59:24.599658 +0000 build-r42-centos1: >>     commit-hash: 7d2f717bf8647eaa1a4c551c9bd8326a71abe48c
+2024-06-16 11:59:24.599669 +0000 build-r42-centos1: >>     source-hash: 0049644f68f7456db29ef362d985dd9739ef0c24b94ba0f56db48cd629b515961ef38af6a5a695f09aa32c8f5323d7cecce14309b5cf8029a1046cfec14af1a6
+2024-06-16 11:59:24.599675 +0000 build-r42-centos1: >> distributions:
+2024-06-16 11:59:24.599681 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-06-16 11:59:33.405251 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6381 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-06-16 11:59:33.806020 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6381 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource_rpm /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_rpm
+2024-06-16 11:59:34.070798 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6381 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2024-06-16 11:59:34.468385 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6381 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-06-16 11:59:34.883114 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp6381 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fchroot_rpm /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_rpm
+2024-06-16 11:59:35.047699 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp6381 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen DIST=centos-stream8 PACKAGE_SET=vm bash -c '/builder/plugins/source_rpm/scripts/get-source-info /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec el8''.
+2024-06-16 11:59:35.175731 +0000 build-r42-centos1: output: + ERR_OUTPUT=/dev/stderr
+2024-06-16 11:59:35.175785 +0000 build-r42-centos1: output: + test 3 -ne 3
+2024-06-16 11:59:35.175797 +0000 build-r42-centos1: output: + SOURCE_DIR=/builder/app-split-browser
+2024-06-16 11:59:35.175806 +0000 build-r42-centos1: output: + SPEC_FILE=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.175821 +0000 build-r42-centos1: output: + DIST_TAG=el8
+2024-06-16 11:59:35.175830 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/get-source-info
+2024-06-16 11:59:35.176918 +0000 build-r42-centos1: output: + SCRIPTS_DIR=/builder/plugins/source_rpm/scripts
+2024-06-16 11:59:35.177027 +0000 build-r42-centos1: output: + SPEC_MANGLE_PATH=rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.177356 +0000 build-r42-centos1: output: + SPEC_MANGLE_PATH=rpm_spec_qubes-split-browser.spec
+2024-06-16 11:59:35.177554 +0000 build-r42-centos1: output: + head -1
+2024-06-16 11:59:35.178513 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec '%{name}-%{version}-%{release}\n' el8
+2024-06-16 11:59:35.179673 +0000 build-r42-centos1: output: + ERR_OUTPUT=/dev/stderr
+2024-06-16 11:59:35.179703 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.179723 +0000 build-r42-centos1: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.179769 +0000 build-r42-centos1: output: + query_field='%{name}-%{version}-%{release}\n'
+2024-06-16 11:59:35.179815 +0000 build-r42-centos1: output: + dist=el8
+2024-06-16 11:59:35.179825 +0000 build-r42-centos1: output: + '[' 4 -lt 4 ']'
+2024-06-16 11:59:35.179834 +0000 build-r42-centos1: output: + rpm_defines=()
+2024-06-16 11:59:35.179892 +0000 build-r42-centos1: output: + export -f set_rpm_defines
+2024-06-16 11:59:35.179906 +0000 build-r42-centos1: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.180817 +0000 build-r42-centos1: output: + spec_file_bn=qubes-split-browser.spec
+2024-06-16 11:59:35.181014 +0000 build-r42-centos1: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2024-06-16 11:59:35.181127 +0000 build-r42-centos1: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.181365 +0000 build-r42-centos1: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2024-06-16 11:59:35.182650 +0000 build-r42-centos1: output: + tmp_spec=/tmp/tmp.DStjb5.spec
+2024-06-16 11:59:35.182855 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2024-06-16 11:59:35.183747 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.DStjb5.spec
+2024-06-16 11:59:35.184932 +0000 build-r42-centos1: output: + '[' 3 -lt 3 ']'
+2024-06-16 11:59:35.184944 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.184957 +0000 build-r42-centos1: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2024-06-16 11:59:35.185019 +0000 build-r42-centos1: output: + output=/tmp/tmp.DStjb5.spec
+2024-06-16 11:59:35.185034 +0000 build-r42-centos1: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.185088 +0000 build-r42-centos1: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.186893 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.186914 +0000 build-r42-centos1: output: + '[' -z '' ']'
+2024-06-16 11:59:35.186932 +0000 build-r42-centos1: output: + sed -i 's|@VERSION@|0.16.4|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.188557 +0000 build-r42-centos1: output: + vnum=1
+2024-06-16 11:59:35.188574 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.188583 +0000 build-r42-centos1: output: + '[' -e /builder/app-split-browser/rel ']'
+2024-06-16 11:59:35.188597 +0000 build-r42-centos1: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.190301 +0000 build-r42-centos1: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.192110 +0000 build-r42-centos1: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.193579 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2024-06-16 11:59:35.194445 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.444003 +0000 build-r42-centos1: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.445092 +0000 build-r42-centos1: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.445868 +0000 build-r42-centos1: output: + '[' '%{name}-%{version}-%{release}\n' = '%{SOURCE0}' ']'
+2024-06-16 11:59:35.445925 +0000 build-r42-centos1: output: + '[' '%{name}-%{version}-%{release}\n' = PACKAGES_LIST ']'
+2024-06-16 11:59:35.445963 +0000 build-r42-centos1: output: + rpm -q --define 'dist .el8' --qf '%{name}-%{version}-%{release}\n' --specfile /tmp/tmp.DStjb5.spec
+2024-06-16 11:59:35.491902 +0000 build-r42-centos1: output: + cat
+2024-06-16 11:59:35.497018 +0000 build-r42-centos1: output: + rm -f /tmp/tmp.DStjb5.spec
+2024-06-16 11:59:35.501885 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec '%{SOURCE0}' el8
+2024-06-16 11:59:35.501921 +0000 build-r42-centos1: output: + awk '{print $2}'
+2024-06-16 11:59:35.501939 +0000 build-r42-centos1: output: + ERR_OUTPUT=/dev/stderr
+2024-06-16 11:59:35.501957 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.501966 +0000 build-r42-centos1: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.501977 +0000 build-r42-centos1: output: + query_field='%{SOURCE0}'
+2024-06-16 11:59:35.501984 +0000 build-r42-centos1: output: + dist=el8
+2024-06-16 11:59:35.502056 +0000 build-r42-centos1: output: + '[' 4 -lt 4 ']'
+2024-06-16 11:59:35.502066 +0000 build-r42-centos1: output: + rpm_defines=()
+2024-06-16 11:59:35.502086 +0000 build-r42-centos1: output: + export -f set_rpm_defines
+2024-06-16 11:59:35.502605 +0000 build-r42-centos1: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.503586 +0000 build-r42-centos1: output: + spec_file_bn=qubes-split-browser.spec
+2024-06-16 11:59:35.503928 +0000 build-r42-centos1: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2024-06-16 11:59:35.503952 +0000 build-r42-centos1: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.504281 +0000 build-r42-centos1: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2024-06-16 11:59:35.505307 +0000 build-r42-centos1: output: + tmp_spec=/tmp/tmp.i62YPX.spec
+2024-06-16 11:59:35.506106 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2024-06-16 11:59:35.506239 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.i62YPX.spec
+2024-06-16 11:59:35.507493 +0000 build-r42-centos1: output: + '[' 3 -lt 3 ']'
+2024-06-16 11:59:35.507653 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.507669 +0000 build-r42-centos1: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2024-06-16 11:59:35.507676 +0000 build-r42-centos1: output: + output=/tmp/tmp.i62YPX.spec
+2024-06-16 11:59:35.507753 +0000 build-r42-centos1: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.507769 +0000 build-r42-centos1: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.509089 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.509110 +0000 build-r42-centos1: output: + '[' -z '' ']'
+2024-06-16 11:59:35.509123 +0000 build-r42-centos1: output: + sed -i 's|@VERSION@|0.16.4|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.510780 +0000 build-r42-centos1: output: + vnum=1
+2024-06-16 11:59:35.510796 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.510817 +0000 build-r42-centos1: output: + '[' -e /builder/app-split-browser/rel ']'
+2024-06-16 11:59:35.510851 +0000 build-r42-centos1: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.511963 +0000 build-r42-centos1: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.513490 +0000 build-r42-centos1: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.515236 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2024-06-16 11:59:35.515791 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.659711 +0000 build-r42-centos1: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.660626 +0000 build-r42-centos1: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.661894 +0000 build-r42-centos1: output: + '[' '%{SOURCE0}' = '%{SOURCE0}' ']'
+2024-06-16 11:59:35.661920 +0000 build-r42-centos1: output: + spectool --list-files --source 0 /tmp/tmp.i62YPX.spec
+2024-06-16 11:59:35.945453 +0000 build-r42-centos1: output: + rm -f /tmp/tmp.i62YPX.spec
+2024-06-16 11:59:35.946799 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/query-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec PACKAGES_LIST el8
+2024-06-16 11:59:35.947827 +0000 build-r42-centos1: output: + ERR_OUTPUT=/dev/stderr
+2024-06-16 11:59:35.947856 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.947873 +0000 build-r42-centos1: output: + spec_file=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.947890 +0000 build-r42-centos1: output: + query_field=PACKAGES_LIST
+2024-06-16 11:59:35.947925 +0000 build-r42-centos1: output: + dist=el8
+2024-06-16 11:59:35.947975 +0000 build-r42-centos1: output: + '[' 4 -lt 4 ']'
+2024-06-16 11:59:35.947985 +0000 build-r42-centos1: output: + rpm_defines=()
+2024-06-16 11:59:35.948016 +0000 build-r42-centos1: output: + export -f set_rpm_defines
+2024-06-16 11:59:35.948285 +0000 build-r42-centos1: output: ++ basename /builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:35.949017 +0000 build-r42-centos1: output: + spec_file_bn=qubes-split-browser.spec
+2024-06-16 11:59:35.949038 +0000 build-r42-centos1: output: + [[ qubes-split-browser.spec.in == \.\i\n ]]
+2024-06-16 11:59:35.949055 +0000 build-r42-centos1: output: + '[' -r /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.949268 +0000 build-r42-centos1: output: ++ mktemp --tmpdir tmp.XXXXXX.spec
+2024-06-16 11:59:35.949940 +0000 build-r42-centos1: output: + tmp_spec=/tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:35.950281 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2024-06-16 11:59:35.950867 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:35.952053 +0000 build-r42-centos1: output: + '[' 3 -lt 3 ']'
+2024-06-16 11:59:35.952111 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:35.952133 +0000 build-r42-centos1: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2024-06-16 11:59:35.952142 +0000 build-r42-centos1: output: + output=/tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:35.952150 +0000 build-r42-centos1: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:35.952161 +0000 build-r42-centos1: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.953754 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.953822 +0000 build-r42-centos1: output: + '[' -z '' ']'
+2024-06-16 11:59:35.953840 +0000 build-r42-centos1: output: + sed -i 's|@VERSION@|0.16.4|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.955268 +0000 build-r42-centos1: output: + vnum=1
+2024-06-16 11:59:35.955313 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:35.955341 +0000 build-r42-centos1: output: + '[' -e /builder/app-split-browser/rel ']'
+2024-06-16 11:59:35.955373 +0000 build-r42-centos1: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.956504 +0000 build-r42-centos1: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.957942 +0000 build-r42-centos1: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:35.959045 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2024-06-16 11:59:35.959902 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:36.098294 +0000 build-r42-centos1: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:36.098898 +0000 build-r42-centos1: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:36.100106 +0000 build-r42-centos1: output: + '[' PACKAGES_LIST = '%{SOURCE0}' ']'
+2024-06-16 11:59:36.100122 +0000 build-r42-centos1: output: + '[' PACKAGES_LIST = PACKAGES_LIST ']'
+2024-06-16 11:59:36.100616 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/query-spec
+2024-06-16 11:59:36.101268 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/query-builtrpms /tmp/tmp.TWRb8Z.spec el8
+2024-06-16 11:59:36.102496 +0000 build-r42-centos1: output: + test 2 -ne 2
+2024-06-16 11:59:36.102514 +0000 build-r42-centos1: output: + SPEC_FILE=/tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:36.102521 +0000 build-r42-centos1: output: + DIST_TAG=el8
+2024-06-16 11:59:36.102584 +0000 build-r42-centos1: output: + rpm_defines=(--define "dist .${DIST_TAG}")
+2024-06-16 11:59:36.102621 +0000 build-r42-centos1: output: ++ type -t set_rpm_defines
+2024-06-16 11:59:36.102875 +0000 build-r42-centos1: output: + '[' function = function ']'
+2024-06-16 11:59:36.103366 +0000 build-r42-centos1: output: + set_rpm_defines el8
+2024-06-16 11:59:36.103389 +0000 build-r42-centos1: output: + local dist=el8
+2024-06-16 11:59:36.103484 +0000 build-r42-centos1: output: + raw_dist=el8
+2024-06-16 11:59:36.103493 +0000 build-r42-centos1: output: + [[ el8 = \f\c* ]]
+2024-06-16 11:59:36.103500 +0000 build-r42-centos1: output: + [[ el8 = \e\l* ]]
+2024-06-16 11:59:36.103511 +0000 build-r42-centos1: output: + dist_ver=8
+2024-06-16 11:59:36.103519 +0000 build-r42-centos1: output: + rpm_defines+=(--define "centos $dist_ver")
+2024-06-16 11:59:36.103589 +0000 build-r42-centos1: output: + rpm_defines+=(--define "rhel $dist_ver")
+2024-06-16 11:59:36.103626 +0000 build-r42-centos1: output: + RPM_OPS=("${rpm_defines[@]}")
+2024-06-16 11:59:36.103659 +0000 build-r42-centos1: output: + rpmspec --builtrpms --define 'dist .el8' --define 'centos 8' --define 'rhel 8' -q --qf '%{name}-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:36.103674 +0000 build-r42-centos1: output: + sort
+2024-06-16 11:59:36.103710 +0000 build-r42-centos1: output: + uniq
+2024-06-16 11:59:36.112490 +0000 build-r42-centos1: output: + rpmspec --builtrpms --define 'dist .el8' --define 'centos 8' --define 'rhel 8' -q --qf '%{name}-debuginfo-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:36.113437 +0000 build-r42-centos1: output: + grep -v -- '-devel\|-debuginfo-debuginfo\|-debugsource-debuginfo'
+2024-06-16 11:59:36.121529 +0000 build-r42-centos1: output: + rpmspec --builtrpms --define 'dist .el8' --define 'centos 8' --define 'rhel 8' -q --qf '%{name}-debugsource-%{version}-%{release}.%{arch}.rpm\n' /tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:36.121547 +0000 build-r42-centos1: output: + grep -v -- '-devel\|-debuginfo-debugsource\|-debugsource-debugsource'
+2024-06-16 11:59:36.131056 +0000 build-r42-centos1: output: + rm -f /tmp/tmp.TWRb8Z.spec
+2024-06-16 11:59:36.137216 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp6381 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser-2Frpm_spec_qubes--split--browser.spec_package_release_name /usr/bin/qfile-unpacker 1000 /tmp/tmpsd5tl9c5
+2024-06-16 11:59:36.304719 +0000 build-r42-centos1: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp6381 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser-2Frpm_spec_qubes--split--browser.spec_packages.list /usr/bin/qfile-unpacker 1000 /tmp/tmpsd5tl9c5
+2024-06-16 11:59:47.425239 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-06-16 11:59:47.696774 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcache-2Fmock /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/cache/chroot/centos-stream8/mock
+2024-06-16 11:59:51.498012 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fdistfiles-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/distfiles/app-split-browser
+2024-06-16 11:59:51.615498 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource_rpm /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source_rpm
+2024-06-16 11:59:51.820942 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fsource /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/source
+2024-06-16 11:59:51.936689 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-06-16 11:59:52.061609 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2905 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Fchroot_rpm /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/chroot_rpm
+2024-06-16 11:59:52.348131 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp2905 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen DIST=centos-stream8 PACKAGE_SET=vm bash -c 'sudo chown -R root:mock /builder/cache/mock && /builder/plugins/fetch/scripts/create-archive /builder/app-split-browser qubes-split-browser-0.16.4.tar.gz && /builder/plugins/source_rpm/scripts/generate-spec /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec && mkdir -p /builder/build && sudo chown -R user:mock /builder/build && sudo --preserve-env=DIST,PACKAGE_SET,USE_QUBES_REPO_VERSION /usr/libexec/mock/mock --buildsrpm --spec /builder/app-split-browser/rpm_spec/qubes-split-browser.spec --root /builder/plugins/chroot_rpm/mock/centos-stream-8-x86_64.cfg --sources=/builder/app-split-browser --resultdir=/builder/build --disablerepo=builder-local --isolation=nspawn --verbose --plugin-option=root_cache:age_check=False --no-clean''.
+2024-06-16 11:59:52.554526 +0000 build-r42-centos1: output: ++ tar --version
+2024-06-16 11:59:52.556118 +0000 build-r42-centos1: output: ++ head -1
+2024-06-16 11:59:52.556168 +0000 build-r42-centos1: output: ++ awk '{print $4}'
+2024-06-16 11:59:52.571622 +0000 build-r42-centos1: output: + TAR_VERSION=1.35
+2024-06-16 11:59:52.571933 +0000 build-r42-centos1: output: ++ readlink -f /builder/app-split-browser
+2024-06-16 11:59:52.573466 +0000 build-r42-centos1: output: + GIT_ARCHIVE_SRC=/builder/app-split-browser
+2024-06-16 11:59:52.573509 +0000 build-r42-centos1: output: + GIT_ARCHIVE_TYPE=gz
+2024-06-16 11:59:52.573525 +0000 build-r42-centos1: output: + GIT_TARBALL_NAME=qubes-split-browser-0.16.4.tar
+2024-06-16 11:59:52.573537 +0000 build-r42-centos1: output: + '[' x '!=' x ']'
+2024-06-16 11:59:52.573558 +0000 build-r42-centos1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.4.tar
+2024-06-16 11:59:52.573643 +0000 build-r42-centos1: output: /builder/app-split-browser ~
+2024-06-16 11:59:52.573678 +0000 build-r42-centos1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.4
+2024-06-16 11:59:52.573736 +0000 build-r42-centos1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.4
+2024-06-16 11:59:52.573761 +0000 build-r42-centos1: output: + GIT_ARCHIVE_PREFIX=qubes-split-browser-0.16.4/
+2024-06-16 11:59:52.573773 +0000 build-r42-centos1: output: + pushd /builder/app-split-browser
+2024-06-16 11:59:52.574200 +0000 build-r42-centos1: output: ++ git log -1 --format=%ct
+2024-06-16 11:59:52.599594 +0000 build-r42-centos1: output: + SOURCE_DATE_EPOCH=1717672453
+2024-06-16 11:59:52.600562 +0000 build-r42-centos1: output: ++ printf '%s\n' 1.35 1.28
+2024-06-16 11:59:52.601025 +0000 build-r42-centos1: output: ++ sort -V
+2024-06-16 11:59:52.601196 +0000 build-r42-centos1: output: ++ head -n1
+2024-06-16 11:59:52.604613 +0000 build-r42-centos1: output: + '[' 1.28 == 1.28 ']'
+2024-06-16 11:59:52.604686 +0000 build-r42-centos1: output: + tar --sort=name --mtime=@1717672453 --owner=0 --group=0 --numeric-owner --mode=go=rX '--xform=s%^\./%qubes-split-browser-0.16.4/%' --exclude-vcs-ignores --exclude-ignore=.tarignore --exclude pkgs --exclude '.git/*' --exclude qubes-split-browser-0.16.4.tar -cf qubes-split-browser-0.16.4.tar .
+2024-06-16 11:59:52.621887 +0000 build-r42-centos1: output: + case "$GIT_ARCHIVE_TYPE" in
+2024-06-16 11:59:52.621928 +0000 build-r42-centos1: output: + gzip -fn qubes-split-browser-0.16.4.tar
+2024-06-16 11:59:52.628662 +0000 build-r42-centos1: output: + popd
+2024-06-16 11:59:52.628707 +0000 build-r42-centos1: output: ~
+2024-06-16 11:59:52.631005 +0000 build-r42-centos1: output: + '[' 3 -lt 3 ']'
+2024-06-16 11:59:52.631036 +0000 build-r42-centos1: output: + source_dir=/builder/app-split-browser
+2024-06-16 11:59:52.631075 +0000 build-r42-centos1: output: + input=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in
+2024-06-16 11:59:52.631213 +0000 build-r42-centos1: output: + output=/builder/app-split-browser/rpm_spec/qubes-split-browser.spec
+2024-06-16 11:59:52.631235 +0000 build-r42-centos1: output: + '[' '!' -e /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in ']'
+2024-06-16 11:59:52.631333 +0000 build-r42-centos1: output: + cp /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.634527 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:52.634584 +0000 build-r42-centos1: output: + '[' -z '' ']'
+2024-06-16 11:59:52.634609 +0000 build-r42-centos1: output: + sed -i 's|@VERSION@|0.16.4|g' /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.637193 +0000 build-r42-centos1: output: + vnum=1
+2024-06-16 11:59:52.637223 +0000 build-r42-centos1: output: + read -r ver
+2024-06-16 11:59:52.637261 +0000 build-r42-centos1: output: + '[' -e /builder/app-split-browser/rel ']'
+2024-06-16 11:59:52.637313 +0000 build-r42-centos1: output: + grep -q @REL@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.639445 +0000 build-r42-centos1: output: + sed -i -e s:@BACKEND_VMM@:xen:g /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.641844 +0000 build-r42-centos1: output: + grep -q @CHANGELOG@ /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.644270 +0000 build-r42-centos1: output: ++ dirname /builder/plugins/source_rpm/scripts/generate-spec
+2024-06-16 11:59:52.647012 +0000 build-r42-centos1: output: + /builder/plugins/source_rpm/scripts/generate-changelog /builder/app-split-browser /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.832127 +0000 build-r42-centos1: output: + cat /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:52.832888 +0000 build-r42-centos1: output: + rm -rf /builder/app-split-browser/rpm_spec/qubes-split-browser.spec.in.tmp
+2024-06-16 11:59:53.643133 +0000 build-r42-centos1: output: WARNING: config_opts['use_bootstrap_container'] is deprecated, please use config_opts['use_bootstrap'] instead
+2024-06-16 11:59:53.683561 +0000 build-r42-centos1: output: INFO: mock.py version 5.6 starting (python version = 3.12.3, NVR = mock-5.6-1.fc39), args: /usr/libexec/mock/mock --buildsrpm --spec /builder/app-split-browser/rpm_spec/qubes-split-browser.spec --root /builder/plugins/chroot_rpm/mock/centos-stream-8-x86_64.cfg --sources=/builder/app-split-browser --resultdir=/builder/build --disablerepo=builder-local --isolation=nspawn --verbose --plugin-option=root_cache:age_check=False --no-clean
+2024-06-16 11:59:53.739696 +0000 build-r42-centos1: output: Start: init plugins
+2024-06-16 11:59:53.755863 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/cache/mock/centos-stream-8-x86_64/yum_cache
+2024-06-16 11:59:53.760815 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/cache/mock/centos-stream-8-x86_64/dnf_cache
+2024-06-16 11:59:53.766464 +0000 build-r42-centos1: output: INFO: selinux disabled
+2024-06-16 11:59:53.769621 +0000 build-r42-centos1: output: Finish: init plugins
+2024-06-16 11:59:53.801584 +0000 build-r42-centos1: output: INFO: Signal handler active
+2024-06-16 11:59:53.811980 +0000 build-r42-centos1: output: Start: run
+2024-06-16 11:59:53.812079 +0000 build-r42-centos1: output: DEBUG: mock final configuration:
+2024-06-16 11:59:53.909157 +0000 build-r42-centos1: output: DEBUG:     _aliases:  {'yum.conf': 'dnf.conf', 'dnf5.conf': 'dnf.conf'}
+2024-06-16 11:59:53.909223 +0000 build-r42-centos1: output: DEBUG:     config_paths:  ['/etc/mock/site-defaults.cfg', '/etc/mock/chroot-aliases.cfg', '/builder/plugins/chroot_rpm/mock/centos-stream-8-x86_64.cfg']
+2024-06-16 11:59:53.910447 +0000 build-r42-centos1: output: DEBUG:     version:  5.6
+2024-06-16 11:59:53.910469 +0000 build-r42-centos1: output: DEBUG:     basedir:  /builder/build
+2024-06-16 11:59:53.910503 +0000 build-r42-centos1: output: DEBUG:     resultdir:  /builder/build
+2024-06-16 11:59:53.910588 +0000 build-r42-centos1: output: DEBUG:     rootdir:  /builder/build/centos-stream-8-x86_64/root
+2024-06-16 11:59:53.910616 +0000 build-r42-centos1: output: DEBUG:     cache_topdir:  /builder/cache/mock
+2024-06-16 11:59:53.910645 +0000 build-r42-centos1: output: DEBUG:     clean:  False
+2024-06-16 11:59:53.910701 +0000 build-r42-centos1: output: DEBUG:     check:  True
+2024-06-16 11:59:53.910757 +0000 build-r42-centos1: output: DEBUG:     post_install:  False
+2024-06-16 11:59:53.910827 +0000 build-r42-centos1: output: DEBUG:     chroothome:  /builddir
+2024-06-16 11:59:53.910863 +0000 build-r42-centos1: output: DEBUG:     log_config_file:  logging.ini
+2024-06-16 11:59:53.910935 +0000 build-r42-centos1: output: DEBUG:     rpmbuild_timeout:  0
+2024-06-16 11:59:53.910972 +0000 build-r42-centos1: output: DEBUG:     host_arch:  x86_64
+2024-06-16 11:59:53.911026 +0000 build-r42-centos1: output: DEBUG:     chrootuid:  1000
+2024-06-16 11:59:53.911086 +0000 build-r42-centos1: output: DEBUG:     chrootgid:  135
+2024-06-16 11:59:53.911120 +0000 build-r42-centos1: output: DEBUG:     chrootgroup:  mock
+2024-06-16 11:59:53.911185 +0000 build-r42-centos1: output: DEBUG:     chrootuser:  mockbuild
+2024-06-16 11:59:53.911207 +0000 build-r42-centos1: output: DEBUG:     build_log_fmt_name:  unadorned
+2024-06-16 11:59:53.911333 +0000 build-r42-centos1: output: DEBUG:     root_log_fmt_name:  detailed
+2024-06-16 11:59:53.911365 +0000 build-r42-centos1: output: DEBUG:     state_log_fmt_name:  state
+2024-06-16 11:59:53.911377 +0000 build-r42-centos1: output: DEBUG:     online:  True
+2024-06-16 11:59:53.911465 +0000 build-r42-centos1: output: DEBUG:     isolation:  None
+2024-06-16 11:59:53.911487 +0000 build-r42-centos1: output: DEBUG:     use_nspawn:  None
+2024-06-16 11:59:53.911561 +0000 build-r42-centos1: output: DEBUG:     rpmbuild_networking:  False
+2024-06-16 11:59:53.911660 +0000 build-r42-centos1: output: DEBUG:     nspawn_args:  ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.1zfdscy1:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/mapper/control', '--bind=/dev/fuse', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+2024-06-16 11:59:53.911730 +0000 build-r42-centos1: output: DEBUG:     use_container_host_hostname:  True
+2024-06-16 11:59:53.911748 +0000 build-r42-centos1: output: DEBUG:     use_bootstrap:  False
+2024-06-16 11:59:53.911880 +0000 build-r42-centos1: output: DEBUG:     use_bootstrap_image:  True
+2024-06-16 11:59:53.911897 +0000 build-r42-centos1: output: DEBUG:     bootstrap_image:  fedora:latest
+2024-06-16 11:59:53.911914 +0000 build-r42-centos1: output: DEBUG:     bootstrap_image_ready:  False
+2024-06-16 11:59:53.912030 +0000 build-r42-centos1: output: DEBUG:     bootstrap_image_fallback:  True
+2024-06-16 11:59:53.912046 +0000 build-r42-centos1: output: DEBUG:     bootstrap_image_keep_getting:  120
+2024-06-16 11:59:53.912063 +0000 build-r42-centos1: output: DEBUG:     internal_dev_setup:  True
+2024-06-16 11:59:53.912148 +0000 build-r42-centos1: output: DEBUG:     cleanup_on_success:  True
+2024-06-16 11:59:53.912168 +0000 build-r42-centos1: output: DEBUG:     cleanup_on_failure:  True
+2024-06-16 11:59:53.912269 +0000 build-r42-centos1: output: DEBUG:     exclude_from_homedir_cleanup:  ['build/SOURCES', '.bash_history', '.bashrc']
+2024-06-16 11:59:53.912333 +0000 build-r42-centos1: output: DEBUG:     createrepo_on_rpms:  False
+2024-06-16 11:59:53.912425 +0000 build-r42-centos1: output: DEBUG:     createrepo_command:  /usr/bin/createrepo_c -d -q -x *.src.rpm
+2024-06-16 11:59:53.912447 +0000 build-r42-centos1: output: DEBUG:     tar_binary:  /bin/tar
+2024-06-16 11:59:53.912518 +0000 build-r42-centos1: output: DEBUG:     tar:  gnutar
+2024-06-16 11:59:53.912612 +0000 build-r42-centos1: output: DEBUG:     backup_on_clean:  False
+2024-06-16 11:59:53.912629 +0000 build-r42-centos1: output: DEBUG:     backup_base_dir:  /builder/build/backup
+2024-06-16 11:59:53.912647 +0000 build-r42-centos1: output: DEBUG:     redhat_subscription_required:  False
+2024-06-16 11:59:53.912744 +0000 build-r42-centos1: output: DEBUG:     ssl_ca_bundle_path:  None
+2024-06-16 11:59:53.912777 +0000 build-r42-centos1: output: DEBUG:     ssl_extra_certs:  None
+2024-06-16 11:59:53.912876 +0000 build-r42-centos1: output: DEBUG:     plugins:  ['tmpfs', 'root_cache', 'yum_cache', 'mount', 'bind_mount', 'ccache', 'selinux', 'package_state', 'chroot_scan', 'lvm_root', 'compress_logs', 'sign', 'pm_request', 'hw_info', 'procenv', 'showrc', 'rpkg_preprocessor', 'rpmautospec', '__init__', 'overlayfs']
+2024-06-16 11:59:53.912901 +0000 build-r42-centos1: output: DEBUG:     plugin_dir:  /usr/lib/python3.12/site-packages/mockbuild/plugins
+2024-06-16 11:59:53.914206 +0000 build-r42-centos1: output: DEBUG:     plugin_conf:  {'ccache_enable': False, 'ccache_opts': {'max_cache_size': '4G', 'compress': None, 'dir': '/builder/cache/mock/centos-stream-8-x86_64/ccache/u1000/', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'yum_cache_enable': True, 'yum_cache_opts': {'max_age_days': 30, 'max_metadata_age_days': 30, 'online': True, 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'root_cache_enable': True, 'root_cache_opts': {'age_check': False, 'max_age_days': 15, 'dir': '/builder/cache/mock/centos-stream-8-x86_64/root_cache/', 'compress_program': 'pigz', 'decompress_program': None, 'exclude_dirs': ['./proc', './sys', './dev', './tmp/ccache', './var/cache/yum', './var/cache/dnf', './var/log'], 'extension': '.gz', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'bind_mount_enable': False, 'bind_mount_opts': {'dirs': [('/builder/plugins', '/plugins')], 'create_dirs': False, 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'mount_enable': True, 'mount_opts': {'dirs': [], 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'tmpfs_enable': False, 'tmpfs_opts': {'required_ram_mb': 900, 'max_fs_size': None, 'mode': '0755', 'keep_mounted': False, 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'selinux_enable': True, 'selinux_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'package_state_enable': True, 'package_state_opts': {'available_pkgs': False, 'installed_pkgs': True, 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'pm_request_enable': False, 'pm_request_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'lvm_root_enable': False, 'lvm_root_opts': {'pool_name': 'mockbuild', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'chroot_scan_enable': False, 'chroot_scan_opts': {'regexes': ['^[^k]?core(\\.\\d+)?$', '\\.log$'], 'only_failed': True, 'write_tar': False, 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'sign_enable': False, 'sign_opts': {'cmd': 'rpmsign', 'opts': '--addsign %(rpms)s', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'hw_info_enable': True, 'hw_info_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'procenv_enable': False, 'procenv_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'showrc_enable': False, 'showrc_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'compress_logs_enable': False, 'compress_logs_opts': {'command': 'gzip', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'rpkg_preprocessor_enable': False, 'rpkg_preprocessor_opts': {'requires': ['preproc-rpmspec'], 'cmd': '/usr/bin/preproc-rpmspec %(source_spec)s --output %(target_spec)s', 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'rpmautospec_enable': False, 'rpmautospec_opts': {'requires': ['rpmautospec'], 'cmd_base': ['/usr/bin/rpmautospec', 'process-distgit'], 'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, '__init___enable': False, '__init___opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}, 'overlayfs_enable': False, 'overlayfs_opts': {'basedir': '/builder/build/centos-stream-8-x86_64', 'cache_topdir': '/builder/cache/mock', 'cachedir': '/builder/cache/mock/centos-stream-8-x86_64', 'root': 'centos-stream-8-x86_64', 'resultdir': '/builder/build'}}
+2024-06-16 11:59:53.914276 +0000 build-r42-centos1: output: DEBUG:     environment:  {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}
+2024-06-16 11:59:53.914347 +0000 build-r42-centos1: output: DEBUG:     scm:  False
+2024-06-16 11:59:53.914402 +0000 build-r42-centos1: output: DEBUG:     scm_opts:  {'method': 'git', 'cvs_get': 'cvs -d /srv/cvs co SCM_BRN SCM_PKG', 'git_get': 'git clone SCM_BRN git://localhost/SCM_PKG.git SCM_PKG', 'svn_get': 'svn co file:///srv/svn/SCM_PKG/SCM_BRN SCM_PKG', 'distgit_get': 'rpkg clone -a --branch SCM_BRN SCM_PKG SCM_PKG', 'distgit_src_get': 'rpkg sources', 'spec': 'SCM_PKG.spec', 'int_src_dir': None, 'ext_src_dir': '/dev/null', 'write_tar': False, 'git_timestamps': False, 'exclude_vcs': True}
+2024-06-16 11:59:53.914430 +0000 build-r42-centos1: output: DEBUG:     use_host_resolv:  False
+2024-06-16 11:59:53.914452 +0000 build-r42-centos1: output: DEBUG:     chroot_setup_cmd:  install tar gcc-c++ redhat-rpm-config redhat-release which xz sed make bzip2 gzip gcc coreutils unzip shadow-utils diffutils cpio bash gawk rpm-build info patch util-linux findutils grep
+2024-06-16 11:59:53.914475 +0000 build-r42-centos1: output: DEBUG:     repo_arch:  x86_64
+2024-06-16 11:59:53.914486 +0000 build-r42-centos1: output: DEBUG:     repo_arch_map:  {}
+2024-06-16 11:59:53.914497 +0000 build-r42-centos1: output: DEBUG:     target_arch:  x86_64
+2024-06-16 11:59:53.914507 +0000 build-r42-centos1: output: DEBUG:     releasever:  8
+2024-06-16 11:59:53.914530 +0000 build-r42-centos1: output: DEBUG:     rpmbuild_arch:  x86_64
+2024-06-16 11:59:53.914543 +0000 build-r42-centos1: output: DEBUG:     dnf_vars:  {'stream': '8-stream', 'contentdir': 'centos'}
+2024-06-16 11:59:53.914554 +0000 build-r42-centos1: output: DEBUG:     yum_builddep_opts:  []
+2024-06-16 11:59:53.914576 +0000 build-r42-centos1: output: DEBUG:     yum_common_opts:  []
+2024-06-16 11:59:53.914599 +0000 build-r42-centos1: output: DEBUG:     update_before_build:  True
+2024-06-16 11:59:53.914622 +0000 build-r42-centos1: output: DEBUG:     priorities.conf:
+2024-06-16 11:59:53.914632 +0000 build-r42-centos1: output: [main]
+2024-06-16 11:59:53.914643 +0000 build-r42-centos1: output: enabled=0
+2024-06-16 11:59:53.914655 +0000 build-r42-centos1: output: DEBUG:     rhnplugin.conf:
+2024-06-16 11:59:53.914683 +0000 build-r42-centos1: output: [main]
+2024-06-16 11:59:53.914695 +0000 build-r42-centos1: output: enabled=0
+2024-06-16 11:59:53.914723 +0000 build-r42-centos1: output: DEBUG:     subscription-manager.conf:
+2024-06-16 11:59:53.914783 +0000 build-r42-centos1: output: DEBUG:     more_buildreqs:  {}
+2024-06-16 11:59:53.914811 +0000 build-r42-centos1: output: DEBUG:     nosync:  False
+2024-06-16 11:59:53.914854 +0000 build-r42-centos1: output: DEBUG:     nosync_force:  False
+2024-06-16 11:59:53.914930 +0000 build-r42-centos1: output: DEBUG:     files:  {'etc/hosts': '127.0.0.1 localhost localhost.localdomain\n::1       localhost localhost.localdomain localhost6 localhost6.localdomain6\n'}
+2024-06-16 11:59:53.914980 +0000 build-r42-centos1: output: DEBUG:     macros:  {'%_topdir': '/builddir/build', '%_rpmfilename': '%%{NAME}-%%{VERSION}-%%{RELEASE}.%%{ARCH}.rpm', '%_buildhost': 'reproducible', '%clamp_mtime_to_source_date_epoch': '1', '%source_date_epoch_from_changelog': '1', '%use_source_date_epoch_as_buildtime': '1', '%_platform_multiplier': 1}
+2024-06-16 11:59:53.915024 +0000 build-r42-centos1: output: DEBUG:     hostname:  None
+2024-06-16 11:59:53.915085 +0000 build-r42-centos1: output: DEBUG:     module_enable:  []
+2024-06-16 11:59:53.915111 +0000 build-r42-centos1: output: DEBUG:     module_install:  []
+2024-06-16 11:59:53.915128 +0000 build-r42-centos1: output: DEBUG:     module_setup_commands:  []
+2024-06-16 11:59:53.915210 +0000 build-r42-centos1: output: DEBUG:     forcearch:  None
+2024-06-16 11:59:53.915293 +0000 build-r42-centos1: output: DEBUG:     bootstrap_chroot_additional_packages:  []
+2024-06-16 11:59:53.915356 +0000 build-r42-centos1: output: DEBUG:     bootstrap_module_enable:  []
+2024-06-16 11:59:53.915401 +0000 build-r42-centos1: output: DEBUG:     bootstrap_module_install:  []
+2024-06-16 11:59:53.915465 +0000 build-r42-centos1: output: DEBUG:     bootstrap_module_setup_commands:  []
+2024-06-16 11:59:53.915487 +0000 build-r42-centos1: output: DEBUG:     no_root_shells:  False
+2024-06-16 11:59:53.915569 +0000 build-r42-centos1: output: DEBUG:     extra_chroot_dirs:  ['/run/lock']
+2024-06-16 11:59:53.915589 +0000 build-r42-centos1: output: DEBUG:     package_manager:  dnf
+2024-06-16 11:59:53.915661 +0000 build-r42-centos1: output: DEBUG:     package_manager_max_attempts:  1
+2024-06-16 11:59:53.915691 +0000 build-r42-centos1: output: DEBUG:     package_manager_attempt_delay:  10
+2024-06-16 11:59:53.915740 +0000 build-r42-centos1: output: DEBUG:     dynamic_buildrequires:  True
+2024-06-16 11:59:53.915802 +0000 build-r42-centos1: output: DEBUG:     dynamic_buildrequires_max_loops:  10
+2024-06-16 11:59:53.915823 +0000 build-r42-centos1: output: DEBUG:     external_buildrequires:  False
+2024-06-16 11:59:53.915896 +0000 build-r42-centos1: output: DEBUG:     dev_loop_count:  12
+2024-06-16 11:59:53.915924 +0000 build-r42-centos1: output: DEBUG:     yum_command:  /usr/bin/yum
+2024-06-16 11:59:53.915953 +0000 build-r42-centos1: output: DEBUG:     system_yum_command:  /usr/bin/yum
+2024-06-16 11:59:53.916037 +0000 build-r42-centos1: output: DEBUG:     yum_install_command:  install yum yum-utils
+2024-06-16 11:59:53.916072 +0000 build-r42-centos1: output: DEBUG:     yum_builddep_command:  /usr/bin/yum-builddep
+2024-06-16 11:59:53.916131 +0000 build-r42-centos1: output: DEBUG:     yum_avoid_opts:  {}
+2024-06-16 11:59:53.916152 +0000 build-r42-centos1: output: DEBUG:     dnf_command:  /usr/bin/dnf-3
+2024-06-16 11:59:53.916236 +0000 build-r42-centos1: output: DEBUG:     system_dnf_command:  /usr/bin/dnf-3
+2024-06-16 11:59:53.916317 +0000 build-r42-centos1: output: DEBUG:     dnf_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2024-06-16 11:59:53.916356 +0000 build-r42-centos1: output: DEBUG:     dnf_install_command:  install python3-dnf python3-dnf-plugins-core
+2024-06-16 11:59:53.916438 +0000 build-r42-centos1: output: DEBUG:     dnf_disable_plugins:  ['local', 'spacewalk', 'versionlock']
+2024-06-16 11:59:53.916460 +0000 build-r42-centos1: output: DEBUG:     dnf_avoid_opts:  {}
+2024-06-16 11:59:53.916875 +0000 build-r42-centos1: output: DEBUG:     dnf5_command:  /usr/bin/dnf5
+2024-06-16 11:59:53.916909 +0000 build-r42-centos1: output: DEBUG:     system_dnf5_command:  /usr/bin/dnf5
+2024-06-16 11:59:53.917019 +0000 build-r42-centos1: output: DEBUG:     dnf5_common_opts:  ['--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing']
+2024-06-16 11:59:53.917084 +0000 build-r42-centos1: output: DEBUG:     dnf5_install_command:  install dnf5 dnf5-plugins
+2024-06-16 11:59:53.917117 +0000 build-r42-centos1: output: DEBUG:     dnf5_disable_plugins:  []
+2024-06-16 11:59:53.917209 +0000 build-r42-centos1: output: DEBUG:     dnf5_avoid_opts:  {'remove': ['--allowerasing'], 'repoquery': ['--allowerasing'], 'makecache': ['--allowerasing'], 'search': ['--allowerasing'], 'info': ['--allowerasing']}
+2024-06-16 11:59:53.917231 +0000 build-r42-centos1: output: DEBUG:     microdnf_command:  /usr/bin/microdnf
+2024-06-16 11:59:53.917394 +0000 build-r42-centos1: output: DEBUG:     microdnf_install_command:  dnf-install microdnf dnf dnf-plugins-core
+2024-06-16 11:59:53.917419 +0000 build-r42-centos1: output: DEBUG:     microdnf_builddep_command:  /usr/bin/dnf
+2024-06-16 11:59:53.917508 +0000 build-r42-centos1: output: DEBUG:     microdnf_builddep_opts:  []
+2024-06-16 11:59:53.917541 +0000 build-r42-centos1: output: DEBUG:     microdnf_common_opts:  []
+2024-06-16 11:59:53.917623 +0000 build-r42-centos1: output: DEBUG:     microdnf_avoid_opts:  {}
+2024-06-16 11:59:53.917644 +0000 build-r42-centos1: output: DEBUG:     rpm_command:  /bin/rpm
+2024-06-16 11:59:53.917743 +0000 build-r42-centos1: output: DEBUG:     rpmbuild_command:  /usr/bin/rpmbuild
+2024-06-16 11:59:53.917767 +0000 build-r42-centos1: output: DEBUG:     user_agent:  Mock (centos-stream-8-x86_64; x86_64)
+2024-06-16 11:59:53.917859 +0000 build-r42-centos1: output: DEBUG:     opstimeout:  0
+2024-06-16 11:59:53.917892 +0000 build-r42-centos1: output: DEBUG:     stderr_line_prefix:
+2024-06-16 11:59:53.917979 +0000 build-r42-centos1: output: DEBUG:     chroot_additional_packages:  []
+2024-06-16 11:59:53.918000 +0000 build-r42-centos1: output: DEBUG:     additional_packages:  []
+2024-06-16 11:59:53.918456 +0000 build-r42-centos1: output: DEBUG:     no-config:  {'epel-8': {'alternatives': {'alma+epel-8': {'description': ['Builds against AlmaLinux 8 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-8': {'description': ['Builds against CentOS Stream 8 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 8) together with the official EPEL 8 repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'circlelinux+epel-8': {'description': ['Builds against Circle Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://cclinux.org/']}, 'rhel+epel-8': {'description': ['Builds against Red Hat Enterprise Linux 8 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-8': {'description': ['Builds against Rocky Linux 8 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}, 'epel-9': {'alternatives': {'alma+epel-9': {'description': ['Builds against AlmaLinux 9 repositories, together with the official EPEL repositories.', 'Project page: https://almalinux.org/']}, 'centos-stream+epel-9': {'description': ['Builds against CentOS Stream 9 repositories (some packages may be a bit ahead the Red Hat Enterprise Linux 9) together with the official EPEL repositories.', 'Project page: https://www.centos.org/centos-stream/']}, 'rhel+epel-9': {'description': ['Builds against Red Hat Enterprise Linux 9 repositories, together with the official EPEL repositories.', 'This mimics what is done in the official EPEL build system, but you need a Red Hat subscription:', 'https://rpm-software-management.github.io/mock/Feature-rhelchroots']}, 'rocky+epel-9': {'description': ['Builds against Rocky Linux 9 repositories, together with the official EPEL repositories.', 'Project page: https://rockylinux.org/']}}}}
+2024-06-16 11:59:53.918500 +0000 build-r42-centos1: output: DEBUG:     seccomp:  False
+2024-06-16 11:59:53.918514 +0000 build-r42-centos1: output: DEBUG:     copy_host_users:  []
+2024-06-16 11:59:53.918525 +0000 build-r42-centos1: output: DEBUG:     use_host_shadow_utils:  True
+2024-06-16 11:59:53.918555 +0000 build-r42-centos1: output: DEBUG:     qemu_user_static_mapping:  {'aarch64': 'aarch64', 'armv7hl': 'arm', 'i386': 'i386', 'i686': 'i386', 'ppc64': 'ppc64', 'ppc64le': 'ppc64le', 's390x': 's390x', 'x86_64': 'x86_64'}
+2024-06-16 11:59:53.918572 +0000 build-r42-centos1: output: DEBUG:     recursion_limit:  5000
+2024-06-16 11:59:53.918588 +0000 build-r42-centos1: output: DEBUG:     config_path:  /etc/mock
+2024-06-16 11:59:53.918683 +0000 build-r42-centos1: output: DEBUG:     chroot_name:  centos-stream-8-x86_64
+2024-06-16 11:59:53.918707 +0000 build-r42-centos1: output: DEBUG:     config_file:  /builder/plugins/chroot_rpm/mock/centos-stream-8-x86_64.cfg
+2024-06-16 11:59:53.918793 +0000 build-r42-centos1: output: DEBUG:     dist:  centos-stream8
+2024-06-16 11:59:53.918823 +0000 build-r42-centos1: output: DEBUG:     legal_host_arches:  ('x86_64',)
+2024-06-16 11:59:53.918875 +0000 build-r42-centos1: output: DEBUG:     root:  centos-stream-8-x86_64
+2024-06-16 11:59:53.918937 +0000 build-r42-centos1: output: DEBUG:     use_bootstrap_container:  False
+2024-06-16 11:59:53.918986 +0000 build-r42-centos1: output: DEBUG:     dnf.conf:
+2024-06-16 11:59:53.919019 +0000 build-r42-centos1: output: [main]
+2024-06-16 11:59:53.919091 +0000 build-r42-centos1: output: keepcache=1
+2024-06-16 11:59:53.919119 +0000 build-r42-centos1: output: debuglevel=2
+2024-06-16 11:59:53.919169 +0000 build-r42-centos1: output: reposdir=/dev/null
+2024-06-16 11:59:53.919231 +0000 build-r42-centos1: output: logfile=/var/log/yum.log
+2024-06-16 11:59:53.919310 +0000 build-r42-centos1: output: retries=20
+2024-06-16 11:59:53.919333 +0000 build-r42-centos1: output: obsoletes=1
+2024-06-16 11:59:53.919422 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.919442 +0000 build-r42-centos1: output: assumeyes=1
+2024-06-16 11:59:53.919524 +0000 build-r42-centos1: output: syslog_ident=mock
+2024-06-16 11:59:53.919544 +0000 build-r42-centos1: output: syslog_device=
+2024-06-16 11:59:53.919624 +0000 build-r42-centos1: output: install_weak_deps=0
+2024-06-16 11:59:53.919651 +0000 build-r42-centos1: output: metadata_expire=0
+2024-06-16 11:59:53.919679 +0000 build-r42-centos1: output: best=1
+2024-06-16 11:59:53.919763 +0000 build-r42-centos1: output: protected_packages=
+2024-06-16 11:59:53.919782 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.919859 +0000 build-r42-centos1: output: # repos
+2024-06-16 11:59:53.919887 +0000 build-r42-centos1: output: [Stream-BaseOS]
+2024-06-16 11:59:53.919915 +0000 build-r42-centos1: output: name=CentOS-Stream - Base
+2024-06-16 11:59:53.920003 +0000 build-r42-centos1: output: mirrorlist=http://mirrorlist.centos.org/?release=$stream&arch=$basearch&repo=BaseOS&infra=$infra
+2024-06-16 11:59:53.920026 +0000 build-r42-centos1: output: #baseurl=http://mirror.centos.org/$contentdir/$stream/BaseOS/$basearch/os/
+2024-06-16 11:59:53.920108 +0000 build-r42-centos1: output: failovermethod=priority
+2024-06-16 11:59:53.920131 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/centos/RPM-GPG-KEY-CentOS-Official
+2024-06-16 11:59:53.920207 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.920228 +0000 build-r42-centos1: output: skip_if_unavailable=False
+2024-06-16 11:59:53.920333 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.920349 +0000 build-r42-centos1: output: [Stream-AppStream]
+2024-06-16 11:59:53.920448 +0000 build-r42-centos1: output: name=CentOS-Stream - AppStream
+2024-06-16 11:59:53.920474 +0000 build-r42-centos1: output: mirrorlist=http://mirrorlist.centos.org/?release=$stream&arch=$basearch&repo=AppStream&infra=$infra
+2024-06-16 11:59:53.920552 +0000 build-r42-centos1: output: #baseurl=http://mirror.centos.org/$contentdir/$stream/AppStream/$basearch/os/
+2024-06-16 11:59:53.920580 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.920629 +0000 build-r42-centos1: output: enabled=1
+2024-06-16 11:59:53.920696 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/centos/RPM-GPG-KEY-CentOS-Official
+2024-06-16 11:59:53.920716 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.920804 +0000 build-r42-centos1: output: [Stream-centosplus]
+2024-06-16 11:59:53.920825 +0000 build-r42-centos1: output: name=CentOS-Stream - Plus
+2024-06-16 11:59:53.920913 +0000 build-r42-centos1: output: baseurl=http://mirror.centos.org/centos/8-stream/centosplus/$basearch/os/
+2024-06-16 11:59:53.920946 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.921006 +0000 build-r42-centos1: output: enabled=0
+2024-06-16 11:59:53.921036 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/centos/RPM-GPG-KEY-CentOS-Official
+2024-06-16 11:59:53.921052 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.921139 +0000 build-r42-centos1: output: [Stream-extras]
+2024-06-16 11:59:53.921184 +0000 build-r42-centos1: output: name=CentOS-Stream - Extras
+2024-06-16 11:59:53.921253 +0000 build-r42-centos1: output: mirrorlist=http://mirrorlist.centos.org/?release=$stream&arch=$basearch&repo=extras&infra=$infra
+2024-06-16 11:59:53.921287 +0000 build-r42-centos1: output: #baseurl=http://mirror.centos.org/$contentdir/$stream/extras/$basearch/os/
+2024-06-16 11:59:53.921393 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.921410 +0000 build-r42-centos1: output: enabled=1
+2024-06-16 11:59:53.921430 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/centos/RPM-GPG-KEY-CentOS-Official
+2024-06-16 11:59:53.921524 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.921545 +0000 build-r42-centos1: output: [Stream-PowerTools]
+2024-06-16 11:59:53.921633 +0000 build-r42-centos1: output: name=CentOS-Stream - PowerTools
+2024-06-16 11:59:53.921671 +0000 build-r42-centos1: output: mirrorlist=http://mirrorlist.centos.org/?release=$stream&arch=$basearch&repo=PowerTools&infra=$infra
+2024-06-16 11:59:53.921733 +0000 build-r42-centos1: output: #baseurl=http://mirror.centos.org/$contentdir/$stream/PowerTools/$basearch/os/
+2024-06-16 11:59:53.921760 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.921809 +0000 build-r42-centos1: output: enabled=1
+2024-06-16 11:59:53.921878 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/centos/RPM-GPG-KEY-CentOS-Official
+2024-06-16 11:59:53.921910 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.921970 +0000 build-r42-centos1: output: [epel]
+2024-06-16 11:59:53.921990 +0000 build-r42-centos1: output: name=EPEL $releasever
+2024-06-16 11:59:53.922080 +0000 build-r42-centos1: output: mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-$releasever&arch=$basearch
+2024-06-16 11:59:53.922101 +0000 build-r42-centos1: output: failovermethod=priority
+2024-06-16 11:59:53.922191 +0000 build-r42-centos1: output: gpgkey=file:///usr/share/distribution-gpg-keys/epel/RPM-GPG-KEY-EPEL-$releasever
+2024-06-16 11:59:53.922211 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.922314 +0000 build-r42-centos1: output: skip_if_unavailable=False
+2024-06-16 11:59:53.922336 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.922419 +0000 build-r42-centos1: output: [copr-fepitre-epel-qubes]
+2024-06-16 11:59:53.922466 +0000 build-r42-centos1: output: name=Copr repo for epel-$releasever-qubes owned by fepitre
+2024-06-16 11:59:53.922535 +0000 build-r42-centos1: output: baseurl=https://download.copr.fedorainfracloud.org/results/fepitre/epel-$releasever-qubes/epel-$releasever-$basearch/
+2024-06-16 11:59:53.922568 +0000 build-r42-centos1: output: type=rpm-md
+2024-06-16 11:59:53.922627 +0000 build-r42-centos1: output: skip_if_unavailable=True
+2024-06-16 11:59:53.922655 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.922716 +0000 build-r42-centos1: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-copr-epel-$releasever
+2024-06-16 11:59:53.922777 +0000 build-r42-centos1: output: repo_gpgcheck=0
+2024-06-16 11:59:53.922821 +0000 build-r42-centos1: output: enabled=1
+2024-06-16 11:59:53.922878 +0000 build-r42-centos1: output: enabled_metadata=1
+2024-06-16 11:59:53.922905 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.922934 +0000 build-r42-centos1: output: [builder-local]
+2024-06-16 11:59:53.923020 +0000 build-r42-centos1: output: name=builder-local
+2024-06-16 11:59:53.923041 +0000 build-r42-centos1: output: baseurl=file:///builder/repository
+2024-06-16 11:59:53.923120 +0000 build-r42-centos1: output: gpgcheck=0
+2024-06-16 11:59:53.923140 +0000 build-r42-centos1: output: exclude=qubes-release
+2024-06-16 11:59:53.923156 +0000 build-r42-centos1: output: skip_if_unavailable=0
+2024-06-16 11:59:53.923259 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.923291 +0000 build-r42-centos1: output: [qubes-current]
+2024-06-16 11:59:53.923383 +0000 build-r42-centos1: output: name=qubes-vm-current
+2024-06-16 11:59:53.923443 +0000 build-r42-centos1: output: baseurl=https://yum.qubes-os.org/rNone/current/vm/centos-stream$releasever
+2024-06-16 11:59:53.923463 +0000 build-r42-centos1: output: failovermethod=priority
+2024-06-16 11:59:53.923545 +0000 build-r42-centos1: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-centos
+2024-06-16 11:59:53.923574 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.923590 +0000 build-r42-centos1: output: repo_gpgcheck = 1
+2024-06-16 11:59:53.923699 +0000 build-r42-centos1: output: exclude=qubes-release
+2024-06-16 11:59:53.923715 +0000 build-r42-centos1: output: enabled=0
+2024-06-16 11:59:53.923730 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.923827 +0000 build-r42-centos1: output: [qubes-current-testing]
+2024-06-16 11:59:53.923861 +0000 build-r42-centos1: output: name=qubes-vm-testing
+2024-06-16 11:59:53.923922 +0000 build-r42-centos1: output: baseurl=https://yum.qubes-os.org/rNone/current-testing/vm/centos-stream$releasever
+2024-06-16 11:59:53.923950 +0000 build-r42-centos1: output: failovermethod=priority
+2024-06-16 11:59:53.924000 +0000 build-r42-centos1: output: gpgkey=file:///builder/plugins/chroot_rpm/keys/RPM-GPG-KEY-qubes-None-centos
+2024-06-16 11:59:53.924060 +0000 build-r42-centos1: output: gpgcheck=1
+2024-06-16 11:59:53.924079 +0000 build-r42-centos1: output: repo_gpgcheck = 1
+2024-06-16 11:59:53.924163 +0000 build-r42-centos1: output: exclude=qubes-release
+2024-06-16 11:59:53.924188 +0000 build-r42-centos1: output: enabled=0
+2024-06-16 11:59:53.924198 +0000 build-r42-centos1: output: 
+2024-06-16 11:59:53.924330 +0000 build-r42-centos1: output: DEBUG:     __jinja_expand:  True
+2024-06-16 11:59:53.924366 +0000 build-r42-centos1: output: DEBUG:     verbose:  2
+2024-06-16 11:59:53.924559 +0000 build-r42-centos1: output: DEBUG:     print_main_output:  False
+2024-06-16 11:59:53.924657 +0000 build-r42-centos1: output: DEBUG:     cache_alterations:  False
+2024-06-16 11:59:53.924679 +0000 build-r42-centos1: output: DEBUG:     enable_disable_repos:  ['--disablerepo', 'builder-local']
+2024-06-16 11:59:53.924779 +0000 build-r42-centos1: output: DEBUG:     build_log_fmt_str:  %(message)s
+2024-06-16 11:59:53.924819 +0000 build-r42-centos1: output: DEBUG:     root_log_fmt_str:  %(levelname)s %(filename)s:%(lineno)d:  %(message)s
+2024-06-16 11:59:53.924889 +0000 build-r42-centos1: output: DEBUG:     state_log_fmt_str:  %(asctime)s - %(message)s
+2024-06-16 11:59:53.925014 +0000 build-r42-centos1: output: INFO: Start(/builder/app-split-browser/rpm_spec/qubes-split-browser.spec)  Config(centos-stream-8-x86_64)
+2024-06-16 11:59:53.928373 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64
+2024-06-16 11:59:53.929770 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64
+2024-06-16 11:59:53.936990 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build
+2024-06-16 11:59:53.945698 +0000 build-r42-centos1: output: Mock Version: 5.6
+2024-06-16 11:59:53.945957 +0000 build-r42-centos1: output: INFO: Mock Version: 5.6
+2024-06-16 11:59:53.946219 +0000 build-r42-centos1: output: INFO: Mock Version: 5.6
+2024-06-16 11:59:53.954192 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64
+2024-06-16 11:59:53.955388 +0000 build-r42-centos1: output: Start: chroot init
+2024-06-16 11:59:53.958544 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root
+2024-06-16 11:59:53.959385 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root
+2024-06-16 11:59:53.972117 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build
+2024-06-16 11:59:53.976584 +0000 build-r42-centos1: output: INFO: calling preinit hooks
+2024-06-16 11:59:53.978813 +0000 build-r42-centos1: output: INFO: enabled root cache
+2024-06-16 11:59:53.980048 +0000 build-r42-centos1: output: INFO: skipping root_cache aging check
+2024-06-16 11:59:53.982708 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/cache/mock/centos-stream-8-x86_64/root_cache/
+2024-06-16 11:59:53.982829 +0000 build-r42-centos1: output: Start: unpacking root cache
+2024-06-16 11:59:53.988947 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root
+2024-06-16 11:59:53.993914 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:53.994825 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/tar', '--use-compress-program', 'pigz', '-xf', '/builder/cache/mock/centos-stream-8-x86_64/root_cache/cache.tar.gz', '-C', '/builder/build/centos-stream-8-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.139706 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.147146 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./proc
+2024-06-16 11:59:57.150305 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./proc
+2024-06-16 11:59:57.156250 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./sys
+2024-06-16 11:59:57.158171 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./sys
+2024-06-16 11:59:57.163938 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./dev
+2024-06-16 11:59:57.167046 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./dev
+2024-06-16 11:59:57.173168 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./tmp/ccache
+2024-06-16 11:59:57.174649 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./tmp/ccache
+2024-06-16 11:59:57.178126 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./var/cache/yum
+2024-06-16 11:59:57.179279 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./var/cache/yum
+2024-06-16 11:59:57.183982 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./var/cache/dnf
+2024-06-16 11:59:57.184560 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./var/cache/dnf
+2024-06-16 11:59:57.188272 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/./var/log
+2024-06-16 11:59:57.189564 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/./var/log
+2024-06-16 11:59:57.189584 +0000 build-r42-centos1: output: Finish: unpacking root cache
+2024-06-16 11:59:57.191255 +0000 build-r42-centos1: output: INFO: enabled package manager cache
+2024-06-16 11:59:57.193088 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/cache/mock/centos-stream-8-x86_64/yum_cache
+2024-06-16 11:59:57.194632 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/cache/mock/centos-stream-8-x86_64/dnf_cache
+2024-06-16 11:59:57.194657 +0000 build-r42-centos1: output: Start: cleaning package manager metadata
+2024-06-16 11:59:57.196035 +0000 build-r42-centos1: output: Finish: cleaning package manager metadata
+2024-06-16 11:59:57.206089 +0000 build-r42-centos1: output: INFO: enabled HW Info plugin
+2024-06-16 11:59:57.207656 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.207792 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/usr/bin/lscpu'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.217459 +0000 build-r42-centos1: output: DEBUG: Architecture:                         x86_64
+2024-06-16 11:59:57.218056 +0000 build-r42-centos1: output: DEBUG: CPU op-mode(s):                       32-bit, 64-bit
+2024-06-16 11:59:57.218078 +0000 build-r42-centos1: output: DEBUG: Address sizes:                        48 bits physical, 48 bits virtual
+2024-06-16 11:59:57.218102 +0000 build-r42-centos1: output: DEBUG: Byte Order:                           Little Endian
+2024-06-16 11:59:57.218112 +0000 build-r42-centos1: output: DEBUG: CPU(s):                               2
+2024-06-16 11:59:57.218146 +0000 build-r42-centos1: output: DEBUG: On-line CPU(s) list:                  0,1
+2024-06-16 11:59:57.218177 +0000 build-r42-centos1: output: DEBUG: Vendor ID:                            AuthenticAMD
+2024-06-16 11:59:57.218194 +0000 build-r42-centos1: output: DEBUG: Model name:                           AMD Ryzen 9 5900X 12-Core Processor
+2024-06-16 11:59:57.218241 +0000 build-r42-centos1: output: DEBUG: CPU family:                           25
+2024-06-16 11:59:57.218280 +0000 build-r42-centos1: output: DEBUG: Model:                                33
+2024-06-16 11:59:57.218391 +0000 build-r42-centos1: output: DEBUG: Thread(s) per core:                   1
+2024-06-16 11:59:57.218401 +0000 build-r42-centos1: output: DEBUG: Core(s) per socket:                   2
+2024-06-16 11:59:57.218408 +0000 build-r42-centos1: output: DEBUG: Socket(s):                            1
+2024-06-16 11:59:57.218415 +0000 build-r42-centos1: output: DEBUG: Stepping:                             2
+2024-06-16 11:59:57.218433 +0000 build-r42-centos1: output: DEBUG: BogoMIPS:                             7386.14
+2024-06-16 11:59:57.218510 +0000 build-r42-centos1: output: DEBUG: Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cr8_legacy abm sse4a misalignsse 3dnowprefetch bpext ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr arat umip pku ospke vaes vpclmulqdq rdpid
+2024-06-16 11:59:57.218525 +0000 build-r42-centos1: output: DEBUG: Hypervisor vendor:                    Xen
+2024-06-16 11:59:57.218542 +0000 build-r42-centos1: output: DEBUG: Virtualization type:                  full
+2024-06-16 11:59:57.218573 +0000 build-r42-centos1: output: DEBUG: L1d cache:                            64 KiB (2 instances)
+2024-06-16 11:59:57.218591 +0000 build-r42-centos1: output: DEBUG: L1i cache:                            64 KiB (2 instances)
+2024-06-16 11:59:57.218633 +0000 build-r42-centos1: output: DEBUG: L2 cache:                             1 MiB (2 instances)
+2024-06-16 11:59:57.218661 +0000 build-r42-centos1: output: DEBUG: L3 cache:                             128 MiB (2 instances)
+2024-06-16 11:59:57.218677 +0000 build-r42-centos1: output: DEBUG: NUMA node(s):                         1
+2024-06-16 11:59:57.218714 +0000 build-r42-centos1: output: DEBUG: NUMA node0 CPU(s):                    0,1
+2024-06-16 11:59:57.218741 +0000 build-r42-centos1: output: DEBUG: Vulnerability Gather data sampling:   Not affected
+2024-06-16 11:59:57.218757 +0000 build-r42-centos1: output: DEBUG: Vulnerability Itlb multihit:          Not affected
+2024-06-16 11:59:57.218800 +0000 build-r42-centos1: output: DEBUG: Vulnerability L1tf:                   Not affected
+2024-06-16 11:59:57.218816 +0000 build-r42-centos1: output: DEBUG: Vulnerability Mds:                    Not affected
+2024-06-16 11:59:57.218827 +0000 build-r42-centos1: output: DEBUG: Vulnerability Meltdown:               Not affected
+2024-06-16 11:59:57.218882 +0000 build-r42-centos1: output: DEBUG: Vulnerability Mmio stale data:        Not affected
+2024-06-16 11:59:57.218892 +0000 build-r42-centos1: output: DEBUG: Vulnerability Reg file data sampling: Not affected
+2024-06-16 11:59:57.218945 +0000 build-r42-centos1: output: DEBUG: Vulnerability Retbleed:               Not affected
+2024-06-16 11:59:57.218960 +0000 build-r42-centos1: output: DEBUG: Vulnerability Spec rstack overflow:   Vulnerable: Safe RET, no microcode
+2024-06-16 11:59:57.219010 +0000 build-r42-centos1: output: DEBUG: Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+2024-06-16 11:59:57.219022 +0000 build-r42-centos1: output: DEBUG: Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+2024-06-16 11:59:57.219087 +0000 build-r42-centos1: output: DEBUG: Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+2024-06-16 11:59:57.219097 +0000 build-r42-centos1: output: DEBUG: Vulnerability Srbds:                  Not affected
+2024-06-16 11:59:57.219107 +0000 build-r42-centos1: output: DEBUG: Vulnerability Tsx async abort:        Not affected
+2024-06-16 11:59:57.219159 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.222191 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.222221 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/free'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.229485 +0000 build-r42-centos1: output: DEBUG:                total        used        free      shared  buff/cache   available
+2024-06-16 11:59:57.229518 +0000 build-r42-centos1: output: DEBUG: Mem:         4025848      295612     2165876         632     1575844     3730236
+2024-06-16 11:59:57.230578 +0000 build-r42-centos1: output: DEBUG: Swap:        1048572       33280     1015292
+2024-06-16 11:59:57.230639 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.237198 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.237227 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/df', '-H', '-T', '/builder/build/centos-stream-8-x86_64/root', '/builder/cache/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.243651 +0000 build-r42-centos1: output: DEBUG: Filesystem     Type  Size  Used Avail Use% Mounted on
+2024-06-16 11:59:57.243791 +0000 build-r42-centos1: output: DEBUG: /dev/xvdb      ext4   32G  1.4G   31G   5% /builder
+2024-06-16 11:59:57.243815 +0000 build-r42-centos1: output: DEBUG: /dev/xvdb      ext4   32G  1.4G   31G   5% /builder
+2024-06-16 11:59:57.243835 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.256219 +0000 build-r42-centos1: output: DEBUG: create skeleton dirs
+2024-06-16 11:59:57.260292 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/lib/rpm
+2024-06-16 11:59:57.265282 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/lib/yum
+2024-06-16 11:59:57.270769 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/lib/dbus
+2024-06-16 11:59:57.274991 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/log
+2024-06-16 11:59:57.278553 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/cache/dnf
+2024-06-16 11:59:57.281277 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/cache/yum
+2024-06-16 11:59:57.284126 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/rpm
+2024-06-16 11:59:57.287405 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/tmp
+2024-06-16 11:59:57.291979 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/tmp/ccache
+2024-06-16 11:59:57.294672 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/tmp
+2024-06-16 11:59:57.297687 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/dnf
+2024-06-16 11:59:57.300219 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/dnf/vars
+2024-06-16 11:59:57.302478 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/yum.repos.d
+2024-06-16 11:59:57.305234 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/yum
+2024-06-16 11:59:57.308078 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/proc
+2024-06-16 11:59:57.310382 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/sys
+2024-06-16 11:59:57.312895 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/run/lock
+2024-06-16 11:59:57.319586 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/dev/pts
+2024-06-16 11:59:57.321040 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/dev/pts
+2024-06-16 11:59:57.324523 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/dev/shm
+2024-06-16 11:59:57.326096 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/dev/shm
+2024-06-16 11:59:57.329916 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/dev/mapper
+2024-06-16 11:59:57.331458 +0000 build-r42-centos1: output: DEBUG: created dir: /builder/build/centos-stream-8-x86_64/root/dev/mapper
+2024-06-16 11:59:57.331482 +0000 build-r42-centos1: output: DEBUG: kernel version == 6.6.31-1.qubes.fc37.x86_64
+2024-06-16 11:59:57.437775 +0000 build-r42-centos1: output: DEBUG: touching file: /builder/build/centos-stream-8-x86_64/root/etc/fstab
+2024-06-16 11:59:57.440321 +0000 build-r42-centos1: output: DEBUG: touching file: /builder/build/centos-stream-8-x86_64/root/etc/yum/yum.conf
+2024-06-16 11:59:57.442833 +0000 build-r42-centos1: output: DEBUG: touching file: /builder/build/centos-stream-8-x86_64/root/etc/dnf/dnf.conf
+2024-06-16 11:59:57.445614 +0000 build-r42-centos1: output: DEBUG: touching file: /builder/build/centos-stream-8-x86_64/root/var/log/yum.log
+2024-06-16 11:59:57.449164 +0000 build-r42-centos1: output: DEBUG: rootdir = /builder/build/centos-stream-8-x86_64/root
+2024-06-16 11:59:57.449462 +0000 build-r42-centos1: output: DEBUG: resultdir = /builder/build
+2024-06-16 11:59:57.453086 +0000 build-r42-centos1: output: DEBUG: searching for 'dnf' package manager or alternatives
+2024-06-16 11:59:57.461659 +0000 build-r42-centos1: output: INFO: Package manager dnf detected and used (fallback)
+2024-06-16 11:59:57.469047 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/mock
+2024-06-16 11:59:57.476149 +0000 build-r42-centos1: output: DEBUG: Updating files in /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust with files from /etc/pki/ca-trust
+2024-06-16 11:59:57.480562 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust
+2024-06-16 11:59:57.487351 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/./source
+2024-06-16 11:59:57.491469 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/./extracted
+2024-06-16 11:59:57.498006 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/source/blacklist
+2024-06-16 11:59:57.502360 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/source/anchors
+2024-06-16 11:59:57.505972 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/source/blocklist
+2024-06-16 11:59:57.509917 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/extracted/edk2
+2024-06-16 11:59:57.512225 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/extracted/pem
+2024-06-16 11:59:57.515297 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/extracted/java
+2024-06-16 11:59:57.515902 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/extracted/openssl
+2024-06-16 11:59:57.530094 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/pki/ca-trust/extracted/pem/directory-hash
+2024-06-16 11:59:57.697697 +0000 build-r42-centos1: output: DEBUG: Updating files in /builder/build/centos-stream-8-x86_64/root/usr/share/pki/ca-trust-source with files from /usr/share/pki/ca-trust-source
+2024-06-16 11:59:57.700411 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/usr/share/pki/ca-trust-source
+2024-06-16 11:59:57.716863 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/usr/share/pki/ca-trust-source/./blacklist
+2024-06-16 11:59:57.721348 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/usr/share/pki/ca-trust-source/./anchors
+2024-06-16 11:59:57.726041 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/usr/share/pki/ca-trust-source/./blocklist
+2024-06-16 11:59:57.743938 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/etc/dnf
+2024-06-16 11:59:57.747595 +0000 build-r42-centos1: output: DEBUG: configure DNF vars
+2024-06-16 11:59:57.765699 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/cache/yum
+2024-06-16 11:59:57.772354 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.772430 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/centos-stream-8-x86_64/yum_cache', '/builder/build/centos-stream-8-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.790734 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.793523 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/var/cache/dnf
+2024-06-16 11:59:57.800245 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.800485 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'bind', '/builder/cache/mock/centos-stream-8-x86_64/dnf_cache', '/builder/build/centos-stream-8-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.809624 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:57.826667 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:57.826755 +0000 build-r42-centos1: output: DEBUG: Executing command: ['rpm', '-q', 'rpm', 'rpm-sequoia', 'python3-dnf', 'python3-dnf-plugins-core', 'yum', 'yum-utils', 'dnf5', 'dnf5-plugins'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:57.862896 +0000 build-r42-centos1: output: DEBUG: rpm-4.19.1.1-1.fc39.x86_64
+2024-06-16 11:59:57.864919 +0000 build-r42-centos1: output: DEBUG: rpm-sequoia-1.6.0-3.fc39.x86_64
+2024-06-16 11:59:57.868661 +0000 build-r42-centos1: output: DEBUG: python3-dnf-4.19.2-1.fc39.noarch
+2024-06-16 11:59:57.869444 +0000 build-r42-centos1: output: DEBUG: python3-dnf-plugins-core-4.6.0-1.fc39.noarch
+2024-06-16 11:59:57.869689 +0000 build-r42-centos1: output: DEBUG: package yum is not installed
+2024-06-16 11:59:57.869713 +0000 build-r42-centos1: output: DEBUG: package yum-utils is not installed
+2024-06-16 11:59:57.872399 +0000 build-r42-centos1: output: DEBUG: dnf5-5.1.17-1.fc39.x86_64
+2024-06-16 11:59:57.873663 +0000 build-r42-centos1: output: DEBUG: dnf5-plugins-5.1.17-1.fc39.x86_64
+2024-06-16 11:59:57.876983 +0000 build-r42-centos1: output: DEBUG: Child return code was: 2
+2024-06-16 11:59:57.878506 +0000 build-r42-centos1: output: INFO: Buildroot is handled by package management from host and used with --installroot:
+2024-06-16 11:59:57.878542 +0000 build-r42-centos1: output:   rpm-4.19.1.1-1.fc39.x86_64
+2024-06-16 11:59:57.878584 +0000 build-r42-centos1: output:   rpm-sequoia-1.6.0-3.fc39.x86_64
+2024-06-16 11:59:57.878645 +0000 build-r42-centos1: output:   python3-dnf-4.19.2-1.fc39.noarch
+2024-06-16 11:59:57.878663 +0000 build-r42-centos1: output:   python3-dnf-plugins-core-4.6.0-1.fc39.noarch
+2024-06-16 11:59:57.878689 +0000 build-r42-centos1: output:   dnf5-5.1.17-1.fc39.x86_64
+2024-06-16 11:59:57.878702 +0000 build-r42-centos1: output:   dnf5-plugins-5.1.17-1.fc39.x86_64
+2024-06-16 11:59:57.955819 +0000 build-r42-centos1: output: Start: installing minimal buildroot with dnf
+2024-06-16 11:59:58.008110 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/proc
+2024-06-16 11:59:58.011095 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.011259 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/builder/build/centos-stream-8-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.018447 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.021874 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/proc
+2024-06-16 11:59:58.025100 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.025152 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/builder/build/centos-stream-8-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.029246 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.032983 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.033051 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/centos-stream-8-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.040408 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.045907 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/sys
+2024-06-16 11:59:58.052967 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.053031 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate,mode=0755', 'tmpfs', '/builder/build/centos-stream-8-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.066150 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.070707 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/sys
+2024-06-16 11:59:58.078102 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.078152 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/builder/build/centos-stream-8-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.085280 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.092645 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.092852 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/builder/build/centos-stream-8-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.100885 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.107916 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/dev/shm
+2024-06-16 11:59:58.115290 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.115378 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/builder/build/centos-stream-8-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.129683 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.134213 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/dev/pts
+2024-06-16 11:59:58.141513 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.141569 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/builder/build/centos-stream-8-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.147269 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 11:59:58.166160 +0000 build-r42-centos1: output: DEBUG: ensuring that dir exists: /builder/build/centos-stream-8-x86_64/root/installation-homedir
+2024-06-16 11:59:58.172931 +0000 build-r42-centos1: output: DEBUG: ['/usr/bin/dnf-3', '--installroot', '/builder/build/centos-stream-8-x86_64/root/', '--releasever', '8', '--disablerepo', 'builder-local', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', 'tar', 'gcc-c++', 'redhat-rpm-config', 'redhat-release', 'which', 'xz', 'sed', 'make', 'bzip2', 'gzip', 'gcc', 'coreutils', 'unzip', 'shadow-utils', 'diffutils', 'cpio', 'bash', 'gawk', 'rpm-build', 'info', 'patch', 'util-linux', 'findutils', 'grep']
+2024-06-16 11:59:58.184760 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 11:59:58.185007 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/usr/bin/dnf-3', '--installroot', '/builder/build/centos-stream-8-x86_64/root/', '--releasever', '8', '--disablerepo', 'builder-local', '--setopt=deltarpm=False', '--setopt=allow_vendor_change=yes', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'install', 'tar', 'gcc-c++', 'redhat-rpm-config', 'redhat-release', 'which', 'xz', 'sed', 'make', 'bzip2', 'gzip', 'gcc', 'coreutils', 'unzip', 'shadow-utils', 'diffutils', 'cpio', 'bash', 'gawk', 'rpm-build', 'info', 'patch', 'util-linux', 'findutils', 'grep'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builder/build/centos-stream-8-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8'} and shell False
+2024-06-16 11:59:58.425623 +0000 build-r42-centos1: output: DEBUG: No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+2024-06-16 12:00:05.519909 +0000 build-r42-centos1: output: DEBUG: CentOS-Stream - Base                            5.5  B/s |  38  B     00:06
+2024-06-16 12:00:05.527994 +0000 build-r42-centos1: output: DEBUG: Error: Failed to download metadata for repo 'Stream-BaseOS': Cannot prepare internal mirrorlist: No URLs in mirrorlist
+2024-06-16 12:00:05.549591 +0000 build-r42-centos1: output: DEBUG: Child return code was: 1
+2024-06-16 12:00:05.554986 +0000 build-r42-centos1: output: DEBUG: kill orphans in chroot /builder/build/centos-stream-8-x86_64/root
+2024-06-16 12:00:05.567653 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.567687 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.574321 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.578976 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.579005 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.585186 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.591905 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.591948 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.598974 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.605734 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.605942 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.613440 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.618998 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.619088 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.625476 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.631702 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.631737 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '-l', '/builder/build/centos-stream-8-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.640221 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.679195 +0000 build-r42-centos1: output: ERROR: Exception(/builder/app-split-browser/rpm_spec/qubes-split-browser.spec) Config(centos-stream-8-x86_64) 0 minutes 11 seconds
+2024-06-16 12:00:05.679218 +0000 build-r42-centos1: output: INFO: Results and/or logs in: /builder/build
+2024-06-16 12:00:05.679643 +0000 build-r42-centos1: output: INFO: Cleaning up build root ('cleanup_on_failure=True')
+2024-06-16 12:00:05.680272 +0000 build-r42-centos1: output: Start: clean chroot
+2024-06-16 12:00:05.683824 +0000 build-r42-centos1: output: DEBUG: kill orphans in chroot /builder/build/centos-stream-8-x86_64/root
+2024-06-16 12:00:05.742439 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.742499 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/centos-stream-8-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.752436 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.756230 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.756265 +0000 build-r42-centos1: output: DEBUG: Executing command: ['/bin/umount', '-n', '/builder/build/centos-stream-8-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.762739 +0000 build-r42-centos1: output: DEBUG: Child return code was: 0
+2024-06-16 12:00:05.768211 +0000 build-r42-centos1: output: DEBUG: child environment: None
+2024-06-16 12:00:05.768241 +0000 build-r42-centos1: output: DEBUG: Executing command: ['btrfs', 'subv', 'list', '/builder/build'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+2024-06-16 12:00:05.779968 +0000 build-r42-centos1: output: DEBUG: ERROR: not a btrfs filesystem: /builder/build
+2024-06-16 12:00:05.780013 +0000 build-r42-centos1: output: DEBUG: ERROR: can't access '/builder/build'
+2024-06-16 12:00:05.780026 +0000 build-r42-centos1: output: DEBUG: Child return code was: 1
+2024-06-16 12:00:05.781813 +0000 build-r42-centos1: output: DEBUG: Please ignore the error above about btrfs.
+2024-06-16 12:00:11.197611 +0000 build-r42-centos1: output: Finish: clean chroot
+2024-06-16 12:00:11.198933 +0000 build-r42-centos1: output: ERROR: Command failed:
+2024-06-16 12:00:11.199110 +0000 build-r42-centos1: output:  # /usr/bin/dnf-3 --installroot /builder/build/centos-stream-8-x86_64/root/ --releasever 8 --disablerepo builder-local --setopt=deltarpm=False --setopt=allow_vendor_change=yes --allowerasing --disableplugin=local --disableplugin=spacewalk --disableplugin=versionlock install tar gcc-c++ redhat-rpm-config redhat-release which xz sed make bzip2 gzip gcc coreutils unzip shadow-utils diffutils cpio bash gawk rpm-build info patch util-linux findutils grep
+2024-06-16 12:00:11.199172 +0000 build-r42-centos1: output: No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+2024-06-16 12:00:11.199201 +0000 build-r42-centos1: output: CentOS-Stream - Base                            5.5  B/s |  38  B     00:06
+2024-06-16 12:00:11.199224 +0000 build-r42-centos1: output: Error: Failed to download metadata for repo 'Stream-BaseOS': Cannot prepare internal mirrorlist: No URLs in mirrorlist
+2024-06-16 12:00:11.199427 +0000 build-r42-centos1: output: 
+2024-06-16 12:00:13.677459 +0000 > closing log
