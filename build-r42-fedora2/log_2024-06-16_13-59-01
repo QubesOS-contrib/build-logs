@@ -1,0 +1,38 @@
+2024-06-16 13:59:01.145918 +0000 > starting log
+2024-06-16 13:59:01.146353 +0000 build-r42-fedora2: > starting build with log
+2024-06-16 13:59:01.146399 +0000 build-r42-fedora2: >> args:
+2024-06-16 13:59:01.146418 +0000 build-r42-fedora2: >>   ()
+2024-06-16 13:59:01.146431 +0000 build-r42-fedora2: >> component:
+2024-06-16 13:59:01.146444 +0000 build-r42-fedora2: >>   app-split-browser
+2024-06-16 13:59:01.146458 +0000 build-r42-fedora2: >>     commit-hash: 7d2f717bf8647eaa1a4c551c9bd8326a71abe48c
+2024-06-16 13:59:01.146484 +0000 build-r42-fedora2: >>     source-hash: 0049644f68f7456db29ef362d985dd9739ef0c24b94ba0f56db48cd629b515961ef38af6a5a695f09aa32c8f5323d7cecce14309b5cf8029a1046cfec14af1a6
+2024-06-16 13:59:01.146497 +0000 build-r42-fedora2: >> distributions:
+2024-06-16 13:59:01.146518 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>]
+2024-06-16 13:59:01.146540 +0000 build-r42-fedora2: Executing 'bash -c rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc39/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/fc39/'.
+2024-06-16 13:59:01.790228 +0000 build-r42-fedora2: output: sending incremental file list
+2024-06-16 13:59:01.812819 +0000 build-r42-fedora2: output: .d..t...... ./
+2024-06-16 13:59:01.814184 +0000 build-r42-fedora2: output: .L..t...... comps.xml -> ../../../comps-vm.xml
+2024-06-16 13:59:01.814219 +0000 build-r42-fedora2: output: .d..t...... repodata/
+2024-06-16 13:59:01.814241 +0000 build-r42-fedora2: output: <f+++++++++ repodata/1b8a5d74359bb2db4223b8e965aa3f46c1af7aa8af9df70ceaef33bf0dea0667-primary.xml.zst
+2024-06-16 13:59:01.814261 +0000 build-r42-fedora2: output: .          1,676 100%    0.00kB/s    0:00:00  .          1,676 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=13/18)
+2024-06-16 13:59:01.814277 +0000 build-r42-fedora2: output: <f+++++++++ repodata/315fb1aa537a7ee30aef53af748b337b01ef3bbf4154f84ef496e7ad75e12615-filelists.xml.zst
+2024-06-16 13:59:01.814292 +0000 build-r42-fedora2: output: .            924 100%  902.34kB/s    0:00:00  .            924 100%  902.34kB/s    0:00:00 (xfr#2, to-chk=12/18)
+2024-06-16 13:59:01.814342 +0000 build-r42-fedora2: output: <f+++++++++ repodata/742d6175f47f1c6b482535bcfe0aa55b234bf974f358cb63dc6d7431b1d09c74-other.xml.zst
+2024-06-16 13:59:01.814689 +0000 build-r42-fedora2: output: .          1,145 100%    1.09MB/s    0:00:00  .          1,145 100%    1.09MB/s    0:00:00 (xfr#3, to-chk=11/18)
+2024-06-16 13:59:01.814725 +0000 build-r42-fedora2: output: <f.st...... repodata/repomd.xml
+2024-06-16 13:59:01.814747 +0000 build-r42-fedora2: output: .          1,555 100%    1.48MB/s    0:00:00  .          1,555 100%    1.48MB/s    0:00:00 (xfr#4, to-chk=10/18)
+2024-06-16 13:59:01.814760 +0000 build-r42-fedora2: output: <f..t...... repodata/repomd.xml.asc
+2024-06-16 13:59:01.814776 +0000 build-r42-fedora2: output: .            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#5, to-chk=9/18)
+2024-06-16 13:59:01.814788 +0000 build-r42-fedora2: output: <f.st...... repodata/repomd.xml.metalink
+2024-06-16 13:59:01.814801 +0000 build-r42-fedora2: output: .              0 100%    0.00kB/s    0:00:00 (xfr#6, to-chk=8/18)
+2024-06-16 13:59:01.814814 +0000 build-r42-fedora2: output: .d..t...... rpm/
+2024-06-16 13:59:01.814828 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.4-1.fc39.noarch.rpm
+2024-06-16 13:59:01.814844 +0000 build-r42-fedora2: output: .         24,965 100%   23.81MB/s    0:00:00  .         24,965 100%   23.81MB/s    0:00:00 (xfr#7, to-chk=4/18)
+2024-06-16 13:59:01.814856 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.4-1.fc39.src.rpm
+2024-06-16 13:59:01.814883 +0000 build-r42-fedora2: output: .         32,768  82%   31.25MB/s    0:00:00  .         39,712 100%   37.87MB/s    0:00:00 (xfr#8, to-chk=3/18)
+2024-06-16 13:59:01.814896 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-0.16.4-1.fc39.x86_64.buildinfo
+2024-06-16 13:59:01.814933 +0000 build-r42-fedora2: output: .          6,669 100%    6.36MB/s    0:00:00  .          6,669 100%    6.36MB/s    0:00:00 (xfr#9, to-chk=2/18)
+2024-06-16 13:59:01.814953 +0000 build-r42-fedora2: output: <f+++++++++ rpm/qubes-split-browser-disp-0.16.4-1.fc39.noarch.rpm
+2024-06-16 13:59:01.815043 +0000 build-r42-fedora2: output: .         16,644 100%   15.87MB/s    0:00:00  .         16,644 100%   15.87MB/s    0:00:00 (xfr#10, to-chk=0/18)
+2024-06-16 13:59:02.016517 +0000 build-r42-fedora2: > done
+2024-06-16 13:59:02.016586 +0000 > closing log
