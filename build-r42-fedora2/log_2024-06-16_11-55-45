@@ -1,0 +1,27 @@
+2024-06-16 11:55:45.478896 +0000 > starting log
+2024-06-16 11:55:45.479076 +0000 build-r42-fedora2: > starting build with log
+2024-06-16 11:55:45.479092 +0000 build-r42-fedora2: >> args:
+2024-06-16 11:55:45.479100 +0000 build-r42-fedora2: >>   ()
+2024-06-16 11:55:45.479106 +0000 build-r42-fedora2: >> component:
+2024-06-16 11:55:45.479111 +0000 build-r42-fedora2: >>   app-split-browser
+2024-06-16 11:55:45.479117 +0000 build-r42-fedora2: >>     commit-hash: d8f6e1ec776605479a7e00a7915450594fe7a34c
+2024-06-16 11:55:45.479128 +0000 build-r42-fedora2: >>     source-hash: e0ef671d24b71feb7ae5909a5d94d4d784c398f04f4ca055aa226fe1647d14be2e3c470d874e90265e9f59a654a98922a868945c4b4b74f99fe36686b3d65bdc
+2024-06-16 11:55:45.479133 +0000 build-r42-fedora2: >> distributions:
+2024-06-16 11:55:45.479140 +0000 build-r42-fedora2: >>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>]
+2024-06-16 11:55:45.479146 +0000 build-r42-fedora2: app-split-browser: source already fetched. Updating.
+2024-06-16 11:55:57.379429 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9499 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-06-16 11:55:57.690040 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp9499 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-06-16 11:55:57.994453 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp9499 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only''.
+2024-06-16 11:56:01.777755 +0000 build-r42-fedora2: output: --> Verifying tags...
+2024-06-16 11:56:01.777806 +0000 build-r42-fedora2: output: ---> Good tag 7f4adec5b664621743001fa505a1335aa5bb64dd.
+2024-06-16 11:56:01.777816 +0000 build-r42-fedora2: output: ---> Good tag b5c866a98cb89043c029cb9be9770f0f8906cbc3.
+2024-06-16 11:56:01.777823 +0000 build-r42-fedora2: output: Enough distinct tag signatures. Found 1, mandatory minimum is 1.
+2024-06-16 11:56:01.777829 +0000 build-r42-fedora2: output: --> Merging...
+2024-06-16 11:56:01.805350 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp9499 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources
+2024-06-16 11:56:05.662775 +0000 build-r42-fedora2: ['cd -- /builder', "git -C /builder/app-split-browser rev-parse 'HEAD^{}' >> hash", "git -C /builder/app-split-browser tag --points-at HEAD --list 'v*' >> vtags"]
+2024-06-16 11:56:15.575765 +0000 build-r42-fedora2: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp3570 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser
+2024-06-16 11:56:16.777212 +0000 build-r42-fedora2: Executing '/usr/bin/qvm-run-vm -- disp3570 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/app-split-browser rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/app-split-browser tag --points-at HEAD --list '"'"'v*'"'"' >> vtags''.
+2024-06-16 11:56:16.904612 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3570 qubesbuilder.FileCopyOut+-2Fbuilder-2Fvtags /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmpklakpv7n
+2024-06-16 11:56:17.504639 +0000 build-r42-fedora2: copy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3570 qubesbuilder.FileCopyOut+-2Fbuilder-2Fhash /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmpklakpv7n
+2024-06-16 11:56:20.104266 +0000 build-r42-fedora2: > done
+2024-06-16 11:56:20.104373 +0000 > closing log
