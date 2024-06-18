@@ -1,0 +1,18 @@
+2024-06-18 08:38:48.663451 +0000 > starting log
+2024-06-18 08:38:48.663688 +0000 build-r42-centos1: > starting build with log
+2024-06-18 08:38:48.663706 +0000 build-r42-centos1: >> args:
+2024-06-18 08:38:48.663713 +0000 build-r42-centos1: >>   ()
+2024-06-18 08:38:48.663719 +0000 build-r42-centos1: >> component:
+2024-06-18 08:38:48.663725 +0000 build-r42-centos1: >>   builder-rpm
+2024-06-18 08:38:48.663730 +0000 build-r42-centos1: >> distributions:
+2024-06-18 08:38:48.663736 +0000 build-r42-centos1: >>   [<QubesDistribution vm-centos-stream-8.x86_64>]
+2024-06-18 08:38:57.402142 +0000 build-r42-centos1: copy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp5059 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch
+2024-06-18 08:38:57.730071 +0000 build-r42-centos1: Executing '/usr/bin/qvm-run-vm -- disp5059 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6''.
+2024-06-18 08:39:15.139167 +0000 build-r42-centos1: output: --> Verifying tags...
+2024-06-18 08:39:15.139256 +0000 build-r42-centos1: output: ERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '96f4a6913ed26ee6ff07b95adf3f9a3dc0bb4eaa']); stderr: [GNUPG:] NEWSIG
+2024-06-18 08:39:15.139274 +0000 build-r42-centos1: output: [GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1718699878 9 0064428F455451B3EBE78A7F063938BA42CFA724
+2024-06-18 08:39:15.139298 +0000 build-r42-centos1: output: [GNUPG:] NO_PUBKEY 063938BA42CFA724
+2024-06-18 08:39:15.139305 +0000 build-r42-centos1: output: 
+2024-06-18 08:39:15.139315 +0000 build-r42-centos1: output: ---> Invalid tag 96f4a6913ed26ee6ff07b95adf3f9a3dc0bb4eaa.
+2024-06-18 08:39:15.139412 +0000 build-r42-centos1: output: Not enough distinct tag signatures. Found 0, mandatory minimum is 1.
+2024-06-18 08:39:18.198676 +0000 > closing log
