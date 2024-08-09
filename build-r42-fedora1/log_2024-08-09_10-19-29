@@ -1,0 +1,24 @@
+2024-08-09 10:19:29.458159 +0000 > starting log
+2024-08-09 10:19:29.460014 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-08-09 10:19:29.460036 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-08-09 10:19:29.460046 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-08-09 10:19:29.460054 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-08-09 10:19:29.460062 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>>   tunnel.[0m
+2024-08-09 10:19:29.460071 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956.[0m
+2024-08-09 10:19:29.460082 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7.[0m
+2024-08-09 10:19:29.460090 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-08-09 10:19:29.460098 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-37.x86_64>].[0m
+2024-08-09 10:19:29.460105 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-08-09 10:19:29.460114 +0000 build-r42-fedora1: .[38;5;246m12:19:23 .[96m[qb.fetch.tunnel] .[0mtunnel: source already fetched. Updating..[0m
+2024-08-09 10:19:35.052188 +0000 build-r42-fedora1: .[38;5;246m12:19:35 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp3643 qubesbuilder.FileCopyIn+-2Fbuilder-2Ftunnel /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/tunnel.[0m
+2024-08-09 10:19:35.309105 +0000 build-r42-fedora1: .[38;5;246m12:19:35 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp3643 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-08-09 10:19:35.605683 +0000 build-r42-fedora1: .[38;5;246m12:19:35 .[96m[qb.fetch.tunnel.fetch] .[0mUsing executor qubes:disp3643..[0m
+2024-08-09 10:19:35.606275 +0000 build-r42-fedora1: .[38;5;246m12:19:35 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp3643 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-tunnel.git /builder/tunnel /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2024-08-09 10:19:37.579539 +0000 build-r42-fedora1: .[38;5;246m12:19:37 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-08-09 10:19:37.579941 +0000 build-r42-fedora1: .[38;5;246m12:19:37 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m---> Good tag cb198213be00a5c516311ae0d42867feeaaf9a0a..[0m
+2024-08-09 10:19:37.580171 +0000 build-r42-fedora1: .[38;5;246m12:19:37 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-08-09 10:19:37.580188 +0000 build-r42-fedora1: .[38;5;246m12:19:37 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m--> Merging....[0m
+2024-08-09 10:19:37.597809 +0000 build-r42-fedora1: .[38;5;246m12:19:37 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp3643 qubesbuilder.FileCopyOut+-2Fbuilder-2Ftunnel /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-08-09 10:19:39.860892 +0000 build-r42-fedora1: .[38;5;246m12:19:39 .[96m[qb.fetch.tunnel] .[0mLog file: /home/user/builder-r4.2/logs/20240809T101923-tunnel.log.[0m
+2024-08-09 10:19:39.867656 +0000 build-r42-fedora1: .[38;5;246m12:19:39 .[96m[qb] .[38;5;246m> done.[0m
+2024-08-09 10:19:39.867703 +0000 > closing log
