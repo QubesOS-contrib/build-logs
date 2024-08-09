@@ -1,0 +1,24 @@
+2024-08-09 10:19:29.451748 +0000 > starting log
+2024-08-09 10:19:29.451946 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-08-09 10:19:29.451963 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-08-09 10:19:29.451972 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-08-09 10:19:29.451979 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-08-09 10:19:29.451985 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>>   tunnel.[0m
+2024-08-09 10:19:29.452000 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>>     commit-hash: 30854921e7d44b871a92f2c17bc90616a7a47956.[0m
+2024-08-09 10:19:29.452009 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>>     source-hash: 563ec28c309a7694fc0ec920b73bbee16e7f0c9d8399ef2280626d7c44e5f172aac5abf7cf30941e3fee9c10637dfda06122f40e24b15df04fd3b5a8719d00c7.[0m
+2024-08-09 10:19:29.452015 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-08-09 10:19:29.452023 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-38.x86_64>, <QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>].[0m
+2024-08-09 10:19:29.452029 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-08-09 10:19:29.452036 +0000 build-r42-fedora2: .[38;5;246m12:19:24 .[96m[qb.fetch.tunnel] .[0mtunnel: source already fetched. Updating..[0m
+2024-08-09 10:19:38.578427 +0000 build-r42-fedora2: .[38;5;246m12:19:38 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp5263 qubesbuilder.FileCopyIn+-2Fbuilder-2Ftunnel /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/tunnel.[0m
+2024-08-09 10:19:38.809564 +0000 build-r42-fedora2: .[38;5;246m12:19:38 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp5263 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-08-09 10:19:39.052602 +0000 build-r42-fedora2: .[38;5;246m12:19:39 .[96m[qb.fetch.tunnel.fetch] .[0mUsing executor qubes:disp5263..[0m
+2024-08-09 10:19:39.052686 +0000 build-r42-fedora2: .[38;5;246m12:19:39 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp5263 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-tunnel.git /builder/tunnel /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2024-08-09 10:19:41.390903 +0000 build-r42-fedora2: .[38;5;246m12:19:41 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-08-09 10:19:41.390980 +0000 build-r42-fedora2: .[38;5;246m12:19:41 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m---> Good tag cb198213be00a5c516311ae0d42867feeaaf9a0a..[0m
+2024-08-09 10:19:41.390995 +0000 build-r42-fedora2: .[38;5;246m12:19:41 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-08-09 10:19:41.391004 +0000 build-r42-fedora2: .[38;5;246m12:19:41 .[96m[qb.fetch.tunnel.fetch] .[38;5;246m--> Merging....[0m
+2024-08-09 10:19:41.405686 +0000 build-r42-fedora2: .[38;5;246m12:19:41 .[96m[qb.fetch.tunnel.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp5263 qubesbuilder.FileCopyOut+-2Fbuilder-2Ftunnel /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-08-09 10:19:44.382041 +0000 build-r42-fedora2: .[38;5;246m12:19:44 .[96m[qb.fetch.tunnel] .[0mLog file: /home/user/builder-r4.2/logs/20240809T101924-tunnel.log.[0m
+2024-08-09 10:19:44.388510 +0000 build-r42-fedora2: .[38;5;246m12:19:44 .[96m[qb] .[38;5;246m> done.[0m
+2024-08-09 10:19:44.388755 +0000 > closing log
