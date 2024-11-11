@@ -1,0 +1,24 @@
+2024-11-11 10:42:38.471419 +0000 > starting log
+2024-11-11 10:42:38.471656 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-11 10:42:38.471671 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-11 10:42:38.471679 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-11 10:42:38.471685 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-11 10:42:38.471692 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>>   app-split-git.[0m
+2024-11-11 10:42:38.471699 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c.[0m
+2024-11-11 10:42:38.471708 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d.[0m
+2024-11-11 10:42:38.471718 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-11 10:42:38.471726 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2024-11-11 10:42:38.471731 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-11-11 10:42:38.471738 +0000 build-r42-debian1: .[38;5;246m11:42:38 .[96m[qb.fetch.app-split-git] .[0mapp-split-git: source already fetched. Updating..[0m
+2024-11-11 10:42:49.600276 +0000 build-r42-debian1: .[38;5;246m11:42:49 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1630 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--git /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-git.[0m
+2024-11-11 10:42:50.914945 +0000 build-r42-debian1: .[38;5;246m11:42:50 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1630 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-11-11 10:42:51.113494 +0000 build-r42-debian1: .[38;5;246m11:42:51 .[96m[qb.fetch.app-split-git.fetch] .[0mUsing executor qubes:disp1630..[0m
+2024-11-11 10:42:51.113593 +0000 build-r42-debian1: .[38;5;246m11:42:51 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp1630 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-git.git /builder/app-split-git /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2024-11-11 10:42:52.338245 +0000 build-r42-debian1: .[38;5;246m11:42:52 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-11-11 10:42:52.338312 +0000 build-r42-debian1: .[38;5;246m11:42:52 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246m---> Good tag 2955f665c488700631f4d08ed0ca561148c33459..[0m
+2024-11-11 10:42:52.338324 +0000 build-r42-debian1: .[38;5;246m11:42:52 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-11-11 10:42:52.338332 +0000 build-r42-debian1: .[38;5;246m11:42:52 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246m--> Merging....[0m
+2024-11-11 10:42:52.353212 +0000 build-r42-debian1: .[38;5;246m11:42:52 .[96m[qb.fetch.app-split-git.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1630 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--git /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-11-11 10:42:54.601360 +0000 build-r42-debian1: .[38;5;246m11:42:54 .[96m[qb.fetch.app-split-git] .[0mLog file: /home/user/builder-r4.2/logs/20241111T104238-app-split-git.log.[0m
+2024-11-11 10:42:54.604809 +0000 build-r42-debian1: .[38;5;246m11:42:54 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-11 10:42:54.604866 +0000 > closing log
