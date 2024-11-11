@@ -1,0 +1,36 @@
+2024-11-11 11:48:23.121963 +0000 > starting log
+2024-11-11 11:48:23.122343 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-11 11:48:23.122372 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-11 11:48:23.122389 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-11 11:48:23.122403 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-11 11:48:23.122417 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>>   app-split-git.[0m
+2024-11-11 11:48:23.122433 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>>     commit-hash: 12fd1451d5270a25bedafd1e7edff749fb1c796c.[0m
+2024-11-11 11:48:23.122453 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>>     source-hash: 3960c78c8bc4136d135b91df7aa4f5fc1941bfe7febe1a1c3aed8fb4276df57c7b2b11e22388f649b064dfdfb9cb7b81ffac61f8689ff58c062b82b808269d7d.[0m
+2024-11-11 11:48:23.122474 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-11 11:48:23.122492 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>, <QubesDistribution vm-fedora-41.x86_64>].[0m
+2024-11-11 11:48:23.122505 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb] .[0mRunning stage 'upload'.[0m
+2024-11-11 11:48:23.122536 +0000 build-r42-fedora2: .[38;5;246m12:48:22 .[96m[qb.upload.vm-fc39.upload] .[38;5;246mUsing executor local:/tmp/139535759959456f596be12/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -air --mkpath -- /home/user/builder-r4.2/repository-publish/rpm/r4.2/current-testing/vm/fc39/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.2/current-testing/vm/fc39/']'..[0m
+2024-11-11 11:48:23.782430 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246msending incremental file list.[0m
+2024-11-11 11:48:23.807278 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.d..t...... ./.[0m
+2024-11-11 11:48:23.808704 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.d..t...... repodata/.[0m
+2024-11-11 11:48:23.808807 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ repodata/492b183ca6844494f549bb9d1b1ac8ea8a290909ce31de36432622d89b23eda3-filelists.xml.zst.[0m
+2024-11-11 11:48:23.808836 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          1,089 100%    0.00kB/s    0:00:00  .          1,089 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=16/21).[0m
+2024-11-11 11:48:23.808856 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ repodata/66b281e156a64388532a9fd5d2214c684dfafd1206f5b7620bffc7c6950c7c74-primary.xml.zst.[0m
+2024-11-11 11:48:23.808875 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          2,092 100%    2.00MB/s    0:00:00  .          2,092 100%    2.00MB/s    0:00:00 (xfr#2, to-chk=15/21).[0m
+2024-11-11 11:48:23.808893 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ repodata/72e7269c2073404d0880983cd7ca94005c7db061759fd4ae5cce624d999fefef-other.xml.zst.[0m
+2024-11-11 11:48:23.808911 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          1,445 100%    1.38MB/s    0:00:00  .          1,445 100%    1.38MB/s    0:00:00 (xfr#3, to-chk=14/21).[0m
+2024-11-11 11:48:23.808925 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f.st...... repodata/repomd.xml.[0m
+2024-11-11 11:48:23.808943 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          1,556 100%    1.48MB/s    0:00:00  .          1,556 100%    1.48MB/s    0:00:00 (xfr#4, to-chk=13/21).[0m
+2024-11-11 11:48:23.808958 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f..t...... repodata/repomd.xml.asc.[0m
+2024-11-11 11:48:23.809002 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.            488 100%  476.56kB/s    0:00:00  .            488 100%  476.56kB/s    0:00:00 (xfr#5, to-chk=12/21).[0m
+2024-11-11 11:48:23.809029 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f.st...... repodata/repomd.xml.metalink.[0m
+2024-11-11 11:48:23.809049 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          2,809 100%    2.68MB/s    0:00:00  .          2,809 100%    2.68MB/s    0:00:00 (xfr#6, to-chk=11/21).[0m
+2024-11-11 11:48:23.809064 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.d..t...... rpm/.[0m
+2024-11-11 11:48:23.809085 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-git-1.0.1-3.fc39.src.rpm.[0m
+2024-11-11 11:48:23.809188 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.         31,115 100%   29.67MB/s    0:00:00  .         31,115 100%   29.67MB/s    0:00:00 (xfr#7, to-chk=2/21).[0m
+2024-11-11 11:48:23.809286 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-git-1.0.1-3.fc39.x86_64.buildinfo.[0m
+2024-11-11 11:48:23.809362 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.          6,396 100%    6.10MB/s    0:00:00  .          6,396 100%    6.10MB/s    0:00:00 (xfr#8, to-chk=1/21).[0m
+2024-11-11 11:48:23.809409 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-git-1.0.1-3.fc39.x86_64.rpm.[0m
+2024-11-11 11:48:23.809500 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb.upload.vm-fc39.upload] .[38;5;246m.         13,839 100%   13.20MB/s    0:00:00  .         13,839 100%   13.20MB/s    0:00:00 (xfr#9, to-chk=0/21).[0m
+2024-11-11 11:48:24.068781 +0000 build-r42-fedora2: .[38;5;246m12:48:23 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-11 11:48:24.068856 +0000 > closing log
