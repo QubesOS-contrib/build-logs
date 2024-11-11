@@ -1,0 +1,24 @@
+2024-11-11 10:11:11.126060 +0000 > starting log
+2024-11-11 10:11:11.126258 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-11 10:11:11.126273 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-11 10:11:11.126281 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-11 10:11:11.126288 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-11 10:11:11.126295 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2024-11-11 10:11:11.126302 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>>     commit-hash: 1f2b0764ef84c6f0ea42ec7242e7734b8b81efef.[0m
+2024-11-11 10:11:11.126411 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>>     source-hash: de2ab0bc17a10a9b1b13898cb2edc3c19d9c0f3302509f66cd2f0fa7a2619b28020c678cbda7619a29af8af4de8b201159d98c21c9683e68d048de2f07b4d816.[0m
+2024-11-11 10:11:11.126427 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-11 10:11:11.126436 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-39.x86_64>, <QubesDistribution vm-fedora-40.x86_64>, <QubesDistribution vm-fedora-41.x86_64>].[0m
+2024-11-11 10:11:11.126442 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-11-11 10:11:11.126449 +0000 build-r42-fedora2: .[38;5;246m11:11:10 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2024-11-11 10:11:19.745764 +0000 build-r42-fedora2: .[38;5;246m11:11:19 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2270 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs.[0m
+2024-11-11 10:11:20.197996 +0000 build-r42-fedora2: .[38;5;246m11:11:20 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp2270 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-11-11 10:11:20.543695 +0000 build-r42-fedora2: .[38;5;246m11:11:20 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp2270..[0m
+2024-11-11 10:11:20.543777 +0000 build-r42-fedora2: .[38;5;246m11:11:20 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp2270 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2024-11-11 10:11:21.936606 +0000 build-r42-fedora2: .[38;5;246m11:11:21 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-11-11 10:11:21.936697 +0000 build-r42-fedora2: .[38;5;246m11:11:21 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag 59b4c83791702929c89ead65d9f7ecc4bc44684e..[0m
+2024-11-11 10:11:21.936721 +0000 build-r42-fedora2: .[38;5;246m11:11:21 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-11-11 10:11:21.936750 +0000 build-r42-fedora2: .[38;5;246m11:11:21 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2024-11-11 10:11:21.966972 +0000 build-r42-fedora2: .[38;5;246m11:11:21 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp2270 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-11-11 10:11:25.865603 +0000 build-r42-fedora2: .[38;5;246m11:11:25 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20241111T101110-contrib-configs.log.[0m
+2024-11-11 10:11:25.868407 +0000 build-r42-fedora2: .[38;5;246m11:11:25 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-11 10:11:25.868440 +0000 > closing log
