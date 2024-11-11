@@ -1,0 +1,25 @@
+2024-11-11 10:41:59.728622 +0000 > starting log
+2024-11-11 10:41:59.728998 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-11 10:41:59.729028 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-11 10:41:59.729046 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-11 10:41:59.729061 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-11 10:41:59.729075 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2024-11-11 10:41:59.729091 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>>     commit-hash: 7d2f717bf8647eaa1a4c551c9bd8326a71abe48c.[0m
+2024-11-11 10:41:59.729110 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>>     source-hash: 0049644f68f7456db29ef362d985dd9739ef0c24b94ba0f56db48cd629b515961ef38af6a5a695f09aa32c8f5323d7cecce14309b5cf8029a1046cfec14af1a6.[0m
+2024-11-11 10:41:59.729131 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-11 10:41:59.729147 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2024-11-11 10:41:59.729164 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-11-11 10:41:59.729180 +0000 build-r42-debian1: .[38;5;246m11:41:59 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2024-11-11 10:42:09.314320 +0000 build-r42-debian1: .[38;5;246m11:42:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp4892 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser.[0m
+2024-11-11 10:42:09.752460 +0000 build-r42-debian1: .[38;5;246m11:42:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp4892 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-11-11 10:42:10.242737 +0000 build-r42-debian1: .[38;5;246m11:42:10 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp4892..[0m
+2024-11-11 10:42:10.242811 +0000 build-r42-debian1: .[38;5;246m11:42:10 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp4892 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2024-11-11 10:42:11.590825 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-11-11 10:42:11.590884 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 7f4adec5b664621743001fa505a1335aa5bb64dd..[0m
+2024-11-11 10:42:11.590897 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag b5c866a98cb89043c029cb9be9770f0f8906cbc3..[0m
+2024-11-11 10:42:11.590907 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-11-11 10:42:11.590925 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2024-11-11 10:42:11.612468 +0000 build-r42-debian1: .[38;5;246m11:42:11 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp4892 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-11-11 10:42:13.997577 +0000 build-r42-debian1: .[38;5;246m11:42:13 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.2/logs/20241111T104159-app-split-browser.log.[0m
+2024-11-11 10:42:14.001833 +0000 build-r42-debian1: .[38;5;246m11:42:13 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-11 10:42:14.001862 +0000 > closing log
