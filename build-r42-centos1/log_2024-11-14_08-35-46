@@ -1,0 +1,30 @@
+2024-11-14 08:35:46.033790 +0000 > starting log
+2024-11-14 08:35:46.034178 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-14 08:35:46.034195 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-14 08:35:46.034203 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-14 08:35:46.034210 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-14 08:35:46.034217 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2024-11-14 08:35:46.034224 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>>     commit-hash: 1f2b0764ef84c6f0ea42ec7242e7734b8b81efef.[0m
+2024-11-14 08:35:46.034234 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>>     source-hash: de2ab0bc17a10a9b1b13898cb2edc3c19d9c0f3302509f66cd2f0fa7a2619b28020c678cbda7619a29af8af4de8b201159d98c21c9683e68d048de2f07b4d816.[0m
+2024-11-14 08:35:46.034243 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-14 08:35:46.034250 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-centos-stream-8.x86_64>].[0m
+2024-11-14 08:35:46.034256 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-11-14 08:35:46.034263 +0000 build-r42-centos1: .[38;5;246m09:35:45 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2024-11-14 08:35:59.127687 +0000 build-r42-centos1: .[38;5;246m09:35:59 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1181 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs.[0m
+2024-11-14 08:35:59.329586 +0000 build-r42-centos1: .[38;5;246m09:35:59 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp1181 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-11-14 08:35:59.461613 +0000 build-r42-centos1: .[38;5;246m09:35:59 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp1181..[0m
+2024-11-14 08:35:59.461687 +0000 build-r42-centos1: .[38;5;246m09:35:59 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp1181 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2024-11-14 08:36:01.521654 +0000 build-r42-centos1: .[38;5;246m09:36:01 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-11-14 08:36:01.521728 +0000 build-r42-centos1: .[38;5;246m09:36:01 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag b00852e0b96b523c4e4911154210cce6dcd235ef..[0m
+2024-11-14 08:36:01.521743 +0000 build-r42-centos1: .[38;5;246m09:36:01 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-11-14 08:36:01.521753 +0000 build-r42-centos1: .[38;5;246m09:36:01 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2024-11-14 08:36:01.540039 +0000 build-r42-centos1: .[38;5;246m09:36:01 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp1181 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-11-14 08:36:04.659571 +0000 build-r42-centos1: .[38;5;246m09:36:04 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20241114T083545-contrib-configs.log.[0m
+2024-11-14 08:36:04.661415 +0000 build-r42-centos1: .[38;5;246m09:36:04 .[96m[qb.fetch.contrib-configs] .[38;5;246m['cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2024-11-14 08:36:17.639936 +0000 build-r42-centos1: .[38;5;246m09:36:17 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp630 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs.[0m
+2024-11-14 08:36:17.807280 +0000 build-r42-centos1: .[38;5;246m09:36:17 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp630..[0m
+2024-11-14 08:36:17.807344 +0000 build-r42-centos1: .[38;5;246m09:36:17 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp630 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2024-11-14 08:36:17.922447 +0000 build-r42-centos1: .[38;5;246m09:36:17 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp630 qubesbuilder.FileCopyOut+-2Fbuilder-2Fhash /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2ccktcwj.[0m
+2024-11-14 08:36:18.055213 +0000 build-r42-centos1: .[38;5;246m09:36:17 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp630 qubesbuilder.FileCopyOut+-2Fbuilder-2Fvtags /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/tmp/tmp2ccktcwj.[0m
+2024-11-14 08:36:22.697738 +0000 build-r42-centos1: .[38;5;246m09:36:22 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-14 08:36:22.697807 +0000 > closing log
