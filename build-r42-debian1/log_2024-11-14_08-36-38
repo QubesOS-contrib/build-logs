@@ -1,0 +1,24 @@
+2024-11-14 08:36:38.210270 +0000 > starting log
+2024-11-14 08:36:38.210637 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2024-11-14 08:36:38.210656 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>> args:.[0m
+2024-11-14 08:36:38.210666 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>>   ().[0m
+2024-11-14 08:36:38.210673 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>> component:.[0m
+2024-11-14 08:36:38.210682 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2024-11-14 08:36:38.210690 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>>     commit-hash: ceb4cbaadafc56c59f27fd1807858c8941f864aa.[0m
+2024-11-14 08:36:38.210702 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>>     source-hash: 9233d7eee0f7b785290d71c8c9c509002d4727ead10902c980be626a9dace380d6c4aa775930fcbf097d2b0b3e842afe5109411770fc25b6094eadf3cf34ae99.[0m
+2024-11-14 08:36:38.210714 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2024-11-14 08:36:38.210724 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2024-11-14 08:36:38.210731 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2024-11-14 08:36:38.210739 +0000 build-r42-debian1: .[38;5;246m09:36:38 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2024-11-14 08:36:49.084476 +0000 build-r42-debian1: .[38;5;246m09:36:49 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp7716 qubesbuilder.FileCopyIn+-2Fbuilder-2Fcontrib--configs /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/contrib-configs.[0m
+2024-11-14 08:36:49.391414 +0000 build-r42-debian1: .[38;5;246m09:36:49 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp7716 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2024-11-14 08:36:49.604299 +0000 build-r42-debian1: .[38;5;246m09:36:49 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp7716..[0m
+2024-11-14 08:36:49.604396 +0000 build-r42-debian1: .[38;5;246m09:36:49 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp7716 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2024-11-14 08:36:53.338650 +0000 build-r42-debian1: .[38;5;246m09:36:53 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2024-11-14 08:36:53.338722 +0000 build-r42-debian1: .[38;5;246m09:36:53 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag b00852e0b96b523c4e4911154210cce6dcd235ef..[0m
+2024-11-14 08:36:53.338760 +0000 build-r42-debian1: .[38;5;246m09:36:53 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2024-11-14 08:36:53.338776 +0000 build-r42-debian1: .[38;5;246m09:36:53 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2024-11-14 08:36:53.369098 +0000 build-r42-debian1: .[38;5;246m09:36:53 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp7716 qubesbuilder.FileCopyOut+-2Fbuilder-2Fcontrib--configs /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2024-11-14 08:36:55.850862 +0000 build-r42-debian1: .[38;5;246m09:36:55 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20241114T083638-contrib-configs.log.[0m
+2024-11-14 08:36:55.853684 +0000 build-r42-debian1: .[38;5;246m09:36:55 .[96m[qb] .[38;5;246m> done.[0m
+2024-11-14 08:36:55.853756 +0000 > closing log
