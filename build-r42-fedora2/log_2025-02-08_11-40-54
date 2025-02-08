@@ -1,0 +1,25 @@
+2025-02-08 11:40:54.915953 +0000 > starting log
+2025-02-08 11:40:54.916548 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-02-08 11:40:54.916607 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-02-08 11:40:54.916620 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-02-08 11:40:54.916628 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-02-08 11:40:54.916635 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2025-02-08 11:40:54.916642 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>>     commit-hash: 1cb80246eeb255017450463a19885d4b10d00c1b.[0m
+2025-02-08 11:40:54.916652 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>>     source-hash: 810db4961a4b311f02f0409a7efa2d328645537dbe4c4544e5c3af69a19d086e61e637450bf19bb1eb07f684d13be0bf777a321193204195be3b19da5a34d511.[0m
+2025-02-08 11:40:54.916664 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-02-08 11:40:54.916672 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-40.x86_64>, <QubesDistribution vm-fedora-41.x86_64>].[0m
+2025-02-08 11:40:54.916677 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2025-02-08 11:40:54.916685 +0000 build-r42-fedora2: .[38;5;246m12:40:54 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2025-02-08 11:41:07.052329 +0000 build-r42-fedora2: .[38;5;246m12:41:07 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp8479 qubesbuilder.FileCopyIn+-2Fbuilder-2Fapp--split--browser /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/app-split-browser.[0m
+2025-02-08 11:41:07.481957 +0000 build-r42-fedora2: .[38;5;246m12:41:07 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-in (cmd): /usr/lib/qubes/qrexec-client-vm -- disp8479 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2025-02-08 11:41:07.993380 +0000 build-r42-fedora2: .[38;5;246m12:41:08 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp8479..[0m
+2025-02-08 11:41:07.993460 +0000 build-r42-fedora2: .[38;5;246m12:41:08 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp8479 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2025-02-08 11:41:09.659617 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-02-08 11:41:09.659686 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 31b72839ac486c2e48ce55e5dbbf6fed0c16f254..[0m
+2025-02-08 11:41:09.659710 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag feede1a7425537064d03411264dc9edce6a70984..[0m
+2025-02-08 11:41:09.659745 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2025-02-08 11:41:09.659761 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2025-02-08 11:41:09.703674 +0000 build-r42-fedora2: .[38;5;246m12:41:09 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mcopy-out (cmd): /usr/lib/qubes/qrexec-client-vm disp8479 qubesbuilder.FileCopyOut+-2Fbuilder-2Fapp--split--browser /usr/bin/qfile-unpacker 1000 /home/user/builder-r4.2/sources.[0m
+2025-02-08 11:41:12.555652 +0000 build-r42-fedora2: .[38;5;246m12:41:12 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.2/logs/20250208T114054-app-split-browser.log.[0m
+2025-02-08 11:41:12.565120 +0000 build-r42-fedora2: .[38;5;246m12:41:12 .[96m[qb] .[38;5;246m> done.[0m
+2025-02-08 11:41:12.565165 +0000 > closing log
