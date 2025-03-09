@@ -1,0 +1,24 @@
+2025-03-09 20:22:51.616938 +0000 > starting log
+2025-03-09 20:22:51.617341 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-03-09 20:22:51.617372 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-03-09 20:22:51.617391 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-03-09 20:22:51.617406 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-03-09 20:22:51.617420 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>>   builder-debian.[0m
+2025-03-09 20:22:51.617433 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-03-09 20:22:51.617449 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2025-03-09 20:22:51.617462 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2025-03-09 20:22:51.617481 +0000 build-r42-debian1: .[38;5;246m21:22:51 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mqrexec call (create disposable qube): /usr/lib/qubes/qrexec-client-vm -- builder-dvm admin.vm.CreateDisposable.[0m
+2025-03-09 20:22:53.317273 +0000 build-r42-debian1: .[38;5;246m21:22:53 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mqrexec call (start vm): /usr/lib/qubes/qrexec-client-vm -- disp7790 admin.vm.Start.[0m
+2025-03-09 20:23:00.589354 +0000 build-r42-debian1: .[38;5;246m21:23:00 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mqrexec call (copy builder rpc services): /usr/lib/qubes/qrexec-client-vm --filter-escape-chars-stderr -- disp7790 qubes.Filecopy /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/rpc/qubesbuilder.FileCopyIn /home/user/qubes-builderv2/rpc/qubesbuilder.FileCopyOut.[0m
+2025-03-09 20:23:01.743716 +0000 build-r42-debian1: .[38;5;246m21:23:01 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mqrexec call (copy-in): /usr/lib/qubes/qrexec-client-vm -- disp7790 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2025-03-09 20:23:02.342428 +0000 build-r42-debian1: .[38;5;246m21:23:02 .[96m[qb.fetch.builder-debian.fetch] .[0mUsing executor qubes:disp7790..[0m
+2025-03-09 20:23:02.342509 +0000 build-r42-debian1: .[38;5;246m21:23:02 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp7790 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-debian.git /builder/builder-debian /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2025-03-09 20:23:07.682487 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-03-09 20:23:07.682544 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '05cd848b92f4d4173d5894f93b1a788c74773cd7']); stderr: [GNUPG:] NEWSIG.[0m
+2025-03-09 20:23:07.682606 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m[GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1741551744 9 0064428F455451B3EBE78A7F063938BA42CFA724.[0m
+2025-03-09 20:23:07.682622 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m[GNUPG:] NO_PUBKEY 063938BA42CFA724.[0m
+2025-03-09 20:23:07.682715 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m.[0m
+2025-03-09 20:23:07.682777 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m---> Invalid tag 05cd848b92f4d4173d5894f93b1a788c74773cd7..[0m
+2025-03-09 20:23:07.682870 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mNot enough distinct tag signatures. Found 0, mandatory minimum is 1..[0m
+2025-03-09 20:23:07.695852 +0000 build-r42-debian1: .[38;5;246m21:23:07 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mqrexec call (kill vm): /usr/lib/qubes/qrexec-client-vm -- disp7790 admin.vm.Kill.[0m
+2025-03-09 20:23:10.179961 +0000 > closing log
