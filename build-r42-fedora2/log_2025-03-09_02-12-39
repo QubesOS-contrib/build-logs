@@ -1,0 +1,28 @@
+2025-03-09 02:12:39.700056 +0000 > starting log
+2025-03-09 02:12:39.700257 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-03-09 02:12:39.700270 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-03-09 02:12:39.700279 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-03-09 02:12:39.700286 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-03-09 02:12:39.700295 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>>   builder-rpm.[0m
+2025-03-09 02:12:39.700302 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>>     commit-hash: fa42621395a89eceacdcc701c3a672df33791b63.[0m
+2025-03-09 02:12:39.700312 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>>     source-hash: 7e9c38256ef3ad483b757e1b0f094b3b1cea447c15df54bcc750e4d9603966eb7f6186dd3298d8225e709eef3af13fb4c85c5df257d8b890f876c1c378afc631.[0m
+2025-03-09 02:12:39.700320 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-03-09 02:12:39.700327 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-40.x86_64>, <QubesDistribution vm-fedora-41.x86_64>].[0m
+2025-03-09 02:12:39.700333 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb] .[0mRunning stage 'fetch'.[0m
+2025-03-09 02:12:39.700340 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb.fetch.builder-rpm] .[0mbuilder-rpm: source already fetched. Updating..[0m
+2025-03-09 02:12:39.700349 +0000 build-r42-fedora2: .[38;5;246m03:12:39 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (create disposable qube): /usr/lib/qubes/qrexec-client-vm -- builder-dvm admin.vm.CreateDisposable.[0m
+2025-03-09 02:12:41.709732 +0000 build-r42-fedora2: .[38;5;246m03:12:41 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (start vm): /usr/lib/qubes/qrexec-client-vm -- disp2856 admin.vm.Start.[0m
+2025-03-09 02:12:49.382775 +0000 build-r42-fedora2: .[38;5;246m03:12:49 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (copy builder rpc services): /usr/lib/qubes/qrexec-client-vm --filter-escape-chars-stderr -- disp2856 qubes.Filecopy /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/rpc/qubesbuilder.FileCopyIn /home/user/qubes-builderv2/rpc/qubesbuilder.FileCopyOut.[0m
+2025-03-09 02:12:50.615811 +0000 build-r42-fedora2: .[38;5;246m03:12:50 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (copy-in): /usr/lib/qubes/qrexec-client-vm -- disp2856 qubesbuilder.FileCopyIn+-2Fbuilder-2Fbuilder--rpm /usr/lib/qubes/qfile-agent /home/user/builder-r4.2/sources/builder-rpm.[0m
+2025-03-09 02:12:51.293326 +0000 build-r42-fedora2: .[38;5;246m03:12:51 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (copy-in): /usr/lib/qubes/qrexec-client-vm -- disp2856 qubesbuilder.FileCopyIn+-2Fbuilder-2Fplugins-2Ffetch /usr/lib/qubes/qfile-agent /home/user/qubes-builderv2/qubesbuilder/plugins/fetch.[0m
+2025-03-09 02:12:51.679109 +0000 build-r42-fedora2: .[38;5;246m03:12:51 .[96m[qb.fetch.builder-rpm.fetch] .[0mUsing executor qubes:disp2856..[0m
+2025-03-09 02:12:51.679262 +0000 build-r42-fedora2: .[38;5;246m03:12:51 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp2856 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2025-03-09 02:12:55.991502 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-03-09 02:12:55.991629 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', 'b0cb1b4cb94a53d38ee80a5a6f5857935eb22c30']); stderr: [GNUPG:] NEWSIG.[0m
+2025-03-09 02:12:55.991694 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m[GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1741486353 9 0064428F455451B3EBE78A7F063938BA42CFA724.[0m
+2025-03-09 02:12:55.991756 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m[GNUPG:] NO_PUBKEY 063938BA42CFA724.[0m
+2025-03-09 02:12:55.991774 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m.[0m
+2025-03-09 02:12:55.991795 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m---> Invalid tag b0cb1b4cb94a53d38ee80a5a6f5857935eb22c30..[0m
+2025-03-09 02:12:55.991893 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mNot enough distinct tag signatures. Found 0, mandatory minimum is 1..[0m
+2025-03-09 02:12:56.012715 +0000 build-r42-fedora2: .[38;5;246m03:12:56 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mqrexec call (kill vm): /usr/lib/qubes/qrexec-client-vm -- disp2856 admin.vm.Kill.[0m
+2025-03-09 02:12:58.302672 +0000 > closing log
