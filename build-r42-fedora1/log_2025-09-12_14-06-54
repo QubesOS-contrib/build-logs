@@ -1,0 +1,24 @@
+2025-09-12 14:06:54.171084 +0000 > starting log
+2025-09-12 14:06:54.171434 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-09-12 14:06:54.171454 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-09-12 14:06:54.171464 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-09-12 14:06:54.171471 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-09-12 14:06:54.171478 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2025-09-12 14:06:54.171486 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>     commit-hash: a2bc88fecf586a1f215fa2a09d121018025ce6f5.[0m
+2025-09-12 14:06:54.171501 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>     source-hash: 360333e6b1abb58662216e955ffab224fe2d620e733e2b660c99825fa3ec4b0cf48abc6dbb6c390bac64b40b6f3d7e5b560e2fc9a6028d283dc0e0f4d35ae514.[0m
+2025-09-12 14:06:54.171507 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-09-12 14:06:54.171515 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-37.x86_64>].[0m
+2025-09-12 14:06:54.171521 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb] .[0mRunning stages: fetch.[0m
+2025-09-12 14:06:54.171528 +0000 build-r42-fedora1: .[38;5;246m16:06:54 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2025-09-12 14:07:05.829906 +0000 build-r42-fedora1: .[38;5;246m16:07:05 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp8412..[0m
+2025-09-12 14:07:05.830054 +0000 build-r42-fedora1: .[38;5;246m16:07:05 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp8412 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2025-09-12 14:07:07.981851 +0000 build-r42-fedora1: .[38;5;246m16:07:08 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-09-12 14:07:07.981912 +0000 build-r42-fedora1: .[38;5;246m16:07:08 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag ec126e5ad4a41cdb1cfa82776fff28568e406800..[0m
+2025-09-12 14:07:07.981926 +0000 build-r42-fedora1: .[38;5;246m16:07:08 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2025-09-12 14:07:07.981944 +0000 build-r42-fedora1: .[38;5;246m16:07:08 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2025-09-12 14:07:10.460433 +0000 build-r42-fedora1: .[38;5;246m16:07:10 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20250912T140653-contrib-configs.log.[0m
+2025-09-12 14:07:10.463620 +0000 build-r42-fedora1: .[38;5;246m16:07:10 .[96m[qb.fetch.contrib-configs] .[38;5;246m['cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2025-09-12 14:07:22.710504 +0000 build-r42-fedora1: .[38;5;246m16:07:22 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp1633..[0m
+2025-09-12 14:07:22.710576 +0000 build-r42-fedora1: .[38;5;246m16:07:22 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp1633 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2025-09-12 14:07:25.806950 +0000 build-r42-fedora1: .[38;5;246m16:07:25 .[96m[qb] .[38;5;246m> done.[0m
+2025-09-12 14:07:25.807073 +0000 > closing log
