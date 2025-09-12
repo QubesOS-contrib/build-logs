@@ -1,0 +1,21 @@
+2025-09-12 14:08:50.094060 +0000 > starting log
+2025-09-12 14:08:50.094260 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-09-12 14:08:50.094280 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-09-12 14:08:50.094290 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-09-12 14:08:50.094297 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-09-12 14:08:50.094304 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>>   securedrop-workstation-keyring.[0m
+2025-09-12 14:08:50.094310 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-09-12 14:08:50.094319 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2025-09-12 14:08:50.094325 +0000 build-r42-debian1: .[38;5;246m16:08:49 .[96m[qb] .[0mRunning stages: fetch.[0m
+2025-09-12 14:09:05.197398 +0000 build-r42-debian1: .[38;5;246m16:09:05 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[0mUsing executor qubes:disp4..[0m
+2025-09-12 14:09:05.197492 +0000 build-r42-debian1: .[38;5;246m16:09:05 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp4 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/securedrop-workstation-keyring /builder/securedrop-workstation-keyring /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2025-09-12 14:09:08.051617 +0000 build-r42-debian1: .[38;5;246m16:09:08 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-09-12 14:09:08.051681 +0000 build-r42-debian1: .[38;5;246m16:09:08 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246m---> Good tag 6529258dad113d4e7eac59cdcf75fc97f2068ebd..[0m
+2025-09-12 14:09:08.051703 +0000 build-r42-debian1: .[38;5;246m16:09:08 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2025-09-12 14:09:08.051733 +0000 build-r42-debian1: .[38;5;246m16:09:08 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246m--> Switching branch from main branch to main.[0m
+2025-09-12 14:09:12.031060 +0000 build-r42-debian1: .[38;5;246m16:09:12 .[96m[qb.fetch.securedrop-workstation-keyring] .[0mLog file: /home/user/builder-r4.2/logs/20250912T140849-securedrop-workstation-keyring.log.[0m
+2025-09-12 14:09:12.036469 +0000 build-r42-debian1: .[38;5;246m16:09:12 .[96m[qb.fetch.securedrop-workstation-keyring] .[38;5;246m['cd -- /builder', "git -C /builder/securedrop-workstation-keyring rev-parse 'HEAD^{}' >> hash", "git -C /builder/securedrop-workstation-keyring tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2025-09-12 14:09:23.417177 +0000 build-r42-debian1: .[38;5;246m16:09:23 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[0mUsing executor qubes:disp6986..[0m
+2025-09-12 14:09:23.417283 +0000 build-r42-debian1: .[38;5;246m16:09:23 .[96m[qb.fetch.securedrop-workstation-keyring.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp6986 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/securedrop-workstation-keyring rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/securedrop-workstation-keyring tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2025-09-12 14:09:27.132564 +0000 build-r42-debian1: .[38;5;246m16:09:27 .[96m[qb] .[38;5;246m> done.[0m
+2025-09-12 14:09:27.132630 +0000 > closing log
