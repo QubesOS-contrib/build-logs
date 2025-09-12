@@ -1,0 +1,24 @@
+2025-09-12 14:06:55.325692 +0000 > starting log
+2025-09-12 14:06:55.326038 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2025-09-12 14:06:55.326069 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> args:.[0m
+2025-09-12 14:06:55.326085 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   ().[0m
+2025-09-12 14:06:55.326097 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> component:.[0m
+2025-09-12 14:06:55.326108 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2025-09-12 14:06:55.326131 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>     commit-hash: a2bc88fecf586a1f215fa2a09d121018025ce6f5.[0m
+2025-09-12 14:06:55.326167 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>     source-hash: 360333e6b1abb58662216e955ffab224fe2d620e733e2b660c99825fa3ec4b0cf48abc6dbb6c390bac64b40b6f3d7e5b560e2fc9a6028d283dc0e0f4d35ae514.[0m
+2025-09-12 14:06:55.326181 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2025-09-12 14:06:55.326197 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2025-09-12 14:06:55.326207 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb] .[0mRunning stages: fetch.[0m
+2025-09-12 14:06:55.326220 +0000 build-r42-debian1: .[38;5;246m16:06:54 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2025-09-12 14:07:09.890837 +0000 build-r42-debian1: .[38;5;246m16:07:09 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp3196..[0m
+2025-09-12 14:07:09.890917 +0000 build-r42-debian1: .[38;5;246m16:07:09 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp3196 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2025-09-12 14:07:12.044936 +0000 build-r42-debian1: .[38;5;246m16:07:12 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2025-09-12 14:07:12.045044 +0000 build-r42-debian1: .[38;5;246m16:07:12 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag ec126e5ad4a41cdb1cfa82776fff28568e406800..[0m
+2025-09-12 14:07:12.045095 +0000 build-r42-debian1: .[38;5;246m16:07:12 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2025-09-12 14:07:12.045116 +0000 build-r42-debian1: .[38;5;246m16:07:12 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2025-09-12 14:07:16.149154 +0000 build-r42-debian1: .[38;5;246m16:07:16 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20250912T140654-contrib-configs.log.[0m
+2025-09-12 14:07:16.158452 +0000 build-r42-debian1: .[38;5;246m16:07:16 .[96m[qb.fetch.contrib-configs] .[38;5;246m['cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2025-09-12 14:07:27.064558 +0000 build-r42-debian1: .[38;5;246m16:07:27 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp5303..[0m
+2025-09-12 14:07:27.064624 +0000 build-r42-debian1: .[38;5;246m16:07:27 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp5303 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2025-09-12 14:07:31.172177 +0000 build-r42-debian1: .[38;5;246m16:07:31 .[96m[qb] .[38;5;246m> done.[0m
+2025-09-12 14:07:31.172244 +0000 > closing log
