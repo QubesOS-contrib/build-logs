@@ -1,0 +1,25 @@
+2026-01-05 08:18:06.864875 +0000 > starting log
+2026-01-05 08:18:06.865579 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-01-05 08:18:06.865616 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-01-05 08:18:06.865633 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-01-05 08:18:06.865645 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-01-05 08:18:06.865655 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-01-05 08:18:06.865826 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>>     commit-hash: cac338859c6f620069452988fb473337bf6d759b.[0m
+2026-01-05 08:18:06.865854 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>>     source-hash: 3099f693930bf59602db108bc0a105ee8b6f0ec71caa6881a04e9c79fb7b67e5062d77e27c1068e5ab991cde550e65afbcf478c3ae21d31524fe8732c303a8ec.[0m
+2026-01-05 08:18:06.865867 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-01-05 08:18:06.865880 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-12.amd64>, <QubesDistribution vm-debian-13.amd64>].[0m
+2026-01-05 08:18:06.865890 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-01-05 08:18:06.865901 +0000 build-r43-debian1: .[38;5;246m09:18:05 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-01-05 08:18:26.456502 +0000 build-r43-debian1: .[38;5;246m09:18:26 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp8814..[0m
+2026-01-05 08:18:26.456577 +0000 build-r43-debian1: .[38;5;246m09:18:26 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp8814 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-01-05 08:18:30.004386 +0000 build-r43-debian1: .[38;5;246m09:18:30 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-01-05 08:18:30.004480 +0000 build-r43-debian1: .[38;5;246m09:18:30 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 6025ff7a7ebd05bc4918f193fd58b2d2882a6e93..[0m
+2026-01-05 08:18:30.004503 +0000 build-r43-debian1: .[38;5;246m09:18:30 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 41137155268b1dd95300e222021c5e3efd9df306..[0m
+2026-01-05 08:18:30.004809 +0000 build-r43-debian1: .[38;5;246m09:18:30 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-01-05 08:18:30.004830 +0000 build-r43-debian1: .[38;5;246m09:18:30 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-01-05 08:18:36.158335 +0000 build-r43-debian1: .[38;5;246m09:18:36 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.3/logs/20260105T081805-app-split-browser.log.[0m
+2026-01-05 08:18:36.164551 +0000 build-r43-debian1: .[38;5;246m09:18:36 .[96m[qb.fetch.app-split-browser] .[38;5;246m['cd -- /builder', "git -C /builder/app-split-browser rev-parse 'HEAD^{}' >> hash", "git -C /builder/app-split-browser tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2026-01-05 08:18:59.810607 +0000 build-r43-debian1: .[38;5;246m09:18:59 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp2690..[0m
+2026-01-05 08:18:59.810668 +0000 build-r43-debian1: .[38;5;246m09:18:59 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp2690 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/app-split-browser rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/app-split-browser tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2026-01-05 08:19:08.265097 +0000 build-r43-debian1: .[38;5;246m09:19:08 .[96m[qb] .[38;5;246m> done.[0m
+2026-01-05 08:19:08.265192 +0000 > closing log
