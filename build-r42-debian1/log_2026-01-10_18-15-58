@@ -1,0 +1,48 @@
+2026-01-10 18:15:58.002558 +0000 > starting log
+2026-01-10 18:15:58.002739 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-01-10 18:15:58.002757 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-01-10 18:15:58.002765 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-01-10 18:15:58.002771 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-01-10 18:15:58.002777 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-01-10 18:15:58.002784 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>>     commit-hash: b40cc149a972dabdd664ade9bd4ece916cee6302.[0m
+2026-01-10 18:15:58.002807 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>>     source-hash: 5f1ed1e3e6e2d2cc2930aa167d19178192b620b27fbd22b3a88c58b1e728a644a4d016c4abda38e308be532da480b07dccc53b83f788010b90d068052f3bd5cc.[0m
+2026-01-10 18:15:58.002823 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-01-10 18:15:58.002833 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2026-01-10 18:15:58.002839 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb] .[0mRunning stages: upload.[0m
+2026-01-10 18:15:58.002846 +0000 build-r42-debian1: .[38;5;246m19:15:57 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-01-10 18:16:10.068511 +0000 build-r42-debian1: .[38;5;246m19:16:10 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp3657..[0m
+2026-01-10 18:16:10.068581 +0000 build-r42-debian1: .[38;5;246m19:16:10 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp3657 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-01-10 18:16:12.273500 +0000 build-r42-debian1: .[38;5;246m19:16:12 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-01-10 18:16:12.273567 +0000 build-r42-debian1: .[38;5;246m19:16:12 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 6025ff7a7ebd05bc4918f193fd58b2d2882a6e93..[0m
+2026-01-10 18:16:12.273605 +0000 build-r42-debian1: .[38;5;246m19:16:12 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 41137155268b1dd95300e222021c5e3efd9df306..[0m
+2026-01-10 18:16:12.273699 +0000 build-r42-debian1: .[38;5;246m19:16:12 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-01-10 18:16:12.273789 +0000 build-r42-debian1: .[38;5;246m19:16:12 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-01-10 18:16:16.912542 +0000 build-r42-debian1: .[38;5;246m19:16:16 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.2/logs/20260110T181459-app-split-browser.log.[0m
+2026-01-10 18:16:16.933368 +0000 build-r42-debian1: .[38;5;246m19:16:16 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246mUsing executor local:/tmp/133620852511824431978b3/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/pool/']'..[0m
+2026-01-10 18:16:18.126450 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246msending incremental file list.[0m
+2026-01-10 18:16:18.214190 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.16.8-1+deb12u1_all.deb.[0m
+2026-01-10 18:16:18.214294 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           7,680 100%    0.00kB/s    0:00:00             7,680 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=72/91).[0m
+2026-01-10 18:16:18.214321 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb12u1.debian.tar.xz.[0m
+2026-01-10 18:16:18.214343 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           2,988 100%    2.85MB/s    0:00:00             2,988 100%    2.85MB/s    0:00:00 (xfr#2, to-chk=13/91).[0m
+2026-01-10 18:16:18.214361 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb12u1.dsc.[0m
+2026-01-10 18:16:18.214532 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           1,663 100%    1.59MB/s    0:00:00             1,663 100%    1.59MB/s    0:00:00 (xfr#3, to-chk=12/91).[0m
+2026-01-10 18:16:18.214929 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb12u1_all.deb.[0m
+2026-01-10 18:16:18.214972 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m          14,584 100%   13.91MB/s    0:00:00            14,584 100%   13.91MB/s    0:00:00 (xfr#4, to-chk=11/91).[0m
+2026-01-10 18:16:18.215310 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb12u1_amd64.buildinfo.[0m
+2026-01-10 18:16:18.215353 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           6,264 100%    5.97MB/s    0:00:00             6,264 100%    5.97MB/s    0:00:00 (xfr#5, to-chk=10/91).[0m
+2026-01-10 18:16:18.422035 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246mUsing executor local:/tmp/133620852511824431978b3/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bookworm-testing/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/dists/bookworm-testing/']'..[0m
+2026-01-10 18:16:18.649757 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246msending incremental file list.[0m
+2026-01-10 18:16:18.779307 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f..t...... InRelease.[0m
+2026-01-10 18:16:18.779388 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           4,395 100%    0.00kB/s    0:00:00             4,395 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=15/17).[0m
+2026-01-10 18:16:18.779471 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f..t...... Release.[0m
+2026-01-10 18:16:18.779501 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           3,858 100%    3.68MB/s    0:00:00             3,858 100%    3.68MB/s    0:00:00 (xfr#2, to-chk=14/17).[0m
+2026-01-10 18:16:18.779517 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f..t...... Release.gpg.[0m
+2026-01-10 18:16:18.779538 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m             488 100%  476.56kB/s    0:00:00               488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=13/17).[0m
+2026-01-10 18:16:18.779569 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f..t...... main/binary-amd64/Packages.[0m
+2026-01-10 18:16:18.779614 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m           1,804 100%    1.72MB/s    0:00:00             1,804 100%    1.72MB/s    0:00:00 (xfr#4, to-chk=8/17).[0m
+2026-01-10 18:16:18.779899 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f.st...... main/binary-amd64/Packages.gz.[0m
+2026-01-10 18:16:18.779953 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m             860 100%  839.84kB/s    0:00:00               860 100%  839.84kB/s    0:00:00 (xfr#5, to-chk=7/17).[0m
+2026-01-10 18:16:18.780065 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m<f.st...... main/source/Sources.gz.[0m
+2026-01-10 18:16:18.780205 +0000 build-r42-debian1: .[38;5;246m19:16:18 .[96m[qb.upload.vm-bookworm.upload] .[38;5;246m             666 100%  650.39kB/s    0:00:00               666 100%  650.39kB/s    0:00:00 (xfr#6, to-chk=0/17).[0m
+2026-01-10 18:16:18.948038 +0000 build-r42-debian1: .[38;5;246m19:16:19 .[96m[qb] .[38;5;246m> done.[0m
+2026-01-10 18:16:18.948115 +0000 > closing log
