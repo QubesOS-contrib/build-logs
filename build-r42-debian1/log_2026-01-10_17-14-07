@@ -1,0 +1,50 @@
+2026-01-10 17:14:07.438562 +0000 > starting log
+2026-01-10 17:14:07.438789 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-01-10 17:14:07.438818 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-01-10 17:14:07.438830 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-01-10 17:14:07.438838 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-01-10 17:14:07.438846 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-01-10 17:14:07.438855 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>>     commit-hash: b40cc149a972dabdd664ade9bd4ece916cee6302.[0m
+2026-01-10 17:14:07.438871 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>>     source-hash: 5f1ed1e3e6e2d2cc2930aa167d19178192b620b27fbd22b3a88c58b1e728a644a4d016c4abda38e308be532da480b07dccc53b83f788010b90d068052f3bd5cc.[0m
+2026-01-10 17:14:07.438879 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-01-10 17:14:07.438888 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>].[0m
+2026-01-10 17:14:07.438895 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb] .[0mRunning stages: upload.[0m
+2026-01-10 17:14:07.438904 +0000 build-r42-debian1: .[38;5;246m18:14:07 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-01-10 17:14:19.178629 +0000 build-r42-debian1: .[38;5;246m18:14:19 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp871..[0m
+2026-01-10 17:14:19.178700 +0000 build-r42-debian1: .[38;5;246m18:14:19 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp871 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-01-10 17:14:21.908831 +0000 build-r42-debian1: .[38;5;246m18:14:21 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-01-10 17:14:21.908897 +0000 build-r42-debian1: .[38;5;246m18:14:21 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 6025ff7a7ebd05bc4918f193fd58b2d2882a6e93..[0m
+2026-01-10 17:14:21.908920 +0000 build-r42-debian1: .[38;5;246m18:14:21 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 41137155268b1dd95300e222021c5e3efd9df306..[0m
+2026-01-10 17:14:21.908939 +0000 build-r42-debian1: .[38;5;246m18:14:21 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-01-10 17:14:21.908955 +0000 build-r42-debian1: .[38;5;246m18:14:21 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-01-10 17:14:26.911927 +0000 build-r42-debian1: .[38;5;246m18:14:26 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.2/logs/20260110T171227-app-split-browser.log.[0m
+2026-01-10 17:14:26.932442 +0000 build-r42-debian1: .[38;5;246m18:14:26 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246mUsing executor local:/tmp/12339433599884801f9009f/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/pool/']'..[0m
+2026-01-10 17:14:28.140608 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246msending incremental file list.[0m
+2026-01-10 17:14:28.228641 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.16.8-1+deb11u1_all.deb.[0m
+2026-01-10 17:14:28.228730 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           7,716 100%    0.00kB/s    0:00:00             7,716 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=68/86).[0m
+2026-01-10 17:14:28.228803 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb11u1.debian.tar.xz.[0m
+2026-01-10 17:14:28.228836 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           2,984 100%    2.85MB/s    0:00:00             2,984 100%    2.85MB/s    0:00:00 (xfr#2, to-chk=13/86).[0m
+2026-01-10 17:14:28.228873 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb11u1.dsc.[0m
+2026-01-10 17:14:28.228910 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           1,663 100%    1.59MB/s    0:00:00             1,663 100%    1.59MB/s    0:00:00 (xfr#3, to-chk=12/86).[0m
+2026-01-10 17:14:28.228946 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb11u1_all.deb.[0m
+2026-01-10 17:14:28.228968 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m          14,628 100%   13.95MB/s    0:00:00            14,628 100%   13.95MB/s    0:00:00 (xfr#4, to-chk=11/86).[0m
+2026-01-10 17:14:28.229204 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb11u1_amd64.buildinfo.[0m
+2026-01-10 17:14:28.229240 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           6,113 100%    5.83MB/s    0:00:00             6,113 100%    5.83MB/s    0:00:00 (xfr#5, to-chk=10/86).[0m
+2026-01-10 17:14:28.229469 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8.orig.tar.gz.[0m
+2026-01-10 17:14:28.229514 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m          19,609 100%   18.70MB/s    0:00:00            19,609 100%   18.70MB/s    0:00:00 (xfr#6, to-chk=9/86).[0m
+2026-01-10 17:14:28.474816 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246mUsing executor local:/tmp/12339433599884801f9009f/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/bullseye-testing/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/dists/bullseye-testing/']'..[0m
+2026-01-10 17:14:28.702827 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246msending incremental file list.[0m
+2026-01-10 17:14:28.832904 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f..t...... InRelease.[0m
+2026-01-10 17:14:28.833010 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           4,395 100%    0.00kB/s    0:00:00             4,395 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=15/17).[0m
+2026-01-10 17:14:28.833040 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f..t...... Release.[0m
+2026-01-10 17:14:28.833064 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           3,858 100%    3.68MB/s    0:00:00             3,858 100%    3.68MB/s    0:00:00 (xfr#2, to-chk=14/17).[0m
+2026-01-10 17:14:28.833080 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f..t...... Release.gpg.[0m
+2026-01-10 17:14:28.833167 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m             488 100%  476.56kB/s    0:00:00               488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=13/17).[0m
+2026-01-10 17:14:28.833230 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f..t...... main/binary-amd64/Packages.[0m
+2026-01-10 17:14:28.833267 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m           1,804 100%    1.72MB/s    0:00:00             1,804 100%    1.72MB/s    0:00:00 (xfr#4, to-chk=8/17).[0m
+2026-01-10 17:14:28.833351 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f..t...... main/binary-amd64/Packages.gz.[0m
+2026-01-10 17:14:28.833563 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m             860 100%  839.84kB/s    0:00:00               860 100%  839.84kB/s    0:00:00 (xfr#5, to-chk=7/17).[0m
+2026-01-10 17:14:28.833635 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m<f.st...... main/source/Sources.gz.[0m
+2026-01-10 17:14:28.833791 +0000 build-r42-debian1: .[38;5;246m18:14:28 .[96m[qb.upload.vm-bullseye.upload] .[38;5;246m             666 100%  650.39kB/s    0:00:00               666 100%  650.39kB/s    0:00:00 (xfr#6, to-chk=0/17).[0m
+2026-01-10 17:14:29.000615 +0000 build-r42-debian1: .[38;5;246m18:14:29 .[96m[qb] .[38;5;246m> done.[0m
+2026-01-10 17:14:29.000664 +0000 > closing log
