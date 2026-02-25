@@ -1,0 +1,88 @@
+2026-02-25 16:30:12.944067 +0000 > starting log
+2026-02-25 16:30:12.944885 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-02-25 16:30:12.944908 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-02-25 16:30:12.944981 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-02-25 16:30:12.944994 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-02-25 16:30:12.945003 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-02-25 16:30:12.945012 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>>     commit-hash: 8c837b79f433f58a174f407fc2f306a1f20ad639.[0m
+2026-02-25 16:30:12.945024 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>>     source-hash: a3abc59bbca8e6307b82ac221f21e8c32ef2c9f7480caabb6db06053e9bbe81c13dd16fb6fe5206aea8f0f242bd5708be1eb82532331574611cf5b851f6ec8aa.[0m
+2026-02-25 16:30:12.945142 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-02-25 16:30:12.945163 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>, <QubesDistribution vm-debian-13.amd64>].[0m
+2026-02-25 16:30:12.945172 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb] .[0mRunning stages: upload.[0m
+2026-02-25 16:30:12.945187 +0000 build-r42-debian1: .[38;5;246m17:30:12 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-02-25 16:30:24.045735 +0000 build-r42-debian1: .[38;5;246m17:30:23 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp1843..[0m
+2026-02-25 16:30:24.045820 +0000 build-r42-debian1: .[38;5;246m17:30:23 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp1843 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-02-25 16:30:26.200747 +0000 build-r42-debian1: .[38;5;246m17:30:26 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-02-25 16:30:26.200802 +0000 build-r42-debian1: .[38;5;246m17:30:26 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 3305751646c97dc6ee452273ef63ba6bf106a772..[0m
+2026-02-25 16:30:26.200817 +0000 build-r42-debian1: .[38;5;246m17:30:26 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-02-25 16:30:26.200828 +0000 build-r42-debian1: .[38;5;246m17:30:26 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-02-25 16:30:28.998800 +0000 build-r42-debian1: .[38;5;246m17:30:28 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.2/logs/20260225T162041-app-split-browser.log.[0m
+2026-02-25 16:30:29.018391 +0000 build-r42-debian1: .[38;5;246m17:30:28 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mUsing executor local:/tmp/1376298083590724e642933/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/pool/']'..[0m
+2026-02-25 16:30:30.180313 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246msending incremental file list.[0m
+2026-02-25 16:30:30.269461 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.16.8-1+deb13u1_all.deb.[0m
+2026-02-25 16:30:30.269577 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           7,664 100%    0.00kB/s    0:00:00             7,664 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=88/108).[0m
+2026-02-25 16:30:30.269617 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.17.2-1+deb11u1_all.deb.[0m
+2026-02-25 16:30:30.269889 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           8,356 100%    7.97MB/s    0:00:00             8,356 100%    7.97MB/s    0:00:00 (xfr#2, to-chk=87/108).[0m
+2026-02-25 16:30:30.269972 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.17.4-1+deb13u1_all.deb.[0m
+2026-02-25 16:30:30.269998 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           8,332 100%    7.95MB/s    0:00:00             8,332 100%    7.95MB/s    0:00:00 (xfr#3, to-chk=86/108).[0m
+2026-02-25 16:30:30.270129 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb13u1.debian.tar.xz.[0m
+2026-02-25 16:30:30.270154 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           2,984 100%    2.85MB/s    0:00:00             2,984 100%    2.85MB/s    0:00:00 (xfr#4, to-chk=23/108).[0m
+2026-02-25 16:30:30.270276 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb13u1.dsc.[0m
+2026-02-25 16:30:30.270426 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,663 100%    1.59MB/s    0:00:00             1,663 100%    1.59MB/s    0:00:00 (xfr#5, to-chk=22/108).[0m
+2026-02-25 16:30:30.270477 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb13u1_all.deb.[0m
+2026-02-25 16:30:30.270759 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          14,576 100%   13.90MB/s    0:00:00            14,576 100%   13.90MB/s    0:00:00 (xfr#6, to-chk=21/108).[0m
+2026-02-25 16:30:30.270856 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.16.8-1+deb13u1_amd64.buildinfo.[0m
+2026-02-25 16:30:30.270946 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           5,819 100%    5.55MB/s    0:00:00             5,819 100%    5.55MB/s    0:00:00 (xfr#7, to-chk=20/108).[0m
+2026-02-25 16:30:30.270972 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.2-1+deb11u1.debian.tar.xz.[0m
+2026-02-25 16:30:30.271208 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           3,208 100%    3.06MB/s    0:00:00             3,208 100%    3.06MB/s    0:00:00 (xfr#8, to-chk=18/108).[0m
+2026-02-25 16:30:30.271280 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.2-1+deb11u1.dsc.[0m
+2026-02-25 16:30:30.271437 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,663 100%    1.59MB/s    0:00:00             1,663 100%    1.59MB/s    0:00:00 (xfr#9, to-chk=17/108).[0m
+2026-02-25 16:30:30.271540 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.2-1+deb11u1_all.deb.[0m
+2026-02-25 16:30:30.271728 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          15,180 100%    7.24MB/s    0:00:00            15,180 100%    7.24MB/s    0:00:00 (xfr#10, to-chk=16/108).[0m
+2026-02-25 16:30:30.271976 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.2-1+deb11u1_amd64.buildinfo.[0m
+2026-02-25 16:30:30.272332 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           6,113 100%    2.91MB/s    0:00:00             6,113 100%    2.91MB/s    0:00:00 (xfr#11, to-chk=15/108).[0m
+2026-02-25 16:30:30.272360 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.2.orig.tar.gz.[0m
+2026-02-25 16:30:30.272374 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          20,070 100%    9.57MB/s    0:00:00            20,070 100%    9.57MB/s    0:00:00 (xfr#12, to-chk=14/108).[0m
+2026-02-25 16:30:30.272385 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.4-1+deb13u1.debian.tar.xz.[0m
+2026-02-25 16:30:30.272402 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           3,300 100%    1.57MB/s    0:00:00             3,300 100%    1.57MB/s    0:00:00 (xfr#13, to-chk=13/108).[0m
+2026-02-25 16:30:30.272481 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.4-1+deb13u1.dsc.[0m
+2026-02-25 16:30:30.272503 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,663 100%  812.01kB/s    0:00:00             1,663 100%  812.01kB/s    0:00:00 (xfr#14, to-chk=12/108).[0m
+2026-02-25 16:30:30.272603 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.4-1+deb13u1_all.deb.[0m
+2026-02-25 16:30:30.272625 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          15,272 100%    7.28MB/s    0:00:00            15,272 100%    7.28MB/s    0:00:00 (xfr#15, to-chk=11/108).[0m
+2026-02-25 16:30:30.272641 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.4-1+deb13u1_amd64.buildinfo.[0m
+2026-02-25 16:30:30.272657 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           5,819 100%    2.77MB/s    0:00:00             5,819 100%    2.77MB/s    0:00:00 (xfr#16, to-chk=10/108).[0m
+2026-02-25 16:30:30.272745 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.4.orig.tar.gz.[0m
+2026-02-25 16:30:30.272867 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          20,083 100%    9.58MB/s    0:00:00            20,083 100%    9.58MB/s    0:00:00 (xfr#17, to-chk=9/108).[0m
+2026-02-25 16:30:30.593351 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mUsing executor local:/tmp/1376298083590724e642933/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.2/repository-publish/deb/r4.2/vm/dists/trixie-testing/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.2/vm/dists/trixie-testing/']'..[0m
+2026-02-25 16:30:30.819537 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246msending incremental file list.[0m
+2026-02-25 16:30:30.865679 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcreated 1 directory for /pub/qubes/repo/contrib/deb/r4.2/vm/dists/trixie-testing.[0m
+2026-02-25 16:30:30.905906 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m.d...p..... ./.[0m
+2026-02-25 16:30:30.907018 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ InRelease.[0m
+2026-02-25 16:30:30.907063 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           4,391 100%    0.00kB/s    0:00:00             4,391 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=15/17).[0m
+2026-02-25 16:30:30.907084 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ Release.[0m
+2026-02-25 16:30:30.907105 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           3,854 100%    3.68MB/s    0:00:00             3,854 100%    3.68MB/s    0:00:00 (xfr#2, to-chk=14/17).[0m
+2026-02-25 16:30:30.907120 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ Release.gpg.[0m
+2026-02-25 16:30:30.907139 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             488 100%  476.56kB/s    0:00:00               488 100%  476.56kB/s    0:00:00 (xfr#3, to-chk=13/17).[0m
+2026-02-25 16:30:30.907152 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcd+++++++++ main/.[0m
+2026-02-25 16:30:30.907166 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcd+++++++++ main/binary-amd64/.[0m
+2026-02-25 16:30:30.907182 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/binary-amd64/Packages.[0m
+2026-02-25 16:30:30.907265 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,804 100%    1.72MB/s    0:00:00             1,804 100%    1.72MB/s    0:00:00 (xfr#4, to-chk=8/17).[0m
+2026-02-25 16:30:30.907300 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/binary-amd64/Packages.gz.[0m
+2026-02-25 16:30:30.907335 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             861 100%  840.82kB/s    0:00:00               861 100%  840.82kB/s    0:00:00 (xfr#5, to-chk=7/17).[0m
+2026-02-25 16:30:30.907352 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/binary-amd64/Release.[0m
+2026-02-25 16:30:30.907570 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             185 100%  180.66kB/s    0:00:00               185 100%  180.66kB/s    0:00:00 (xfr#6, to-chk=6/17).[0m
+2026-02-25 16:30:30.907610 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcd+++++++++ main/debug/.[0m
+2026-02-25 16:30:30.907764 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcd+++++++++ main/debug/binary-amd64/.[0m
+2026-02-25 16:30:30.907911 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/debug/binary-amd64/Packages.[0m
+2026-02-25 16:30:30.908054 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m               0 100%    0.00kB/s    0:00:00 (xfr#7, to-chk=4/17).[0m
+2026-02-25 16:30:30.908237 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/debug/binary-amd64/Packages.gz.[0m
+2026-02-25 16:30:30.908308 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m              20 100%   19.53kB/s    0:00:00                20 100%   19.53kB/s    0:00:00 (xfr#8, to-chk=3/17).[0m
+2026-02-25 16:30:30.908349 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/debug/binary-amd64/Release.[0m
+2026-02-25 16:30:30.908482 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             185 100%  180.66kB/s    0:00:00               185 100%  180.66kB/s    0:00:00 (xfr#9, to-chk=2/17).[0m
+2026-02-25 16:30:30.908514 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mcd+++++++++ main/source/.[0m
+2026-02-25 16:30:30.908662 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/source/Release.[0m
+2026-02-25 16:30:30.908709 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             186 100%   90.82kB/s    0:00:00               186 100%   90.82kB/s    0:00:00 (xfr#10, to-chk=1/17).[0m
+2026-02-25 16:30:30.908728 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/source/Sources.gz.[0m
+2026-02-25 16:30:30.909060 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             665 100%  324.71kB/s    0:00:00               665 100%  324.71kB/s    0:00:00 (xfr#11, to-chk=0/17).[0m
+2026-02-25 16:30:31.112467 +0000 build-r42-debian1: .[38;5;246m17:30:30 .[96m[qb] .[38;5;246m> done.[0m
+2026-02-25 16:30:31.112519 +0000 > closing log
