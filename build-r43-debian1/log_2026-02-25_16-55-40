@@ -1,0 +1,47 @@
+2026-02-25 16:55:40.951760 +0000 > starting log
+2026-02-25 16:55:40.952013 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-02-25 16:55:40.952028 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-02-25 16:55:40.952036 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-02-25 16:55:40.952043 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-02-25 16:55:40.952049 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-02-25 16:55:40.952056 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>>     commit-hash: 3bf9c085c87d00513ada798bb54d894cf2250393.[0m
+2026-02-25 16:55:40.952066 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>>     source-hash: 1cc570f822637f58ac5b5470f07265a7e17101f14862c6752ce0e17318157b1a1b5132387f72ecb6e1b5120c31a6e57477dd5f4adfad6a96a679ad03153e4762.[0m
+2026-02-25 16:55:40.952072 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-02-25 16:55:40.952084 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-12.amd64>, <QubesDistribution vm-debian-13.amd64>].[0m
+2026-02-25 16:55:40.952089 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb] .[0mRunning stages: upload.[0m
+2026-02-25 16:55:40.952097 +0000 build-r43-debian1: .[38;5;246m17:55:40 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-02-25 16:55:51.398178 +0000 build-r43-debian1: .[38;5;246m17:55:51 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp5695..[0m
+2026-02-25 16:55:51.398280 +0000 build-r43-debian1: .[38;5;246m17:55:51 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp5695 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-02-25 16:55:53.430884 +0000 build-r43-debian1: .[38;5;246m17:55:53 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-02-25 16:55:53.430953 +0000 build-r43-debian1: .[38;5;246m17:55:53 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag c7558e5fd94015fb3a5a7554d4db932a934888a2..[0m
+2026-02-25 16:55:53.430991 +0000 build-r43-debian1: .[38;5;246m17:55:53 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-02-25 16:55:53.431064 +0000 build-r43-debian1: .[38;5;246m17:55:53 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-02-25 16:55:58.872668 +0000 build-r43-debian1: .[38;5;246m17:55:58 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.3/logs/20260225T164742-app-split-browser.log.[0m
+2026-02-25 16:55:58.885798 +0000 build-r43-debian1: .[38;5;246m17:55:58 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mUsing executor local:/tmp/124501580325584132b636f/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.3/repository-publish/deb/r4.3/vm/pool/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.3/vm/pool/']'..[0m
+2026-02-25 16:55:59.784573 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246msending incremental file list.[0m
+2026-02-25 16:55:59.873010 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser-disp_0.17.5-1+deb13u1_all.deb.[0m
+2026-02-25 16:55:59.873072 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           8,340 100%    0.00kB/s    0:00:00             8,340 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=41/54).[0m
+2026-02-25 16:55:59.873141 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.5-1+deb13u1.debian.tar.xz.[0m
+2026-02-25 16:55:59.873179 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           3,328 100%    3.17MB/s    0:00:00             3,328 100%    3.17MB/s    0:00:00 (xfr#2, to-chk=4/54).[0m
+2026-02-25 16:55:59.873245 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.5-1+deb13u1.dsc.[0m
+2026-02-25 16:55:59.873275 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,403 100%    1.34MB/s    0:00:00             1,403 100%    1.34MB/s    0:00:00 (xfr#3, to-chk=3/54).[0m
+2026-02-25 16:55:59.873292 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.5-1+deb13u1_all.deb.[0m
+2026-02-25 16:55:59.873342 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m          15,284 100%   14.58MB/s    0:00:00            15,284 100%   14.58MB/s    0:00:00 (xfr#4, to-chk=2/54).[0m
+2026-02-25 16:55:59.873365 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f+++++++++ main/q/qubes-split-browser/qubes-split-browser_0.17.5-1+deb13u1_amd64.buildinfo.[0m
+2026-02-25 16:55:59.873413 +0000 build-r43-debian1: .[38;5;246m17:55:59 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           5,559 100%    5.30MB/s    0:00:00             5,559 100%    5.30MB/s    0:00:00 (xfr#5, to-chk=1/54).[0m
+2026-02-25 16:56:00.076829 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246mUsing executor local:/tmp/124501580325584132b636f/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.3/repository-publish/deb/r4.3/vm/dists/trixie-testing/ contrib.qubes-os.org:/pub/qubes/repo/contrib/deb/r4.3/vm/dists/trixie-testing/']'..[0m
+2026-02-25 16:56:00.299314 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246msending incremental file list.[0m
+2026-02-25 16:56:00.430095 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f..t...... InRelease.[0m
+2026-02-25 16:56:00.430207 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           4,131 100%    0.00kB/s    0:00:00             4,131 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=15/17).[0m
+2026-02-25 16:56:00.430293 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f..t...... Release.[0m
+2026-02-25 16:56:00.430644 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           3,854 100%    3.68MB/s    0:00:00             3,854 100%    3.68MB/s    0:00:00 (xfr#2, to-chk=14/17).[0m
+2026-02-25 16:56:00.430682 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f..t...... Release.gpg.[0m
+2026-02-25 16:56:00.430752 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             228 100%  222.66kB/s    0:00:00               228 100%  222.66kB/s    0:00:00 (xfr#3, to-chk=13/17).[0m
+2026-02-25 16:56:00.430786 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f..t...... main/binary-amd64/Packages.[0m
+2026-02-25 16:56:00.430809 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m           1,804 100%    1.72MB/s    0:00:00             1,804 100%    1.72MB/s    0:00:00 (xfr#4, to-chk=8/17).[0m
+2026-02-25 16:56:00.430869 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f.st...... main/binary-amd64/Packages.gz.[0m
+2026-02-25 16:56:00.430928 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             862 100%  841.80kB/s    0:00:00               862 100%  841.80kB/s    0:00:00 (xfr#5, to-chk=7/17).[0m
+2026-02-25 16:56:00.430955 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m<f.st...... main/source/Sources.gz.[0m
+2026-02-25 16:56:00.430976 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb.upload.vm-trixie.upload] .[38;5;246m             667 100%  651.37kB/s    0:00:00               667 100%  651.37kB/s    0:00:00 (xfr#6, to-chk=0/17).[0m
+2026-02-25 16:56:00.636357 +0000 build-r43-debian1: .[38;5;246m17:56:00 .[96m[qb] .[38;5;246m> done.[0m
+2026-02-25 16:56:00.636417 +0000 > closing log
