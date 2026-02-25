@@ -1,0 +1,24 @@
+2026-02-25 16:20:42.915491 +0000 > starting log
+2026-02-25 16:20:42.915798 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-02-25 16:20:42.915826 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-02-25 16:20:42.915839 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-02-25 16:20:42.915848 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-02-25 16:20:42.915856 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-02-25 16:20:42.915865 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>>     commit-hash: 6b43b2ac935bf2d72ce568262a257306089c6770.[0m
+2026-02-25 16:20:42.915878 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>>     source-hash: 4f4e8c3e3f1440f63dc86ae6eccac5b77b46cd01f4faa282635118e35cc9809649960174dd73161ae08d0807a2673480224367623bfc6d1c0952d56795f971db.[0m
+2026-02-25 16:20:42.915885 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-02-25 16:20:42.915893 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-41.x86_64>].[0m
+2026-02-25 16:20:42.915900 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-02-25 16:20:42.915914 +0000 build-r43-fedora1: .[38;5;246m17:20:41 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-02-25 16:21:01.618619 +0000 build-r43-fedora1: .[38;5;246m17:21:01 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp9217..[0m
+2026-02-25 16:21:01.618686 +0000 build-r43-fedora1: .[38;5;246m17:21:01 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp9217 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-02-25 16:21:04.948782 +0000 build-r43-fedora1: .[38;5;246m17:21:04 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-02-25 16:21:04.948836 +0000 build-r43-fedora1: .[38;5;246m17:21:04 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 3305751646c97dc6ee452273ef63ba6bf106a772..[0m
+2026-02-25 16:21:04.948848 +0000 build-r43-fedora1: .[38;5;246m17:21:04 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-02-25 16:21:04.948857 +0000 build-r43-fedora1: .[38;5;246m17:21:04 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-02-25 16:21:10.625939 +0000 build-r43-fedora1: .[38;5;246m17:21:10 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.3/logs/20260225T162041-app-split-browser.log.[0m
+2026-02-25 16:21:10.631752 +0000 build-r43-fedora1: .[38;5;246m17:21:10 .[96m[qb.fetch.app-split-browser] .[38;5;246m['cd -- /builder', "git -C /builder/app-split-browser rev-parse 'HEAD^{}' >> hash", "git -C /builder/app-split-browser tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2026-02-25 16:21:28.149492 +0000 build-r43-fedora1: .[38;5;246m17:21:28 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp690..[0m
+2026-02-25 16:21:28.149566 +0000 build-r43-fedora1: .[38;5;246m17:21:28 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp690 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/app-split-browser rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/app-split-browser tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2026-02-25 16:21:39.245568 +0000 build-r43-fedora1: .[38;5;246m17:21:39 .[96m[qb] .[38;5;246m> done.[0m
+2026-02-25 16:21:39.245635 +0000 > closing log
