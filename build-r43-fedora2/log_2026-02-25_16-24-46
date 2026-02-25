@@ -1,0 +1,43 @@
+2026-02-25 16:24:46.339524 +0000 > starting log
+2026-02-25 16:24:46.339742 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-02-25 16:24:46.339761 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-02-25 16:24:46.339771 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-02-25 16:24:46.339778 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-02-25 16:24:46.339784 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-02-25 16:24:46.339791 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>>     commit-hash: 8c837b79f433f58a174f407fc2f306a1f20ad639.[0m
+2026-02-25 16:24:46.339802 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>>     source-hash: a3abc59bbca8e6307b82ac221f21e8c32ef2c9f7480caabb6db06053e9bbe81c13dd16fb6fe5206aea8f0f242bd5708be1eb82532331574611cf5b851f6ec8aa.[0m
+2026-02-25 16:24:46.339808 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-02-25 16:24:46.339816 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-42.x86_64>, <QubesDistribution vm-fedora-43.x86_64>].[0m
+2026-02-25 16:24:46.339821 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb] .[0mRunning stages: upload.[0m
+2026-02-25 16:24:46.339833 +0000 build-r43-fedora2: .[38;5;246m17:24:46 .[96m[qb.fetch.app-split-browser] .[0mapp-split-browser: source already fetched. Updating..[0m
+2026-02-25 16:24:58.440683 +0000 build-r43-fedora2: .[38;5;246m17:24:58 .[96m[qb.fetch.app-split-browser.fetch] .[0mUsing executor qubes:disp2401..[0m
+2026-02-25 16:24:58.440763 +0000 build-r43-fedora2: .[38;5;246m17:24:58 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp2401 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-app-split-browser.git /builder/app-split-browser /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6 --fetch-versions-only'.[0m
+2026-02-25 16:25:00.239792 +0000 build-r43-fedora2: .[38;5;246m17:25:00 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-02-25 16:25:00.239861 +0000 build-r43-fedora2: .[38;5;246m17:25:00 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m---> Good tag 3305751646c97dc6ee452273ef63ba6bf106a772..[0m
+2026-02-25 16:25:00.239885 +0000 build-r43-fedora2: .[38;5;246m17:25:00 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-02-25 16:25:00.239901 +0000 build-r43-fedora2: .[38;5;246m17:25:00 .[96m[qb.fetch.app-split-browser.fetch] .[38;5;246m--> Merging....[0m
+2026-02-25 16:25:03.242970 +0000 build-r43-fedora2: .[38;5;246m17:25:03 .[96m[qb.fetch.app-split-browser] .[0mLog file: /home/user/builder-r4.3/logs/20260225T162042-app-split-browser.log.[0m
+2026-02-25 16:25:03.253113 +0000 build-r43-fedora2: .[38;5;246m17:25:03 .[96m[qb.upload.vm-fc42.upload] .[38;5;246mUsing executor local:/tmp/1233144205722081051d204/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.3/repository-publish/rpm/r4.3/current-testing/vm/fc42/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.3/current-testing/vm/fc42/']'..[0m
+2026-02-25 16:25:04.231416 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246msending incremental file list.[0m
+2026-02-25 16:25:04.360804 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ repodata/619eecd050cedd856855a5362733ec22dbd811b6e924689d1fa8507d34344d2c-filelists.xml.zst.[0m
+2026-02-25 16:25:04.360873 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           1,202 100%    0.00kB/s    0:00:00             1,202 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=21/25).[0m
+2026-02-25 16:25:04.360912 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ repodata/b386bfc408b815f9bce6f674f7f9a600bc8eb8d84a605b30478d410eb3eb3bf5-other.xml.zst.[0m
+2026-02-25 16:25:04.360926 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           1,940 100%    1.85MB/s    0:00:00             1,940 100%    1.85MB/s    0:00:00 (xfr#2, to-chk=20/25).[0m
+2026-02-25 16:25:04.360938 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ repodata/bb8d672fdf53b560ec5074aa97f3c74e327def0f5af2df003c024466e4b64587-primary.xml.zst.[0m
+2026-02-25 16:25:04.360949 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           2,172 100%    2.07MB/s    0:00:00             2,172 100%    2.07MB/s    0:00:00 (xfr#3, to-chk=19/25).[0m
+2026-02-25 16:25:04.360959 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f.st...... repodata/repomd.xml.[0m
+2026-02-25 16:25:04.360970 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           1,557 100%    1.48MB/s    0:00:00             1,557 100%    1.48MB/s    0:00:00 (xfr#4, to-chk=18/25).[0m
+2026-02-25 16:25:04.360980 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f..t...... repodata/repomd.xml.asc.[0m
+2026-02-25 16:25:04.360992 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m             228 100%  222.66kB/s    0:00:00               228 100%  222.66kB/s    0:00:00 (xfr#5, to-chk=17/25).[0m
+2026-02-25 16:25:04.361001 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f..t...... repodata/repomd.xml.metalink.[0m
+2026-02-25 16:25:04.361012 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           2,100  74%    2.00MB/s    0:00:00             2,809 100%    2.68MB/s    0:00:00 (xfr#6, to-chk=16/25).[0m
+2026-02-25 16:25:04.361021 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-browser-0.17.4-1.fc42.noarch.rpm.[0m
+2026-02-25 16:25:04.361041 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m          25,542 100%   24.36MB/s    0:00:00            25,542 100%   24.36MB/s    0:00:00 (xfr#7, to-chk=6/25).[0m
+2026-02-25 16:25:04.361051 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-browser-0.17.4-1.fc42.src.rpm.[0m
+2026-02-25 16:25:04.361082 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m          32,768  80%   31.25MB/s    0:00:00            40,737 100%   38.85MB/s    0:00:00 (xfr#8, to-chk=5/25).[0m
+2026-02-25 16:25:04.361197 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-browser-0.17.4-1.fc42.x86_64.buildinfo.[0m
+2026-02-25 16:25:04.361239 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m           6,303 100%    6.01MB/s    0:00:00             6,303 100%    6.01MB/s    0:00:00 (xfr#9, to-chk=4/25).[0m
+2026-02-25 16:25:04.361260 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m<f+++++++++ rpm/qubes-split-browser-disp-0.17.4-1.fc42.noarch.rpm.[0m
+2026-02-25 16:25:04.361280 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb.upload.vm-fc42.upload] .[38;5;246m          17,190 100%   16.39MB/s    0:00:00            17,190 100%   16.39MB/s    0:00:00 (xfr#10, to-chk=0/25).[0m
+2026-02-25 16:25:04.700564 +0000 build-r43-fedora2: .[38;5;246m17:25:04 .[96m[qb] .[38;5;246m> done.[0m
+2026-02-25 16:25:04.700634 +0000 > closing log
