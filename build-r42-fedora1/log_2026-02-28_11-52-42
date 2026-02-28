@@ -1,0 +1,25 @@
+2026-02-28 11:52:42.247625 +0000 > starting log
+2026-02-28 11:52:42.247843 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-02-28 11:52:42.247862 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-02-28 11:52:42.247871 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-02-28 11:52:42.247878 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-02-28 11:52:42.247884 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>>   contrib-configs.[0m
+2026-02-28 11:52:42.247891 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>>     commit-hash: 88c9aa99ac5030fbeb152330b2630f9d0edfbe55.[0m
+2026-02-28 11:52:42.247901 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>>     source-hash: ccfe844c374a6d19ecdc450d88f5a27fadf65a193f3dc06049a9b4f32fbde4b453683445a00bc99f8eafd78529d62281903bdf9f340da8dad205996416ce2dd7.[0m
+2026-02-28 11:52:42.247907 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-02-28 11:52:42.247918 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-37.x86_64>].[0m
+2026-02-28 11:52:42.247924 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-02-28 11:52:42.247931 +0000 build-r42-fedora1: .[38;5;246m12:52:41 .[96m[qb.fetch.contrib-configs] .[0mcontrib-configs: source already fetched. Updating..[0m
+2026-02-28 11:53:10.046920 +0000 build-r42-fedora1: .[38;5;246m12:53:10 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp4236..[0m
+2026-02-28 11:53:10.046995 +0000 build-r42-fedora1: .[38;5;246m12:53:10 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp4236 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS-contrib/qubes-contrib-configs.git /builder/contrib-configs /builder/keyring /builder/plugins/fetch/keys --git-branch master --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-02-28 11:53:11.582699 +0000 build-r42-fedora1: .[38;5;246m12:53:11 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-02-28 11:53:11.582757 +0000 build-r42-fedora1: .[38;5;246m12:53:11 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m---> Good tag 06d9a41525df54d90fcea8991c0685a274528063..[0m
+2026-02-28 11:53:11.582770 +0000 build-r42-fedora1: .[38;5;246m12:53:11 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246mEnough distinct tag signatures. Found 1, mandatory minimum is 1..[0m
+2026-02-28 11:53:11.582779 +0000 build-r42-fedora1: .[38;5;246m12:53:11 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Switching branch from main branch to master.[0m
+2026-02-28 11:53:11.582788 +0000 build-r42-fedora1: .[38;5;246m12:53:11 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m--> Merging....[0m
+2026-02-28 11:53:19.231502 +0000 build-r42-fedora1: .[38;5;246m12:53:19 .[96m[qb.fetch.contrib-configs] .[0mLog file: /home/user/builder-r4.2/logs/20260228T115241-contrib-configs.log.[0m
+2026-02-28 11:53:19.235014 +0000 build-r42-fedora1: .[38;5;246m12:53:19 .[96m[qb.fetch.contrib-configs] .[38;5;246m['cd -- /builder', "git -C /builder/contrib-configs rev-parse 'HEAD^{}' >> hash", "git -C /builder/contrib-configs tag --points-at HEAD --list 'v*' >> vtags"].[0m
+2026-02-28 11:53:43.303895 +0000 build-r42-fedora1: .[38;5;246m12:53:43 .[96m[qb.fetch.contrib-configs.fetch] .[0mUsing executor qubes:disp9979..[0m
+2026-02-28 11:53:43.303957 +0000 build-r42-fedora1: .[38;5;246m12:53:43 .[96m[qb.fetch.contrib-configs.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp9979 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd -- /builder && git -C /builder/contrib-configs rev-parse '"'"'HEAD^{}'"'"' >> hash && git -C /builder/contrib-configs tag --points-at HEAD --list '"'"'v*'"'"' >> vtags'.[0m
+2026-02-28 11:53:50.811010 +0000 build-r42-fedora1: .[38;5;246m12:53:50 .[96m[qb] .[38;5;246m> done.[0m
+2026-02-28 11:53:50.811080 +0000 > closing log
