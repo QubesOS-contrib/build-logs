@@ -1,0 +1,19 @@
+2026-04-29 00:37:55.828966 +0000 > starting log
+2026-04-29 00:37:55.829815 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-04-29 00:37:55.829837 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-04-29 00:37:55.829847 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-04-29 00:37:55.829978 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-04-29 00:37:55.829988 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>>   builder-rpm.[0m
+2026-04-29 00:37:55.829997 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>>     commit-hash: fa42621395a89eceacdcc701c3a672df33791b63.[0m
+2026-04-29 00:37:55.830007 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>>     source-hash: 7e9c38256ef3ad483b757e1b0f094b3b1cea447c15df54bcc750e4d9603966eb7f6186dd3298d8225e709eef3af13fb4c85c5df257d8b890f876c1c378afc631.[0m
+2026-04-29 00:37:55.830014 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-04-29 00:37:55.830025 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-37.x86_64>].[0m
+2026-04-29 00:37:55.830031 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-04-29 00:37:55.830039 +0000 build-r42-fedora1: .[38;5;246m02:37:50 .[96m[qb.fetch.builder-rpm] .[0mbuilder-rpm: source already fetched. Updating..[0m
+2026-04-29 00:38:14.049269 +0000 build-r42-fedora1: .[38;5;246m02:38:13 .[96m[qb.fetch.builder-rpm.fetch] .[0mUsing executor qubes:disp9345..[0m
+2026-04-29 00:38:14.049342 +0000 build-r42-fedora1: .[38;5;246m02:38:13 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp9345 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-04-29 00:38:16.694848 +0000 build-r42-fedora1: .[38;5;246m02:38:16 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-04-29 00:38:16.694915 +0000 build-r42-fedora1: .[38;5;246m02:38:16 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '2463ddd0faca5de849c50221ee2c75ee1c7c2865']); stderr: b'[GNUPG:] NEWSIG\n[GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1777423060 9 0064428F455451B3EBE78A7F063938BA42CFA724\n[GNUPG:] NO_PUBKEY 063938BA42CFA724\n'.[0m
+2026-04-29 00:38:16.694959 +0000 build-r42-fedora1: .[38;5;246m02:38:16 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m---> Invalid tag 2463ddd0faca5de849c50221ee2c75ee1c7c2865..[0m
+2026-04-29 00:38:16.695207 +0000 build-r42-fedora1: .[38;5;246m02:38:16 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mNot enough distinct tag signatures. Found 0, mandatory minimum is 1..[0m
+2026-04-29 00:38:23.415257 +0000 > closing log
