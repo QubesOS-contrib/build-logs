@@ -1,0 +1,16 @@
+2026-04-29 00:38:53.483044 +0000 > starting log
+2026-04-29 00:38:53.483802 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-04-29 00:38:53.483831 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-04-29 00:38:53.483847 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-04-29 00:38:53.483857 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-04-29 00:38:53.483865 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>>   builder-rpm.[0m
+2026-04-29 00:38:53.483871 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-04-29 00:38:53.483880 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-42.x86_64>, <QubesDistribution vm-fedora-43.x86_64>, <QubesDistribution vm-fedora-44.x86_64>].[0m
+2026-04-29 00:38:53.483887 +0000 build-r43-fedora2: .[38;5;246m02:38:53 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-04-29 00:39:10.416319 +0000 build-r43-fedora2: .[38;5;246m02:39:10 .[96m[qb.fetch.builder-rpm.fetch] .[0mUsing executor qubes:disp1429..[0m
+2026-04-29 00:39:10.416411 +0000 build-r43-fedora2: .[38;5;246m02:39:10 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp1429 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-04-29 00:39:25.914230 +0000 build-r43-fedora2: .[38;5;246m02:39:25 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-04-29 00:39:25.914300 +0000 build-r43-fedora2: .[38;5;246m02:39:25 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '2463ddd0faca5de849c50221ee2c75ee1c7c2865']); stderr: b'[GNUPG:] NEWSIG\n[GNUPG:] ERRSIG 063938BA42CFA724 1 8 00 1777423060 9 0064428F455451B3EBE78A7F063938BA42CFA724\n[GNUPG:] NO_PUBKEY 063938BA42CFA724\n'.[0m
+2026-04-29 00:39:25.914329 +0000 build-r43-fedora2: .[38;5;246m02:39:25 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m---> Invalid tag 2463ddd0faca5de849c50221ee2c75ee1c7c2865..[0m
+2026-04-29 00:39:25.914423 +0000 build-r43-fedora2: .[38;5;246m02:39:25 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mNot enough distinct tag signatures. Found 0, mandatory minimum is 1..[0m
+2026-04-29 00:39:29.704987 +0000 > closing log
