@@ -1,0 +1,15 @@
+2026-06-10 13:41:59.743896 +0000 > starting log
+2026-06-10 13:41:59.744185 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-06-10 13:41:59.744206 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-06-10 13:41:59.744735 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-06-10 13:41:59.744753 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-06-10 13:41:59.744763 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>>   builder-debian.[0m
+2026-06-10 13:41:59.744770 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-06-10 13:41:59.744779 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>, <QubesDistribution vm-debian-13.amd64>].[0m
+2026-06-10 13:41:59.744785 +0000 build-r42-debian1: .[38;5;246m15:41:58 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-06-10 13:42:15.793660 +0000 build-r42-debian1: .[38;5;246m15:42:15 .[96m[qb.fetch.builder-debian.fetch] .[0mUsing executor qubes:disp8869..[0m
+2026-06-10 13:42:15.793737 +0000 build-r42-debian1: .[38;5;246m15:42:15 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp8869 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-debian.git /builder/builder-debian /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-06-10 13:58:24.499522 +0000 build-r42-debian1: .[38;5;246m15:58:24 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246margs: (128, ['git', 'clone', '-n', '-q', '-b', 'main', '--', 'https://github.com/QubesOS/qubes-builder-debian.git', '/builder/builder-debian']).[0m
+2026-06-10 13:58:24.499592 +0000 build-r42-debian1: .[38;5;246m15:58:24 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mstdout: b''.[0m
+2026-06-10 13:58:24.499631 +0000 build-r42-debian1: .[38;5;246m15:58:24 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mstderr: b'error: RPC failed; curl 56 OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0\nerror: 57362 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: fetch-pack: invalid index-pack output\n'.[0m
+2026-06-10 13:58:27.525376 +0000 > closing log
