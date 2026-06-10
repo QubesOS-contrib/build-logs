@@ -1,0 +1,16 @@
+2026-06-10 13:58:31.496320 +0000 > starting log
+2026-06-10 13:58:31.496505 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-06-10 13:58:31.496518 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-06-10 13:58:31.496526 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-06-10 13:58:31.496533 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-06-10 13:58:31.496539 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>>   builder-debian.[0m
+2026-06-10 13:58:31.496545 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-06-10 13:58:31.496557 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-debian-11.amd64>, <QubesDistribution vm-debian-12.amd64>, <QubesDistribution vm-debian-13.amd64>].[0m
+2026-06-10 13:58:31.496563 +0000 build-r42-debian1: .[38;5;246m15:58:31 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-06-10 13:58:42.126968 +0000 build-r42-debian1: .[38;5;246m15:58:42 .[96m[qb.fetch.builder-debian.fetch] .[0mUsing executor qubes:disp8307..[0m
+2026-06-10 13:58:42.127056 +0000 build-r42-debian1: .[38;5;246m15:58:42 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp8307 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-debian.git /builder/builder-debian /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-06-10 13:58:47.599064 +0000 build-r42-debian1: .[38;5;246m15:58:47 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m--> Verifying tags....[0m
+2026-06-10 13:58:47.599191 +0000 build-r42-debian1: .[38;5;246m15:58:47 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mERROR: CalledProcessError(1, ['git', '-c', 'gpg.program=/usr/bin/gpg-sq', '-c', 'gpg.minTrustLevel=fully', 'verify-tag', '--raw', '--', '2a76a90d42f938b12e64a7708e486f64af32d161']); stderr: b'[GNUPG:] NEWSIG\n[GNUPG:] ERRSIG 063938BA42CFA724 1 10 00 1781098871 9 0064428F455451B3EBE78A7F063938BA42CFA724\n[GNUPG:] NO_PUBKEY 063938BA42CFA724\n'.[0m
+2026-06-10 13:58:47.599299 +0000 build-r42-debian1: .[38;5;246m15:58:47 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246m---> Invalid tag 2a76a90d42f938b12e64a7708e486f64af32d161..[0m
+2026-06-10 13:58:47.599338 +0000 build-r42-debian1: .[38;5;246m15:58:47 .[96m[qb.fetch.builder-debian.fetch] .[38;5;246mNot enough distinct tag signatures. Found 0, mandatory minimum is 1..[0m
+2026-06-10 13:58:50.418317 +0000 > closing log
