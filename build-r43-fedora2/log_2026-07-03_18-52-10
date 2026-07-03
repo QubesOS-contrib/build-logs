@@ -1,0 +1,24 @@
+2026-07-03 18:52:10.060354 +0000 > starting log
+2026-07-03 18:52:10.060571 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-07-03 18:52:10.060587 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-07-03 18:52:10.060597 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-07-03 18:52:10.060605 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-07-03 18:52:10.060613 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>>   app-split-browser.[0m
+2026-07-03 18:52:10.060625 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>>     commit-hash: 3bf9c085c87d00513ada798bb54d894cf2250393.[0m
+2026-07-03 18:52:10.060638 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>>     source-hash: 1cc570f822637f58ac5b5470f07265a7e17101f14862c6752ce0e17318157b1a1b5132387f72ecb6e1b5120c31a6e57477dd5f4adfad6a96a679ad03153e4762.[0m
+2026-07-03 18:52:10.060645 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-07-03 18:52:10.060655 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb] .[38;5;246m>>   [<QubesDistribution vm-fedora-42.x86_64>, <QubesDistribution vm-fedora-43.x86_64>, <QubesDistribution vm-fedora-44.x86_64>].[0m
+2026-07-03 18:52:10.060664 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb.publish_rpm.vm-fc43] .[0mLog file: /home/user/builder-r4.3/logs/20260703T185150-vm-fc43.log.[0m
+2026-07-03 18:52:10.060675 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb.publish_rpm.app-split-browser.vm-fc43] .[0mLog file: /home/user/builder-r4.3/logs/20260703T185150-app-split-browser-vm-fc43.log.[0m
+2026-07-03 18:52:10.060685 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb.publish_rpm.app-split-browser.vm-fc43] .[0mdependency 'app-split-browser' (commit hash: 3bf9c085c87d00513ada798bb54d894cf2250393).[0m
+2026-07-03 18:52:10.060696 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb.publish_rpm.app-split-browser.vm-fc43] .[93;1mCannot find /home/user/builder-r4.3/sources/qubes-release/comps/comps-vm.xml. Have you added qubes-release to components?.[0m
+2026-07-03 18:52:10.060720 +0000 build-r43-fedora2: .[38;5;246m20:52:09 .[96m[qb.publish_rpm.app-split-browser.vm-fc43.publish] .[38;5;246mUsing executor local:/tmp/12857322279612898a0c89f/builder to run '['bash', '-c', '/home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/scripts/create-skeleton r4.3 vm fc43 /home/user/builder-r4.3/repository-publish/rpm /home/user/builder-r4.3/sources/qubes-release/comps/comps-vm.xml']'..[0m
+2026-07-03 18:52:10.060731 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.publish_rpm.app-split-browser.vm-fc43] .[0mapp-split-browser:vm-fedora-43.x86_64: Already published to 'current'..[0m
+2026-07-03 18:52:10.060742 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.publish_rpm.app-split-browser.vm-fc43] .[0mCreating metalink for /home/user/builder-r4.3/repository-publish/rpm/r4.3/current/vm/fc43/repodata/repomd.xml..[0m
+2026-07-03 18:52:10.060832 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.publish_rpm.app-split-browser.vm-fc43.publish] .[38;5;246mUsing executor local:/tmp/12857322322337603e746ae/builder to run '['bash', '-c', 'python3 /home/user/qubes-builderv2/qubesbuilder/plugins/publish/mirrors/qubesmirror/metalink.py -b /home/user/builder-r4.3/repository-publish/rpm -- /home/user/qubes-builderv2/qubesbuilder/plugins/publish_rpm/mirrors.list /home/user/builder-r4.3/repository-publish/rpm/r4.3/current/vm/fc43/repodata/repomd.xml > /home/user/builder-r4.3/repository-publish/rpm/r4.3/current/vm/fc43/repodata/repomd.xml.metalink']'..[0m
+2026-07-03 18:52:10.080041 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.upload.vm-fc43.upload] .[38;5;246mUsing executor local:/tmp/128573220860912c6ac5924/builder to run '['bash', '-c', 'rsync --partial --progress --hard-links -OJair --mkpath -- /home/user/builder-r4.3/repository-publish/rpm/r4.3/current/vm/fc43/ contrib.qubes-os.org:/pub/qubes/repo/contrib/yum/r4.3/current/vm/fc43/']'..[0m
+2026-07-03 18:52:10.242067 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.upload.vm-fc43.upload] .[38;5;246msending incremental file list.[0m
+2026-07-03 18:52:10.376604 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.upload.vm-fc43.upload] .[38;5;246m<f.st...... repodata/repomd.xml.metalink.[0m
+2026-07-03 18:52:10.376678 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb.upload.vm-fc43.upload] .[38;5;246m           1,400  42%    0.00kB/s    0:00:00             3,286 100%    1.80MB/s    0:00:00 (xfr#1, to-chk=4/13).[0m
+2026-07-03 18:52:10.533789 +0000 build-r43-fedora2: .[38;5;246m20:52:10 .[96m[qb] .[38;5;246m> done.[0m
+2026-07-03 18:52:10.533869 +0000 > closing log
