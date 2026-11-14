@@ -1,0 +1,15 @@
+2026-11-14 11:02:08.435178 +0000 > starting log
+2026-11-14 11:02:08.437676 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m> starting build with log.[0m
+2026-11-14 11:02:08.437691 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>> args:.[0m
+2026-11-14 11:02:08.437699 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>>   ().[0m
+2026-11-14 11:02:08.438136 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>> component:.[0m
+2026-11-14 11:02:08.438154 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>>   builder-rpm.[0m
+2026-11-14 11:02:08.438163 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>> distributions:.[0m
+2026-11-14 11:02:08.438170 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[38;5;246m>>   [<QubesDistribution host-fedora-41.x86_64>].[0m
+2026-11-14 11:02:08.438176 +0000 build-r43-fedora1: .[38;5;246m12:02:00 .[96m[qb] .[0mRunning stages: fetch.[0m
+2026-11-14 11:02:11.911791 +0000 build-r43-fedora1: .[38;5;246m12:02:11 .[96m[qb.fetch.builder-rpm.fetch] .[0mUsing executor qubes:disp458..[0m
+2026-11-14 11:02:11.911921 +0000 build-r43-fedora1: .[38;5;246m12:02:11 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246m/usr/bin/qvm-run-vm -- disp458 env -- VERBOSE=1 DEBUG=1 BACKEND_VMM=xen bash -c 'cd /builder && /builder/plugins/fetch/scripts/get-and-verify-source.py https://github.com/QubesOS/qubes-builder-rpm.git /builder/builder-rpm /builder/keyring /builder/plugins/fetch/keys --git-branch main --minimum-distinct-maintainers 1 --maintainer 9FA64B92F95E706BF28E2CA6484010B5CDC576E2 --maintainer 77EEEF6D0386962AEA8CF84A9B8273F80AC219E6'.[0m
+2026-11-14 11:14:28.316287 +0000 build-r43-fedora1: .[38;5;246m12:14:28 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246margs: (128, ['git', 'clone', '-n', '-q', '-b', 'main', '--', 'https://github.com/QubesOS/qubes-builder-rpm.git', '/builder/builder-rpm']).[0m
+2026-11-14 11:14:28.316349 +0000 build-r43-fedora1: .[38;5;246m12:14:28 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mstdout: b''.[0m
+2026-11-14 11:14:28.316371 +0000 build-r43-fedora1: .[38;5;246m12:14:28 .[96m[qb.fetch.builder-rpm.fetch] .[38;5;246mstderr: b'error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)\nerror: 1950 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: fetch-pack: invalid index-pack output\n'.[0m
+2026-11-14 11:14:29.696232 +0000 > closing log
